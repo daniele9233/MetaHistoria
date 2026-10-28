@@ -1,0 +1,384 @@
+{
+ "id": "geopolitica-classica-analisi-ecosistema-geopolitica",
+ "slug": "geopolitica-classica/analisi/ecosistema-geopolitica",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-classica/analisi/ecosistema-geopolitica",
+ "title": "Ecosistema Geopolitica",
+ "kicker": "Analisi",
+ "lede": "Un archivio di approfondimenti personali nati dall'esigenza di comprendere il potere oltre i recinti delle discipline convenzionali. Ogni analisi è un tentativo di vedere più lontano e più in profondità.",
+ "category": "geopolitica-classica",
+ "parentId": "geopolitica-classica/analisi",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Analisi"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Ecosistema Geopolitica"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Un archivio di approfondimenti personali nati dall'esigenza di comprendere il potere oltre i recinti delle discipline convenzionali. Ogni analisi è un tentativo di vedere più lontano e più in profondità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questo spazio raccoglie studi e riflessioni che ho sviluppato di mia iniziativa, fuori da qualsiasi programma editoriale o accademico. Nascono da una necessità: il mondo reale non si lascia imbrigliare nelle caselle che gli abbiamo preparato. Economia, guerra, diplomazia, religione sono tutte lenti parziali. La realtà del potere è un ecosistema, e un ecosistema si capisce solo osservando le relazioni tra le parti, non le parti isolate."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Qui troverete analisi che partono dalla geopolitica classica ma la superano, incrociando psicologia delle masse, antropologia del dominio, architettura delle narrazioni, meccanismi occulti di influenza, strutture finanziarie transnazionali e molto altro. Non c'è un metodo unico: ogni approfondimento usa gli strumenti che servono. L'unico vincolo è l'onestà intellettuale e il rifiuto di qualsiasi dogmatismo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni card che segue rappresenta un nucleo tematico. Alcuni sono già sviluppati in pagine dedicate, altri sono in fase di elaborazione. L'ordine non è gerarchico: sono nodi di una rete che si alimentano a vicenda. Potete leggerli in sequenza o saltare da uno all'altro seguendo le connessioni che emergono."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L'ambizione è costruire, pezzo dopo pezzo, una "
+    },
+    {
+     "t": "mappa del potere",
+     "b": true
+    },
+    {
+     "t": " che non si fermi alla superficie degli eventi ma ne scavi le strutture profonde antropologiche, psicologiche, simboliche, materiali. Una mappa che non ha paura di guardare il potere negli occhi, senza edulcorare né demonizzare, ma cercando di capire. perché capire è il primo passo per non essere succubi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Il potere non è un oggetto che si possiede, ma un ecosistema in cui si abita. Ogni relazione umana tra individui, tra gruppi, tra nazioni è attraversata da linee di forza che non vediamo perché siamo dentro, non fuori. L'analisi non è un lusso intellettuale: è uno strumento di sopravvivenza.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "MetaHistoria, Ecosistema Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Profili"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Approfondimenti"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Nodi tematici dell'ecosistema del potere. Ogni card è una porta su un livello di analisi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Potere come Principio Ordinatore"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il potere come infrastruttura della realtà sociale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Anatomia del Potere Finanziario"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La finanza come linguaggio di comando globale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Potere, Territorio, Conflitto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La guerra come strumento permanente della politica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Architettura delle Narrazioni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Come le storie costruiscono il consenso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Reti Invisibili e Potere Informale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I circuiti occulti dell'influenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "06"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Messianismo Politico degli Imperi"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La missione salvifica degli imperi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "07"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sun Tzu e Vangelo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Strategia militare e spiritualità francescana."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "08"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Disincanto o Conversione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dalla narrazione mainstream alla comprensione profonda."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "09"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "America First: la nuova geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Transazionalismo, risorse e alleanze globali."
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "L. Caracciolo, Limes (1993 )",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "Manifesto TGP-Ω (2026)"
+ ],
+ "stats": {
+  "blocks": 39,
+  "chars": 2922,
+  "hash": "ba3b62320507d981e52e15d883911600c8c8ab0bc6791027b2852275ad5712b0"
+ }
+}

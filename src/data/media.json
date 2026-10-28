@@ -1,0 +1,116 @@
+{
+  "atene": {
+    "src": "/assets/opt/atene.webp",
+    "w": 1100,
+    "h": 853,
+    "bytes": 277454
+  },
+  "caravaggio": {
+    "src": "/assets/opt/caravaggio.webp",
+    "w": 920,
+    "h": 882,
+    "bytes": 97648
+  },
+  "orgaz": {
+    "src": "/assets/opt/orgaz.webp",
+    "w": 884,
+    "h": 1100,
+    "bytes": 283578
+  },
+  "durer": {
+    "src": "/assets/opt/durer.webp",
+    "w": 871,
+    "h": 1100,
+    "bytes": 410194
+  },
+  "mappamondo": {
+    "src": "/assets/opt/mappamondo.webp",
+    "w": 1100,
+    "h": 749,
+    "bytes": 371126
+  },
+  "peutinger": {
+    "src": "/assets/opt/peutinger.webp",
+    "w": 1100,
+    "h": 84,
+    "bytes": 26622
+  },
+  "hagia": {
+    "src": "/assets/opt/hagia.webp",
+    "w": 732,
+    "h": 1100,
+    "bytes": 187792
+  },
+  "magna": {
+    "src": "/assets/opt/magna.webp",
+    "w": 1100,
+    "h": 733,
+    "bytes": 328536
+  },
+  "westfalia": {
+    "src": "/assets/opt/westfalia.webp",
+    "w": 1100,
+    "h": 853,
+    "bytes": 216718
+  },
+  "vienna": {
+    "src": "/assets/opt/vienna.webp",
+    "w": 708,
+    "h": 450,
+    "bytes": 137486
+  },
+  "manoscritto": {
+    "src": "/assets/opt/manoscritto.webp",
+    "w": 400,
+    "h": 576,
+    "bytes": 42292
+  },
+  "gerusalemme": {
+    "src": "/assets/opt/gerusalemme.webp",
+    "w": 1100,
+    "h": 764,
+    "bytes": 259304
+  },
+  "sanpietro": {
+    "src": "/assets/opt/sanpietro.webp",
+    "w": 1100,
+    "h": 754,
+    "bytes": 146452
+  },
+  "cardinale": {
+    "src": "/assets/opt/cardinale.webp",
+    "w": 854,
+    "h": 1100,
+    "bytes": 61292
+  },
+  "archivio": {
+    "src": "/assets/opt/archivio.webp",
+    "w": 1100,
+    "h": 845,
+    "bytes": 79730
+  },
+  "sultano": {
+    "src": "/assets/opt/sultano.webp",
+    "w": 815,
+    "h": 1100,
+    "bytes": 253434
+  },
+  "filosofo": {
+    "src": "/assets/opt/filosofo.webp",
+    "w": 1100,
+    "h": 943,
+    "bytes": 155412
+  },
+  "codice": {
+    "src": "/assets/opt/codice.webp",
+    "w": 753,
+    "h": 1100,
+    "bytes": 205798
+  },
+  "scriba": {
+    "src": "/assets/opt/scriba.webp",
+    "w": 564,
+    "h": 860,
+    "bytes": 152986
+  }
+}

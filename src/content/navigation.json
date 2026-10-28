@@ -1,0 +1,708 @@
+{
+ "groups": [
+  {
+   "label": "Geopolitica Classica",
+   "path": "/geopolitica-classica",
+   "items": [
+    {
+     "label": "Home Lente",
+     "path": "/geopolitica-classica",
+     "id": "geopolitica-classica"
+    },
+    {
+     "label": "Insegnamenti Fondamentali",
+     "path": "/geopolitica-classica/insegnamenti-fondamentali",
+     "id": "geopolitica-classica-insegnamenti-fondamentali"
+    },
+    {
+     "label": "Tributi ai Maestri",
+     "path": "/geopolitica-classica/tributi",
+     "id": "geopolitica-classica-tributi"
+    },
+    {
+     "label": "Il Ritorno degli Imperi",
+     "path": "/geopolitica-classica/imperi",
+     "id": "geopolitica-classica-imperi"
+    },
+    {
+     "label": "Zone di Tensione",
+     "path": "/geopolitica-classica/zone-di-tensione",
+     "id": "geopolitica-classica-zone-di-tensione"
+    },
+    {
+     "label": "Atlante di Storia",
+     "path": "/geopolitica-classica/atlante-di-storia",
+     "id": "geopolitica-classica-atlante-di-storia"
+    },
+    {
+     "label": "Tra Teologia e Geopolitica",
+     "path": "/geopolitica-classica/tra-teologia-e-geopolitica",
+     "id": "geopolitica-classica-tra-teologia-e-geopolitica"
+    },
+    {
+     "label": "Ecosistema Geopolitica",
+     "path": "/geopolitica-classica/analisi/ecosistema-geopolitica",
+     "id": "geopolitica-classica-analisi-ecosistema-geopolitica"
+    }
+   ]
+  },
+  {
+   "label": "Geopolitica Umana",
+   "path": "/geopolitica-umana",
+   "items": [
+    {
+     "label": "Home Lente",
+     "path": "/geopolitica-umana",
+     "id": "geopolitica-umana"
+    },
+    {
+     "label": "Dario Fabbri — Il Maestro",
+     "path": "/geopolitica-umana/dario-fabbri",
+     "id": "geopolitica-umana-dario-fabbri"
+    },
+    {
+     "label": "Il fondamento: Geopolitica umana",
+     "path": "/geopolitica-umana/fondamento-geopolitica-umana",
+     "id": "geopolitica-umana-fondamento-geopolitica-umana"
+    },
+    {
+     "label": "I 12 princìpi operativi",
+     "path": "/geopolitica-umana/dodici-principi",
+     "id": "geopolitica-umana-dodici-principi"
+    },
+    {
+     "label": "Il destino dei popoli",
+     "path": "/geopolitica-umana/popoli",
+     "id": "geopolitica-umana-popoli"
+    },
+    {
+     "label": "La psicologia delle nazioni",
+     "path": "/geopolitica-umana/nazioni",
+     "id": "geopolitica-umana-nazioni"
+    },
+    {
+     "label": "Sotto la pelle del mondo",
+     "path": "/geopolitica-umana/sotto-la-pelle",
+     "id": "geopolitica-umana-sotto-la-pelle"
+    },
+    {
+     "label": "Verso la Teologia",
+     "path": "/geopolitica-umana/verso-la-teologia",
+     "id": "geopolitica-umana-verso-la-teologia"
+    }
+   ]
+  },
+  {
+   "label": "Geopolitica dell'Anima",
+   "path": "/geopolitica-dell-anima",
+   "items": [
+    {
+     "label": "Home Lente",
+     "path": "/geopolitica-dell-anima",
+     "id": "geopolitica-dell-anima"
+    },
+    {
+     "label": "Insegnamenti Fondamentali",
+     "path": "/geopolitica-dell-anima/fondamenti",
+     "id": "geopolitica-dell-anima-fondamenti"
+    },
+    {
+     "label": "Insegnamenti di fede",
+     "path": "/geopolitica-dell-anima/insegnamenti-di-fede",
+     "id": "geopolitica-dell-anima-insegnamenti-di-fede"
+    },
+    {
+     "label": "Atlante Storico",
+     "path": "/geopolitica-dell-anima/atlante-storico",
+     "id": "geopolitica-dell-anima-atlante-storico"
+    },
+    {
+     "label": "Frontiere",
+     "path": "/geopolitica-dell-anima/frontiere",
+     "id": "geopolitica-dell-anima-frontiere"
+    }
+   ]
+  },
+  {
+   "label": "Teologia della Geopolitica",
+   "path": "/teologia-geopolitica",
+   "items": [
+    {
+     "label": "Home Lente",
+     "path": "/teologia-geopolitica",
+     "id": "teologia-geopolitica"
+    },
+    {
+     "label": "Insegnamenti Fondamentali",
+     "path": "/teologia-geopolitica/insegnamenti-fondamentali",
+     "id": "teologia-geopolitica-insegnamenti-fondamentali"
+    },
+    {
+     "label": "Manifesto Piccolo",
+     "path": "/teologia-geopolitica/manifesto-piccolo",
+     "id": "teologia-geopolitica-manifesto-piccolo"
+    },
+    {
+     "label": "Manifesto Grande",
+     "path": "/teologia-geopolitica/manifesto-grande",
+     "id": "teologia-geopolitica-manifesto-grande"
+    },
+    {
+     "label": "Oltre le Mura di Carta",
+     "path": "/teologia-geopolitica/oltre-le-mura-di-carta",
+     "id": "teologia-geopolitica-oltre-le-mura-di-carta"
+    },
+    {
+     "label": "Anti-Machiavelli",
+     "path": "/teologia-geopolitica/anti-machiavelli-sogno-del-re",
+     "id": "teologia-geopolitica-anti-machiavelli-sogno-del-re"
+    },
+    {
+     "label": "Genesi delle Bestie",
+     "path": "/teologia-geopolitica/genesi-delle-bestie",
+     "id": "teologia-geopolitica-genesi-delle-bestie"
+    },
+    {
+     "label": "Atlante delle Bestie",
+     "path": "/teologia-geopolitica/atlante-delle-bestie",
+     "id": "teologia-geopolitica-atlante-delle-bestie"
+    },
+    {
+     "label": "I Portatori del Sigillo",
+     "path": "/teologia-geopolitica/antropologia-portatori-del-sigillo",
+     "id": "teologia-geopolitica-antropologia-portatori-del-sigillo"
+    },
+    {
+     "label": "Padrone del Mondo",
+     "path": "/teologia-geopolitica/padrone-del-mondo",
+     "id": "teologia-geopolitica-padrone-del-mondo"
+    },
+    {
+     "label": "Teologia Sistematica",
+     "path": "/teologia-geopolitica/teologia-sistematica",
+     "id": "teologia-geopolitica-teologia-sistematica"
+    },
+    {
+     "label": "Ecosistema TGR",
+     "path": "/teologia-geopolitica/ecosistema-tgr",
+     "id": "teologia-geopolitica-ecosistema-tgr"
+    }
+   ]
+  },
+  {
+   "label": "Apocalisse del Potere",
+   "path": "/apocalisse-del-potere",
+   "items": [
+    {
+     "label": "Home Lente",
+     "path": "/apocalisse-del-potere",
+     "id": "apocalisse-del-potere"
+    },
+    {
+     "label": "Escatologia e storia",
+     "path": "/apocalisse-del-potere/escatologia-e-storia",
+     "id": "apocalisse-del-potere-escatologia-e-storia"
+    },
+    {
+     "label": "Biblioteca Apocalittica",
+     "path": "/apocalisse-del-potere/biblioteca-apocalittica",
+     "id": "apocalisse-del-potere-biblioteca-apocalittica"
+    },
+    {
+     "label": "Il problema del male",
+     "path": "/apocalisse-del-potere/problema-del-male",
+     "id": "apocalisse-del-potere-problema-del-male"
+    },
+    {
+     "label": "Katechon e Anti-Impero",
+     "path": "/apocalisse-del-potere/katechon-e-anti-impero",
+     "id": "apocalisse-del-potere-katechon-e-anti-impero"
+    },
+    {
+     "label": "Bestie spirituali e potere",
+     "path": "/apocalisse-del-potere/bestie-spirituali",
+     "id": "apocalisse-del-potere-bestie-spirituali"
+    },
+    {
+     "label": "L'Anticristo e il Sovrano",
+     "path": "/apocalisse-del-potere/anticristo-sovrano",
+     "id": "apocalisse-del-potere-anticristo-sovrano"
+    },
+    {
+     "label": "Compimento: Nuova Gerusalemme",
+     "path": "/apocalisse-del-potere/compimento-nuova-gerusalemme",
+     "id": "apocalisse-del-potere-compimento-nuova-gerusalemme"
+    },
+    {
+     "label": "Mappa Apocalittica",
+     "path": "/apocalisse-del-potere/mappa-concettuale",
+     "id": "apocalisse-del-potere-mappa-concettuale"
+    },
+    {
+     "label": "Genesi delle Bestie",
+     "path": "/apocalisse-del-potere/manuale-commento-daniele",
+     "id": "apocalisse-del-potere-manuale-commento-daniele"
+    },
+    {
+     "label": "Il Trionfo dell’Agnello",
+     "path": "/apocalisse-del-potere/commento-apocalisse",
+     "id": "apocalisse-del-potere-commento-apocalisse"
+    },
+    {
+     "label": "Tommaso e il problema del male",
+     "path": "/tommaso-problema-del-male",
+     "id": "tommaso-problema-del-male"
+    }
+   ]
+  },
+  {
+   "label": "Metodo Pentaedrico",
+   "path": "/metodo-pentaedrico",
+   "items": [
+    {
+     "label": "Il Metodo",
+     "path": "/metodo-pentaedrico",
+     "id": "metodo-pentaedrico"
+    },
+    {
+     "label": "Biblioteca Pentaedrica",
+     "path": "/biblioteca-pentaedrica",
+     "id": "biblioteca-pentaedrica"
+    },
+    {
+     "label": "Atlante Visuale",
+     "path": "/atlante-visuale",
+     "id": "atlante-visuale"
+    },
+    {
+     "label": "MetaHistoria — Il Metodo Pentapolare",
+     "path": "/architettura",
+     "id": "home"
+    }
+   ]
+  }
+ ],
+ "aliases": {
+  "geopolitica-classica/tra-teologia-e-geopolitica/europa": "geopolitica-dell-anima/europa",
+  "geopolitica-classica/tra-teologia-e-geopolitica/iran": "geopolitica-dell-anima/iran",
+  "geopolitica-classica/tra-teologia-e-geopolitica/russia": "geopolitica-dell-anima/russia",
+  "geopolitica-classica/tra-teologia-e-geopolitica/vaticano": "geopolitica-dell-anima/vaticano",
+  "geopolitica-dell-anima/atlante-antico-testamento.html": "geopolitica-dell-anima/atlante-antico-testamento",
+  "geopolitica-dell-anima/atlante-vangelo.html": "geopolitica-dell-anima/atlante-vangelo",
+  "geopolitica-dell-anima/frontiere.html": "geopolitica-dell-anima/frontiere",
+  "geopolitica-dell-anima/matrice-apocalittica.html": "geopolitica-dell-anima/matrice-apocalittica",
+  "geopolitica-dell-anima/modello-civilta-organismo.html": "geopolitica-dell-anima/modello-civilta-organismo"
+ },
+ "extra": [
+  {
+   "label": "Atti del Fuoco",
+   "path": "/apocalisse-del-potere/manuale-commento-atti",
+   "id": "apocalisse-del-potere-manuale-commento-atti"
+  },
+  {
+   "label": "I Profeti del Fuoco",
+   "path": "/apocalisse-del-potere/manuale-commento-profeti",
+   "id": "apocalisse-del-potere-manuale-commento-profeti"
+  },
+  {
+   "label": "Il Deserto e il Trono",
+   "path": "/apocalisse-del-potere/manuale-commento-mose",
+   "id": "apocalisse-del-potere-manuale-commento-mose"
+  },
+  {
+   "label": "Il Volto e il Potere",
+   "path": "/apocalisse-del-potere/manuale-commento-giovanni",
+   "id": "apocalisse-del-potere-manuale-commento-giovanni"
+  },
+  {
+   "label": "La Soglia e il Mistero",
+   "path": "/apocalisse-del-potere/manuale-commento-sinottici-paolo",
+   "id": "apocalisse-del-potere-manuale-commento-sinottici-paolo"
+  },
+  {
+   "label": "Le Origini del Potere",
+   "path": "/apocalisse-del-potere/manuale-commento-genesi",
+   "id": "apocalisse-del-potere-manuale-commento-genesi"
+  },
+  {
+   "label": "Le Tende e le Stelle",
+   "path": "/apocalisse-del-potere/manuale-commento-patriarchi",
+   "id": "apocalisse-del-potere-manuale-commento-patriarchi"
+  },
+  {
+   "label": "Le Visioni dell'Esilio",
+   "path": "/apocalisse-del-potere/manuale-commento-ezechiele",
+   "id": "apocalisse-del-potere-manuale-commento-ezechiele"
+  },
+  {
+   "label": "Il conflitto Israele-Hamas &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/israele-hamas",
+   "id": "biblioteca-pentaedrica-casi-israele-hamas"
+  },
+  {
+   "label": "L&rsquo;intelligenza artificiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/intelligenza-artificiale",
+   "id": "biblioteca-pentaedrica-casi-intelligenza-artificiale"
+  },
+  {
+   "label": "L'11 settembre 2001 &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/undici-settembre",
+   "id": "biblioteca-pentaedrica-casi-undici-settembre"
+  },
+  {
+   "label": "L'ascesa della Cina &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/ascesa-cina",
+   "id": "biblioteca-pentaedrica-casi-ascesa-cina"
+  },
+  {
+   "label": "L'epoca di Napoleone &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/napoleone",
+   "id": "biblioteca-pentaedrica-casi-napoleone"
+  },
+  {
+   "label": "La Guerra Fredda &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/guerra-fredda",
+   "id": "biblioteca-pentaedrica-casi-guerra-fredda"
+  },
+  {
+   "label": "La Guerra in Ucraina &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/ucraina",
+   "id": "biblioteca-pentaedrica-casi-ucraina"
+  },
+  {
+   "label": "La Prima Guerra Mondiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/prima-guerra-mondiale",
+   "id": "biblioteca-pentaedrica-casi-prima-guerra-mondiale"
+  },
+  {
+   "label": "La Riforma Protestante &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/riforma-protestante",
+   "id": "biblioteca-pentaedrica-casi-riforma-protestante"
+  },
+  {
+   "label": "La Rivoluzione Francese &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/rivoluzione-francese",
+   "id": "biblioteca-pentaedrica-casi-rivoluzione-francese"
+  },
+  {
+   "label": "La Rivoluzione Russa &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/rivoluzione-russa",
+   "id": "biblioteca-pentaedrica-casi-rivoluzione-russa"
+  },
+  {
+   "label": "La Seconda Guerra Mondiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/seconda-guerra-mondiale",
+   "id": "biblioteca-pentaedrica-casi-seconda-guerra-mondiale"
+  },
+  {
+   "label": "La caduta dell&rsquo;Impero Romano &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/impero-romano",
+   "id": "biblioteca-pentaedrica-casi-impero-romano"
+  },
+  {
+   "label": "La caduta dell&rsquo;URSS &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/caduta-urss",
+   "id": "biblioteca-pentaedrica-casi-caduta-urss"
+  },
+  {
+   "label": "Le Crociate &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "path": "/biblioteca-pentaedrica/casi/crociate",
+   "id": "biblioteca-pentaedrica-casi-crociate"
+  },
+  {
+   "label": "Caso Cina",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/cina",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-cina"
+  },
+  {
+   "label": "Caso Europa",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/europa",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-europa"
+  },
+  {
+   "label": "Caso Iran",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/iran",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-iran"
+  },
+  {
+   "label": "Caso Russia",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/russia",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-russia"
+  },
+  {
+   "label": "Caso USA",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/usa",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-usa"
+  },
+  {
+   "label": "Caso Vaticano",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/vaticano",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-vaticano"
+  },
+  {
+   "label": "Disincanto o Conversione",
+   "path": "/geopolitica-classica/analisi/da-main-stream-a-geopolitica",
+   "id": "geopolitica-classica-analisi-da-main-stream-a-geopolitica"
+  },
+  {
+   "label": "Fondamenti",
+   "path": "/geopolitica-classica/tra-teologia-e-geopolitica/fondamenti",
+   "id": "geopolitica-classica-tra-teologia-e-geopolitica-fondamenti"
+  },
+  {
+   "label": "Il Potere come Principio Ordinatore",
+   "path": "/geopolitica-classica/analisi/potere-principio-ordinatore",
+   "id": "geopolitica-classica-analisi-potere-principio-ordinatore"
+  },
+  {
+   "label": "La fine dell'eccezionalismo americano",
+   "path": "/geopolitica-classica/analisi/america-first-geopolitica",
+   "id": "geopolitica-classica-analisi-america-first-geopolitica"
+  },
+  {
+   "label": "La scacchiera e il saio",
+   "path": "/geopolitica-classica/analisi/sun-tzu-vangelo",
+   "id": "geopolitica-classica-analisi-sun-tzu-vangelo"
+  },
+  {
+   "label": "Potere, Territorio, Conflitto",
+   "path": "/geopolitica-classica/analisi/potere-territorio-conflitto",
+   "id": "geopolitica-classica-analisi-potere-territorio-conflitto"
+  },
+  {
+   "label": "Arte del disincanto",
+   "path": "/geopolitica-dell-anima/arte-del-disincanto",
+   "id": "geopolitica-dell-anima-arte-del-disincanto"
+  },
+  {
+   "label": "Atlante Geopolitico-Spirituale del Vangelo",
+   "path": "/geopolitica-dell-anima/atlante-vangelo",
+   "id": "geopolitica-dell-anima-atlante-vangelo"
+  },
+  {
+   "label": "Atlante Geopolitico-Spirituale del Vangelo",
+   "path": "/geopolitica-dell-anima/atlante-vangelo",
+   "id": "geopolitica-dell-anima-atlante-vangelo-html"
+  },
+  {
+   "label": "Atlante Geopolitico-Spirituale dell’Antico Testamento",
+   "path": "/geopolitica-dell-anima/atlante-antico-testamento",
+   "id": "geopolitica-dell-anima-atlante-antico-testamento"
+  },
+  {
+   "label": "Atlante Geopolitico-Spirituale dell’Antico Testamento",
+   "path": "/geopolitica-dell-anima/atlante-antico-testamento",
+   "id": "geopolitica-dell-anima-atlante-antico-testamento-html"
+  },
+  {
+   "label": "Cartografia dell’Anima Collettiva",
+   "path": "/geopolitica-dell-anima/cartografia-anima-collettiva",
+   "id": "geopolitica-dell-anima-cartografia-anima-collettiva"
+  },
+  {
+   "label": "Caso Cina",
+   "path": "/geopolitica-dell-anima/cina",
+   "id": "geopolitica-dell-anima-cina"
+  },
+  {
+   "label": "Caso Europa",
+   "path": "/geopolitica-dell-anima/europa",
+   "id": "geopolitica-dell-anima-europa"
+  },
+  {
+   "label": "Caso Iran",
+   "path": "/geopolitica-dell-anima/iran",
+   "id": "geopolitica-dell-anima-iran"
+  },
+  {
+   "label": "Caso Russia",
+   "path": "/geopolitica-dell-anima/russia",
+   "id": "geopolitica-dell-anima-russia"
+  },
+  {
+   "label": "Caso USA",
+   "path": "/geopolitica-dell-anima/usa",
+   "id": "geopolitica-dell-anima-usa"
+  },
+  {
+   "label": "Caso Vaticano",
+   "path": "/geopolitica-dell-anima/vaticano",
+   "id": "geopolitica-dell-anima-vaticano"
+  },
+  {
+   "label": "Frontiere",
+   "path": "/geopolitica-dell-anima/frontiere",
+   "id": "geopolitica-dell-anima-frontiere-html"
+  },
+  {
+   "label": "Il Cuore e l’Impero",
+   "path": "/geopolitica-dell-anima/cuore-e-impero",
+   "id": "geopolitica-dell-anima-cuore-e-impero"
+  },
+  {
+   "label": "Il Modello della Civiltà come Organismo",
+   "path": "/geopolitica-dell-anima/modello-civilta-organismo",
+   "id": "geopolitica-dell-anima-modello-civilta-organismo"
+  },
+  {
+   "label": "Il Modello della Civiltà come Organismo",
+   "path": "/geopolitica-dell-anima/modello-civilta-organismo",
+   "id": "geopolitica-dell-anima-modello-civilta-organismo-html"
+  },
+  {
+   "label": "Il cammino di Israele",
+   "path": "/geopolitica-dell-anima/cammino-di-israele",
+   "id": "geopolitica-dell-anima-cammino-di-israele"
+  },
+  {
+   "label": "L'immagine di Dio",
+   "path": "/geopolitica-dell-anima/immagine-di-dio",
+   "id": "geopolitica-dell-anima-immagine-di-dio"
+  },
+  {
+   "label": "La Matrice Apocalittica della Storia",
+   "path": "/geopolitica-dell-anima/matrice-apocalittica",
+   "id": "geopolitica-dell-anima-matrice-apocalittica"
+  },
+  {
+   "label": "La Matrice Apocalittica della Storia",
+   "path": "/geopolitica-dell-anima/matrice-apocalittica",
+   "id": "geopolitica-dell-anima-matrice-apocalittica-html"
+  },
+  {
+   "label": "La domanda della salvezza",
+   "path": "/geopolitica-dell-anima/domanda-della-salvezza",
+   "id": "geopolitica-dell-anima-domanda-della-salvezza"
+  },
+  {
+   "label": "L’Escatologia delle Potenze",
+   "path": "/geopolitica-dell-anima/escatologia-delle-potenze",
+   "id": "geopolitica-dell-anima-escatologia-delle-potenze"
+  },
+  {
+   "label": "Griglia di analisi geopolitica",
+   "path": "/geopolitica-umana/griglia-analisi-geopolitica",
+   "id": "geopolitica-umana-griglia-analisi-geopolitica"
+  },
+  {
+   "label": "Il confine che si sfoglia",
+   "path": "/geopolitica-umana/il-confine-che-si-sfoglia",
+   "id": "geopolitica-umana-il-confine-che-si-sfoglia"
+  },
+  {
+   "label": "Il destino dei popoli",
+   "path": "/geopolitica-umana/destino-dei-popoli-libro",
+   "id": "geopolitica-umana-destino-dei-popoli-libro"
+  },
+  {
+   "label": "Il sacro non è mai uscito",
+   "path": "/geopolitica-umana/il-sacro-non-e-mai-uscito",
+   "id": "geopolitica-umana-il-sacro-non-e-mai-uscito"
+  },
+  {
+   "label": "Per una teologia politica",
+   "path": "/geopolitica-umana/per-una-teologia-politica",
+   "id": "geopolitica-umana-per-una-teologia-politica"
+  },
+  {
+   "label": "Anatomia dell'Impero &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-anatomia-impero",
+   "id": "teologia-geopolitica-eco-anatomia-impero"
+  },
+  {
+   "label": "Custodire il Fuoco &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-custodire-fuoco",
+   "id": "teologia-geopolitica-eco-custodire-fuoco"
+  },
+  {
+   "label": "Dall&rsquo;Illusione alla Realt&agrave; &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-post-democrazia",
+   "id": "teologia-geopolitica-eco-post-democrazia"
+  },
+  {
+   "label": "Guerriglia per la Pastorale &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-guerriglia-pastorale",
+   "id": "teologia-geopolitica-eco-guerriglia-pastorale"
+  },
+  {
+   "label": "Il Fiume della Promessa &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-epopea-esodo-eterno",
+   "id": "teologia-geopolitica-eco-epopea-esodo-eterno"
+  },
+  {
+   "label": "Il Gioco Posizionale e la Manovra Rapida &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-manuale-governo-betania",
+   "id": "teologia-geopolitica-eco-manuale-governo-betania"
+  },
+  {
+   "label": "Il Trono e l&rsquo;Anima &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-tribunale-storia",
+   "id": "teologia-geopolitica-eco-tribunale-storia"
+  },
+  {
+   "label": "L&rsquo;Arte della Guerra del Regno &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-arte-guerra-regno",
+   "id": "teologia-geopolitica-eco-arte-guerra-regno"
+  },
+  {
+   "label": "L&rsquo;Arte di Guarire, Combattere, Seminare &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-arti-michael",
+   "id": "teologia-geopolitica-eco-arti-michael"
+  },
+  {
+   "label": "La Barca Infranta &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-barca-infranta",
+   "id": "teologia-geopolitica-eco-barca-infranta"
+  },
+  {
+   "label": "La Contro-Strategia del Drago &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-contro-strategia-drago",
+   "id": "teologia-geopolitica-eco-contro-strategia-drago"
+  },
+  {
+   "label": "La Geopolitica di Dio &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-geopolitica-di-dio",
+   "id": "teologia-geopolitica-eco-geopolitica-di-dio"
+  },
+  {
+   "label": "La Mappa Nascosta &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-mappa-nascosta",
+   "id": "teologia-geopolitica-eco-mappa-nascosta"
+  },
+  {
+   "label": "La Signora e le Bestie &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-signora-bestie",
+   "id": "teologia-geopolitica-eco-signora-bestie"
+  },
+  {
+   "label": "La Strategia di Betania &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-strategia-betania",
+   "id": "teologia-geopolitica-eco-strategia-betania"
+  },
+  {
+   "label": "Le Armi della Luce &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-sacramentaria-integrazione",
+   "id": "teologia-geopolitica-eco-sacramentaria-integrazione"
+  },
+  {
+   "label": "Le Guerre degli Altri (e le Nostre) &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-guerre-altri-nostre",
+   "id": "teologia-geopolitica-eco-guerre-altri-nostre"
+  },
+  {
+   "label": "Lo Specchio del Principe Cristiano &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-specchio-del-principe-cristiano",
+   "id": "teologia-geopolitica-eco-specchio-del-principe-cristiano"
+  },
+  {
+   "label": "Tattiche di Betania &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-tattiche-betania",
+   "id": "teologia-geopolitica-eco-tattiche-betania"
+  },
+  {
+   "label": "Vedere con Occhi Nuovi &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "path": "/teologia-geopolitica/eco-vedere-occhi-nuovi",
+   "id": "teologia-geopolitica-eco-vedere-occhi-nuovi"
+  }
+ ]
+}

@@ -1,0 +1,552 @@
+{
+ "id": "geopolitica-dell-anima-cartografia-anima-collettiva",
+ "slug": "geopolitica-dell-anima/cartografia-anima-collettiva",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/cartografia-anima-collettiva",
+ "title": "Cartografia dell’Anima Collettiva",
+ "kicker": "",
+ "lede": "Frontiera 04 · Geopolitica dell'Anima",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cartografia",
+     "i": true
+    },
+    {
+     "t": " dell’Anima Collettiva"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni nazione ha un’anima. Miti fondativi, traumi generazionali, eroi archetipici, memorie sepolte: un sottosuolo emotivo che determina i confini reali del potere, invisibile alle mappe tradizionali."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Frontiera 04 · Geopolitica dell'Anima"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La geografia visibile è fatta di confini, capitali, risorse. La geografia invisibile è fatta di ciò che un popolo "
+    },
+    {
+     "t": "ricorda",
+     "b": true
+    },
+    {
+     "t": ", ciò che "
+    },
+    {
+     "t": "teme",
+     "b": true
+    },
+    {
+     "t": ", ciò che "
+    },
+    {
+     "t": "venera",
+     "b": true
+    },
+    {
+     "t": ". La Cartografia dell’Anima Collettiva scava in questo sottosuolo: sei strati di profondità, dall’abisso del trauma originario fino alla superficie del destino dichiarato. Ogni strato si legge con due lenti — quella della "
+    },
+    {
+     "t": "geopolitica",
+     "b": true
+    },
+    {
+     "t": " e quella della "
+    },
+    {
+     "t": "spiritualità",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roma Grecia Israele Cristianità USA Russia Cina Islam"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "DESTINO"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "VALORI"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EROE"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "MEMORIA"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "FONDAZIONE"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "ABISSO"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D6"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Destino"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale narrazione di futuro?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D5"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Valori"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale ethos collettivo?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D4"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Eroe"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale figura archetipica?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D3"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Memoria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale storia si racconta?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D2"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fondazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale mito di nascita?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "D1"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Abisso"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale ferita originaria?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spiritualità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sintesi della carta"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Chiave di lettura"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Il cuore dell’uomo è un abisso: chi può conoscerlo » (Geremia 17,9). Ogni civiltà è un uomo ingrandito. Ogni uomo è una civiltà in miniatura. La cartografia dell’anima collettiva non è una metafora: è lo strumento per vedere ciò che le mappe geografiche non mostrano — perché il potere vero non sta nei confini, ma in ciò che un popolo porta nel profondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geremia 17,9 · Platone,"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geremia 17,9 · Platone, "
+    },
+    {
+     "t": "Repubblica",
+     "i": true
+    },
+    {
+     "t": " · "
+    },
+    {
+     "t": "Conosci te stesso",
+     "b": true
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "F. Rosini, Geopolitica dell’Anima (lezioni)",
+  "Platone, Repubblica (libro IV, l’anima della città)",
+  "C. G. Jung, Gli archetipi dell’inconscio collettivo",
+  "O. Spengler, Il tramonto dell’Occidente (1918)"
+ ],
+ "stats": {
+  "blocks": 53,
+  "chars": 1665,
+  "hash": "69bbbd6d8d70ee5e8e99888ff7e424d2dd67a56f0448f6a8794d3f978d78e81c"
+ }
+}

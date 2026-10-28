@@ -1,0 +1,127 @@
+{
+ "id": "geopolitica-classica",
+ "slug": "geopolitica-classica",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-classica",
+ "title": "Geopolitica Classica",
+ "kicker": "Lente 01",
+ "lede": "La lente materiale: risorse, territorio, demografia, potenza militare è il fondamento su cui tutto si regge, ma che da sola non spiega nulla. Il realismo spietato di Caracciolo e Limes per mappare i conflitti di potenza.",
+ "category": "geopolitica-classica",
+ "parentId": null,
+ "blocks": [
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Lente 01"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Geopolitica Classica"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "La lente materiale: risorse, territorio, demografia, potenza militare è il fondamento su cui tutto si regge, ma che da sola non spiega nulla. Il realismo spietato di Caracciolo e Limes per mappare i conflitti di potenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La "
+    },
+    {
+     "t": "geopolitica classica",
+     "b": true
+    },
+    {
+     "t": " è il primo gradino del MetaHistoria. è l'analisi della potenza nella sua forma più nuda: confini, risorse, eserciti, posizione strategica. Senza questa base materiale, ogni discorso su identità, teologia o escatologia resta sospeso nel vuoto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa lente si fonda sul "
+    },
+    {
+     "t": "realismo geopolitico",
+     "b": true
+    },
+    {
+     "t": " di Lucio Caracciolo e della rivista Limes: gli Stati agiscono per interesse nazionale, la geografia è il loro destino, e il potere è la valuta delle relazioni internazionali."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Da questa lente partono le "
+    },
+    {
+     "t": "sottosezioni",
+     "b": true
+    },
+    {
+     "t": " che esplorano i temi fondamentali della geopolitica classica. Ogni sottosezione è una pagina dedicata, accessibile dai card qui sotto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Perché un frate francescano legge Limes? Perché la potenza, prima di essere giudicata, va capita. E la geopolitica classica è lo strumento più onesto per farlo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "01 Insegnamenti Fondamentali 10 principi della geopolitica classica: dal primato dello spazio all'interesse nazionale, dalla transizione egemonica all'anarchia del sistema internazionale. Leggi ?   02 Tributi ai Maestri Omaggio a Caracciolo, Schmitt, Marshall, Molinari, Fukuyama e ai padri fondatori della geopolitica classica. Leggi ?   03 Il Ritorno degli Imperi Dalla globalizzazione al disordine multipolare: l'analisi del ritorno degli imperi nella geopolitica contemporanea. Leggi ?   04 Zone di Tensione Ucraina, Medio Oriente, Pacifico: le tre grandi aree di crisi che ridefiniscono gli equilibri globali tra imperi in competizione. Leggi ?   05 Atlante di Storia Timeline geopolitica 1904–2025: dalla Guerra Russo-Giapponese alla Guerra Iran-USA, centoventi anni di conflitti, imperi e trasformazioni globali. Leggi →   06 Tra Teologia e Geopolitica Vaticano, USA, Cina, Russia, Iran, Europa: sei casi-studio che esplorano il confine tra teologia e geopolitica attraverso una griglia a quattro livelli. Leggi →"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni sottosezione esplora un aspetto diverso della geopolitica classica. Clicca per approfondire."
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "L. Caracciolo, Limes (1993–oggi)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "Manifesto TGP-O (2026)"
+ ],
+ "stats": {
+  "blocks": 9,
+  "chars": 2184,
+  "hash": "67bfe34c2ffdb7909937d785d897a1ec7927c8681093a9d39986a9533b8cfd09"
+ }
+}

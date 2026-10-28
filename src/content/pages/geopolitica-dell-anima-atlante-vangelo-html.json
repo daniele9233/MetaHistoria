@@ -1,0 +1,482 @@
+{
+ "id": "geopolitica-dell-anima-atlante-vangelo-html",
+ "slug": "geopolitica-dell-anima/atlante-vangelo.html",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/atlante-vangelo.html",
+ "title": "Atlante Geopolitico-Spirituale del Vangelo",
+ "kicker": "",
+ "lede": "Card 06 · Insegnamenti di fede · MetaHistoria",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Atlante "
+    },
+    {
+     "t": "Geopolitico-Spirituale",
+     "i": true
+    },
+    {
+     "t": " del Vangelo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni episodio della vita di Cristo letto con doppia lente: dinamiche di potere, interessi strategici e legittimazioni (geopolitica) + significato cristologico, escatologico e pratiche del Regno (spiritualità)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Card 06 · Insegnamenti di fede · MetaHistoria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lente geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lente spirituale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La vita di Cristo, letta come "
+    },
+    {
+     "t": "paradigma politico-spirituale",
+     "b": true
+    },
+    {
+     "t": ", offre una grammatica per ripensare potere, legittimità e missione. Non propone una tecnica di governo, ma un orientamento che rende la politica più sostenibile: un potere che si sa servo, una legittimità che nasce dalla giustizia e dalla verità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lente geopolitica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Realismo, geografie, interessi, potere. La dimensione politico-istituzionale di ogni episodio: impero, élite, conflitto, legittimazione, controllo sociale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lente spirituale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Cristologia, escatologia, pratiche del Regno. Ciò che ogni episodio rivela su Dio, sull’uomo e sulla trasformazione che il Vangelo opera nelle strutture."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Tabella sinottica — episodio, geopolitica, spiritualità"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "table",
+   "head": [
+    [
+     "Episodio",
+     "Geopolitica",
+     "Spiritualità"
+    ]
+   ],
+   "rows": [
+    [
+     "Nascita a Betlemme",
+     "Incarnazione sotto impero; legittimità simbolica",
+     "Dio entra nella storia, solidarietà con i vulnerabili"
+    ],
+    [
+     "Fuga in Egitto",
+     "Rifugiati e sfera imperiale",
+     "Dio con gli esiliati"
+    ],
+    [
+     "Battesimo",
+     "Rito pubblico; sfida alle élite",
+     "Inaugurazione missionaria e identificazione con l’umanità"
+    ],
+    [
+     "Tentazioni",
+     "Tre prove di legittimazione politica",
+     "Rifiuto delle scorciatoie e fiducia nella provvidenza"
+    ],
+    [
+     "Sermone sul Monte",
+     "Etica contraria alla costellazione di potere",
+     "Beatitudine come nuova politica"
+    ],
+    [
+     "Miracoli",
+     "Soft power di legittimazione popolare",
+     "Restauro della persona e della creazione"
+    ],
+    [
+     "Tempio purificato",
+     "Attacco agli interessi economici religiosi",
+     "Richiamo alla santità dell’incontro con Dio"
+    ],
+    [
+     "Ingresso a Gerusalemme",
+     "Rivendicazione messianica pubblica",
+     "Regalità servente"
+    ],
+    [
+     "Ultima Cena",
+     "Nuovo patto comunitario",
+     "Comunione e dono di sé"
+    ],
+    [
+     "Processo / Crocifissione",
+     "Uso giudiziario-politico per eliminare il rischio",
+     "Svelamento della verità nel martirio"
+    ],
+    [
+     "Resurrezione",
+     "Sconfitta della logica mortale dell’impero",
+     "Vittoria della vita; fondamento di speranza"
+    ],
+    [
+     "Commissione",
+     "Missione globale nonviolenta",
+     "Testimonianza che trasforma culture"
+    ]
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Principi geopolitici e spirituali del Vangelo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Principi geopolitici"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "Legittimità per attrazione: costruire consenso attraverso pratiche giuste, non con la forza."
+     }
+    ],
+    [
+     {
+      "t": "Sovranità limitata: potere come servizio; legittimità acquisita con il bene comune."
+     }
+    ],
+    [
+     {
+      "t": "Protezione dei fragili: la stabilità dipende dall’integrazione dei più deboli."
+     }
+    ],
+    [
+     {
+      "t": "Sovversione simbolica: rituali, memoria e narrazione come terreno di lotta politica."
+     }
+    ],
+    [
+     {
+      "t": "Decentramento della legittimità: dalle figure carismatiche alle comunità di base."
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Principi spirituali"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "Autocritica pubblica: politica con memoria storica e pratiche di verità."
+     }
+    ],
+    [
+     {
+      "t": "Misericordia strutturale: istituzioni che non solo assistono, ma riparano."
+     }
+    ],
+    [
+     {
+      "t": "Conversione delle élite: trasformazione morale di chi detiene potere."
+     }
+    ],
+    [
+     {
+      "t": "Preferenza per i poveri: valutare le politiche dalla posizione dei più vulnerabili."
+     }
+    ],
+    [
+     {
+      "t": "Nonviolenza trasformativa: rifiuto della violenza come norma di risoluzione dei conflitti."
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Applicazioni pratiche"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per gli Stati:",
+     "b": true
+    },
+    {
+     "t": " politiche di verità storica (commissioni per il riconoscimento e la riparazione delle ingiustizie passate); diritto internazionale rafforzato con meccanismi di riparazione cooperativa; diplomazia della cura (investire in sanità, istruzione, aiuti umanitari depoliticizzati)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per le istituzioni internazionali:",
+     "b": true
+    },
+    {
+     "t": " riforma di inclusione (voci del Sud, piccoli Stati, popolazioni indigene); meccanismi di riparazione globale (fondi per il clima, trasferimento tecnologico equo)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per le Chiese:",
+     "b": true
+    },
+    {
+     "t": " testimonianza pubblica integrata (riconciliazione, ospitalità, dialogo interreligioso); responsabilità sociale come attori economici."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per la società civile:",
+     "b": true
+    },
+    {
+     "t": " reti di solidarietà transnazionali; narrative alternative che trasformino percezioni pubbliche attraverso simboli e storytelling."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Rischi e contraddizioni"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "Strumentalizzazione religiosa: il rischio che il linguaggio cristiano venga usato per legittimare politiche di potere."
+     }
+    ],
+    [
+     {
+      "t": "Idealismo paternalistico: applicare “misericordia” senza riforme strutturali può diventare carità che legittima l’ingiustizia."
+     }
+    ],
+    [
+     {
+      "t": "Confusione tra Regno e nazione: nazionalismi che si vestono di teologia sono pericolosi."
+     }
+    ],
+    [
+     {
+      "t": "Realpolitik vs ideale: conversione etica senza strumenti di implementazione rimane inefficace."
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Cristologia Geopolitica — principi sintetici"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "Solidarietà incarnata: le politiche devono incarnare la vicinanza al crocifisso della storia (vulnerabili, esclusi, migranti)."
+     }
+    ],
+    [
+     {
+      "t": "Verità pubblica: confessione storica come base di negoziato per la legittimità internazionale."
+     }
+    ],
+    [
+     {
+      "t": "Responsabilità distributiva: potenza come responsabilità di custodire i beni comuni globali."
+     }
+    ],
+    [
+     {
+      "t": "Trasformazione simbolica: lavorare su narrazioni e rituali che generino nuova legittimità nonviolenta."
+     }
+    ],
+    [
+     {
+      "t": "Resilienza comunitaria: rafforzare la società civile come infrastruttura di pace."
+     }
+    ]
+   ],
+   "role": "list"
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "Vangeli sinottici + Giovanni",
+  "C. Schmitt, Teologia politica (1922)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "F. Rosini, Geopolitica dell’Anima (lezioni)"
+ ],
+ "stats": {
+  "blocks": 30,
+  "chars": 4864,
+  "hash": "29fbe60d2223cf1cef4ecff24168cdbdf8bbcc1b18cf8e4d97cca23718a6632d"
+ }
+}

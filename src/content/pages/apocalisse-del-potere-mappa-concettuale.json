@@ -1,0 +1,105 @@
+{
+ "id": "apocalisse-del-potere-mappa-concettuale",
+ "slug": "apocalisse-del-potere/mappa-concettuale",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/apocalisse-del-potere/mappa-concettuale",
+ "title": "Mappa Concettuale &mdash; Apocalisse del Potere",
+ "kicker": "",
+ "lede": "",
+ "category": "apocalisse-del-potere",
+ "parentId": "apocalisse-del-potere",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "↺ Reset + - Legenda Trascina · Rotella zoom · Esc chiude"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Legenda — Sfere concettuali"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Potere / Trono"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Divino / Gloria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Impero / Struttura"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Bestiale / Opposizione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Testimone / Frenante"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Escatologico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Cammino / Esilio"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "L. Caracciolo, Limes (1993–oggi)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "Manifesto TGP-O (2026)"
+ ],
+ "stats": {
+  "blocks": 9,
+  "chars": 208,
+  "hash": "a83be430aa12030198f2d0f12acc004e8f12cd640cb5247463d5b9d66d7ef43b"
+ }
+}

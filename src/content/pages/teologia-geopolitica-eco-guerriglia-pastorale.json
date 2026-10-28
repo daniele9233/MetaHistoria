@@ -1,0 +1,410 @@
+{
+ "id": "teologia-geopolitica-eco-guerriglia-pastorale",
+ "slug": "teologia-geopolitica/eco-guerriglia-pastorale",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/teologia-geopolitica/eco-guerriglia-pastorale",
+ "title": "Guerriglia per la Pastorale &mdash; Ecosistema TGR &mdash; MetaHistoria",
+ "kicker": "",
+ "lede": "",
+ "category": "teologia-geopolitica",
+ "parentId": "teologia-geopolitica",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ecosistema TGR — Opera 28"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Guerriglia per la Pastorale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Strategie di Resistenza e Reclutamento nell’Era dell’Impero Digitale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Pastorale strategica "
+    },
+    {
+     "t": "☨",
+     "b": true
+    },
+    {
+     "t": " Percorso Combattente Otto principi tattici"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Recupero Ostaggi in Territorio Nemico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Pastorale Giovanile non è animazione: è "
+    },
+    {
+     "t": "recupero ostaggi in territorio nemico",
+     "b": true
+    },
+    {
+     "t": ". I giovani sono i primi bersagli delle Bestie. Non si può competere col mondo sul suo terreno. Bisogna offrire l’unica cosa che l’Impero non ha: il Reale, il Sangue, il Senso. I giovani di oggi non sono una generazione perduta: sono una generazione "
+    },
+    {
+     "t": "presa in ostaggio",
+     "b": true
+    },
+    {
+     "t": ". L’Impero Digitale li ha convinti che la libertà sia scrolling infinito, che l’identità sia un profilo social, che il valore si misuri in like. Ma l’Impero ha un punto debole: non può offrire un incontro vero con Cristo."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Sommario"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    [
+     {
+      "t": "Intelligence: analisi del terreno"
+     }
+    ],
+    [
+     {
+      "t": "Reclutamento: selezione e addestramento"
+     }
+    ],
+    [
+     {
+      "t": "Operazioni: azione sul campo"
+     }
+    ],
+    [
+     {
+      "t": "La strategia complessiva"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Intelligence: analisi del terreno"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Capire dove sono e contro chi combattiamo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prima fase di ogni operazione è la "
+    },
+    {
+     "t": "ricognizione del campo di battaglia",
+     "b": true
+    },
+    {
+     "t": ". La pastorale giovanile non può permettersi di operare alla cieca: deve conoscere esattamente il terreno su cui si muovono i giovani, le forze che li tengono prigionieri e le dinamiche che ne condizionano le scelte."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "1 Guerra Elettronica (Jamming) Principio tattico",
+    "I ragazzi vivono sotto un bombardamento costante di segnali : notifiche, trend, pornografia, ansia. Il loro radar spirituale è disturbato, «jammato». La mossa sovversiva è portarli nel deserto — fisico o metaforico — e spegnere i telefoni . La disconnessione strategica non è una rinuncia: è la condizione perché il Comando possa trasmettere. Tattica — L’Offerta del Silenzio Non riempire i ritiri di parole e musica continua. Quello lo hanno già. Solo nel silenzio radio Dio può trasmettere le coordinate della vocazione. Il deserto non è vuoto: è il luogo dove l’anima torna a sentire."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "2 Riconoscimento del Nemico (IFF) Principio tattico",
+    "I ragazzi credono che il nemico sia la noia, il limite, l’autorità. Occorre insegnare loro a chiamare le cose col loro nome . L’ansia che provano non è un difetto personale: è la pressione della Bestia della Performance. La confusione non è libertà: è la strategia della Bestia della Dissoluzione. Smascherare le Bestie Dare un nome al nemico — atto di teologia politica — libera i giovani dalla colpa e accende la voglia di combattere. Non sono loro a essere sbagliati: è il sistema che li vuole così."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte II"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Reclutamento: selezione e addestramento"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Come formare i discepoli"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "3 Selezione delle Forze Speciali Il Metodo Gesù",
+    "Gesù non ha puntato sulle folle ma su Dodici uomini . La strategia vincente non è investire sulla massa ma sui leader. Occorre individuare i 3, i 5, i 10 che hanno la «stoffa» e dedicargli l’80% del tempo, formandoli perché formino altri. Applicazione Non misurare il successo dal numero di ragazzi in oratorio. La massa è volubile. Crea la tua squadra, il tuo gruppo guida: se loro sono solidi, l’intera struttura regge."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "4 Addestramento al Fuoco (Hard Training) Pedagogia della Sfida",
+    "Un addestramento facile crea soldati morti. L’Impero tratta i giovani come consumatori fragili ; il formatore deve trattarli come eroi potenziali . Alzare l’asticella. Chiedere cose difficili: svegliarsi all’alba per pregare, servire i poveri sporcandosi le mani, digiunare dai social. La Gloria della Croce I giovani disprezzano ciò che è facile, ma si innamorano di ciò che chiede il dono della vita. Proporre la Croce, non il benessere."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "5 Spirito di Corpo (Esprit de Corps) Dalla Comitiva alla Fraternità",
+    "Il soldato combatte per il compagno al suo fianco, non per l’ideologia. La comitiva è un gruppo che «sta bene insieme»; la fraternità è un corpo che «combatte insieme». Tattica Sostituire le attività di puro svago con missioni di servizio comune . Sudare insieme, pregare insieme, rischiare insieme crea legami indissolubili."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte III"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Operazioni: azione sul campo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Liturgia, incursioni, comunicazioni sicure"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "6 Logistica della Bellezza Liturgy as Warfare",
+    "Non banalizzare la liturgia. Renderla solenne, misteriosa, radicale . Una liturgia ben fatta è «shock and awe» per l’anima. I giovani non cercano intrattenimento in chiesa: cercano qualcosa per cui valga la pena vivere — e morire. La liturgia deve essere sacra, non banalizzata; le relazioni autentiche, non performative; il silenzio proposto come antidoto al rumore."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "7 Incursioni in Territorio Ostile Da utenti a soccorritori",
+    "Portare i giovani dove la Bestia ha fatto danni: senza tetto, stazioni, periferie. Trasformarli da consumatori passivi a soccorritori attivi . Il contatto diretto con la povertà e la sofferenza è l’antidoto più potente all’anestesia digitale."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "8 Comunicazioni Sicure Strategia dell’anima",
+    "Il colloquio personale non è psicologia ma strategia dell’anima . Ogni incontro individuale è un canale di comunicazione protetto tra il formatore e il giovane, al riparo dal rumore dell’Impero. Non si sta organizzando un club: si sta addestrando la Resistenza."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Sintesi"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La strategia complessiva"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Guerra asimmetrica nell’era delle Bestie digitali"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Teologia della Geopolitica del Regno non è un’astrazione accademica: è uno "
+    },
+    {
+     "t": "strumento di discernimento",
+     "b": true
+    },
+    {
+     "t": " per chi, immerso nella complessità del mondo contemporaneo, cerca di orientarsi senza cedere né al cinismo geopolitico né all’ingenuità spirituale. È una disciplina che prende sul serio tanto la durezza del potere quanto la radicalità del Vangelo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La pastorale giovanile nell’era digitale è una "
+    },
+    {
+     "t": "guerra asimmetrica",
+     "b": true
+    },
+    {
+     "t": ". Non si può competere con l’Impero sul suo terreno: budget infiniti, algoritmi perfetti, effetti speciali. Se si cerca di essere «fighi» come il mondo, si perde. La strategia vincente non è l’intrattenimento ma l’ingaggio: offrire l’unica cosa che l’Impero non potrà mai produrre — un incontro reale con Cristo, nel silenzio, nella bellezza della liturgia, nella concretezza del servizio e nella radicalità della Croce."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Non potete competere sul terreno dell’Impero. Loro hanno budget infiniti e algoritmi perfetti. Ma c’è una cosa che non possono offrire: il Sangue, il Reale, il Senso. Questa è la vostra arma segreta."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Non potete competere sul terreno dell’Impero. Loro hanno budget infiniti e algoritmi perfetti. Ma c’è una cosa che non possono offrire: il Sangue, il Reale, il Senso. Questa è la vostra arma segreta.Guerriglia per la Pastorale — Introduzione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Torna all’Ecosistema TGR"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [],
+ "stats": {
+  "blocks": 37,
+  "chars": 6456,
+  "hash": "6ed91488f7cdaff6c1dc9e5d784ece9484d14e80dd0dee5bc82e91168077a50f"
+ }
+}

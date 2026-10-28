@@ -1,0 +1,418 @@
+{
+ "id": "tommaso-problema-del-male",
+ "slug": "tommaso-problema-del-male",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/tommaso-problema-del-male",
+ "title": "Tommaso e il problema del male",
+ "kicker": "",
+ "lede": "Summa Theologiae I, q. 2, a. 3 · MetaHistoria",
+ "category": "tommaso-problema-del-male",
+ "parentId": null,
+ "blocks": [
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Summa Theologiae I, q. 2, a. 3 · MetaHistoria"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Tommaso e il "
+    },
+    {
+     "t": "problema del male",
+     "i": true
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Se Dio è bontà infinita e onnipotente, come può esistere il male?» — la più lucida obiezione contro la fede, e il punto di partenza del Metodo Pentaedrico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I. L’obiezione"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "«Videtur quod Deus non sit»"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nel cuore del XIII secolo, San Tommaso d’Aquino si accinge a dimostrare l’esistenza di Dio nella sua monumentale "
+    },
+    {
+     "t": "Summa Theologiae",
+     "i": true
+    },
+    {
+     "t": ". Come ogni vero pensatore cristiano, non volta lo sguardo di fronte all’abisso: lo fissa dritto negli occhi. "
+    },
+    {
+     "t": "Nella seconda questione, terzo articolo",
+     "b": true
+    },
+    {
+     "t": ", formula la più lucida, terribile e fondata obiezione contro la fede."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Se Dio è bontà infinita e onnipotente, come può esistere il male? Poiché il male c’è, sembra che Dio non esista.»"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "«Se Dio è bontà infinita e onnipotente, come può esistere il male? Poiché il male c’è, sembra che Dio non esista.»  San Tommaso d’Aquino — "
+    },
+    {
+     "t": "Summa Theologiae",
+     "i": true
+    },
+    {
+     "t": ", I, q. 2, a. 3, obiectio 1"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Tommaso è di un’onestà intellettuale assoluta. Ammette che "
+    },
+    {
+     "t": "il male è l’unico, vero e tremendo scoglio",
+     "b": true
+    },
+    {
+     "t": " contro cui la fede rischia di infrangersi. Non cerca scappatoie retoriche, non minimizza. Pone la difficoltà nella sua forma più pura: se esiste un Dio infinitamente buono e potente, il male non dovrebbe esistere. Ma il male esiste. Dunque?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La risposta di Tommaso è celebre e complessa: Dio permette il male perché da esso può trarre un bene maggiore. Non è una risposta che soddisfa il cuore ferito. Ma Tommaso non promette risposte facili: promette un cammino. E il cammino è ciò che conta."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "II. Dalla Summa al Metodo"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Ottocento anni dopo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "A ottocento anni di distanza, davanti agli schermi che ci restituiscono quotidianamente le immagini di imperi in rotta di collisione, di guerre per i confini, di popoli schiacciati e di sangue versato per il potere, la domanda dell’Aquinate torna a bruciare. "
+    },
+    {
+     "t": "Il male nella storia — quello strutturale, politico, militare — sembra la prova schiacciante dell’assenza di Dio",
+     "b": true
+    },
+    {
+     "t": ". Come può il Signore della vita tollerare la macelleria della geopolitica?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Metodo Pentaedrico nasce proprio per raccogliere la sfida di San Tommaso, applicandola al nostro tempo. È un viaggio che accetta di "
+    },
+    {
+     "t": "partire dal basso, dal fango della storia",
+     "b": true
+    },
+    {
+     "t": ", per tentare una risalita verso il senso ultimo delle cose. Attraversa cinque lenti, cinque gradi di profondità per decifrare il mondo:"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Necessità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica Classica: la fisica del potere, il disincanto necessario"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "2"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Trauma"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica Umana: nazioni come organismi feriti"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "3"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Salvezza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica dell’Anima: il potere si insinua nelle ferite"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "4"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Idolatria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Teologia della Geopolitica: l’impero che si fa Dio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "5"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Escaton"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Apocalisse del Potere: il trionfo dell’Agnello"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "III. La risposta"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Dio non vince con la spada"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rispondendo a San Tommaso: Dio permette il male nella storia perché "
+    },
+    {
+     "t": "ha scelto di non vincerlo con la spada della geopolitica, ma di assumerlo su di sé",
+     "b": true
+    },
+    {
+     "t": ". Il potere mondano infligge ferite; Dio, nella storia, si rivela attraverso le ferite. La Croce non è un fallimento del piano divino: è il suo compimento. Non è la sconfitta di Dio: è la sconfitta della logica del potere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa è la risposta che il Metodo Pentaedrico non enuncia ma "
+    },
+    {
+     "t": "mostra",
+     "b": true
+    },
+    {
+     "t": " attraverso il suo percorso. Partendo dal basso, dal realismo più crudo, salendo gradualmente attraverso le ferite degli uomini e le maschere degli idoli, fino a contemplare colui che regna da una croce."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "«Dio non interviene nella storia annientando i malvagi con un potere superiore al loro — il che farebbe di Lui solo un tiranno più forte — ma sovverte la logica del potere stesso.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Metodo Pentaedrico è un invito a cambiare sguardo. Ad abbandonare l’illusione di poter dividere il mondo tra imperi buoni e imperi cattivi, per imparare a leggere la mappa del mondo come "
+    },
+    {
+     "t": "una geografia del dolore umano in cerca di redenzione",
+     "b": true
+    },
+    {
+     "t": ". Dal crudo disincanto iniziale, l’analisi si trasforma lentamente in pietà, compassione e, infine, in contemplazione dell’unico vero Re la cui corona, non a caso, fu intrecciata di spine."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Scopri il Metodo Pentaedrico"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "San Tommaso d’Aquino, Summa Theologiae I, q. 2, a. 3",
+  "Agostino d’Ippona, De Civitate Dei (426)",
+  "C. Schmitt, Teologia politica (1922)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "F. Rosini, Geopolitica dell’Anima (lezioni)"
+ ],
+ "stats": {
+  "blocks": 36,
+  "chars": 3991,
+  "hash": "c68e582c1874cfa32bb9408bc735f006949daa25affd8b8fd5a649542cce2d62"
+ }
+}

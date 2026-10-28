@@ -1,0 +1,886 @@
+{
+ "id": "geopolitica-dell-anima-immagine-di-dio",
+ "slug": "geopolitica-dell-anima/immagine-di-dio",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/immagine-di-dio",
+ "title": "L'immagine di Dio",
+ "kicker": "04",
+ "lede": "Come la teologia plasma la politica: il modo in cui concepiamo Dio influenza direttamente il modo in cui pensiamo e strutturiamo il potere, l’autorità e la comunità. Ogni immagine di Dio ha prodotto nella storia specifici modelli politici.",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "04"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "L'immagine di Dio"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Come la teologia plasma la politica: il modo in cui concepiamo Dio influenza direttamente il modo in cui pensiamo e strutturiamo il potere, l’autorità e la comunità. Ogni immagine di Dio ha prodotto nella storia specifici modelli politici."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esiste un principio fondamentale che attraversa la storia del pensiero politico e teologico: "
+    },
+    {
+     "t": "l’immagine di Dio che una comunità abita determina la forma del suo potere",
+     "b": true
+    },
+    {
+     "t": ". Non si tratta di un rapporto meccanico, ma di una corrispondenza profonda: il volto di Dio che preghiamo è lo stesso che proiettiamo nelle nostre istituzioni."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questo principio vale per tutte le tradizioni religiose, ma è particolarmente evidente nel monoteismo biblico, dove Dio si rivela attraverso immagini molteplici e talvolta contrastanti: Re, Giudice, Compagno di viaggio, Crocifisso, Trinità di relazione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni immagine di Dio genera un’antropologia e, di conseguenza, una politica. Se Dio è un sovrano assoluto, l’uomo sarà un suddito e il potere sarà verticale. Se Dio è una comunità d’amore, l’uomo sarà un interlocutore e il potere sarà sinodale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Le sei immagini che seguono non esauriscono il panorama delle possibilità teologiche, ma rappresentano le configurazioni storicamente più influenti. Per ciascuna, ascoltiamo le "
+    },
+    {
+     "t": "voci dall’alto",
+     "b": true
+    },
+    {
+     "t": " (di chi esercita il potere) e le "
+    },
+    {
+     "t": "voci dal basso",
+     "b": true
+    },
+    {
+     "t": " (di chi lo subisce), per cogliere l’eco concreta che ogni teologia produce nella vita delle persone."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio come Re Assoluto: potere sacro e verticale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quando Dio è percepito come un Sovrano assoluto, distante, onnipotente nel senso di un controllo totale, la politica tende a riflettere questa verticalità. Nascono visioni gerarchiche e autoritarie del potere, dove l’autorità è sacra e chi la detiene è visto come “unto da Dio” o suo diretto rappresentante."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Il mio potere mi è stato dato dall’Alto.»"
+     }
+    ],
+    [
+     {
+      "t": "«Guido come pastore, ma con il bastone.»"
+     }
+    ],
+    [
+     {
+      "t": "«Chi mi disobbedisce, disobbedisce a Dio.»"
+     }
+    ],
+    [
+     {
+      "t": "«Sono il garante dell’ordine divino sulla terra.»"
+     }
+    ],
+    [
+     {
+      "t": "«La legge non va discussa, ma eseguita.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Chi sono io per discutere il volere di Dio e del re?»"
+     }
+    ],
+    [
+     {
+      "t": "«La mia obbedienza è il mio sacrificio.»"
+     }
+    ],
+    [
+     {
+      "t": "«Le autorità sono state scelte da Dio, io devo fidarmi.»"
+     }
+    ],
+    [
+     {
+      "t": "«Se sto soffrendo, è perché ho peccato o sono stato punito.»"
+     }
+    ],
+    [
+     {
+      "t": "«È Dio che comanda, e io non devo alzare la testa.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " teologie medievali del "
+    },
+    {
+     "t": "rex Dei gratia",
+     "i": true
+    },
+    {
+     "t": ", cristianesimo imperiale (Costantino, Bisanzio), Stati confessionali. Il risultato è un potere che si legittima come sacro e i cui detentori sono considerati quasi intoccabili."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "II"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio come Giudice Morale: potere etico e repressivo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Se Dio è visto come un Legislatore e un Giudice severo, la politica enfatizza la legge, il controllo sociale, la moralità pubblica e la punizione delle trasgressioni. La comunità si organizza attorno al dovere e alla disciplina collettiva."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Devo mantenere la moralità pubblica.»"
+     }
+    ],
+    [
+     {
+      "t": "«È mio dovere correggere chi sbaglia.»"
+     }
+    ],
+    [
+     {
+      "t": "«Tollerare il male è diventare complice.»"
+     }
+    ],
+    [
+     {
+      "t": "«Dio mi ha dato la responsabilità di essere sentinella del bene.»"
+     }
+    ],
+    [
+     {
+      "t": "«Guidare vuol dire mantenere la purezza del popolo.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Devo essere perfetto, Dio mi osserva sempre.»"
+     }
+    ],
+    [
+     {
+      "t": "«Il peccato mi merita la punizione.»"
+     }
+    ],
+    [
+     {
+      "t": "«Se mi comporto bene, forse sarò benedetto.»"
+     }
+    ],
+    [
+     {
+      "t": "«La legge è più importante dell’amore.»"
+     }
+    ],
+    [
+     {
+      "t": "«Mi sento costantemente giudicato, anche da chi mi guida.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " calvinismo di Ginevra con il suo forte controllo sociale, teocrazie legali, derive del fondamentalismo cristiano che sfociano nel moralismo politico. Il risultato è una società del dovere, focalizzata sul controllo del peccato attraverso norme rigide."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "III"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio come Compagno del Popolo: potere sinodale e partecipato"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quando Dio è inteso come Colui che cammina con il suo popolo, compagno di viaggio (Esodo, profeti), il modello politico generato è più orizzontale, partecipativo e comunitario. L’autorità si configura come ascolto e accompagnamento."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Devo ascoltare prima di decidere.»"
+     }
+    ],
+    [
+     {
+      "t": "«Non comando, accompagno.»"
+     }
+    ],
+    [
+     {
+      "t": "«Il popolo ha profeti nascosti.»"
+     }
+    ],
+    [
+     {
+      "t": "«Guidare è condividere il cammino.»"
+     }
+    ],
+    [
+     {
+      "t": "«Anche io ho bisogno degli altri per discernere.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Camminiamo insieme, anche Dio è con noi.»"
+     }
+    ],
+    [
+     {
+      "t": "«Posso parlare e proporre, la mia voce conta.»"
+     }
+    ],
+    [
+     {
+      "t": "«Dio non mi domina, mi ascolta.»"
+     }
+    ],
+    [
+     {
+      "t": "«Siamo popolo, non gregge.»"
+     }
+    ],
+    [
+     {
+      "t": "«La liberazione viene anche da noi, con Dio al nostro fianco.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " movimenti biblici di liberazione (America Latina), teologie comunitarie e popolari, visione profetica della Chiesa come “Popolo di Dio”. La politica diventa un affare di coinvolgimento dal basso, con una sana critica verso i vertici."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "IV"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio Crocifisso: potere come servizio e debolezza redentrice"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’immagine del Crocifisso — onnipotente nell’amore e nella vulnerabilità, non nella forza coercitiva — genera una politica radicalmente diversa: quella della cura, del servizio, della compassione attiva, dove l’autorità si manifesta nell’abbassamento."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Il mio posto è l’ultimo, non il primo.»"
+     }
+    ],
+    [
+     {
+      "t": "«Guidare vuol dire lavare i piedi.»"
+     }
+    ],
+    [
+     {
+      "t": "«Accolgo le ferite del mio popolo, non le ignoro.»"
+     }
+    ],
+    [
+     {
+      "t": "«La forza è nella compassione, non nel controllo.»"
+     }
+    ],
+    [
+     {
+      "t": "«Gesù ha governato morendo: è lì che si vede il vero potere.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Non sono solo nella mia sofferenza, Gesù ci è passato.»"
+     }
+    ],
+    [
+     {
+      "t": "«Anche se sono piccolo, Dio è con me nella croce.»"
+     }
+    ],
+    [
+     {
+      "t": "«Il vero potere è amare chi mi fa male.»"
+     }
+    ],
+    [
+     {
+      "t": "«La mia umiliazione può diventare redenzione.»"
+     }
+    ],
+    [
+     {
+      "t": "«Dio ha scelto l’ultima posizione, allora anch’io valgo.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " teologia della liberazione (opzione per i poveri), magistero di Papa Francesco sul potere come servizio, nonviolenza cristiana (Martin Luther King Jr., Oscar Romero). L’autorità si configura come servizio, con priorità per la cura dei più deboli."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "V"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio Trinità: potere relazionale e plurale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Se Dio è concepito come Trinità — comunione di Persone, relazione, una “danza d’amore” piuttosto che un monarca solitario — la politica che ne scaturisce è orizzontale, dialogica, pluralista e basata sulla corresponsabilità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Non posso decidere da solo: governo in relazione.»"
+     }
+    ],
+    [
+     {
+      "t": "«Ogni persona è immagine della Trinità, anche chi non la pensa come me.»"
+     }
+    ],
+    [
+     {
+      "t": "«L’autorità non è comando, è corresponsabilità.»"
+     }
+    ],
+    [
+     {
+      "t": "«Senza dialogo non c’è né Dio né potere vero.»"
+     }
+    ],
+    [
+     {
+      "t": "«La vera forza è generare comunione.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Siamo diversi, ma amati allo stesso modo.»"
+     }
+    ],
+    [
+     {
+      "t": "«Dio vive nella relazione, come me nella mia comunità.»"
+     }
+    ],
+    [
+     {
+      "t": "«Essere ascoltato è già redenzione.»"
+     }
+    ],
+    [
+     {
+      "t": "«Non devo isolarmi: in Dio c’è spazio per tutti.»"
+     }
+    ],
+    [
+     {
+      "t": "«Valgo perché sono in relazione, non per quello che faccio.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " teologie trinitarie del potere (Moltmann, Zizioulas), modelli ecclesiali sinodali, ecclesiologia di comunione del Concilio Vaticano II. La politica diventa cooperazione, dove la pluralità è una ricchezza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "VI"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Dio-Missione: politica profetica e trasformativa"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Una concezione di Dio come "
+    },
+    {
+     "t": "Missio Dei",
+     "i": true
+    },
+    {
+     "t": " — Dio dinamico, in uscita, che invia — genera una politica orientata alla conversione storica, al cambiamento sociale, all’evangelizzazione delle strutture. Non si accontenta dello "
+    },
+    {
+     "t": "status quo",
+     "i": true
+    },
+    {
+     "t": ", ma cerca di fermentare la storia con i valori del Regno, agendo come minoranza attiva e profetica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dall’alto"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Non sono qui per conservare, ma per trasformare.»"
+     }
+    ],
+    [
+     {
+      "t": "«La fede deve incidere la storia.»"
+     }
+    ],
+    [
+     {
+      "t": "«Il mio compito è smuovere le coscienze.»"
+     }
+    ],
+    [
+     {
+      "t": "«Annunciare il Regno significa cambiare le regole del mondo.»"
+     }
+    ],
+    [
+     {
+      "t": "«Dio mi manda a essere lievito, non decorazione.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Voci dal basso"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    [
+     {
+      "t": "«Anch’io sono mandato, non solo destinatario.»"
+     }
+    ],
+    [
+     {
+      "t": "«La mia fede non è privata, ha un volto pubblico.»"
+     }
+    ],
+    [
+     {
+      "t": "«Possiamo cambiare le cose, partendo da ciò che crediamo.»"
+     }
+    ],
+    [
+     {
+      "t": "«Non aspetto che il mondo cambi: sono io il cambiamento.»"
+     }
+    ],
+    [
+     {
+      "t": "«La missione è politica, perché annuncia un Regno diverso.»"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esempi storici:",
+     "b": true
+    },
+    {
+     "t": " movimenti profetici di riforma, teologie della trasformazione sociale, movimenti missionari che hanno generato coscienza critica verso le ingiustizie strutturali. Il Regno non è solo atteso, ma costruito."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Il volto di Dio che preghiamo è lo stesso che proiettiamo nelle nostre istituzioni. Se il tuo Dio è un sovrano, sarai suddito. Se il tuo Dio è un padre severo, sarai giudice. Se il tuo Dio è amore crocifisso, imparerai a servire. Se il tuo Dio è Trinità, scoprirai che il potere è relazione. L’immagine di Dio non è una questione privata: è la più politica delle scelte.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "— MetaHistoria, L’immagine di Dio"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "J. Moltmann, Trinità e Regno di Dio (1980)",
+  "J. Zizioulas, L’essere ecclesiale (1985)",
+  "G. Gutiérrez, Teologia della liberazione (1971)"
+ ],
+ "stats": {
+  "blocks": 57,
+  "chars": 8250,
+  "hash": "31ecef046be33885597c4372ddab78edc9050ae7987d38f2b248cbf6cb7a4355"
+ }
+}

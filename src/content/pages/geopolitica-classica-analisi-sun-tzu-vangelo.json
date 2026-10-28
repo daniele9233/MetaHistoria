@@ -1,0 +1,700 @@
+{
+ "id": "geopolitica-classica-analisi-sun-tzu-vangelo",
+ "slug": "geopolitica-classica/analisi/sun-tzu-vangelo",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-classica/analisi/sun-tzu-vangelo",
+ "title": "La scacchiera e il saio",
+ "kicker": "01",
+ "lede": "Se trovate l'Arte della Guerra di Sun Tzu sul comodino di un frate francescano, non chiudete il libro. Non siete davanti a una provocazione. Siete davanti a una confessione.",
+ "category": "geopolitica-classica",
+ "parentId": "geopolitica-classica/analisi",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Strategia e spiritualità — Analisi"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sun Tzu e Vangelo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La scacchiera e il saio: come l'Arte della Guerra, la Blitzkrieg, i samurai e il calcio posizionale dialogano con il Vangelo per forgiare una strategia cristiana del vivere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Logica Paradossale  — Profilassi  — Maskirovka  — Auftragstaktik  — Mushin  — Gambetto di Dio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "01"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La scacchiera e il saio"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Se trovate l'Arte della Guerra di Sun Tzu sul comodino di un frate francescano, non chiudete il libro. Non siete davanti a una provocazione. Siete davanti a una confessione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un uomo di pace che studia la guerra. Un uomo di preghiera che passa ore a pensare a scacchi, tattiche, mosse, vantaggi. Un uomo che ha promesso povertà e che legge gli stessi manuali di strategia dei CEO di Wall Street. Contraddizione? Forse. O forse no. Forse è proprio da qui che bisogna cominciare."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questo testo non è un manuale di stratagemmi per cristiani. 'indagine su un paradosso vissuto: come si vince una battaglia senza perdere se stessi costretto a fronteggiarmi con qualcuno o con qualcosa cosa posso fare per vincere — per non essere distrutto?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La risposta è nella fusione tra due mondi che sembrano opposti: la fredda analisi strategica di Sun Tzu, Clausewitz, Luttwak, Lasker, Rommel e la sapienza disarmata del Vangelo vissuto da Francesco d'Assisi. Non è un tradimento della fede. sul serio abbastanza da armarsi di intelligenza per difenderla."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La strategia umana serve a vincere. La strategia divina serve a salvare. A volte, per vincere secondo il Cielo, bisogna accettare di perdere secondo il Mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Frate Stratega, Sun Tzu e Vangelo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "02"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "I concetti fondamentali"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Dieci chiavi strategiche che emergono dalla sintesi tra pensiero militare e spiritualità cristiana. Ciascuna è una lente operativa per leggere e agire nel conflitto interiore ed esteriore."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Logica Paradossale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sun Tzu — L'arte della guerra — Vangelo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La via diretta non è mai la migliore."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La via diretta non è mai la migliore. "
+    },
+    {
+     "t": "Contrarietà",
+     "b": true
+    },
+    {
+     "t": ": mostrarsi debole quando si è forti, cedere per vincere, abbassarsi per essere esaltati. Gesù sulla Croce è la forma suprema: sconfitta agli occhi del mondo, vittoria agli occhi di Dio. San Francesco che si spoglia nudo davanti al vescovo perde tutto per guadagnare tutto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ciclo OODA"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "John Boyd — Observed-Orient-Decide-Act"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La velocità decisionale è un moltiplicatore di forza. Chi cicla più veloce tra osservazione, orientamento, decisione e azione, vince. L'Esodo: \"mangiate in fretta, con i calzari ai piedi\". Il nemico rallenta con l'ansia, il dubbio, il peccato. Il ritmo spirituale batte il ritmo mondano."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Profilassi"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nimzowitsch — Scacchi — Prevenzione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "In scacchi: bloccare la mossa del nemico prima che avvenga, piuttosto che reagire. Nella vita spirituale: prevenire il male quando è ancora un germoglio, non quando è diventato abitudine. Il divieto del frutto nell'Eden era profilassi non privazione. La confessione frequente è profilassi dell'anima."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Schwerpunkt"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Clausewitz — Centro di Gravità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Concentrare tutta la forza su un unico punto decisivo. Disperdere le energie è la causa principale della sconfitta. Il primo comandamento: \"Non avrai altro Dio\" un solo centro di gravità. Francesco riduce la vita all'essenziale, toglie tutto ciò che distrae per concentrare il 100% dell'energia su Dio."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Economia delle Forze"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sun Tzu — San Francesco — Povertà"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Risparmiare energie sui fronti secondari per investirle su quello decisivo. La povertà francescana non è masochismo: è efficienza. Se non devo gestire conti, proprietà, difese legali, tutta la mia energia mentale è libera per amare. La povertà è la più grande strategia di efficienza mai inventata."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "06"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Maskirovka"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dottrina russa — Inganno strategico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Non basta nascondere i carri armati veri: devi costruirne di finti dove il nemico vuole vederli. Gesù si nasconde sulla strada di Emmaus, parla in parabole, non risponde quando gli chiedono \"Sei tu il Messia?\". I francescani si fingevano pazzi i Giullari di Dio per distruggere la vanagloria. La verità va servita, non sbattuta in faccia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "07"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Attrito e Antifragilità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Clausewitz — Taleb — Resilienza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nessun piano sopravvive al contatto con il nemico. L'attrito è inevitabile. L'antifragilità è andare oltre la resilienza: ciò che non ti uccide ti rende più forte. Il cristiano antifragile è un incubo per il nemico: più viene colpito, più diventa santo. La Perfetta Letizia di Francesco è antifragilità pura: lodare Dio anche quando ti picchiano."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "08"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Spazio e Vuoto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Musashi — Go — Kenosis"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La potenza non sta nei pezzi, ma negli spazi vuoti che permettono loro di muoversi. Francesco si svuota di tutto (kenosis): nudo, senza possessi, senza piani fissi. così crea uno spazio di manovra infinito. Il silenzio, il digiuno, la povertà non sono privazioni: sono la pista di atterraggio per lo Spirito Santo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "09"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Auftragstaktik e Mushin"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Blitzkrieg — Samurai — Libertà tattica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dio dà la missione (amare), non il manuale d'istruzioni. Il cristiano maturo non chiede \"cosa devo fare?\" in ogni dettaglio: conosce l'obiettivo e improvvisa la tattica. Mushin la mente vuota del samurai è lo stadio in cui la santità non è più sforzo ma natura: non calcoli più come essere buono, lo sei come respiri."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "10"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Zugzwang e Gambetto di Dio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Scacchi — Resa — Croce"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lo Zugzwang è l'obbligo di muovere quando ogni mossa peggiora la posizione. Dio mette l'ego umano in Zugzwang e l'unica via d'uscita è la resa. Il Gambetto di Dio è la Croce: il Re viene sacrificato, la Morte lo ingoia pensando di vincere, ma non può digerire Dio. Il sacrificio apparente è Scacco Matto universale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "03"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il paradosso portante"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "perché un discepolo del Vangelo dovrebbe studiare strategia? perché la pace non è l'assenza di guerra: è la capacità di stare nel mezzo della tempesta senza essere spazzati via."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il testo risponde a una tensione reale. Da un lato, il Vangelo insegna la mansuetudine, il porgere l'altra guancia, l'amore per il nemico. Dall'altro, la vita ti mette davanti a conflitti reali: un capo che ti schiaccia, un familiare che ti manipola, un sistema che ti divora, una tentazione che ti assedia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La soluzione non è scegliere tra essere \"buoni e fregati\" o \"cattivi e vincenti\". "
+    },
+    {
+     "t": "strategicamente buoni",
+     "b": true
+    },
+    {
+     "t": ". Conoscere le logiche del potere e del conflitto per usarle al servizio del bene, non per essere usati dal male. \"Prudenti come serpenti e semplici come colombe\" la frase di Gesù non è un compromesso tra due opposti, è una sintesi strategica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "San Francesco non era un ingenuo. Scegliere la povertà non era rifiutare la realtà: era una mossa strategica che gli dava una libertà di manovra che nessun ricco possiede. Il Vangelo non ti chiede di essere stupido: ti chiede di essere intelligente con il cuore."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il diavolo vuole farti giocare un Gioco Finito: \"Se non ottieni questo successo, sei finito. Se cadi in questo peccato, hai perso per sempre\". Dio gioca il Gioco Infinito. La salvezza non si vince in una partita: si resta in partita. Sempre."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gioco Finito vs Gioco Infinito (Carse / Sinek)"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "04"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il Gambetto di Dio"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "L'epilogo del testo è un affresco potente: la Croce come mossa suprema sulla scacchiera della storia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dopo aver passato in rassegna ogni strategia Creazione, Eden, Diluvio, Abramo, Esodo, Legge, Gedeone, Davide, Profeti, Esilio, Giovanni Battista, Gesù il testo arriva al punto: l'umanità ha respinto ogni mossa. Ogni strategia educativa è fallita per la durezza del cuore. Siamo in Zugzwang: qualsiasi mossa umana porta alla morte."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rimane una sola mossa. Quella che nessuno osa immaginare perché va contro ogni istinto di sopravvivenza: "
+    },
+    {
+     "t": "sacrificare il Re",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dio muove Suo Figlio al centro della scacchiera, indifeso, nudo, sulla Croce. L'Avversario, accecato dall'avidità, mangia il pezzo. Ma il Re non è un pezzo come gli altri: è Fuoco Vivo. Nel momento in cui la Morte lo ingoia, esplode dall'interno. La Morte non può digerire Dio. Il sacrificio apparente è Scacco Matto universale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa è l'ultima lezione, la chiave di tutto: la strategia umana serve a vincere. La strategia divina serve a salvare. Sulla Croce, la sconfitta tattica si rivela vittoria strategica assoluta."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Torna all'Ecosistema Geopolitica"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "Sun Tzu, L'Arte della Guerra",
+  "C. von Clausewitz, Della Guerra",
+  "Miyamoto Musashi, Il Libro dei Cinque Anelli",
+  "E. Luttwak, Strategia",
+  "J. Carse, Giochi Finiti e Infiniti",
+  "N. Taleb, Antifragile"
+ ],
+ "stats": {
+  "blocks": 72,
+  "chars": 8062,
+  "hash": "6b8ed9e034797d48002c4f9b87e4ed4fffee72f9c76de63415efa020bb4bc7b5"
+ }
+}

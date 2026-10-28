@@ -1,0 +1,547 @@
+{
+ "id": "teologia-geopolitica-eco-barca-infranta",
+ "slug": "teologia-geopolitica/eco-barca-infranta",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/teologia-geopolitica/eco-barca-infranta",
+ "title": "La Barca Infranta &mdash; Ecosistema TGR &mdash; MetaHistoria",
+ "kicker": "",
+ "lede": "",
+ "category": "teologia-geopolitica",
+ "parentId": "teologia-geopolitica",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ecosistema TGR — Opera 17"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "La Barca Infranta"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Un Viaggio nel Mistero della Chiesa, Santa e Peccatrice"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ecclesiologia narrativa "
+    },
+    {
+     "t": "☨",
+     "b": true
+    },
+    {
+     "t": " Percorso Combattente Tre parti"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Santa e Peccatrice"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un viaggio nel mistero della Chiesa: "
+    },
+    {
+     "t": "divina nell’origine, umana e fragile nella storia",
+     "b": true
+    },
+    {
+     "t": ". La Chiesa, pur essendo divina nella sua origine, è composta da uomini peccatori. La sua storia è anche la storia della sua perenne tentazione di smettere di essere «Anti-Impero» per diventare essa stessa un Impero. Ma la santità non ha mai abbandonato la Barca di Pietro."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Sommario"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    [
+     {
+      "t": "Parte I: L’Ombra della Bestia sulla Barca"
+     }
+    ],
+    [
+     {
+      "t": "Ponte: La Malattia dell’Impero"
+     }
+    ],
+    [
+     {
+      "t": "Parte II: I Semi di Luce nella Notte"
+     }
+    ],
+    [
+     {
+      "t": "Epilogo: Il Dialogo tra i Papi in Paradiso"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I — Pars Destruens"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "L’Ombra della Bestia sulla Barca"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Cinque cadute storiche della Chiesa nella logica imperiale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prima parte del saggio è analitica e spietata. La Chiesa, pur essendo divina nella sua origine, è composta da uomini peccatori. La sua storia è anche la storia della perenne "
+    },
+    {
+     "t": "tentazione di diventare Impero",
+     "b": true
+    },
+    {
+     "t": ", di dimenticare la logica dell’Agnello per abbracciare quella del dominio. Nulla viene nascosto, nulla viene giustificato: la diagnosi deve essere onesta perché la terapia possa essere efficace."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "1 La Tentazione Costantiniana La Bestia del Potere",
+    "La svolta costantiniana del IV secolo: la Chiesa da perseguitata a potere . La fusione tra Trono e Altare, il Vescovo che diventa funzionario imperiale, la fede trasformata in strumento di coesione sociale. L’Anti-Impero fondato da Cristo rischia di diventare il cappellano dell’Impero romano."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "2 L’Idolatria della Legge La Bestia del Controllo",
+    "Il clericalismo, il legalismo, l’Inquisizione. La trasformazione della Buona Notizia in un codice di leggi, del dogma in un’ideologia, della misericordia in giudizio. La Chiesa che dimentica che «il sabato è per l’uomo» e si fa giudice implacabile."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "3 I Tesori della Terra La Bestia del Denaro",
+    "Lo sfarzo rinascimentale, lo Stato Pontificio, gli scandali finanziari. La Chiesa che dimentica i poveri per accumulare ricchezze, che costruisce basiliche d’oro mentre i figli muoiono di fame. La Sposa di Cristo che si adorna come una cortigiana imperiale."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "4 La Spada e la Croce La Bestia della Guerra",
+    "Le Crociate, le «guerre di religione», la benedizione delle armi. La perversione della Croce in un’insegna di guerra. Il Vangelo del Principe della Pace usato per giustificare massacri. La Chiesa che dimentica che «chi di spada ferisce, di spada perisce»."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "5 Lo Scandalo degli Abusi Il Fumo di Satana",
+    "Un capitolo doloroso ma necessario. La piaga degli abusi — sessuali, di potere, di coscienza — analizzata non come colpa di singoli ma come frutto marcio di una cultura clericale di omertà e di auto-protezione istituzionale. È il «fumo di Satana» penetrato nel tempio di Dio."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Parte I si chiude con le parole profetiche dei Papi — le denunce di Francesco contro il clericalismo, di Benedetto XVI contro la «sporcizia» nella Chiesa, di Paolo VI sul «fumo di Satana» — a dimostrare che questa critica non è un attacco esterno. È la "
+    },
+    {
+     "t": "Chiesa stessa",
+     "b": true
+    },
+    {
+     "t": " che, attraverso i suoi pastori più lucidi, riconosce le proprie ferite."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Chiesa non ha bisogno di apologeti che ne nascondano le rughe. Ha bisogno di figli che ne riconoscano le ferite per poterle curare. La verità — anche quella più scomoda — è il primo atto di amore."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "La Chiesa non ha bisogno di apologeti che ne nascondano le rughe. Ha bisogno di figli che ne riconoscano le ferite per poterle curare. La verità — anche quella più scomoda — è il primo atto di amore.La Barca Infranta — Parte I"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Ponte diagnostico"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La Malattia dell’Impero"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "I tre virus che infettano la Chiesa quando cede alla tentazione imperiale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Tra la diagnosi e la terapia, il saggio inserisce un "
+    },
+    {
+     "t": "ponte diagnostico",
+     "b": true
+    },
+    {
+     "t": ": quali sono i virus ricorrenti che infettano la Chiesa ogni volta che cede alla logica imperiale? Tre patologie profonde, tre malattie spirituali che si ripresentano in ogni epoca."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "Virus del Potere — La libido dominandi",
+    "La Chiesa da madre a padrona. L’autorità spirituale si trasforma in dominio temporale, il servizio in controllo, la paternità in paternalismo. La terapia a questo virus ha un nome: Francesco d’Assisi , che ripara la Chiesa non attaccandola ma vivendo il Vangelo sine glossa."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "Virus della Purezza Ideologica",
+    "La dottrina da faro a clava. La verità rivelata, che dovrebbe illuminare, si trasforma in arma per colpire. La caccia agli eretici sostituisce la ricerca della pecorella smarrita. La terapia: i santi della carità , che hanno risposto alle crisi non con trattati ma con ospedali."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "Virus dell’Autosufficienza",
+    "La preoccupazione per l’apparato anziché per la missione. La Chiesa che si guarda l’ombelico, che misura il successo in strutture e non in conversioni. La terapia: i martiri , che ricordano che la Chiesa non è fatta per sopravvivere ma per testimoniare."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte II — Pars Construens"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "I Semi di Luce nella Notte"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La santità che non ha mai abbandonato la Barca di Pietro"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La seconda parte è narrativa, calda, piena di speranza. Nonostante l’ombra del peccato, la "
+    },
+    {
+     "t": "santità non ha mai abbandonato la Barca",
+     "b": true
+    },
+    {
+     "t": ". Lo Spirito Santo ha sempre suscitato profeti, santi e movimenti per richiamare la Chiesa alla sua vera vocazione. La santità è la vera «riforma» permanente, quella che non viene dai piani pastorali ma dall’irruzione della grazia."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "6 La Profezia del Deserto I Padri del Deserto e il Monachesimo",
+    "La storia di Antonio e dei monaci che fuggono dalla Chiesa costantiniana non per rifiutarla, ma per custodirne il cuore ardente nel deserto, opponendo la preghiera allo sfarzo, il silenzio al rumore del potere. La fuga dal mondo non è diserzione: è la scelta di preservare il fuoco quando il palazzo rischia di spegnerlo."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "7 La Rivoluzione della Povertà Francesco d’Assisi",
+    "Di fronte a una Chiesa ricca e potente, Francesco non la attacca: la ripara vivendo il Vangelo sine glossa, in povertà e minorità radicale. Non scrive trattati di riforma: sposa Madonna Povertà. Non organizza campagne: ricostruisce San Damiano pietra su pietra. È la riforma che parte dal basso, dal corpo, dall’esempio."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "8 La Riforma della Carità I Santi Sociali",
+    "Storie di uomini e donne — da Vincenzo de’ Paoli a Madre Teresa — che hanno risposto alle ingiustizie del loro tempo non con trattati teologici ma fondando ospedali, scuole, orfanotrofi. La carità come atto politico , la misericordia come risposta alle ideologie."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "9 Il Martirio come Sconfitta dell’Impero I Martiri Moderni",
+    "Storie di martiri moderni — da Oscar Romero a padre Jacques Hamel — che hanno testimoniato la fede contro le Bestie del totalitarismo e del terrore. La vera forza della Chiesa non è nel potere ma nella fedeltà fino al dono della vita . Il sangue dei martiri è sempre stato seme di nuovi cristiani."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "sys",
+   "parts": [
+    "10 La Santità della Porta Accanto I piccoli semi di luce",
+    "La riflessione sulla santità «nascosta»: i genitori che crescono figli nella fede, gli infermieri che curano con tenerezza, i lavoratori onesti che non si piegano alla corruzione. Sono loro, i piccoli semi di luce , che tengono viva la Chiesa nel quotidiano, lontano dai riflettori e dalle cronache."
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Epilogo mitico"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il Dialogo tra i Papi in Paradiso"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La Chiesa come dovrebbe essere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il saggio si chiude con un "
+    },
+    {
+     "t": "epilogo dialogico e sapienziale",
+     "b": true
+    },
+    {
+     "t": ". In un giardino celeste, tre Papi archetipici si incontrano e discutono sul senso della storia della Chiesa, sulle sue cadute e sulla sua santità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Papa Pietro",
+     "b": true
+    },
+    {
+     "t": ", la Roccia Infranta: il primo, con le sue chiavi e le cicatrici del suo tradimento. Rappresenta la promessa divina e la fragilità umana. È stato scelto non perché forte ma perché peccatore perdonato."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Papa Imperatore",
+     "b": true
+    },
+    {
+     "t": " (un Gregorio, un Leone): rappresenta la grandezza storica della Chiesa, la sua capacità di costruire civiltà, ma anche la sua tentazione del potere. Difende le sue scelte: «Era necessario costruire, governare, usare il potere per difendere la fede!»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Papa Pellegrino",
+     "b": true
+    },
+    {
+     "t": " (un Francesco, un Giovanni Paolo II): rappresenta la Chiesa in uscita, che si spoglia del potere per tornare al Vangelo. Conclude con sapienza: «La Chiesa ha un corpo storico, visibile. Ma il suo cuore deve rimanere quello di Pietro, quello del servo. La nostra missione non è governare il mondo, ma lavargli i piedi»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nella storia, siamo stati una barca infranta, sempre sul punto di affondare. Ma la promessa era vera: le porte degli inferi non hanno prevalso. E ora… ora siamo a casa."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Nella storia, siamo stati una barca infranta, sempre sul punto di affondare. Ma la promessa era vera: le porte degli inferi non hanno prevalso. E ora… ora siamo a casa.Papa Pietro — Dialogo tra i Papi in Paradiso"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I tre si voltano e guardano la Chiesa come è in Paradiso: non più una gerarchia, ma una "
+    },
+    {
+     "t": "comunione di santi",
+     "b": true
+    },
+    {
+     "t": ", un’immensa famiglia, la «Gerusalemme Celeste». È la Sposa dell’Agnello, finalmente «senza macchia né ruga». La Barca è arrivata al porto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Torna all’Ecosistema TGR"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [],
+ "stats": {
+  "blocks": 50,
+  "chars": 8861,
+  "hash": "da7158af45f7c7092c32c61bff39763b13d30f99976f393d61e3b1120911bab0"
+ }
+}

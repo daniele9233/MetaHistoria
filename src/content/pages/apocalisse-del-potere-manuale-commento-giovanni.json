@@ -1,0 +1,830 @@
+{
+ "id": "apocalisse-del-potere-manuale-commento-giovanni",
+ "slug": "apocalisse-del-potere/manuale-commento-giovanni",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/apocalisse-del-potere/manuale-commento-giovanni",
+ "title": "Il Volto e il Potere",
+ "kicker": "Lente 05 · M",
+ "lede": "Luce, desiderio e verità nel Vangelo di Giovanni — Commento teologico, psicologico e geopolitico al Vangelo di Giovanni. Manuale dell'incontro. In Giovanni Cristo non combatte il potere: lo espone alla luce. Il conflitto non è morale né politico ma ontologico: luce e controllo, relazione e possesso, verità e gestione, presenza e sistema.",
+ "category": "apocalisse-del-potere",
+ "parentId": "apocalisse-del-potere",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Apocalisse del Potere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Lente 05 · M"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il Volto e il Potere"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Luce, desiderio e verità nel Vangelo di Giovanni — Commento teologico, psicologico e geopolitico al Vangelo di Giovanni. Manuale dell'incontro. In Giovanni Cristo non combatte il potere: lo espone alla luce. Il conflitto non è morale né politico ma ontologico: luce e controllo, relazione e possesso, verità e gestione, presenza e sistema."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Volto e il Potere",
+     "i": true
+    },
+    {
+     "t": " — Luce, desiderio e verità nel Vangelo di Giovanni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ottavo volume della collana. Nel Vangelo di Giovanni il conflitto fondamentale non è morale, politico o filosofico: è "
+    },
+    {
+     "t": "ontologico",
+     "b": true
+    },
+    {
+     "t": ". È lo scontro tra luce e controllo, tra relazione e possesso, tra verità e gestione, tra presenza e sistema. Ogni capitolo si articola in tre movimenti: "
+    },
+    {
+     "t": "Evocazione",
+     "b": true
+    },
+    {
+     "t": " (la scena biblica), "
+    },
+    {
+     "t": "Autopsia",
+     "b": true
+    },
+    {
+     "t": " (l'analisi geopolitica) e "
+    },
+    {
+     "t": "Omelia",
+     "b": true
+    },
+    {
+     "t": " (l'applicazione oggi)."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Mappa del Manuale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PROLOGO"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Logos si fa carne"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "In principio era il Logos · La luce splende nelle tenebre"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE I · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Luce entra nel Mondo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "In principio era il Logos · La luce e le tenebre · Cana e il vino nuovo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE II · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Tempio e il Controllo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rovesciare i tavoli · Nicodemo e la notte · La Samaritana"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE III · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Folla, il Pane e il Consenso"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il pane e la massa · Volevano farlo re · Il cieco nato"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE IV · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Sistema Reagisce"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lazzaro e il panico del potere · Caifa e la ragion di Stato · Pilato"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE V · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Spogliazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lavare i piedi · Il Getsemani di Giovanni · La croce"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE VI · 3 capitoli"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Giardino e il Volto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Maria Maddalena · Tommaso · «Seguimi»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "EvocazioneAutopsiaOmelia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "verse",
+   "runs": [
+    {
+     "t": "«In principio era il Logos, e il Logos era presso Dio, e il Logos era Dio. Egli era, in principio, presso Dio: tutto è stato fatto per mezzo di lui. In lui era la vita e la vita era la luce degli uomini.» (Giovanni 1,1-4)"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nel Vangelo di Giovanni il conflitto fondamentale non è morale, politico o filosofico: è "
+    },
+    {
+     "t": "ontologico",
+     "b": true
+    },
+    {
+     "t": ". È lo scontro tra luce e controllo, tra relazione e possesso, tra verità e gestione, tra presenza e sistema. Il potere non appare solo come Impero ma come paura della perdita, bisogno di controllo, gestione religiosa, manipolazione del consenso. E Cristo non combatte il potere: lo espone. Lo guarda. E il potere non regge quello sguardo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Volto e il Potere",
+     "b": true
+    },
+    {
+     "t": " è l'ottavo volume della collana MetaHistoria. Ogni capitolo si articola in tre movimenti: "
+    },
+    {
+     "t": "Evocazione",
+     "b": true
+    },
+    {
+     "t": ", "
+    },
+    {
+     "t": "Autopsia",
+     "b": true
+    },
+    {
+     "t": ", "
+    },
+    {
+     "t": "Omelia",
+     "b": true
+    },
+    {
+     "t": ". Un percorso per chi vuole incontrare il Vangelo non come manuale di morale ma come esposizione del vero volto di Dio — e del vero volto del potere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE I"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "La Luce entra nel Mondo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Logos, le tenebre, la festa di Cana"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 1 In principio era il Logos",
+    "«In principio era il Logos, e il Logos era presso Dio, e il Logos era Dio.» (Giovanni 1,1) Evocazione Il senso ha un volto Il Prologo di Giovanni è il testo più denso del Nuovo Testamento. L'evangelista non inizia con un presepe ma con il principio assoluto: «In principio era il Logos». Logos è parola, ragione, senso, ordine. Ciò che i greci cercavano nella filosofia, ciò che gli ebrei trovavano nella Torah, Giovanni lo identifica con una persona. Il senso dell'universo non è un'idea ma un volto. «E il Logos si fece carne»: la carne ( sarx ) è la realtà più fragile, più esposta, più mortale. Il senso dell'universo sceglie di abitare la fragilità. Autopsia La geopolitica del fondamento Ogni civiltà ha il suo Logos fondativo: un'idea di ordine, una narrazione di senso. L'Occidente ha avuto la Ragione illuminista, il Progresso, la Libertà. Ma quando il Logos diventa astratto, disincarnato, genera ideologia. Giovanni propone un Logos che si fa carne: il senso non è un concetto da possedere ma una persona da incontrare. La geopolitica del Logos è la ricerca di un fondamento che non si imponga con la violenza ma si offra con la presenza. Ogni impero costruisce statue: oro, argento, bronzo, ferro. Il Logos non costruisce statue: si fa carne. L'incarnazione è l'atto più politico della storia perché ridefinisce radicalmente cosa significa «potere». Qual è il Logos della tua vita? L'idea, il principio, il senso a cui hai consacrato la tua esistenza? È un'astrazione o ha un volto? Il cristianesimo non è un'idea: è una persona. Non aderisci a un sistema. Incontri qualcuno. E quell'incontro è la fine di ogni ideologia e l'inizio di ogni libertà. Il senso ha un volto"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 2 La luce e le tenebre",
+    "«La luce splende nelle tenebre, e le tenebre non l'hanno accolta.» (Giovanni 1,5) Evocazione La luce rifiutata Giovanni non dice che le tenebre non hanno visto la luce. Dice che «non l'hanno accolta» ( katelaben : può significare anche «non l'hanno vinta»). È un rifiuto attivo. La luce viene, ma le tenebre si chiudono. Non per ignoranza ma per difesa. Vedere significa essere visti, e l'uomo ha paura di essere visto davvero. Preferisce le tenebre dove può nascondersi. Il paradosso è che le tenebre non vincono la luce — non possono vincerla — ma possono rifiutare di accoglierla. E questo rifiuto è la definizione stessa del peccato in Giovanni. Autopsia La geopolitica del segreto Ogni potere ama le tenebre. Le decisioni prese in segreto, le trattative opache, i verbali secretati. La trasparenza totale è la fine del potere come dominio. La geopolitica contemporanea è piena di «tenebre che non accolgono la luce»: dai paradisi fiscali ai server criptati, dalle fake news alla sorveglianza occulta. Ma la luce cristiana non è un'ideologia: è l'esposizione della realtà allo sguardo di Dio. Chi ha paura della luce non è chi sbaglia, è chi ha qualcosa da nascondere. E il potere — ogni potere — ha sempre qualcosa da nascondere. Cosa nascondi? Non agli altri: a te stesso. Quali zone della tua vita sono al buio non perché non hai visto la luce ma perché non l'hai accolta? La luce di Cristo non ti condanna: ti espone. E l'esposizione è l'inizio della guarigione. Non aver paura della luce. La luce non è un giudice. È l'alba dopo una notte troppo lunga. La luce rifiutata"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 3 Cana e il vino nuovo",
+    "«Gesù disse ai servitori: «Riempite d'acqua le giare». Le riempirono fino all'orlo. Disse loro: «Ora prendetene e portatene al maestro di tavola». Il maestro di tavola assaggiò l'acqua diventata vino.» (Giovanni 2,7-9) Evocazione Uno spreco d'amore Cana non è un miracolo spettacolare. È un gesto iperbolico di generosità. Seicento litri di vino per una festa di paese! E vino buono, il migliore, servito alla fine quando ormai «tutti sono ubriachi». Gesù non fa l'elemosina del necessario: dona il superfluo della gioia. Il suo primo segno rivela il cuore del suo ministero: non è venuto a imporre regole ma a portare gioia. Le giare di pietra erano per la purificazione rituale: la religione del dovere si trasforma in festa di nozze. L'acqua della Legge diventa il vino dello Spirito. Autopsia La geopolitica della festa Cana è il manifesto di un cristianesimo festivo contro il cristianesimo moralistico. La società contemporanea cerca la gioia nel consumo e trova solo dipendenza. Cana mostra che la gioia vera non viene dall'accumulo — il vino non lo comprano, lo ricevono — ma dalla trasformazione dell'acqua quotidiana. La geopolitica della festa è questa: la comunità che celebra la presenza di Dio è già un'anticipazione del Regno. E il Regno non è austerità moralistica: è banchetto, è vino buono, è danza. Ogni potere che reprime la gioia è un potere anti-evangelico. Dov'è finita la gioia nella tua fede? Preoccupato di essere moralmente a posto, hai dimenticato che Gesù è venuto per la festa? Il primo segno è per gli sposi in difficoltà. Dio si preoccupa che la festa riesca. La tua fede sa ancora di vino buono o è diventata acqua insapore? Il vino della festa"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE II"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Il Tempio e il Controllo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La frusta, la notte, il pozzo di Sicar"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 4 Rovesciare i tavoli",
+    "«Trovò nel tempio gente che vendeva buoi, pecore e colombe e i cambiavalute seduti. Fece una frusta di cordicelle e scacciò tutti dal tempio. [...] «Portate via queste cose e non fate della casa del Padre mio un mercato!».» (Giovanni 2,14-16) Evocazione La frusta nel tempio Gesù non è il mite predicatore dell'immaginario popolare. Nel Tempio impugna una frusta, rovescia tavoli, scaccia mercanti e animali. È un attacco diretto al sistema economico-religioso. Il Tempio era diventato un mercato: per avvicinarsi a Dio dovevi pagare, cambiare moneta, comprare animali per il sacrificio. I poveri ne erano esclusi. Gesù non contesta il culto ma la sua mercificazione. «Non fate della casa del Padre mio un mercato». Non è una riforma liturgica: è una dichiarazione di guerra al sistema che monetizza il sacro. Autopsia La geopolitica del sacro mercificato Quando la religione diventa economia e l'economia diventa religione, si crea un sistema di potere perfetto perché invisibile. Non si vede più la differenza tra Dio e Mammona. Le indulgenze medievali, i predicatori televisivi che chiedono soldi, la teologia della prosperità: Gesù rovescerebbe anche i loro tavoli. Ogni istituzione che monetizza il sacro si condanna da sola. Il Tempio doveva essere casa di preghiera per tutti i popoli; è diventato un'esclusiva per chi può pagare. La frusta di Gesù è il giudizio di Dio su ogni religione trasformata in business. C'è un «mercato» nella tua vita spirituale? Dai a Dio per ricevere? Tratti la fede come una transazione? La grazia non si compra. Non si vende. Si riceve gratis. E se hai fatto della tua religione un commercio, lascia che la frusta di Cristo rovesci i tuoi tavoli. Fa male. Ma è l'inizio della guarigione. La frusta nel tempio"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 5 Nicodemo e la notte",
+    "«C'era tra i farisei un uomo di nome Nicodemo, un capo dei Giudei. Egli andò da Gesù di notte. «Rabbi, sappiamo che sei venuto da Dio come maestro. [...] Gli rispose Gesù: «In verità ti dico, se uno non nasce dall'alto, non può vedere il regno di Dio».» (Giovanni 3,1-3) Evocazione La notte dell'establishment Nicodemo è l'uomo che ha tutto: sapere, posizione, reputazione. È un capo, un maestro, un fariseo stimato. Eppure va da Gesù di notte. Perché di notte? Paura? Vergogna? O forse perché è solo di notte che le nostre certezze diurne si incrinano? Gesù lo spiazza: non gli dà una risposta ma una sfida: «Devi nascere dall'alto». Non devi migliorare: devi rinascere. Non è una correzione: è una ricreazione. Nicodemo è un uomo religioso, colto, rispettabile — e Gesù gli dice che tutto questo non basta. Deve ricominciare da capo. Autopsia La geopolitica dell'élite spirituale Nicodemo rappresenta ogni establishment religioso e politico che riconosce la verità ma non ha il coraggio di convertirsi pubblicamente. L'élite che dialoga col profeta ma di nascosto, che ammira il rivoluzionario ma non lo segue, che riconosce la luce ma rimane nell'ombra. Alla fine Nicodemo tornerà: difenderà Gesù nel Sinedrio (Gv 7) e porterà cento libbre di mirra per la sepoltura (Gv 19). La notte di Nicodemo è lunga, quasi tutto il Vangelo. Ma alla fine arriva l'alba. La conversione delle élite è lenta, faticosa, ma possibile. Anche tu vieni da Gesù di notte? In segreto, quando nessuno ti vede? Va bene così. La notte è un inizio. Ma Gesù non ti lascerà nella notte: ti chiamerà alla luce, gradualmente, un passo alla volta. Sei disposto a nascere di nuovo? Non a migliorare. A rinascere. È una domanda che fa paura. Ma è l'unica che conta. La notte di Nicodemo"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 6 La Samaritana",
+    "«Gesù le rispose: «Chiunque beve di quest'acqua avrà di nuovo sete; ma chi beve dell'acqua che io gli darò non avrà più sete in eterno. L'acqua che io gli darò diventerà in lui una sorgente che zampilla per la vita eterna».» (Giovanni 4,13-14) Evocazione Sete, vergogna e riconoscimento Al pozzo di Sicar, nell'ora più calda, Gesù incontra una donna samaritana con cinque mariti e un sesto uomo che non è suo marito. Tutti i confini vengono infranti: uomo/donna, giudeo/samaritano, puro/impuro. Gesù non predica: dialoga. Conduce la donna a riconoscere la sua sete più profonda: non quella di acqua ma quella di amore, di essere vista senza essere giudicata. Alla fine la donna lascia la brocca — l'oggetto del suo lavoro, la sua identità sociale — e corre in città ad annunciare. Diventa la prima evangelista. Autopsia La geopolitica dell'attraversamento La Samaritana è il modello di ogni evangelizzazione che attraversa i conflitti invece di evitarli. Gesù non evita Samaria (come facevano i giudei osservanti). L'attraversa. Non evita la donna di cui tutti sparlano. La incontra. La geopolitica dello Spirito non si ferma ai confini etnici, religiosi, morali. Dove gli uomini vedono nemici, Gesù vede seti. La donna è samaritana (nemica etnica), donna (inferiore sociale), peccatrice (esclusa morale). Gesù attraversa tutte e tre le barriere in un solo incontro. E lei diventa missionaria: «Venite a vedere un uomo che mi ha detto tutto quello che ho fatto». Quali sono i tuoi pozzi di Sicar? I luoghi e le persone che eviti? La tua Samaria personale? Non attraversarla è più comodo. Ma è lì che Gesù ti aspetta. Seduto al pozzo, nell'ora più calda, stanco del viaggio. Ti aspetta per dirti tutto quello che hai fatto — e per amarti lo stesso. L'acqua che zampilla"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE III"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "La Folla, il Pane e il Consenso"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La massa, il re rifiutato, il cieco che vede"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 7 Il pane e la massa",
+    "«In verità vi dico: voi mi cercate non perché avete visto dei segni, ma perché avete mangiato di quei pani e vi siete saziati. Procuratevi non il cibo che perisce, ma il cibo che dura per la vita eterna.» (Giovanni 6,26-27) Evocazione Perché mi cercate? Dopo la moltiplicazione dei pani, la folla cerca Gesù. Lui smaschera la loro motivazione: «Voi mi cercate perché avete mangiato». Non per fede ma per interesse. Non perché hanno riconosciuto il Messia ma perché hanno riempito lo stomaco gratis. Gesù rifiuta questo consenso. Non vuole seguaci che lo cercano per i benefici materiali. Propone invece un discorso durissimo: «Io sono il pane vivo. Chi mangia la mia carne avrà la vita eterna». La folla mormora, molti se ne vanno. «Volete andarvene anche voi?» chiede ai Dodici. Autopsia La geopolitica del consenso comprato Il consenso politico funziona esattamente così: promette sazietà immediata. I populismi di destra e sinistra moltiplicano pani e pesci elettorali: sussidi, bonus, promesse. Ma il consenso fondato sul bisogno è fragile: appena manca il pane, la folla si rivolta. Gesù rifiuta questa logica. Preferisce perdere consenso che fondarlo sull'interesse. È una lezione per ogni leader spirituale e politico: non puoi comprare la fedeltà della gente. La folla che oggi ti acclama domani ti crocifigge. Solo chi ti segue per ciò che sei, non per ciò che dai, resterà. Perché segui Gesù? Per quello che ti dà o per quello che è? La tua fede si regge sui benefici o sulla persona? Se domani perdessi tutto — salute, lavoro, affetti — lo seguiresti ancora? È la domanda che Gesù fece ai Dodici. È la domanda che fa a te, oggi. Perché mi cercate?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 8 «Volevano farlo re»",
+    "«Allora la gente, visto il segno che egli aveva compiuto, diceva: «Questi è davvero il profeta che deve venire nel mondo!». Ma Gesù, sapendo che venivano a prenderlo per farlo re, si ritirò di nuovo sul monte, tutto solo.» (Giovanni 6,14-15) Evocazione La fuga del re Gesù fugge. Quando la folla vuole incoronarlo, lui sparisce. Sale sul monte da solo. Non è falsa modestia: è rifiuto sistematico del potere politico. La sua regalità non è di questo mondo. Il Messia non è un leader politico più efficace degli altri: è un'altra categoria. La folla proietta su di lui il proprio desiderio di dominio: se Gesù diventasse re, Israele sarebbe libero dai romani. Ma Gesù non è venuto per sostituire un dominio con un altro. È venuto per abolire la logica stessa del dominio. Autopsia La geopolitica della tentazione permanente La tentazione di usare il consenso popolare per prendere il potere è permanente nella storia della Chiesa. Da Costantino in poi, quante volte il cristianesimo ha ceduto alla logica del «farlo re»? I regimi di cristianità, le guerre di religione, i partiti cristiani: il rischio è sempre lo stesso — confondere il Regno di Dio con un regno umano. Gesù fugge dal potere anche quando gli viene offerto democraticamente. La sua è una lezione definitiva: il Vangelo non è un programma politico. È un'altra cosa. E guai a chi lo riduce a ideologia. Hai mai cercato di «fare re» Gesù per i tuoi scopi? Usare la fede per ottenere approvazione sociale, potere, influenza? Trasformare il Vangelo in una bandiera da sventolare? Gesù non si lascia strumentalizzare. Anche oggi, quando cerchi di incoronarlo per i tuoi progetti, lui fugge sul monte. Resta solo. Ti aspetta lassù. Non per ricevere una corona. Per incontrare te. La fuga del re"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 9 Il cieco nato",
+    "«Passando vide un uomo cieco dalla nascita. I discepoli lo interrogarono: «Rabbi, chi ha peccato, lui o i suoi genitori, perché sia nato cieco?». Rispose Gesù: «Né lui né i suoi genitori, ma perché in lui siano manifestate le opere di Dio».» (Giovanni 9,1-3) Evocazione Vedere e perdere Il cieco nato riceve la vista. Ma la sua guarigione diventa un processo, un'indagine. I farisei lo interrogano, chiamano i genitori, lo espellono dalla sinagoga. Guadagna la vista ma perde la comunità. Perché? Perché il miracolo è avvenuto di sabato. La guarigione non conta: conta la regola. I farisei vedono ma non vogliono vedere. Il cieco non vedeva ma ora vede — e paga il prezzo di vedere. Alla fine Gesù lo cerca, lo trova, e il cieco fa la sua professione di fede: «Credo, Signore!». Autopsia La geopolitica della procedura contro la verità Ogni verità scomoda viene gestita dal sistema come un problema procedurale. I farisei non discutono se il miracolo è vero: discutono se era lecito farlo di sabato. È la tecnica di ogni burocrazia del potere: spostare la questione dalla sostanza alla procedura. Il cieco guarito è ogni whistleblower, ogni voce scomoda che dice ciò che ha visto e viene espulso per questo. La domanda dei farisei — «chi ha peccato?» — è la domanda di ogni sistema che cerca un colpevole invece di cercare la verità. Gesù rifiuta la logica retributiva: il male non è punizione. È occasione perché si manifesti la gloria di Dio. Sei disposto a vedere, anche se vedere significa perdere? Il cieco nato ha perso la sinagoga ma ha trovato Gesù. La verità ha un costo. Ma la cecità ne ha uno più alto. Quali verità stai evitando di vedere per paura delle conseguenze? Cristo ti sta chiamando fuori dalla cecità. Ma uscire significa anche essere espulsi. Ne vale la pena? Il cieco nato ti risponde di sì. Vedere e perdere"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE IV"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Il Sistema Reagisce"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lazzaro, Caifa, Pilato: il potere in panico"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 10 Lazzaro e il panico del potere",
+    "«Gesù gridò a gran voce: «Lazzaro, vieni fuori!». Il morto uscì, i piedi e le mani legati con bende, e il viso avvolto da un sudario. Molti dei Giudei che erano venuti da Maria, visto ciò che aveva compiuto, credettero in lui. Ma alcuni andarono dai farisei e riferirono loro quello che Gesù aveva fatto. Allora i capi dei sacerdoti e i farisei riunirono il sinedrio.» (Giovanni 11,43-47) Evocazione Il morto che disturba Lazzaro è l'ultimo segno, il più spettacolare. Un morto di quattro giorni esce dalla tomba. Molti credono. Ma per le autorità è la goccia che fa traboccare il vaso. Riunione d'urgenza del Sinedrio. Il miracolo non viene negato: viene visto come minaccia. Se tutti credono in Gesù, i romani interverranno e distruggeranno il Tempio e la nazione. Meglio che uno muoia per tutto il popolo. Lazzaro è vivo, ma la sua resurrezione è la condanna a morte di Gesù. Autopsia La geopolitica della minaccia esistenziale La resurrezione di Lazzaro mostra che il sistema non teme il falso profeta ma il vero. Un falso profeta lo gestisci, lo compri, lo screditi. Ma quando un uomo risuscita un morto, il sistema va in cortocircuito. Non può tollerare ciò che non può spiegare né controllare. Ogni riformatore autentico, ogni innovatore radicale, è un Lazzaro per il sistema: va eliminato non perché sbaglia ma perché la sua sola esistenza rende instabile l'ordine costituito. La resurrezione è l'atto più sovversivo possibile: dimostra che la morte — l'arma finale del potere — non ha l'ultima parola. Se la tua fede non disturba nessuno, forse non è fede. Una fede che risuscita morti — letteralmente o metaforicamente: relazioni spezzate, speranze sepolte, comunità morte — spaventa. Sei disposto a essere una minaccia per il sistema? Non con la violenza. Con la vita. Con la resurrezione. Il morto che disturba"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 11 Caifa e la ragion di Stato",
+    "«Uno di loro, Caifa, che era sommo sacerdote quell'anno, disse: «Voi non capite nulla! Non vi rendete conto che è conveniente per voi che un solo uomo muoia per il popolo e che non vada in rovina la nazione intera!».» (Giovanni 11,49-50) Evocazione La ragion di Stato Caifa è il tecnocrate del potere. Non è malvagio in senso classico: è pragmatico. Il suo ragionamento è impeccabile: se Gesù continua, i romani interverranno. Meglio sacrificare un uomo che perdere la nazione. L'ironia tragica è che Caifa sta profetizzando senza saperlo: Gesù muore davvero per il popolo, ma non nel senso che Caifa intende. La ragion di Stato giustifica l'omicidio in nome della stabilità. «È conveniente»: il verbo del cinismo politico. Autopsia La geopolitica del capro espiatorio Il principio di Caifa governa la geopolitica mondiale. Guerre preventive, esecuzioni extragiudiziali, sacrificio di minoranze: tutto in nome della stabilità. «È meglio che uno muoia per il popolo». È la logica del capro espiatorio descritta da René Girard: la comunità in crisi si ricompatta eliminando una vittima. Caifa è ogni leader che sacrifica la giustizia sull'altare dell'ordine. È il politico che bombarda un villaggio per «salvare la nazione», il manager che licenzia per «salvare l'azienda», il religioso che espelle l'eretico per «salvare la comunità». Quante volte hai applicato il principio di Caifa nella tua vita? Sacrificato una persona, una relazione, un valore in nome della stabilità? «È meglio così», ti sei detto. Ma chi ha pagato il prezzo? La ragion di Stato è anche la ragione del tuo piccolo stato personale. Riconoscila. E rifiutala. La ragion di Stato"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 12 Pilato",
+    "«Pilato gli disse: «Che cos'è la verità?». E detto questo uscì di nuovo verso i Giudei e disse loro: «Io non trovo in lui nessuna colpa».» (Giovanni 18,38) Evocazione Le mani lavate Pilato è il funzionario imperiale. Non odia Gesù. Anzi, lo trova innocente e cerca di liberarlo. Ma quando la folla grida, quando il rischio di una rivolta si profila, Pilato cede. Si lava le mani. La sua domanda — «Che cos'è la verità?» — non è filosofica: è cinica. Pilato ha visto troppe «verità» per credere ancora che esista. È l'uomo del sistema che ha rinunciato a distinguere il vero dal falso. Per lui conta solo l'ordine. La verità è davanti a lui, in carne e ossa, e lui non la vede. O non vuole vederla. Autopsia La geopolitica della banalità del male Pilato è il volto più inquietante del potere: quello burocratico. Non è Hitler. È il funzionario che firma la condanna a morte perché è il suo lavoro. La banalità del male descritta da Hannah Arendt è già qui, nel pretorio di Gerusalemme. Pilato sa che Gesù è innocente ma lo condanna lo stesso. Perché mantenere l'ordine è più importante che fare giustizia. Quanti Pilato ci sono oggi nelle amministrazioni, nelle aziende, nelle istituzioni? Persone che sanno qual è la cosa giusta ma non la fanno. Non per cattiveria. Per paura. Per calcolo. Per carriera. Dove sei Pilato nella tua vita? Dove sai qual è la cosa giusta ma non la fai per paura delle conseguenze? Dove ti lavi le mani? La verità non è una domanda filosofica: è una persona davanti a te. In questo momento. Cosa ne fai? La guardi o ti giri dall'altra parte? Le mani lavate"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE V"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "La Spogliazione"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L'asciugamano, la preghiera, la croce"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 13 Lavare i piedi",
+    "«Gesù, sapendo che il Padre gli aveva dato tutto nelle mani e che era venuto da Dio e a Dio tornava, si alzò da tavola, depose le vesti, prese un asciugamano e se lo cinse alla vita. Poi versò dell'acqua nel catino e cominciò a lavare i piedi dei discepoli.» (Giovanni 13,3-5) Evocazione L'asciugamano del Maestro Nell'Ultima Cena, al posto dell'istituzione dell'Eucaristia (che Giovanni sorprendentemente omette), c'è la lavanda dei piedi. Il gesto più umile, riservato agli schiavi. Gesù si spoglia delle vesti, prende l'asciugamano, si inginocchia. Pietro protesta: «Tu non mi laverai mai i piedi!». È la protesta di chi non accetta un Dio inginocchiato. Ma Gesù insiste: «Se non ti laverò, non avrai parte con me». L'autorità di Gesù non sta sopra ma sotto. Il potere del Vangelo è il servizio. Non è una lezione morale: è la ridefinizione ontologica del potere. Autopsia La geopolitica del servizio La lavanda dei piedi è il manifesto di ogni autorità cristiana. Non è un gesto simbolico: è la definizione stessa del potere nel Regno. Ogni leader che non serve è un anti-Cristo, qualunque titolo porti. La geopolitica del servizio sovverte la geopolitica del dominio. Non si tratta di essere «umili» come posa morale: si tratta di ridefinire la natura stessa del potere. Il potere non come controllo ma come dono. Non come dominio ma come lavanda. Il mondo ha bisogno di leader che si inginocchiano. E la Chiesa per prima. A chi stai lavando i piedi? E — domanda più difficile — ti lasci lavare i piedi? Pietro non voleva essere servito. Anche tu fai resistenza. Non vuoi che Dio si inginocchi davanti a te. Ma senza lasciarti amare, non puoi amare. Senza accettare di essere servito, non puoi servire. La lavanda è reciproca. Ricevila. L'asciugamano del Maestro"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 14 Il Getsemani di Giovanni",
+    "«Padre, è venuta l'ora: glorifica il Figlio tuo perché il Figlio glorifichi te. [...] Non prego solo per questi, ma anche per quelli che crederanno in me mediante la loro parola: perché tutti siano una sola cosa.» (Giovanni 17,1.20-21) Evocazione La preghiera per te Giovanni non racconta l'agonia del Getsemani come i sinottici. Al suo posto c'è la «preghiera sacerdotale» (Gv 17), il vertice teologico del Vangelo. Gesù prega per i discepoli e per «quelli che crederanno». Prega per te. Mentre Giuda sta arrivando con le guardie, Gesù non trema: intercede. La sua gloria non è nel momento del trionfo ma nel momento dell'abbandono. Amare fino alla fine significa pregare per i nemici mentre vengono ad arrestarti. E pregare per quelli che devono ancora nascere. Autopsia La geopolitica dell'unità La preghiera sacerdotale è l'atto più politico di Gesù. Non chiede potere o vittoria ma unità: «perché tutti siano una sola cosa». L'unità dei credenti è il segno visibile della presenza di Dio nel mondo. La divisione dei cristiani è il più grande ostacolo all'evangelizzazione. Gesù non ha pregato perché i cristiani fossero potenti ma perché fossero uno. L'unità non è uniformità: è comunione nella diversità. È il riflesso della vita trinitaria. La Chiesa divisa è il principale argomento degli atei. Gesù lo sapeva. Per questo ha pregato per l'unità prima di ogni altra cosa. Gesù ha pregato per te. «Quelli che crederanno in me mediante la loro parola»: sei tu. Sei stato nominato nell'ultima preghiera prima della croce. Non sei un cristiano qualsiasi: sei uno per cui Gesù ha pregato personalmente. Come ti fa sentire? E come vivi l'unità con gli altri credenti? Costruisci ponti o alzi muri? La preghiera per te"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 15 La croce",
+    "«Quando Gesù ebbe preso l'aceto, disse: «È compiuto!». E, chinato il capo, rese lo spirito.» (Giovanni 19,30) Evocazione Tetelestai — è compiuto La croce in Giovanni non è sconfitta ma elevazione. Gesù è «innalzato» da terra. Non subisce: compie. «È compiuto» ( tetelestai ): non «è finita» come resa, ma «è portato a compimento» come un'opera. La croce è il trono. L'iscrizione in ebraico, latino e greco — le tre lingue dell'Impero — proclama al mondo intero: «Gesù il Nazareno, il Re dei Giudei». Pilato scrive la verità senza saperlo. Il soldato trafigge il costato ed escono sangue e acqua: i sacramenti della Chiesa. Dal fianco del nuovo Adamo nasce la nuova Eva. Autopsia La geopolitica della croce La croce è il centro della geopolitica cristiana. Non come simbolo di sofferenza da infliggere ma come rivelazione del vero volto del potere: il potere che si dona. L'Impero romano crocifiggeva per terrorizzare. La croce era il patibolo degli schiavi e dei ribelli. Gesù la trasforma nel trono della gloria. Ogni potere che uccide crede di vincere ma mostra la propria debolezza. Ogni vittima innocente è un giudizio sul sistema che la uccide. La croce non è un incidente: è il momento in cui il potere svela il suo vero volto — e Dio svela il suo. Sulla croce il potere appare come violenza che uccide l'innocente; Dio appare come amore che si dona fino alla fine. «È compiuto». Non «sono finito». Cosa deve essere compiuto nella tua vita? Non sconfitto ma portato a pienezza? Anche la tua sofferenza, unita a quella di Cristo, può diventare compimento. Non subire la croce: abbracciala. Non è masochismo. È la via della resurrezione. Tetelestai — è compiuto"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "PARTE VI"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Il Giardino e il Volto"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Maria, Tommaso, e l'ultima parola: «Seguimi»"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 16 Maria Maddalena",
+    "«Maria stava all'esterno, vicino al sepolcro, e piangeva. [...] Gesù le disse: «Maria!». Ella si voltò e gli disse in ebraico: «Rabbunì!», che significa: «Maestro!».» (Giovanni 20,11.16) Evocazione Maria! Maria Maddalena è la prima testimone della resurrezione. Ma non riconosce subito Gesù: lo scambia per il giardiniere. È ancora avvolta nel lutto. Solo quando Gesù la chiama per nome — «Maria!» — lei si volta e lo riconosce. La resurrezione non è un evento spettacolare ma un incontro personale. Gesù risorto non appare alle folle ma ai singoli, chiamandoli per nome. E affida a Maria — una donna, in un mondo dove la testimonianza femminile non aveva valore legale — l'annuncio più importante della storia. «Va' dai miei fratelli e di' loro...». Maria è l'apostola degli apostoli. Autopsia La geopolitica della testimonianza femminile La scelta di Maria Maddalena come prima testimone è una rivoluzione antropologica. In una cultura dove le donne non potevano testimoniare in tribunale, Dio affida a una donna la testimonianza fondante del cristianesimo. Se la resurrezione fosse un'invenzione, nessun inventore del I secolo avrebbe scelto una donna come primo testimone. La resurrezione non cancella il lutto: lo attraversa. Maria piange ancora quando Gesù le appare. La gioia pasquale non è negazione del dolore ma sua trasfigurazione. Il giardino della resurrezione è il nuovo Eden: Maria, la nuova Eva, incontra il nuovo Adamo. Gesù ti chiama per nome. Non come «caro fedele» o «cara anima» ma come te: col tuo nome, la tua storia, le tue lacrime. Come Maria, potresti non riconoscerlo subito. Lo scambierai per un giardiniere, per un caso, per una coincidenza. Ma quando sentirai il tuo nome, ti volterai. Sei in ascolto? «Maria!». Sostituisci il tuo nome. Lui ti sta chiamando. Adesso. Maria!"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 17 Tommaso",
+    "«Tommaso, uno dei Dodici, chiamato Didimo, non era con loro quando venne Gesù. Gli dissero gli altri discepoli: «Abbiamo visto il Signore!». Ma egli disse loro: «Se non vedo nelle sue mani il segno dei chiodi e non metto il mio dito nel segno dei chiodi e non metto la mia mano nel suo fianco, non crederò».» (Giovanni 20,24-25) Evocazione Mio Signore e mio Dio Tommaso è passato alla storia come «l'incredulo», ma è l'unico apostolo che esprime esattamente ciò che chiunque avrebbe pensato. Gli altri hanno visto; lui no. Perché dovrebbe credere? La sua richiesta non è blasfema: è umana. Vuole toccare le ferite. E Gesù, otto giorni dopo, appare proprio a lui e gli offre le ferite. «Metti qui il tuo dito». Tommaso non ha più bisogno di toccare: cade in ginocchio. «Mio Signore e mio Dio!». È la più alta confessione di fede del Nuovo Testamento. L'incredulo diventa il credente per eccellenza. Autopsia La geopolitica delle ferite La fede non è irrazionale: è relazionale. Tommaso non chiede una prova logica ma un incontro. Gesù non risponde con argomenti ma con la sua presenza ferita. Le ferite del Risorto — ancora visibili — sono la prova che il Crocifisso e il Risorto sono lo stesso. Che la gloria non cancella le ferite ma le trasfigura. Una religione senza ferite è una religione senza resurrezione. Un cristianesimo che nasconde le proprie piaghe non è il cristianesimo di Tommaso. Le ferite sono il luogo dell'incontro. Il dito di Tommaso nel costato di Cristo è l'icona di ogni fede adulta: una fede che non ha paura di toccare il dolore. Anche tu hai i tuoi dubbi, le tue domande, la tua incapacità di credere «sulla parola». Non vergognartene. Tommaso è il santo dei dubbiosi, il patrono di chi non si accontenta delle risposte facili. Gesù non lo rimprovera: gli offre le ferite. Le offre anche a te. Metti il dito. Non aver paura di toccare. È lì, nelle ferite, che incontrerai il Risorto. Mio Signore e mio Dio"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter-card",
+   "parts": [
+    "Capitolo 18 «Seguimi»",
+    "«Dopo aver mangiato, Gesù disse a Simon Pietro: «Simone, figlio di Giovanni, mi ami più di costoro?». Gli rispose: «Certo, Signore, tu lo sai che ti voglio bene». Gli disse: «Pasci i miei agnelli».» (Giovanni 21,15) Evocazione Seguimi L'ultimo capitolo è un'appendice. Sul lago di Tiberiade, Gesù risorto cucina il pesce per i discepoli. Poi il triplice dialogo con Pietro: «Mi ami?». Tre domande per riparare i tre rinnegamenti. Pietro è ferito ma guarito. Poi Gesù dice: «Seguimi». L'ultima parola del Vangelo non è una dottrina ma un invito. Giovanni finisce aperto: «Vi sono ancora molte altre cose compiute da Gesù che, se fossero scritte una per una, penso che il mondo stesso non basterebbe a contenere i libri che se ne dovrebbero scrivere». Il Vangelo non è un sistema chiuso. È una porta aperta sull'infinito. Autopsia La geopolitica del «seguimi» L'ultima parola di Giovanni è un antidoto a ogni fondamentalismo. Il Vangelo non contiene tutto. Ci sono «molte altre cose» che non sono state scritte. La verità cristiana non è un sistema chiuso ma una persona vivente che continua ad agire nella storia. La geopolitica del «seguimi» è l'opposto della geopolitica del «controlla e amministra». Il Regno non si possiede: si segue. Non si amministra: si annuncia. Non si difende con la forza: si testimonia con la vita. «Seguimi» è l'ultima parola di Gesù a Pietro, e a te. Non «capiscimi», non «gestiscimi», non «spiegami»: «Seguimi». Cammina dietro di me. Non devi sapere dove vai: devi sapere con chi vai. E con lui, ogni strada è la strada giusta. Anche quella che porta a Roma. Anche quella che porta alla croce. Seguimi"
+   ]
+  },
+  {
+   "type": "p",
+   "role": "verse",
+   "runs": [
+    {
+     "t": "«Vi sono ancora molte altre cose compiute da Gesù. Se fossero scritte una per una, penso che il mondo stesso non basterebbe a contenere i libri.» (Giovanni 21,25)"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il potere vuole amministrare l'uomo. Cristo vuole incontrarlo. In Giovanni il peccato fondamentale non è l'immoralità: è l'incapacità di sostenere una presenza che ti vede davvero. Questo Vangelo è uno specchio: non guardi più Babilonia, Roma, il sistema. Guardi te stesso mentre vieni guardato. E scopri che quello sguardo non ti condanna: ti chiama per nome."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Il Vangelo dello specchio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Volto e il Potere",
+     "i": true
+    },
+    {
+     "t": " — Luce, desiderio e verità nel Vangelo di Giovanni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ottavo volume della collana — MetaHistoria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Precedente"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Le Visioni dell'Esilio (Ezechiele)"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Successivo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Le Tende e le Stelle (Patriarchi) →"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "Giovanni, Vangelo secondo Giovanni",
+  "Giovanni 1 — Il Prologo e il Logos",
+  "Giovanni 11 — La resurrezione di Lazzaro",
+  "Giovanni 17 — La preghiera sacerdotale",
+  "Giovanni 20-21 — Resurrezione e missione"
+ ],
+ "stats": {
+  "blocks": 83,
+  "chars": 35466,
+  "hash": "b3821c89aabdbc9593d3369ea4f5b3f4bcc212ca7bc543b3f4e732fbc942d351"
+ }
+}

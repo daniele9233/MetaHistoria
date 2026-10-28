@@ -1,0 +1,455 @@
+{
+ "id": "home",
+ "slug": "",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/",
+ "title": "L'architettura del sistema",
+ "kicker": "01",
+ "lede": "Dalla nuda potenza materiale all'ultimo orizzonte escatologico — un'arma di decodifica in cinque lenti per leggere ciò che la modernità ha separato. Clicca una lente per esplorarne i contenuti.",
+ "category": "home",
+ "parentId": null,
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Analisi integrata — Potere — Spirito — Escaton"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "MetaHistoria – Il Metodo Pentapolare: Apocalisse del Potere."
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dimenticate le stanche e sterili analisi del Novecento: questo testo è un'arma di decodifica che fonde la nuda materialità del potere globale con i misteri insondabili dello spirito."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il viaggio parte dalle fondamenta, usando il"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il viaggio parte dalle fondamenta, usando il "
+    },
+    {
+     "t": "realismo spietato della geopolitica classica",
+     "b": true
+    },
+    {
+     "t": " di Caracciolo e Limes per mappare i conflitti di potenza, per poi scendere a scavare nella carne viva delle nazioni attraverso la "
+    },
+    {
+     "t": "geopolitica umana",
+     "b": true
+    },
+    {
+     "t": " di Dario Fabbri. Ma è qui che gli schemi saltano. Vi farò addentrare in un territorio inesplorato: la "
+    },
+    {
+     "t": "Geopolitica dell'Anima",
+     "b": true
+    },
+    {
+     "t": ", un cortocircuito assoluto tra lo scavo stratigrafico di Fabbri e la spietata lettura esistenziale di Don Fabio Rosini, perché ricordatevi sempre che il primo e ultimo campo di battaglia è il cuore umano. Il tutto è sorretto dalla "
+    },
+    {
+     "t": "Teologia della Geopolitica",
+     "b": true
+    },
+    {
+     "t": ", un'infrastruttura analitica inedita in cui il sacro viene finalmente trattato per ciò che è: la "
+    },
+    {
+     "t": "variabile indipendente",
+     "b": true
+    },
+    {
+     "t": " che muove la storia. E quando crederete di aver capito tutto, vi colpirò con l'"
+    },
+    {
+     "t": "Apocalittica",
+     "b": true
+    },
+    {
+     "t": ". è la lente finale, la più folle, visionaria e sconvolgente, l'unica capace di strappare il velo degli eventi e rivelare il destino escatologico del mondo. Siete pronti a smettere di guardare il mondo come prima?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fondazione fra Minix, Linux, 13 Giugno 2026"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "scorri ?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "01"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "L'architettura del sistema"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Dalla nuda potenza materiale all'ultimo orizzonte escatologico — un'arma di decodifica in cinque lenti per leggere ciò che la modernità ha separato. Clicca una lente per esplorarne i contenuti."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il "
+    },
+    {
+     "t": "MetaHistoria – Il Metodo Pentapolare",
+     "b": true
+    },
+    {
+     "t": " non è un ennesimo trattato accademico. è un'"
+    },
+    {
+     "t": "arma di decodifica",
+     "b": true
+    },
+    {
+     "t": " — un dispositivo analitico che fonde la nuda materialità del potere globale con i misteri insondabili dello spirito, perché il mondo non si capisce guardandolo da una sola prospettiva."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Tutto parte dalla "
+    },
+    {
+     "t": "geopolitica classica",
+     "b": true
+    },
+    {
+     "t": " — il realismo spietato di Caracciolo e Limes, la mappatura dei conflitti di potenza negli spazi determinati. Ma è solo il primo gradino. Da lì si scende nella "
+    },
+    {
+     "t": "geopolitica umana",
+     "b": true
+    },
+    {
+     "t": " di Dario Fabbri, a scavare nella carne viva delle nazioni, nella loro psicologia collettiva, nelle paure e missioni che le muovono."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Poi — e qui gli schemi saltano — si entra in un territorio inesplorato: la "
+    },
+    {
+     "t": "Geopolitica dell'Anima",
+     "b": true
+    },
+    {
+     "t": ", dove lo scavo stratigrafico di Fabbri incontra la lettura esistenziale di "
+    },
+    {
+     "t": "Don Fabio Rosini",
+     "b": true
+    },
+    {
+     "t": ". Perché il primo e ultimo campo di battaglia è il cuore umano. Ogni conflitto esterno è, prima, un conflitto interiore."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il tutto poggia sulla "
+    },
+    {
+     "t": "Teologia della Geopolitica",
+     "b": true
+    },
+    {
+     "t": ": un'infrastruttura analitica inedita in cui il sacro viene finalmente trattato per ciò che è — la "
+    },
+    {
+     "t": "variabile indipendente",
+     "b": true
+    },
+    {
+     "t": " che muove la storia. E infine l'"
+    },
+    {
+     "t": "Apocalisse del Potere",
+     "b": true
+    },
+    {
+     "t": ": la lente finale, la più folle e visionaria, l'unica capace di strappare il velo degli eventi e rivelare il destino escatologico del mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "01Geopolitica Classica 02Geopolitica Umana 03Geopolitica dell'Anima 04Teologia della Geopolitica 05Apocalisse del Potere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "03"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il Metodo Pentaedrico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Cinque lenti progressive per leggere la storia degli uomini — dal potere nudo al destino escatologico. Ogni livello non sostituisce il precedente, ma ne amplia l'orizzonte interpretativo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il sistema MetaHistoria non è una semplice successione di capitoli: è un "
+    },
+    {
+     "t": "percorso epistemologico",
+     "b": true
+    },
+    {
+     "t": ". Ogni livello pretende di spiegare ciò che il precedente lascia in ombra. La progressione segue una logica riconoscibile: "
+    },
+    {
+     "t": "fenomeno interiorità fine ultimo",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Non si abbandona la geopolitica classica quando si arriva alla teologia. La si conserva, ma la si inserisce in un quadro più ampio. Questa idea delle "
+    },
+    {
+     "t": "lenti cumulative",
+     "b": true
+    },
+    {
+     "t": " è il cuore del metodo — e ne costituisce l'intuizione più forte."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il percorso parte dalla lettura più cinica del potere, la assume come necessaria, e poi si chiede se quella lettura sia sufficiente a spiegare l'intera esperienza storica. Da lì si apre progressivamente a dimensioni antropologiche, simboliche e, infine, teologiche."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "è un cammino dal "
+    },
+    {
+     "t": "disincanto alla visione simbolica",
+     "b": true
+    },
+    {
+     "t": ": non si nega il realismo geopolitico, lo si "
+    },
+    {
+     "t": "attraversa",
+     "b": true
+    },
+    {
+     "t": ". Perché il potere è reale, ma non è tutto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1Geopolitica ClassicaCosa fanno gli Stati?fenomeno"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "2Geopolitica UmanaChi esercita il potere?soggetto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "3Geopolitica dell'AnimaPerché lo desidera?interiorità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "4Teologia della GeopoliticaQuale senso ha?significato"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "?"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "5Apocalisse del PotereDove conduce tutto?destino"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esplora il metodo completo ?"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "L. Caracciolo, Limes (1993—“)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "Manifesto TGP-O (2026)"
+ ],
+ "stats": {
+  "blocks": 32,
+  "chars": 4511,
+  "hash": "02903e9ed69fe0f8715a5a439acff3e621c90aad5f8f15f13db40890e8695c20"
+ }
+}

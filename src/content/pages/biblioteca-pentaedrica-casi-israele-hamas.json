@@ -1,0 +1,1848 @@
+{
+ "id": "biblioteca-pentaedrica-casi-israele-hamas",
+ "slug": "biblioteca-pentaedrica/casi/israele-hamas",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/biblioteca-pentaedrica/casi/israele-hamas",
+ "title": "Il conflitto Israele-Hamas &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+ "kicker": "",
+ "lede": "",
+ "category": "biblioteca-pentaedrica",
+ "parentId": "biblioteca-pentaedrica/casi",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Biblioteca Pentaedrica — Caso Canonico N. 13 — 7 Ottobre 2023 — in corso"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Il conflitto Israele-Hamas"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "La terra due volte promessa: dove la geopolitica e la teologia raggiungono temperatura incandescente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆",
+     "b": true
+    },
+    {
+     "t": " Caso canonico 5 lenti · ~9.000 parole Medio Oriente · Guerre e conflitti"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Perché Israele-Hamas è il tredicesimo caso canonico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il conflitto che si è riacceso il 7 ottobre 2023 non è l’ennesima escalation di una tensione cronica: è un evento che "
+    },
+    {
+     "t": "richiede tutte e cinque le lenti",
+     "b": true
+    },
+    {
+     "t": " perché nessuna lettura singola — né quella esclusivamente politica, né quella esclusivamente religiosa — riesce a renderne conto da sola. Questa è la terra in cui Dio si è rivelato. Due popoli la abitano. Tre religioni la rivendicano. Una striscia di 365 chilometri quadrati concentra in sé l’intero dramma del potere, della fede e della storia. Qui il Metodo Pentaedrico viene messo alla prova sul suo terreno più rovente: ogni lente rivela uno strato del conflitto che la precedente non poteva vedere, e tutte insieme compongono una lettura che va dalla fisica del potere fino al giudizio dell’Escaton su Gerusalemme."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Sommario — Le Cinque Lenti"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    [
+     {
+      "t": "Il campo di battaglia e i suoi attori"
+     }
+    ],
+    [
+     {
+      "t": "Due traumi, una terra"
+     }
+    ],
+    [
+     {
+      "t": "L’immaginario della Terra Promessa"
+     }
+    ],
+    [
+     {
+      "t": "Quando Dio viene arruolato dalla parte del potere"
+     }
+    ],
+    [
+     {
+      "t": "Gerusalemme vista dall’Escaton"
+     }
+    ],
+    [
+     {
+      "t": "Sintesi verticale"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Geopolitica Classica — Il campo di battaglia e i suoi attori"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Chi controlla cosa, e perché?»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il 7 ottobre e la guerra di Gaza. La geografia dell’assedio: 2,3 milioni di persone in 365 km². Gli attori: Hamas, Hezbollah, Iran, Houthi, Stati Uniti. Gli Accordi di Abramo e il loro collasso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "+"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il 7 ottobre: l’attacco che ha riscritto la regione"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "All’alba del 7 ottobre 2023, giorno di Shabbat e festività di Simchat Torah, migliaia di miliziani di Hamas hanno sfondato la barriera di separazione tra Gaza e Israele in oltre trenta punti. L’operazione, chiamata «Diluvio di Al-Aqsa», ha colpito ventidue comunità civili israeliane, basi militari e un festival musicale nel deserto del Negev. Il bilancio — circa "
+    },
+    {
+     "t": "1.200 israeliani uccisi",
+     "b": true
+    },
+    {
+     "t": " e oltre "
+    },
+    {
+     "t": "250 ostaggi rapiti",
+     "b": true
+    },
+    {
+     "t": " e portati nei tunnel di Gaza — ha reso il 7 ottobre il giorno più sanguinoso per il popolo ebraico dalla Shoah. Non è stato un attacco terroristico nel senso tradizionale: è stata un’operazione militare pianificata per mesi, con droni che hanno neutralizzato le torrette di sorveglianza, moto e pick-up che hanno travolto i cancelli, e commandos addestrati che hanno attaccato simultaneamente obiettivi civili e militari con una ferocia che i servizi israeliani non avevano previsto né saputo intercettare."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La risposta israeliana è stata immediata, massiccia e prolungata. L’operazione «Spade di Ferro» ha scatenato su Gaza una campagna di bombardamenti aerei senza precedenti per intensità, seguita dall’invasione di terra. Al momento in cui scriviamo, il bilancio delle vittime palestinesi ha superato le "
+    },
+    {
+     "t": "40.000 unità",
+     "b": true
+    },
+    {
+     "t": ", con una percentuale altissima di civili, donne e bambini. Ospedali, scuole dell’ONU, moschee, chiese, campi profughi: nessuna categoria di infrastrutture è stata risparmiata. L’assedio totale imposto da Israele — taglio di acqua, cibo, elettricità e carburante — ha prodotto una catastrofe umanitaria che la Corte Internazionale di Giustizia ha ritenuto meritevole di esame per «plausibile genocidio». La guerra più lunga e distruttiva mai combattuta sulla Striscia ha ridotto interi quartieri a macerie e ha generato una crisi di sfollati interni che coinvolge l’85% della popolazione."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La geografia dell’assedio: Gaza come prigione a cielo aperto"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Striscia di Gaza è un rettangolo di terra lungo 41 chilometri e largo tra i 6 e i 12, per una superficie totale di 365 chilometri quadrati — poco più grande di Malta, poco meno di Los Angeles. Dentro questo fazzoletto di sabbia e cemento vivono "
+    },
+    {
+     "t": "2,3 milioni di persone",
+     "b": true
+    },
+    {
+     "t": ", il che la rende una delle aree a più alta densità abitativa del pianeta. Non è una città sovraffollata: è un campo di concentramento demografico la cui esistenza è il prodotto di ottant’anni di esodi forzati, guerre e blocchi. Il 70% della popolazione è composta da rifugiati o discendenti di rifugiati espulsi o fuggiti durante la Nakba del 1948, che non hanno mai potuto fare ritorno alle loro case."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dal 2007, quando Hamas ha preso il controllo della Striscia dopo una breve guerra civile con Fatah, Israele ed Egitto hanno imposto un blocco terrestre, aereo e navale che ha progressivamente trasformato Gaza nella più grande prigione a cielo aperto del mondo. L’economia è collassata: la disoccupazione giovanile supera il 60%, l’acqua potabile è scarsa e in gran parte contaminata, l’elettricità è disponibile per poche ore al giorno. Le Nazioni Unite avevano previsto, già prima del 7 ottobre, che Gaza sarebbe diventata «inabitabile» entro il 2020. La gente di Gaza non vive: sopravvive. E in questa condizione di sopravvivenza estrema, la resistenza armata non è una scelta politica tra le altre: è l’unica forma di agenzia percepita come possibile da una generazione cresciuta senza futuro."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Cisgiordania, l’altra metà del territorio palestinese, racconta una storia diversa ma complementare. Non è sottoposta a blocco, ma è occupata militarmente da Israele dal 1967, costellata da insediamenti israeliani che il diritto internazionale considera illegali (la Risoluzione 2334 del Consiglio di Sicurezza ONU del 2016 lo ribadisce), frammentata da check-point, muro di separazione, strade riservate ai soli coloni e un regime amministrativo che Amnesty International e Human Rights Watch hanno definito "
+    },
+    {
+     "t": "apartheid",
+     "b": true
+    },
+    {
+     "t": ". L’Autorità Nazionale Palestinese, che governa la Cisgiordania, è ampiamente percepita dalla popolazione come corrotta e collaborazionista con l’occupante, il che spiega il consenso di cui Hamas gode nonostante la sua ideologia e i suoi metodi."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il reticolo degli attori: Hamas, Hezbollah, Iran, Houthi"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Hamas («Movimento di Resistenza Islamica») è stato fondato nel 1987, all’inizio della Prima Intifada, come ramo palestinese dei Fratelli Musulmani. Non è solo un gruppo armato: è un movimento politico, sociale e religioso che fornisce servizi, scuole, ospedali e una rete di welfare nei territori palestinesi, e questa sua natura ibrida — partito, milizia, organizzazione caritatevole — è ciò che lo rende così difficile da estirpare. La sua carta fondativa del 1988 invocava il jihad per la liberazione dell’intera Palestina storica «dal fiume al mare». Nel 2017, una nuova carta ha mostrato aperture pragmatiche (accettazione implicita di uno Stato palestinese sui confini del 1967), ma senza riconoscere Israele né rinunciare alla resistenza armata. La sua ala militare, le Brigate Al-Qassam, ha costruito una rete di tunnel sotterranei stimata in oltre 500 chilometri — una città sotto la città che ha trasformato Gaza in una trappola per qualsiasi forza d’invasione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Hezbollah («Partito di Dio»), fondato in Libano nel 1982 con il sostegno dell’Iran dopo l’invasione israeliana del Libano, è il proxy più potente e sofisticato di Teheran. A differenza di Hamas, Hezbollah è dotato di un arsenale missilistico stimato in oltre 150.000 razzi e missili a guida di precisione, capaci di colpire qualsiasi punto del territorio israeliano, e di forze di terra agguerrite dalla guerra in Siria. L’apertura di un secondo fronte dal Libano dopo il 7 ottobre ha costretto Israele a combattere su due lati e ha evacuato decine di migliaia di civili dal nord di Israele. Lo scambio di colpi tra Hezbollah e le IDF ha creato una guerra di attrito parallela che minaccia costantemente di degenerare in conflitto regionale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Iran è il regista occulto dell’intera architettura. Il cosiddetto "
+    },
+    {
+     "t": "«Asse della Resistenza»",
+     "b": true
+    },
+    {
+     "t": " — una costellazione di milizie, partiti e gruppi armati che include Hezbollah in Libano, Hamas e Jihad Islamica in Palestina, gli Houthi in Yemen, le milizie sciite in Iraq e Siria — è la strategia di Teheran per proiettare potenza senza combattere direttamente, circondare Israele con un anello di fuoco e negoziare da posizione di forza qualsiasi futuro accordo regionale. Il 13 aprile 2024, per la prima volta nella storia, l’Iran ha attaccato direttamente Israele con oltre trecento droni e missili, la maggior parte intercettati da Israele, Stati Uniti, Regno Unito, Francia e Giordania. È stata una escalation senza precedenti, ma anche un attacco telegrafato e calibrato per non scatenare una guerra totale: l’Iran ha dimostrato di poter colpire Israele, ma anche di non volere — per ora — la guerra regionale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gli Houthi dello Yemen, il gruppo armato che controlla la capitale Sana’a e buona parte del paese, hanno aperto un terzo fronte, il più imprevedibile: il blocco del Mar Rosso. Attaccando navi commerciali dirette verso Israele — o genericamente verso porti israeliani — gli Houthi hanno costretto le principali compagnie di navigazione a circumnavigare l’Africa, con un aumento dei costi e dei tempi di trasporto che ha impattato le catene di approvvigionamento globali. Una milizia yemenita, armata con droni e missili iraniani, ha creato una crisi del commercio mondiale in solidarietà con Gaza: un fatto senza precedenti che dimostra quanto il conflitto israelo-palestinese abbia una capacità di ramificazione globale che nessun’altra disputa territoriale possiede."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il ruolo americano e il fallimento degli Accordi di Abramo"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gli Stati Uniti sono il garante ultimo della sicurezza israeliana. Subito dopo il 7 ottobre, Washington ha dispiegato due gruppi da battaglia di portaerei nel Mediterraneo orientale, ha accelerato l’invio di munizioni e sistemi d’arma a Israele, e ha usato il proprio potere di veto al Consiglio di Sicurezza dell’ONU per bloccare ripetutamente le risoluzioni che chiedevano un cessate il fuoco immediato. Il sostegno americano a Israele è bipartisan, strutturale e senza equivalenti: 3,8 miliardi di dollari all’anno di aiuti militari garantiti da un memorandum decennale, a cui si sono aggiunti pacchetti straordinari dopo il 7 ottobre. Per Washington, Israele non è un alleato: è una "
+    },
+    {
+     "t": "portaerei inaffondabile",
+     "b": true
+    },
+    {
+     "t": " nel cuore del Medio Oriente, un avamposto di stabilità in una regione instabile e il pilastro di un ordine regionale che gli Stati Uniti hanno costruito e mantenuto per decenni."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gli Accordi di Abramo del 2020 — la normalizzazione delle relazioni tra Israele, Emirati Arabi Uniti, Bahrein, Marocco e Sudan — erano il tentativo di architettare un Medio Oriente in cui la questione palestinese fosse bypassata, resa irrilevante da un nuovo blocco di alleanze tra Israele e i Paesi arabi sunniti in funzione anti-iraniana. Il 7 ottobre ha dimostrato che la questione palestinese non può essere bypassata. Non si può costruire la pace in Medio Oriente "
+    },
+    {
+     "t": "saltando il popolo palestinese",
+     "b": true
+    },
+    {
+     "t": ": esso ritorna, con la forza delle armi, a ricordare al mondo che esiste. L’Arabia Saudita, che era in trattative avanzate per normalizzare le relazioni con Israele, ha congelato il processo. L’Egitto e la Giordania, i due Paesi arabi che hanno trattati di pace con Israele, sono sottoposti a una pressione interna fortissima. Gli Accordi di Abramo non sono morti, ma sono sospesi nel limbo di un conflitto che nessuno può dichiarare vinto e nessuno può permettersi di perdere."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La risposta della prima lente"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Chi controlla cosa, e perché? Israele controlla il territorio fisico, la superiorità militare, il sostegno americano. Hamas controlla il sottosuolo (i tunnel), la narrativa della resistenza, il consenso popolare in Cisgiordania e nel mondo arabo-islamico, e il potere di veto sulla pace con gli ostaggi. Hezbollah controlla il fronte nord e tiene Israele in una morsa di deterrenza reciproca. L’Iran controlla la regia strategica senza combattere direttamente. Gli Houthi controllano una via d’acqua che connette l’Asia all’Europa. Nessuno controlla tutto. Tutti controllano qualcosa che impedisce agli altri di vincere. La prima lente mostra che questa non è una guerra tra Stati sovrani: è una guerra asimmetrica tra un esercito regolare e una nebulosa di attori non statali sostenuti da una potenza regionale, su un territorio dove la densità di significato simbolico è inversamente proporzionale alla sua superficie. Ma la mappa, da sola, non spiega perché due popoli accettino di morire di generazione in generazione per questa terra. Per questo serve la seconda lente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "II"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Geopolitica Umana — Due traumi, una terra"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Quali ferite stanno ancora combattendo?»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il trauma israeliano: il 7 ottobre come giorno più letale per gli ebrei dalla Shoah. Il trauma palestinese: Nakba, Naksa, occupazione, generazioni di lutto. Due popoli, due memorie, lo stesso fazzoletto di terra."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "+"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il trauma israeliano: la Shoah attivata"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per comprendere la reazione israeliana al 7 ottobre, bisogna partire da un fatto psicologico prima ancora che strategico: il 7 ottobre ha "
+    },
+    {
+     "t": "attivato la memoria della Shoah",
+     "b": true
+    },
+    {
+     "t": " nell’inconscio collettivo israeliano. Non è stata percepita come un attacco terroristico: è stata vissuta come un "
+    },
+    {
+     "t": "pogrom",
+     "i": true
+    },
+    {
+     "t": ". Famiglie bruciate vive dentro le safe room che dovevano proteggerle. Giovani massacrati a un festival di pace. Corpi mutilati, donne violentate, bambini presi in ostaggio. Per la prima volta dal 1948, gli ebrei sono stati uccisi in massa dentro lo Stato che doveva garantire che «mai più» accadesse. La frase «Never Again» — il fondamento morale di Israele — è stata infranta."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La memoria della Shoah non è un dettaglio nella psicologia israeliana: ne è il "
+    },
+    {
+     "t": "nucleo fondante",
+     "b": true
+    },
+    {
+     "t": ". Lo Stato di Israele nasce nel 1948, appena tre anni dopo la liberazione di Auschwitz, come risposta al fallimento dell’Europa nel proteggere gli ebrei. L’idea che solo uno Stato ebraico sovrano, con un proprio esercito, potesse garantire la sicurezza del popolo ebraico è il DNA di Israele. Ogni minaccia esistenziale viene letta attraverso il prisma del 1938-1945: il nemico che vuole annientarti, il mondo che sta a guardare, la necessità di colpire per primi e con forza schiacciante. Quando i leader di Hamas, Hezbollah e Iran parlano di distruggere Israele, gli israeliani non sentono retorica: sentono "
+    },
+    {
+     "t": "la ripetizione della minaccia nazista",
+     "b": true
+    },
+    {
+     "t": ". E agiscono di conseguenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il trauma del 7 ottobre ha anche riaperto la ferita della vulnerabilità. Israele è una potenza militare regionale con capacità nucleare, uno dei sistemi di difesa aerea più avanzati al mondo (Iron Dome, David’s Sling, Arrow), servizi di intelligence leggendari (Mossad, Shin Bet). Eppure, il 7 ottobre, centinaia di miliziani di Hamas hanno attraversato il confine con mezzi rudimentali e hanno tenuto in scacco l’esercito più potente del Medio Oriente per ore, prima che le IDF riuscissero a rispondere. Non è stata una sconfitta militare: è stato un "
+    },
+    {
+     "t": "crollo psicologico",
+     "b": true
+    },
+    {
+     "t": ". La fortezza era violabile. Il rifugio non era sicuro. Lo Stato che doveva proteggere non ha protetto. Questa ferita richiederà generazioni per rimarginarsi."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il trauma palestinese: la Nakba come ferita aperta"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per i palestinesi, il 7 ottobre non è l’inizio di niente: è l’ultimo capitolo di una ferita aperta nel 1948 e mai rimarginata. La "
+    },
+    {
+     "t": "Nakba",
+     "b": true
+    },
+    {
+     "t": " («catastrofe» in arabo) è l’evento fondante dell’identità palestinese moderna: tra il 1947 e il 1949, circa 700.000 palestinesi furono espulsi o fuggirono dalle loro case durante la guerra che seguì la dichiarazione d’indipendenza di Israele. Oltre quattrocento villaggi furono rasi al suolo. Città come Giaffa, Haifa, Safed e Lod (Lydda) furono svuotate della loro popolazione araba. I profughi e i loro discendenti sono oggi circa sei milioni, sparsi tra Gaza, Cisgiordania, Libano, Siria e Giordania, molti dei quali vivono ancora in campi profughi gestiti dall’UNRWA. Conservano le chiavi delle case da cui furono cacciati. Le tramandano di padre in figlio. La chiave è diventata il "
+    },
+    {
+     "t": "simbolo materiale del diritto al ritorno",
+     "b": true
+    },
+    {
+     "t": ": la promessa che un giorno torneranno."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Poi venne la "
+    },
+    {
+     "t": "Naksa",
+     "b": true
+    },
+    {
+     "t": " («la battuta d’arresto»): la Guerra dei Sei Giorni del 1967, in cui Israele occupò la Cisgiordania, Gaza, il Sinai egiziano, le alture del Golan siriane e Gerusalemme Est. Ciò che era cominciato come espulsione divenne "
+    },
+    {
+     "t": "occupazione militare",
+     "b": true
+    },
+    {
+     "t": " — la più lunga della storia contemporanea. Dal 1967, i palestinesi della Cisgiordania vivono sotto il controllo militare israeliano: check-point, coprifuoco, detenzioni amministrative senza processo, espropri di terre per gli insediamenti. A Gaza, dal 2007, l’occupazione ha preso la forma del blocco: non soldati per strada ma una prigione a cielo aperto. Due forme diverse dello stesso fenomeno: un popolo a cui è negata la sovranità sulla terra in cui vive."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La lista delle guerre è uno stillicidio: 1948, 1956, 1967, 1973, 1982 (Libano), 1987-1993 (Prima Intifada), 2000-2005 (Seconda Intifada), 2006 (Libano), 2008-09 (Piombo Fuso), 2012 (Pilastro di Difesa), 2014 (Margine Protettivo), 2021 (Guardiano delle Mura), 2023- (Spade di Ferro). Ogni famiglia palestinese ha i suoi morti. Ogni generazione ha la sua guerra. Non c’è mai stato un periodo di vera pace: solo intervalli tra un’escalation e l’altra. Per i palestinesi di Gaza, in particolare, la guerra non è un evento: è la "
+    },
+    {
+     "t": "condizione normale dell’esistenza",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "I volti del trauma: ostaggi e bambini"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Le due società vivono ferite speculari che si alimentano a vicenda. Per Israele, il trauma del 7 ottobre è cristallizzato nella figura degli "
+    },
+    {
+     "t": "ostaggi",
+     "b": true
+    },
+    {
+     "t": ": cittadini israeliani, inclusi bambini, anziani, donne, tenuti prigionieri nei tunnel di Gaza in condizioni disumane. Ogni ostaggio è un nome, un volto, una famiglia che manifesta ogni giorno per chiedere al governo di fare di più per riportarli a casa. La divisone della società israeliana tra chi vuole un accordo a qualsiasi costo pur di riavere gli ostaggi e chi vuole l’annientamento totale di Hamas anche a costo di sacrificarli è la ferita più lacerante che Israele abbia conosciuto dalla guerra del 1973."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per i palestinesi, il trauma ha il volto dei "
+    },
+    {
+     "t": "bambini di Gaza",
+     "b": true
+    },
+    {
+     "t": ". Secondo le stime delle Nazioni Unite e delle organizzazioni umanitarie, oltre "
+    },
+    {
+     "t": "17.000 bambini",
+     "b": true
+    },
+    {
+     "t": " sono stati uccisi nella Striscia dall’inizio della guerra. Altri migliaia hanno perso arti, genitori, case, scuole. Un’intera generazione sta crescendo senza infanzia, senza istruzione, senza futuro, con il suono dei bombardamenti come colonna sonora. I bambini di Gaza sopravvissuti porteranno dentro di sé per tutta la vita ciò che hanno visto. Sono il "
+    },
+    {
+     "t": "serbatoio di trauma",
+     "b": true
+    },
+    {
+     "t": " da cui nascerà la prossima resistenza, la prossima intifada, la prossima generazione di miliziani. Chi bombarda Gaza sta creando i nemici di domani: questa non è una predizione, è la lezione di ottant’anni di conflitto."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 5,
+   "runs": [
+    {
+     "t": "Il trauma israeliano"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Memoria della Shoah attivata. 1.200 morti il 7 ottobre. 250 ostaggi. La fortezza violata. «Mai più» infranto. Vulnerabilità esistenziale."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 5,
+   "runs": [
+    {
+     "t": "Il trauma palestinese"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nakba (700.000 profughi nel 1948). Naksa (occupazione dal 1967). 17.000+ bambini uccisi a Gaza. Generazioni cresciute senza futuro né sovranità."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Due popoli, due traumi, una terra: la trappola della memoria"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La geopolitica umana mostra che il vero campo di battaglia non è Gaza o la Cisgiordania: è la "
+    },
+    {
+     "t": "memoria",
+     "b": true
+    },
+    {
+     "t": ". Entrambi i popoli hanno una ferita fondativa che li definisce, e queste due ferite non solo non si conciliano, ma si escludono a vicenda. La Nakba è la condizione perché Israele esista: se i 700.000 palestinesi non fossero stati espulsi, Israele non avrebbe avuto la maggioranza ebraica necessaria per essere uno Stato ebraico e democratico. La Shoah è la giustificazione ultima di Israele: senza la memoria dello sterminio, il bisogno di uno Stato-rifugio perde la sua forza morale più potente. Due traumi fondativi, entrambi storicamente veri, entrambi psicologicamente attivi, entrambi usati per delegittimare il trauma dell’altro. «Voi non potete capire il nostro dolore» è la frase che entrambe le parti si rivolgono a vicenda. Ed è vera per entrambe."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa è la trappola della memoria che la geopolitica umana svela: due popoli che hanno sofferto talmente tanto da non riuscire più a vedere il dolore dell’altro. L’israeliano che guarda Gaza vede solo Hamas, i tunnel, i razzi, la minaccia esistenziale. Il palestinese che guarda Israele vede solo l’occupazione, gli insediamenti, i coloni, le bombe. Ciascuno è "
+    },
+    {
+     "t": "prigioniero del proprio trauma",
+     "b": true
+    },
+    {
+     "t": ", e il trauma, quando non viene elaborato, si trasforma in una gabbia cognitiva che impedisce di vedere l’umanità dell’altro. La seconda lente mostra che la soluzione politica — due Stati, confini, accordi — è necessaria ma non sufficiente. Finché le due memorie non troveranno un modo di coesistere senza escludersi, ogni accordo sarà solo una tregua tra due guerre. Ma dietro la memoria c’è qualcosa di ancora più profondo: l’anima. Per questo serve la terza lente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "III"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Geopolitica dell’Anima — L’immaginario della Terra Promessa"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Quale immaginario sta muovendo i popoli?»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il mito ebraico della Terra Promessa. Il mito palestinese della terra degli antenati. L’immaginario islamico di Al-Quds. Due progetti messianici che occupano lo stesso spazio fisico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "+"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "L’immaginario ebraico: la Terra Promessa e il ritorno dall’esilio"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nessuna comprensione del conflitto israelo-palestinese è possibile senza entrare nell’immaginario ebraico. Per l’ebraismo, la terra d’Israele (Eretz Yisrael) non è un territorio: è una "
+    },
+    {
+     "t": "promessa divina",
+     "b": true
+    },
+    {
+     "t": ". Dio stesso, secondo la Torah, ha promesso ad Abramo: «Alla tua discendenza io do questa terra, dal fiume d’Egitto al grande fiume, il fiume Eufrate» (Genesi 15,18). La promessa viene ripetuta a Isacco e a Giacobbe. Diventa l’asse portante di tutta la narrazione biblica: l’Esodo dall’Egitto, il cammino nel deserto, la conquista di Canaan sotto Giosuè. Gerusalemme diventa il luogo dove Dio ha scelto di far abitare il Suo nome, il Tempio diventa il centro dell’universo, il punto in cui cielo e terra si toccano. Per duemila anni di diaspora, il ritorno a Sion è stato il "
+    },
+    {
+     "t": "sogno proibito",
+     "b": true
+    },
+    {
+     "t": " del popolo ebraico: «L’anno prossimo a Gerusalemme» si diceva alla fine del Seder di Pesach, in tutte le case ebraiche del mondo, da Casablanca a Varsavia, da Baghdad a New York."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il sionismo politico, che nasce alla fine del XIX secolo con Theodor Herzl, secolarizza questo immaginario ma non lo abolisce: lo traduce in "
+    },
+    {
+     "t": "progetto politico",
+     "b": true
+    },
+    {
+     "t": ". La celebre frase «una terra senza popolo per un popolo senza terra» — attribuita al sionista inglese Israel Zangwill ma in realtà già presente nel discorso sionista ottocentesco — contiene la ferita che renderà questo conflitto insolubile. La terra "
+    },
+    {
+     "t": "non",
+     "i": true
+    },
+    {
+     "t": " era senza popolo: era abitata da circa seicentomila arabi palestinesi che la coltivavano da secoli, ma l’immaginario sionista non li vedeva — o meglio, li percepiva come parte del paesaggio, non come un soggetto politico. Non è una questione di malafede: è la struttura stessa dell’immaginario. L’occhio vede ciò che il mito gli permette di vedere. E il mito sionista vedeva una terra vuota da riempire, non una terra abitata da condividere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Oggi, l’immaginario ebraico-israeliano si è ulteriormente stratificato. C’è l’Israele laico e tecnologico di Tel Aviv, startup nation, orgoglioso della propria modernità. C’è l’Israele religioso e messianico dei coloni, per cui ogni dunam di terra in Cisgiordania — che loro chiamano Giudea e Samaria — è l’adempimento di una promessa biblica. C’è l’Israele della memoria, per cui ogni guerra è una guerra di sopravvivenza, e il mondo intero è potenzialmente ostile. Questi tre immaginari coesistono, a volte in modo conflittuale, ma condividono lo stesso fondamento: questa terra è "
+    },
+    {
+     "t": "nostra",
+     "b": true
+    },
+    {
+     "t": ", per diritto divino, storico, esistenziale. Senza comprendere questa certezza viscerale, la geopolitica classica vede solo interessi e alleanze, non la forza tellurica che li muove."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "L’immaginario palestinese: la terra degli antenati e il diritto al ritorno"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’immaginario palestinese è l’immagine speculare rovesciata. Per il palestinese, questa terra non è stata promessa da Dio ad Abramo: è stata "
+    },
+    {
+     "t": "coltivata dagli antenati",
+     "b": true
+    },
+    {
+     "t": " per secoli. Gli ulivi che punteggiano le colline della Cisgiordania non sono una metafora biblica: sono la prova materiale della continuità di un popolo con la sua terra. Ogni famiglia palestinese ha un villaggio d’origine, un pezzo di terra, una casa — reale o mitica — da cui è stata separata nel 1948 o nel 1967. La chiave di quella casa, tramandata di generazione in generazione, è il "
+    },
+    {
+     "t": "sacramento laico",
+     "b": true
+    },
+    {
+     "t": " dell’identità palestinese: il segno concreto che l’esilio è temporaneo e il ritorno è dovuto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il diritto al ritorno — sancito dalla Risoluzione 194 dell’Assemblea Generale dell’ONU del 1948 — non è per i palestinesi una clausola giuridica negoziabile: è il "
+    },
+    {
+     "t": "cuore pulsante dell’identità nazionale",
+     "b": true
+    },
+    {
+     "t": ". Rinunciare al diritto al ritorno significherebbe, per la leadership palestinese, firmare la propria morte politica. Significherebbe dire ai sei milioni di profughi e discendenti di profughi: «Non tornerete mai più. La vostra chiave non aprirà nessuna porta.» Nessun leader palestinese sopravvivrebbe a questa firma. Ecco perché tutti i negoziati di pace sono naufragati su questo punto. Per Israele, il diritto al ritorno è inaccettabile perché significherebbe la fine della maggioranza ebraica e quindi la fine di Israele come Stato ebraico. Per i palestinesi, abbandonarlo significherebbe la fine dell’identità palestinese. È la quadratura del cerchio: due diritti che si escludono a vicenda."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La sumud («perseveranza» in arabo) è la virtù cardinale dell’immaginario palestinese: restare, resistere, non andarsene, nonostante tutto. Coltivare l’ulivo anche se l’esercito lo sradica. Ricostruire la casa anche se i bulldozer la demoliscono. Continuare a vivere anche quando la vita è resa impossibile. La sumud non è una strategia politica: è una "
+    },
+    {
+     "t": "teologia del quotidiano",
+     "b": true
+    },
+    {
+     "t": ". Ogni palestinese che resta sulla sua terra non sta solo abitando: sta testimoniando. Sta dicendo: «Questa terra è mia. Ci sono nato. Ci morirò. Non me ne andrò.» La sumud è ciò che impedisce alla pulizia etnica di completarsi, ed è per questo che l’occupazione israeliana la colpisce sistematicamente: ogni ulivo sradicato è un atto di guerra contro la sumud."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "L’immaginario islamico: Al-Quds e il terzo luogo santo"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per l’Islam, Gerusalemme — Al-Quds («la Santa») — è il terzo luogo più sacro dopo la Mecca e Medina. La moschea di Al-Aqsa e la Cupola della Roccia, costruita sul Monte del Tempio (Haram al-Sharif per i musulmani), sono il punto da cui, secondo la tradizione, il profeta Maometto ascese al cielo durante il viaggio notturno (Isra’ e Mi’raj). Per oltre mille anni, Gerusalemme è stata città islamica (tranne la parentesi crociata 1099-1187). La sua «perdita» nel 1948 e la conquista israeliana della Città Vecchia nel 1967 sono vissute da milioni di musulmani nel mondo come un’umiliazione permanente, una ferita nella geografia sacra dell’Islam che attenda di essere risanata."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Hamas ha scelto consapevolmente di chiamare l’attacco del 7 ottobre «Diluvio di Al-Aqsa». Non è una scelta retorica: è un’operazione di "
+    },
+    {
+     "t": "attivazione dell’immaginario islamico globale",
+     "b": true
+    },
+    {
+     "t": ". Al-Aqsa non è una questione palestinese: è una questione pan-islamica. Difendere Al-Aqsa è un dovere di ogni musulmano, ovunque si trovi. Chiamando in causa Al-Aqsa, Hamas ha trasformato un conflitto nazionale in un conflitto religioso, mobilitando un bacino di solidarietà potenzialmente illimitato. La reazione nelle piazze del mondo arabo e islamico — da Amman a Istanbul, da Teheran a Kuala Lumpur — ha dimostrato che la strategia ha funzionato. Il conflitto israelo-palestinese non è mai stato soltanto territoriale: è una "
+    },
+    {
+     "t": "guerra per il significato ultimo di Gerusalemme",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Due progetti messianici nello stesso spazio fisico"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Qui la Geopolitica dell’Anima tocca il suo vertice analitico. Sionismo religioso e islam politico sono "
+    },
+    {
+     "t": "immagini speculari",
+     "b": true
+    },
+    {
+     "t": ": entrambi leggono il territorio come spazio sacro da redimere; entrambi concepiscono la politica come prosecuzione della missione divina; entrambi hanno una componente messianica che promette la vittoria finale; entrambi giustificano la violenza come strumento di questa missione. Il sionismo religioso vede lo Stato di Israele come «l’inizio della redenzione» (atchalta degeula), la tappa preliminare della venuta del Messia. L’islam politico — nella sua versione jihadista ma anche in quella più mainstream dei Fratelli Musulmani — vede la lotta per la Palestina come un "
+    },
+    {
+     "t": "obbligo religioso",
+     "b": true
+    },
+    {
+     "t": " (fard ayn) che ricade su ogni musulmano. Due progetti messianici occupano lo stesso spazio fisico. Non è una metafora: è la descrizione letterale di ciò che accade ogni giorno sul Monte del Tempio/Haram al-Sharif, dove la polizia israeliana scorta i visitatori ebrei mentre i fedeli musulmani protestano. Quel fazzoletto di roccia — poche centinaia di metri quadrati — è il "
+    },
+    {
+     "t": "punto di massima densità teologica del pianeta",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "La struttura frattale",
+    "Ciò che accade sul Monte del Tempio accade nell’anima di ogni israeliano e di ogni palestinese: la pretesa di possedere ciò che, per definizione, appartiene a Dio. Il frattale dell’anima individuale si riflette nel territorio conteso. La terra promessa non può essere posseduta : può solo essere abitata con timore e tremore. Ogni tentativo di possederla con la forza produce l’opposto: la perdita della terra, l’esilio, la distruzione — esattamente ciò che la Bibbia stessa racconta di Israele quando dimenticava il patto."
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La domanda della terza lente"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Quale immaginario muove i popoli? Tre immaginari, intrecciati e inconciliabili, che convergono sullo stesso fazzoletto di terra. L’immaginario ebraico della Terra Promessa, il diritto divino, il ritorno dall’esilio. L’immaginario palestinese della terra degli antenati, degli ulivi e delle chiavi, il diritto al ritorno. L’immaginario islamico di Al-Quds, il terzo luogo santo, la difesa della moschea. Tre narrazioni che non possono essere vere tutte insieme — ma che sono "
+    },
+    {
+     "t": "vissute come vere",
+     "b": true
+    },
+    {
+     "t": " da coloro che le abitano. La Geopolitica dell’Anima non chiede «Chi ha ragione?»: mostra che il conflitto non riguarda la ragione, riguarda l’immaginario. E quando due immaginari messianici pretendono ciascuno l’esclusività sulla stessa terra, il conflitto diventa "
+    },
+    {
+     "t": "teologico",
+     "b": true
+    },
+    {
+     "t": ". Ed è esattamente qui che la quarta lente deve intervenire."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "IV"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Teologia della Geopolitica — Quando Dio viene arruolato dalla parte del potere"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Dove il potere pretende di sostituirsi a Dio?»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’unicità teologica del conflitto: la terra dove Dio si è rivelato. L’idolatria del mandato divino. Quando la religione si fa ideologia di Stato. Il jihad di Hamas e il sionismo religioso come due Vangeli dell’Impero con linguaggi diversi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "+"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "L’unicità teologica di questo conflitto"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Tra tutte le guerre che il Metodo Pentaedrico analizza, il conflitto israelo-palestinese occupa una posizione unica. Non perché sia il più sanguinoso — non lo è — ma perché è l’unica guerra combattuta sul territorio in cui "
+    },
+    {
+     "t": "Dio ha scelto di rivelarsi",
+     "b": true
+    },
+    {
+     "t": ". La teologia della geopolitica può leggere qualsiasi conflitto attraverso le categorie del Vangelo dell’Impero, della Bestia, dell’idolatria del potere. Ma qui queste categorie non sono importate dall’esterno: sono "
+    },
+    {
+     "t": "già presenti nel DNA del conflitto",
+     "b": true
+    },
+    {
+     "t": ". Entrambe le parti rivendicano un mandato divino. Entrambe leggono la loro lotta nelle Scritture. Entrambe credono che Dio sia dalla loro parte. E questa pretesa — che Dio benedica la guerra — è esattamente ciò che la Teologia della Geopolitica del Regno (TGR) identifica come la radice ultima del male geopolitico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Antico Testamento contiene una tensione irrisolta che questo conflitto porta a incandescenza. Da un lato, Dio promette la terra ad Abramo e alla sua discendenza. Dall’altro, la terra è di Dio: «La terra non si venderà per sempre, perché la terra è mia e voi siete presso di me come forestieri e inquilini» (Levitico 25,23). La promessa non implica il possesso assoluto: implica una "
+    },
+    {
+     "t": "responsabilità",
+     "b": true
+    },
+    {
+     "t": ". Israele abita la terra come dono, non come proprietà. Quando dimentica questa distinzione, quando trasforma il dono in diritto, quando usa la promessa per giustificare l’oppressione del forestiero — i profeti si alzano e denunciano. Amos, Isaia, Geremia, Michea: l’Antico Testamento è pieno di voci che gridano contro l’Israele che è diventato impero e ha dimenticato che la terra è dono, non bottino di guerra."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Guai a coloro che aggiungono casa a casa e uniscono campo a campo, finché non vi sia più spazio, e così restate soli ad abitare nel paese. Ho udito con i miei orecchi il Signore degli eserciti: «In verità molti palazzi diventeranno una desolazione, case grandi e belle saranno senza abitanti»."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Guai a coloro che aggiungono casa a casa e uniscono campo a campo, finché non vi sia più spazio, e così restate soli ad abitare nel paese. Ho udito con i miei orecchi il Signore degli eserciti: «In verità molti palazzi diventeranno una desolazione, case grandi e belle saranno senza abitanti».Isaia 5,8-9 — La denuncia dell’accumulazione della terra"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questo passo di Isaia, scritto nell’VIII secolo a.C., potrebbe essere stato scritto guardando l’espansione degli insediamenti in Cisgiordania. La denuncia profetica non è contro i nemici di Israele: è contro "
+    },
+    {
+     "t": "Israele stesso quando dimentica di essere stato straniero in Egitto",
+     "b": true
+    },
+    {
+     "t": ". La Scrittura contiene una bomba inesplosa: la promessa della terra è condizionata all’obbedienza al patto, e il patto include la protezione dello straniero. «Amerai il forestiero come te stesso, perché anche voi siete stati forestieri in terra d’Egitto» (Levitico 19,34). Dio dà la terra, ma la può togliere. E la storia di Israele raccontata dalla Bibbia è esattamente questo: dono, peccato, esilio, ritorno — un ciclo che si ripete perché la tentazione del possesso è la tentazione permanente del popolo eletto."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Vangelo dell’Impero con linguaggio ebraico: il sionismo religioso"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il sionismo religioso contemporaneo — rappresentato politicamente da partiti come il Sionismo Religioso di Bezalel Smotrich e Otzma Yehudit di Itamar Ben-Gvir, oggi al governo in Israele — compie esattamente l’operazione che i profeti denunciavano: trasforma la promessa divina in "
+    },
+    {
+     "t": "titolo di proprietà",
+     "b": true
+    },
+    {
+     "t": ". La terra non è più dono da abitare con timore: è diritto da esercitare con la forza. Gli insediamenti non sono comunità che vivono nella terra: sono avamposti di una conquista messianica che accelera la redenzione. Per questa teologia, ogni palestinese che lascia la sua casa — volontariamente o meno — sta facendo spazio al compimento della volontà divina. La violenza dei coloni contro i civili palestinesi, l’esproprio delle terre, la demolizione delle case non sono visti come crimini: sono "
+    },
+    {
+     "t": "atti di obbedienza teologica",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa è la definizione stessa di "
+    },
+    {
+     "t": "Vangelo dell’Impero",
+     "b": true
+    },
+    {
+     "t": " descritta nel Manifesto Grande della TGR. Il Vangelo dell’Impero promette salvezza attraverso il dominio: sicurezza attraverso l’espulsione dell’altro, identità attraverso la cancellazione della differenza, compimento attraverso la forza. Usa il linguaggio di Dio per giustificare l’opera della Bestia. Quando la religione diventa "
+    },
+    {
+     "t": "ideologia di Stato",
+     "b": true
+    },
+    {
+     "t": ", cessa di essere religione: diventa idolatria con apparato teologico. Non serve più il vitello d’oro: basta il Monte del Tempio, trasformato da luogo d’incontro con Dio a pretesto per la conquista territoriale. Il sionismo religioso — non l’ebraismo, non Israele come Stato, ma la sua corrente teologico-politica che vede la democrazia come intralcio e il messianismo come programma di governo — è il Vangelo dell’Impero con linguaggio ebraico."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "Morgath e il sionismo messianico",
+    "Il sionismo religioso radicale opera con la logica di Morgath: nasce dalla ferita della Shoah («mai più vittime») e la trasforma in progetto di dominio («mai più deboli»). La ferita giustifica l’occupazione. La paura giustifica l’oppressione. La memoria dei campi di sterminio viene usata per legittimare le colonie in Cisgiordania. Morgath non sta nella ferita in sé — la ferita è reale — ma nella pretesa che essa autorizzi a infliggere ad altri ciò che si è subito."
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Vangelo dell’Impero con linguaggio islamico: il jihad di Hamas"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Hamas compie la stessa operazione speculare con linguaggio islamico. Il suo jihad non è una guerra di autodifesa nel senso weberiano del termine: è una "
+    },
+    {
+     "t": "guerra santa",
+     "b": true
+    },
+    {
+     "t": ", un obbligo religioso. La Carta del 1988 (aggiornata nel 2017) inquadra la Palestina come waqf islamico — un bene sacro inalienabile — su cui nessuna autorità umana ha diritto di transigere. «La Palestina è terra islamica dalla conquista musulmana fino al Giorno del Giudizio. Nessuno può rinunciare a una sola parte di essa.» In questa teologia, il conflitto non è negoziabile non per ragioni politiche ma per ragioni "
+    },
+    {
+     "t": "teologiche",
+     "b": true
+    },
+    {
+     "t": ": la terra appartiene a Dio, e i musulmani ne sono i custodi. Cederne una parte sarebbe un peccato, non un errore strategico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Anche qui, la struttura è identica a quella del Vangelo dell’Impero: una vittima assoluta (il popolo palestinese oppresso e umiliato), un nemico assoluto (l’entità sionista, descritta nella carta originaria con toni antisemiti), un salvatore che agisce con la forza (la resistenza armata, il jihad). La differenza di linguaggio — coranico invece che biblico — non deve oscurare l’identità della struttura. Sia il sionismo religioso sia il jihadismo di Hamas operano con la stessa grammatica: "
+    },
+    {
+     "t": "Dio vuole questa terra per noi, e chi si oppone si oppone a Dio",
+     "b": true
+    },
+    {
+     "t": ". Questa frase può essere pronunciata da un rabbino colono o da un predicatore di Hamas: la sintassi è la stessa, cambia solo il nome della divinità invocata."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 5,
+   "runs": [
+    {
+     "t": "Vangelo dell’Impero ebraico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Terra Promessa come titolo di proprietà. Gli insediamenti come atto di obbedienza messianica. La Shoah come giustificazione permanente del dominio. Dio arruolato dalla parte della conquista."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 5,
+   "runs": [
+    {
+     "t": "Vangelo dell’Impero islamico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Palestina come waqf inalienabile. Il jihad come obbligo religioso individuale. La Nakba come ferita che autorizza la resistenza armata illimitata. Dio arruolato dalla parte della riconquista."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La TGR smaschera entrambi: l’idolatria della terra"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Teologia della Geopolitica del Regno non fa sconti a nessuno. Il suo criterio non è politico («chi ha più diritti sulla terra?») ma "
+    },
+    {
+     "t": "teologico",
+     "b": true
+    },
+    {
+     "t": " («chi sta usando Dio per giustificare la violenza?»). E la risposta è: entrambi. Quando la religione diventa ideologia di Stato, cessa di essere religione e diventa "
+    },
+    {
+     "t": "idolatria",
+     "b": true
+    },
+    {
+     "t": ". L’idolo non è la statua di legno o di pietra: è la terra stessa. La terra promessa è diventata un idolo per cui uccidere, e nel momento in cui uccidi in nome della terra promessa, hai già perso la terra — perché la terra che Dio promette non si conquista con le armi, si riceve come dono."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La costante tentazione di Israele nella Bibbia — la TGR lo mostra con chiarezza nell’analisi dei libri storici e profetici — è esattamente questa: trasformare l’elezione in privilegio, il dono in possesso, l’alleanza in imperialismo. Ogni volta che Israele cede a questa tentazione, i profeti lo denunciano come "
+    },
+    {
+     "t": "peggio dei popoli che non conoscono Dio",
+     "b": true
+    },
+    {
+     "t": ", perché chi conosce Dio e lo tradisce fa più danno di chi non lo conosce affatto. Questa denuncia profetica si applica anche oggi, non contro il popolo ebraico, ma contro chi usa l’ebraismo come arma politica. E si applica specularmente a chi usa l’Islam come arma politica. Dio non è di nessuno: è tutti coloro che lo invocano a propria immagine che stanno costruendo un idolo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Non è la religione a generare violenza: è la"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Non è la religione a generare violenza: è la "
+    },
+    {
+     "t": "cattura della religione da parte del potere",
+     "b": true
+    },
+    {
+     "t": ". Quando la fede diventa ideologia di Stato, smette di essere fede e diventa Vangelo dell’Impero. Il Dio di Abramo non può essere usato per giustificare l’uccisione dei figli di Abramo.Teologia della Geopolitica — Manifesto Grande"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La domanda della quarta lente"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dove il potere pretende di sostituirsi a Dio? In ogni punto di questa terra dove un essere umano uccide un altro essere umano credendo di compiere la volontà divina. Nel colono che rivendica la terra in nome di una promessa biblica. Nel miliziano di Hamas che spara razzi su Sderot invocando Allah. Nel politico israeliano che usa la Shoah per giustificare l’occupazione. Nel predicatore islamico che usa Al-Aqsa per giustificare la Jihad. Due Vangeli dell’Impero, due linguaggi, la stessa struttura idolatrica. La quarta lente non assolve nessuno e condanna entrambi: il Dio vivo non può essere ridotto a un titolo di proprietà catastale. La terra è Sua. Noi siamo ospiti. Chi lo dimentica, di qualunque religione sia, sta adorando un idolo fatto di terra, sangue e promesse tradite. Dove conduce, alla fine, questa idolatria? Lo chiediamo alla quinta lente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "V"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Apocalisse del Potere — Gerusalemme vista dall’Escaton"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Come giudica Dio questo evento storico?»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gerusalemme come epicentro dell’Escaton. Tre religioni attendono qui la fine. La lezione escatologica: la Nuova Gerusalemme «scende dal cielo»: si riceve, non si costruisce. La pace che non viene dagli eserciti."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "+"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Gerusalemme: dove la storia finirà"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Se il conflitto israelo-palestinese ha una posizione unica nella quarta lente, nella quinta raggiunge la sua "
+    },
+    {
+     "t": "singolarità assoluta",
+     "b": true
+    },
+    {
+     "t": ". L’Apocalisse del Potere non è una lente tra le altre: è lo sguardo dalla fine della storia, il punto archimedeo da cui ogni evento viene pesato sulla bilancia dell’Escaton. E Gerusalemme è l’unico luogo al mondo in cui "
+    },
+    {
+     "t": "tre religioni si aspettano la fine dei tempi",
+     "b": true
+    },
+    {
+     "t": ". Per l’ebraismo, il Messia entrerà a Gerusalemme dalla Porta d’Oro (oggi murata). Per il cristianesimo, Cristo tornerà sul Monte degli Ulivi, il luogo della sua Ascensione e della futura Parusia. Per l’Islam, Gesù (Isa) tornerà sulla Terra e combatterà il Dajjal (l’Anticristo islamico) proprio a Gerusalemme. Tre narrazioni escatologiche diverse convergono sullo stesso chilometro quadrato: la Città Vecchia, le sue mura, il Monte del Tempio, il Santo Sepolcro. Ogni conflitto su questa terra è anche, inevitabilmente, un "
+    },
+    {
+     "t": "conflitto sulla fine del mondo",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa convergenza non è un dettaglio folkloristico: è il dato che spiega perché nessun’altra disputa territoriale al mondo mobiliti le stesse passioni, gli stessi finanziamenti, la stessa attenzione globale. Gerusalemme non è una città: è un "
+    },
+    {
+     "t": "teatro escatologico",
+     "b": true
+    },
+    {
+     "t": ". Ogni atto che vi si compie — uno scavo archeologico, una preghiera, uno scontro tra fedeli e polizia, l’innalzamento di una bandiera — viene letto da qualcuno come un segno dei tempi, un tassello del puzzle apocalittico. La geopolitica classica non può spiegare perché una disputa su poche centinaia di metri quadrati di una spianata nel cuore di una città di mezzo milione di abitanti possa infiammare il mondo. L’Apocalisse del Potere sì: perché su quella spianata non si gioca il destino di Gaza o della Cisgiordania, ma il "
+    },
+    {
+     "t": "destino ultimo del cosmo",
+     "b": true
+    },
+    {
+     "t": ". O almeno, così credono i fedeli di tre religioni."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La lezione della storia: ogni tentativo di costruire il Regno con la forza fallisce"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La storia di Gerusalemme è un esperimento ripetuto con lo stesso risultato: ogni tentativo di "
+    },
+    {
+     "t": "possedere la città santa con la forza",
+     "b": true
+    },
+    {
+     "t": " produce il contrario di ciò che promette. I Crociati la conquistarono nel 1099, massacrando musulmani ed ebrei, e fondarono il Regno di Gerusalemme: durò ottantotto anni, poi Saladino la riconquistò nel 1187. Gli imperi musulmani la governarono per secoli, ma furono spazzati via uno dopo l’altro: gli Abbasidi, i Fatimidi, gli Ayyubidi, i Mamelucchi, gli Ottomani. Gli inglesi la presero nel 1917 e la persero nel 1948. Ogni impero che ha preteso di fare di Gerusalemme la propria capitale — il proprio trofeo, la propria legittimazione — è caduto. Gerusalemme non appartiene a nessun impero: "
+    },
+    {
+     "t": "appartiene a Dio",
+     "b": true
+    },
+    {
+     "t": ", e Dio non la concede a chi la pretende con la spada."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Israele ha dichiarato Gerusalemme sua «capitale eterna e indivisibile» nel 1980, una mossa che la comunità internazionale ha quasi unanimemente respinto (Risoluzione 478 del Consiglio di Sicurezza ONU). Gli Stati Uniti hanno trasferito l’ambasciata a Gerusalemme nel 2018 sotto l’amministrazione Trump, rompendo decenni di consenso diplomatico. Dal punto di vista della geopolitica classica, è una rivendicazione di sovranità. Dal punto di vista dell’Apocalisse del Potere, è la ripetizione dello stesso gesto che ha fatto cadere tutti gli imperi precedenti: la pretesa di "
+    },
+    {
+     "t": "possedere ciò che è di Dio",
+     "b": true
+    },
+    {
+     "t": ". Non è una profezia: è la lettura della struttura ricorrente della storia. Chi costruisce il proprio potere su Gerusalemme, perde Gerusalemme. Chi pretende di essere il padrone della città di Dio, scopre di esserne solo un inquilino temporaneo, e spesso finisce sfrattato."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La Nuova Gerusalemme scende dal cielo: si riceve, non si costruisce"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il libro dell’Apocalisse descrive la città che scende dal cielo alla fine della storia — la Nuova Gerusalemme — con un verbo decisivo: «scende» (Apocalisse 21,2). La città non viene costruita da mani umane, non viene conquistata da eserciti, non viene decretata da parlamenti. "
+    },
+    {
+     "t": "Scende",
+     "b": true
+    },
+    {
+     "t": ". È un dono, non una conquista. È grazia, non merito. È ricevuta, non prodotta. Questo è il cuore della teologia apocalittica applicata alla geopolitica: la pace non si costruisce con la forza, si riceve come dono di Dio. Ogni pace costruita con la forza è una tregua armata, non la pace messianica. Ogni Gerusalemme costruita dagli imperi è una caricatura della città che scende dal cielo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Salmo 46 — uno dei testi più potenti della Scrittura sul tema della pace — lo dice in modo insuperabile: «Venite, guardate le opere del Signore, egli ha fatto cose tremende sulla terra. "
+    },
+    {
+     "t": "Fa cessare le guerre fino ai confini della terra",
+     "b": true
+    },
+    {
+     "t": ", rompe l’arco e spezza la lancia, brucia i carri nel fuoco. Fermatevi e sappiate che io sono Dio» (Salmo 46,9-11). Colui che fa cessare le guerre non è un negoziatore, non è un esercito, non è una risoluzione ONU. È Dio stesso. E lo fa "
+    },
+    {
+     "t": "rompendo le armi",
+     "b": true
+    },
+    {
+     "t": ", non fabbricandone di nuove. L’ordine è «fermatevi» — non «combattete meglio». La pace escatologica non è il risultato della vittoria di una parte sull’altra: è la "
+    },
+    {
+     "t": "cessazione della logica stessa della vittoria",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Nuova Gerusalemme non ha tempio perché il Signore Dio onnipotente e l’Agnello sono il suo tempio. Non ha bisogno della luce del sole né della luna perché la gloria di Dio la illumina e la sua lampada è l’Agnello. Cammineranno le nazioni alla sua luce, e i re della terra porteranno a lei la loro gloria."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "La Nuova Gerusalemme non ha tempio perché il Signore Dio onnipotente e l’Agnello sono il suo tempio. Non ha bisogno della luce del sole né della luna perché la gloria di Dio la illumina e la sua lampada è l’Agnello. Cammineranno le nazioni alla sua luce, e i re della terra porteranno a lei la loro gloria.Apocalisse 21,22-24"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "In questa città non c’è più il Tempio — il luogo per cui oggi si combatte, si muore, si uccide. Perché la presenza di Dio non è più localizzata in un edificio: è diffusa ovunque. Il Monte del Tempio, oggi il punto più conteso e pericoloso del pianeta, nell’Escaton diventa "
+    },
+    {
+     "t": "irrilevante",
+     "b": true
+    },
+    {
+     "t": ", non perché venga distrutto, ma perché viene superato. La città intera è diventata tempio. Dio non abita più in un luogo: abita in mezzo al suo popolo, e il suo popolo non è più definito da confini etnici o territoriali. La Nuova Gerusalemme è la "
+    },
+    {
+     "t": "città di tutti i popoli",
+     "b": true
+    },
+    {
+     "t": ": «cammineranno le nazioni alla sua luce». Non un popolo solo. Non due popoli. Tutte le nazioni. Questa è la pace escatologica: non la vittoria di una parte sull’altra, ma la "
+    },
+    {
+     "t": "trasfigurazione della città contesa in città donata",
+     "b": true
+    },
+    {
+     "t": "."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "role": "facet",
+   "parts": [
+    "La pace di Gerusalemme",
+    "La pace di Gerusalemme non sarà annunciata da un comunicato stampa congiunto. Sarà il frutto di Colui che «fa cessare le guerre» rompendo l’arco, non vincendo una battaglia. Finché si cercherà la pace di Gerusalemme con le armi, si otterrà solo la guerra di Gerusalemme. La pace viene dalla rottura delle armi , non dalla loro moltiplicazione. Salmo 46 — TGR"
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il giudizio escatologico su questo conflitto"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La quinta lente non emette sentenze su chi abbia più colpe. Il suo giudizio è di natura diversa: è una "
+    },
+    {
+     "t": "rivelazione di struttura",
+     "b": true
+    },
+    {
+     "t": ". Il conflitto israelo-palestinese — nella sua fase attuale come nei suoi precedenti storici — rivela che la pretesa di possedere la terra santa con la forza produce invariabilmente il contrario di ciò che cerca. Israele cerca sicurezza attraverso la forza militare: ottiene il 7 ottobre. Cerca legittimità attraverso il controllo di Gerusalemme: ottiene l’isolamento internazionale e le accuse di genocidio all’Aja. Hamas cerca la liberazione attraverso il terrore: ottiene la distruzione di Gaza. Ogni attore persegue un fine e produce il suo opposto. Non è un incidente: è il "
+    },
+    {
+     "t": "giudizio immanente della storia",
+     "b": true
+    },
+    {
+     "t": ". La violenza che pretende di costruire il Regno costruisce l’inferno."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "E tuttavia, l’Apocalisse del Potere non è una lente della disperazione: è la lente della "
+    },
+    {
+     "t": "speranza contro ogni speranza",
+     "b": true
+    },
+    {
+     "t": ". Il giudizio non è l’ultima parola. L’ultima parola è la Nuova Gerusalemme che scende dal cielo, la città in cui non ci sarà più lutto né lamento né affanno, perché le cose di prima sono passate (Apocalisse 21,4). Questa promessa non è un’evasione dalla storia: è il "
+    },
+    {
+     "t": "criterio di giudizio sulla storia",
+     "b": true
+    },
+    {
+     "t": ". Tutto ciò che costruisce la città dell’uomo con i mattoni del potere, della violenza e dell’esclusione è destinato a passare. Tutto ciò che anticipa la città di Dio — il perdono, la riconciliazione, la condivisione della terra, il riconoscimento dell’umanità dell’altro — partecipa già ora dell’Escaton. Non sappiamo quando e come la pace arriverà a Gerusalemme. Sappiamo che non arriverà dagli F-35 e dai missili Iron Dome, e nemmeno dai razzi Qassam e dai tunnel di Hamas. Arriverà da Colui che «fa cessare le guerre fino ai confini della terra». E il compito di chi crede non è accelerare la vittoria di una parte: è "
+    },
+    {
+     "t": "anticipare la riconciliazione",
+     "b": true
+    },
+    {
+     "t": ", vivendo già ora come se la pace fosse possibile, perché nell’Escaton lo è già."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La domanda della quinta lente"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Come giudica Dio questo evento? Non parteggiando per Israele contro Hamas, né per i palestinesi contro l’occupazione. Giudica "
+    },
+    {
+     "t": "la logica stessa della guerra",
+     "b": true
+    },
+    {
+     "t": " come incompatibile con il Regno. Giudica ogni pretesa di possedere la terra santa con le armi come idolatria. Giudica la sofferenza di entrambi i popoli come un’ingiustizia che grida vendetta al cospetto del Suo trono. E promette che un giorno — non per merito umano ma per pura grazia — la città contesa diventerà città di pace per tutti i popoli. La differenza tra l’ottimismo geopolitico («prima o poi troveremo un accordo») e la speranza escatologica («l’Agnello ha già vinto») è la stessa che corre tra l’ONU e l’Apocalisse. L’ONU produce risoluzioni. L’Apocalisse annuncia che la soluzione è già in corso, nonostante tutto, e che alla fine sarà Dio — non i negoziatori, non i generali, non i martiri — a fare nuove tutte le cose."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sintesi Verticale"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Ciò che ogni lente vede — e ciò che non può vedere"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Geopolitica Classica vede la mappa. Vede Gaza, la Cisgiordania, i tunnel, gli armamenti, gli attori statali e non statali. Sa chi bombarda e chi è bombardato. Ma non sa perché due popoli accettino di combattere di generazione in generazione per un fazzoletto di sabbia e roccia che non vale, economicamente, il sangue versato."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Geopolitica Umana vede le ferite. Vede la memoria della Shoah che si riattiva il 7 ottobre. Vede la Nakba che si riattiva a ogni bombardamento su Gaza. Vede due traumi che si escludono a vicenda. Ma non sa perché un trauma si trasformi in missione, e l’identità di vittima in mandato per opprimere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Geopolitica dell’Anima vede l’immaginario. Vede il mito ebraico della Terra Promessa, il mito palestinese delle chiavi, il mito islamico di Al-Quds. Vede tre narrazioni che pretendono esclusività. Ma non sa giudicare quando un mito diventa idolo, e quando la fede si trasforma in pretesto per la violenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Teologia della Geopolitica vede l’idolatria. Vede due Vangeli dell’Impero con linguaggi diversi ma la stessa struttura: Dio arruolato dalla parte del potere. Vede la terra promessa trasformata in titolo di proprietà. Ma non sa dove conduce, alla fine, questa pretesa."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Apocalisse del Potere vede il destino. Vede che ogni tentativo di costruire la Gerusalemme terrena con la forza fallisce, come è fallito per i crociati, per gli imperi islamici, per gli inglesi. Vede la Nuova Gerusalemme che scende dal cielo — ricevuta, non costruita. Vede che la pace non arriverà dalle armi ma da Colui che le spezza. "
+    },
+    {
+     "t": "Cinque lenti non si contraddicono: si completano.",
+     "b": true
+    },
+    {
+     "t": " Ed è tenendole tutte insieme che il Metodo Pentaedrico dimostra, anche su questo caso — il più rovente, il più teologico, il più insolubile — di essere un paradigma, non un’opinione. La terra due volte promessa sarà pace quando smetterà di essere promessa e comincerà a essere dono."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Torna alla Biblioteca Home MetaHistoria →"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "Genesi 12; 15; Levitico 25; Isaia 5; Salmo 46; Apocalisse 21-22",
+  "Risoluzioni ONU 181 (1947), 194 (1948), 242 (1967), 478 (1980), 2334 (2016)",
+  "Manifesto Grande e Manifesto Piccolo della TGR",
+  "E. Said, Orientalismo; I. Pappe, La pulizia etnica della Palestina; Y. Hazony, The Virtue of Nationalism"
+ ],
+ "stats": {
+  "blocks": 135,
+  "chars": 52436,
+  "hash": "fd2332386091160bbbb3c62fa753e7b24feec446ef6ddda4ea5952df93dc6264"
+ }
+}

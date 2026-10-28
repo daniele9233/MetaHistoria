@@ -1,0 +1,362 @@
+{
+ "id": "geopolitica-dell-anima-europa",
+ "slug": "geopolitica-dell-anima/europa",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/europa",
+ "title": "Caso Europa",
+ "kicker": "02",
+ "lede": "La potenza post-storica in cerca d'anima: un primo studio sull'Europa come impero senza missione, tra rimosse radici teologiche e nostalgia di senso.",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "02"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Caso Europa"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "La potenza post-storica in cerca d'anima: un primo studio sull'Europa come impero senza missione, tra rimosse radici teologiche e nostalgia di senso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«L'Europa è un'entità geopolitica senza teologia, e forse questa è la sua forza. Ma anche la sua più profonda fragilità.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "MetaHistoria, Caso Europa"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L'Europa è il "
+    },
+    {
+     "t": "caso limite",
+     "b": true
+    },
+    {
+     "t": " l'ente geopolitico che ha tentato di costruire sé stesso sulla negazione della teologia. L'Unione Europea nasce dopo due guerre mondiali come progetto di pace, prosperità e diritti. Non c'è un popolo europeo, non c'è una fede europea, non c'è una missione europea. C'è un "
+    },
+    {
+     "t": "procedimento",
+     "b": true
+    },
+    {
+     "t": ": burocrazia, mercato, regolamenti."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lucio Caracciolo sottolinea che l'Europa è uno spazio geopolitico senza soggetto geopolitico. Ha una moneta ma non una politica estera comune. Ha confini ma non li difende. Ha un esercito potenziale ma non lo usa. è "
+    },
+    {
+     "t": "potenza senza volontà",
+     "b": true
+    },
+    {
+     "t": ". E Caracciolo aggiungerebbe: la debolezza dell'Europa non è economica, è esistenziale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dario Fabbri leggerebbe l'Europa come un continente in "
+    },
+    {
+     "t": "inverno demografico e spirituale",
+     "b": true
+    },
+    {
+     "t": ". La secolarizzazione europea non è solo assenza di fede: è assenza di una narrazione collettiva condivisa. Le radici cristiane sono state rimosse dal progetto costituzionale europeo (2004) proprio quando l'Europa scopriva di non avere altro collante. Il vuoto è stato riempito da burocrazia, diritti individuali e moralismo laico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il nemico europeo non è un popolo o un'ideologia, ma il "
+    },
+    {
+     "t": "passato",
+     "b": true
+    },
+    {
+     "t": " la guerra, il nazionalismo, il conflitto. Una teologia negativa: l'Europa è ciò che ha deciso di non essere più. Il sacrificio richiesto è la sovranità nazionale in cambio di pace e prosperità. Ma senza una promessa positiva, senza un'identità desiderabile, il sacrificio diventa insostenibile."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Analisi per la griglia a quattro livelli"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Livello materiale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gigante economico, nano militare",
+     "b": true
+    },
+    {
+     "t": ". PIL complessivo enorme, moneta globale, tecnologia avanzata, welfare diffuso. Ma dipendenza energetica, declino demografico, frammentazione politica, assenza di una politica estera e di difesa comune. Potenza potenziale senza capacità di attualizzarla."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un continente ricco che non sa cosa vuole diventare."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "2"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Livello narrativo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "\"Mai più guerra\"",
+     "b": true
+    },
+    {
+     "t": " narrazione fondata sul rifiuto del passato, non sulla promessa del futuro. Pace, diritti umani, stato di diritto, prosperità. Una narrazione procedurale, non mitica. L'Europa non ha una missione: ha un regolamento. La bandiera è una corona di stelle, non un simbolo di potenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L'unica potenza che si definisce per ciò che ha deciso di non essere."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "3"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Livello teologico implicito"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La teologia europea è"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La teologia europea è "
+    },
+    {
+     "t": "negativa",
+     "b": true
+    },
+    {
+     "t": " non ciò che si crede, ma ciò a cui si è rinunciato. La secolarizzazione non è assenza di teologia, ma trasferimento su oggetti profani: i diritti umani come dogma, la Corte di Giustizia come magistero, la Commissione come curia. Una teologia senza Dio."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il vuoto teologico europeo non è vuoto: è pieno di surrogati."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "4"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Livello escatologico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Escatologia debole:"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Escatologia debole: "
+    },
+    {
+     "t": "il futuro come prolungamento del presente",
+     "b": true
+    },
+    {
+     "t": ". Nessuna promessa di salvezza, nessun destino glorioso, nessuna missione universale. L'orizzonte europeo è la gestione tecnicistica del presente. Fine della storia, ma senza entusiasmo: semplice sopravvivenza amministrata."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L'Europa ha smesso di sognare il futuro: lo amministra."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«L'Europa è il primo soggetto geopolitico della storia che ha tentato di esistere senza una teologia, senza un mito fondativo, senza una promessa escatologica. Ha sostituito il destino con la procedura, la missione con il regolamento, il sacrificio con il comfort. Ma la storia non si lascia amministrare: le potenze senza anima sono le prime a essere travolte.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Il paradosso europeo è che, avendo rinnegato le proprie radici cristiane, ha scoperto di non averne altre. L'Europa non è troppo secolare: è troppo poco consapevole che il suo secolarismo è esso stesso una teologia una teologia senza trascendenza, senza promessa, senza futuro. E una teologia senza futuro è una potenza senza strategia.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "MetaHistoria, Caso Europa — Paradosso"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "C. Schmitt, Teologia politica (1922)",
+  "L. Caracciolo, Limes (1993 )",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "Manifesto TGP-O (2026)"
+ ],
+ "stats": {
+  "blocks": 31,
+  "chars": 4074,
+  "hash": "eac24800cebb160a5fce46fd53f41b71117c7f2e8c18cca60c5d76e3f7f7fee4"
+ }
+}

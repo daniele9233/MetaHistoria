@@ -1,0 +1,633 @@
+{
+ "id": "teologia-geopolitica-eco-guerre-altri-nostre",
+ "slug": "teologia-geopolitica/eco-guerre-altri-nostre",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/teologia-geopolitica/eco-guerre-altri-nostre",
+ "title": "Le Guerre degli Altri (e le Nostre) &mdash; Ecosistema TGR &mdash; MetaHistoria",
+ "kicker": "",
+ "lede": "",
+ "category": "teologia-geopolitica",
+ "parentId": "teologia-geopolitica",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ecosistema TGR — Opera 15"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Le Guerre degli Altri (e le Nostre)"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Smascherare le Menzogne Geopolitiche per Ritrovare un Senso"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Saggio critico "
+    },
+    {
+     "t": "◆",
+     "b": true
+    },
+    {
+     "t": " Percorso Cercatore Tre parti"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Oltre le Menzogne"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un saggio che è al contempo "
+    },
+    {
+     "t": "omaggio e critica",
+     "b": true
+    },
+    {
+     "t": " alla lucidità di Dario Fabbri. Prende le sue intuizioni più potenti e le porta a un livello di profondità ulteriore: quello spirituale ed esistenziale. Il libro usa un doppio metodo: il "
+    },
+    {
+     "t": "bisturi del dubbio",
+     "b": true
+    },
+    {
+     "t": " di Fabbri, che smonta le narrazioni ufficiali mostrando interessi, geografie e sentimenti profondi dei popoli; e la "
+    },
+    {
+     "t": "luce della Teologia della Geopolitica del Regno",
+     "b": true
+    },
+    {
+     "t": ", che dopo aver smontato la menzogna illumina ciò che resta, leggendo la stessa realtà come lotta tra ferite, paure, idolatrie e speranze. Un percorso di liberazione intellettuale e spirituale in tre parti."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Sommario"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    [
+     {
+      "t": "Non è la Guerra dei Leader"
+     }
+    ],
+    [
+     {
+      "t": "Non è uno Scontro di Civiltà"
+     }
+    ],
+    [
+     {
+      "t": "Non è una Guerra di Religione"
+     }
+    ],
+    [
+     {
+      "t": "Non Siamo Solo Spettatori"
+     }
+    ],
+    [
+     {
+      "t": "La Guerra delle Ferite e delle Idolatrie"
+     }
+    ],
+    [
+     {
+      "t": "Dalla Complicità alla Responsabilità"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I — Capitolo 1"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Non è la Guerra dei Leader"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La menzogna della colpa individuale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prima menzogna da smontare è la più diffusa: l’idea che la guerra in Ucraina sia «la guerra di Putin» o che il conflitto a Gaza sia «la guerra di Netanyahu». L’analisi geopolitica mostra come i leader siano spesso "
+    },
+    {
+     "t": "funzionari del sentimento profondo del loro popolo",
+     "b": true
+    },
+    {
+     "t": ", interpreti di paure e ambizioni che li precedono e li superano."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’analisi teologica introduce il concetto di "
+    },
+    {
+     "t": "«peccato strutturale»",
+     "b": true
+    },
+    {
+     "t": ": i leader non sono demoni solitari, ma l’espressione più visibile di una Bestia collettiva che ha radici storiche e spirituali. Ridurre tutto alla malvagità di un singolo è una spiegazione consolatoria che impedisce di vedere la profondità del male e la nostra corresponsabilità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I — Capitolo 2"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Non è uno Scontro di Civiltà"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La menzogna ideologica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La narrazione «democrazia vs autocrazia» o «Occidente vs Islam» è un’altra Bestia narrativa. L’analisi geopolitica mostra come le democrazie agiscano per interesse tanto quanto le autocrazie, e come spesso si alleino con tirannie quando fa comodo. La retorica dello scontro di civiltà serve a nobilitare interessi strategici e a mobilitare l’opinione pubblica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’analisi teologica rivela che questa è la narrazione auto-assolutoria della Bestia Ziz: la vera lotta non è tra forme di governo, ma tra la "
+    },
+    {
+     "t": "logica dell’Impero",
+     "b": true
+    },
+    {
+     "t": " — comune a tutte le potenze — e la "
+    },
+    {
+     "t": "logica del Regno",
+     "b": true
+    },
+    {
+     "t": ". Qualunque sistema politico può diventare veicolo di idolatria imperiale se perde il suo ancoraggio alla verità e alla giustizia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I — Capitolo 3"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Non è una Guerra di Religione"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La menzogna della fede armata"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Si smonta l’idea che si combatta per l’Ortodossia, l’Islam o il Giudaismo. L’analisi geopolitica mostra come la religione sia spesso un "
+    },
+    {
+     "t": "«marcatore identitario»",
+     "b": true
+    },
+    {
+     "t": ", uno strumento usato dalle élite politiche per mobilitare le masse e sacralizzare i propri interessi. Non è Dio a essere chiamato in causa, ma il suo nome a essere usurpato."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’analisi teologica denuncia questa come la bestemmia più grande: la "
+    },
+    {
+     "t": "sacralizzazione del potere",
+     "b": true
+    },
+    {
+     "t": ", l’uso del nome di Dio per benedire la logica della Bestia. Quando la fede diventa strumento di mobilitazione bellica, non è più fede: è ideologia con paramenti sacri."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte I — Capitolo 4"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Non Siamo Solo Spettatori"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La menzogna del disincanto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’ultima menzogna è la più insidiosa: la posizione comoda dell’europeo che si sente «fuori dalla storia», spettatore disincantato. L’analisi geopolitica mostra come il nostro benessere sia legato a doppio filo a questi conflitti, e come la nostra «neutralità» sia in realtà una scelta politica che avvantaggia lo status quo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Qui si introduce la "
+    },
+    {
+     "t": "«Confessione del Monaco»",
+     "b": true
+    },
+    {
+     "t": ": la nostra non è neutralità, è complicità. Siamo pienamente dentro il sistema delle Bestie, anche quando ci illudiamo di esserne fuori. Il nostro silenzio, il nostro consumo, la nostra indifferenza sono forme di partecipazione al sistema che produce le guerre che deploriamo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La nostra non è neutralità: è complicità. Siamo pienamente dentro il sistema delle Bestie, anche quando ci illudiamo di guardare da fuori."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "La nostra non è neutralità: è complicità. Siamo pienamente dentro il sistema delle Bestie, anche quando ci illudiamo di guardare da fuori.Le Guerre degli Altri — Parte I"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte II"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La Guerra delle Ferite e delle Idolatrie"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La verità che non vogliamo vedere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Smontate le menzogne, la seconda parte del saggio mostra ciò che resta: i conflitti non sono scontri tra «buoni e cattivi» ma tra "
+    },
+    {
+     "t": "ferite storiche e spirituali",
+     "b": true
+    },
+    {
+     "t": " che cercano guarigione nella direzione sbagliata. L’umiliazione russa dopo il crollo dell’URSS, la paura esistenziale israeliana nata dalla Shoah, l’espropriazione palestinese, l’orgoglio cinese ferito dal secolo delle umiliazioni."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dietro le ferite agiscono "
+    },
+    {
+     "t": "idolatrie",
+     "b": true
+    },
+    {
+     "t": " che le Bestie sfruttano e amplificano: la Nazione Sacra, la Sicurezza Assoluta, la Terra come bene supremo. E i popoli non combattono solo per paura ma anche per "
+    },
+    {
+     "t": "speranza",
+     "b": true
+    },
+    {
+     "t": " — la speranza di un riscatto, di un futuro diverso — che le Bestie pervertono in messianismo politico. Ogni guerra è anche una guerra di speranze distorte."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il passaggio dall’analisi del potere all’analisi dell’anima rivela che dietro ogni conflitto geopolitico c’è una "
+    },
+    {
+     "t": "domanda spirituale inevasa",
+     "b": true
+    },
+    {
+     "t": ": il bisogno di significato, di sicurezza ultima, di appartenenza. Domande a cui solo il Vangelo del Regno può dare una risposta non idolatrica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Parte III"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Dalla Complicità alla Responsabilità"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "L’unica battaglia che possiamo vincere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La terza parte affronta la domanda inevitabile: se non possiamo incolpare solo i leader e siamo tutti complici, cosa ci resta? La risposta è paradossale ma liberante: "
+    },
+    {
+     "t": "la battaglia interiore",
+     "b": true
+    },
+    {
+     "t": ". L’unico campo su cui abbiamo vera sovranità è il nostro cuore."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il saggio propone quattro pratiche concrete: "
+    },
+    {
+     "t": "pregare per i nemici",
+     "b": true
+    },
+    {
+     "t": ", compiendo l’atto più controcorrente che esista nella logica della guerra; "
+    },
+    {
+     "t": "rifiutare la propaganda da ogni parte",
+     "b": true
+    },
+    {
+     "t": ", esercitando un discernimento che non risparmia nessuno schieramento; "
+    },
+    {
+     "t": "creare Betanie di accoglienza e dialogo",
+     "b": true
+    },
+    {
+     "t": ", spazi dove le logiche del mondo vengono sospese in anticipo del Regno; "
+    },
+    {
+     "t": "compiere piccoli atti di riparazione",
+     "b": true
+    },
+    {
+     "t": " contro la propria complicità nel sistema che produce le guerre."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il libro si chiude con l’immagine del seminatore: non vedremo forse il raccolto. Ma "
+    },
+    {
+     "t": "nessun seme d’amore, per quanto piccolo, va mai perduto",
+     "b": true
+    },
+    {
+     "t": ". La pace non si costruisce con i trattati ma con i gesti. E la geopolitica del Regno comincia sempre da un cuore che smette di cercare colpevoli e inizia a seminare."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Non vedrai forse il raccolto. Ma nessun seme d’amore, per quanto piccolo, va mai perduto. La geopolitica del Regno comincia sempre da un cuore che smette di cercare colpevoli e inizia a seminare."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Non vedrai forse il raccolto. Ma nessun seme d’amore, per quanto piccolo, va mai perduto. La geopolitica del Regno comincia sempre da un cuore che smette di cercare colpevoli e inizia a seminare.Le Guerre degli Altri — Conclusione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Torna all’Ecosistema TGR"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [],
+ "stats": {
+  "blocks": 48,
+  "chars": 6968,
+  "hash": "6fdba196d56c2ad3a7d330cdeac5d2370b07268fa6392b65fb2c76410cba1e0b"
+ }
+}

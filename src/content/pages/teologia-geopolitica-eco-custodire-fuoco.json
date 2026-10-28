@@ -1,0 +1,694 @@
+{
+ "id": "teologia-geopolitica-eco-custodire-fuoco",
+ "slug": "teologia-geopolitica/eco-custodire-fuoco",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/teologia-geopolitica/eco-custodire-fuoco",
+ "title": "Custodire il Fuoco &mdash; Ecosistema TGR &mdash; MetaHistoria",
+ "kicker": "",
+ "lede": "",
+ "category": "teologia-geopolitica",
+ "parentId": "teologia-geopolitica",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ecosistema TGR — Opera 20"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Custodire il Fuoco"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Preghiera di un Frate di Betania nel Tempo delle Bestie"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Preghiera contemplativa "
+    },
+    {
+     "t": "☨",
+     "b": true
+    },
+    {
+     "t": " Percorso Combattente Tre veglie"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Il Testamento Spirituale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un libro che è una "
+    },
+    {
+     "t": "preghiera",
+     "b": true
+    },
+    {
+     "t": ". Un’unica, lunga veglia di adorazione di un frate di Betania di fronte al Santissimo Sacramento. Tre notti — Fede, Carità, Speranza — che corrispondono al cammino Guarire-Combattere-Seminare. Lo sguardo di Francesco e Maria sul mondo delle Bestie, fuso con il carisma specifico della Fraternità Francescana di Betania."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Sommario"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    [
+     {
+      "t": "Prima Veglia: La Notte della Fede"
+     }
+    ],
+    [
+     {
+      "t": "Seconda Veglia: La Notte della Carità"
+     }
+    ],
+    [
+     {
+      "t": "Terza Veglia: La Notte della Speranza"
+     }
+    ],
+    [
+     {
+      "t": "Il Mattino: la missione inizia"
+     }
+    ]
+   ],
+   "role": "list"
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Prima Veglia"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La Notte della Fede"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Guarire lo sguardo: Confessione, Svuotamento, Adorazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate entra nella cappella al calare della sera. Davanti all’Ostia consacrata inizia la prima veglia, dedicata a "
+    },
+    {
+     "t": "guarire lo sguardo",
+     "b": true
+    },
+    {
+     "t": ". Prima di combattere, bisogna vedere. Prima di agire, bisogna lasciarsi guardare. È il momento della confessione e della purificazione."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La Confessione: lo sguardo di Francesco sul mondo"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate guarda il mondo con gli occhi di Francesco che piange sulle piaghe di Cristo. Riconosce la propria "
+    },
+    {
+     "t": "complicità con le Bestie",
+     "b": true
+    },
+    {
+     "t": ": la radice di tutto è il cuore diviso. Si dichiara di voler vivere in modo radicale il Vangelo, ma poi si scende a compromessi con le Bestie quando non costa nulla. Il frate confessa che il vero nemico non è fuori ma dentro: la stessa logica di dominio che anima gli imperi è presente anche nel proprio cuore."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Lo Svuotamento: lo sguardo di Maria su di sé"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dalla confessione si passa allo "
+    },
+    {
+     "t": "svuotamento",
+     "b": true
+    },
+    {
+     "t": ". Il frate contempla Maria, l’Ancella del "
+    },
+    {
+     "t": "fiat",
+     "i": true
+    },
+    {
+     "t": ", e impara a farsi spazio vuoto. Maria non ha accolto solo la Parola, ma la Volontà intera del Padre. È l’icona più stimolante della vera accoglienza: il suo «Sì» ha orientato tutta la sua vita e può orientare anche quella del frate."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Madre, dolce modello ed ispirazione, insegnami quel «Sì» che ha orientato tutta la Tua vita, affinché possa orientare anche la mia. Rendimi nulla, perché Lui possa essere tutto."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Madre, dolce modello ed ispirazione, insegnami quel «Sì» che ha orientato tutta la Tua vita, affinché possa orientare anche la mia. Rendimi nulla, perché Lui possa essere tutto.Prima Veglia — Preghiera dello Svuotamento"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Nucleo dell’Adorazione: il Dono dell’Eucaristia"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lo sguardo del frate torna sull’Ostia. Il centro immobile nella tempesta. L’unica certezza nel mondo delle Bestie. L’adorazione è l’atto di fede pura: «Signore, sono peccatore e sono nulla. Ma Tu sei qui. Tu, Pane vivo, centro e culmine della nostra vita fraterna. Non è un fare, è un lasciarmi trasformare da Te»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Seconda Veglia"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La Notte della Carità"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Combattere la buona battaglia con le armi dell’Agnello"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Radicato nella fede, il frate ora si interroga sulla "
+    },
+    {
+     "t": "missione",
+     "b": true
+    },
+    {
+     "t": ", sulla lotta. La seconda notte è dedicata alla carità come atto di combattimento spirituale. L’amore non è sentimentalismo: è la più potente delle armi contro le Bestie."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Le Armi dell’Agnello: la battaglia di Francesco"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate medita su Francesco che va dal Sultano. Non con la spada, ma con il "
+    },
+    {
+     "t": "corpo inerme",
+     "b": true
+    },
+    {
+     "t": ". Applica le categorie della Teologia della Geopolitica: «Signore, le armi delle Bestie sono la forza, la menzogna, il denaro. Le armi di Francesco, le Tue armi, sono la Povertà, la Minorità, la Fraternità. Insegnami a combattere non per vincere, ma per amare». I tre voti francescani — povertà, castità, obbedienza — vengono riletti non come rinunce ma come le "
+    },
+    {
+     "t": "tre armi strategiche dell’Anti-Impero",
+     "b": true
+    },
+    {
+     "t": ". L’obbedienza non è servilismo: è il desiderio di vivere compiendo la volontà del Padre, anche quando chiede di andare disarmato di fronte al Sultano."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Cenacolo di Maria: la vita fraterna"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate guarda alla sua comunità e medita su "
+    },
+    {
+     "t": "Maria nel Cenacolo",
+     "b": true
+    },
+    {
+     "t": " con gli Apostoli. Lei non predica, non comanda. La sua presenza orante crea la comunione. La preghiera si fa invocazione: «Madre, rendi la nostra fraternità un ‘cenacolo’. Non un rifugio di perfetti, ma una casa di peccatori perdonati dove lo Spirito può scendere. La nostra prima battaglia contro le Bestie che dividono il mondo è l’amore che ci unisce qui, oggi»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Che il mondo, vedendoci uniti, non veda la nostra bravura, ma la Tua presenza che ci tiene insieme. Fa’ che siamo un corpo, un cuore solo, una testimonianza vivente che l’amore è più forte delle Bestie che dividono."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Che il mondo, vedendoci uniti, non veda la nostra bravura, ma la Tua presenza che ci tiene insieme. Fa’ che siamo un corpo, un cuore solo, una testimonianza vivente che l’amore è più forte delle Bestie che dividono.Seconda Veglia — Preghiera per la Fraternità"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "I Tre Volti del Servizio"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate contempla le "
+    },
+    {
+     "t": "tre vocazioni",
+     "b": true
+    },
+    {
+     "t": " della Fraternità Francescana di Betania, tre modi di incarnare la logica dell’Anti-Impero. Il "
+    },
+    {
+     "t": "fratello laico",
+     "b": true
+    },
+    {
+     "t": " è la sentinella nel mondo, colui che combatte la battaglia nelle strutture secolari portando il fermento del Regno. La "
+    },
+    {
+     "t": "sorella",
+     "b": true
+    },
+    {
+     "t": " è il cuore orante e guaritore, colei che con la preghiera e l’accoglienza tiene accesa la fiamma della speranza. Il "
+    },
+    {
+     "t": "sacerdote",
+     "b": true
+    },
+    {
+     "t": " è il dispensatore delle armi della luce: attraverso i sacramenti fornisce al popolo di Dio ciò di cui ha bisogno per resistere. Tre volti, una sola missione."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Nucleo dell’Adorazione: il Corpo Spezzato"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lo sguardo torna sull’Ostia. «Signore, Tu sei Corpo Spezzato per il mondo. Che la nostra comunità, unita a Te, impari a spezzarsi nel servizio, specialmente nell’accoglienza, per nutrire chi ha fame di pane e di amore». L’adorazione non resta chiusa nella cappella: diventa "
+    },
+    {
+     "t": "impegno missionario",
+     "b": true
+    },
+    {
+     "t": ". Il fare di Marta e il silenzio di Maria si fondono in un unico atto. Nel silenzio dell’adorazione si impara da Cristo, e da questo incontro nasce la forza per il servizio."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Terza Veglia"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "La Notte della Speranza"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "Seminare il Regno nel «Già e non Ancora»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Consapevole della lotta, il frate ora alza lo sguardo al futuro, al destino. La terza notte è la veglia della "
+    },
+    {
+     "t": "speranza teologale",
+     "b": true
+    },
+    {
+     "t": ": non l’attesa passiva della fine, ma la celebrazione gioiosa del Regno che già germoglia tra le rovine."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La Letizia di Francesco"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate medita sul "
+    },
+    {
+     "t": "Cantico delle Creature",
+     "b": true
+    },
+    {
+     "t": ", scritto da Francesco tra dolori e quasi cecità. È la letizia perfetta che nasce non dall’assenza di sofferenza, ma dalla certezza della presenza di Dio. Il mondo è crocifisso dalle Bestie, ma Francesco insegna a cantare la lode proprio ai piedi della croce. Questa è la letizia francescana: non un’emozione passeggera, ma il profumo della Resurrezione. La fraternità stessa è chiamata a essere un segno di questa gioia contro il cinismo del mondo."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "La Donna Vestita di Sole: la Vittoria di Maria"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il frate alza lo sguardo a una statua della Madonna nella cappella e medita sulla visione dell’Apocalisse. Maria è il "
+    },
+    {
+     "t": "grande Segno nel Cielo",
+     "b": true
+    },
+    {
+     "t": ", la Donna vestita di sole con la luna sotto i piedi. La sua vittoria sul Drago è certa. La preghiera diventa invocazione di fiducia: «Madre, Regina della Pace, sappiamo che la vittoria finale è Tua. Insegnaci a combattere come Tu hai combattuto: non con il rumore, ma con il silenzio; non con l’arroganza, ma con l’umiltà; non con la forza, ma con la fedeltà del Tuo ‘Sì’ ripetuto ogni giorno»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rendici il «resto» della Tua discendenza che combatte non nella paura, ma nella gioia dell’attesa. Piccoli ma tenaci, che custodiscono la fede nel tempo della prova."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Rendici il «resto» della Tua discendenza che combatte non nella paura, ma nella gioia dell’attesa. Piccoli ma tenaci, che custodiscono la fede nel tempo della prova.Terza Veglia — Preghiera alla Donna Vestita di Sole"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 4,
+   "runs": [
+    {
+     "t": "Il Nucleo dell’Adorazione: il Seme del Regno"
+    }
+   ],
+   "role": "lede"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lo sguardo finale è ancora sull’Ostia. Il Pane consacrato è il "
+    },
+    {
+     "t": "seme del Regno",
+     "b": true
+    },
+    {
+     "t": ": piccolo, silenzioso, vulnerabile, ma in esso c’è la potenza della Resurrezione. La preghiera conclusiva della veglia è una sintesi di tutto il carisma di Betania: una vita di accoglienza, servizio fraterno, preghiera silenziosa, povertà scelta e letizia, tutto offerto come piccolo seme che, morendo a sé stesso, porta frutto per il Regno."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆ ◆ ◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "label",
+   "runs": [
+    {
+     "t": "Epilogo"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Il Mattino: la missione inizia"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "sub",
+   "runs": [
+    {
+     "t": "La veglia è finita. La preghiera si fa invio."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il libro si chiude con il suono della "
+    },
+    {
+     "t": "campana del mattino",
+     "b": true
+    },
+    {
+     "t": ". La veglia è finita. Il frate si alza. La preghiera si è compiuta, ma solo perché ora possa cominciare la missione. Ciò che è stato contemplato nell’Ostia deve ora essere vissuto nel mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Signore Gesù, Tu, nascosto in questo piccolo pezzo di Pane, sei il seme del Regno. Fa’ che io diventi come Te: un piccolo seme, nascosto nel campo del mondo. Non chiedo di vedere l’albero. Mi basta la grazia di essere un seme fedele, che muore nell’adorazione per portare frutto nel servizio. Amen."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "Signore Gesù, Tu, nascosto in questo piccolo pezzo di Pane, sei il seme del Regno. Fa’ che io diventi come Te: un piccolo seme, nascosto nel campo del mondo. Non chiedo di vedere l’albero. Mi basta la grazia di essere un seme fedele, che muore nell’adorazione per portare frutto nel servizio. Amen.Preghiera Conclusiva — Custodire il Fuoco"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "← Torna all’Ecosistema TGR"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [],
+ "stats": {
+  "blocks": 56,
+  "chars": 9006,
+  "hash": "0b472069be7b811ac875662916ffc368b46bfa92c2194bc23a5fd8f3ef9b2c87"
+ }
+}

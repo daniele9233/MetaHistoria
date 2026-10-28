@@ -1,0 +1,2675 @@
+{
+ "id": "geopolitica-dell-anima-atlante-storico",
+ "slug": "geopolitica-dell-anima/atlante-storico",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/atlante-storico",
+ "title": "Atlante Storico",
+ "kicker": "",
+ "lede": "Clicca ogni voce per esplorarne le incarnazioni storiche",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Atlante "
+    },
+    {
+     "t": "Storico",
+     "i": true
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La storia umana letta attraverso le lenti della Geopolitica dell’Anima. Ogni concetto fondamentale si illumina di cinque riferimenti storici che ne mostrano il funzionamento nella carne viva degli eventi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Clicca ogni voce per esplorarne le incarnazioni storiche"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fondamenti",
+     "b": true
+    },
+    {
+     "t": " — Le chiavi teoriche della disciplina · "
+    },
+    {
+     "t": "Insegnamenti",
+     "b": true
+    },
+    {
+     "t": " — Le conseguenze esistenziali · "
+    },
+    {
+     "t": "Istituzioni",
+     "b": true
+    },
+    {
+     "t": " — I casi-studio incarnati nella storia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fondamenti"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Immaginario Collettivo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni comunità costruisce un immaginario collettivo che ne determina l’identità e le scelte politiche. Le grandi potenze si muovono non solo per interesse, ma per vocazione percepita."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roma e il mito dell’eternità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Impero Romano si percepisce come destino universale. Virgilio nell’Eneide costruisce una genealogia divina per Roma. Il mito dell’eternità imperiale («Roma aeterna») sopravvive alla caduta dell’Impero e viene ereditato da Bisanzio, dal Sacro Romano Impero e infine dall’Impero Ottomano come «Roma dei musulmani». Ogni potenza ha bisogno di un’origine sacra."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "USA e il Destino Manifesto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Sin dal 1630 (Winthrop: «City upon a Hill»), l’America si racconta come nazione eletta. Il «Destino Manifesto» (1845) legittima l’espansione verso ovest come missione divina. Questa narrazione è la chiave per capire l’interventismo americano: dalla guerra al Messico all’Iraq, ogni conflitto è inquadrato come lotta tra libertà e tirannide."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Russia: Terza Roma e mondo russo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dopo la caduta di Costantinopoli (1453), Mosca si autoproclama Terza Roma: l’unico impero ortodosso rimasto. L’idea sopravvive nell’Unione Sovietica (Mosca come Terza Internazionale) e nell’ideologia putiniana del «Russkij Mir» (Mondo Russo). La guerra in Ucraina è anche un conflitto tra due immaginari collettivi in competizione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Cina: il Mandato del Cielo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per 3.000 anni la Cina si è concepita come il «Regno di Mezzo», centro del mondo. L’imperatore regna per Mandato del Cielo (Tianming): se governa male, lo perde. Oggi il Partito Comunista ha sostituito l’imperatore, ma la struttura dell’immaginario è la stessa: la Cina come civilizzazione unica, superiore, destinata a riprendersi il suo posto centrale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Iran: la Rivoluzione come riscatto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Iran sciita si racconta come la vittima per eccellenza della storia (tradizione di Karbala). Il martirio di Hussein (680 d.C.) diventa il modello culturale: il vero credente combatte contro un potere ingiusto, anche se perde. Khomeini rovescia lo Shah nel 1979 usando esattamente questa narrazione: l’Iran umiliato dall’Occidente che si riscatta con la rivoluzione islamica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Legittimazione del Potere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il potere cerca sempre una legittimazione che trascenda la pura forza. Ogni forma di governo è espressione di una specifica antropologia e teologia implicita."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Davide: il re unto dal Signore"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il primo modello di regalità sacra in Israele. Davide non è re per eredità o conquista militare, ma per unzione profetica. Nasce l’idea che l’autorità politica abbia una fonte divina. Questo modello influenzerà per secoli la regalità cristiana: il «re per grazia di Dio» europeo è figlio di Davide."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Costantino e la svolta costantiniana"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Costantino unisce potere imperiale e fede cristiana. Con l’Editto di Milano (313) prima, e il Concilio di Nicea (325) poi, l’imperatore diventa il «vescovo di quelli di fuori». Il potere politico si legittima come protettore della vera fede. Nasce il cesaropapismo che dominerà Bisanzio e la Russia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Luigi XIV: lo Stato sono io"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Re Sole incarna l’apogeo della monarchia assoluta di diritto divino. Nessuna mediazione: Dio dà il potere direttamente al re, che ne risponde solo a Lui. Versailles diventa il teatro della legittimazione: l’etichetta di corte, la centralizzazione, il controllo della nobiltà. Il re non ha bisogno del papa né del parlamento."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Napoleone: l’auto-incoronazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nel 1804 Napoleone si incorona da solo, strappando la corona dalle mani del papa. È un gesto teologico-politico: il potere non viene da Dio né dal popolo, ma dalla propria volontà e genio. Segna la nascita della legittimazione moderna: carismatica, laica, basata sul successo e sul consenso plebiscitario."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Putin: il potere verticale e l’ortodossia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Vladimir Putin legittima il suo potere su tre pilastri: la restaurazione della dignità nazionale (dopo il trauma sovietico), la protezione dell’ortodossia come anima della Russia, e la promessa di ordine e stabilità dopo il caos eltsiniano. Il suo potere è personale, carismatico e sacrale: non ci sono successori visibili. Il dissenso è eresia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Messianismo Politico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il messianismo politico è la tentazione di trasferire la speranza escatologica in un progetto politico immanente. Ogni grande ideologia del Novecento ne ha una versione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Le Crociate: il Regno di Dio con la spada"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prima grande manifestazione di messianismo politico cristiano. La riconquista di Gerusalemme (1099) viene presentata come atto escatologico: instaurare il regno di Dio in Terra Santa. La guerra diventa liturgia, il nemico è satanizzato, la morte in battaglia è martirio. Il modello si ripeterà in ogni crociata successiva."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rivoluzione Francese: il popolo messia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Rivoluzione trasferisce la sovranità da Dio al Popolo. Robespierre inventa il culto dell’Essere Supremo e il calendario rivoluzionario: una nuova era, un nuovo tempo. Il Terrore è la purificazione necessaria per la nuova umanità. Il messianismo si secolarizza, ma la struttura è identica a quella religiosa."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Marxismo: la salvezza attraverso la storia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il marxismo è una escatologia secolare: la storia ha un senso, una fine (il comunismo), una classe eletta (il proletariato), un antagonista (la borghesia), un momento di rottura (la rivoluzione). La Chiesa viene sostituita dal Partito, il paradiso dalla società senza classi. Lenin e Stalin applicano questa escatologia con feroce coerenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nazismo: il Reich Millenario"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il nazismo è il messianismo politico più estremo del Novecento. Hitler come Messia del popolo tedesco, la razza ariana come popolo eletto, gli ebrei come antitipo satanico, il Reich millenario come Regno. La mistica del sangue, della terra, del sacrificio e del Führer è una teologia politica rovesciata e demoniaca."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "ISIS: il Califfato escatologico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’ISIS (2014-2019) è un messianismo islamico armato. La profezia del Califfato, della battaglia finale (Dabiq) e dell’arrivo del Mahdi diventa agenda politica. Il gruppo usa la guerra escatologica come strategia di reclutamento e legittimazione. Il suo «Stato islamico» non è solo un progetto politico, ma una macchina apocalittica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Crociata ed Evangelizzazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Due logiche opposte di espansione del cristianesimo: la crociata impone la fede con la spada, l’evangelizzazione propone con la testimonianza. La storia oscilla tra questi due poli."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Carlo Magno: convertire con la spada"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Carlo Magno converti i Sassoni con una combinazione di predicazione e sterminio (Capitolare di Paderborn, 785). Chi non si converte viene ucciso o deportato. È il modello della crociata ante litteram: la fede come obbligo politico, la conversione come sottomissione. La logica è «credere o morire»."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Francesco Saverio: la missione paziente"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il missionario gesuita in India, Giappone e Cina (1540-1552) incarna la logica opposta: evangelizzare rispettando le culture locali, imparare le lingue, dialogare con i sapienti. La sua morte solitaria sull’isola di Sancian, senza essere riuscito a entrare in Cina, è il simbolo della missione che non forza le porte."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Conquista delle Americhe: croce e spada"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La conquista spagnola è il caso più ambiguo: missionari come Bartolomeo de Las Casas denunciano i massacri, ma la conversione è spesso forzata. Il Requerimiento (1513) è un documento che gli spagnoli leggono prima di attaccare: se gli indigeni non si sottomettono al papa e al re, è guerra giusta. Una crociata burocratica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Madre Teresa: la missione del servizio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Madre Teresa di Calcutta incarna l’evangelizzazione attraverso il servizio puro: non cerca conversioni, ma ama i poveri perché sono immagine di Dio. Il suo esempio mostra che la fede può essere proposta senza imposizione, con la sola forza della testimonianza. L’opposto della crociata."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Papa Francesco: rifiuto della crociata"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Francesco ha sistematicamente rifiutato la logica della crociata: si oppose all’intervento in Iraq (2003), ai bombardamenti in Siria (2013), alla retorica dello scontro di civiltà. Il suo viaggio ad Abu Dhabi (2019) e la Dichiarazione sulla Fratellanza Umana sono il manifesto di una missione che non conquista ma incontra."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Guerra come Crisi delle Relazioni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La guerra è una crisi delle quattro relazioni fondamentali dell’uomo (con Dio, sé, gli altri, il creato). Ogni conflitto è anche un conflitto interiore che si esteriorizza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Guerra dei Cent’Anni: la teologia del conflitto dinastico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1337-1453: la lunga guerra tra Inghilterra e Francia è formalmente per la successione al trono, ma ha radici più profonde. Entrambi i re si appellano a Dio. La guerra diventa un giudizio divino, le sconfitte sono castighi, le vittorie segni di elezione. Giovanna d’Arco incarna la fusione tra missione divina e guerra politica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Guerra dei Trent’Anni: la fede che uccide"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1618-1648: l’ultima e più devastante guerra di religione europea. Cattolici contro protestanti, con otto milioni di morti. La devastazione della Germania è tale che la Pace di Vestfalia (1648) sancisce il principio «cuius regio, eius religio»: la religione non deve più essere causa di guerra. Nasce il moderno sistema degli Stati sovrani."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Grande Guerra: la crisi della coscienza europea"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1914-1918: la guerra che doveva finire tutte le guerre. Il conflitto industriale e di trincea distrugge la fiducia nel progresso, in Dio, nell’umanità. I cappellani militari benedicono le armi da entrambi i lati: lo stesso Dio invocato da eserciti nemici. Dopo la guerra, Europa non si fiderà mai più delle grandi narrazioni."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Vietnam: la guerra che l’America perse con sé stessa"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1964-1975: la guerra del Vietnam è una crisi di identità americana. L’America si raccontava come potenza buona, liberatrice. Ma i massacri (My Lai), il napalm, i villaggi distrutti mostrano il volto oscuro della missione americana. La guerra spacca la società USA e segna la fine del consenso interno sulla Guerra Fredda."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ucraina 2022: guerra di anime, prima che di territori"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’invasione russa dell’Ucraina è il caso limite della Geopolitica dell’Anima. Non è solo una guerra per il Donbass: è una guerra tra due narrazioni della storia, due immagini di Dio (Kiev e Mosca), due modi di concepire la libertà. Il Patriarcato di Mosca benedice le truppe, la Chiesa ortodossa ucraina si separa. La guerra è liturgica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◆"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Civiltà come Prodotto Storico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La civiltà è il prodotto storico dell’interazione delle quattro forze fondamentali. Ogni civiltà lascia una traccia che diventa immaginario per quelle successive."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Grecia: la polis e il logos"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Grecia classica inventa la politica come spazio di confronto tra liberi cittadini. La polis non è un impero ma una comunità di uguali. Il logos (ragione, parola) diventa lo strumento del governo. Atene, Sparta, Tebe: tre modelli diversi di organizzare la convivenza. L’eredità greca (filosofia, democrazia, teatro) è ancora il fondamento dell’Occidente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roma: il diritto e l’impero"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roma civilizza il mondo mediterraneo non con la filosofia ma con il diritto. Il genio romano è la capacità di integrare i popoli conquistati: la cittadinanza romana, il diritto comune, le strade, l’esercito. Roma crea il primo Stato multi-etnico della storia. La sua lingua (latino) e il suo diritto (codice giustinianeo) sopravvivono al suo impero."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Cristianità medievale: la sintesi"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Medioevo europeo tenta la sintesi tra eredità greco-romana e fede cristiana. Il papato e l’impero, le università e le cattedrali, la scolastica e la cavalleria. È una civiltà che si percepisce come unitaria (Respublica Christiana) ma è divisa tra tensioni papali e imperiali. La sintesi crolla con la Riforma protestante."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Europa moderna: lo Stato-nazione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dalla Pace di Vestfalia (1648) all’Unione Europea, l’Europa inventa lo Stato-nazione come forma politica dominante: sovrano, territoriale, burocratico, nazionale. La Rivoluzione francese esporta il modello: un popolo, una lingua, uno Stato. Due guerre mondiali mostrano i limiti del modello, e nasce l’UE come tentativo di superamento. Oggi lo Stato-nazione è in crisi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Globalizzazione: la civiltà-mondo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dal 1991 al 2020 circa, la globalizzazione neoliberale tenta di creare una civiltà globale unificata dal mercato, dalla tecnologia e dai valori occidentali (diritti umani, democrazia). Il fallimento è duplice: la crisi del 2008 mostra le disuguaglianze, il ritorno della potenza (Cina, Russia, Iran) mostra che la civiltà-mondo è un sogno occidentale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Insegnamenti"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "♢"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Arte del Disincanto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il disincanto è la scoperta che ogni potenza è anche una ferita, ogni ideologia una difesa, ogni nemico uno specchio. È il primo passo della maturità politica e spirituale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Caduta di Roma (476 d.C.): la fine del mito dell’invincibilità"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La «Città Eterna» viene saccheggiata dai Visigoti (410) e dagli Eruli (476). Il mondo romano crolla. Agostino scrive il «De Civitate Dei» per spiegare che la vera città non è terrena. È il primo grande disincanto della storia occidentale: l’impero non era eterno, la potenza non era invincibile, Roma era anche peccato e decadenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riforma Protestante (1517): l’unità infranta"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lutero scopre che la Chiesa, che si presentava come corpo mistico di Cristo, è anche un’istituzione corrotta, venditrice di indulgenze, intrecciata al potere politico. Il disincanto è traumatico: l’unità della cristianità occidentale si spezza per sempre. Nasce il mondo moderno, ma con una ferita che non si rimarginerà mai."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Illuminismo: il disincanto metodico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Kant: «Sapere aude!» L’Illuminismo è un disincanto programmatico: sottoporre tutto alla ragione critica, smascherare le superstizioni, demistificare il potere. La Rivoluzione francese cerca di costruire una società senza Dio. Il disincanto diventa metodo: non fidarsi di nulla che non sia dimostrato. Ma il prezzo è la perdita del senso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Guerre Mondiali: la fine del progresso"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Novecento è il secolo del grande disincanto. La Prima Guerra Mondiale mostra che la tecnologia non porta al progresso morale ma allo sterminio di massa. Auschwitz (1945) distrugge l’idea che la civiltà occidentale sia portatrice di valori superiori. La bomba atomica mostra che l’uomo può annientare il pianeta. Il disincanto è ormai totale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Crollo URSS (1991): la fine dell’utopia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il comunismo sovietico prometteva l’emancipazione dell’umanità. Crolla sotto il peso della sua corruzione, inefficienza e repressione. Il disincanto è duplice: per chi ci credeva (tradimento dell’ideale), per chi lo subiva (fine dell’incubo ma incertezza del futuro). La «fine della storia» di Fukuyama sarà un altro disincanto: la storia non era finita."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "♢"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Domanda della Salvezza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni potere promette una forma di salvezza. La domanda fondamentale dell’uomo — «Chi mi salva?» — attraversa la storia unificando fede e politica in un’unica unità di senso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Esodo: Dio come liberatore"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il modello originario della salvezza nella Bibbia. Dio ascolta il grido del popolo schiavo e interviene per liberarlo. La salvezza è politica (liberazione dall’Egitto), sociale (legge che protegge il debole), spirituale (alleanza con Dio). Diventa il paradigma di ogni successiva teologia della liberazione: Dio è dalla parte degli oppressi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Impero Romano: la Pax Romana come salvezza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roma promette salvezza attraverso l’ordine, la legge, la pace. La «Pax Romana» è presentata come dono divino (la dea Pax, l’Altare della Pace). Il culto dell’imperatore è un atto di gratitudine: la salvezza viene da Roma. I cristiani rifiutano questo culto: per loro la salvezza viene da Cristo, non da Cesare. Il conflitto è inevitabile."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "New Deal: la salvezza economica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Roosevelt (1933) promette di salvare l’America dalla Grande Depressione. Il New Deal non è solo un programma economico: è una promessa di salvezza immanente. Il governo federale diventa il «buon pastore» che protegge il popolo dalla fame e dalla disperazione. La salvezza è la sicurezza sociale. Una secolarizzazione della provvidenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nazismo: la salvezza attraverso la razza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Hitler promette di salvare il popolo tedesco dalla decadenza, dal bolscevismo, dalla cospirazione ebraica. La salvezza è nella purezza razziale, nel Reich millenario, nel Führer. Il nazismo è una religione politica di salvezza: ha i suoi martiri, la sua liturgia, la sua escatologia. La soluzione finale è l’atto «redentivo» che purifica la razza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Green New Deal: la salvezza ecologica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Oggi la minaccia del cambiamento climatico genera una nuova promessa di salvezza: la transizione ecologica. Il linguaggio è apocalittico (catastrofe climatica), escatologico (futuro sostenibile), etico (peccato ecologico). La salvezza è tecnologica e politica: innovazione verde, accordi globali, cambiamento degli stili di vita. La struttura teologica è intatta."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "♢"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Immagine di Dio e Potere"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il volto di Dio che una comunità prega è lo stesso che proietta nelle sue istituzioni. Ogni teologia genera una politica. Sei immagini di Dio, sei modelli di potere nella storia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Bisanzio: Dio-Re Assoluto, Imperatore-Dio in terra"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Impero Bizantino incarna il modello del Dio-Re Assoluto. L’imperatore è il vicario di Cristo in terra, la sua figura è sacra, la corte è una liturgia. Il potere è verticale, assoluto, teocratico. Lo scisma del 1054 è anche uno scontro tra due immagini di Dio: quella bizantina (l’imperatore guida la Chiesa) e quella romana (il papa guida l’imperatore)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ginevra di Calvino: Dio-Giudice, società disciplinata"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Calvino instaura a Ginevra una teocrazia legale: Dio è Legislatore e Giudice severo. La vita sociale è regolata da norme rigide: il gioco d’azzardo, il ballo, il lusso sono proibiti. Il Concistoro (tribunale morale) sorveglia la moralità dei cittadini. Il modello produce una società operosa, disciplinata, ma oppressiva."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Rivoluzione Francese: Dio-Regno, l’umanità che si fa Dio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Rivoluzione non abolisce solo il re, ma Dio come fondamento del potere. Il culto dell’Essere Supremo (Robespierre, 1794) tenta di creare una religione civile. Dio non è più il Re del cielo, ma l’ideale della Ragione e della Natura. Il potere non viene più da Dio ma dal Popolo. L’uomo si fa Dio."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Teologia della Liberazione: Dio-compagno dei poveri"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Negli anni ’60-’70, in America Latina, nasce una teologia che legge Dio come colui che cammina con il popolo oppresso. Il Dio dell’Esodo, non il Dio dei potenti. La prassi politica (lotta per la giustizia) diventa luogo teologico. Il metodo è «vedere, giudicare, agire». Papa Francesco, con la sua opzione per i poveri, ne è il frutto più maturo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "USA contemporanei: il Dio del mercato e della missione"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’America contemporanea ha un’immagine di Dio ambivalente: da un lato il Dio della prosperità (teologia della prosperità, gospel del successo), dall’altro il Dio della missione democratica (esportare la libertà). La teologia politica americana mescola eccezionalismo, libertà religiosa e capitalismo. Ogni presidente, da Reagan a Biden, invoca la benedizione divina sulla nazione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Istituzioni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Vaticano: la potenza del servizio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’unica potenza al mondo la cui forza è l’autorità morale. Il Vaticano esercita influenza non con eserciti o risorse, ma con la parola, il simbolo, la capacità di mobilitare coscienze."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gregorio VII e la lotta per le investiture"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nel 1077, Gregorio VII umilia l’imperatore Enrico IV a Canossa: l’imperatore aspetta tre giorni nel freddo per essere riammesso alla comunione. La Chiesa afferma la sua autorità sul potere temporale. È il punto più alto della potenza papale: il papa può sciogliere i sudditi dal giuramento di fedeltà a un re indegno."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Giovanni Paolo II e la caduta del comunismo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il papa polacco è forse l’esempio più eclatante di potenza non-armata. Il suo viaggio in Polonia (1979) scatena l’ondata di Solidarno&scacute;æ che porterà al crollo del regime comunista. Il suo messaggio: «Non abbiate paura!». Un papa che non ha eserciti né armi, ma incarna la speranza di un popolo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Papa Francesco e la cultura dello scarto"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Francesco ha ridefinito l’autorità papale come servizio e prossimità. La sua denuncia della «cultura dello scarto», la difesa dei migranti, l’enciclica «Laudato si’» mostrano una potenza che non comanda ma propone. La Chiesa non cerca più potere politico, ma autorità morale. È la via del servo sofferente, non del re vittorioso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La diplomazia vaticana nella Guerra Fredda"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Vaticano ha sempre giocato un ruolo diplomatico sproporzionato alla sua dimensione territoriale. Durante la Guerra Fredda, la «Ostpolitik» vaticana (dialogo con l’Est) ha permesso di proteggere le Chiese perseguitate e preparare la transizione. Il Vaticano è un osservatorio privilegiato: riceve informazioni da tutto il mondo, parla a tutti, non si schiera."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il papato e il Medio Oriente"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Vaticano è forse l’unico attore che può parlare con tutte le parti in Medio Oriente: Israele (relazioni diplomatiche dal 1993), Iran, Arabia Saudita, palestinesi. Il suo appello per una soluzione a due Stati, la protezione dei cristiani perseguitati, la mediazione in conflitti locali mostra come una potenza senza armi possa essere indispensabile."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "USA: l’impero che non sa di esserlo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’America è una potenza che rifiuta il linguaggio dell’impero ma ne esercita tutte le funzioni. La sua geopolitica è guidata da un’anima: la missione di portare la libertà al mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dottrina Monroe: l’America agli americani"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1823: gli USA dichiarano che le potenze europee non devono più interferire nell’emisfero occidentale. In cambio, gli USA non interverranno in Europa. È la prima affermazione della sfera d’influenza americana. La dottrina dura fino a oggi (Cuba, Venezuela, Nicaragua). L’anima americana dice: «Siamo diversi, siamo un’eccezione, un nuovo mondo.»"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Wilson e la Società delle Nazioni"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Woodrow Wilson (1919) tenta di esportare il modello americano al mondo: autodeterminazione dei popoli, democrazia, libero commercio. La Società delle Nazioni è il suo sogno. Ma il Senato USA rifiuta di aderire: l’anima americana è divisa tra missione globale e isolazionismo. Wilson muore convinto di aver fallito. Il suo progetto però rivive nell’ONU e nella NATO."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Dottrina Truman e il contenimento"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1947: gli USA si impegnano a contenere il comunismo ovunque nel mondo. È la guerra fredda come crociata: bene contro male, libertà contro tirannide. Il Piano Marshall, la NATO, il riarmo, le basi globali. L’anima americana diventa l’anima del mondo libero. Ogni intervento è giustificato come difesa della libertà."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "9/11 e la Guerra al Terrore"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’attacco del 2001 ferisce l’anima americana. La risposta è duplice: paura (Patriot Act, sorveglianza di massa) e missione (Afghanistan, Iraq). La «Guerra al Terrore» diventa una crociata globale. Ma le torture, le vittime civili, le guerre infinite consumano l’autorità morale americana. L’anima si divide tra idealismo e cinismo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Trump e la crisi dell’anima americana"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Trump (2016-2020) incarna la crisi dell’identità americana: non più la «city upon a hill», ma «America First». L’anima americana si scopre stanca delle crociate globali, spaventata dal declino relativo, divisa al suo interno (rural vs urban, bianchi vs minoranze, globalisti vs nazionalisti). L’elezione di Biden (2020) mostra che l’anima è ancora in bilico."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Cina: la civilizzazione-Stato"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Cina non è uno Stato-nazione come gli altri: è una civilizzazione che si finge Stato. La sua geopolitica è millenaria, il suo orizzonte è la restaurazione del posto centrale che la storia le deve."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il Mandato del Cielo: una teologia politica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per 3.000 anni la Cina si è governata sul principio del Mandato del Cielo (Tianming). L’imperatore regna solo se è virtuoso e garantisce l’armonia. Se il popolo soffre, il Mandato è revocato. Oggi il Partito Comunista ha sostituito l’imperatore, ma la struttura concettuale è identica: il Partito governa perché garantisce ordine e prosperità."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il secolo dell’umiliazione (1839-1949)"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Cina, che si percepiva come centro del mondo, viene umiliata dalle potenze occidentali e dal Giappone. Le guerre dell’oppio, la spartizione in zone d’influenza, l’invasione giapponese (1937-45). Questo trauma collettivo è il carburante emotivo della politica estera cinese. Ogni azione cinese oggi è motivata dalla paura di un’altra umiliazione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Mao: rivoluzione culturale e teologia politica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Mao non solo guida la rivoluzione comunista, ma crea un’antropologia nuova: l’uomo nuovo socialista. La Rivoluzione Culturale (1966-76) è un tentativo di distruggere l’anima tradizionale cinese per sostituirla con l’anima comunista. Come una teologia, ha i suoi dogmi, le sue eresie, i suoi martiri. Il costo: milioni di morti."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nuova Via della Seta: il sogno globale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Belt and Road Initiative (2013) è il progetto geopolitico più ambizioso del XXI secolo. La Cina costruisce infrastrutture in tutto il mondo: strade, porti, ferrovie. Non impone democrazia, non esporta ideologia, ma crea dipendenza economica. La nuova Via della Seta è la versione cinese della globalizzazione: senza missione, solo affari."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Cina e la sfida al mondo occidentale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Oggi la Cina sfida l’ordine mondiale su tutti i fronti: economico (dazi, tecnologia 5G), militare (Mar Cinese Meridionale, Taiwan), ideologico (modello autoritario vs democrazia). La sua anima è divisa tra desiderio di riconoscimento e paura del contenimento. Lo scontro con USA non è solo geopolitico: è uno scontro di anime."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Russia: l’anima ferita"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Russia è una ferita che si racconta come impero. La sua geopolitica è la proiezione esterna di un’anima lacerata tra grandezza e umiliazione, tra Oriente e Occidente, tra fede e ideologia."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Terza Roma: il mito fondativo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dopo la caduta di Costantinopoli (1453), il monaco Filoteo scrive a Ivan III: «Due Rome sono cadute, la terza (Mosca) sta in piedi, e una quarta non ci sarà mai.» La Russia diventa l’ultimo impero ortodosso, custode della vera fede. Questo mito è ancora vivo: la Russia si percepisce come civiltà unica, diversa e superiore all’Occidente decadente."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Pietro il Grande e la finestra sull’Europa"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Pietro (1682-1725) cerca di modernizzare la Russia aprendola all’Europa. Fonda San Pietroburgo, riforma l’esercito, la burocrazia, la cultura. Ma la modernizzazione è imposta dall’alto, violenta, senza radici. La Russia resta divisa: tra slavofili (anima russa, ortodossa, tradizionale) e occidentalisti (anima moderna, europea, razionale). Una divisione che dura ancora."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "URSS: impero ateo, anima religiosa"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Unione Sovietica abolisce la religione ma ne riproduce la struttura: il culto di Lenin, i martiri comunisti, la liturgia delle parate, l’escatologia del comunismo. L’anima russa non scompare, si traveste. La vittoria del 1945 diventa la nuova Pasqua: la resurrezione della Russia dopo l’inferno nazista. La Grande Guerra Patriottica è il mito fondativo dell’URSS."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il trauma del 1991"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La dissoluzione dell’URSS è la ferita più profonda dell’anima russa. Non solo la perdita dell’impero, ma dell’identità. 25 milioni di russi si ritrovano improvvisamente all’estero. L’umiliazione economica, il crollo demografico, la perdita di status globale. Putin dice: «La più grande catastrofe geopolitica del XX secolo.» Da lì nasce la sua missione: restaurare la grandezza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La guerra in Ucraina: l’anima contro l’anima"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’invasione dell’Ucraina (2022) è l’atto estremo dell’anima russa ferita. Putin vede l’Ucraina non come un paese indipendente, ma come parte dell’anima russa tradita. La guerra è anche teologica: il Patriarca Kirill benedice l’invasione come guerra santa contro l’Occidente decadente. L’Ucraina, invece, scopre la sua anima nazionale proprio nella resistenza."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Iran: la teologia della resistenza"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Iran è una teocrazia millenaria che si veste di modernità rivoluzionaria. La sua geopolitica è guidata dalla memoria del martirio e dall’attesa messianica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Karbala: il martirio come DNA"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nel 680 d.C., Hussein, nipote di Maometto, viene massacrato con la sua famiglia a Karbala (Iraq). Per lo sciismo, questo evento non è un fatto storico: è il paradigma della storia. Il giusto è sempre perseguitato, il potere è sempre ingiusto, la vittoria è nell’aldilà. Questo DNA culturale spiega la capacità iraniana di resistere alle sanzioni e alla pressione internazionale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1979: rivoluzione e teocrazia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Khomeini rovescia lo Shah con una rivoluzione unica nel suo genere: popolare, religiosa, anti-occidentale. Crea la Repubblica Islamica, una teocrazia dove il potere ultimo spetta al giurisperito (Velayat-e Faqih). L’ayatollah Khamenei, successore di Khomeini, è ancora oggi la guida suprema. La rivoluzione del 1979 è ancora in corso."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La guerra Iran-Iraq: il martirio industriale"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "1980-1988: la più lunga guerra del Novecento. Saddam attacca l’Iran con il supporto di USA, URSS e monarchie del Golfo. L’Iran resiste con ondate umane di soldati che si offrono come martiri. Le chiavi di plastica per il paradiso diventano il simbolo della guerra. La lezione: l’Iran non si arrende, mai. La guerra consolida il regime."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La rete dei proxy: l’impero invisibile"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Iran ha costruito una rete di milizie e movimenti alleati in tutto il Medio Oriente: Hezbollah in Libano, milizie sciite in Iraq (Hashd al-Shaabi), Houthi in Yemen, regime siriano di Assad. Questa è la geopolitica dell’anima iraniana: non conquistare territori, ma esportare resistenza. La rete è il «braccio armato» della rivoluzione."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La bomba e l’attesa messianica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il programma nucleare iraniano non è solo un progetto strategico: è un simbolo di potenza e dignità nazionale. Per l’Occidente è una minaccia, per l’Iran un diritto. Inoltre, lo sciismo aspetta il ritorno del Mahdi (l’imam nascosto). Alcuni ayatollah credono che il conflitto finale accelererà la sua venuta. Escatologia e strategia si intrecciano."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "◦"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Europa: il post-impero"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "▼"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Europa è il primo esperimento di potenza post-imperiale della storia. La sua forza non è militare ma normativa: regole, diritti, mercato. La sua anima è divisa tra memoria imperiale e vocazione pacifista."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 01"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Vestfalia e la nascita del sistema europeo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Pace di Vestfalia (1648) crea il sistema degli Stati sovrani europei. Ogni Stato è sovrano sul suo territorio, non riconosce autorità superiore. Questo sistema si espanderà al mondo intero e sarà la base dell’ONU. L’Europa inventa la geopolitica moderna, ma anche la guerra moderna, il colonialismo, il nazionalismo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 02"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Unione Europea: pace attraverso il commercio"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dopo due guerre mondiali, l’Europa tenta qualcosa di inedito: unire le nazioni non con la conquista ma con il consenso. La CECA (1951), il Mercato Comune, l’Unione Europea. Moneta unica, libertà di circolazione, parlamento comune. Il sogno: la pace attraverso l’interdipendenza economica. L’UE riceve il Nobel per la Pace (2012)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La crisi dell’anima europea"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Europa oggi è divisa. La crisi del debito (2008-2012), la crisi migratoria (2015), la Brexit (2016-2020) mostrano che l’anima europea è lacerata tra solidarietà e sovranismo. L’Europa non ha un’identità comune: è cristiana Il suo progetto è economico o politico in Ucraina la sta ridefinendo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 04"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Europa e la sfida demografica"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Europa invecchia: il tasso di fertilità è sotto la soglia di ricambio (1,5 figli per donna). Senza immigrazione, la popolazione europea si dimezzerà entro il 2100. Questa crisi demografica è una crisi dell’anima: cosa vuole essere l’Europa? Perché i suoi cittadini non fanno più figli è anche spirituale."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Riferimento 05"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’Europa tra USA e Cina"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nella nuova competizione bipolare (USA vs Cina), l’Europa cerca una sua terza via. Non vuole allinearsi completamente a Washington, ma non può competere con Pechino da sola. La guerra in Ucraina la riavvicina alla NATO, ma gli interessi economici con la Cina restano enormi. L’anima europea oscilla tra atlantismo e autonomia strategica."
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "D. Fabbri, Geopolitica umana (2023)",
+  "F. Rosini, Geopolitica dell’Anima (lezioni)",
+  "C. Schmitt, Teologia politica (1922)",
+  "AA.VV., GdA – Atlante storico (2025)"
+ ],
+ "stats": {
+  "blocks": 292,
+  "chars": 32918,
+  "hash": "67d39339e801109a01bba5f23b9093486f417acd415434f4dae56388d8bd5789"
+ }
+}

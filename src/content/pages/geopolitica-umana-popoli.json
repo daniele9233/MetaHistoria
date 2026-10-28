@@ -1,0 +1,886 @@
+{
+ "id": "geopolitica-umana-popoli",
+ "slug": "geopolitica-umana/popoli",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-umana/popoli",
+ "title": "Il destino dei popoli",
+ "kicker": "",
+ "lede": "Ogni popolo ha un’anima, una vocazione, una traiettoria storica. L’identità collettiva non è un’etichetta: è il motore profondo che determina il cammino di una nazione nel mondo.",
+ "category": "geopolitica-umana",
+ "parentId": "geopolitica-umana",
+ "blocks": [
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geopolitica Umana · Il destino dei popoli"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Il "
+    },
+    {
+     "t": "destino",
+     "i": true
+    },
+    {
+     "t": " dei popoli"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni popolo ha un’anima, una vocazione, una traiettoria storica. L’identità collettiva non è un’etichetta: è il motore profondo che determina il cammino di una nazione nel mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I. L’idea di popolo"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Più di una nazione, prima di uno Stato"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un popolo non è semplicemente un insieme di individui che condividono un territorio o una cittadinanza. È una comunità di memoria, di lingua, di simboli, di ferite e di sogni. È un’entità che esiste prima e oltre lo Stato — e che sopravvive quando lo Stato crolla."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Polonia è scomparsa dalle mappe per 123 anni, ma il popolo polacco non ha mai smesso di esistere. Gli armeni hanno attraversato un genocidio e una diaspora, e continuano a essere un popolo. Gli ebrei hanno vissuto duemila anni senza Stato, e sono rimasti un popolo. Il popolo è ciò che resta quando tutto il resto è stato tolto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dario Fabbri, nel suo libro "
+    },
+    {
+     "t": "Il destino dei popoli. Come l’umanità ha fatto la storia e creato il nostro tempo",
+     "i": true
+    },
+    {
+     "t": " (Gribaudo, 2025), sviluppa questa intuizione fino alle sue conseguenze più radicali: ogni popolo ha un’anima, un carattere distintivo che si manifesta nel modo di abitare il mondo, di fare politica, di fare guerra, di fare pace. L’anima del popolo non è un’essenza immutabile, ma una "
+    },
+    {
+     "t": "traiettoria",
+     "b": true
+    },
+    {
+     "t": ": un cammino che si sviluppa nel tempo e che può essere realizzato o tradito."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fabbri chiama questa forza interiore "
+    },
+    {
+     "t": "sentimento profondo",
+     "b": true
+    },
+    {
+     "t": ": un’emozione collettiva che attraversa i secoli e lega generazioni lontane attraverso la stessa paura, la stessa ferita, la stessa missione. Il passato non è mai passato: è un presente eterno che modella le decisioni dei leader, i quali sono spesso solo interpreti delle pulsioni profonde del loro popolo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "II. La formazione dell’identità collettiva"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Come nasce un popolo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’identità di un popolo si forma attraverso un processo che dura secoli, fatto di stratificazioni successive. Fabbri identifica alcune fasi cruciali:"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La geografia originaria"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il territorio in cui un popolo si insedia per la prima volta lascia un’impronta indelebile. Il rapporto con il mare, con la pianura, con la montagna, con il deserto — ogni geografia genera una psicologia. Il popolo russo è segnato dall’immensità della pianura senza confini naturali. Il popolo greco è segnato dal mare che separa e unisce. Il popolo svizzero è segnato dalla montagna che protegge e isola."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’evento fondativo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un evento traumatico o glorioso che segna l’origine del popolo come comunità politica. La Rivoluzione francese, la Guerra d’Indipendenza americana, il Risorgimento italiano, la fondazione della Repubblica turca. L’evento fondativo diventa il mito di origine, il punto di riferimento a cui si torna nei momenti di crisi."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il trauma collettivo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni popolo ha una ferita che non si rimargina. Per la Cina è il secolo dell’umiliazione (1839-1949). Per la Russia è il crollo dell’URSS. Per la Serbia è la battaglia del Kosovo (1389). Per il popolo ebraico è la Shoah. Il trauma collettivo diventa il filtro attraverso cui si legge il presente: ogni nuova minaccia viene interpretata alla luce della ferita antica."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La narrazione di sé"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un popolo non è solo ciò che è stato, ma anche ciò che racconta di essere. La narrazione identitaria è il racconto che un popolo fa di sé — delle proprie origini, del proprio carattere, del proprio ruolo nel mondo. Questa narrazione può essere più o meno vera, ma è sempre efficace: determina le scelte collettive."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fabbri dedica a questi temi tre capitoli centrali di"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Fabbri dedica a questi temi tre capitoli centrali di "
+    },
+    {
+     "t": "Geopolitica umana",
+     "i": true
+    },
+    {
+     "t": ": il "
+    },
+    {
+     "t": "primato dell’antropologia",
+     "b": true
+    },
+    {
+     "t": " (cap. 2), la "
+    },
+    {
+     "t": "demografia come destino",
+     "b": true
+    },
+    {
+     "t": " (cap. 3) e la "
+    },
+    {
+     "t": "psiche dei popoli",
+     "b": true
+    },
+    {
+     "t": " (cap. 4). Insieme formano il cuore del suo metodo: prima la carne viva del popolo, poi i numeri che ne misurano l’energia vitale, infine le ferite che ne guidano le scelte."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "III. Il destino"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Ciò che un popolo è chiamato a essere"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il concetto di «destino» in Fabbri non ha nulla di deterministico. Non è una profezia che si autoavvera, ma "
+    },
+    {
+     "t": "una vocazione che può essere realizzata o tradita",
+     "b": true
+    },
+    {
+     "t": ". Ogni popolo ha una direzione implicita nella propria storia, geografia e cultura. Riconoscere questa direzione e seguirla è ciò che distingue una nazione che realizza se stessa da una che si perde."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il destino si compone di tre fattori materiali, tre lenti attraverso cui leggere la traiettoria di ogni popolo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Le tre leggi del destino"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "☾"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Demografia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il fattore biologico. La frase «la demografia è destino» è una legge scientifica. I popoli giovani hanno un destino espansivo; i popoli vecchi un destino di tramonto."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "☷"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Geografia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prigione spaziale. Gli insulari sviluppano potenze marittime; i continentali senza confini naturali sono condannati alla paranoia e all’espansione difensiva."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "☢"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Trauma Storico"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’inconscio collettivo. Ogni popolo agisce oggi per vendicare umiliazioni passate o restaurare antiche glorie. La memoria è un programma politico."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Demografia — Il destino biologico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per Fabbri, il futuro di un popolo non si legge dal PIL o dalla tecnologia, ma dalle sue culle. Un popolo con età media 20–25 anni è una nazione che scoppia di energia vitale: genera pressione sociale, competizione per le risorse, propensione biologica al rischio, al sacrificio e alla guerra. Questi popoli hanno un "
+    },
+    {
+     "t": "destino espansivo",
+     "b": true
+    },
+    {
+     "t": " — di conquista o di forte proiezione esterna (mondo arabo, Africa, Asia meridionale)."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Un popolo con età media alta come l’Italia, l’Europa o il Giappone è destinato al "
+    },
+    {
+     "t": "ritiro strategico",
+     "b": true
+    },
+    {
+     "t": ". I vecchi non fanno rivoluzioni, non fanno la guerra, odiano il rischio. Il loro unico obiettivo è conservare lo status quo e i risparmi. Un popolo vecchio esce fisiologicamente dalla Storia, diventando preda o oggetto dei popoli più giovani."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Geografia — La prigione spaziale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il destino di un popolo è deciso in larga parte dal pezzo di terra su cui è nato. La geografia è una gabbia da cui non si scappa. Gli "
+    },
+    {
+     "t": "insulari e oceanici",
+     "b": true
+    },
+    {
+     "t": " (USA, Gran Bretagna) hanno un destino di sicurezza: nessuno può invaderli facilmente, e questo li spinge a sviluppare potenze marittime e commerciali. I "
+    },
+    {
+     "t": "continentali senza barriere",
+     "b": true
+    },
+    {
+     "t": " (Russia, Germania) sono condannati alla paranoia: sanno che prima o poi qualcuno arriverà a invaderli. Questo genera un destino militare: lo Stato deve essere forte, autoritario, costantemente pronto a espandersi per creare zone cuscinetto."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Trauma Storico — L’inconscio collettivo"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "I popoli hanno una memoria lunga secoli. Il loro destino è un eterno tentativo di vendicare umiliazioni passate o restaurare antiche glorie. Putin non ha inventato l’imperialismo russo, lo incarna. Xi Jinping non è solo un comunista: è l’imperatore cinese che deve vendicare il «Secolo dell’Umiliazione». Il destino di un popolo è quindi legato alla sua psiche: agisce oggi per risolvere i problemi, o le paure, di ieri."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "«Il destino di un popolo non è ciò che gli accade, ma ciò che sceglie di diventare attraverso ciò che gli accade. La geopolitica umana è l’arte di riconoscere questa scelta prima che si compia.»"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "runs": [
+    {
+     "t": "«Il destino di un popolo non è ciò che gli accade, ma ciò che sceglie di diventare attraverso ciò che gli accade. La geopolitica umana è l’arte di riconoscere questa scelta prima che si compia.» "
+    },
+    {
+     "t": "— Dario Fabbri",
+     "b": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "IV. Chi fa e chi subisce la storia"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Produttori e Consumatori di Destino"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Dalle tre leggi del destino discende una divisione netta dell’umanità contemporanea. Da un lato i "
+    },
+    {
+     "t": "Soggetti Geopolitici",
+     "b": true
+    },
+    {
+     "t": ": nazioni che hanno una cultura strategica, un progetto sul mondo, la volontà di soffrire pur di affermarsi (Stati Uniti, Cina, Russia, Turchia, Iran, India). Costoro decidono le regole del gioco. Dall’altro gli "
+    },
+    {
+     "t": "Oggetti Geopolitici",
+     "b": true
+    },
+    {
+     "t": ": popoli che hanno deciso di «andare in pensione» dalla geopolitica. L’Europa è l’esempio principe: avendo delegato la difesa militare agli USA e credendo che il mondo si governi solo con contratti commerciali, gli europei non padroneggiano più il proprio destino."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La formula del destino secondo Fabbri è brutale ed estremamente materiale:"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La formula del destino secondo Fabbri è brutale ed estremamente materiale: "
+    },
+    {
+     "t": "Spazio geografico + Demografia + Traumi storici = Destino",
+     "b": true
+    },
+    {
+     "t": ". Mentre in Occidente si crede che il destino individuale sia libero e dipenda dal merito, Fabbri ricorda che nella storia umana conta solo il gruppo. Il destino individuale è sempre subordinato al destino della nazione a cui si appartiene."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "V. Il destino delle potenze"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "La traiettoria delle nazioni"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Se applichiamo le tre leggi alle grandi potenze, il quadro che emerge è drammaticamente chiaro. Ogni nazione si muove lungo una traiettoria che la geografia, la demografia e la memoria hanno già tracciato."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Stati Uniti — L’impero riluttante"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Logorati dall’ansia di dover mantenere l’ordine globale, ma incapaci di ritirarsi senza cedere il passo alla Cina. Il loro destino è lottare contro la propria stanchezza interna. La geografia insulare li ha resi sicuri ma isolazionisti; la demografia regge, ma la volontà collettiva vacilla."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Russia — Il destino tragico"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Demograficamente in declino, economicamente fragile, militarmente letale. Costretta a combattere per rallentare un lento ma inesorabile declassamento a potenza regionale. La geografia senza confini la condanna all’espansione difensiva; il trauma del crollo sovietico la spinge a non arretrare mai."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Cina — L’illusione di onnipotenza"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Destinata a invecchiare prima di diventare ricca. La Cina ha pochissimo tempo (forse un paio di decenni) per sfidare gli USA; dopo, le mancheranno i giovani per sostenere lo sforzo. Il trauma del secolo dell’umiliazione la spinge a rivendicare Taiwan, ma la demografia la tradisce."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Italia — La nazione che si è ritirata"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Destinata a sopravvivere nel Mediterraneo cercando di ignorare la realtà, finché la realtà non busserà violentemente alla porta: crisi migratorie, instabilità in Nord Africa, perdita dell’ombrello americano. Fabbri ci vede come un popolo geniale ma adolescente, che si rifiuta di crescere e di prendersi responsabilità strategiche."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Turchia — Il neo-impero ottomano"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Erdo\\u011fan non è un’anomalia, ma l’espressione di un popolo che non ha mai smesso di pensarsi come impero. La Turchia gioca su tutti i tavoli: NATO, Russia, Medio Oriente, Africa. La sua geografia la pone al crocevia di tre continenti, e la sua memoria imperiale le impedisce di accettare un ruolo subalterno. La demografia giovane le dà energia, la religione come collante identitario le dà coesione. Per capire Ankara bisogna smettere di giudicarla con categorie occidentali: la Turchia non vuole essere europea, vuole essere sé stessa."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Francia — L’ultima nazione politica d’Europa"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Francia è sopravvissuta al postmodernismo europeo perché non ha mai dimenticato di essere una nazione. Mantiene l’atomica, un seggio all’ONU, una proiezione in Africa, una cultura strategica che Parigi non ha mai smesso di coltivare. Il suo destino è guidare un’Europa che non vuole essere guidata, contesa tra la nostalgia del rango globale e la realtà di una potenza media. De Gaulle non è morto: sopravvive nell’ossessione francese per l’indipendenza strategica."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "Germania — Il gigante che ha paura di sé"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Il destino tedesco è il più paradossale d’Europa: la potenza economica dominante del continente rifiuta sistematicamente di tradurre quel peso in influenza politica e militare. La memoria del Nazismo paralizza Berlino, che cerca di sostituire la geopolitica con il commercio e le regole europee. Ma la storia non si lascia imbrigliare nei regolamenti: la Germania si ritrova nuda in un mondo che è tornato a essere darwiniano, senza esercito, senza strategia, senza volontà."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "India — Il subcontinente che sale"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "L’India è il grande assente del dibattito geopolitico occidentale, eppure ha tutti i numeri per essere la prossima superpotenza: demografia giovane, crescita economica, posizione geografica cruciale, una civiltà millenaria. Ma il suo destino è frenato da tre fattori: la frammentazione interna (lingue, caste, religioni), il conflitto con il Pakistan e la Cina, e una cultura strategica che fatica a proiettarsi oltre il subcontinente. L’India non è ancora un Soggetto Geopolitico pieno, ma sta imparando a esserlo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per un’analisi completa della struttura dell’opera di Fabbri, visita la pagina dedicata:"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Per un’analisi completa della struttura dell’opera di Fabbri, visita la pagina dedicata: "
+    },
+    {
+     "t": "Il destino dei popoli",
+     "i": true
+    },
+    {
+     "t": " — L’opera →"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "VI. Popolo e storia"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "level": 3,
+   "runs": [
+    {
+     "t": "La responsabilità di essere se stessi"
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Se ogni popolo ha un destino, allora ha anche una responsabilità: quella di "
+    },
+    {
+     "t": "essere fedele a se stesso",
+     "b": true
+    },
+    {
+     "t": ". Tradire il proprio destino significa smettere di essere ciò che si è — e questo, per un popolo, è la forma più profonda di decadenza. Non il declino economico o militare, ma la perdita dell’anima."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "In "
+    },
+    {
+     "t": "Sotto la pelle del mondo",
+     "i": true
+    },
+    {
+     "t": ", Fabbri diagnostica il declino dell’Occidente come un "
+    },
+    {
+     "t": "declino di volontà",
+     "b": true
+    },
+    {
+     "t": ", non economico ma antropologico: abbiamo perso la capacità di pensare al futuro, di fare sacrifici, di fare figli. Siamo diventati sentimentali e moralisti, giudicando il mondo con categorie etiche mentre il mondo ci guarda con categorie di potenza. La storia non è finita — è solo tornata, e non è mai stata pacifica. La pace degli ultimi decenni non era la norma, ma una parentesi eccezionale garantita dall’egemonia americana. Ora che quell’egemonia vacilla, il conflitto torna a scorrere sotto la pelle del pianeta."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa è la lezione più profonda del pensiero di Fabbri e il contributo decisivo della Geopolitica Umana al Sistema MetaHistoria: "
+    },
+    {
+     "t": "prima di chiederci cosa farà una nazione, dobbiamo chiederci chi è",
+     "b": true
+    },
+    {
+     "t": ". E per rispondere a questa domanda, dobbiamo ascoltare la sua storia, le sue ferite, le sue paure, le sue missioni. Dobbiamo, in una parola, riconoscerne l’anima."
+    }
+   ]
+  }
+ ],
+ "prevNext": [
+  {
+   "label": "← Precedente",
+   "title": "Dario Fabbri — Il Maestro",
+   "href": "/geopolitica-umana/dario-fabbri"
+  },
+  {
+   "label": "Successivo →",
+   "title": "La psicologia delle nazioni",
+   "href": "/geopolitica-umana/nazioni"
+  }
+ ],
+ "references": [
+  "D. Fabbri, Il destino dei popoli. Come l’umanità ha fatto la storia e creato il nostro tempo (Gribaudo, 2025)",
+  "D. Fabbri, Geopolitica umana (2023)",
+  "D. Fabbri, Sotto la pelle del mondo (2024)"
+ ],
+ "stats": {
+  "blocks": 76,
+  "chars": 13635,
+  "hash": "c16788d4b236a73e7422f203bddb878ffeeadb0e44b8840038eea9de2dbb2f65"
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "geopolitica-dell-anima-frontiere",
+ "slug": "geopolitica-dell-anima/frontiere",
+ "sourceUrl": "https://precious-cassata-42205a.netlify.app/geopolitica-dell-anima/frontiere",
+ "title": "Frontiere",
+ "kicker": "",
+ "lede": "Territori di confine · Nuove mappe · Sguardo inedito",
+ "category": "geopolitica-dell-anima",
+ "parentId": "geopolitica-dell-anima",
+ "blocks": [
+  {
+   "type": "h",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Frontiere",
+     "i": true
+    }
+   ],
+   "role": "p"
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Nuovi campi inesplorati che si dischiudono quando la Geopolitica dell’Anima incontra territori che nessuna lente ha ancora mappato. Qui il metodo si spinge oltre i propri confini e prova a vedere il mondo con occhi diversi dal solito."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "lede",
+   "runs": [
+    {
+     "t": "Territori di confine · Nuove mappe · Sguardo inedito"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La Geopolitica dell’Anima non è solo un metodo di analisi: è un "
+    },
+    {
+     "t": "sguardo",
+     "b": true
+    },
+    {
+     "t": ". E come ogni sguardo che si rispetti, una volta che hai imparato a vedere certe cose, cominci a vederne altre che prima non notavi. Nuove domande emergono. Nuovi territori si aprono."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Questa sezione raccoglie quelle che chiamiamo "
+    },
+    {
+     "t": "Frontiere",
+     "b": true
+    },
+    {
+     "t": ": campi di indagine che la Geopolitica dell’Anima permette di intravedere ma che non sono ancora pienamente sviluppati. Sono territori di confine tra discipline, dove il metodo si scontra con l’inedito e la mappa deve ancora essere disegnata."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ogni frontiera è un invito: a esplorare, a costruire, a sbagliare. Non troverete qui verità consolidate, ma "
+    },
+    {
+     "t": "ipotesi di lavoro",
+     "b": true
+    },
+    {
+     "t": ", intuizioni da sviluppare, cantieri aperti. Perché la verità non sta in una formula, ma nel cammino che si fa per cercarla."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "La prima frontiera è già sviluppata: è il "
+    },
+    {
+     "t": "Modello della Civiltà come Organismo",
+     "b": true
+    },
+    {
+     "t": ", una mappa per leggere le civiltà come esseri viventi dotati di corpo, mente, anima e spirito. Le altre sono in attesa di essere percorse."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Frontiera 01 ☁ Il Modello della Civiltà come Organismo Civiltà = Corpo + Mente + Anima + Spirito. Una metafora biologica per leggere l’ascesa e il declino delle potenze. Con strumento interattivo per analizzare qualsiasi civiltà. →   Frontiera 02 ☬ La Matrice Apocalittica della Storia Ogni epoca è governata da quattro forze: Memoria + Potere + Desiderio + Trascendenza. Un algoritmo per leggere imperi antichi, cristianità medievale, modernità, USA, Cina, Islam politico, Europa con la stessa griglia. →   Frontiera 03 ★ L’Escatologia delle Potenze Ogni impero ha una fine immaginata. Che ruolo gioca la profezia nella strategia? Come l’attesa della fine modella le scelte del presente. →   Frontiera 04 ☰ Cartografia dell’Anima Collettiva Miti fondativi, traumi generazionali, eroi e memorie: la mappa emotiva delle nazioni. Una geografia invisibile che determina i confini reali del potere. →"
+    }
+   ]
+  }
+ ],
+ "prevNext": [],
+ "references": [
+  "D. Fabbri, Geopolitica umana (2023)",
+  "F. Rosini, Geopolitica dell’Anima (lezioni)",
+  "O. Spengler, Il tramonto dell’Occidente (1918)",
+  "A. Toynbee, Il racconto dell’uomo (1972)"
+ ],
+ "stats": {
+  "blocks": 8,
+  "chars": 2213,
+  "hash": "7adb7bfc2992ebebd7680bdc7ecbc29d5189a43d75b4d9bb6e0f5a118237159d"
+ }
+}
