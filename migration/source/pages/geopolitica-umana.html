@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geopolitica Umana &mdash; Introduzione &middot; MetaHistoria</title>
+<meta name="description" content="La seconda lente del MetaHistoria: la psicologia dei popoli, le identit&agrave; collettive, lo scavo stratigrafico nelle paure e missioni che muovono le nazioni secondo Dario Fabbri.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{
+ --bg:#0c0a09;
+ --surface:#15120f;
+ --surface-2:#1c1814;
+ --ink:#ede7dc;
+ --ink-soft:#c8bfae;
+ --muted:#8f8678;
+ --gold:#c9a227;
+ --gold-soft:rgba(201,162,39,.14);
+ --red:#a32638;
+ --red-soft:rgba(163,38,56,.16);
+ --line:rgba(237,231,220,.12);
+ --serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;
+ --sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;
+ --maxw:1180px;
+ }
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{
+ background:var(--bg);
+ color:var(--ink);
+ font-family:var(--sans);
+ font-size:16px;
+ line-height:1.65;
+ -webkit-font-smoothing:antialiased;
+ overflow-x:hidden;
+ }
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{
+ position:fixed;top:0;left:0;right:0;z-index:900;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:.9rem 2rem;
+ background:rgba(12,10,9,.82);
+ backdrop-filter:blur(12px);
+ border-bottom:1px solid var(--line);
+ }
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{
+ color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;
+ letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem
+ }
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{
+ position:absolute;top:100%;left:0;min-width:200px;
+ background:var(--surface);border:1px solid var(--line);
+ border-top:2px solid var(--gold);
+ padding:.5rem 0;opacity:0;visibility:hidden;
+ transform:translateY(8px);transition:all .25s ease;z-index:300
+ }
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{
+ padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;
+ color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s
+ }
+  .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+  .hamburger{display:none;background:none;border:none;cursor:pointer;padding:5px;z-index:1002;flex-direction:column;gap:5px}
+  .hamburger span{display:block;width:22px;height:2px;background:var(--ink);border-radius:1px;transition:all .3s}
+  .hamburger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .hamburger.active span:nth-child(2){opacity:0}
+  .hamburger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .mobile-overlay{position:fixed;top:0;right:-100%;width:300px;height:100vh;background:var(--surface);border-left:1px solid var(--line);z-index:1000;padding:5rem 2rem 2rem;transition:right .4s ease;overflow-y:auto}
+  .mobile-overlay.open{right:0}
+  .mobile-overlay .mob-section{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:1.2rem;margin-bottom:.2rem;font-weight:500;padding:0 .8rem}
+  .mobile-overlay a{display:block;padding:.7rem .8rem;color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;transition:all .2s;border-radius:4px}
+  .mobile-overlay a:hover{background:var(--gold-soft);color:var(--gold)}
+  @media(max-width:900px){
+  .hamburger{display:flex}
+  nav ul{display:none}
+  }
+ .hero{text-align:center;padding:8rem 2rem 4rem;position:relative}
+ .hero .sub{display:block;font-size:.65rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+ .hero h1{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.6rem);font-weight:600;line-height:1.12;max-width:16ch;margin:0 auto}
+ .hero h1 em{color:var(--gold);font-style:normal}
+ .hero .hero-sub{font-size:clamp(.95rem,1.4vw,1.15rem);color:var(--ink-soft);font-weight:300;max-width:62ch;margin:1.4rem auto 0;line-height:1.7}
+ section{padding:5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.6rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .two-col{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-bottom:2rem}
+ .two-col p{color:var(--ink-soft);font-weight:300;margin-bottom:1.2rem;font-size:.95rem;line-height:1.75}
+ .two-col strong{color:var(--ink);font-weight:500}
+ @media(max-width:820px){.two-col{grid-template-columns:1fr}}
+ .single-col{max-width:720px;margin:0 auto}
+ .single-col p{color:var(--ink-soft);font-weight:300;margin-bottom:1.2rem;font-size:.95rem;line-height:1.75}
+ .single-col strong{color:var(--ink);font-weight:500}
+ .single-col .big{font-size:clamp(1rem,1.5vw,1.15rem);color:var(--ink);font-weight:400;line-height:1.55}
+ .pull{
+ border-left:2px solid var(--gold);padding:1rem 1.6rem;margin:1.6rem 0;
+ background:var(--surface);color:var(--ink-soft);font-style:italic;font-weight:300;font-size:.95rem;
+ }
+ .pull strong{color:var(--ink);font-weight:600}
+ .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;margin:2.5rem 0}
+ .card{
+ background:var(--surface);border:1px solid var(--line);padding:1.8rem;
+ text-decoration:none;color:inherit;display:block;transition:all .3s;position:relative
+ }
+ .card:hover{border-color:var(--gold);transform:translateY(-3px)}
+ .card .c-num{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem}
+ .card .c-title{font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink);margin-bottom:.6rem}
+ .card .c-text{font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.65}
+ .card .c-arrow{display:inline-block;margin-top:.8rem;color:var(--gold);font-size:.85rem;transition:transform .3s}
+ .card:hover .c-arrow{transform:translateX(4px)}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface);margin-top:3rem}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem;max-width:1180px;margin:0 auto}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+  @media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+ .reveal{opacity:1;transform:none}
+ }
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li>
+ <a>Geopolitica Classica <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+ </div>
+ </li>
+ <li>
+ <a>Geopolitica Umana <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+  <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+  <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+  <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+  <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+   <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+   <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+     <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+     </div>
+  </li>
+ <li>
+ <a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+ </div>
+ </li>
+ <li>
+ <a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a>
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+ <a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a>
+ <a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a>
+ <a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a>
+ <a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a>
+ <a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a>
+ <a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a>
+ <a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a>
+ <a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a>
+ </div>
+ </li>
+ <li>
+   <a>Apocalisse del Potere <span class="arrow">&#9662;</span></a>
+  <div class="dropdown">
+  <a href='/apocalisse-del-potere/'>Home Lente</a>
+  <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+  <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+  <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+  <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+    <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+  <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+  <a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+  <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+  <a href='/apocalisse-del-potere/manuale-commento-daniele'>Genesi delle Bestie</a>
+   <a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a>
+  </div>
+ </li>
+  <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+  </ul>
+  <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+ </nav>
+ <div class="mobile-overlay">
+  <div class="mob-section">Geopolitica Classica</div>
+  <a href='/geopolitica-classica/'>Home Lente</a>
+  <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+  <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+  <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+  <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+  <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+  <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+  <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+  <div class="mob-section">Geopolitica Umana</div>
+  <a href='/geopolitica-umana/'>Home Lente</a>
+  <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+  <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+  <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+  <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+  <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+  <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+   <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+   <div class="mob-section">Geopolitica dell'Anima</div>
+  <a href='/geopolitica-dell-anima/'>Home Lente</a>
+  <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+  <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+  <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+  <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+  <div class="mob-section">Teologia della Geopolitica</div>
+  <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+  <div class="mob-section">Apocalisse del Potere</div>
+  <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+  <a href="#">Katechon e Anti-Impero</a>
+    <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+  <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+  <a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+  <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+  <a href='/apocalisse-del-potere/manuale-commento-daniele'>Genesi delle Bestie</a>
+   <a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a>
+  <div class="mob-section" style="margin-top:1.5rem"><a href='/metodo-pentaedrico' style='color:var(--gold);text-transform:uppercase;font-size:.75rem;letter-spacing:.12em;padding:0'>Metodo Pentaedrico</a></div>
+ </div>
+
+<section class="hero">
+ <span class="sub">Lente 02 &middot; MetaHistoria &ndash; Il Metodo Pentapolare</span>
+ <h1>Geopolitica <em>Umana</em></h1>
+ <p class="hero-sub">Dalla fisica del potere alla psicologia delle nazioni. Ogni popolo ha una ferita, una paura, una missione. Scavare sotto la pelle del mondo per scoprire cosa muove davvero la storia.</p>
+</section>
+
+<section>
+ <div class="wrap">
+ <div class="sec-head reveal">
+ <span class="sec-num">01</span>
+ <h2>Cos&rsquo;&egrave; la Geopolitica <em>Umana</em></h2>
+ <p class="lede">Un cambio di paradigma: le nazioni non sono attori razionali, ma organismi emotivi. La geopolitica &egrave; anzitutto psicologia collettiva.</p>
+ </div>
+
+ <div class="two-col reveal">
+ <div>
+ <p class="big">C&rsquo;&egrave; un momento, nello studio delle relazioni internazionali, in cui il modello dell&rsquo;<em>homo oeconomicus</em> mostra tutta la sua inadeguatezza. &Egrave; il momento in cui una nazione, contro ogni evidenza razionale, sceglie la guerra invece della pace, l&rsquo;isolamento invece della cooperazione, il sacrificio invece del compromesso.</p>
+ </div>
+ <div>
+ <p>&Egrave; qui che si apre lo spazio della <strong>Geopolitica Umana</strong>. Non pi&ugrave; la mappa dei confini e delle risorse, ma la mappa delle paure, dei traumi, delle missioni che ogni popolo porta con s&eacute;. La geopolitica classica vede gli Stati come giocatori su una scacchiera. La geopolitica umana li vede come persone con un passato, un carattere e un destino.</p>
+ <p>Questa lente non cerca di stabilire chi abbia torto e chi ragione, ma si pone un&rsquo;unica, spietata domanda: <strong>perch&eacute; un popolo sente il bisogno vitale di agire in un certo modo?</strong></p>
+ </div>
+ </div>
+ </div>
+</section>
+
+<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+ <div class="wrap">
+ <div class="sec-head reveal">
+ <span class="sec-num">02</span>
+ <h2>Dario Fabbri: il maestro</h2>
+ <p class="lede">Giornalista, analista, fondatore della rivista &laquo;Domino&raquo;. Chi &egrave; l&rsquo;uomo che ha insegnato all&rsquo;Italia a leggere sotto la pelle del mondo.</p>
+ </div>
+
+ <div class="single-col reveal">
+ <p>Dario Fabbri &egrave; il pi&ugrave; importante geopolitologo italiano contemporaneo. Con i suoi tre libri &mdash; <em>Geopolitica umana</em> (2023), <em>Sotto la pelle del mondo</em> (2024) e <em>Il destino dei popoli</em> (2025) &mdash; ha costruito un sistema di pensiero originale che fonde antropologia, psicologia collettiva e analisi strategica. La sua rivista &laquo;Domino&raquo; ha portato la geopolitica umana al grande pubblico, smontando ogni settimana le narrazioni superficiali della cronaca internazionale.</p>
+ <p>Il suo contributo decisivo &egrave; aver mostrato che per capire le relazioni internazionali non bastano i dati economici o militari: bisogna scendere nelle viscere emotive dei popoli, ascoltare le loro paure, riconoscere le loro missioni e i loro traumi. Senza Fabbri, il Sistema MetaHistoria non avrebbe la sua lente pi&ugrave; potente: quella che guarda all&rsquo;uomo prima che allo Stato.</p>
+ </div>
+
+ <a class='card' href='/geopolitica-umana/dario-fabbri' style='display:block;background:var(--surface);border:1px solid var(--line);padding:1.8rem;text-decoration:none;color:inherit;transition:all .3s;max-width:400px;margin:1.5rem auto'>
+  <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem">Approfondisci &rarr;</div>
+  <div style="font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink);margin-bottom:.6rem">Dario Fabbri &mdash; Il sommo maestro</div>
+  <div style="font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.65">Chi &egrave;, come ha costruito il suo metodo, quali sono i concetti chiave del suo pensiero. Un omaggio a colui che ha insegnato a leggere sotto la pelle del mondo.</div>
+ </a>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+ <div class="sec-head reveal">
+ <span class="sec-num">03</span>
+ <h2>Il fondamento: <em>Geopolitica umana</em></h2>
+ <p class="lede">Il libro che ha fondato il metodo. Il manifesto della geopolitica umana in 4 strati stratigrafici e 7 capitoli.</p>
+ </div>
+
+ <div class="single-col reveal">
+ <p class="big">Pubblicato nel 2023, <em>Geopolitica umana</em> &egrave; il trattato metodologico che ha rivoluzionato il modo di guardare alle relazioni internazionali. Fabbri smonta i luoghi comuni della post-Guerra Fredda e offre una lente completamente nuova: le nazioni sono organismi emotivi, non attori razionali, e per capirle bisogna scavare sotto la superficie degli eventi.</p>
+ <p>Il libro si articola in <strong>4 strati stratigrafici</strong> (geografia, storia, missione, paura) e <strong>7 capitoli</strong> che smontano sistematicamente i dogmi del pensiero unico occidentale &mdash; dall&rsquo;equivoco economicista al primato dell&rsquo;antropologia, dalla demografia come destino alla psicoanalisi delle masse.</p>
+ </div>
+
+ <a class='card' href='/geopolitica-umana/fondamento-geopolitica-umana' style='display:block;background:var(--surface);border:1px solid var(--line);padding:1.8rem;text-decoration:none;color:inherit;transition:all .3s;max-width:400px;margin:1.5rem auto'>
+  <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem">Esplora il fondamento &rarr;</div>
+  <div style="font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink);margin-bottom:.6rem">Il fondamento: Geopolitica umana (2023)</div>
+  <div style="font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.65">Il metodo stratigrafico in 4 strati e la struttura dei 7 capitoli del libro che ha fondato la geopolitica umana.</div>
+ </a>
+ </div>
+</section>
+
+<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+ <div class="wrap">
+ <div class="sec-head reveal">
+ <span class="sec-num">04</span>
+ <h2>I 12 princ&igrave;pi operativi</h2>
+ <p class="lede">La griglia analitica per cambiare gli occhiali con cui guardiamo la politica internazionale. Dalla cronaca alla struttura.</p>
+ </div>
+
+ <div class="single-col reveal">
+ <p class="big">Dodici princ&igrave;pi per smettere di guardare le onde in superficie e concentrarsi sulle correnti oceaniche profonde. Questa &egrave; la cassetta degli attrezzi della geopolitica umana: dall&rsquo;anti-leaderismo alla fine del moralismo, dal primato della geografia alla diffidenza verso le narrazioni ufficiali.</p>
+ <p>Interiorizzare questo schema significa vaccinarsi contro la propaganda, smettere di indignarsi inutilmente e cominciare a comprendere il mondo per quello che &egrave;: un&rsquo;arena di collettivit&agrave; umane che lottano per sopravvivere, affermarsi e non scomparire.</p>
+ </div>
+
+ <a class='card' href='/geopolitica-umana/dodici-principi' style='display:block;background:var(--surface);border:1px solid var(--line);padding:1.8rem;text-decoration:none;color:inherit;transition:all .3s;max-width:400px;margin:1.5rem auto'>
+  <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem">Scopri i princ&igrave;pi &rarr;</div>
+  <div style="font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink);margin-bottom:.6rem">I 12 princ&igrave;pi operativi</div>
+  <div style="font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.65">Dalla cronaca alla struttura: la griglia completa per applicare il metodo della geopolitica umana all&rsquo;analisi del mondo contemporaneo.</div>
+ </a>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+ <div class="sec-head reveal">
+ <span class="sec-num">05</span>
+ <h2>Le carte di questa lente</h2>
+  <p class="lede">Sei approfondimenti per attraversare la Geopolitica Umana con gli occhi di Fabbri.</p>
+ </div>
+
+ <div class="card-grid reveal">
+ <a class='card' href='/geopolitica-umana/dario-fabbri'>
+ <div class="c-num">Maestro</div>
+ <div class="c-title">Dario Fabbri &mdash; Il sommo maestro</div>
+ <div class="c-text">Chi &egrave; Dario Fabbri, come ha costruito il suo metodo, quali sono i concetti chiave del suo pensiero. Un omaggio a colui che ha insegnato a leggere sotto la pelle del mondo.</div>
+ <span class="c-arrow">&rarr;</span>
+ </a>
+ <a class='card' href='/geopolitica-umana/popoli'>
+ <div class="c-num">Destino</div>
+ <div class="c-title">Il destino dei popoli</div>
+ <div class="c-text">Ogni popolo ha un&rsquo;anima, una vocazione, una traiettoria storica. Come si forma l&rsquo;identit&agrave; collettiva e come determina il cammino di una nazione nel mondo.</div>
+ <span class="c-arrow">&rarr;</span>
+ </a>
+ <a class='card' href='/geopolitica-umana/nazioni'>
+ <div class="c-num">Psicologia</div>
+ <div class="c-title">La psicologia delle nazioni</div>
+ <div class="c-text">Paura, missione, memoria: il triangolo psicologico che guida le scelte strategiche di ogni Stato. Un modello per decifrare il comportamento delle potenze.</div>
+ <span class="c-arrow">&rarr;</span>
+ </a>
+   <a class='card' href='/geopolitica-umana/sotto-la-pelle'>
+  <div class="c-num">Applicazione</div>
+  <div class="c-title">Sotto la pelle del mondo</div>
+  <div class="c-text">Fabbri applica la geopolitica umana alle zone di frizione del mondo contemporaneo: i sette capitoli del libro che smontano l&rsquo;illusione occidentale e i casi studio nazione per nazione.</div>
+  <span class="c-arrow">&rarr;</span>
+  </a>
+  <a class='card' href='/geopolitica-umana/destino-dei-popoli-libro'>
+  <div class="c-num">Opera</div>
+  <div class="c-title">Il destino dei popoli &mdash; L'opera</div>
+  <div class="c-text">La struttura del libro che completa il trittico: come l&rsquo;antropologia ha generato la Storia. Prologo, sei capitoli e un Epilogo che spiegano il metodo di Fabbri su scala mondiale.</div>
+  <span class="c-arrow">&rarr;</span>
+  </a>
+  <a class='card' href='/geopolitica-umana/verso-la-teologia'>
+  <div class="c-num">Teologia</div>
+  <div class="c-title">Verso la Teologia</div>
+  <div class="c-text">Dal limite estremo dell&rsquo;immanenza fabbriana alla soglia teologica: cinque punti di contatto tra la geopolitica umana e la riflessione sul senso, il sacro e il destino.</div>
+  <span class="c-arrow">&rarr;</span>
+  </a>
+  </div>
+
+ <div class="pull reveal">
+ &laquo;La geopolitica non &egrave; una scienza esatta. &Egrave; una forma di conoscenza che passa attraverso l&rsquo;intuito, la familiarit&agrave; con la storia, l&rsquo;ascolto delle paure altrui. &Egrave; un&rsquo;arte.&raquo; <strong>&mdash; Dario Fabbri</strong>
+ </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare &mdash; arma di decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere. Ispirato a Caracciolo, Fabbri, Rosini e alla teologia politica classica.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>D. Fabbri, <em>Geopolitica umana</em> (2023)</li>
+ <li>D. Fabbri, <em>Sotto la pelle del mondo</em> (2024)</li>
+ <li>D. Fabbri, <em>Il destino dei popoli. Come l&rsquo;umanit&agrave; ha fatto la storia e creato il nostro tempo</em> (Gribaudo, 2025)</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/' style='color:var(--muted);text-decoration:none'>Home MetaHistoria</a></li>
+ <li><a href='/metodo-pentaedrico' style='color:var(--muted);text-decoration:none'>Metodo Pentaedrico</a></li>
+ <li><a href='/geopolitica-umana/dario-fabbri' style='color:var(--muted);text-decoration:none'>Dario Fabbri &mdash; Il Maestro</a></li>
+ <li><a href='/geopolitica-umana/popoli' style='color:var(--muted);text-decoration:none'>Il destino dei popoli</a></li>
+ <li><a href='/geopolitica-umana/nazioni' style='color:var(--muted);text-decoration:none'>La psicologia delle nazioni</a></li>
+  <li><a href='/geopolitica-umana/sotto-la-pelle' style='color:var(--muted);text-decoration:none'>Sotto la pelle del mondo</a></li>
+  <li><a href='/geopolitica-umana/destino-dei-popoli-libro' style='color:var(--muted);text-decoration:none'>Il destino dei popoli &mdash; L'opera</a></li>
+  <li><a href='/geopolitica-umana/verso-la-teologia' style='color:var(--muted);text-decoration:none'>Verso la Teologia</a></li>
+  <li><a href='/geopolitica-dell-anima/' style='color:var(--muted);text-decoration:none'>Geopolitica dell&rsquo;Anima</a></li>
+ <li><span style="color:var(--muted);text-decoration:none">Manifesto TGP</span></li>
+ <li><span style="color:var(--muted);text-decoration:none">Theopolitica</span></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const hamburger = document.querySelector('.hamburger');
+ const overlay = document.querySelector('.mobile-overlay');
+ if (hamburger) {
+ hamburger.addEventListener('click', () => {
+ hamburger.classList.toggle('active');
+ overlay.classList.toggle('open');
+ document.body.style.overflow = overlay.classList.contains('open') ? 'hidden' : '';
+ });
+ overlay.querySelectorAll('a').forEach(a => {
+ a.addEventListener('click', () => {
+ hamburger.classList.remove('active');
+ overlay.classList.remove('open');
+ document.body.style.overflow = '';
+ });
+ });
+ }
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.12});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

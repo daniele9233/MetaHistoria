@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mappa Concettuale &mdash; Apocalisse del Potere</title>
+<meta name="description" content="Mappa interattiva dei concetti fondamentali dell'Apocalisse del Potere: nodi, connessioni e spiegazioni.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#0c0a09;
+--surface:#15120f;
+--surface-2:#1c1814;
+--ink:#ede7dc;
+--ink-soft:#c8bfae;
+--muted:#8f8678;
+--gold:#c9a227;
+--gold-soft:rgba(201,162,39,.14);
+--red:#a32638;
+--red-soft:rgba(163,38,56,.16);
+--line:rgba(237,231,220,.12);
+--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;
+--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;
+--maxw:1180px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+background:var(--bg);
+color:var(--ink);
+font-family:var(--sans);
+font-size:16px;
+line-height:1.65;
+-webkit-font-smoothing:antialiased;
+overflow-x:hidden;
+}
+::selection{background:var(--gold);color:#0c0a09}
+nav{
+position:fixed;top:0;left:0;right:0;z-index:900;
+display:flex;align-items:center;justify-content:space-between;
+padding:.9rem 2rem;
+background:rgba(12,10,9,.82);
+backdrop-filter:blur(12px);
+border-bottom:1px solid var(--line);
+}
+nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+nav .brand em{color:var(--gold);font-style:normal}
+nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+nav ul li{position:relative}
+nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+nav ul li:hover>a .arrow{transform:rotate(180deg)}
+.dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+.dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+@media(max-width:900px){nav ul{display:none}}
+
+#map-section{padding-top:70px;position:relative;height:calc(100vh - 70px);overflow:hidden;background:#080705}
+#map-container{width:100%;height:100%;position:relative;cursor:grab}
+#map-container:active{cursor:grabbing}
+#map-container.panning{cursor:grabbing}
+#map-container svg{width:100%;height:100%;position:absolute;top:0;left:0}
+#map-viewport{transition:transform .08s ease-out}
+
+.bg-ring{pointer-events:none}
+.bg-label{font-family:var(--serif);text-anchor:middle;pointer-events:none;user-select:none}
+
+.node-group{cursor:pointer;transition:opacity .4s}
+.node-group text{font-family:var(--sans);pointer-events:none;user-select:none}
+.node-group:hover{filter:drop-shadow(0 0 18px currentColor)}
+.node-group.dimmed{opacity:.12;transition:opacity .4s}
+.node-group.highlighted{filter:drop-shadow(0 0 28px currentColor) !important}
+.node-halo{transition:opacity .35s;opacity:.25}
+.node-group.highlighted .node-halo{opacity:.7}
+.node-icon-text{pointer-events:none;user-select:none}
+.node-label-text{pointer-events:none;user-select:none;font-weight:600}
+
+.conn-line{fill:none;stroke-width:2.2;stroke-opacity:.28;transition:stroke-opacity .3s,stroke-width .25s;marker-end:url(#arrowhead);marker-start:url(#dot-start);cursor:pointer;pointer-events:none}
+.conn-group{cursor:pointer}
+.conn-label{font-family:var(--serif);font-size:11px;fill:var(--muted);text-anchor:middle;pointer-events:none;opacity:0;transition:opacity .35s}
+.conn-group:hover .conn-line{stroke-opacity:.95;stroke-width:3.6}
+.conn-group:hover .conn-label{opacity:1;fill:var(--gold)}
+.conn-line.dimmed{stroke-opacity:.04;marker-end:none;marker-start:none}
+.conn-line.highlighted{stroke-opacity:.85;stroke-width:3.4;filter:drop-shadow(0 0 8px currentColor)}
+
+#info-panel{position:fixed;top:0;right:0;width:420px;max-width:90vw;height:100vh;background:var(--surface);border-left:1px solid var(--line);z-index:950;transform:translateX(100%);transition:transform .45s cubic-bezier(.22,.61,.36,1);overflow-y:auto;padding:2rem;box-shadow:-8px 0 40px rgba(0,0,0,.5)}
+#info-panel.open{transform:translateX(0)}
+#info-panel .close-btn{position:absolute;top:1.2rem;right:1.2rem;background:none;border:none;color:var(--muted);font-size:1.5rem;cursor:pointer;transition:color .2s;font-family:var(--serif);line-height:1}
+#info-panel .close-btn:hover{color:var(--ink)}
+#info-panel .node-icon{font-size:4rem;text-align:center;margin-bottom:.5rem}
+#info-panel h2{font-family:var(--serif);font-size:2rem;text-align:center;margin-bottom:.3rem}
+#info-panel .category-badge{display:inline-block;font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;padding:.25rem .9rem;border-radius:20px;margin:0 auto 1.5rem;text-align:center}
+#info-panel .description{color:var(--ink-soft);font-size:.92rem;line-height:1.8;margin-bottom:2rem;font-weight:300}
+#info-panel .description strong{color:var(--ink);font-weight:500}
+#info-panel h4{font-family:var(--serif);font-size:1rem;color:var(--gold);margin-bottom:.8rem;border-top:1px solid var(--line);padding-top:1.2rem}
+#info-panel .related{list-style:none}
+#info-panel .related li{margin-bottom:.4rem}
+#info-panel .related a{color:var(--ink-soft);text-decoration:none;font-size:.85rem;transition:color .2s;cursor:pointer}
+#info-panel .related a:hover{color:var(--gold)}
+
+.map-controls{position:absolute;bottom:1.5rem;left:1.5rem;z-index:200;display:flex;gap:.6rem;flex-wrap:wrap}
+.map-controls button{background:var(--surface);border:1px solid var(--line);color:var(--ink-soft);padding:.55rem 1rem;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;cursor:pointer;transition:all .25s;border-radius:4px}
+.map-controls button:hover{color:var(--gold);border-color:var(--gold);background:var(--surface-2)}
+.map-controls .hint{font-size:.62rem;color:var(--muted);opacity:.6;align-self:center;margin-left:.4rem}
+
+.legend-panel{position:absolute;bottom:1.5rem;right:1.5rem;z-index:200;background:var(--surface);border:1px solid var(--line);padding:1rem 1.4rem;border-radius:6px;font-size:.72rem;color:var(--muted)}
+.legend-panel .legend-item{display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem}
+.legend-panel .legend-item:last-child{margin-bottom:0}
+.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.legend-panel .legend-title{font-family:var(--serif);font-size:.8rem;color:var(--gold);margin-bottom:.5rem}
+
+#hover-tooltip{position:absolute;z-index:100;pointer-events:none;opacity:0;background:var(--surface-2);border:1px solid var(--gold);padding:.5rem 1rem;font-family:var(--serif);font-size:.78rem;color:var(--ink);border-radius:4px;transition:opacity .2s;white-space:nowrap;max-width:300px}
+#hover-tooltip.visible{opacity:1}
+
+footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface);position:relative;z-index:100}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem;max-width:var(--maxw);margin:0 auto}
+@media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+footer ul{list-style:none}
+footer li{margin-bottom:.5rem}
+footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media(max-width:768px){#map-section{height:calc(100vh - 60px)}#info-panel{width:100%;max-width:100%}.legend-panel{display:none}}
+</style>
+</head>
+<body>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+ </div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+ </div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+ </div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a>
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+ <a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a>
+ <a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a>
+ <a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a>
+ <a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a>
+ <a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a>
+ <a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a>
+ <a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a>
+ <a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a>
+ </div></li>
+ <li><a style="color:var(--gold)">Apocalisse del Potere <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+ </div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section id="map-section">
+ <div id="map-container"></div>
+ <div id="hover-tooltip"></div>
+ <div class="map-controls">
+  <button id="btn-reset" title="Ripristina vista iniziale">&#8634; Reset</button>
+  <button id="btn-zoom-in" title="Zoom avanti">+</button>
+  <button id="btn-zoom-out" title="Zoom indietro">-</button>
+  <button id="btn-legend" title="Legenda colori">Legenda</button>
+  <span class="hint">Trascina &middot; Rotella zoom &middot; Esc chiude</span>
+ </div>
+ <div class="legend-panel" id="legend-panel" style="display:none">
+  <div class="legend-title">Legenda &mdash; Sfere concettuali</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#c9a227"></span> Potere / Trono</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#f0e6d3"></span> Divino / Gloria</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#6b4c8a"></span> Impero / Struttura</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#8b3a3a"></span> Bestiale / Opposizione</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#4a6fa5"></span> Testimone / Frenante</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#c9783a"></span> Escatologico</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#b8956a"></span> Cammino / Esilio</div>
+ </div>
+</section>
+
+<div id="info-panel">
+ <button class="close-btn" id="close-panel">&times;</button>
+ <div id="panel-content"></div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div><h4>MetaHistoria</h4><p>MetaHistoria &ndash; Il Metodo Pentapolare &egrave; un&rsquo;arma di decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all'Apocalisse del Potere. Ispirato a Caracciolo, Fabbri, Rosini e alla teologia politica classica.</p></div>
+ <div><h4>Riferimenti</h4><ul><li>C. Schmitt, <em>Teologia politica</em> (1922)</li><li>L. Caracciolo, <em>Limes</em> (1993&ndash;oggi)</li><li>D. Fabbri, <em>Geopolitica umana</em> (2023)</li><li>Manifesto TGP-O (2026)</li></ul></div>
+ <div><h4>Collegamenti</h4><ul><li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li><li><a href='/#metodo' style='color:var(--muted);text-decoration:none'>Metodo operativo</a></li><li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li><li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li><li><a href='/geopolitica-classica/tra-teologia-e-geopolitica/' style='color:var(--muted);text-decoration:none'>Tra Teologia e Geopolitica</a></li></ul></div>
+ <p class="legal">Mappa concettuale interattiva &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+
+ const container = document.getElementById('map-container');
+ const tooltip = document.getElementById('hover-tooltip');
+
+ const CX = 1700;
+ const CY = 1300;
+
+ const nodes = [
+  { id:'potere', label:'IL POTERE', symbol:'\u26A1', x:CX, y:CY, color:'#c9a227', cat:'centro',
+   desc:'Il potere \u00E8 la categoria teologico-politica centrale di tutta la rivelazione biblica. Non \u00E8 un concetto astratto: \u00E8 la posta in gioco ultima del dramma che va dalla Genesi all\'Apocalisse. Chi detiene l\'autorit\u00E0? Chi siede sul trono? Chi decide della vita e della morte delle nazioni? La Scrittura non condanna il potere in s\u00E9 \u2014 sarebbe impossibile, perch\u00E9 Dio stesso \u00E8 onnipotente \u2014 ma ne svela la natura ambivalente: il potere pu\u00F2 essere strumento di giustizia o maschera dell\'idolatria. La domanda non \u00E8 \u00ABchi ha il potere?\u00BB ma \u00ABil potere che hai, a chi somiglia?\u00BB. Somiglia all\'Agnello immolato o alla Bestia che sale dal mare? In questo nodo convergono tutte le linee della nostra mappa: il potere \u00E8 il punto di intersezione tra cielo, terra e abisso. La teologia politica di Carl Schmitt intu\u00EC che \u00ABtutti i concetti pi\u00F9 pregnanti della moderna dottrina dello Stato sono concetti teologici secolarizzati\u00BB. Noi aggiungiamo: anche il contrario \u00E8 vero. Ogni trono \u00E8 una dichiarazione teologica camuffata. Leggere la Bibbia con la lente dell\'Apocalisse del Potere significa riconoscere che la storia umana \u00E8, nel suo nucleo pi\u00F9 profondo, una disputa sul potere: tra il potere che si fa servizio e il potere che si fa dominio, tra il trono condiviso dell\'Agnello e il trono usurpato del Drago.' },
+
+  { id:'trono', label:'IL TRONO', symbol:'\u265B', x:CX, y:CY-550, color:'#e8c547', cat:'divino',
+   desc:'Il trono non \u00E8 un semplice sedile: \u00E8 il simbolo architettonico della sovranit\u00E0 ultima. In Apocalisse 4-5, la scena del trono \u00E8 il centro liturgico del cosmo: ventiquattro anziani depongono le loro corone davanti a Colui che siede sul trono, riconoscendo che ogni autorit\u00E0 umana \u00E8 derivata e provvisoria. Il trono di Dio non \u00E8 minaccioso: \u00E8 circondato da un arcobaleno (Ap 4:3), segno del patto. Ma il Drago ha un trono anche lui (Ap 13:2), e lo cede alla Bestia. Esiste un trono contraffatto, un\'autorit\u00E0 che imita quella divina ma ne \u00E8 la parodia. La differenza \u00E8 che sul trono divino siede l\'Agnello \u00ABcome immolato\u00BB (Ap 5:6): il potere autentico porta le ferite del sacrificio. Schmitt vedeva nella sovranit\u00E0 la capacit\u00E0 di decidere sullo stato di eccezione; l\'Apocalisse risponde che il vero sovrano \u00E8 colui che ha attraversato lo stato di eccezione definitivo \u2014 la morte \u2014 e l\'ha vinto. Il trono condiviso (Ap 3:21: \u00ABho vinto e mi sono seduto con il Padre mio sul suo trono\u00BB) \u00E8 la pi\u00F9 radicale democratizzazione del potere che la teologia abbia mai concepito: non un potere che esclude, ma un potere che include. Ogni potere terreno \u00E8 provvisorio e derivato; ogni trono umano dovr\u00E0 rendere conto al Trono.' },
+
+  { id:'gloria', label:'LA GLORIA', symbol:'\u2600', x:CX, y:CY-800, color:'#f5d742', cat:'divino',
+   desc:'La Gloria (kavod in ebraico, doxa in greco, shekinah nella tradizione rabbinica) \u00E8 la presenza manifesta di Dio nella storia: non un\'idea, ma un peso. Il termine kavod significa letteralmente \u00ABpesantezza\u00BB: la gloria di Dio ha una gravit\u00E0, una densit\u00E0 ontologica che nessun potere umano pu\u00F2 eguagliare. Quando la Gloria riempie il tabernacolo (Es 40) o il Tempio di Salomone (1 Re 8), i sacerdoti non riescono a stare in piedi. Quando Ezechiele la vede abbandonare il Tempio prima della distruzione di Gerusalemme (Ez 10), \u00E8 il momento teologicamente pi\u00F9 drammatico dell\'Antico Testamento: Dio non \u00E8 pi\u00F9 l\u00EC. La Gloria ritorna nel Verbo incarnato: \u00ABabbiamo visto la sua gloria\u00BB (Gv 1:14). Nell\'Apocalisse, la Nuova Gerusalemme non ha bisogno di sole n\u00E9 di tempio perch\u00E9 \u00ABla gloria di Dio la illumina e l\'Agnello \u00E8 il suo tempio\u00BB (Ap 21:22-23). La Gloria \u00E8 il potere che non opprime ma trasfigura, la maest\u00E0 che non distrugge ma riempie. Contro ogni teologia della potenza che proietta su Dio le nostre ambizioni di dominio, la Gloria biblica si rivela pienamente sul volto di un crocifisso. Se il potere terreno cerca la visibilit\u00E0, la Gloria divina spesso si nasconde nella nube \u2014 per proteggere, non per minacciare.' },
+
+  { id:'nuovagerusalemme', label:'NUOVA GERUSALEMME', symbol:'\u2606', x:CX-500, y:CY-680, color:'#e8d5a3', cat:'divino',
+   desc:'La Nuova Gerusalemme (Ap 21-22) \u00E8 la citt\u00E0 che scende dal cielo \u00ABpronta come una sposa adorna per il suo sposo\u00BB. Non \u00E8 costruita da mani umane: scende. Questa \u00E8 la sua radicalit\u00E0 politica: la citt\u00E0 perfetta non \u00E8 il prodotto dell\'ingegneria sociale n\u00E9 della pianificazione imperiale, ma un dono escatologico. Ha dodici porte \u2014 tre per ogni punto cardinale \u2014 perch\u00E9 \u00E8 aperta a tutte le nazioni. Non ha tempio, perch\u00E9 Dio e l\'Agnello sono il suo tempio: l\'intera citt\u00E0 \u00E8 diventata spazio sacro. La separazione tra sacro e profano, tra clero e laicato, tra tempio e piazza, \u00E8 abolita. La Nuova Gerusalemme \u00E8 la risposta definitiva a Babilonia: dove Babilonia commercia corpi e anime (Ap 18:13), la Nuova Gerusalemme offre gratuitamente l\'acqua della vita (Ap 22:17). Dove Babilonia si erge con le sue torri, la Nuova Gerusalemme ha le mura di diaspro ma le porte sempre aperte. L\'albero della vita cresce al centro della piazza e le sue foglie guariscono le nazioni: la politica escatologica \u00E8 una politica di guarigione. La citt\u00E0-sposa \u00E8 la fine dell\'esilio e il ritorno al giardino, ma non come fuga dalla storia: come suo compimento glorioso.' },
+
+  { id:'agnello', label:'L\'AGNELLO', symbol:'\u2726', x:CX-500, y:CY-300, color:'#f0e6d3', cat:'divino',
+   desc:'L\'Agnello \u00E8 la chiave ermeneutica dell\'intera Apocalisse e, per estensione, di tutta la teologia politica cristiana. Giovanni piange perch\u00E9 nessuno \u00E8 degno di aprire il libro della storia \u2014 e quando l\'Agnello appare, \u00E8 \u00ABcome immolato\u00BB (Ap 5:6): la sua autorit\u00E0 non deriva dalla potenza ma dalla ferita. Questo \u00E8 lo scandalo permanente per ogni teologia del potere: il vincitore \u00E8 la vittima. L\'Agnello condivide il trono con Dio (Ap 22:1), guida i martiri (Ap 14:4), apre i sigilli della storia (Ap 6), combatte una guerra senza spada contro le Bestie (Ap 17:14). La sua ira non \u00E8 vendetta ma giustizia: \u00E8 l\'ira di chi ha subito il male e finalmente lo vede sconfitto. L\'Agnello non \u00E8 un simbolo di debolezza ma di un potere alternativo: il potere che vince morendo, che conquista perdonando, che regna servendo. La teologia politica cristiana ha sempre oscillato tra due poli: il Cristo Pantocratore degli imperi bizantini e il Cristo crocifisso della teologia della croce. L\'Apocalisse risolve questa tensione mostrando che il Pantocratore \u00E8 l\'Agnello immolato: l\'onnipotenza divina non \u00E8 la proiezione celeste del potere imperiale, ma la sua negazione pi\u00F9 radicale.' },
+
+  { id:'figliodelluomo', label:'FIGLIO DELL\'UOMO', symbol:'\u2627', x:CX+550, y:CY-550, color:'#e8c547', cat:'divino',
+   desc:'Il Figlio dell\'Uomo di Daniele 7 \u00E8 la figura pi\u00F9 enigmatica e politicamente dirompente dell\'Antico Testamento. Mentre i quattro imperi salgono dal mare in forma di bestie, il Figlio dell\'Uomo viene \u00ABsulle nubi del cielo\u00BB e riceve dal Vegliardo \u00ABdominio, gloria e regno\u00BB (Dn 7:13-14): un potere che non sorge dalle profondit\u00E0 caotiche della storia ma discende dall\'alto. Ges\u00F9 si identifica esplicitamente con questa figura, fondendo il Figlio dell\'Uomo di Daniele con il Servo sofferente di Isaia: colui che riceve il regno \u00E8 lo stesso che viene consegnato nelle mani degli uomini. Il processo davanti al Sinedrio (Mc 14:62) \u00E8 il momento in cui questa identificazione diventa pubblica e costa la vita. Nel giudizio delle nazioni di Matteo 25, il Figlio dell\'Uomo siede sul trono e separa le pecore dai capri con un criterio che rovescia ogni logica imperiale: non la potenza militare, non la ricchezza economica, non l\'appartenenza etnica, ma il servizio ai pi\u00F9 piccoli. \u00ABL\'avete fatto a me\u00BB \u00E8 la frase pi\u00F9 politicamente sovversiva dei Vangeli: identifica il giudice escatologico con l\'affamato, lo straniero, il carcerato. Il potere del Figlio dell\'Uomo \u00E8 il potere della solidariet\u00E0 assoluta.' },
+
+  { id:'spirito', label:'LO SPIRITO', symbol:'\uD83D\uDD4A', x:CX+550, y:CY-420, color:'#5b9cc4', cat:'divino',
+   desc:'Lo Spirito Santo \u00E8 il grande assente della teologia politica classica, eppure \u00E8 l\'agente principale della resistenza al potere imperiale nella narrazione biblica. A Pentecoste (At 2), lo Spirito rovescia Babele: dove l\'impero aveva confuso le lingue per disperdere, lo Spirito unisce senza uniformare, fa comprendere senza dominare. La comunit\u00E0 di Gerusalemme non \u00E8 una nuova istituzione politica: \u00E8 una koinonia, una comunit\u00E0 di beni e di spirito che vive sotto un\'autorit\u00E0 diversa da quella di Cesare. Nell\'Apocalisse, lo Spirito parla alle chiese (Ap 2-3), guida i profeti, e nell\'ultima pagina del canone grida con la Sposa: \u00ABVieni!\u00BB (Ap 22:17). Lo Spirito non \u00E8 un\'energia astratta: \u00E8 una persona divina che genera resistenza, ispira testimonianza, sostiene i martiri. \u00C8 il paraclito (Gv 14-16): l\'avvocato difensore che sta accanto agli accusati. In un mondo dove il potere si esercita attraverso il controllo dell\'informazione e la fabbricazione del consenso, lo Spirito \u00E8 la forza che apre gli occhi, smaschera la menzogna, e dona la parresia \u2014 la libert\u00E0 di dire la verit\u00E0 al potere. La geopolitica dello Spirito \u00E8 una geopolitica dal basso, che opera attraverso comunit\u00E0 locali ma con un orizzonte universale.' },
+
+  { id:'impero', label:'L\'IMPERO', symbol:'\uD83C\uDFDB', x:CX+600, y:CY, color:'#6b4c8a', cat:'potere',
+   desc:'L\'impero \u00E8 la struttura politica pi\u00F9 potente che l\'umanit\u00E0 abbia inventato: concentra in s\u00E9 potere militare, economico, giuridico e ideologico. Roma ne \u00E8 l\'archetipo per il Nuovo Testamento, ma la logica imperiale precede Roma e le sopravvive. L\'impero non \u00E8 solo una forma di governo: \u00E8 una teologia pratica. Pretende di essere l\'orizzonte ultimo della storia, il portatore di pace (la pax romana), il garante dell\'ordine cosmico. Per questo esige culto: il culto imperiale non era un optional, era il collante ideologico che teneva insieme popoli diversi. La Bestia dell\'Apocalisse non \u00E8 un impero specifico ma la struttura profonda di ogni impero: la concentrazione del potere che si fa adorare. \u00ABChi \u00E8 simile alla Bestia, e chi pu\u00F2 combattere contro di essa?\u00BB (Ap 13:4) \u00E8 la domanda retorica dell\'impero: nessuno, per definizione. Eppure l\'Apocalisse mostra che l\'impero cade \u2014 e cade in un\'ora sola (Ap 18). La teologia politica cristiana non \u00E8 anti-politica: \u00E8 anti-imperiale. Riconosce l\'autorit\u00E0 dello Stato (Rm 13) ma le nega l\'ultimativit\u00E0. L\'impero pu\u00F2 essere katechon (ci\u00F2 che trattiene il caos) o pu\u00F2 diventare Bestia (ci\u00F2 che divora i suoi sudditi). La differenza \u00E8 il culto: quando l\'impero pretende adorazione, ha varcato la soglia dell\'idolatria.' },
+
+  { id:'katechon', label:'IL KATECHON', symbol:'\uD83D\uDEE1', x:CX-550, y:CY-100, color:'#4a6fa5', cat:'testimone',
+   desc:'Il katechon \u00E8 forse il concetto pi\u00F9 misterioso e dibattuto di tutta la teologia politica paolina. In 2 Tessalonicesi 2:6-7, Paolo parla di \u00ABci\u00F2 che trattiene\u00BB (to katechon) e di \u00ABcolui che trattiene\u00BB (ho katechon) il mistero dell\'iniquit\u00E0, impedendo all\'Anticristo di manifestarsi prima del tempo stabilito. Tertulliano e i primi Padri lo identificarono con l\'Impero Romano; Carl Schmitt ne fece il perno della sua teologia politica, vedendo nel katechon la forza che frena il caos e rende possibile l\'ordine giuridico. Ma il katechon \u00E8 un\'arma a doppio taglio: ci\u00F2 che trattiene il male pu\u00F2 diventare esso stesso oppressivo. Se il katechon \u00E8 lo Stato, allora lo Stato \u00E8 insieme necessario e pericoloso: frena l\'anarchia ma pu\u00F2 trasformarsi nella Bestia che doveva frenare. Altri hanno visto nel katechon la Chiesa, la predicazione del Vangelo, o persino l\'arcangelo Michele. La verit\u00E0 \u00E8 che Paolo parla deliberatamente in modo enigmatico perch\u00E9 i destinatari della lettera \u00ABsanno\u00BB (2 Ts 2:6) \u2014 e noi non sappiamo cosa sapessero. Questa ambiguit\u00E0 \u00E8 teologicamente feconda: il katechon ci ricorda che il potere politico ha una funzione provvisoria di contenimento, ma non \u00E8 mai la soluzione definitiva. La soluzione \u00E8 la parusia del Signore, che distrugger\u00E0 l\'iniquo \u00ABcon il soffio della sua bocca\u00BB (2 Ts 2:8).' },
+
+  { id:'babilonia', label:'BABILONIA', symbol:'\uD83D\uDDFC', x:CX+700, y:CY+280, color:'#5c2d6e', cat:'potere',
+   desc:'Babilonia (Ap 17-18) \u00E8 il sistema-mondo che si oppone a Dio: non una citt\u00E0 specifica, ma la struttura economico-politico-religiosa che seduce, sfrutta e uccide. \u00C8 chiamata \u00ABla grande prostituta\u00BB (Ap 17:1) perch\u00E9 vende ci\u00F2 che dovrebbe essere donato: la fedelt\u00E0, l\'appartenenza, il senso. Siede su molte acque (Ap 17:15), che sono \u00ABpopoli, moltitudini, nazioni e lingue\u00BB: Babilonia \u00E8 globale, non locale. Il suo commercio \u00E8 descritto nei dettagli in Apocalisse 18: oro, argento, pietre preziose, e alla fine della lista \u2014 corpi e anime umane (Ap 18:13). La mercificazione dei corpi \u00E8 il segno distintivo di Babilonia. I re della terra si sono prostituiti con lei (Ap 18:3): la relazione tra potere politico e sistema economico non \u00E8 accidentale ma strutturale. Babilonia si ubriaca del sangue dei martiri (Ap 17:6): il suo lusso \u00E8 costruito sulla violenza. Eppure Babilonia cade, e i mercanti piangono non per pentimento ma perch\u00E9 hanno perso i clienti (Ap 18:11-19). La domanda per ogni lettore dell\'Apocalisse non \u00E8 \u00ABchi \u00E8 Babilonia?\u00BB (domanda che porta a identificazioni faziose) ma \u00ABdove siamo noi dentro Babilonia?\u00BB, \u00ABdi quali suoi commerci siamo complici?\u00BB, e soprattutto: \u00ABstiamo ascoltando la voce che dice \u00ABuscite da essa, popolo mio\u00BB (Ap 18:4)?\u00BB' },
+
+  { id:'profeti', label:'I PROFETI', symbol:'\uD83D\uDD25', x:CX-600, y:CY+250, color:'#d4783a', cat:'testimone',
+   desc:'I profeti biblici non sono indovini: sono analisti del potere. La loro funzione non \u00E8 predire il futuro ma svelare il presente, strappare il velo che copre l\'ingiustizia e chiamare le cose col loro nome. Natan davanti a David (2 Sam 12), Elia davanti ad Acab (1 Re 21), Geremia davanti ai re di Giuda, Giovanni Battista davanti a Erode: il profeta \u00E8 sempre in tensione con il trono, perch\u00E9 il trono tende a diventare idolo. La persecuzione non \u00E8 un incidente nella vita del profeta: \u00E8 la conferma che sta facendo bene il suo lavoro. Nell\'Apocalisse, i due testimoni (Ap 11) sono descritti come \u00ABdue olivi e due candelabri\u00BB \u2014 allusione a Zorobabele e Giosu\u00E8 di Zaccaria 4 \u2014 e hanno il potere di chiudere il cielo e colpire la terra con piaghe. Quando vengono uccisi dalla Bestia, i loro corpi giacciono nella piazza della grande citt\u00E0 \u00ABche simbolicamente si chiama Sodoma ed Egitto, dove anche il loro Signore \u00E8 stato crocifisso\u00BB (Ap 11:8). I testimoni condividono il destino del loro Signore. Ma dopo tre giorni e mezzo risorgono e salgono al cielo, perch\u00E9 la parola profetica non pu\u00F2 essere uccisa definitivamente. Il ministero profetico \u00E8 la coscienza critica della comunit\u00E0 dei credenti: senza profezia, la Chiesa diventa cappellania dell\'impero.' },
+
+  { id:'bestie', label:'LE BESTIE', symbol:'\uD83D\uDC32', x:CX, y:CY+520, color:'#8b3a3a', cat:'bestiale',
+   desc:'Le bestie rappresentano la degradazione terminale del potere politico: quando l\'ordine diventa mostruoso. Daniele 7 descrive quattro bestie che salgono dal mare \u2014 simbolo del caos primordiale \u2014: un leone con ali d\'aquila, un orso, un leopardo con quattro ali, e una quarta bestia \u00ABspaventosa e terribile\u00BB con denti di ferro e dieci corna. Sono gli imperi che si succedono nella storia, ma sono anche rivelazione della natura bestiale di ogni impero che pretende di essere ultimo. L\'Apocalisse fonde le quattro bestie in una (Ap 13:1-2), che ha le caratteristiche di tutte: \u00E8 l\'impero definitivo che riassume in s\u00E9 tutti gli imperi precedenti. Questa Bestia riceve dal Drago \u00ABpotere, trono e grande autorit\u00E0\u00BB (Ap 13:2). La sua ferita mortale guarita (Ap 13:3) \u00E8 una parodia della risurrezione di Cristo: il potere imperiale ha una capacit\u00E0 mostruosa di rigenerarsi. Accanto alla Bestia del mare c\'\u00E8 la Bestia della terra (Ap 13:11), il falso profeta, che rappresenta l\'apparato ideologico-religioso che legittima l\'impero. La domanda inquietante non \u00E8 se riconosciamo la Bestia quando \u00E8 evidente, ma se la riconosciamo quando \u00E8 seducente. \u00ABTutta la terra, piena di ammirazione, segu\u00EC la bestia\u00BB (Ap 13:3): il problema non \u00E8 la persecuzione, \u00E8 il consenso.' },
+
+  { id:'drago', label:'IL DRAGO', symbol:'\u2620', x:CX, y:CY+880, color:'#6b2020', cat:'bestiale',
+   desc:'Il Drago di Apocalisse 12 \u00E8 Satana, ma non il Satana folkloristico delle rappresentazioni popolari: \u00E8 l\'Avversario come attore politico. \u00C8 rosso come il sangue che versa, ha sette teste e dieci corna (come la Bestia e come i regni di Daniele), e la sua coda trascina un terzo delle stelle. Il Drago non \u00E8 onnipotente: viene sconfitto da Michele e precipitato sulla terra (Ap 12:7-9). Ma precipitato sulla terra, \u00ABpieno di grande furore, sapendo di avere poco tempo\u00BB (Ap 12:12), scatena la sua guerra contro \u00ABquelli che osservano i comandamenti di Dio e custodiscono la testimonianza di Ges\u00F9\u00BB (Ap 12:17). La sua strategia \u00E8 la delega: consegna alla Bestia \u00ABil suo potere, il suo trono e una grande autorit\u00E0\u00BB (Ap 13:2). Qui sta l\'intuizione pi\u00F9 profonda dell\'Apocalisse sul male politico: il Drago non agisce direttamente ma attraverso strutture. Le istituzioni possono diventare veicoli del draconico. Il Drago \u00E8 l\'originario \u00ABomicida fin dal principio\u00BB (Gv 8:44) e \u00ABpadre della menzogna\u00BB: la sua arma principale non \u00E8 la forza bruta ma l\'inganno. La politica come menzogna organizzata \u00E8 draconica. Il destino del Drago \u00E8 segnato: incatenato per mille anni (Ap 20:2), liberato per un\'ultima battaglia, e infine gettato nello stagno di fuoco (Ap 20:10). Il male non \u00E8 eterno: ha un inizio, uno sviluppo, e una fine.' },
+
+  { id:'anticristo', label:'L\'ANTICRISTO', symbol:'\u26E7', x:CX+650, y:CY+600, color:'#4a1515', cat:'bestiale',
+   desc:'L\'Anticristo \u00E8 la figura che concentra in s\u00E9 tutto il potere delegittimato della storia. Il termine appare solo nelle lettere di Giovanni (1 Gv 2:18,22; 4:3; 2 Gv 7), ma il concetto attraversa tutta la tradizione apocalittica: l\'uomo dell\'iniquit\u00E0 di 2 Tessalonicesi 2, la Bestia di Apocalisse 13, il piccolo corno di Daniele 7. Ci\u00F2 che accomuna queste figure \u00E8 la pretesa di sostituirsi a Dio occupando il suo posto: \u00ABsi siede nel tempio di Dio, proclamando s\u00E9 stesso Dio\u00BB (2 Ts 2:4). L\'Anticristo non \u00E8 semplicemente anti-Cristo (contro Cristo), ma pseudo-Cristo (al posto di Cristo): la sua pericolosit\u00E0 non sta nell\'opposizione frontale ma nella sostituzione subdola. Offre pace, prosperit\u00E0, sicurezza \u2014 ma al prezzo dell\'adorazione. La sua ferita mortale guarita (Ap 13:3) \u00E8 una contraffazione della risurrezione. I suoi miracoli (Ap 13:13-14) sono una contraffazione dei segni dello Spirito. Il discernimento cristiano non si esercita tanto nel riconoscere l\'Anticristo \u2014 che per definizione \u00E8 riconoscibile solo quando \u00E8 troppo tardi \u2014 ma nel riconoscere lo spirito dell\'anticristo (1 Gv 4:3) che opera gi\u00E0 nella storia: ogni volta che il potere politico pretende un\'obbedienza assoluta che spetta solo a Dio, ogni volta che la sicurezza promessa dallo Stato diventa ricatto idolatrico, lo spirito dell\'anticristo \u00E8 all\'opera. \u00ABFiglioli, \u00E8 l\'ultima ora\u00BB (1 Gv 2:18): la vigilanza non \u00E8 rimandabile.' },
+
+  { id:'giudizio', label:'IL GIUDIZIO', symbol:'\u2696', x:CX-350, y:CY+800, color:'#c9783a', cat:'escatologico',
+   desc:'Il giudizio non \u00E8 vendetta: \u00E8 verit\u00E0. Nell\'Apocalisse, i tre settenari (sigilli, trombe, coppe) non sono punizioni arbitrarie ma rivelazioni progressive: ogni ciclo smaschera un livello pi\u00F9 profondo della menzogna su cui il potere imperiale si regge. Come le piaghe d\'Egitto non erano capricci divini ma lo smascheramento delle pretese degli d\u00E8i egiziani, cos\u00EC i giudizi dell\'Apocalisse smascherano le pretese di Roma. Il giudizio comincia dalla casa di Dio (1 Pt 4:17): le sette lettere alle chiese (Ap 2-3) sono giudizio sulla comunit\u00E0 credente prima ancora che sull\'impero. Il giudizio finale (Ap 20:11-15) \u00E8 descritto con l\'immagine dei libri aperti e del libro della vita: tutto ci\u00F2 che \u00E8 nascosto viene alla luce. Per i martiri che gridano \u00ABFino a quando?\u00BB (Ap 6:10), il giudizio \u00E8 la risposta tanto attesa: non perch\u00E9 desiderino la distruzione dei loro persecutori, ma perch\u00E9 desiderano che la verit\u00E0 sia ristabilita. \u00ABVenne l\'ira tua e il tempo di giudicare i morti e di dare la ricompensa ai tuoi servi, i profeti e i santi\u00BB (Ap 11:18): il giudizio \u00E8 la fine dell\'impunit\u00E0. La Nuova Gerusalemme pu\u00F2 scendere solo dopo che Babilonia \u00E8 caduta: non c\'\u00E8 nuova creazione senza giudizio sulla vecchia. Questa \u00E8 la differenza tra speranza cristiana e ottimismo borghese: la speranza non nega la realt\u00E0 del male ma ne proclama la sconfitta definitiva.' },
+
+  { id:'martiri', label:'I MARTIRI', symbol:'\u271D', x:CX+350, y:CY+850, color:'#9b3030', cat:'testimone',
+   desc:'I martiri non sono fanatici in cerca della morte: sono testimoni che la verit\u00E0 vale pi\u00F9 della vita. Il termine greco martys significa \u00ABtestimone\u00BB prima ancora che \u00ABmartire\u00BB nel senso moderno: \u00E8 la testimonianza a fare il martire, non la morte. Nell\'Apocalisse, i martiri appaiono in tre luoghi decisivi: sotto l\'altare celeste (Ap 6:9-11), dove gridano \u00ABFino a quando, o Sovrano?\u00BB; nella folla immensa di Apocalisse 7, lavati nel sangue dell\'Agnello; e come vincitori sulla Bestia in Apocalisse 15. La loro vittoria non \u00E8 post-mortem nel senso di una ricompensa nell\'aldil\u00E0: \u00E8 la vittoria stessa della loro testimonianza. \u00ABEssi lo hanno vinto per mezzo del sangue dell\'Agnello e della parola della loro testimonianza, e non hanno amato la loro vita fino alla morte\u00BB (Ap 12:11). Il martirio \u00E8 un atto politico perch\u00E9 dichiara che esiste un\'autorit\u00E0 superiore a quella dell\'impero. Quando Policarpo, davanti al proconsole romano, rispose \u00ABper ottantasei anni l\'ho servito e non mi ha fatto alcun male; come potrei bestemmiare il mio Re che mi ha salvato?\u00BB, stava compiendo un atto di disobbedienza civile. I martiri sono la prova vivente (e morente) che il potere della Bestia non \u00E8 totale: c\'\u00E8 una zona della coscienza umana che l\'impero non pu\u00F2 colonizzare.' },
+
+  { id:'deserto', label:'IL DESERTO', symbol:'\uD83C\uDFDC', x:CX-600, y:CY+600, color:'#b8956a', cat:'cammino',
+   desc:'Il deserto \u00E8 lo spazio alternativo all\'impero: non un vuoto, ma un luogo di formazione. Israele nasce come popolo nel deserto del Sinai, non in Egitto n\u00E9 in Canaan: quarant\'anni di dipendenza radicale dalla manna quotidiana e dalla guida della nube. Elia fugge nel deserto per sfuggire a Gezabele e l\u00EC incontra Dio non nel vento impetuoso ma nel \u00ABmormorio di un vento leggero\u00BB (1 Re 19:12). Giovanni Battista predica nel deserto, lontano dal Tempio e dal palazzo di Erode. Ges\u00F9 \u00E8 spinto dallo Spirito nel deserto per essere tentato \u2014 e la terza tentazione \u00E8 precisamente la tentazione del potere politico: \u00ABti dar\u00F2 tutti i regni del mondo\u00BB (Mt 4:8-9). Nell\'Apocalisse, la Donna che rappresenta il popolo di Dio fugge nel deserto (Ap 12:6), dove Dio le ha preparato un rifugio per 1260 giorni: la cifra simbolica del tempo della Chiesa perseguitata e protetta. Il deserto non \u00E8 fuga dalla storia: \u00E8 il luogo dove si impara a non dipendere dall\'Egitto. \u00C8 la decostruzione della mentalit\u00E0 imperiale: nel deserto non ci sono supermercati, non ci sono eserciti, non ci sono mura. C\'\u00E8 solo Dio e la comunit\u00E0. Ogni rinnovamento spirituale autentico passa per il deserto, perch\u00E9 solo l\u00EC si disimpara l\'idolatria del potere.' },
+
+  { id:'esilio', label:'L\'ESILIO', symbol:'\uD83D\uDD17', x:CX+750, y:CY+850, color:'#5c6b7a', cat:'cammino',
+   desc:'L\'esilio babilonese del VI secolo a.C. \u00E8 il trauma teologico pi\u00F9 profondo dell\'Antico Testamento: il Tempio distrutto, la monarchia davidica estinta, il popolo deportato. Ezechiele vede la Gloria di Dio abbandonare il Tempio (Ez 10): Dio stesso va in esilio con il suo popolo. Ma \u00E8 proprio nell\'esilio che nascono le Scritture come le conosciamo, la sinagoga come istituzione, e una fede che non dipende pi\u00F9 dal Tempio n\u00E9 dalla terra. Geremia scrive agli esiliati: \u00ABCercate il benessere della citt\u00E0 dove vi ho fatto deportare e pregate il Signore per essa, perch\u00E9 dal suo benessere dipende il vostro benessere\u00BB (Ger 29:7). Questa \u00E8 la pi\u00F9 antica teologia politica della diaspora: non la fuga dal mondo, non la rivoluzione contro l\'impero, ma una presenza critica e costruttiva dentro le strutture imperiali. L\'Apocalisse rilegge l\'esperienza delle comunit\u00E0 cristiane nell\'impero romano come un nuovo esilio: fedeli dispersi nel mondo che non appartengono a Babilonia ma vivono dentro di essa. \u00ABUsci\' dalla mia bocca un grido: uscite da essa, popolo mio!\u00BB (Ap 18:4): l\'esilio ha una data di scadenza. Ma finch\u00E9 dura, la vocazione degli esiliati non \u00E8 costruire una Babilonia alternativa ma mantenere viva la memoria di Gerusalemme e la speranza della citt\u00E0 che scende dal cielo.' }
+ ];
+
+ const connections = [
+  { from:'potere', to:'trono', label:'Il potere siede sul trono', desc:'Ogni potere aspira a un trono: il potere non \u00E8 mai pura forza bruta, cerca sempre legittimazione. Il trono \u00E8 la struttura che trasforma la potenza in autorit\u00E0. Ma la domanda decisiva \u00E8: quale trono? Quello dell\'Agnello o quello della Bestia?' },
+  { from:'trono', to:'agnello', label:'L\'Agnello condivide il trono (Ap 5)', desc:'Apocalisse 5 mostra il momento in cui il potere celeste viene ridefinito: l\'Agnello immolato \u00E8 l\'unico degno di sedere sul trono. La sovranit\u00E0 divina non \u00E8 dominio ma sacrificio condiviso.' },
+  { from:'trono', to:'gloria', label:'La gloria circonda il trono (Ap 4)', desc:'Il trono di Dio non \u00E8 isolato ma avvolto dalla gloria: lampi, voci, tuoni, l\'arcobaleno. La gloria \u00E8 l\'atmosfera del vero potere, ci\u00F2 che lo rende riconoscibile come divino e non come tirannico.' },
+  { from:'potere', to:'impero', label:'Il potere si incarna nell\'impero', desc:'Ogni potere tende a strutturarsi in impero: una forma politica che pretende di essere universale e definitiva. L\'impero \u00E8 il potere che ha smesso di porsi limiti e si \u00E8 fatto sistema.' },
+  { from:'impero', to:'babilonia', label:'Babilonia, citt\u00E0 dell\'impero', desc:'Ogni impero ha la sua capitale, il suo centro economico e culturale. Babilonia \u00E8 l\'archetipo della citt\u00E0-impero: lussuosa, seducente, violenta. La citt\u00E0 rende visibile e desiderabile il potere imperiale.' },
+  { from:'impero', to:'bestie', label:'L\'impero diventa bestia (Dn 7)', desc:'Daniele 7 svela la verit\u00E0 nascosta dell\'impero: dietro la facciata di ordine e civilt\u00E0, gli imperi sono bestie feroci che divorano e calpestano. La bestia non \u00E8 una degenerazione dell\'impero: ne \u00E8 l\'essenza rivelata.' },
+  { from:'bestie', to:'drago', label:'Il drago d\u00E0 potere alla bestia (Ap 13:2)', desc:'La Bestia non ha potere proprio: lo riceve dal Drago. Apocalisse 13:2 descrive questa delega con terminologia teologica precisa: \u00ABpotere, trono e grande autorit\u00E0\u00BB. Il male politico ha una fonte spirituale.' },
+  { from:'drago', to:'anticristo', label:'Delega di autorit\u00E0', desc:'Il Drago non agisce direttamente ma attraverso figure storiche. L\'Anticristo \u00E8 il terminale umano della catena di delega del male: riceve dal Drago ci\u00F2 che il Drago ha dato alla Bestia.' },
+  { from:'anticristo', to:'babilonia', label:'Regna su Babilonia', desc:'L\'Anticristo domina la citt\u00E0-mondo. La sua autorit\u00E0 politica si esercita attraverso il sistema economico e culturale di Babilonia. Il potere personale e il potere strutturale si fondono.' },
+  { from:'katechon', to:'anticristo', label:'Trattiene l\'Anticristo (2Ts 2)', desc:'Prima che l\'Anticristo si manifesti pienamente, qualcosa lo trattiene. Il katechon \u00E8 questa forza frenante: impedisce al mistero dell\'iniquit\u00E0 di dispiegarsi completamente prima del tempo stabilito.' },
+  { from:'katechon', to:'potere', label:'Freno al potere del male', desc:'Il katechon non frena solo l\'Anticristo ma il potere del male in quanto tale. Ogni ordine politico ha questa funzione ambivalente: contiene il caos ma pu\u00F2 diventare esso stesso oppressivo.' },
+  { from:'agnello', to:'martiri', label:'I martiri seguono l\'Agnello', desc:'Apocalisse 14:4 descrive i martiri come \u00ABcoloro che seguono l\'Agnello dovunque vada\u00BB. Il martirio non \u00E8 ricerca della morte ma sequela radicale: andare dove l\'Agnello \u00E8 andato, anche se conduce al conflitto col potere.' },
+  { from:'martiri', to:'giudizio', label:'Gridano vendetta (Ap 6:10)', desc:'Sotto l\'altare celeste, i martiri gridano: \u00ABFino a quando?\u00BB La loro domanda non \u00E8 vendicativa ma escatologica: chiedono che la verit\u00E0 sia ristabilita. Il giudizio \u00E8 la risposta di Dio a questo grido.' },
+  { from:'giudizio', to:'babilonia', label:'Caduta di Babilonia (Ap 18)', desc:'Il giudizio si abbatte prima di tutto su Babilonia, il sistema-mondo. Apocalisse 18 descrive la sua caduta come un evento improvviso e totale: \u00ABin un\'ora sola\u00BB. Il giudizio smaschera e distrugge ci\u00F2 che sembrava eterno.' },
+  { from:'giudizio', to:'nuovagerusalemme', label:'Dopo il giudizio, la nuova creazione', desc:'Non c\'\u00E8 Nuova Gerusalemme senza la caduta di Babilonia. Il giudizio non \u00E8 fine a s\u00E9 stesso: \u00E8 la premessa necessaria per la nuova creazione. La distruzione della citt\u00E0-mondo apre lo spazio alla citt\u00E0-sposa.' },
+  { from:'agnello', to:'nuovagerusalemme', label:'L\'Agnello \u00E8 il tempio (Ap 21:22)', desc:'Nella Nuova Gerusalemme non c\'\u00E8 tempio perch\u00E9 Dio e l\'Agnello sono il suo tempio. L\'Agnello non \u00E8 solo il salvatore ma l\'architettura stessa della citt\u00E0 redenta: tutto \u00E8 ricapitolato in Lui.' },
+  { from:'nuovagerusalemme', to:'gloria', label:'Illuminata dalla gloria (Ap 21:23)', desc:'La Nuova Gerusalemme non ha bisogno di sole n\u00E9 di luna: la gloria di Dio la illumina. La gloria che un tempo riempiva il Tempio ora riempie l\'intera citt\u00E0. Non c\'\u00E8 pi\u00F9 separazione tra sacro e profano.' },
+  { from:'profeti', to:'giudizio', label:'Annunciano il giudizio', desc:'I profeti sono gli araldi del giudizio. Il loro compito non \u00E8 spaventare ma svegliare: annunciando il giudizio, chiamano al ravvedimento. La profezia di giudizio \u00E8 sempre anche un appello alla conversione.' },
+  { from:'profeti', to:'babilonia', label:'Denunciano l\'impero', desc:'Da Isaia a Geremia, da Ezechiele all\'Apocalisse, i profeti smascherano l\'idolatria del potere imperiale. La loro parola \u00E8 politicamente pericolosa perch\u00E9 toglie all\'impero la sua legittimazione teologica.' },
+  { from:'profeti', to:'spirito', label:'Ispirati dallo Spirito', desc:'La profezia non \u00E8 invenzione umana ma ispirazione dello Spirito. \u00C8 lo Spirito che dona la parresia, la libert\u00E0 di dire la verit\u00E0 al potere. Senza lo Spirito, la profezia diventa ideologia.' },
+  { from:'spirito', to:'martiri', label:'D\u00E0 forza ai testimoni', desc:'Lo Spirito \u00E8 la forza dei martiri. Non \u00E8 il coraggio umano ma la potenza dello Spirito che permette di testimoniare fino alla morte. Stefano, pieno di Spirito, vede il cielo aperto mentre viene lapidato.' },
+  { from:'spirito', to:'agnello', label:'Spirito e Agnello (Ap 22:17)', desc:'L\'ultima pagina della Bibbia unisce lo Spirito e la Sposa in un unico grido: \u00ABVieni!\u00BB Lo Spirito e l\'Agnello sono uniti nell\'invocazione escatologica. La salvezza \u00E8 opera trinitaria.' },
+  { from:'deserto', to:'profeti', label:'Luogo di purificazione', desc:'Il deserto \u00E8 la scuola dei profeti: Mos\u00E8, Elia, Giovanni Battista, Paolo. Nel deserto si disimpara la logica dell\'impero e si impara la dipendenza da Dio. La parola profetica nasce dal silenzio del deserto.' },
+  { from:'esilio', to:'deserto', label:'Esilio come deserto', desc:'L\'esilio trasforma la terra promessa in deserto. Ma \u00E8 nel deserto dell\'esilio che Israele riscopre la sua identit\u00E0. Il deserto e l\'esilio sono esperienze parallele di spogliazione e rinnovamento.' },
+  { from:'esilio', to:'babilonia', label:'Babilonia come esilio', desc:'Babilonia \u00E8 il luogo dell\'esilio per eccellenza. Ma l\'esilio non \u00E8 solo geografico: \u00E8 esistenziale. Vivere a Babilonia senza diventare babilonesi \u00E8 la sfida permanente del popolo di Dio.' },
+  { from:'potere', to:'bestie', label:'Potere che diventa bestiale', desc:'Il potere ha una tendenza intrinseca alla bestializzazione: quando non \u00E8 pi\u00F9 frenato dalla giustizia e dall\'umanit\u00E0, il potere umano diventa disumano. La bestia non \u00E8 l\'opposto del potere ma il suo esito degenerativo.' },
+  { from:'figliodelluomo', to:'giudizio', label:'Giudica le nazioni (Dn 7, Mt 25)', desc:'Il Figlio dell\'Uomo \u00E8 il giudice escatologico. In Daniele 7 riceve il regno; in Matteo 25 separa le pecore dai capri. Il criterio del giudizio non \u00E8 l\'ortodossia ma l\'amore concreto verso i pi\u00F9 piccoli.' },
+  { from:'figliodelluomo', to:'agnello', label:'Identit\u00E0 messianica', desc:'Ges\u00F9 unisce in s\u00E9 le due figure: il Figlio dell\'Uomo glorioso di Daniele e l\'Agnello immolato dell\'Apocalisse. La stessa persona \u00E8 giudice e vittima, re e servo. Questa unit\u00E0 \u00E8 il cuore del mistero cristologico.' },
+  { from:'impero', to:'martiri', label:'Perseguita i testimoni', desc:'L\'impero non tollera testimoni perch\u00E9 i testimoni ricordano che esiste un\'autorit\u00E0 superiore a Cesare. La persecuzione non \u00E8 un incidente ma una conseguenza strutturale del conflitto tra due signorie.' },
+  { from:'bestie', to:'martiri', label:'La bestia uccide i santi', desc:'Apocalisse 13:7: \u00ABLe fu dato di far guerra ai santi e di vincerli\u00BB. La Bestia sembra vincere. Ma la vittoria dei martiri \u00E8 altrove: \u00ABnon hanno amato la loro vita fino alla morte\u00BB (Ap 12:11).' }
+ ];
+
+ const layoutW = 4000;
+ const layoutH = 3200;
+
+ let viewScale = 1;
+ let viewX = 0;
+ let viewY = 0;
+ let selectedNodeId = null;
+ let selectedConnId = null;
+ let hoverNodeId = null;
+ let isDragging = false;
+ let isPanning = false;
+ let dragTarget = null;
+ let dragStartX = 0;
+ let dragStartY = 0;
+ let dragNodeStartX = 0;
+ let dragNodeStartY = 0;
+ let lastMouseX = 0;
+ let lastMouseY = 0;
+
+ function clamp(v,min,max){return Math.max(min,Math.min(max,v))}
+ function getNode(id){return nodes.find(n=>n.id===id)}
+ function getConnectionsForNode(id){return connections.filter(c=>c.from===id||c.to===id)}
+ function getNeighbors(id){
+  const s = new Set();
+  connections.forEach(c=>{if(c.from===id)s.add(c.to);if(c.to===id)s.add(c.from)});
+  return [...s];
+ }
+
+ function fitToScreen(){
+  const rect = container.getBoundingClientRect();
+  viewScale = 1.80;
+  viewX = rect.width/2 - CX * viewScale - 130;
+  viewY = rect.height*0.46 - CY * viewScale + 30;
+  updateViewport();
+ }
+
+ function updateViewport(){
+  const vp = document.getElementById('map-viewport');
+  if(vp){vp.setAttribute('transform','translate('+viewX.toFixed(2)+','+viewY.toFixed(2)+') scale('+viewScale.toFixed(4)+')')}
+ }
+
+ function buildSVG(){
+  let html = '<svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 '+layoutW+' '+layoutH+'" style="position:absolute;top:0;left:0;width:100%;height:100%">';
+
+  html += '<defs>';
+  html += '<filter id="blur-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>';
+  html += '<filter id="blur-strong" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="22"/></filter>';
+
+   html += '<marker id="arrowhead" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 12 6 L 0 12 L 3 6 z" fill="currentColor"/></marker>';
+  html += '<marker id="dot-start" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="5" markerHeight="5"><circle cx="4" cy="4" r="3.5" fill="currentColor"/></marker>';
+
+  html += '<pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">';
+  html += '<circle cx="50" cy="50" r="0.7" fill="rgba(237,231,220,0.04)"/>';
+  html += '<circle cx="50" cy="50" r="30" fill="none" stroke="rgba(237,231,220,0.015)" stroke-width="0.3"/>';
+  html += '</pattern>';
+
+  html += '<radialGradient id="cosmic-grad" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(201,162,39,0.05)"/><stop offset="100%" stop-color="rgba(0,0,0,0)"/></radialGradient>';
+
+  html += '<radialGradient id="zone-divine" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(91,156,196,0.07)"/><stop offset="100%" stop-color="rgba(91,156,196,0)"/></radialGradient>';
+  html += '<radialGradient id="zone-power" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(107,76,138,0.06)"/><stop offset="100%" stop-color="rgba(107,76,138,0)"/></radialGradient>';
+  html += '<radialGradient id="zone-bestial" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(139,58,58,0.06)"/><stop offset="100%" stop-color="rgba(139,58,58,0)"/></radialGradient>';
+  html += '<radialGradient id="zone-testimone" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(212,120,58,0.04)"/><stop offset="100%" stop-color="rgba(212,120,58,0)"/></radialGradient>';
+  html += '<radialGradient id="zone-centro" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(201,162,39,0.08)"/><stop offset="100%" stop-color="rgba(201,162,39,0)"/></radialGradient>';
+
+  html += '</defs>';
+
+  html += '<g id="map-viewport">';
+
+  html += drawBackground();
+
+  html += '<rect x="-2000" y="-2000" width="'+(layoutW+4000)+'" height="'+(layoutH+4000)+'" fill="url(#grid)" id="bg-rect"/>';
+
+  connections.forEach((c,i)=>{
+   const fn = getNode(c.from);
+   const tn = getNode(c.to);
+   if(!fn||!tn)return;
+   const path = getCurvedPath(fn,tn);
+   const mid = getMidpoint(fn,tn);
+   html += '<g class="conn-group" data-conn="'+i+'" data-from="'+c.from+'" data-to="'+c.to+'">';
+   html += '<path d="'+path+'" stroke="transparent" stroke-width="24" fill="none" style="pointer-events:stroke"/>';
+   html += '<path d="'+path+'" class="conn-line" stroke="'+fn.color+'" color="'+fn.color+'" id="conn-'+i+'"/>';
+   html += '<text x="'+mid.x+'" y="'+mid.y+'" class="conn-label" dy="-3">'+c.label+'</text>';
+   html += '</g>';
+  });
+
+  nodes.forEach(n=>{
+   html += '<g class="node-group" data-node="'+n.id+'" id="node-'+n.id+'" style="color:'+n.color+'">';
+   html += '<circle cx="'+n.x+'" cy="'+n.y+'" r="56" fill="'+n.color+'" opacity=".15" filter="url(#blur-glow)" class="node-halo"/>';
+   html += '<circle cx="'+n.x+'" cy="'+n.y+'" r="40" fill="'+n.color+'" opacity=".22" filter="url(#blur-glow)" class="node-halo"/>';
+   html += '<text x="'+n.x+'" y="'+(n.y+6)+'" font-size="44" fill="#f5efe0" text-anchor="middle" dominant-baseline="central" class="node-icon-text">'+n.symbol+'</text>';
+   html += '<text x="'+n.x+'" y="'+(n.y+82)+'" font-size="36" fill="'+n.color+'" class="node-label-text" letter-spacing=".06em" text-anchor="middle">'+n.label+'</text>';
+   html += '</g>';
+  });
+
+  html += '</g></svg>';
+  container.innerHTML = html;
+ }
+
+ function drawBackground(){
+  const c = {x:CX, y:CY};
+  let bg = '';
+
+  bg += '<rect x="-2000" y="-2000" width="'+(layoutW+4000)+'" height="'+(c.y+2000)+'" fill="rgba(22,36,58,0.32)" class="bg-ring"/>';
+  bg += '<rect x="-2000" y="'+c.y+'" width="'+(layoutW+4000)+'" height="'+(layoutH-c.y+2000)+'" fill="rgba(38,14,18,0.34)" class="bg-ring"/>';
+  bg += '<rect x="-2000" y="-2000" width="'+(c.x+2000)+'" height="'+(layoutH+4000)+'" fill="rgba(42,26,16,0.14)" class="bg-ring"/>';
+  bg += '<rect x="'+c.x+'" y="-2000" width="'+(layoutW-c.x+2000)+'" height="'+(layoutH+4000)+'" fill="rgba(26,16,36,0.16)" class="bg-ring"/>';
+
+  bg += '<circle cx="'+c.x+'" cy="'+c.y+'" r="1600" fill="url(#cosmic-grad)" class="bg-ring"/>';
+  bg += '<circle cx="'+c.x+'" cy="'+(c.y-100)+'" r="600" fill="url(#zone-divine)" class="bg-ring"/>';
+  bg += '<circle cx="'+(c.x+150)+'" cy="'+(c.y-50)+'" r="520" fill="url(#zone-power)" class="bg-ring"/>';
+  bg += '<circle cx="'+c.x+'" cy="'+(c.y+600)+'" r="550" fill="url(#zone-bestial)" class="bg-ring"/>';
+  bg += '<circle cx="'+(c.x-450)+'" cy="'+(c.y+200)+'" r="500" fill="url(#zone-testimone)" class="bg-ring"/>';
+  bg += '<circle cx="'+c.x+'" cy="'+c.y+'" r="550" fill="url(#zone-centro)" class="bg-ring"/>';
+
+  const rings = [
+   {r:360, dash:'8 22', opacity:0.14, stroke:'rgba(237,231,220,0.16)', width:0.7},
+   {r:600, dash:'5 25', opacity:0.10, stroke:'rgba(201,162,39,0.20)', width:0.8},
+   {r:900, dash:'10 24', opacity:0.08, stroke:'rgba(237,231,220,0.12)', width:0.7}
+  ];
+  rings.forEach(ring=>{
+   bg += '<circle cx="'+c.x+'" cy="'+c.y+'" r="'+ring.r+'" fill="none" stroke="'+ring.stroke+'" stroke-width="'+ring.width+'" stroke-dasharray="'+ring.dash+'" opacity="'+ring.opacity+'" class="bg-ring"/>';
+  });
+
+  bg += '<line x1="'+c.x+'" y1="'+(c.y-1250)+'" x2="'+c.x+'" y2="'+(c.y+1250)+'" stroke="rgba(237,231,220,0.05)" stroke-width="0.5" class="bg-ring"/>';
+  bg += '<line x1="'+(c.x-1600)+'" y1="'+c.y+'" x2="'+(c.x+1600)+'" y2="'+c.y+'" stroke="rgba(237,231,220,0.05)" stroke-width="0.5" class="bg-ring"/>';
+
+  bg += '<text x="'+c.x+'" y="240" font-family="Libre Bodoni, serif" font-size="60" fill="rgba(201,162,39,0.55)" text-anchor="middle" letter-spacing="0.22em">COSMOLOGIA</text>';
+  bg += '<line x1="'+(c.x-280)+'" y1="258" x2="'+(c.x+280)+'" y2="258" stroke="rgba(201,162,39,0.30)" stroke-width="1.2"/>';
+  bg += '<line x1="'+(c.x-280)+'" y1="263" x2="'+(c.x+280)+'" y2="263" stroke="rgba(201,162,39,0.10)" stroke-width="0.5"/>';
+  bg += '<text x="'+c.x+'" y="305" font-family="Libre Bodoni, serif" font-size="16" fill="rgba(201,162,39,0.35)" text-anchor="middle" letter-spacing="0.28em">DEL POTERE</text>';
+
+  bg += '<text x="'+(c.x-1050)+'" y="'+(c.y-720)+'" font-size="30" fill="#5b9cc4" class="bg-label" letter-spacing="0.14em" opacity="0.35">SFERA DIVINA</text>';
+  bg += '<text x="'+(c.x+1050)+'" y="'+(c.y+80)+'" font-size="30" fill="#6b4c8a" class="bg-label" letter-spacing="0.14em" opacity="0.35">STRUTTURE DI POTERE</text>';
+  bg += '<text x="'+c.x+'" y="'+(c.y+1020)+'" font-size="30" fill="#8b3a3a" class="bg-label" letter-spacing="0.14em" opacity="0.35">SFERA BESTIALE</text>';
+
+  const cardinal = [
+   {label:'CIELO', x:c.x, y:c.y-1080},
+   {label:'POTERE', x:c.x+1100, y:c.y},
+   {label:'ABISSO', x:c.x, y:c.y+1080},
+   {label:'TESTIMONI', x:c.x-1100, y:c.y}
+  ];
+  cardinal.forEach(cp=>{
+   bg += '<text x="'+cp.x+'" y="'+cp.y+'" font-size="26" fill="rgba(237,231,220,0.18)" class="bg-label" letter-spacing="0.12em">'+cp.label+'</text>';
+  });
+
+  return bg;
+ }
+
+ function getCurvedPath(fn,tn){
+  const dx = tn.x - fn.x;
+  const dy = tn.y - fn.y;
+  const dist = Math.sqrt(dx*dx+dy*dy);
+  if(dist<1)return '';
+  const ofs = 52;
+  const startX = fn.x + (dx/dist) * ofs;
+  const startY = fn.y + (dy/dist) * ofs;
+  const endX = tn.x - (dx/dist) * ofs;
+  const endY = tn.y - (dy/dist) * ofs;
+  const midX = (startX+endX)/2;
+  const midY = (startY+endY)/2;
+  const offset = Math.min(80, dist*0.16);
+  const perpX = -dy/dist * offset;
+  const perpY = dx/dist * offset;
+  return 'M'+startX.toFixed(1)+','+startY.toFixed(1)+' Q'+(midX+perpX).toFixed(1)+','+(midY+perpY).toFixed(1)+' '+endX.toFixed(1)+','+endY.toFixed(1);
+ }
+
+ function getMidpoint(fn,tn){
+  const dx = tn.x - fn.x;
+  const dy = tn.y - fn.y;
+  const dist = Math.sqrt(dx*dx+dy*dy);
+  const ofs = 52;
+  const startX = fn.x + (dx/dist) * ofs;
+  const startY = fn.y + (dy/dist) * ofs;
+  const endX = tn.x - (dx/dist) * ofs;
+  const endY = tn.y - (dy/dist) * ofs;
+  const midX = (startX+endX)/2;
+  const midY = (startY+endY)/2;
+  const offset = Math.min(80, dist*0.16);
+  const perpX = -dy/dist * offset;
+  const perpY = dx/dist * offset;
+  return {x:midX+perpX-40, y:midY+perpY};
+ }
+
+ function findNodeAt(svgX,svgY){
+  for(let i=nodes.length-1;i>=0;i--){
+   const n = nodes[i];
+   const dx = svgX - n.x;
+   const dy = svgY - n.y;
+   if(dx*dx+dy*dy <= 55*55) return n.id;
+  }
+  return null;
+ }
+
+ function findConnAt(svgX,svgY){
+  for(let i=0;i<connections.length;i++){
+   const c = connections[i];
+   const fn = getNode(c.from);
+   const tn = getNode(c.to);
+   if(!fn||!tn)continue;
+   const mid = getMidpoint(fn,tn);
+   const dx = svgX - mid.x;
+   const dy = svgY - mid.y;
+   if(dx*dx+dy*dy < 2000) return i;
+  }
+  return null;
+ }
+
+ function updateHighlights(nodeId){
+  const neighbors = getNeighbors(nodeId);
+
+  document.querySelectorAll('.node-group').forEach(el=>{
+   const id = el.getAttribute('data-node');
+   if(!nodeId){el.classList.remove('dimmed','highlighted');return}
+   if(id===nodeId){el.classList.add('highlighted');el.classList.remove('dimmed')}
+   else if(neighbors.includes(id)){el.classList.add('highlighted');el.classList.remove('dimmed')}
+   else{el.classList.remove('highlighted');el.classList.add('dimmed')}
+  });
+
+  document.querySelectorAll('.conn-group').forEach(el=>{
+   const from = el.getAttribute('data-from');
+   const to = el.getAttribute('data-to');
+   if(!nodeId){el.querySelector('.conn-line').classList.remove('dimmed','highlighted');return}
+   if(from===nodeId||to===nodeId){
+    el.querySelector('.conn-line').classList.add('highlighted');
+    el.querySelector('.conn-line').classList.remove('dimmed');
+   } else {
+    el.querySelector('.conn-line').classList.remove('highlighted');
+    el.querySelector('.conn-line').classList.add('dimmed');
+   }
+  });
+ }
+
+ function clearHighlights(){updateHighlights(null)}
+
+ function updateHighlightsForConn(connIdx){
+  const c = connections[connIdx];
+  if(!c)return;
+  const relatedNodes = new Set([c.from, c.to]);
+
+  document.querySelectorAll('.node-group').forEach(el=>{
+   const id = el.getAttribute('data-node');
+   if(relatedNodes.has(id)){el.classList.add('highlighted');el.classList.remove('dimmed')}
+   else{el.classList.remove('highlighted');el.classList.add('dimmed')}
+  });
+
+  document.querySelectorAll('.conn-group').forEach(el=>{
+   const idx = parseInt(el.getAttribute('data-conn'));
+   if(idx===connIdx){el.querySelector('.conn-line').classList.add('highlighted');el.querySelector('.conn-line').classList.remove('dimmed')}
+   else{el.querySelector('.conn-line').classList.remove('highlighted');el.querySelector('.conn-line').classList.add('dimmed')}
+  });
+ }
+
+ function getSVGCoords(e){
+  const svg = document.getElementById('map-svg');
+  if(!svg)return{x:0,y:0};
+  const pt = svg.createSVGPoint();
+  pt.x = e.clientX;
+  pt.y = e.clientY;
+  const svgP = pt.matrixTransform(svg.getScreenCTM().inverse());
+  const vp = document.getElementById('map-viewport');
+  if(!vp)return{x:svgP.x,y:svgP.y};
+  const transformed = svgP.matrixTransform(vp.getCTM().inverse());
+  return {x:transformed.x, y:transformed.y};
+ }
+
+ let lastConnHover = null;
+
+ function onMouseMove(e){
+  const coords = getSVGCoords(e);
+
+  if(isDragging && dragTarget){
+   const dx = coords.x - dragStartX;
+   const dy = coords.y - dragStartY;
+   dragTarget.x = dragNodeStartX + dx;
+   dragTarget.y = dragNodeStartY + dy;
+   rebuildAll();
+   return;
+  }
+
+  if(isPanning){
+   const dx = e.clientX - lastMouseX;
+   const dy = e.clientY - lastMouseY;
+   viewX += dx * 2.2;
+   viewY += dy * 2.2;
+   lastMouseX = e.clientX;
+   lastMouseY = e.clientY;
+   updateViewport();
+   return;
+  }
+
+  const nodeId = findNodeAt(coords.x, coords.y);
+  const connIdx = findConnAt(coords.x, coords.y);
+
+  if(nodeId && nodeId !== hoverNodeId){
+   hoverNodeId = nodeId;
+   updateHighlights(nodeId);
+   const n = getNode(nodeId);
+   tooltip.textContent = n.label;
+   tooltip.classList.add('visible');
+   tooltip.style.left = (e.clientX+20)+'px';
+   tooltip.style.top = (e.clientY-40)+'px';
+   container.style.cursor = 'pointer';
+   } else if(!nodeId && hoverNodeId){
+    hoverNodeId = null;
+    if(!selectedNodeId && selectedConnId===null) clearHighlights();
+    else if(selectedConnId !== null) updateHighlightsForConn(selectedConnId);
+    tooltip.classList.remove('visible');
+    container.style.cursor = isPanning?'grabbing':'grab';
+  } else if(nodeId && nodeId === hoverNodeId){
+   tooltip.style.left = (e.clientX+20)+'px';
+   tooltip.style.top = (e.clientY-40)+'px';
+  }
+
+  if(connIdx !== null && connIdx !== lastConnHover){
+   lastConnHover = connIdx;
+   const c = connections[connIdx];
+   tooltip.textContent = c.label;
+   tooltip.classList.add('visible');
+   tooltip.style.left = (e.clientX+20)+'px';
+   tooltip.style.top = (e.clientY-40)+'px';
+  } else if(connIdx === null && lastConnHover !== null && !hoverNodeId){
+   lastConnHover = null;
+   tooltip.classList.remove('visible');
+  }
+ }
+
+ function onMouseDown(e){
+  if(e.button===2)return;
+  const coords = getSVGCoords(e);
+  const nodeId = findNodeAt(coords.x, coords.y);
+  if(nodeId){
+   isDragging = true;
+   dragTarget = getNode(nodeId);
+   dragStartX = coords.x;
+   dragStartY = coords.y;
+   dragNodeStartX = dragTarget.x;
+   dragNodeStartY = dragTarget.y;
+   e.preventDefault();
+   return;
+  }
+  isPanning = true;
+  lastMouseX = e.clientX;
+  lastMouseY = e.clientY;
+  container.classList.add('panning');
+  e.preventDefault();
+ }
+
+ function onMouseUp(e){
+  if(isDragging){
+   const coords = getSVGCoords(e);
+   const dx = Math.abs(coords.x - dragStartX);
+   const dy = Math.abs(coords.y - dragStartY);
+   if(dx<3 && dy<3 && dragTarget) selectNode(dragTarget.id);
+   isDragging = false;
+   dragTarget = null;
+  }
+  if(isPanning){isPanning=false;container.classList.remove('panning')}
+ }
+
+ function onWheel(e){
+  e.preventDefault();
+  const rect = container.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  const lx = (mx - viewX) / viewScale;
+  const ly = (my - viewY) / viewScale;
+  const factor = e.deltaY < 0 ? 1.12 : 0.9;
+  const newScale = clamp(viewScale * factor, 0.2, 4);
+  viewX = mx - lx * newScale;
+  viewY = my - ly * newScale;
+  viewScale = newScale;
+  updateViewport();
+ }
+
+ function selectConn(idx){
+  selectedConnId = idx;
+  selectedNodeId = null;
+  const c = connections[idx];
+  if(!c)return;
+
+  const fn = getNode(c.from);
+  const tn = getNode(c.to);
+
+  updateHighlightsForConn(idx);
+
+  const panel = document.getElementById('info-panel');
+  const content = document.getElementById('panel-content');
+
+  content.innerHTML = `
+   <div style="text-align:center;font-size:2.5rem;margin-bottom:.5rem">${fn.symbol} <span style="font-size:1.5rem;color:var(--muted)">&rarr;</span> ${tn.symbol}</div>
+   <h2 style="color:var(--gold);text-align:center;font-size:1.3rem;margin-bottom:.5rem">${c.label}</h2>
+   <div style="text-align:center;margin-bottom:1.2rem"><span class="category-badge" style="background:rgba(201,162,39,.15);color:var(--gold);border:1px solid rgba(201,162,39,.3)">${fn.label} &rarr; ${tn.label}</span></div>
+   <div class="description">${c.desc}</div>
+   <h4>Nodi coinvolti</h4>
+   <ul class="related">
+    <li><a data-goto="${fn.id}">${fn.symbol} ${fn.label} &rarr;</a></li>
+    <li><a data-goto="${tn.id}">${tn.symbol} ${tn.label} &rarr;</a></li>
+   </ul>
+  `;
+
+  panel.classList.add('open');
+
+  setTimeout(()=>{
+   document.querySelectorAll('#panel-content [data-goto]').forEach(link=>{
+    link.addEventListener('click',function(){selectNode(this.getAttribute('data-goto'))});
+   });
+  },100);
+
+  document.getElementById('close-panel').addEventListener('click', closePanel);
+ }
+
+ function selectNode(id){
+  selectedNodeId = id;
+  selectedConnId = null;
+  const n = getNode(id);
+  if(!n)return;
+  updateHighlights(id);
+
+  const panel = document.getElementById('info-panel');
+  const content = document.getElementById('panel-content');
+  const neighbors = getNeighbors(id);
+  const neighborNames = neighbors.map(nid=>{const nn=getNode(nid);return nn?{id:nn.id,label:nn.label}:null}).filter(Boolean);
+
+  let relatedHtml = '';
+  if(neighborNames.length){
+   relatedHtml = '<h4>Collegamenti</h4><ul class="related">';
+   neighborNames.forEach(nb=>{relatedHtml += '<li><a data-goto="'+nb.id+'">'+nb.label+' &rarr;</a></li>'});
+   relatedHtml += '</ul>';
+  }
+
+  const catColors = {centro:'#c9a227',divino:'#f0e6d3',potere:'#6b4c8a',bestiale:'#8b3a3a',testimone:'#4a6fa5',escatologico:'#c9783a',cammino:'#b8956a'};
+  const catNames = {centro:'Nucleo centrale',divino:'Sfera divina',potere:'Struttura di potere',bestiale:'Polo bestiale',testimone:'Voce testimoniale',escatologico:'Orizzonte escatologico',cammino:'Cammino / Esilio'};
+  const catColor = catColors[n.cat]||'#8f8678';
+  const catName = catNames[n.cat]||n.cat;
+
+  content.innerHTML = '<div class="node-icon">'+n.symbol+'</div><h2 style="color:'+n.color+'">'+n.label+'</h2><div style="text-align:center"><span class="category-badge" style="background:'+catColor+'22;color:'+catColor+';border:1px solid '+catColor+'44">'+catName+'</span></div><div class="description">'+n.desc+'</div>'+relatedHtml;
+  panel.classList.add('open');
+
+  setTimeout(()=>{
+   document.querySelectorAll('#panel-content [data-goto]').forEach(link=>{
+    link.addEventListener('click',function(){selectNode(this.getAttribute('data-goto'))});
+   });
+  },100);
+
+  document.getElementById('close-panel').addEventListener('click', closePanel);
+ }
+
+ function closePanel(){
+  selectedNodeId = null;
+  selectedConnId = null;
+  clearHighlights();
+  document.getElementById('info-panel').classList.remove('open');
+ }
+
+ function rebuildAll(){
+  const oldX = viewX, oldY = viewY, oldScale = viewScale;
+  buildSVG();
+  viewX = oldX; viewY = oldY; viewScale = oldScale;
+  updateViewport();
+  bindEvents();
+  if(selectedNodeId) updateHighlights(selectedNodeId);
+  if(selectedConnId !== null) updateHighlightsForConn(selectedConnId);
+ }
+
+ function bindEvents(){
+  const svg = document.getElementById('map-svg');
+  if(!svg)return;
+
+  svg.addEventListener('mousemove', onMouseMove);
+  svg.addEventListener('mousedown', onMouseDown);
+  svg.addEventListener('mouseup', onMouseUp);
+   svg.addEventListener('mouseleave', function(){
+    if(isPanning){isPanning=false;container.classList.remove('panning')}
+    if(isDragging){isDragging=false;dragTarget=null}
+    tooltip.classList.remove('visible');
+    if(!selectedNodeId && selectedConnId===null) clearHighlights();
+    else if(selectedConnId !== null) updateHighlightsForConn(selectedConnId);
+    hoverNodeId = null;
+   });
+  svg.addEventListener('wheel', onWheel, {passive:false});
+  svg.addEventListener('contextmenu', e=>e.preventDefault());
+
+  svg.addEventListener('dblclick', function(e){
+   const coords = getSVGCoords(e);
+   if(!findNodeAt(coords.x, coords.y)){fitToScreen();rebuildAll()}
+  });
+
+  document.querySelectorAll('.node-group').forEach(el=>{
+   el.addEventListener('click', function(e){selectNode(this.getAttribute('data-node'))});
+  });
+
+  document.querySelectorAll('.conn-group').forEach(el=>{
+   el.addEventListener('click', function(e){
+    e.stopPropagation();
+    const idx = parseInt(this.getAttribute('data-conn'));
+    selectConn(idx);
+   });
+  });
+ }
+
+ document.getElementById('btn-reset').addEventListener('click', function(){fitToScreen();rebuildAll();closePanel()});
+ document.getElementById('btn-zoom-in').addEventListener('click', function(){viewScale=clamp(viewScale*1.2,0.2,4);updateViewport()});
+ document.getElementById('btn-zoom-out').addEventListener('click', function(){viewScale=clamp(viewScale/1.2,0.2,4);updateViewport()});
+
+ let legendVisible = false;
+ document.getElementById('btn-legend').addEventListener('click', function(){
+  legendVisible = !legendVisible;
+  document.getElementById('legend-panel').style.display = legendVisible ? 'block' : 'none';
+ });
+
+ window.addEventListener('resize', function(){fitToScreen();updateViewport()});
+
+ document.addEventListener('keydown', function(e){
+  if(e.key==='Escape') closePanel();
+  if(e.key==='r'&&!e.ctrlKey&&!e.metaKey&&document.activeElement===document.body){fitToScreen();rebuildAll();closePanel()}
+ });
+
+ buildSVG();
+ fitToScreen();
+ updateViewport();
+ bindEvents();
+})();
+</script>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

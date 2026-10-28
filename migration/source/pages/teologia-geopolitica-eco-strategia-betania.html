@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Strategia di Betania &mdash; Ecosistema TGR &mdash; MetaHistoria</title>
+<meta name="description" content="Leggere le Costituzioni della Fraternit&agrave; Francescana di Betania come un Manuale di Campo. I voti non sono rinunce ma armi, la vita fraterna &egrave; una testuggine, l&rsquo;accoglienza &egrave; un&rsquo;offensiva di pace.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni',Georgia,'Times New Roman',serif;--sans:'Public Sans','Segoe UI',system-ui,sans-serif;--maxw:900px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--gold);color:#0c0a09}
+#progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+nav ul li{position:relative}
+nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+nav ul li:hover>a .arrow{transform:rotate(180deg)}
+.dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+.dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+@media(max-width:900px){nav ul{display:none}}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 2rem}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.hero{padding:9.5rem 0 3.5rem;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 50% -20%,rgba(201,162,39,.08),transparent 60%)}
+.hero .kicker{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.hero h1{font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,3.6rem);font-weight:600;line-height:1.12;margin-bottom:1.1rem}
+.hero .lede{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--ink-soft);font-weight:400;max-width:60ch}
+.hero .meta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.8rem}
+.chip2{border:1px solid var(--line);background:var(--surface);padding:.4rem 1rem;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.chip2 strong{color:var(--gold);font-weight:600}
+main{padding:3.5rem 0 5rem}
+.intro-box{border:1px solid var(--line);border-left:3px solid var(--gold);background:var(--surface);padding:2.2rem 2.4rem;margin-bottom:2.8rem}
+.intro-box h3{font-family:var(--serif);font-size:1.3rem;color:var(--gold);margin-bottom:1rem;font-weight:600}
+.intro-box p{color:var(--ink-soft);font-weight:300}
+.intro-box strong{color:var(--ink)}
+.toc{border:1px solid var(--line);background:var(--surface-2);padding:1.9rem 2.4rem 2.1rem;margin-bottom:3.8rem}
+.toc h2{font-family:var(--serif);font-size:1.05rem;color:var(--gold);letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.1rem}
+.toc ol{list-style:none;counter-reset:toc;columns:2;column-gap:2.5rem}
+@media(max-width:680px){.toc ol{columns:1}}
+.toc li{counter-increment:toc;margin-bottom:.55rem;break-inside:avoid}
+.toc a{color:var(--ink-soft);text-decoration:none;font-size:.9rem;font-weight:300;transition:color .2s;display:flex;gap:.7rem;align-items:baseline}
+.toc a::before{content:counter(toc,decimal-leading-zero);font-family:var(--serif);font-size:.78rem;color:var(--gold)}
+.toc a:hover{color:var(--gold)}
+.chapter{margin-bottom:4.2rem;scroll-margin-top:6rem}
+.ch-head{margin-bottom:1.9rem;padding-bottom:1.1rem;border-bottom:1px solid var(--line)}
+.ch-head .ch-kicker{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+.ch-head h2{font-family:var(--serif);font-size:clamp(1.5rem,3.2vw,2.1rem);font-weight:600;line-height:1.2}
+.ch-head .ch-sub{color:var(--muted);font-size:.92rem;font-weight:300;margin-top:.5rem;font-style:italic;font-family:var(--serif)}
+.prose p{color:var(--ink-soft);font-weight:300;margin-bottom:1.15rem;max-width:75ch}
+.prose strong{color:var(--ink);font-weight:600}
+.prose em{font-style:italic}
+h4.sub{font-family:var(--serif);font-size:1.12rem;color:var(--ink);font-weight:600;margin:2rem 0 .9rem;display:flex;align-items:center;gap:.7rem}
+h4.sub::before{content:"";width:1.6rem;height:1px;background:var(--gold);flex:none}
+.quote{border-left:3px solid var(--gold);background:var(--surface);padding:1.7rem 2.1rem;margin:2.3rem 0;font-family:var(--serif);font-style:italic;font-size:1.12rem;line-height:1.6;color:var(--ink)}
+.quote .src{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.sys{border:1px solid var(--line);background:var(--surface-2);margin-bottom:1.5rem}
+.sys-head{display:flex;align-items:baseline;gap:1rem;padding:1.15rem 1.6rem;border-bottom:1px solid var(--line);background:var(--surface)}
+.sys-head .sys-num{font-family:var(--serif);font-size:1.45rem;color:var(--gold);font-weight:600}
+.sys-head h3{font-family:var(--serif);font-size:1.15rem;font-weight:600;color:var(--ink)}
+.sys-head .sys-tag{margin-left:auto;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:right}
+@media(max-width:560px){.sys-head{flex-wrap:wrap}.sys-head .sys-tag{margin-left:0;width:100%}}
+.sys-body{padding:1.5rem 1.6rem;display:grid;gap:.9rem}
+.sys-body>p{color:var(--ink-soft);font-weight:300;font-size:.95rem}
+.sys-body>p strong{color:var(--ink)}
+.facet{border-left:2px solid var(--muted);background:rgba(237,231,220,.03);padding:.95rem 1.25rem}
+.facet .fl{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:.35rem;color:var(--muted)}
+.facet p{font-size:.92rem;color:var(--ink-soft);font-weight:300}
+.facet p strong{color:var(--ink)}
+.facet.anima{border-left-color:var(--red);background:var(--red-soft)}
+.facet.anima .fl{color:#d4707f}
+.facet.regno{border-left-color:var(--gold);background:var(--gold-soft)}
+.facet.regno .fl{color:var(--gold)}
+.divider{text-align:center;color:var(--gold);font-size:1rem;margin:3.4rem 0;letter-spacing:.6em}
+.endnav{display:flex;justify-content:center;gap:1rem;margin-top:4rem}
+.backlink{display:inline-block;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;padding:.85rem 1.8rem;transition:all .25s}
+.backlink:hover{background:var(--gold);color:#0c0a09}
+footer{border-top:1px solid var(--line);padding:3rem 2rem;background:var(--surface);text-align:center}
+footer h4{font-family:var(--serif);font-size:1.05rem;margin-bottom:.6rem;color:var(--ink)}
+footer p{font-size:.82rem;color:var(--muted);font-weight:300}
+footer .legal{margin-top:1.2rem;font-size:.72rem;letter-spacing:.08em}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-classica/'>Home Lente</a><a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a><a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a><a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a><a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a><a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a><a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a><a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a></div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-umana/'>Home Lente</a><a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri</a><a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento</a><a href='/geopolitica-umana/dodici-principi'>I 12 principi</a><a href='/geopolitica-umana/popoli'>Il destino dei popoli</a><a href='/geopolitica-umana/nazioni'>Psicologia delle nazioni</a><a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle</a><a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a></div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-dell-anima/'>Home Lente</a><a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a><a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a><a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a><a href='/geopolitica-dell-anima/frontiere'>Frontiere</a></div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/teologia-geopolitica/'>Home Lente</a><a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a><a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a><a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a><a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a><a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a><a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a><a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a><a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a><a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a><a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a><a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a></div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/apocalisse-del-potere/'>Home Lente</a><a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia</a><a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a><a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon</a><a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a></div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<header class="hero">
+ <div class="wrap">
+ <p class="kicker">Ecosistema TGR &mdash; Opera 25</p>
+ <h1>La Strategia di Betania</h1>
+ <p class="lede">Manuale di Combattimento per un Esercito Disarmato</p>
+ <div class="meta">
+ <span class="chip2">Manuale carismatico</span>
+ <span class="chip2"><strong>&#9768;</strong> Percorso Combattente</span>
+ <span class="chip2">Sei capitoli strategici</span>
+ </div>
+ </div>
+</header>
+
+<main>
+ <div class="wrap">
+
+ <div class="intro-box reveal">
+ <h3>Il Codice Genetico della FFB</h3>
+ <p>Leggere le Costituzioni della Fraternit&agrave; Francescana di Betania come un <strong>Manuale di Campo</strong>. La FFB &egrave; un Corpo Speciale dell&rsquo;Anti-Impero. I voti non sono rinunce ma armi. La vita fraterna &egrave; una testuggine. L&rsquo;accoglienza &egrave; un&rsquo;offensiva di pace. Un testo che trasforma il diritto canonico in strategia militare per l&rsquo;esercito dell&rsquo;Agnello.</p>
+ </div>
+
+ <div class="toc reveal" aria-label="Sommario">
+ <h2>Sommario</h2>
+ <ol>
+ <li><a href="#grande-strategia">Parte I &mdash; La Grande Strategia</a></li>
+ <li><a href="#tattica-operativa">Parte II &mdash; La Tattica Operativa</a></li>
+ <li><a href="#vittoria">Conclusione: La Vera Vittoria</a></li>
+ </ol>
+ </div>
+
+ <section class="chapter reveal" id="grande-strategia">
+ <div class="ch-head">
+ <p class="ch-kicker">Parte I &mdash; Capitoli 1-3</p>
+ <h2>La Grande Strategia</h2>
+ <p class="ch-sub">Identit&agrave; e missione: il carisma, le armi e la formazione</p>
+ </div>
+ <div class="prose">
+ <p>La Fraternit&agrave; Francescana di Betania non &egrave; un&rsquo;associazione devota ma un <strong>Corpo Speciale dell&rsquo;Anti-Impero</strong>. La sua Grande Strategia &egrave; definita dal carisma fondante: creare oasi &mdash; le Betanie &mdash; dove la logica dell&rsquo;Impero non entra. In termini militari, si tratta di stabilire <strong>Zone di Interdizione</strong> al potere del nemico: dove c&rsquo;&egrave; Betania, la fretta, il profitto e la solitudine non devono entrare.</p>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">1</span><h3>L&rsquo;Obiettivo Strategico: Il Carisma</h3><span class="sys-tag">Art. 1 Costituzioni</span></div>
+ <div class="sys-body">
+ <p>La missione &egrave; chiara: creare oasi di fraternit&agrave; nel cuore dell&rsquo;Impero. Il modello operativo &egrave; l&rsquo;<strong>equilibrio Marta-Maria</strong>: non schizofrenia tra azione e contemplazione, ma azione combinata. La contemplazione &egrave; l&rsquo;intelligence &mdash; ascolto di Dio &mdash;; l&rsquo;azione &egrave; la manovra sul campo &mdash; servizio. L&rsquo;una senza l&rsquo;altra &egrave; inutile o dannosa.</p>
+ <div class="facet anima"><div class="fl">Principio operativo</div><p>Marta serve, Maria ascolta. La FFB tiene insieme entrambe: <strong>labora et contempla</strong> non &egrave; un motto ma una tattica.</p></div>
+ </div>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">2</span><h3>Le Armi Non Convenzionali: I Voti</h3><span class="sys-tag">Art. 7, 14, 19 Costituzioni</span></div>
+ <div class="sys-body">
+ <p>I tre voti francescani non sono rinunce ma <strong>armi tattiche</strong>:</p>
+ <div class="facet"><div class="fl">Povert&agrave;</div><p>Non &egrave; miseria, &egrave; <strong>logistica leggera</strong>. Un esercito che non possiede nulla non pu&ograve; essere ricattato o rallentato dalla Bestia del Denaro. &Egrave; mobilit&agrave; tattica: si va dove si &egrave; mandati, senza bagagli.</p></div>
+ <div class="facet anima"><div class="fl">Castit&agrave;</div><p>Non &egrave; rinuncia, &egrave; <strong>disponibilit&agrave; totale</strong>. &Egrave; la capacit&agrave; di amare senza possedere, contro la logica predatoria dell&rsquo;Impero. &Egrave; la libert&agrave; di essere inviati ovunque senza legami che trattengano.</p></div>
+ <div class="facet regno"><div class="fl">Obbedienza</div><p>Non &egrave; sottomissione, &egrave; <strong>unit&agrave; di comando</strong>. Un corpo che si muove come un sol uomo sotto la guida dello Spirito, tramite i superiori, &egrave; invincibile. L&rsquo;indisciplina &egrave; il fianco scoperto nella battaglia.</p></div>
+ </div>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">3</span><h3>La Formazione a Misteit&agrave;</h3><span class="sys-tag">Art. 4 Costituzioni; Art. 73 Statuti</span></div>
+ <div class="sys-body">
+ <p>La FFB ha una caratteristica rara: <strong>fratelli e sorelle</strong> insieme. In termini strategici, questo &egrave; un <strong>sistema d&rsquo;arma combinato</strong>. La reciprocit&agrave; maschile-femminile rompe la solitudine e offre al mondo un modello di relazione che la cultura dell&rsquo;Impero &mdash; guerra dei sessi o fluidit&agrave; liquida &mdash; non riesce a comprendere. Fratelli e sorelle non sono una concessione alla modernit&agrave; ma un <strong>vantaggio strategico</strong>.</p>
+ </div>
+ </div>
+ </section>
+
+ <div class="divider reveal">&#9670; &#9670; &#9670;</div>
+
+ <section class="chapter reveal" id="tattica-operativa">
+ <div class="ch-head">
+ <p class="ch-kicker">Parte II &mdash; Capitoli 4-6</p>
+ <h2>La Tattica Operativa</h2>
+ <p class="ch-sub">Come si combatte ogni giorno: i tre pilastri della FFB</p>
+ </div>
+ <div class="prose">
+ <p>Se la Grande Strategia definisce il perch&eacute; e il con-che-cosa, la Tattica Operativa definisce il <strong>come</strong>. Tre pilastri sostengono il combattimento quotidiano della Fraternit&agrave;: la preghiera come copertura aerea, la vita fraterna come testuggine difensiva, l&rsquo;accoglienza come offensiva di pace.</p>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">4</span><h3>Il Controllo dello Spazio Aereo: La Preghiera</h3><span class="sys-tag">Cap. III Costituzioni; Art. 19-37 Statuti</span></div>
+ <div class="sys-body">
+ <p>La preghiera non &egrave; un dovere, &egrave; la <strong>copertura aerea</strong>. Senza di essa, le truppe a terra &mdash; l&rsquo;azione &mdash; vengono massacrate. I protocolli tattici sono precisi:</p>
+ <div class="facet"><div class="fl">Eucaristia</div><p>Il <strong>rifornimento quotidiano</strong> (Stat. 22). La razione K del soldato di Betania.</p></div>
+ <div class="facet anima"><div class="fl">Rosario e Veglia</div><p>I <strong>turni di guardia</strong> (Stat. 25-26). La veglia notturna &egrave; l&rsquo;atto di sentinella mentre il mondo dorme o pecca.</p></div>
+ <div class="facet regno"><div class="fl">Silenzio</div><p>La <strong>disciplina radio</strong> (Stat. 29). Tagliare le comunicazioni del nemico &mdash; il rumore del mondo &mdash; per sentire il Comando: Dio.</p></div>
+ </div>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">5</span><h3>La Formazione a Testuggine: La Vita Fraterna</h3><span class="sys-tag">Cap. IV Costituzioni; Art. 33-40 Statuti</span></div>
+ <div class="sys-body">
+ <p>Il nemico cerca di <strong>isolare il singolo</strong>: &egrave; la strategia del Leone ruggente che cerca chi divorare (1 Pt 5,8). La Fraternit&agrave; &egrave; la testuggine romana: scudi uniti, nessuno scoperto. Le manovre interne sono due:</p>
+ <div class="facet"><div class="fl">Correzione Fraterna</div><p><strong>Manutenzione dell&rsquo;equipaggiamento</strong> e cura delle ferite amiche (Stat. 17). Non &egrave; accusa, &egrave; salvaguardia del fratello.</p></div>
+ <div class="facet anima"><div class="fl">Capitolo Locale</div><p>Il <strong>briefing operativo</strong> (Stat. 77). Non una riunione burocratica, ma discernimento comunitario sulla battaglia in corso.</p></div>
+ </div>
+ </div>
+
+ <div class="sys">
+ <div class="sys-head"><span class="sys-num">6</span><h3>L&rsquo;Offensiva di Pace: L&rsquo;Accoglienza</h3><span class="sys-tag">Cap. V Costituzioni; Art. 41-48 Statuti</span></div>
+ <div class="sys-body">
+ <p>L&rsquo;accoglienza &egrave; l&rsquo;<strong>arma offensiva</strong> della FFB. Non si attacca il mondo, lo si invita a entrare e lo si disarma. La strategia di infiltrazione segue tre principi:</p>
+ <div class="facet"><div class="fl">Il Target</div><p>I <strong>feriti dalle Bestie</strong>: poveri, soli, confusi. Chi &egrave; stato colpito dall&rsquo;Impero &egrave; il destinatario prioritario.</p></div>
+ <div class="facet anima"><div class="fl">La Tattica</div><p><strong>&laquo;Fare casa&raquo;</strong>. Trasformare l&rsquo;estraneo in ospite. Questo smonta la logica dell&rsquo;esclusione tipica delle Bestie Nazionaliste o Economiche.</p></div>
+ <div class="facet regno"><div class="fl">La Vittoria</div><p>Non il successo numerico ma la <strong>fedelt&agrave; al posto di combattimento</strong>. Un&rsquo;accoglienza fedele vale pi&ugrave; di mille conversioni spettacolari.</p></div>
+ </div>
+ </div>
+ </section>
+
+ <div class="divider reveal">&#9670; &#9670; &#9670;</div>
+
+ <section class="chapter reveal" id="vittoria">
+ <div class="ch-head">
+ <p class="ch-kicker">Conclusione</p>
+ <h2>La Vera Vittoria</h2>
+ <p class="ch-sub">Non il successo ma la fedelt&agrave; al posto di combattimento</p>
+ </div>
+ <div class="prose">
+ <p>Al termine del manuale, il paradosso si svela: la FFB combatte una guerra in cui la vittoria non si misura con i criteri del mondo. Non &egrave; il successo numerico, non &egrave; l&rsquo;espansione territoriale, non &egrave; la conquista del consenso. La vera vittoria &egrave; <strong>la fedelt&agrave; al posto di combattimento</strong>, giorno dopo giorno, nella Betania assegnata. Il soldato dell&rsquo;Agnello non chiede di vincere: chiede di non disertare.</p>
+ </div>
+ <blockquote class="quote">La FFB &egrave; un Corpo Speciale dell&rsquo;Anti-Impero. I voti non sono rinunce ma armi. La vita fraterna &egrave; una testuggine. L&rsquo;accoglienza &egrave; un&rsquo;offensiva di pace. E la vittoria non &egrave; il successo: &egrave; la fedelt&agrave; al posto di combattimento.<span class="src">La Strategia di Betania &mdash; Conclusione</span></blockquote>
+ </section>
+
+ <div class="endnav reveal">
+ <a class='backlink' href='/teologia-geopolitica/ecosistema-tgr'>&larr; Torna all&rsquo;Ecosistema TGR</a>
+ </div>
+
+ </div>
+</main>
+
+<footer>
+ <div class="wrap">
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &mdash; Il Metodo Pentapolare.</p>
+ <p class="legal">&copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){"use strict";
+var bar=document.getElementById('progress');
+addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

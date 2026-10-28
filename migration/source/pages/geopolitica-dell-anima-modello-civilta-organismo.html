@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modello Civilt&agrave;-Organismo &mdash; Frontiere &middot; MetaHistoria</title>
+<meta name="description" content="Civilt&agrave; = Corpo + Mente + Anima + Spirito. Una metafora biologica per leggere l'ascesa e il declino delle potenze, con strumento interattivo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{
+ --bg:#0c0a09;
+ --surface:#15120f;
+ --surface-2:#1c1814;
+ --ink:#ede7dc;
+ --ink-soft:#c8bfae;
+ --muted:#8f8678;
+ --gold:#c9a227;
+ --gold-soft:rgba(201,162,39,.14);
+ --red:#a32638;
+ --red-soft:rgba(163,38,56,.16);
+ --green:#2d7d46;
+ --green-soft:rgba(45,125,70,.16);
+ --amber:#b8860b;
+ --amber-soft:rgba(184,134,11,.16);
+ --line:rgba(237,231,220,.12);
+ --serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;
+ --sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;
+ --maxw:1100px;
+ }
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{
+ background:var(--bg);
+ color:var(--ink);
+ font-family:var(--sans);
+ font-size:16px;
+ line-height:1.65;
+ -webkit-font-smoothing:antialiased;
+ overflow-x:hidden;
+ }
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{
+ position:fixed;top:0;left:0;right:0;z-index:900;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:.9rem 2rem;
+ background:rgba(12,10,9,.82);
+ backdrop-filter:blur(12px);
+ border-bottom:1px solid var(--line);
+ }
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{
+ color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;
+ letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem
+ }
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{
+ position:absolute;top:100%;left:0;min-width:200px;
+ background:var(--surface);border:1px solid var(--line);
+ border-top:2px solid var(--gold);
+ padding:.5rem 0;opacity:0;visibility:hidden;
+ transform:translateY(8px);transition:all .25s ease;z-index:300
+ }
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{
+ padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;
+ color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s
+ }
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ .hero{text-align:center;padding:8rem 2rem 4rem;position:relative}
+ .hero h1{font-family:var(--serif);font-size:clamp(2rem,4.5vw,3.4rem);font-weight:600;line-height:1.15;margin-bottom:.8rem}
+ .hero h1 em{color:var(--gold);font-style:normal}
+ .hero p{color:var(--ink-soft);font-weight:300;max-width:680px;margin:.6rem auto 0;font-size:clamp(.9rem,1.1vw,1.05rem)}
+ .hero .formula{font-family:var(--serif);font-size:clamp(1.4rem,3vw,2.4rem);color:var(--gold);margin:1.6rem 0 .4rem;letter-spacing:.04em}
+ .hero .formula span{display:inline-block;margin:0 .3rem}
+ .hero .formula .plus{color:var(--muted);font-size:70%}
+ .hero .sub{color:var(--muted);font-size:.8rem;margin-top:1.2rem;letter-spacing:.12em;text-transform:uppercase}
+ section{padding:2.5rem 2rem 5rem}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .two-col{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+ .two-col p{color:var(--ink-soft);font-weight:300;margin-bottom:1rem;font-size:.88rem;line-height:1.7}
+ .two-col strong{color:var(--ink);font-weight:500}
+ @media(max-width:820px){.two-col{grid-template-columns:1fr}}
+ .dim-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:2rem 0}
+ .dim-card{border:1px solid var(--line);padding:1.4rem;text-align:center;transition:border-color .3s}
+ .dim-card:hover{border-color:rgba(201,162,39,.3)}
+ .dim-card .d-icon{font-size:1.6rem;margin-bottom:.4rem;display:block}
+ .dim-card .d-label{font-family:var(--serif);font-size:.95rem;font-weight:600;color:var(--ink);margin-bottom:.4rem}
+ .dim-card .d-desc{font-size:.72rem;color:var(--muted);line-height:1.5}
+ .dim-card.corpo{border-top:3px solid var(--red)}
+ .dim-card.mente{border-top:3px solid var(--gold)}
+ .dim-card.anima{border-top:3px solid var(--amber)}
+ .dim-card.spirito{border-top:3px solid var(--green)}
+ .sub-grid{display:grid;grid-template-columns:1fr 1fr;gap:.35rem;margin-top:.6rem}
+ .sub-grid .sg-item{font-size:.68rem;color:var(--ink-soft);background:var(--surface);padding:.25rem .4rem}
+ @media(max-width:720px){.dim-grid{grid-template-columns:repeat(2,1fr)}.sub-grid{grid-template-columns:1fr}}
+ .selettore{margin:2.5rem 0 2rem;text-align:center}
+ .selettore .s-label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.15em;margin-bottom:.8rem}
+ .preset-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:.5rem;max-width:760px;margin:0 auto}
+ .preset-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);padding:.6rem .3rem;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;cursor:pointer;transition:all .2s;font-family:var(--sans)}
+ .preset-btn:hover{border-color:var(--gold);color:var(--gold)}
+ .preset-btn.active{background:var(--gold-soft);border-color:var(--gold);color:var(--gold)}
+ .diagnosi-area{margin-top:2.5rem;border:1px solid var(--line);padding:2rem;background:var(--surface-2);display:none}
+ .diagnosi-area.visible{display:block}
+ .diagnosi-area .d-title{font-family:var(--serif);font-size:1.3rem;font-weight:600;color:var(--gold);margin-bottom:1.2rem}
+ .diagnosi-area .d-subtitle{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;margin-bottom:1.5rem}
+ .diag-dim{margin-bottom:1.2rem;border-left:3px solid var(--line);padding:.6rem 0 .6rem 1.2rem}
+ .diag-dim.dd-corpo{border-left-color:var(--red)}
+ .diag-dim.dd-mente{border-left-color:var(--gold)}
+ .diag-dim.dd-anima{border-left-color:var(--amber)}
+ .diag-dim.dd-spirito{border-left-color:var(--green)}
+ .diag-dim .dd-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.2rem}
+ .diag-dim .dd-val{font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.6}
+ .diag-dim .dd-val strong{color:var(--ink);font-weight:500}
+ .diag-dim .dd-health{display:inline-block;font-size:.65rem;padding:.15rem .5rem;margin-left:.3rem;border-radius:2px}
+ .dd-health.forte{background:var(--green-soft);color:var(--green)}
+ .dd-health.medio{background:var(--amber-soft);color:var(--amber)}
+ .dd-health.debole{background:var(--red-soft);color:var(--red)}
+ .diag-verdict{margin-top:1.5rem;padding:1.2rem 1.6rem;background:var(--surface);border:2px solid var(--line)}
+ .diag-verdict .dv-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+ .diag-verdict .dv-text{font-family:var(--serif);font-size:1rem;color:var(--ink);line-height:1.5;font-style:italic}
+ .diag-verdict .dv-text strong{color:var(--gold);font-style:normal}
+ .intuition-box{background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;margin:2.5rem 0 1rem;position:relative}
+ .intuition-box::before{content:"";position:absolute;top:-12px;left:2rem;color:var(--red);background:var(--bg);padding:0 .6rem;font-size:.8rem}
+ .intuition-box p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.25rem);font-style:italic;color:var(--ink);line-height:1.6}
+ .intuition-box .attr{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+ @media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+ }
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li>
+ <a>Geopolitica Classica <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+ </div>
+ </li>
+ <li>
+ <a>Geopolitica Umana <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+  
+  <a href='/geopolitica-umana/'>Home Lente</a>
+  <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+  <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+  <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+  <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+  <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+  <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+  <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+
+</div>
+ </li>
+ <li>
+ <a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+ </div>
+ </li>
+ <li>
+ <a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a>
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+ <a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a>
+ <a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a>
+ <a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a>
+ <a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a>
+ <a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a>
+ <a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a>
+ <a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a>
+ <a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a>
+ </div>
+ </li>
+ <li>
+   <a>Apocalisse del Potere <span class="arrow">&#9662;</span></a>
+  <div class="dropdown">
+  <a href='/apocalisse-del-potere/'>Home Lente</a>
+  <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+  <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+  <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+  <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+    <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+  <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+  <a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+  <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+  <a href='/apocalisse-del-potere/manuale-commento-daniele'>Genesi delle Bestie</a>
+   <a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a>
+  </div>
+ </li>
+
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li></ul>
+</nav>
+
+<section class="hero">
+ <h1>Il Modello della <em>Civilt&agrave; come Organismo</em></h1>
+ <p>Una metafora biologica per leggere l&rsquo;ascesa e il declino delle potenze. Ogni civilt&agrave; &egrave; un organismo vivente: ha un corpo che produce, una mente che pensa, un&rsquo;anima che ricorda, uno spirito che crede. Quando uno di questi si ammala, l&rsquo;intero organismo entra in crisi.</p>
+ <div class="formula">Civilt&agrave; <span class="plus">=</span> Corpo <span class="plus">+</span> Mente <span class="plus">+</span> Anima <span class="plus">+</span> Spirito</div>
+ <p class="sub">Seleziona una civilt&agrave; e scopri la sua diagnosi</p>
+</section>
+
+<section>
+ <div class="wrap">
+
+ <div class="two-col">
+ <div>
+ <p>Il modello della <strong>Civilt&agrave; come Organismo</strong> nasce da un&rsquo;intuizione semplice: le civilt&agrave; non muoiono quando perdono denaro. Muoiono quando perdono lo <strong>Spirito</strong>. La storia lo dimostra: Roma cadde quando il mito si spense, prima che l&rsquo;esercito si ritirasse. L&rsquo;Europa oggi possiede ancora corpo e mente, ma l&rsquo;anima &egrave; frammentata e lo spirito &egrave; incerto.</p>
+ <p>Questa mappa a quattro dimensioni permette di diagnosticare la salute di una civilt&agrave; (o di una nazione) esattamente come un medico valuta un paziente: osservando i sintomi, misurando le funzioni vitali, identificando le patologie prima che diventano letali.</p>
+ </div>
+ <div>
+ <p>Lo schema &egrave; <strong>frattale</strong>: la stessa struttura che vale per le civilt&agrave; vale per l&rsquo;uomo. Ci&ograve; che la Geopolitica dell&rsquo;Anima vede nel macrocosmo delle potenze si riflette nel microcosmo della persona. Per questo il modello non &egrave; solo uno strumento di analisi geopolitica, ma anche una mappa di crescita personale.</p>
+ <p>Usa lo strumento interattivo qui sotto: seleziona una civilt&agrave; preselezionata per vedere la sua diagnosi completa, oppure usalo come lente per analizzare qualsiasi altra realt&agrave; collettiva o individuale.</p>
+ </div>
+ </div>
+
+ <div class="dim-grid">
+ <div class="dim-card corpo">
+ <span class="d-icon">&#9878;</span>
+ <div class="d-label">Corpo</div>
+ <div class="d-desc">Economia, esercito, tecnologia, territorio</div>
+ <div class="sub-grid">
+ <span class="sg-item">Economia</span>
+ <span class="sg-item">Esercito</span>
+ <span class="sg-item">Tecnologia</span>
+ <span class="sg-item">Territorio</span>
+ </div>
+ </div>
+ <div class="dim-card mente">
+ <span class="d-icon">&#9881;</span>
+ <div class="d-label">Mente</div>
+ <div class="d-desc">Ideologie, universit&agrave;, media, scuole</div>
+ <div class="sub-grid">
+ <span class="sg-item">Ideologie</span>
+ <span class="sg-item">Universit&agrave;</span>
+ <span class="sg-item">Media</span>
+ <span class="sg-item">Scuole</span>
+ </div>
+ </div>
+ <div class="dim-card anima">
+ <span class="d-icon">&#9785;</span>
+ <div class="d-label">Anima</div>
+ <div class="d-desc">Miti, eroi, memorie, traumi</div>
+ <div class="sub-grid">
+ <span class="sg-item">Miti</span>
+ <span class="sg-item">Eroi</span>
+ <span class="sg-item">Memorie</span>
+ <span class="sg-item">Traumi</span>
+ </div>
+ </div>
+ <div class="dim-card spirito">
+ <span class="d-icon">&#9733;</span>
+ <div class="d-label">Spirito</div>
+ <div class="d-desc">Per cosa vivere morire?</div>
+ <div class="sub-grid">
+ <span class="sg-item">Domanda ultima</span>
+ <span class="sg-item">Per cosa vivo</span>
+ <span class="sg-item">Per cosa muoio</span>
+ <span class="sg-item">Trascendenza</span>
+ </div>
+ </div>
+ </div>
+
+ <div class="selettore">
+ <div class="s-label">Seleziona una civilt&agrave; da analizzare</div>
+ <div class="preset-grid">
+ <button class="preset-btn" onclick="selectPreset('roma')">Roma</button>
+ <button class="preset-btn" onclick="selectPreset('europa')">Europa</button>
+ <button class="preset-btn" onclick="selectPreset('usa')">USA</button>
+ <button class="preset-btn" onclick="selectPreset('cina')">Cina</button>
+ <button class="preset-btn" onclick="selectPreset('russia')">Russia</button>
+ <button class="preset-btn" onclick="selectPreset('iran')">Iran</button>
+ </div>
+ </div>
+
+ <div id="diagnosi" class="diagnosi-area">
+ <div class="d-title" id="diagTitle">Roma Antica</div>
+ <div class="d-subtitle" id="diagSub">Diagnosi completa dell&rsquo;organismo-civilt&agrave;</div>
+
+ <div class="diag-dim dd-corpo">
+ <div class="dd-label">Corpo <span class="dd-health medio" id="corpoHealth">Medio</span></div>
+ <div class="dd-val" id="corpoVal"></div>
+ </div>
+ <div class="diag-dim dd-mente">
+ <div class="dd-label">Mente <span class="dd-health medio" id="menteHealth">Medio</span></div>
+ <div class="dd-val" id="menteVal"></div>
+ </div>
+ <div class="diag-dim dd-anima">
+ <div class="dd-label">Anima <span class="dd-health medio" id="animaHealth">Medio</span></div>
+ <div class="dd-val" id="animaVal"></div>
+ </div>
+ <div class="diag-dim dd-spirito">
+ <div class="dd-label">Spirito <span class="dd-health medio" id="spiritoHealth">Medio</span></div>
+ <div class="dd-val" id="spiritoVal"></div>
+ </div>
+
+ <div class="diag-verdict">
+ <div class="dv-label">Diagnosi</div>
+ <div class="dv-text" id="verdict"></div>
+ </div>
+ </div>
+
+ <div class="intuition-box">
+ <p>&laquo;Le civilt&agrave; non muoiono per assassinio. Muoiono per suicidio. Prima perde lo Spirito, poi l&rsquo;Anima si frammenta, poi la Mente si offusca. Solo alla fine il Corpo crolla. Quando vedi un impero cadere, stai guardando l&rsquo;ultimo atto di una malattia iniziata molto prima.&raquo;</p>
+ <span class="attr">&mdash; Sistema MetaHistoria, Modello Civilt&agrave;-Organismo</span>
+ </div>
+
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare &mdash; arma di decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>O. Spengler, <em>Il tramonto dell&rsquo;Occidente</em> (1918)</li>
+ <li>A. Toynbee, <em>A Study of History</em> (1934-61)</li>
+ <li>C. Schmitt, <em>Teologia politica</em> (1922)</li>
+ <li>MetaHistoria, <em>Frontiere &mdash; Modello Civilt&agrave;-Organismo</em> (2025)</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/#metodo' style='color:var(--muted);text-decoration:none'>Metodo operativo</a></li>
+ <li><a href='/geopolitica-dell-anima/fondamenti' style='color:var(--muted);text-decoration:none'>Insegnamenti Fondamentali</a></li>
+ <li><a href="frontiere.html"
+ <li><a href="matrice-apocalittica.html"
+ <li><a href="atlante-antico-testamento.html"
+ <li><a href="atlante-vangelo.html"
+ <li><a href='/geopolitica-dell-anima/modello-civilta-organismo' style='color:var(--muted);text-decoration:none'>Modello Civilt&agrave;-Organismo</a></li>
+ <li><a href='/geopolitica-dell-anima/matrice-apocalittica' style='color:var(--muted);text-decoration:none'>Matrice Apocalittica</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-antico-testamento' style='color:var(--muted);text-decoration:none'>Atlante Antico Testamento</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-vangelo' style='color:var(--muted);text-decoration:none'>Atlante del Vangelo</a></li>
+ <li><a href='/geopolitica-dell-anima/cuore-e-impero' style='color:var(--muted);text-decoration:none'>Il Cuore e l'Impero</a></li>
+ <li><a href='/geopolitica-dell-anima/cartografia-anima-collettiva' style='color:var(--muted);text-decoration:none'>Cartografia Anima Collettiva</a></li>
+ <li><a href='/geopolitica-dell-anima/vaticano' style='color:var(--muted);text-decoration:none'>Caso Vaticano</a></li>
+ <li><a href='/geopolitica-dell-anima/usa' style='color:var(--muted);text-decoration:none'>Caso USA</a></li>
+ <li><a href='/geopolitica-dell-anima/cina' style='color:var(--muted);text-decoration:none'>Caso Cina</a></li>
+ <li><a href='/geopolitica-dell-anima/russia' style='color:var(--muted);text-decoration:none'>Caso Russia</a></li>
+ <li><a href='/geopolitica-dell-anima/iran' style='color:var(--muted);text-decoration:none'>Caso Iran</a></li>
+ <li><a href='/geopolitica-dell-anima/europa' style='color:var(--muted);text-decoration:none'>Caso Europa</a></li>
+ <li><span style="color:var(--muted);text-decoration:none">Manifesto TGP</span></li>
+ <li><span style="color:var(--muted);text-decoration:none">Theopolitica</span></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina interattiva &middot; Font: Libre Bodoni + Public Sans &middot; &copy; 2026</p>
+ </div>
+</footer>
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+})();
+
+var data = {
+ roma: {
+ title: "Roma Antica",
+ corpo: { val: "Esercito invincibile (fino al III sec.), economia schiavile, ingegneria militare e civile superiori, dominio territoriale su 3 continenti. Ma il modello economico fondato sulle conquiste diventa insostenibile quando l&rsquo;espansione si ferma.", health: "medio" },
+ mente: { val: "Diritto romano come architettura razionale, greco come lingua della cultura, scuole di retorica per la classe dirigente. Per&ograve; l&rsquo;ideologia repubblicana muore con Cesare: l&rsquo;impero non ha pi&ugrave; un racconto coerente di s&eacute;.", health: "medio" },
+ anima: { val: "Il mito di Enea, la Roma aeterna, gli eroi della Repubblica (Scipione, Catone). Ma il trauma delle guerre civili, il cinismo dell&rsquo;impero, la perdita degli antichi d&egrave;i (sostituiti dal culto imperiale di Stato) frammentano l&rsquo;anima collettiva.", health: "debole" },
+ spirito: { val: "La Roma repubblicana sapeva per cosa morire: la patria, la gloria, la famiglia. Roma imperiale non lo sa pi&ugrave;. Il cristianesimo offre una risposta nuova, ma non &egrave; pi&ugrave; la risposta di Roma. Lo spirito si spegne prima del corpo.", health: "debole" },
+ verdict: "Roma &egrave; il caso scuola del modello. Il corpo (esercito, economia, territori) ha retto per secoli dopo che lo spirito si era gi&agrave; spento. Le invasioni barbariche sono state la causa apparente della caduta, ma la causa reale &egrave; stata la perdita dell&rsquo;anima e dello spirito. Quando una civilt&agrave; non sa pi&ugrave; rispondere alla domanda &laquo;per cosa vale la pena morire?&raquo;, ha gi&agrave; cominciato a morire."
+ },
+ europa: {
+ title: "Europa Contemporanea",
+ corpo: { val: "Economia avanzata (UE come terza economia globale), eserciti nazionali coordinati (NATO), tecnologia d&rsquo;avanguardia (Airbus, CERN, farmaceutica). Ma il territorio &egrave; frammentato in Stati-nazione e la demografia &egrave; in declino: l&rsquo;inverno demografico indebolisce il corpo.", health: "forte" },
+ mente: { val: "Universit&agrave; di livello mondiale (Oxford, Cambridge, Sorbona, Bocconi), sistema scolastico diffuso, media influenti (BBC, Le Monde, FAZ). L&rsquo;ideologia dominante (liberal-democrazia, diritti umani, mercato) &egrave; per&ograve; in crisi di credibilit&agrave;.", health: "forte" },
+ anima: { val: "L&rsquo;anima europea &egrave; ricca di memoria (Grecia, Roma, Cristianit&agrave;, Rinascimento, Illuminismo) ma frammentata. I miti fondativi non sono pi&ugrave; condivisi: l&rsquo;Europa &egrave; cristiana I traumi (guerre mondiali, Shoah, colonialismo) uniscono ma anche dividono.", health: "medio" },
+ spirito: { val: "L&rsquo;Europa non sa rispondere alle domande ultime. Per cosa vive? Consumo, benessere, pace &egrave; disposta a morire europeo: ha il corpo pi&ugrave; forte della sua storia ma lo spirito pi&ugrave; debole. La guerra in Ucraina sta forzando una risposta.", health: "debole" },
+ verdict: "L&rsquo;Europa &egrave; una civilt&agrave; con il corpo e la mente ancora robusti, ma l&rsquo;anima frammentata e lo spirito incerto. Il suo problema non &egrave; economico o militare: &egrave; esistenziale. Non sa pi&ugrave; chi &egrave; e cosa vuole diventare. Fino a quando lo spirito rester&agrave; debole, la sua sopravvivenza come civilt&agrave; unitaria rimarr&agrave; in bilico."
+ },
+ usa: {
+ title: "Stati Uniti d&rsquo;America",
+ corpo: { val: "Superpotenza militare (budget della difesa superiore ai successivi 10 paesi insieme), economia pi&ugrave; grande del mondo, tecnologia dominante (Silicon Valley, IA, biotech), territorio vasto e ricco di risorse. Il corpo &egrave; ancora fortissimo.", health: "forte" },
+ mente: { val: "Sistema universitario di vertice (Harvard, MIT, Stanford), egemonia culturale globale (Hollywood, Netflix, social media), ideologia del &laquo;sogno americano&raquo; ancora potente. Ma la polarizzazione politica e la crisi della fiducia nelle istituzioni indeboliscono la mente collettiva.", health: "forte" },
+ anima: { val: "Il mito della &laquo;City upon a Hill&raquo;, i Padri Fondatori, il pionierismo della frontiera, la missione di portare la libert&agrave; al mondo. Ma i traumi recenti (9/11, Iraq, Afghanistan, Capitol Hill 2021) e la divisione culturale (rural vs urban) lacerano l&rsquo;anima americana.", health: "medio" },
+ spirito: { val: "L&rsquo;America sa ancora per cosa vale la pena vivere: la libert&agrave;, la possibilit&agrave;, il futuro. Ma la domanda &laquo;per cosa morire?&raquo; &egrave; diventata incerta dopo le guerre infinite in Medio Oriente. Lo spirito americano &egrave; ferito ma non spento.", health: "medio" },
+ verdict: "Gli USA sono l&rsquo;unica potenza con tutte e quattro le dimensioni ancora funzionanti. Il corpo &egrave; dominante, la mente potente, l&rsquo;anima ferita ma viva, lo spirito incerto ma presente. Il rischio non &egrave; il declino oggettivo ma la divisione interna: se l&rsquo;anima si spacca in due, lo spirito non regge."
+ },
+ cina: {
+ title: "Cina Contemporanea",
+ corpo: { val: "Seconda economia mondiale (a parit&agrave; di potere d&rsquo;acquisto prima), esercito in rapida modernizzazione (3a flotta, missili ipersonici, AI militare), tecnologia in forte crescita (5G, semiconduttori, IA), territorio continentale. Il corpo cresce pi&ugrave; velocemente di ogni altra potenza.", health: "forte" },
+ mente: { val: "Universit&agrave; in ascesa (Pechino, Tsinghua), sistema scolastico disciplinato e performante (test PISA), controllo stretto dei media e dell&rsquo;informazione, ideologia del Partito come guida unica. La censura limita la creativit&agrave; ma garantisce coerenza narrativa.", health: "medio" },
+ anima: { val: "Il mito del &laquo;Regno di Mezzo&raquo;, il secolo d&rsquo;umiliazione (1839-1949) come trauma collettivo che ancora guida la politica estera, Mao come eroe fondatore, la Cina come civilizzazione superiore che deve riprendersi il suo posto. L&rsquo;anima &egrave; intatta e fortemente identitaria.", health: "forte" },
+ spirito: { val: "Il Partito ha sostituito il Mandato del Cielo: il comunismo cinese &egrave; un&rsquo;escatologia secolare che d&agrave; senso alla storia e al sacrificio. Per cosa vivere rinnovamento della nazione cinese. Per cosa morire patria e il Partito. Lo spirito &egrave; operativo.", health: "forte" },
+ verdict: "La Cina &egrave; l&rsquo;unica potenza con tutte e quattro le dimensioni in fase di rafforzamento simultaneo. Il suo punto di forza &egrave; l&rsquo;allineamento: corpo, mente, anima e spirito remano nella stessa direzione. Il rischio &egrave; l&rsquo;eccessiva rigidit&agrave;: un organismo troppo controllato pu&ograve; spezzarsi anzich&eacute; piegarsi."
+ },
+ russia: {
+ title: "Russia di Putin",
+ corpo: { val: "Esercito potenziato ma messo alla prova in Ucraina, economia basata su risorse energetiche (vulnerabile a sanzioni), tecnologia in ritardo tranne che in ambito militare, territorio immenso ma scarsamente popolato. Il corpo mostra segni di affaticamento.", health: "medio" },
+ mente: { val: "Sistema ideologico forte (Eurasiatismo, anti-occidentalismo), universit&agrave; in declino, controllo stretto dei media (propaganda di Stato), scuole che riproducono la narrazione patriottica. La mente &egrave; coesa ma chiusa, il dissenso &egrave; eresia.", health: "medio" },
+ anima: { val: "Anima potentissima e ferita. Il mito della Terza Roma, la vittoria del 1945 come fondamento, gli eroi (Alexander Nevskij, Suvorov, Zhukov), i traumi (invasione napoleonica, guerra mondiale, crollo URSS 1991). L&rsquo;anima russa &egrave; il motore della sua geopolitica: il desiderio di non essere pi&ugrave; umiliata.", health: "forte" },
+ spirito: { val: "La Russia sa per cosa vivere e morire: la Patria, l&rsquo;Ortodossia, la resistenza all&rsquo;Occidente. Putin ha dato una risposta chiara alla domanda ultima: la Russia come civilt&agrave; unica, contrapposta a un Occidente decadente. Lo spirito &egrave; un punto di forza, anche se alimentato dalla paura.", health: "forte" },
+ verdict: "La Russia &egrave; il caso opposto all&rsquo;Europa: corpo e mente indeboliti, ma anima e spirito fortissimi. Questa configurazione spiega la sua capacit&agrave; di resistere alle sanzioni e di combattere una guerra lunga. Il rischio &egrave; che la discrepanza tra spirito (forte) e corpo (indebolito) porti a scelte avventate."
+ },
+ iran: {
+ title: "Repubblica Islamica dell&rsquo;Iran",
+ corpo: { val: "Economia sotto sanzioni, esercito convenzionale limitato, ma capacit&agrave; asimmetriche (droni, missili, rete di proxy), territorio montuoso e strategico (Stretto di Hormuz). Il corpo &egrave; resiliente ma sottoposto a stress costante.", health: "medio" },
+ mente: { val: "Ideologia forte (Velayat-e Faqih, resistenza anti-imperialista), universit&agrave; attive (soprattutto scientifiche), media controllati ma narrativa coesa, scuole che trasmettono l&rsquo;ideologia rivoluzionaria. La mente &egrave; coesa ma sotto pressione dalle proteste interne (Donna, Vita, Libert&agrave;).", health: "medio" },
+ anima: { val: "L&rsquo;anima sciita &egrave; potentissima: il martirio di Hussein a Karbala come archetipo culturale, l&rsquo;attesa del Mahdi, la Rivoluzione del 1979 come riscatto. I traumi (guerra Iran-Iraq, sanzioni, isolamento) alimentano un&rsquo;identit&agrave; di resistenza. L&rsquo;anima &egrave; il vero arsenale iraniano.", health: "forte" },
+ spirito: { val: "L&rsquo;Iran sa esattamente per cosa vivere e morire: la Rivoluzione islamica, la resistenza all&rsquo;arroganza globale (USA), la preparazione del ritorno del Mahdi. Lo spirito &egrave; fortissimo e d&agrave; senso al sacrificio individuale e collettivo, come mostrano le milizie e la cultura del martirio.", health: "forte" },
+ verdict: "L&rsquo;Iran somiglia alla Russia: anima e spirito fortissimi sorreggono un corpo sotto stress. &Egrave; una potenza che non pu&ograve; essere sconfitta militarmente (lo spirito non si bombarda) ma che mostra crepe interne quando l&rsquo;anima si divide tra tradizione rivoluzionaria e desiderio di modernit&agrave; (proteste 2022-23)."
+ }
+};
+
+function selectPreset(key) {
+ document.querySelectorAll('.preset-btn').forEach(function(b) { b.classList.remove('active'); });
+ var btn = document.querySelector('.preset-btn[onclick*="' + key + '"]');
+ if (btn) btn.classList.add('active');
+ if (!data[key]) return;
+ var d = data[key];
+ document.getElementById('diagTitle').textContent = d.title;
+ setDiag('corpo', d.corpo);
+ setDiag('mente', d.mente);
+ setDiag('anima', d.anima);
+ setDiag('spirito', d.spirito);
+ document.getElementById('verdict').innerHTML = d.verdict;
+ document.getElementById('diagnosi').classList.add('visible');
+ setTimeout(function() {
+ document.getElementById('diagnosi').scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }, 100);
+}
+
+function setDiag(dim, obj) {
+ var valEl = document.getElementById(dim + 'Val');
+ var healthEl = document.getElementById(dim + 'Health');
+ valEl.innerHTML = obj.val;
+ healthEl.textContent = capitalize(obj.health);
+ healthEl.className = 'dd-health ' + obj.health;
+}
+
+function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

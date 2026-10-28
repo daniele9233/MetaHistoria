@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrice Apocalittica &mdash; Frontiere &middot; MetaHistoria</title>
+<meta name="description" content="Ogni epoca &egrave; governata da quattro forze: Memoria + Potere + Desiderio + Trascendenza. Un algoritmo per leggere qualsiasi civilt&agrave; con la stessa griglia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{
+ --bg:#0c0a09;
+ --surface:#15120f;
+ --surface-2:#1c1814;
+ --ink:#ede7dc;
+ --ink-soft:#c8bfae;
+ --muted:#8f8678;
+ --gold:#c9a227;
+ --gold-soft:rgba(201,162,39,.14);
+ --red:#a32638;
+ --red-soft:rgba(163,38,56,.16);
+ --blue:#2a5c8a;
+ --blue-soft:rgba(42,92,138,.14);
+ --green:#3a7a4a;
+ --green-soft:rgba(58,122,74,.14);
+ --purple:#6a3a8a;
+ --purple-soft:rgba(106,58,138,.14);
+ --line:rgba(237,231,220,.12);
+ --serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;
+ --sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;
+ --maxw:1180px;
+ }
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{
+ background:var(--bg);
+ color:var(--ink);
+ font-family:var(--sans);
+ font-size:16px;
+ line-height:1.65;
+ -webkit-font-smoothing:antialiased;
+ overflow-x:hidden;
+ }
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{
+ position:fixed;top:0;left:0;right:0;z-index:900;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:.9rem 2rem;
+ background:rgba(12,10,9,.82);
+ backdrop-filter:blur(12px);
+ border-bottom:1px solid var(--line);
+ }
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{
+ color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;
+ letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem
+ }
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{
+ position:absolute;top:100%;left:0;min-width:200px;
+ background:var(--surface);border:1px solid var(--line);
+ border-top:2px solid var(--gold);
+ padding:.5rem 0;opacity:0;visibility:hidden;
+ transform:translateY(8px);transition:all .25s ease;z-index:300
+ }
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{
+ padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;
+ color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s
+ }
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+
+ .hero{
+ text-align:center;padding:8rem 2rem 5rem;position:relative;
+ background:radial-gradient(ellipse at 50% 0%, rgba(42,92,138,.08) 0%, transparent 60%),
+ radial-gradient(ellipse at 80% 100%, rgba(163,38,56,.06) 0%, transparent 50%);
+ }
+ .hero::before{
+ content:'';position:absolute;top:2rem;left:50%;transform:translateX(-50%);
+ width:min(90vw,500px);height:min(90vw,500px);
+ background-image:
+ linear-gradient(var(--line) 1px, transparent 1px),
+ linear-gradient(90deg, var(--line) 1px, transparent 1px);
+ background-size:40px 40px;opacity:.12;pointer-events:none
+ }
+ .hero h1{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.8rem);font-weight:600;line-height:1.1;margin-bottom:.8rem;position:relative}
+ .hero h1 em{color:var(--gold);font-style:normal}
+ .hero p{color:var(--ink-soft);font-weight:300;max-width:680px;margin:.6rem auto 0;font-size:clamp(.95rem,1.2vw,1.1rem)}
+ .hero .sub{color:var(--muted);font-size:.82rem;margin-top:1.4rem;letter-spacing:.12em;text-transform:uppercase}
+ .hero .formula{
+ font-family:var(--serif);font-size:clamp(1.1rem,2.5vw,1.6rem);color:var(--gold);
+ margin-top:2rem;font-weight:500;letter-spacing:.06em;opacity:.8;position:relative
+ }
+ .hero .formula span{display:inline-block;padding:.15rem .5rem;margin:0 .15rem}
+ .hero .formula .f-mem{color:var(--blue)}.hero .formula .f-pot{color:var(--red)}
+ .hero .formula .f-des{color:var(--green)}.hero .formula .f-tra{color:var(--purple)}
+
+ section{padding:2rem 2rem 5rem}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+
+ .intro-text{max-width:760px;margin:0 auto 3rem;text-align:center}
+ .intro-text p{color:var(--ink-soft);font-weight:300;margin-bottom:1rem;font-size:.9rem;line-height:1.7}
+ .intro-text strong{color:var(--ink);font-weight:500}
+
+ .forces-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:3.5rem}
+ @media(max-width:820px){.forces-grid{grid-template-columns:repeat(2,1fr)}}
+ @media(max-width:480px){.forces-grid{grid-template-columns:1fr}}
+ .force-card{border:1px solid var(--line);padding:1.5rem;background:var(--surface-2);text-align:center}
+ .force-card .fc-icon{font-size:1.6rem;margin-bottom:.5rem;display:block}
+ .force-card .fc-force{font-size:.65rem;text-transform:uppercase;letter-spacing:.16em;font-weight:600;margin-bottom:.3rem}
+ .force-card .fc-def{font-size:.8rem;color:var(--muted);font-weight:300;line-height:1.5}
+ .force-card.fc-mem{border-top:3px solid var(--blue)}.force-card.fc-mem .fc-force{color:var(--blue)}
+ .force-card.fc-pot{border-top:3px solid var(--red)}.force-card.fc-pot .fc-force{color:var(--red)}
+ .force-card.fc-des{border-top:3px solid var(--green)}.force-card.fc-des .fc-force{color:var(--green)}
+ .force-card.fc-tra{border-top:3px solid var(--purple)}.force-card.fc-tra .fc-force{color:var(--purple)}
+
+ .selector{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;margin-bottom:3rem}
+ .selector button{
+ background:transparent;border:1px solid var(--line);color:var(--ink-soft);
+ padding:.55rem 1.1rem;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.1em;cursor:pointer;transition:all .3s;border-radius:0
+ }
+ .selector button:hover{background:var(--gold-soft);color:var(--gold);border-color:rgba(201,162,39,.35)}
+ .selector button.active{background:var(--gold-soft);color:var(--gold);border-color:var(--gold)}
+
+ .civilta-name{text-align:center;margin-bottom:1.5rem;font-family:var(--serif);font-size:1.6rem;color:var(--gold);font-weight:500;opacity:0;transition:opacity .5s;min-height:2.4rem}
+ .civilta-name.show{opacity:1}
+
+ .matrix-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+ @media(max-width:720px){.matrix-grid{grid-template-columns:1fr}}
+ .m-cell{
+ border:1px solid var(--line);padding:2rem;background:var(--surface-2);position:relative;overflow:hidden;
+ opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease
+ }
+ .m-cell.show{opacity:1;transform:translateY(0)}
+ .m-cell::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;opacity:.6}
+ .m-cell.memoria::before{background:var(--blue)}
+ .m-cell.potere::before{background:var(--red)}
+ .m-cell.desiderio::before{background:var(--green)}
+ .m-cell.trascendenza::before{background:var(--purple)}
+ .m-cell .mc-label{font-size:.65rem;text-transform:uppercase;letter-spacing:.16em;margin-bottom:.4rem;font-weight:600}
+ .m-cell.memoria .mc-label{color:var(--blue)}
+ .m-cell.potere .mc-label{color:var(--red)}
+ .m-cell.desiderio .mc-label{color:var(--green)}
+ .m-cell.trascendenza .mc-label{color:var(--purple)}
+ .m-cell .mc-question{font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink);margin-bottom:.8rem;font-style:italic}
+ .m-cell .mc-content{font-size:.85rem;color:var(--ink-soft);font-weight:300;line-height:1.7}
+ .m-cell .mc-content .value{display:inline-block;border:1px solid var(--line);padding:.15rem .6rem;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);margin:.15rem 0;font-weight:500}
+
+ .diagnosi{max-width:760px;margin:2rem auto 0;display:none}
+ .diagnosi.show{display:block}
+ .diagnosi .d-box{border:1px solid var(--line);padding:2rem;background:var(--surface-2);margin-bottom:1rem}
+ .diagnosi .d-box h3{font-family:var(--serif);font-size:1rem;font-weight:500;color:var(--gold);margin-bottom:.8rem;letter-spacing:.06em;text-transform:uppercase}
+ .diagnosi .d-box p{font-size:.85rem;color:var(--ink-soft);font-weight:300;line-height:1.7}
+ .diagnosi .d-box.tensione{border-left:3px solid var(--red)}
+ .diagnosi .d-box.tensione h3{color:var(--red)}
+ .diagnosi .d-box.verdetto{border-left:3px solid var(--gold)}
+
+ .chiave{margin:4rem auto 0;max-width:700px;background:linear-gradient(135deg,var(--surface-2),var(--surface));border:1px solid var(--line);padding:2rem 2.5rem}
+ .chiave .chiave-label{font-size:.6rem;text-transform:uppercase;letter-spacing:.2em;color:var(--muted);margin-bottom:1rem;font-weight:600}
+ .chiave p{font-family:var(--serif);font-size:.95rem;font-style:italic;color:var(--ink-soft);line-height:1.8;margin-bottom:.8rem}
+ .chiave p:last-child{margin-bottom:0}
+ .chiave .ref{display:block;margin-top:1rem;font-size:.72rem;color:var(--muted);font-style:normal;font-family:var(--sans);letter-spacing:.08em;text-transform:uppercase}
+ .chiave .ref strong{color:var(--gold);font-weight:500}
+
+ .matrice-tab{max-width:900px;margin:4rem auto 0;overflow-x:auto}
+ .matrice-tab h3{font-family:var(--serif);font-size:1.15rem;font-weight:500;color:var(--ink);margin-bottom:1rem;text-align:center}
+ .matrice-tab table{width:100%;border-collapse:collapse;font-size:.77rem;min-width:640px}
+ .matrice-tab th,.matrice-tab td{border:1px solid var(--line);padding:.65rem .85rem;text-align:left;color:var(--ink-soft);font-weight:300;transition:background .3s}
+ .matrice-tab th{background:var(--surface-2);color:var(--gold);font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:.68rem}
+ .matrice-tab td:first-child{color:var(--ink);font-weight:400;font-family:var(--serif)}
+ .matrice-tab tr.highlight td{background:var(--gold-soft)}
+ .matrice-tab tr.highlight td:first-child{color:var(--gold)}
+
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+ @media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+ }
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li>
+ <a>Geopolitica Classica <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+ </div>
+ </li>
+ <li>
+ <a>Geopolitica Umana <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+  
+  <a href='/geopolitica-umana/'>Home Lente</a>
+  <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+  <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+  <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+  <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+  <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+  <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+  <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+
+</div>
+ </li>
+ <li>
+ <a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+ </div>
+ </li>
+ <li>
+ <a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a>
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+ <a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a>
+ <a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a>
+ <a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a>
+ <a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a>
+ <a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a>
+ <a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a>
+ <a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a>
+ <a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a>
+ </div>
+ </li>
+ <li>
+   <a>Apocalisse del Potere <span class="arrow">&#9662;</span></a>
+  <div class="dropdown">
+  <a href='/apocalisse-del-potere/'>Home Lente</a>
+  <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+  <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+  <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+  <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+    <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+  <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+  <a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+  <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+  <a href='/apocalisse-del-potere/manuale-commento-daniele'>Genesi delle Bestie</a>
+   <a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a>
+  </div>
+ </li>
+
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li></ul>
+</nav>
+
+<section class="hero">
+ <h1>La <em>Matrice Apocalittica</em> della Storia</h1>
+ <p>Un algoritmo per leggere qualsiasi civilt&agrave; con la stessa griglia. Quattro forze governano ogni epoca: ci&ograve; che ricorda, ci&ograve; che comanda, ci&ograve; che promette, ci&ograve; che redime.</p>
+ <p class="sub">Frontiera 02 &middot; Geopolitica dell'Anima</p>
+ <div class="formula">
+ <span class="f-mem">Memoria</span> +
+ <span class="f-pot">Potere</span> +
+ <span class="f-des">Desiderio</span> +
+ <span class="f-tra">Trascendenza</span>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+
+ <div class="intro-text">
+ <p>Ogni civilt&agrave;, ogni epoca, ogni potenza si regge su quattro forze che ne determinano forma, coerenza e destino. La <strong>Matrice Apocalittica</strong> non descrive solo ci&ograve; che una civilt&agrave; <strong>&egrave;</strong>, ma ci&ograve; che essa <strong>rivela</strong> &mdash; e ci&ograve; che essa <strong>nasconde</strong>. Applica la stessa griglia a ogni sistema per scoprirne l&rsquo;architettura nascosta.</p>
+ </div>
+
+ <div class="forces-grid">
+ <div class="force-card fc-mem">
+ <span class="fc-icon">&#9729;</span>
+ <div class="fc-force">Memoria</div>
+ <div class="fc-def">Da dove veniamo &agrave; ha un mito di fondazione. Ci&ograve; che un popolo sceglie di ricordare determina ci&ograve; che pu&ograve; diventare.</div>
+ </div>
+ <div class="force-card fc-pot">
+ <span class="fc-icon">&#9889;</span>
+ <div class="fc-force">Potere</div>
+ <div class="fc-def">Chi governa del potere rivela la natura del sistema: personale o impersonale, visibile o nascosto, legittimo o coercitivo.</div>
+ </div>
+ <div class="force-card fc-des">
+ <span class="fc-icon">&#9733;</span>
+ <div class="fc-force">Desiderio</div>
+ <div class="fc-def">Cosa promette incanala il desiderio verso un oggetto: ricchezza, libert&agrave;, stabilit&agrave;, salvezza. La promessa &egrave; il motore.</div>
+ </div>
+ <div class="force-card fc-tra">
+ <span class="fc-icon">&#9728;</span>
+ <div class="fc-force">Trascendenza</div>
+ <div class="fc-def">Quale salvezza offre civilt&agrave; secolari offrono una redenzione. La trascendenza &egrave; la risposta ultima alla domanda: per cosa viviamo?</div>
+ </div>
+ </div>
+
+ <div class="selector" id="selector">
+ <button data-civ="imperi-antichi">Imperi antichi</button>
+ <button data-civ="cristianita">Cristianit&agrave; medievale</button>
+ <button data-civ="modernita">Modernit&agrave; occidentale</button>
+ <button data-civ="usa">USA</button>
+ <button data-civ="cina">Cina</button>
+ <button data-civ="islam">Islam politico</button>
+ <button data-civ="europa">Europa</button>
+ <button data-civ="regno-di-dio">Regno di Dio</button>
+ </div>
+
+ <div class="civilta-name" id="civiltaName"></div>
+
+ <div class="matrix-grid" id="matrixGrid">
+ <div class="m-cell memoria" data-idx="0">
+ <div class="mc-label">Memoria</div>
+ <div class="mc-question">Da dove veniamo?</div>
+ <div class="mc-content" id="memoriaContent"></div>
+ </div>
+ <div class="m-cell potere" data-idx="1">
+ <div class="mc-label">Potere</div>
+ <div class="mc-question">Chi governa </div>
+ <div class="mc-content" id="potereContent"></div>
+ </div>
+ <div class="m-cell desiderio" data-idx="2">
+ <div class="mc-label">Desiderio</div>
+ <div class="mc-question">Cosa promette il sistema?</div>
+ <div class="mc-content" id="desiderioContent"></div>
+ </div>
+ <div class="m-cell trascendenza" data-idx="3">
+ <div class="mc-label">Trascendenza</div>
+ <div class="mc-question">Quale salvezza offre?</div>
+ <div class="mc-content" id="trascendenzaContent"></div>
+ </div>
+ </div>
+
+ <div class="diagnosi" id="diagnosi">
+ <div class="d-box tensione" id="tensioneBox">
+ <h3>Tensione interna</h3>
+ <p id="tensioneContent"></p>
+ </div>
+ <div class="d-box verdetto">
+ <h3>Diagnosi della matrice</h3>
+ <p id="verdettoContent"></p>
+ </div>
+ </div>
+
+ <div class="matrice-tab">
+ <h3>La griglia completa &mdash; tutte le civilt&agrave; a confronto</h3>
+ <table>
+ <thead>
+ <tr><th>Civilt&agrave;</th><th>Memoria</th><th>Potere</th><th>Desiderio</th><th>Trascendenza</th></tr>
+ </thead>
+ <tbody>
+ <tr data-civ="imperi-antichi"><td>Imperi antichi</td><td>Ciclo mitico</td><td>Re-sacerdote</td><td>Ordine cosmico</td><td>Immortalit&agrave; dinastica</td></tr>
+ <tr data-civ="cristianita"><td>Cristianit&agrave; medievale</td><td>Caduta e Redenzione</td><td>Papato e Impero</td><td>Salvezza eterna</td><td>Regno di Dio</td></tr>
+ <tr data-civ="modernita"><td>Modernit&agrave; occidentale</td><td>Illuminismo</td><td>Tecnocrazia</td><td>Autonomia assoluta</td><td>Progresso infinito</td></tr>
+ <tr data-civ="usa"><td>USA</td><td>Pellegrini e Frontiera</td><td>Potere finanziario-militare</td><td>Libert&agrave; individuale / Ricchezza</td><td>American Dream / Eccezionalismo</td></tr>
+ <tr data-civ="cina"><td>Cina</td><td>Impero celeste e umiliazione</td><td>Partito-Stato</td><td>Stabilit&agrave; e prosperit&agrave;</td><td>Rinascita della nazione</td></tr>
+ <tr data-civ="islam"><td>Islam politico</td><td>Califfato originario</td><td>Sharia e Guida</td><td>Giustizia divina</td><td>Ummah globale</td></tr>
+ <tr data-civ="europa"><td>Europa</td><td>Guerre e pace</td><td>Burocrazia sovranazionale</td><td>Benessere e diritti</td><td>Integrazione perpetua</td></tr>
+ <tr data-civ="regno-di-dio"><td>Regno di Dio</td><td>Esodo e Promessa</td><td>Servizio</td><td>Comunione</td><td>Risurrezione</td></tr>
+ </tbody>
+ </table>
+ </div>
+
+ <div class="chiave">
+ <div class="chiave-label">Chiave di lettura</div>
+ <p>&laquo;Quanto a me, Daniele, il mio spirito fu agitato dentro di me, e le visioni della mia mente mi turbavano.&raquo;</p>
+ <p>&laquo;Le bestie precedenti non muoiono mai. Restano nella memoria.&raquo; Ogni civilt&agrave; porta con s&eacute; le bestie che l&rsquo;hanno preceduta. La matrice apocalittica &egrave; lo strumento per vedere ci&ograve; che resta &mdash; e ci&ograve; che viene.</p>
+ <span class="ref">Daniele 7 &middot; La notte dei quattro venti &middot; <strong>Apocalisse significa rivelazione</strong></span>
+ </div>
+
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare &mdash; arma di decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere. Ispirato a Caracciolo, Fabbri, Rosini e alla teologia politica classica.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>D. Fabbri, <em>Geopolitica umana</em> (2023)</li>
+ <li>F. Rosini, <em>Geopolitica dell&rsquo;Anima</em> (lezioni)</li>
+ <li>Daniele 7, Apocalisse</li>
+ <li>O. Spengler, <em>Il tramonto dell&rsquo;Occidente</em></li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/#metodo' style='color:var(--muted);text-decoration:none'>Metodo operativo</a></li>
+ <li><a href='/geopolitica-dell-anima/fondamenti' style='color:var(--muted);text-decoration:none'>Insegnamenti Fondamentali</a></li>
+ <li><a href='/geopolitica-dell-anima/insegnamenti-di-fede' style='color:var(--muted);text-decoration:none'>Insegnamenti di fede</a></li>
+ <li><a href='/geopolitica-dell-anima/arte-del-disincanto' style='color:var(--muted);text-decoration:none'>Arte del disincanto</a></li>
+ <li><a href='/geopolitica-dell-anima/domanda-della-salvezza' style='color:var(--muted);text-decoration:none'>La domanda della salvezza</a></li>
+ <li><a href='/geopolitica-dell-anima/cammino-di-israele' style='color:var(--muted);text-decoration:none'>Il cammino di Israele</a></li>
+ <li><a href='/geopolitica-dell-anima/immagine-di-dio' style='color:var(--muted);text-decoration:none'>L'immagine di Dio</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-storico' style='color:var(--muted);text-decoration:none'>Atlante Storico</a></li>
+ <li><a href='/geopolitica-dell-anima/frontiere' style='color:var(--muted);text-decoration:none'>Frontiere</a></li>
+ <li><a href='/geopolitica-dell-anima/modello-civilta-organismo' style='color:var(--muted);text-decoration:none'>Modello Civilt&agrave;-Organismo</a></li>
+ <li><a href="matrice-apocalittica.html"
+ <li><a href="atlante-antico-testamento.html"
+ <li><a href="atlante-vangelo.html"
+ <li><a href='/geopolitica-dell-anima/modello-civilta-organismo' style='color:var(--muted);text-decoration:none'>Modello Civilt&agrave;-Organismo</a></li>
+ <li><a href='/geopolitica-dell-anima/matrice-apocalittica' style='color:var(--muted);text-decoration:none'>Matrice Apocalittica</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-antico-testamento' style='color:var(--muted);text-decoration:none'>Atlante Antico Testamento</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-vangelo' style='color:var(--muted);text-decoration:none'>Atlante del Vangelo</a></li>
+ <li><a href='/geopolitica-dell-anima/cuore-e-impero' style='color:var(--muted);text-decoration:none'>Il Cuore e l'Impero</a></li>
+ <li><a href='/geopolitica-dell-anima/cartografia-anima-collettiva' style='color:var(--muted);text-decoration:none'>Cartografia Anima Collettiva</a></li>
+ <li><a href='/geopolitica-dell-anima/vaticano' style='color:var(--muted);text-decoration:none'>Caso Vaticano</a></li>
+ <li><a href='/geopolitica-dell-anima/usa' style='color:var(--muted);text-decoration:none'>Caso USA</a></li>
+ <li><a href='/geopolitica-dell-anima/cina' style='color:var(--muted);text-decoration:none'>Caso Cina</a></li>
+ <li><a href='/geopolitica-dell-anima/russia' style='color:var(--muted);text-decoration:none'>Caso Russia</a></li>
+ <li><a href='/geopolitica-dell-anima/iran' style='color:var(--muted);text-decoration:none'>Caso Iran</a></li>
+ <li><a href='/geopolitica-dell-anima/europa' style='color:var(--muted);text-decoration:none'>Caso Europa</a></li>
+ <li><span style="color:var(--muted);text-decoration:none">Manifesto TGP</span></li>
+ <li><span style="color:var(--muted);text-decoration:none">Theopolitica</span></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &middot; Font: Libre Bodoni + Public Sans &middot; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+
+ const data = {
+ 'imperi-antichi': {
+ name: 'Imperi antichi',
+ memoria: 'Il ciclo mitico. Le origini sono divine: Romolo e Remo allattati dalla lupa, Gilgamesh che cerca l\'immortalit&agrave;, il Faraone che &egrave; Horus in terra. Ogni impero antico si fonda su un <span class="value">mito di fondazione</span> che lega il presente all\'eterno. Daniele direbbe: la prima bestia &egrave; il leone con ali d\'aquila &mdash; la memoria della potenza originaria.',
+ potere: 'Il re-sacerdote. Chi governa &egrave; anche chi media con gli d&egrave;i. Il potere &egrave; liturgico: governare significa mantenere l\'<span class="value">ordine cosmico</span>. Il Faraone, l\'Imperatore, il Re sommo sacerdote: non c\'&egrave; distinzione tra politica e religione.',
+ desiderio: 'L\'ordine cosmico. Ci&ograve; che il sistema promette &egrave; la <span class="value">stabilit&agrave; assoluta</span>: il Nilo che straripa al momento giusto, il Sole che sorge, il cosmo che non si sgretola. Il desiderio &egrave; che tutto rimanga al suo posto.',
+ trascendenza: 'L\'immortalit&agrave; dinastica. La salvezza &egrave; nella continuit&agrave; della stirpe. Il Faraone costruisce piramidi, l\'Imperatore cinese sacrifica agli antenati. La <span class="value">redenzione</span> &egrave; non morire mai: che il nome duri, che il sangue continui, che il regno non abbia fine.',
+ tensione: 'La tensione &egrave; tra l\'eternit&agrave; promessa e la mortalit&agrave; reale. Gli imperi antichi costruiscono per durare per sempre, ma ogni impero cade. La piramide &egrave; il simbolo di questa tensione: un grido di immortalit&agrave; che il tempo trasforma in silenzio.',
+ verdict: 'Negli imperi antichi la matrice &egrave; circolare: tutto torna. La storia non avanza, si ripete. La trascendenza &egrave; immanente al potere: il re &egrave; dio, il dio &egrave; re. Non c\'&egrave; Apocalisse perch&eacute; non c\'&egrave; fine: c\'&egrave; solo l\'eterno ritorno.'
+ },
+ 'cristianita': {
+ name: 'Cristianit&agrave; medievale',
+ memoria: 'Caduta e Redenzione. La storia inizia con un giardino, una colpa, una promessa. Agostino legge la storia come il conflitto tra due citt&agrave;: la <span class="value">Citt&agrave; di Dio</span> e la citt&agrave; degli uomini. La memoria non &egrave; mito: &egrave; teologia della storia.',
+ potere: 'Papato e Impero. Due spade, due poteri. Il Papa tiene la spada spirituale, l\'Imperatore quella temporale. Il potere &egrave; sempre <span class="value">discusso, conteso, negoziato</span>. La cristianit&agrave; medievale inventa la separazione dei poteri prima ancora di saperlo.',
+ desiderio: 'La salvezza eterna. Ci&ograve; che il sistema promette non &egrave; la felicit&agrave; in terra ma la <span class="value">beatitudine nell\'aldil&agrave;</span>. Il desiderio viene sospeso, rimandato, orientato verso l\'alto. La vita terrena &egrave; pellegrinaggio.',
+ trascendenza: 'Il Regno di Dio. La salvezza &egrave; apocalittica: non la continuit&agrave; della stirpe ma la <span class="value">fine dei tempi</span>. Cristo ritorner&agrave;, i morti risorgeranno, il Regno verr&agrave;. La trascendenza non &egrave; nel potere ma nella promessa.',
+ tensione: 'La tensione &egrave; tra il "gi&agrave;" e il "non ancora". Cristo ha gi&agrave; vinto, ma il mondo non lo sa ancora. Il Regno &egrave; qui, ma non &egrave; ancora compiuto. La cristianit&agrave; vive nella storia con lo sguardo fisso oltre la storia.',
+ verdict: 'La cristianit&agrave; medievale &egrave; la matrice apocalittica per eccellenza: vive nella tensione tra il "gi&agrave;" e il "non ancora". Il potere &egrave; sempre provvisorio perch&eacute; l\'unico potere vero deve ancora venire.'
+ },
+ 'modernita': {
+ name: 'Modernit&agrave; occidentale',
+ memoria: 'Illuminismo. Uscita dall\'uomo dallo stato di minorit&agrave;. La Ragione come luce che dissipa le tenebre della superstizione. La memoria della modernit&agrave; &egrave; una <span class="value">rottura con il passato</span>: il nuovo &egrave; meglio del vecchio.',
+ potere: 'Tecnocrazia. Non pi&ugrave; re o sacerdoti, ma esperti, manager, algoritmi. Il potere &egrave; <span class="value">impersonale, razionale, procedurale</span>. Si legittima non per discendenza divina ma per competenza e risultato.',
+ desiderio: 'Autonomia assoluta. Ci&ograve; che il sistema promette &egrave; che tu possa diventare ci&ograve; che vuoi. <span class="value">Libert&agrave; da ogni vincolo</span>: dalla tradizione, dalla religione, dal corpo, persino dalla natura.',
+ trascendenza: 'Progresso infinito. La salvezza &egrave; il futuro. Domani sar&agrave; meglio di oggi. La tecnologia ci redimer&agrave;. La <span class="value">trascendenza orizzontale</span>: non verso l\'alto ma in avanti. Il paradiso non &egrave; perduto, &egrave; da costruire.',
+ tensione: 'La tensione &egrave; tra l\'autonomia illimitata e il senso di vuoto. Se posso tutto, chi sono c\'&egrave; pi&ugrave; limite, non c\'&egrave; pi&ugrave; direzione. La libert&agrave; assoluta diventa il carcere pi&ugrave; sottile.',
+ verdict: 'La modernit&agrave; &egrave; una matrice secolarizzata: conserva la struttura apocalittica della cristianit&agrave; ma la svuota del contenuto teologico. Il progresso sostituisce la provvidenza, la tecnologia sostituisce la grazia, l\'autonomia sostituisce la comunione.'
+ },
+ 'usa': {
+ name: 'Stati Uniti',
+ memoria: 'I Padri Pellegrini e la Frontiera. L\'America nasce come <span class="value">esodo</span>: un popolo che lascia l\'Egitto europeo per la Terra Promessa. La Frontiera &egrave; la memoria costitutiva: c\'&egrave; sempre un Ovest da conquistare.',
+ potere: 'Potere finanziario-militare. Wall Street e il Pentagono. Il potere americano &egrave; <span class="value">reticolare</span>: non un centro ma una rete di banche, agenzie, comandi, fondazioni. La leadership globale &egrave; il dogma.',
+ desiderio: 'La libert&agrave; individuale e la ricchezza. Ci&ograve; che il sistema promette &egrave; che chiunque possa farcela. <span class="value">L\'American Dream</span>: dal log cabin alla Casa Bianca, dalla povert&agrave; alla ricchezza, dall\'oscurit&agrave; alla fama.',
+ trascendenza: 'L\'eccezionalismo americano. La salvezza &egrave; nella missione. L\'America non &egrave; solo una nazione: &egrave; un progetto divino. <span class="value">City upon a Hill</span>: il mondo sar&agrave; redento a immagine dell\'America.',
+ tensione: 'La tensione &egrave; tra l\'universalit&agrave; della promessa e la particolarit&agrave; della storia. L\'America parla il linguaggio di tutti ma agisce per s&eacute; stessa. L\'eccezionalismo &egrave; il suo dono e la sua maledizione.',
+ verdict: 'La matrice americana fonde Apocalisse e Frontiera: il futuro non &egrave; solo atteso, va conquistato. L\'eccezionalismo &egrave; una teologia politica che tiene insieme Bibbia e Costituzione.'
+ },
+ 'cina': {
+ name: 'Cina',
+ memoria: 'Impero celeste e secolo dell\'umiliazione. Duemila anni di impero e cento anni di umiliazione (1839-1949). La memoria cinese &egrave; un <span class="value">alternarsi di grandezza e ferita</span>. La vergogna coloniale &egrave; il motore della potenza presente.',
+ potere: 'Il Partito-Stato. Non c\'&egrave; distinzione tra Partito e Stato. Il potere &egrave; <span class="value">verticale, centralizzato, totalizzante</span>. La leadership &egrave; carismatica e burocratica insieme. Xi Jinping &egrave; il centro del sistema.',
+ desiderio: 'Stabilit&agrave; e prosperit&agrave;. Ci&ograve; che il sistema promette &egrave; che la Cina non sar&agrave; mai pi&ugrave; umiliata. <span class="value">Sogno cinese</span>: ringiovanimento della nazione, prosperit&agrave; condivisa, modernit&agrave; socialista.',
+ trascendenza: 'La rinascita della nazione. La salvezza non &egrave; individuale ma collettiva. La Cina torner&agrave; al centro del mondo, come &egrave; stato per millenni. La <span class="value">Grande Rejuvenation</span> &egrave; l\'orizzonte escatologico.',
+ tensione: 'La tensione &egrave; tra la memoria dell\'umiliazione e la promessa della grandezza. Il Partito-Stato vive della prima per legittimare la seconda. Senza la ferita coloniale, il Sogno cinese perde la sua urgenza.',
+ verdict: 'La matrice cina sostituisce la trascendenza religiosa con la trascendenza nazionale: la Cina non deve essere salvata, deve tornare ad essere s&eacute; stessa. Il potere, il desiderio e la memoria convergono in un unico punto: la nazione.'
+ },
+ 'islam': {
+ name: 'Islam politico',
+ memoria: 'Il Califfato originario. L\'et&agrave; dell\'oro: i primi quattro califfi, la comunit&agrave; perfetta di Medina. La memoria islamica &egrave; <span class="value">fondativa e normativa</span>: il passato non va superato, va restaurato.',
+ potere: 'Sharia e Guida. Il potere legittimo &egrave; solo quello che si sottomette alla legge divina. Il sovrano non legisla: <span class="value">applica la Sharia</span>. Dai Fratelli Musulmani a Khomeini, il potere &egrave; teologico-politico.',
+ desiderio: 'Giustizia divina. Ci&ograve; che il sistema promette &egrave; che la volont&agrave; di Dio sia fatta sulla terra come in cielo. <span class="value">Giustizia, uguaglianza, purezza</span>: il desiderio &egrave; etico-religioso.',
+ trascendenza: 'L\'Ummah globale. La salvezza &egrave; nell\'unit&agrave; di tutti i credenti. Oltre le nazioni, oltre le etnie: la <span class="value">comunit&agrave; islamica universale</span>. Il Califfato non &egrave; solo passato: &egrave; futuro escatologico.',
+ tensione: 'La tensione &egrave; tra la purezza delle origini e la complessit&agrave; del presente. Il Califfato originario &egrave; un modello perfetto che il mondo reale non pu&ograve; riprodurre. L\'Islam politico cerca di applicare una soluzione del VII secolo a problemi del XXI.',
+ verdict: 'La matrice dell\'Islam politico &egrave; simultaneamente arcaica e futura: il suo paradiso &egrave; nel passato, ma quel passato deve tornare. L\'apocalisse islamica non &egrave; fine del mondo ma restaurazione.'
+ },
+ 'europa': {
+ name: 'Europa',
+ memoria: 'Guerre e pace. L\'Europa &egrave; nata dalle ceneri della Seconda Guerra Mondiale. La sua memoria fondativa &egrave; la <span class="value">promessa che non accada mai pi&ugrave;</span>. Le guerre di religione, i nazionalismi, i totalitarismi: l\'Europa &egrave; la risposta alla catastrofe.',
+ potere: 'Burocrazia sovranazionale. Non un impero ma una rete di trattati, regolamenti, corti, commissioni. Il potere europeo &egrave; <span class="value">procedurale, negoziale, anonimo</span>. Bruxelles non governa: gestisce.',
+ desiderio: 'Benessere e diritti. Ci&ograve; che il sistema promette &egrave; la vita buona: sanit&agrave;, istruzione, welfare, diritti civili. <span class="value">La felicit&agrave; amministrata</span>. L\'Europa promette comfort, non eroismo.',
+ trascendenza: 'Integrazione perpetua. La salvezza &egrave; nel "sempre pi&ugrave; Europa". L\'orizzonte escatologico &egrave; l\'<span class="value">integrazione senza fine</span>: sempre nuovi membri, sempre nuove competenze, sempre nuovi trattati.',
+ tensione: 'La tensione &egrave; tra la pace conquistata e l\'anima perduta. L\'Europa ha risolto il problema della guerra ma non sa rispondere alla domanda: "Per cosa viviamo?" Il benessere non basta come promessa di salvezza.',
+ verdict: 'La matrice europea &egrave; la pi&ugrave; fragile perch&eacute; ha rimosso la trascendenza. Il benessere non basta come promessa di salvezza. Quando il desiderio si esaurisce, la matrice collassa. L\'Europa ha bisogno di una nuova Apocalisse per ritrovare se stessa.'
+ },
+ 'regno-di-dio': {
+ name: 'Regno di Dio',
+ memoria: 'Esodo e Promessa. La memoria fondativa non &egrave; un mito ma una liberazione: un popolo di schiavi che diventa popolo di Dio attraverso il Mar Rosso e il Sinai. L\'<span class="value">Esodo</span> non &egrave; solo passato: &egrave; il modello di ogni salvezza futura.',
+ potere: 'Servizio. Il potere nel Regno di Dio non &egrave; dominio ma <span class="value">servizio</span>. Il Figlio dell\'Uomo non &egrave; venuto per essere servito ma per servire. Il pi&ugrave; grande &egrave; il pi&ugrave; piccolo. Il potere si capovolge.',
+ desiderio: 'Comunione. Ci&ograve; che il Regno promette non &egrave; la ricchezza o il potere ma la <span class="value">comunione con Dio e con i fratelli</span>. Il desiderio &egrave; relazionale: essere amati, amare, appartenere. L\'Eucaristia &egrave; il simbolo di questo desiderio.',
+ trascendenza: 'Risurrezione. La salvezza &egrave; la vittoria sulla morte. Non immortalit&agrave; dell\'anima, non ciclo eterno, ma <span class="value">risurrezione della carne</span>. La fine non &egrave; il ritorno all\'origine ma la trasformazione di tutto in Dio.',
+ tensione: 'La tensione &egrave; tra il Regno che &egrave; gi&agrave; qui e il Regno che non &egrave; ancora. Il seme &egrave; piantato, ma l\'albero non &egrave; ancora cresciuto. Il Regno di Dio &egrave; tra le pieghe della storia, invisibile a chi cerca solo il potere visibile.',
+ verdict: 'Il Regno di Dio &egrave; l\'unica matrice che non cerca di autorealizzarsi con la forza. Non conquista, non promette benessere, non costruisce imperi. La sua apocalisse non &egrave; distruzione ma rivelazione: Dio sar&agrave; tutto in tutti.'
+ }
+ };
+
+ const selector = document.getElementById('selector');
+ const nameEl = document.getElementById('civiltaName');
+ const grid = document.getElementById('matrixGrid');
+ const cells = grid.querySelectorAll('.m-cell');
+ const memoria = document.getElementById('memoriaContent');
+ const potere = document.getElementById('potereContent');
+ const desiderio = document.getElementById('desiderioContent');
+ const trascendenza = document.getElementById('trascendenzaContent');
+ const diagnosi = document.getElementById('diagnosi');
+ const tensioneContent = document.getElementById('tensioneContent');
+ const verdettoContent = document.getElementById('verdettoContent');
+
+ function highlightTableRow(key) {
+ document.querySelectorAll('.matrice-tab tbody tr').forEach(tr => {
+ tr.classList.toggle('highlight', tr.dataset.civ === key);
+ });
+ }
+
+ function showCells(stagger) {
+ cells.forEach((cell, i) => {
+ setTimeout(() => cell.classList.add('show'), stagger + i * 120);
+ });
+ }
+
+ function resetCells() {
+ cells.forEach(c => c.classList.remove('show'));
+ }
+
+ let current = null;
+
+ selector.addEventListener('click', function(e) {
+ const btn = e.target.closest('button');
+ if (!btn) return;
+ const key = btn.dataset.civ;
+ if (!key || key === current) return;
+
+ current = key;
+ selector.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+ btn.classList.add('active');
+
+ const d = data[key];
+
+ nameEl.textContent = d.name;
+ nameEl.classList.add('show');
+
+ resetCells();
+ setTimeout(() => {
+ memoria.innerHTML = d.memoria;
+ potere.innerHTML = d.potere;
+ desiderio.innerHTML = d.desiderio;
+ trascendenza.innerHTML = d.trascendenza;
+ showCells(100);
+ }, 200);
+
+ setTimeout(() => {
+ tensioneContent.innerHTML = d.tensione;
+ verdettoContent.innerHTML = d.verdict;
+ diagnosi.classList.add('show');
+ }, 800);
+
+ highlightTableRow(key);
+ });
+
+})();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

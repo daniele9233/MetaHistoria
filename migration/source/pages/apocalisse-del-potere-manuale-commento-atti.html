@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atti del Fuoco &mdash; Manuale &middot; MetaHistoria</title>
+<meta name="description" content="Commento teologico-politico agli Atti degli Apostoli: Pentecoste, Paolo, il naufragio, Roma. Lo Spirito come forza che attraversa gli imperi senza usarne le armi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;--maxw:1180px;--c1:#c9a227;--c2:#a32638;--c3:#5b7f5b;--c4:#7a5b8f;--c5:#3a7a9a;--c6:#8f6f4a;--c7:#9a3a3a}
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ section{padding:6.5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3.2rem;padding-top:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.8rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .back-link{display:inline-block;font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .3s}
+ .back-link:hover{color:var(--gold)}
+ .page-nav{display:flex;justify-content:space-between;align-items:stretch;padding:2.5rem 2rem;margin:1rem 0 0;gap:2rem}
+ .page-nav div{flex:1;display:flex;flex-direction:column}
+ .page-nav .nav-next{text-align:right;align-items:flex-end}
+ .page-nav .nav-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+ .page-nav a{font-family:var(--serif);font-size:1rem;color:var(--ink-soft);text-decoration:none;transition:color .3s;line-height:1.3}
+ .page-nav a:hover{color:var(--gold)}
+ .page-nav .nav-empty{color:var(--muted);opacity:.4;font-family:var(--serif);font-size:.9rem;font-style:italic}
+ @media(max-width:600px){.page-nav{flex-direction:column;gap:1rem}.page-nav .nav-next{text-align:left;align-items:flex-start}}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+/* --- DIAGRAM --- */
+.diagram-wrap{max-width:900px;margin:0 auto;padding:1rem 0 2rem}
+.diagram{position:relative;padding-left:3rem}
+.diagram::before{content:'';position:absolute;left:14px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.diagram-node{position:relative;padding:1rem 1.2rem;margin-bottom:.6rem;border-radius:6px;background:var(--surface);border:1px solid var(--line);transition:border-color .3s;cursor:default}
+.diagram-node::before{content:'';position:absolute;left:-22px;top:50%;width:12px;height:12px;border-radius:50%;transform:translateY(-50%);border:2px solid var(--gold);background:var(--bg)}
+.diagram-node.part-1{border-left:3px solid var(--c1)}.diagram-node.part-1::before{border-color:var(--c1);background:var(--c1)}
+.diagram-node.part-2{border-left:3px solid var(--c2)}.diagram-node.part-2::before{border-color:var(--c2);background:var(--c2)}
+.diagram-node.part-3{border-left:3px solid var(--c3)}.diagram-node.part-3::before{border-color:var(--c3);background:var(--c3)}
+.diagram-node.part-4{border-left:3px solid var(--c4)}.diagram-node.part-4::before{border-color:var(--c4);background:var(--c4)}
+.diagram-node.part-5{border-left:3px solid var(--c5)}.diagram-node.part-5::before{border-color:var(--c5);background:var(--c5)}
+.diagram-node.part-6{border-left:3px solid var(--c6)}.diagram-node.part-6::before{border-color:var(--c6);background:var(--c6)}
+.diagram-node.part-7{border-left:3px solid var(--c7)}.diagram-node.part-7::before{border-color:var(--c7);background:var(--c7)}
+.diagram-node .node-label{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.diagram-node .node-title{font-family:var(--serif);font-size:1.05rem;color:var(--ink)}
+.diagram-node .node-chapters{font-size:.8rem;color:var(--ink-soft);font-weight:300;margin-top:.3rem}
+.diagram-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem}
+.diagram-meta .mov-badge{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.diagram-meta .mov-badge.evo{color:var(--gold);border-color:var(--gold-soft)}
+.diagram-meta .mov-badge.aut{color:var(--red);border-color:var(--red-soft)}
+.diagram-meta .mov-badge.ome{color:var(--c3);border-color:rgba(91,127,91,.2)}
+
+/* --- PROLOGUE --- */
+.prologue-box{max-width:780px;margin:0 auto;padding:2rem 2.4rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;position:relative}
+.prologue-box::before{content:'P';position:absolute;top:-14px;left:2rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;color:var(--gold);background:var(--bg);padding:0 .6rem}
+.prologue-box p{color:var(--ink-soft);font-weight:300;font-size:.92rem;margin-bottom:1rem;line-height:1.75}
+.prologue-box p strong{color:var(--ink);font-weight:600}
+.prologue-box .verse{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:1rem;padding:.8rem 1.2rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+
+/* --- CHAPTER CARDS --- */
+.chapter-card{display:block;margin-bottom:1rem;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+.chapter-card[open]{border-color:var(--gold-soft)}
+.chapter-card summary{list-style:none;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.6rem;cursor:pointer;user-select:none;transition:background .3s}
+.chapter-card summary::-webkit-details-marker{display:none}
+.chapter-card summary:hover{background:var(--surface-2)}
+.chapter-card summary .card-num{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);flex-shrink:0;min-width:5rem}
+.chapter-card summary .card-title{font-family:var(--serif);font-size:1.1rem;color:var(--ink);flex:1}
+.chapter-card summary .card-arrow{font-size:.8rem;color:var(--muted);transition:transform .3s;flex-shrink:0}
+.chapter-card[open] summary .card-arrow{transform:rotate(180deg)}
+.chapter-card .card-body{padding:0 1.6rem 1.6rem;border-top:1px solid var(--line)}
+.chapter-card .card-body .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin:1.2rem 0 1rem;padding:.7rem 1rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+.chapter-card .card-body p{color:var(--ink-soft);font-weight:300;font-size:.9rem;margin-bottom:.9rem;line-height:1.75}
+.chapter-card .card-body p strong{color:var(--ink);font-weight:600}
+.mov-head{display:flex;align-items:center;gap:.6rem;margin:1.4rem 0 .6rem;padding-top:.6rem}
+.mov-head .mov-ico{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);font-weight:500}
+.mov-head .mov-ico.evo{color:var(--gold);background:var(--gold-soft)}
+.mov-head .mov-ico.aut{color:var(--red);background:var(--red-soft)}
+.mov-head .mov-ico.ome{color:var(--c3);background:rgba(91,127,91,.12)}
+.mov-head .mov-label{font-family:var(--serif);font-size:.85rem;font-style:italic;color:var(--muted)}
+.card-body .omelia-box{background:var(--bg);border:1px solid var(--red-soft);border-left:3px solid var(--red);padding:1.2rem 1.6rem;margin:1rem 0;border-radius:4px}
+.card-body .omelia-box p{font-family:var(--serif);font-size:clamp(.9rem,1.3vw,1.05rem);font-style:italic;color:var(--ink);line-height:1.6}
+.card-body .omelia-box .tag{display:block;margin-top:.6rem;font-family:var(--sans);font-style:normal;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* --- PART HEADERS --- */
+.part-head{text-align:center;padding:2.5rem 1rem 1.5rem;margin:2rem 0}
+.part-head .part-num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.4rem}
+.part-head .part-num span{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+.part-head h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--gold);margin-bottom:.4rem}
+.part-head .part-sub{font-size:.85rem;color:var(--ink-soft);font-weight:300;letter-spacing:.04em}
+.part-head .part-line{width:60px;height:1px;margin:.8rem auto 0;background:var(--line)}
+
+/* --- CONCLUSION --- */
+.conclusion-section{text-align:center;padding:3rem 2rem}
+.conclusion-section .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin-bottom:1rem;padding:.7rem 1rem;display:inline-block}
+.conclusion-section .conclusion-msg{max-width:680px;margin:0 auto;background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;border-radius:8px}
+.conclusion-section .conclusion-msg p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.2rem);font-style:italic;color:var(--ink);line-height:1.6}
+.conclusion-section .conclusion-msg .tag{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+
+/* --- RESPONSIVE --- */
+@media(max-width:640px){.diagram{padding-left:2rem}.diagram-node{padding:.8rem 1rem}.chapter-card summary{padding:1rem 1.2rem}.chapter-card .card-body{padding:0 1.2rem 1.2rem}.prologue-box{padding:1.5rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+</div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+</div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+</div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+</div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+</div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section>
+<div class="wrap">
+<a class='back-link' href='/apocalisse-del-potere/'>&larr; Apocalisse del Potere</a>
+<div class="sec-head reveal">
+<span class="sec-num">Lente 05 &middot; M</span>
+<h2>Atti del Fuoco</h2>
+<p class="lede">Commento teologico-politico agli Atti degli Apostoli &mdash; Manuale di attraversamento dell&rsquo;Impero. Lo Spirito Santo come artista geopolitico della comunione che trasforma pescatori in testimoni e periferie in centri.</p>
+</div>
+
+<div class="man-body reveal">
+<p style="font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;line-height:1.2;margin-bottom:1.5rem"><em style="color:var(--gold);font-style:italic">Atti del Fuoco</em> &mdash; Commento teologico-politico agli Atti degli Apostoli</p>
+<p style="color:var(--ink-soft);font-weight:300;font-size:.92rem;line-height:1.75"><strong>Lo Spirito, il Potere e la nascita di un mondo nuovo.</strong> Questo manuale nasce dall&rsquo;urgenza di rileggere gli Atti degli Apostoli come il grande <strong>manuale di geopolitica dello Spirito</strong>. Ogni capitolo si articola in tre movimenti: <strong style="color:var(--gold)">Evocazione</strong> (la scena biblica), <strong style="color:var(--red)">Autopsia</strong> (l&rsquo;analisi geopolitico-spirituale) e <strong style="color:#5b7f5b">Omelia</strong> (l&rsquo;applicazione oggi).</p>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface);padding:3rem 2rem">
+<div class="diagram-wrap reveal">
+<h3 style="font-family:var(--serif);font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:2rem">Mappa del Manuale</h3>
+<div class="diagram">
+<div class="diagram-node" style="border-left-color:var(--gold)">
+<div class="node-label">PROLOGO</div>
+<div class="node-title">La stanza chiusa e il vento che irrompe</div>
+<div class="node-chapters">Gerusalemme dopo la crocifissione &middot; Il trauma e l&rsquo;attesa</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-1">
+<div class="node-label">PARTE I &middot; 3 capitoli</div>
+<div class="node-title">Il Fuoco entra nella storia</div>
+<div class="node-chapters">Il cenacolo chiuso &middot; Il vento che rompe le porte &middot; Le lingue del mondo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-2">
+<div class="node-label">PARTE II &middot; 4 capitoli</div>
+<div class="node-title">Le strade dell&rsquo;Impero</div>
+<div class="node-chapters">Pietro e il mendicante &middot; Il Sinedrio e il controllo &middot; Stefano e la violenza sacra &middot; Saulo: il persecutore ferito</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-3">
+<div class="node-label">PARTE III &middot; 4 capitoli</div>
+<div class="node-title">La geografia dello Spirito</div>
+<div class="node-chapters">Antiochia: la periferia che diventa centro &middot; Il Mediterraneo delle rotte &middot; Corinto: denaro e desiderio &middot; Efeso e gli artigiani del sacro</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-4">
+<div class="node-label">PARTE IV &middot; 3 capitoli</div>
+<div class="node-title">Il potere e il processo</div>
+<div class="node-chapters">Paolo davanti ai governatori &middot; Roma ascolta ma non comprende &middot; La cittadinanza e il Regno</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-5">
+<div class="node-label">PARTE V &middot; 2 capitoli</div>
+<div class="node-title">Il naufragio</div>
+<div class="node-chapters">La tempesta &middot; Il naufragio e l&rsquo;uomo vero</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-6">
+<div class="node-label">PARTE VI &middot; 2 capitoli</div>
+<div class="node-title">Roma e il fuoco invisibile</div>
+<div class="node-chapters">Paolo arriva a Roma &middot; Il Regno senza confini</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal">
+<div class="prologue-box">
+<p class="verse">&#xAB;Mentre il giorno di Pentecoste stava per finire, si trovavano tutti insieme nello stesso luogo. Venne all&rsquo;improvviso dal cielo un rombo, come di vento che si abbatte gagliardo, e riemp&igrave; tutta la casa dove si trovavano.&#xBB; (Atti 2,1-2)</p>
+<p>Il sepolcro &egrave; vuoto da cinquanta giorni. I discepoli hanno visto il Risorto, ma sono ancora chiusi in una stanza. La paura non se n&rsquo;&egrave; andata con la pietra rotolata via. Il trauma della crocifissione, lo shock dell&rsquo;abbandono, il terrore del Sinedrio e di Roma paralizzano il piccolo gruppo.</p>
+<p><strong>Poi, all&rsquo;improvviso, un rombo. Un vento. Lingue di fuoco. E tutto cambia.</strong> Non nasce solo la Chiesa: nasce una nuova geografia dello Spirito che attraverser&agrave; l&rsquo;Impero senza bisogno di eserciti.</p>
+<p>Questo manuale &egrave; il terzo volume della collana. Dopo la diagnosi delle Bestie (Daniele) e l&rsquo;esorcismo cosmico (Apocalisse), qui assistiamo alla nascita di una comunit&agrave; alternativa dentro il sistema imperiale. Ogni capitolo segue i tre movimenti: Evocazione (la scena biblica), Autopsia (l&rsquo;analisi geopolitico-spirituale) e Omelia (l&rsquo;applicazione oggi).</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c1)"></span>PARTE I</span>
+<h3>Il Fuoco entra nella storia</h3>
+<p class="part-sub">Pentecoste e la fine della paura</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 1</span><span class="card-title">Il cenacolo chiuso</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Venuta la sera di quello stesso giorno, il primo dopo il sabato, mentre erano chiuse le porte del luogo dove si trovavano i discepoli per timore dei Giudei, venne Ges&ugrave;, si ferm&ograve; in mezzo a loro.&#xBB; (Giovanni 20,19)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La stanza della paura</span></div>
+<p>Immaginate la scena. Gerusalemme &egrave; in subbuglio. Un predicatore galileo &egrave; stato giustiziato dalle autorit&agrave; romane su pressione del Sinedrio. I suoi seguaci &mdash; pescatori, esattori delle tasse, donne &mdash; si nascondono. Non sono eroi. Sono sopravvissuti al trauma. La stanza ha le porte chiuse, non per devozione ma per terrore. Il movimento di Ges&ugrave; sembra finito prima di cominciare.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Trauma Collettivo</span></div>
+<p>Il trauma collettivo &egrave; una forza geopolitica dimenticata. I popoli sconfitti, le comunit&agrave; perseguitate, i gruppi minoritari sviluppano una psicologia della sopravvivenza che li paralizza. La porta chiusa non &egrave; solo una scelta: &egrave; una condizione. Roma lo sapeva bene: il terrore &egrave; pi&ugrave; efficace della forza militare nel mantenere l&rsquo;ordine. I discepoli non sono diversi dai dissidenti di ogni regime: si nascondono, tacciono, aspettano. Ma la stanza chiusa non &egrave; solo fisica: &egrave; una condizione interiore. Il trauma ti convince che stare nascosto &egrave; l&rsquo;unica opzione.</p>
+<div class="omelia-box">
+<p>Fratello, sorella, anche tu conosci la stanza chiusa. Dopo un fallimento, un lutto, un tradimento, anche tu hai chiuso le porte del cuore per paura. La tentazione &egrave; restare l&igrave;: al sicuro, protetti, ma anche soffocati. La buona notizia degli Atti non &egrave; che i discepoli erano forti: &egrave; che erano terrorizzati, e proprio l&igrave; Dio &egrave; entrato. La tua paura non &egrave; un ostacolo per lo Spirito: &egrave; il luogo dove lo Spirito vuole entrare. Non devi diventare forte. Devi solo restare unito agli altri mentre aspetti.</p>
+<span class="tag">La porta chiusa</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 2</span><span class="card-title">Il vento che rompe le porte</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Venne all&rsquo;improvviso dal cielo un rombo, come di vento che si abbatte gagliardo, e riemp&igrave; tutta la casa dove si trovavano. Apparvero loro lingue come di fuoco che si dividevano e si posarono su ciascuno di loro.&#xBB; (Atti 2,2-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il rombo dal cielo</span></div>
+<p>Pentecoste scardina ogni aspettativa. Il fuoco non brucia. Il vento non distrugge. Le lingue non dividono. &Egrave; un caos creativo, un&rsquo;inversione sistematica di Babele. A Babele Dio aveva confuso le lingue per limitare un progetto totalitario di potere umano. Qui a Pentecoste Dio parla attraverso tutte le lingue per fondare una comunit&agrave; che non si basa sull&rsquo;uniformit&agrave; ma sulla comunione nella differenza. La lista dei popoli presenti (Parti, Medi, Elamiti&hellip;) &egrave; una mappa dell&rsquo;Impero: ogni nazione sotto Roma &egrave; rappresentata.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica di Pentecoste</span></div>
+<p>Pentecoste &egrave; l&rsquo;atto geopolitico pi&ugrave; sovversivo del Nuovo Testamento. L&rsquo;Impero romano si fondava sull&rsquo;unificazione amministrativa: una lingua (il greco della koin&egrave; e il latino dell&rsquo;amministrazione), una legge, un imperatore. La Pentecoste propone un modello opposto: unit&agrave; nella diversit&agrave;. Non una lingua imperiale imposta dall&rsquo;alto, ma molte lingue parlate dal basso. Non un centro che domina, ma una periferia che si irradia. La geopolitica dello Spirito non cancella le differenze culturali: le attraversa, le valorizza, le mette in comunicazione.</p>
+<div class="omelia-box">
+<p>Anche tu vivi in una Babele rovesciata senza accorgertene. Il mondo ti chiede di uniformarti: stesso linguaggio, stessi consumi, stesse opinioni. Il potere uniforma; lo Spirito diversifica. La Pentecoste ti dice che non devi rinunciare alla tua lingua, alla tua cultura, alla tua storia per essere parte del Regno. La comunione non &egrave; uniformit&agrave;. &Egrave; unit&agrave; nella differenza. Dove nella tua vita stai cercando di uniformarti per paura di essere escluso?</p>
+<span class="tag">Babele rovesciata</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 3</span><span class="card-title">Le lingue del mondo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Come mai ciascuno di noi li sente parlare la nostra lingua nativa? Siamo Parti, Medi, Elamiti, abitanti della Mesopotamia, della Giudea, della Cappadocia, del Ponto e dell&rsquo;Asia&hellip;&#xBB; (Atti 2,8-9)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La folla di Pentecoste</span></div>
+<p>La folla che ascolta &egrave; composta da ebrei della diaspora, venuti a Gerusalemme per la festa. Sono persone che vivono tra due mondi: la fede ebraica e le culture ellenistiche in cui abitano. Parlano molte lingue ma condividono un&rsquo;unica radice. Pietro si alza e annuncia il k&eacute;rygma: la morte e resurrezione di Ges&ugrave;. Il discorso non &egrave; un trattato teologico ma un annuncio che squarcia la storia. Tremila persone vengono battezzate in un giorno.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Universalit&agrave;</span></div>
+<p>Pentecoste rivela un principio geopolitico che l&rsquo;Occidente ha dimenticato: l&rsquo;universalit&agrave; non richiede la cancellazione delle identit&agrave;. La Chiesa nasce come comunit&agrave; plurilingue, policentrica, transnazionale. Non &egrave; Roma. Non &egrave; Atene. &Egrave; un corpo che respira in tutte le lingue dell&rsquo;Impero, ma non parla la lingua dell&rsquo;Impero. La diaspora ebraica diventa il primo vettore di diffusione: le sinagoghe sparse nel Mediterraneo sono le prime stazioni della rete cristiana. Lo Spirito usa le infrastrutture esistenti &mdash; non le combatte, le trasfigura.</p>
+<div class="omelia-box">
+<p>Vivi in un mondo che ha paura dello straniero. Muri, confini, respingimenti. La Pentecoste ti offre una visione alternativa: l&rsquo;altro non &egrave; una minaccia ma un dono. Ogni lingua &egrave; una finestra su Dio. Ogni cultura ha qualcosa da rivelare. Non devi avere paura della differenza: devi attraversarla. La Chiesa &egrave; il luogo dove le lingue non si cancellano ma si intendono. Sei disposto ad ascoltare chi parla una lingua diversa dalla tua?</p>
+<span class="tag">Il dono della differenza</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c2)"></span>PARTE II</span>
+<h3>Le strade dell&rsquo;Impero</h3>
+<p class="part-sub">Lo Spirito attraversa Roma</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 4</span><span class="card-title">Pietro e il mendicante</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Pietro gli disse: &#xAB;Non ho n&eacute; argento n&eacute; oro, ma quello che ho te lo do: nel nome di Ges&ugrave; Cristo, il Nazareno, cammina!&#xBB;.&#xBB; (Atti 3,6)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Alla Porta Bella</span></div>
+<p>Pietro e Giovanni salgono al Tempio per la preghiera. Alla porta Bella, un uomo storpio dalla nascita chiede l&rsquo;elemosina. &Egrave; il volto umano dell&rsquo;economia religiosa di Gerusalemme: il Tempio attrae folle, le folle attraggono mendicanti. Il sistema funziona: il ricco fa l&rsquo;elemosina per merito religioso, il povero sopravvive. Pietro non ha denaro. Ma ha qualcosa che nessuno ha mai offerto a quell&rsquo;uomo: la possibilit&agrave; di rialzarsi. Non un&rsquo;elemosina che lo lascia a terra, ma una forza che lo mette in piedi.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Dignit&agrave;</span></div>
+<p>Qui si scontrano due modelli di potere. Il potere del Tempio (e di ogni sistema religioso-politico) gestisce la povert&agrave; senza eliminarla: l&rsquo;elemosina mantiene lo status quo. Il potere dello Spirito elimina la dipendenza: fa camminare lo storpio. &Egrave; la differenza tra assistenzialismo e liberazione, tra carit&agrave; che addormenta e carit&agrave; che risveglia. Ogni sistema politico si regge su &laquo;mendicanti&raquo;: cittadini resi dipendenti, bisognosi di sussidi, privi di autonomia. Lo Spirito non d&agrave; l&rsquo;elemosina: rid&agrave; la dignit&agrave; del camminare.</p>
+<div class="omelia-box">
+<p>Quante volte anche noi, come Chiesa, offriamo argento e oro invece della forza che rialza? I poveri non hanno bisogno della nostra elemosina: hanno bisogno che qualcuno li chiami per nome e dica loro: &laquo;Alzati e cammina&raquo;. E tu, nella tua vita, stai elemosinando attenzioni, riconoscimenti, approvazione, vivendo da mendicante alla porta del sistema, o hai trovato qualcuno che ti ha detto: &laquo;Cammina&raquo;?</p>
+<span class="tag">Non ho argento n&eacute; oro</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 5</span><span class="card-title">Il Sinedrio e il controllo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Li misero in prigione fino al giorno dopo, perch&eacute; ormai era sera. Molti di coloro che avevano ascoltato la parola credettero, e il numero degli uomini raggiunse circa i cinquemila.&#xBB; (Atti 4,3-4)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il tribunale del Sinedrio</span></div>
+<p>La guarigione dello storpio provoca un terremoto politico. Il Sinedrio &mdash; sadducei, sacerdoti, capi del popolo &mdash; arresta Pietro e Giovanni. Il giorno dopo li interroga: &laquo;Con quale potere avete fatto questo?&raquo;. La domanda &egrave; rivelatrice: non chiedono &laquo;come&raquo; ma &laquo;con quale autorit&agrave;&raquo;. Non contestano il fatto ma la fonte del potere. Per il Sinedrio, ogni potere che non deriva dalle loro strutture &egrave; una minaccia.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Monopolio Sacro</span></div>
+<p>Il Sinedrio &egrave; l&rsquo;archetipo di ogni &eacute;lite che gestisce il sacro come monopolio. Sotto occupazione romana, il loro potere &egrave; gi&agrave; fragile: esistono per concessione di Roma. Un movimento popolare che guarisce e converte minaccia l&rsquo;equilibrio precario con l&rsquo;occupante. La risposta di Pietro e Giovanni (&laquo;Se sia giusto obbedire a voi piuttosto che a Dio, giudicatelo voi stessi&raquo;) &egrave; la dichiarazione fondativa della libert&agrave; di coscienza: c&rsquo;&egrave; un&rsquo;autorit&agrave; superiore a quella politica. Qui nasce il conflitto tra obbedienza a Dio e obbedienza allo Stato che attraverser&agrave; tutta la storia cristiana.</p>
+<div class="omelia-box">
+<p>Ogni sistema, anche religioso, quando viene scosso reagisce con il controllo. Il Sinedrio non &egrave; solo un tribunale antico: &egrave; ogni struttura che ti chiede di tacere, di rientrare nei ranghi, di non disturbare. La domanda di Pietro risuona anche oggi: quando il sistema ti chiede di tradire la tua coscienza, a chi obbedisci? Ci sono momenti in cui la fedelt&agrave; a Dio richiede disobbedienza agli uomini.</p>
+<span class="tag">Obbedire a Dio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 6</span><span class="card-title">Stefano e la violenza sacra</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ecco, io vedo i cieli aperti e il Figlio dell&rsquo;Uomo che sta in piedi alla destra di Dio. Allora, gridando a gran voce e turandosi le orecchie, si scagliarono tutti insieme contro di lui, lo trascinarono fuori dalla citt&agrave; e lo lapidarono.&#xBB; (Atti 7,55-58)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il martirio di Stefano</span></div>
+<p>Stefano &egrave; il primo martire cristiano. Il suo discorso davanti al Sinedrio &egrave; una rilettura completa della storia di Israele, che culmina in un&rsquo;accusa devastante: &laquo;Voi sempre resistete allo Spirito Santo&raquo;. Non sta solo difendendo Ges&ugrave;: sta dicendo che l&rsquo;intera leadership religiosa ha sistematicamente respinto i profeti. I capi &laquo;si turano le orecchie&raquo; &mdash; gesto fisico potentissimo: rifiutano di ascoltare. La lapidazione &egrave; violenza religiosa allo stato puro: uccidere in nome di Dio.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Violenza Sacra</span></div>
+<p>La violenza sacra &egrave; la forma pi&ugrave; pericolosa di potere. Quando l&rsquo;eliminazione dell&rsquo;altro viene santificata, quando la purezza dottrinale giustifica il sangue, il sistema religioso si trasforma in macchina di morte. Non serve che il Sinedrio sporchi le mani: c&rsquo;&egrave; gi&agrave; Saulo, giovane e zelante, che approva e custodisce i mantelli dei lapidatori. La violenza sacra ha sempre bisogno di esecutori convinti. Il martirio di Stefano non ferma il movimento: lo diffonde. La persecuzione costringe i discepoli a lasciare Gerusalemme e il Vangelo esce dalla Giudea.</p>
+<div class="omelia-box">
+<p>Il fanatismo non &egrave; una malattia del passato. Ogni volta che una verit&agrave; religiosa o ideologica giustifica la violenza contro chi la pensa diversamente, Stefano viene lapidato di nuovo. La differenza tra il credente e il fanatico &egrave; nella postura: il fanatico si tura le orecchie, il credente ascolta. Di fronte a chi si tura le orecchie, l&rsquo;unica risposta &egrave; quella di Stefano: tenere gli occhi fissi sul cielo e pregare per i persecutori.</p>
+<span class="tag">I cieli aperti</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 7</span><span class="card-title">Saulo: il persecutore ferito</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Saulo, Saulo, perch&eacute; mi perseguiti? [...] Chi sei, Signore? Io sono Ges&ugrave;, che tu perseguiti. &Egrave; duro per te recalcitrare contro il pungolo.&#xBB; (Atti 9,4-5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La via di Damasco</span></div>
+<p>Sulla via di Damasco accade qualcosa che cambia la storia del mondo. Saulo, il persecutore, il fanatico, il puro, respira minacce e stragi. Ha lettere del Sommo Sacerdote, ha l&rsquo;autorit&agrave;, ha la certezza di essere nel giusto. Una luce lo acceca. Una voce lo chiama per nome: doppio, &laquo;Saulo, Saulo&raquo;. &Egrave; il linguaggio della vocazione profetica. Saulo non viene annientato: viene interrogato. &laquo;Perch&eacute; mi perseguiti?&raquo;. Non &laquo;perch&eacute; sbagli&raquo; ma &laquo;perch&eacute; fai violenza a me&raquo;. L&rsquo;identificazione di Cristo con i perseguitati &egrave; totale.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Conversione</span></div>
+<p>La conversione di Paolo &egrave; un caso esemplare di trasformazione geopolitica dell&rsquo;energia umana. Saulo non era un uomo mediocre: era un leader zelante, colto, determinato. La stessa energia che usava per distruggere la Chiesa verr&agrave; usata per costruirla. Dio non spegne la forza di Paolo: la trasfigura. Non lo rende un uomo mite e passivo: lo rende un missionario instancabile che affronter&agrave; naufragi, frustate, prigioni. La rigidit&agrave; diventa perseveranza. L&rsquo;intransigenza diventa fedelt&agrave;. La passione violenta diventa passione apostolica. &Egrave; la dimostrazione che nessuna energia umana &egrave; irrecuperabile.</p>
+<div class="omelia-box">
+<p>C&rsquo;&egrave; un Saulo in ognuno di noi. La parte pi&ugrave; rigida, pi&ugrave; violenta, pi&ugrave; zelante della nostra personalit&agrave;. Tendiamo a volerla sopprimere, a vergognarcene. Ma Dio la vuole trasfigurare. La domanda non &egrave;: &laquo;Come faccio a diventare un&rsquo;altra persona?&raquo; ma &laquo;Cosa far&agrave; Dio con la mia forza, una volta che l&rsquo;avr&agrave; girata verso l&rsquo;amore e non verso l&rsquo;odio?&raquo;. Qual &egrave; la tua energia pi&ugrave; potente, quella che usi per ferire o per costruire?</p>
+<span class="tag">La forza trasfigurata</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c3)"></span>PARTE III</span>
+<h3>La geografia dello Spirito</h3>
+<p class="part-sub">Porti, citt&agrave; e reti invisibili</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 8</span><span class="card-title">Antiochia: la periferia che diventa centro</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Barnaba part&igrave; per Tarso in cerca di Saulo. Lo trov&ograve; e lo condusse ad Antiochia. Rimasero insieme un anno intero in quella comunit&agrave; e istruirono molta gente. Ad Antiochia per la prima volta i discepoli furono chiamati cristiani.&#xBB; (Atti 11,25-26)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La citt&agrave; di nessuno</span></div>
+<p>Antiochia &egrave; la terza citt&agrave; dell&rsquo;Impero, dopo Roma e Alessandria. Crocevia di commerci, culture, religioni. Non &egrave; Gerusalemme. Non &egrave; il centro sacro. &Egrave; una metropoli pagana, caotica, multiculturale. Ed &egrave; qui che nasce il nome &laquo;cristiani&raquo;. Non a Gerusalemme, la citt&agrave; santa. Ad Antiochia, la citt&agrave; di nessuno. Barnaba, &laquo;figlio della consolazione&raquo;, cerca Paolo a Tarso e lo porta l&igrave;. I due leader pi&ugrave; diversi (il mediatore e l&rsquo;intransigente) lavorano insieme.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica delle Periferie</span></div>
+<p>Antiochia &egrave; il paradigma della geopolitica dello Spirito: il centro non &egrave; dove il potere umano lo colloca. Gerusalemme era il centro per la fede ebraica, Roma per il potere politico. Ma il Vangelo trova casa in una metropoli di frontiera, multiculturale, dove nessuno &egrave; &laquo;autoctono&raquo;. Lo Spirito sceglie le periferie perch&eacute; sono i luoghi dove l&rsquo;identit&agrave; &egrave; pi&ugrave; fluida, dove le differenze si incontrano. &Egrave; una lezione per ogni tempo: le periferie non sono da evangelizzare; sono il luogo da cui parte l&rsquo;evangelizzazione.</p>
+<div class="omelia-box">
+<p>Dove cerchi Dio? Nei centri consacrati, nelle capitali religiose, nei luoghi del potere spirituale? Lo Spirito ti aspetta nelle Antiochie della tua vita: nelle situazioni marginali, nei crocevia dove non ti senti a casa, negli ambienti misti dove ti sembra impossibile trovare Dio. &Egrave; l&igrave; che nascono i veri &laquo;cristiani&raquo;. Non nei luoghi puri, ma nei luoghi mescolati.</p>
+<span class="tag">La periferia benedetta</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 9</span><span class="card-title">Il Mediterraneo delle rotte</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Mentre celebravano il culto del Signore e digiunavano, lo Spirito Santo disse: &#xAB;Riservate per me Barnaba e Saulo per l&rsquo;opera alla quale li ho chiamati&#xBB;. Allora, dopo aver digiunato e pregato, imposero loro le mani e li congedarono.&#xBB; (Atti 13,2-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La partenza da Antiochia</span></div>
+<p>Da Antiochia parte la prima missione. Paolo, Barnaba e Marco s&rsquo;imbarcano. Da questo momento gli Atti diventano una geografia in movimento: Cipro, Panfilia, Antiochia di Pisidia, Iconio, Listra, Derbe. Un susseguirsi di porti, strade romane, sinagoghe, piazze pubbliche. Il Vangelo non viaggia nel deserto: viaggia sulle rotte commerciali dell&rsquo;Impero, usa la Pax Romana come infrastruttura, si appoggia alle comunit&agrave; ebraiche della diaspora come basi logistiche.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica delle Infrastrutture</span></div>
+<p>Questa &egrave; la genialit&agrave; geopolitica dello Spirito. Roma ha costruito strade per spostare legioni e riscuotere tasse. Ha pacificato il Mediterraneo per favorire i commerci. Ha creato una rete di citt&agrave; collegate che copre tre continenti. Lo Spirito non combatte questa infrastruttura: la usa in direzione opposta. Non per estrarre ricchezza dalle periferie verso il centro, ma per portare vita dal centro alle periferie (e viceversa). &Egrave; il principio della &laquo;sovversione delle infrastrutture&raquo;: il sistema costruisce strumenti di dominio, il Regno li trasforma in strumenti di comunione.</p>
+<div class="omelia-box">
+<p>Anche oggi le nostre &laquo;strade romane&raquo; sono state costruite per il dominio: internet, i social media, le reti finanziarie globali. La tentazione &egrave; demonizzarle o idolatrarle. La via dello Spirito &egrave; attraversarle, usarle, riempirle di un contenuto diverso. Come stai usando le reti che hai a disposizione? Per diffondere paura o per costruire ponti?</p>
+<span class="tag">Le strade dello Spirito</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 10</span><span class="card-title">Corinto: denaro, desiderio e comunit&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Una notte, in visione, il Signore disse a Paolo: &#xAB;Non aver paura; continua a parlare e non tacere, perch&eacute; io sono con te e nessuno cercher&agrave; di farti del male, perch&eacute; io ho un popolo numeroso in questa citt&agrave;&#xBB;.&#xBB; (Atti 18,9-10)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Las Vegas dell&rsquo;antichit&agrave;</span></div>
+<p>Corinto &egrave; la citt&agrave; del denaro e del desiderio. Porto commerciale ricchissimo, famosa in tutto il Mediterraneo per il tempio di Afrodite e le sue prostitute sacre. Una Las Vegas dell&rsquo;antichit&agrave;. Paolo vi arriva da Atene, dove aveva fallito: i filosofi dell&rsquo;Areopago lo avevano ascoltato con sufficienza e congedato con un &laquo;ti sentiremo un&rsquo;altra volta&raquo;. A Corinto invece resta diciotto mesi. Qui conosce Aquila e Priscilla, sfollati da Roma dopo l&rsquo;editto di Claudio contro i giudei. Qui fonda una comunit&agrave; complessa, che gli dar&agrave; pi&ugrave; gioie e pi&ugrave; problemi di tutte.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Citt&agrave; Tossica</span></div>
+<p>Corinto &egrave; il test geopolitico definitivo: pu&ograve; il Vangelo mettere radici nella citt&agrave; pi&ugrave; materialista dell&rsquo;Impero? La risposta degli Atti &egrave; s&igrave;, ma a un prezzo. La comunit&agrave; di Corinto sar&agrave; la pi&ugrave; frammentata, la pi&ugrave; conflittuale, la pi&ugrave; bisognosa di correzioni (come mostrano le lettere di Paolo). Eppure &egrave; qui che Dio dice a Paolo: &laquo;Ho un popolo numeroso in questa citt&agrave;&raquo;. Il Vangelo non cerca ambienti puri: entra negli ambienti pi&ugrave; tossici e l&igrave; costruisce comunit&agrave;. La presenza cristiana in citt&agrave; come Corinto non &egrave; protetta: &egrave; esposta, fragile, ma proprio per questo autentica.</p>
+<div class="omelia-box">
+<p>Vivi forse nella tua Corinto. Circondato da un ambiente che misura tutto col denaro, che mercifica il desiderio, che ti propone continuamente idoli luccicanti. La tentazione &egrave; fuggire &mdash; cercare un ambiente pi&ugrave; &laquo;puro&raquo;, pi&ugrave; &laquo;spirituale&raquo;. Ma la voce di Dio ti dice: &laquo;Ho un popolo numeroso in questa citt&agrave;&raquo;. Non devi scappare dalla tua Corinto: devi abitarla con presenza, costruire relazioni, essere testimone. La santit&agrave; non &egrave; assenza di tentazione: &egrave; resistenza nella tentazione.</p>
+<span class="tag">Un popolo in questa citt&agrave;</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 11</span><span class="card-title">Efeso e gli artigiani del sacro</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Un certo Demetrio, argentiere, fabbricava tempietti di Artemide in argento e procurava un guadagno non piccolo agli artigiani. [...] &#xAB;C&rsquo;&egrave; pericolo che la nostra categoria cada in discredito e che il tempio della grande dea Artemide non conti pi&ugrave; nulla&#xBB;.&#xBB; (Atti 19,24.27)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il business del sacro</span></div>
+<p>Efeso &egrave; la capitale religiosa dell&rsquo;Asia Minore. Il tempio di Artemide, una delle sette meraviglie del mondo antico, &egrave; il cuore economico della citt&agrave;. Pellegrini, turisti, devoti: un flusso continuo di denaro. Demetrio l&rsquo;argentiere produce souvenir religiosi. Il suo business non &egrave; la fede: &egrave; il profitto che la fede genera. Quando Paolo predica che &laquo;gli d&egrave;i fatti da mano d&rsquo;uomo non sono d&egrave;i&raquo;, Demetrio non si preoccupa per la teologia: si preoccupa per il fatturato. Organizza una sommossa. Per due ore la folla grida: &laquo;Grande &egrave; Artemide degli Efesini!&raquo;. La citt&agrave; va nel caos.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Idolo Economico</span></div>
+<p>Efeso mostra il legame inestricabile tra religione ed economia. Demetrio non &egrave; un fanatico religioso: &egrave; un imprenditore che capisce che il Vangelo minaccia il suo modello di business. Ogni volta che il Vangelo predica contro gli idoli, minaccia anche i profitti che quegli idoli generano. Qui la geopolitica si fa microeconomia: il conflitto non &egrave; tra &laquo;Chiesa e Impero&raquo; in astratto, ma tra la predicazione apostolica e gli interessi economici concreti che il sistema religioso alimenta. I fabbricanti di idoli di oggi non lavorano l&rsquo;argento: lavorano l&rsquo;attenzione, il desiderio, la paura, il consumo.</p>
+<div class="omelia-box">
+<p>Quali sono gli idoli che produci, vendi, consumi? Non idoli antichi di metallo, ma idoli contemporanei: il successo, l&rsquo;immagine, il consenso, la carriera. Il Vangelo non minaccia solo le tue idee sbagliate su Dio: minaccia il tuo portafoglio, il tuo stile di vita, le tue abitudini. Demetrio cap&igrave; subito la posta in gioco. Noi facciamo finta di non capirla. Cosa cambierebbe nella tua economia personale se prendessi sul serio che &laquo;non ci sono idoli fatti da mano d&rsquo;uomo&raquo;?</p>
+<span class="tag">Il business degli idoli</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c4)"></span>PARTE IV</span>
+<h3>Il potere e il processo</h3>
+<p class="part-sub">Quando il mondo interroga il Vangelo</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 12</span><span class="card-title">Paolo davanti ai governatori</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Alcuni giorni dopo, il governatore Felice si present&ograve; con sua moglie Drusilla, che era giudea; fatti chiamare Paolo, lo ascoltava intorno alla fede in Cristo Ges&ugrave;. Ma quando Paolo si mise a parlare di giustizia, di continenza e del giudizio futuro, Felice si spavent&ograve; e disse: &#xAB;Per ora va&rsquo;, e quando ne avr&ograve; il tempo ti far&ograve; chiamare&#xBB;.&#xBB; (Atti 24,24-25)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Prigioniero a Cesarea</span></div>
+<p>Paolo &egrave; prigioniero a Cesarea. Passa da un governatore all&rsquo;altro: Felice, Festo, Agrippa. Ognuno lo ascolta, ognuno reagisce diversamente. Felice &egrave; il cinico: rimanda, prende tempo, spera in una tangente. Festo &egrave; il pragmatico: non capisce le dispute teologiche giudaiche. Agrippa &egrave; l&rsquo;intellettuale curioso: ascolta, quasi si convince, ma alla fine elegge la carriera. Paolo non &egrave; mai condannato n&eacute; assolto: &egrave; trattenuto in un limbo giuridico che serve a tutti tranne che a lui.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Verdetto Sospeso</span></div>
+<p>I processi di Paolo sono un trattato sul rapporto tra verit&agrave; e potere. Il potere non sa come classificare Paolo: non &egrave; un criminale, non &egrave; un ribelle politico, non &egrave; un pazzo. &Egrave; un uomo che dice la verit&agrave;, e questa &egrave; la categoria pi&ugrave; eversiva di tutte. Felice, Festo, Agrippa rappresentano tre modi in cui il potere gestisce la verit&agrave; scomoda: rimandare (Felice), derubricare (Festo), ascoltare senza decidere (Agrippa). Nessuno condanna Paolo, ma nessuno lo libera. Il potere preferisce l&rsquo;ambiguit&agrave; alla decisione.</p>
+<div class="omelia-box">
+<p>Quante volte anche tu vieni messo in attesa dal sistema? La tua domanda di verit&agrave;, la tua esigenza di giustizia, il tuo bisogno di senso vengono rinviati. Non ti dicono &laquo;no&raquo;. Ti dicono &laquo;quando avr&ograve; tempo&raquo;. &Egrave; la violenza pi&ugrave; sottile: l&rsquo;attesa infinita. La risposta di Paolo non &egrave; la rassegnazione: &egrave; appellarsi a Cesare. Usare le stesse regole del sistema per smascherarlo. Anche tu puoi farlo: usare gli strumenti del sistema per chiedere giustizia, senza diventare complice dell&rsquo;ingiustizia.</p>
+<span class="tag">L&rsquo;attesa del potere</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 13</span><span class="card-title">Roma ascolta, ma non comprende</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Agrippa disse a Paolo: &#xAB;Per poco non mi convinci a diventare cristiano!&#xBB;. E Paolo: &#xAB;Poco o molto, volesse Dio che non solo tu, ma tutti quelli che oggi mi ascoltano diventaste come sono io, eccetto queste catene!&#xBB;.&#xBB; (Atti 26,28-29)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Davanti ad Agrippa</span></div>
+<p>Agrippa II &egrave; il re cliente di Roma, l&rsquo;ebreo ellenizzato che governa per conto dell&rsquo;Impero. Conosce le Scritture, capisce le questioni teologiche, intuisce la forza dell&rsquo;annuncio di Paolo. &laquo;Per poco non mi convinci&raquo;. Quasi. &Egrave; la parola tragica di chi sfiora la verit&agrave; e la lascia andare. Paolo risponde con una battuta che &egrave; una confessione di fede: &laquo;volesse Dio che diventaste come me, eccetto queste catene&raquo;. Le catene sono la prova che il Regno &egrave; diverso dall&rsquo;Impero: non si impone con la forza.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Quasi</span></div>
+<p>Agrippa &egrave; il modello del potere che &laquo;quasi&raquo; capisce. Ha tutti gli strumenti intellettuali. Capisce la posta in gioco. Ma non pu&ograve; attraversare la soglia perch&eacute; significherebbe perdere tutto: il titolo, la posizione, il rapporto con Roma. La Pax Romana funziona cos&igrave;: concede libert&agrave; di pensiero purch&eacute; non mini le fondamenta del potere. Agrippa pu&ograve; ascoltare Paolo, ma non pu&ograve; diventare Paolo. Il sistema tollera la verit&agrave; come spettacolo, non come scelta.</p>
+<div class="omelia-box">
+<p>Quanti Agrippa ci sono oggi? Quanti dicono &laquo;quasi&raquo; di fronte alla verit&agrave; del Vangelo? Il &laquo;quasi&raquo; &egrave; il pi&ugrave; pericoloso dei rifiuti, perch&eacute; non chiude la porta: la lascia socchiusa. Ma la verit&agrave; non si corteggia per tutta la vita. A un certo punto si sceglie. E la scelta, come mostra Paolo, pu&ograve; portare catene. Preferisci la libert&agrave; dorata di Agrippa o le catene illuminate di Paolo?</p>
+<span class="tag">Quasi convinto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 14</span><span class="card-title">La cittadinanza e il Regno</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ma Paolo disse: &#xAB;Io sono cittadino romano&#xBB;. Il tribuno and&ograve; dal comandante e gli rifer&igrave;: &#xAB;Stai attento a quello che fai, perch&eacute; quell&rsquo;uomo &egrave; romano!&#xBB;.&#xBB; (Atti 22,25-26; 23,27)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La strategia di Paolo</span></div>
+<p>Per tre volte Paolo usa la sua cittadinanza romana come scudo. Dopo la sommossa nel Tempio, prima di essere frustato, quando sta per essere giudicato. Non &egrave; un compromesso: &egrave; strategia. La cittadinanza gli permette di sopravvivere, di appellarsi a Cesare, di arrivare a Roma. Paolo non disprezza le istituzioni: le usa per lo scopo. Non &egrave; uno zelota che vuole distruggere Roma; non &egrave; un collaborazionista che adora Roma. &Egrave; un cittadino di due regni.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Doppia Cittadinanza</span></div>
+<p>Qui si delinea una teologia politica sofisticata. La cittadinanza romana non &egrave; il Regno di Dio, ma non &egrave; neppure demoniaca in s&eacute;. &Egrave; uno strumento, un&rsquo;infrastruttura giuridica che pu&ograve; essere usata per il bene o per il male. Paolo la usa per il bene: per proteggersi e per predicare. Non demonizza il sistema ma non gli d&agrave; valore assoluto. &Egrave; la postura del cristiano nella polis: leale ma non idolatra, collaborativo ma non asservito. &laquo;Siamo cittadini del cielo&raquo;, scriver&agrave; ai Filippesi, ma la cittadinanza terrena non &egrave; disprezzata: &egrave; relativizzata.</p>
+<div class="omelia-box">
+<p>Anche tu hai le tue &laquo;cittadinanze&raquo;: professionale, nazionale, culturale, sociale. La tentazione &egrave; duplice: adorarle o disprezzarle. Paolo mostra una terza via: usale per il Regno. La tua posizione sociale, il tuo titolo, la tua rete di relazioni non sono n&eacute; idoli n&eacute; impurit&agrave;. Sono strumenti. La domanda &egrave;: per quale scopo li stai usando?</p>
+<span class="tag">Cittadini del cielo</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c5)"></span>PARTE V</span>
+<h3>Il naufragio</h3>
+<p class="part-sub">Quando il controllo finisce</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 15</span><span class="card-title">La tempesta</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Dopo molto tempo, la navigazione era ormai pericolosa [...] ma il centurione dava pi&ugrave; ascolto al pilota e al capitano della nave che alle parole di Paolo. [...] Ben presto un vento d&rsquo;uragano, chiamato Euroaquilone, si scaten&ograve;. La nave fu travolta.&#xBB; (Atti 27,9.11.14-15)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L&rsquo;Euroaquilone</span></div>
+<p>Il viaggio verso Roma si trasforma in un incubo. Paolo &egrave; prigioniero, affidato al centurione Giulio. La nave &egrave; una nave commerciale: trasporta grano egiziano verso l&rsquo;Italia. Ci sono 276 persone a bordo: marinai, soldati, prigionieri, passeggeri. Una micro-societ&agrave; galleggiante. Paolo avverte del pericolo ma non viene ascoltato: il pilota e il capitano contano pi&ugrave; del prigioniero. Poi l&rsquo;Euroaquilone colpisce. Per quattordici giorni la nave &egrave; in balia della tempesta. Gettano il carico. Gettano le attrezzature. N&eacute; sole n&eacute; stelle per orientarsi. Ogni speranza di salvezza svanisce.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Caos</span></div>
+<p>La tempesta &egrave; il momento della verit&agrave;. Le gerarchie della nave si dissolvono: il centurione, il pilota, il capitano sono impotenti quanto l&rsquo;ultimo dei prigionieri. Le competenze tecniche non bastano. Il carico &mdash; la ricchezza &mdash; viene gettato in mare. &Egrave; una decostruzione totale delle strutture di potere e sicurezza che reggevano la societ&agrave; in miniatura della nave. La geopolitica viene ridotta a pura sopravvivenza: la tempesta non rispetta ruoli, titoli, cittadinanze. In mezzo al caos, Paolo diventa il vero leader. Non perch&eacute; ha autorit&agrave; formale: perch&eacute; ha una parola da dire.</p>
+<div class="omelia-box">
+<p>La tempesta arriva per tutti. Arriva quando il controllo che pensavi di avere si dissolve. La carriera, la salute, le relazioni: tutto viene scosso dall&rsquo;Euroaquilone di turno. &Egrave; in quel momento che si vede di che pasta sei fatto. Non perch&eacute; reagisci con forza, ma perch&eacute; hai o non hai una parola di speranza a cui aggrapparti. Paolo ce l&rsquo;ha: un angelo gli ha detto &laquo;non temere&raquo;. E tu? Quando tutto il carico della tua vita viene gettato in mare, cosa ti resta?</p>
+<span class="tag">L&rsquo;Euroaquilone</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 16</span><span class="card-title">Il naufragio e l&rsquo;uomo vero</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Disse infatti un angelo di Dio: &#xAB;Non temere, Paolo; devi comparire davanti a Cesare, ed ecco, Dio ti ha donato tutti quelli che navigano con te&#xBB;. Perci&ograve;, coraggio, uomini: ho fiducia in Dio che avverr&agrave; come mi &egrave; stato detto. Ma dovremo incagliarci su un&rsquo;isola.&#xBB; (Atti 27,24-26)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La notte prima dell&rsquo;incaglio</span></div>
+<p>La notte prima dell&rsquo;incaglio, Paolo compie quattro gesti rivoluzionari. Primo: prende del pane, rende grazie a Dio davanti a tutti e mangia. In mezzo alla tempesta, celebra un&rsquo;eucaristia improvvisata. Secondo: esorta tutti a mangiare, perch&eacute; avranno bisogno di forza. Terzo: rivela la promessa ricevuta &mdash; nessuno morir&agrave;. Quarto: getta il resto del grano in mare, ormai inutile. &Egrave; una liturgia della sopravvivenza. La nave si incaglia. I soldati vogliono uccidere i prigionieri per evitare fughe. Giulio lo impedisce: vuole salvare Paolo. Tutti arrivano a terra sani e salvi.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Naufragio</span></div>
+<p>Il naufragio &egrave; una parabola geopolitica perfetta. La nave va a pezzi, ma la comunit&agrave; si salva. Le strutture (la nave, le gerarchie, il carico) sono perdute; le persone sono salve. Non sopravvivono perch&eacute; sono pi&ugrave; forti: sopravvivono perch&eacute; qualcuno ha creduto a una promessa e ha nutrito la comunit&agrave;. Qui avviene il ribaltamento definitivo: il prigioniero salva i carcerieri. Il condannato diventa pastore. L&rsquo;uomo senza potere diventa il centro del potere &mdash; non del potere che domina, ma del potere che serve.</p>
+<div class="omelia-box">
+<p>Il naufragio &egrave; inevitabile nella vita. Prima o poi le tue strutture di sicurezza crolleranno. La domanda &egrave;: sarai Paolo o sarai uno dei marinai che cercano di fuggire sulla scialuppa? Il vero uomo &mdash; l&rsquo;uomo spirituale &mdash; non &egrave; quello che non naufraga mai, ma quello che nel naufragio sa spezzare il pane, sa nutrire chi ha intorno, sa credere alla promessa anche quando il sole e le stelle non si vedono pi&ugrave; da quattordici giorni.</p>
+<span class="tag">Spezzare il pane nella tempesta</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c6)"></span>PARTE VI</span>
+<h3>Roma e il fuoco invisibile</h3>
+<p class="part-sub">La vittoria senza conquista</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 17</span><span class="card-title">Paolo arriva a Roma</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;E cos&igrave; arrivammo a Roma. I fratelli, che avevano saputo di noi, ci vennero incontro fino al Foro di Appio e alle Tre Taverne. Paolo, vedendoli, rese grazie a Dio e prese coraggio.&#xBB; (Atti 28,14-15)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L&rsquo;arrivo a Roma</span></div>
+<p>Dopo il naufragio, l&rsquo;inverno a Malta, e altre tappe, Paolo vede finalmente Roma. Non entra da conquistatore: entra da prigioniero. Non ha legioni: ha una scorta di soldati. Non trionfa: cammina lungo la Via Appia. Ma ai margini della citt&agrave;, al Foro di Appio, lo aspettano dei fratelli che hanno percorso chilometri per accoglierlo. Paolo, il missionario instancabile, l&rsquo;uomo che ha attraversato l&rsquo;Impero, &laquo;prese coraggio&raquo; vedendoli. Anche il pi&ugrave; forte ha bisogno di fratelli che gli vengano incontro.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Vittoria Senza Eserciti</span></div>
+<p>L&rsquo;ingresso di Paolo a Roma &egrave; la risposta definitiva alla domanda sulla natura del potere cristiano. L&rsquo;Impero entra nelle citt&agrave; con parate militari, archi di trionfo, schiavi e bottini. Paolo entra con le catene ai polsi, accolto da un piccolo gruppo di credenti. Eppure, duemila anni dopo, l&rsquo;Impero romano &egrave; polvere e la Chiesa &egrave; viva. Il paradosso &egrave; totale: il potere apparente (le legioni) &egrave; morto; il potere reale (la testimonianza) sopravvive. Roma non viene conquistata: viene attraversata, abitata, evangelizzata. La vittoria non &egrave; militare: &egrave; esistenziale.</p>
+<div class="omelia-box">
+<p>Come entri nei luoghi del potere della tua vita? Con l&rsquo;ansia di affermarti, di dimostrare, di dominare? O con la pace di chi sa che il vero potere non sta nelle apparenze? Paolo entra a Roma in catene ma con il cuore libero. Puoi entrare nei tuoi ambienti &mdash; lavorativi, familiari, sociali &mdash; con la stessa libert&agrave;? La tua forza non sta nell&rsquo;armatura che indossi, ma nella comunit&agrave; che ti viene incontro.</p>
+<span class="tag">L&rsquo;ingresso del prigioniero</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 18</span><span class="card-title">Il Regno senza confini</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Paolo rimase due anni interi nella casa che aveva preso in affitto e accoglieva tutti quelli che venivano da lui, annunciando il regno di Dio e insegnando le cose riguardanti il Signore Ges&ugrave; Cristo, con tutta franchezza e senza impedimento.&#xBB; (Atti 28,30-31)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La casa in affitto</span></div>
+<p>L&rsquo;ultima immagine degli Atti non &egrave; una morte gloriosa, non &egrave; un&rsquo;assemblea trionfale. &Egrave; Paolo in una casa presa in affitto, agli arresti domiciliari, che parla di Ges&ugrave; a chiunque venga a trovarlo. Per due anni. Senza un finale spettacolare. Senza un miracolo clamoroso. La parola chiave &egrave; &laquo;senza impedimento&raquo; (<em>akolytos</em>). La catena ai polsi non ha fermato la Parola. L&rsquo;Impero non &egrave; riuscito a mettere a tacere il Vangelo. Gli Atti finiscono cos&igrave;: aperti, incompiuti, perch&eacute; la storia della Chiesa non &egrave; finita.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Incompiuto</span></div>
+<p>Questa conclusione &egrave; un colpo di genio teologico. Luca poteva chiudere con il martirio di Paolo, o con una conversione dell&rsquo;imperatore, o con una scena apocalittica. Invece chiude con un uomo in catene che parla liberamente. Il messaggio geopolitico &egrave; definitivo: l&rsquo;Impero pu&ograve; incatenare il corpo, non la Parola. Pu&ograve; controllare i confini, non lo Spirito. La casa di Paolo &egrave; la prima &laquo;chiesa domestica&raquo; di Roma: un luogo dove il Regno si manifesta non nella grandezza ma nella normalit&agrave;. Il Regno non ha bisogno di templi, palazzi, eserciti. Basta una stanza in affitto e un cuore libero.</p>
+<div class="omelia-box">
+<p>La tua vita cristiana non avr&agrave; un finale spettacolare. Probabilmente finir&agrave; come quella di Paolo: in una normalit&agrave; abitata dalla presenza di Dio. Non aspettare il trionfo. Vivi la fedelt&agrave; quotidiana. Parla di Ges&ugrave; a chi ti viene a trovare. Abita il tuo spazio &mdash; la tua casa, il tuo lavoro, le tue relazioni &mdash; con &laquo;tutta franchezza e senza impedimento&raquo;. Perch&eacute; gli Atti non sono finiti. I tuoi Atti, quelli che lo Spirito sta scrivendo con la tua vita, sono ancora in corso.</p>
+<span class="tag">Akolytos &mdash; senza impedimento</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="conclusion-section reveal">
+<p class="verse">&#xAB;Paolo rimase due anni interi nella casa che aveva preso in affitto e accoglieva tutti quelli che venivano da lui, annunciando il regno di Dio e insegnando le cose riguardanti il Signore Ges&ugrave; Cristo, con tutta franchezza e senza impedimento.&#xBB; (Atti 28,30-31)</p>
+<div class="conclusion-msg">
+<p>Il vento della Pentecoste continua a soffiare. La stanza del cenacolo &egrave; ancora aperta. Le strade dell&rsquo;Impero sono ancora percorse da testimoni. Il Regno non &egrave; un territorio da conquistare ma una presenza da abitare. E tu, discepolo del terzo millennio, sei ancora negli Atti. <strong>Il libro non &egrave; chiuso. La tua vita &egrave; il capitolo che lo Spirito sta scrivendo oggi.</strong> Con tutta franchezza. Senza impedimento.</p>
+<span class="tag">Conclusione &mdash; Il libro aperto</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="reveal" style="text-align:center;padding:2rem 0">
+<p style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:.5rem"><em style="color:var(--gold);font-style:italic">Atti del Fuoco</em> &mdash; Commento teologico-politico agli Atti degli Apostoli</p>
+<p style="color:var(--muted);font-weight:300;font-size:.85rem">Terzo volume della collana &mdash; MetaHistoria</p>
+</div>
+</div>
+</section>
+
+<div class="page-nav" style="max-width:var(--maxw);margin:0 auto">
+<div class="nav-prev">
+<div class="nav-label">Precedente</div>
+<a href='/apocalisse-del-potere/commento-apocalisse'>&larr; Il Trionfo dell&rsquo;Agnello</a>
+</div>
+<div class="nav-next">
+<div class="nav-label">Successivo</div>
+<a href='/apocalisse-del-potere/manuale-commento-genesi'>Le Origini del Potere (Genesi) &rarr;</a>
+</div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Luca, <em>Atti degli Apostoli</em> (NT)</li>
+ <li>Atti 2 &mdash; La Pentecoste</li>
+ <li>Atti 9 &mdash; La conversione di Saulo</li>
+ <li>Atti 27 &mdash; Il naufragio</li>
+ <li>Atti 28 &mdash; Paolo a Roma</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li>
+ <li><a href='/apocalisse-del-potere/manuale-commento-daniele' style='color:var(--muted);text-decoration:none'>Genesi delle Bestie (Daniele)</a></li>
+ <li><a href='/apocalisse-del-potere/commento-apocalisse' style='color:var(--muted);text-decoration:none'>Il Trionfo dell&rsquo;Agnello</a></li>
+ <li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.08});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

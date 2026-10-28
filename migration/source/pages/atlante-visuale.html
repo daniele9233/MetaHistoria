@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlante Visuale &mdash; Metodo Pentaedrico &mdash; MetaHistoria</title>
+<meta name="description" content="L&rsquo;atlante ufficiale del Metodo Pentaedrico: trenta tavole che mappano l&rsquo;architettura, le cinque lenti, la cartografia dell&rsquo;anima, la genealogia del potere e l&rsquo;Apocalisse del Potere.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni',Georgia,'Times New Roman',serif;--sans:'Public Sans','Segoe UI',system-ui,sans-serif;--maxw:1000px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--gold);color:#0c0a09}
+#progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+nav ul li{position:relative}
+nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+nav ul li:hover>a .arrow{transform:rotate(180deg)}
+.dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+.dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+@media(max-width:900px){nav ul{display:none}}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 2rem}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.hero{padding:9.5rem 0 3.5rem;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 50% -20%,rgba(201,162,39,.08),transparent 60%)}
+.hero .kicker{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.hero h1{font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,3.6rem);font-weight:600;line-height:1.12;margin-bottom:1.1rem}
+.hero .lede{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--ink-soft);font-weight:400;max-width:60ch}
+.hero .meta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.8rem}
+.chip2{border:1px solid var(--line);background:var(--surface);padding:.4rem 1rem;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.chip2 strong{color:var(--gold);font-weight:600}
+main{padding:3.5rem 0 5rem}
+.intro-box{border:1px solid var(--line);border-left:3px solid var(--gold);background:var(--surface);padding:2.2rem 2.4rem;margin-bottom:2.8rem}
+.intro-box h3{font-family:var(--serif);font-size:1.3rem;color:var(--gold);margin-bottom:1rem;font-weight:600}
+.intro-box p{color:var(--ink-soft);font-weight:300}
+.intro-box strong{color:var(--ink)}
+.ta-vola{margin-bottom:4.5rem;scroll-margin-top:6rem;border:1px solid var(--line);background:var(--surface-2)}
+.ta-vola .ta-head{display:flex;align-items:baseline;gap:1.2rem;padding:1.4rem 2rem;border-bottom:1px solid var(--line);background:var(--surface)}
+.ta-vola .ta-num{font-family:var(--serif);font-size:2.2rem;color:var(--gold);font-weight:600;min-width:3rem}
+.ta-vola .ta-head h2{font-family:var(--serif);font-size:1.2rem;font-weight:600}
+.ta-vola .ta-head .ta-tag{margin-left:auto;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:right}
+@media(max-width:640px){.ta-vola .ta-head{flex-wrap:wrap}.ta-vola .ta-head .ta-tag{margin-left:0;width:100%}}
+.ta-vola .ta-desc{padding:1.2rem 2rem 0;font-size:.9rem;color:var(--ink-soft);font-weight:300;line-height:1.65}
+.ta-vola .ta-desc strong{color:var(--ink)}
+.ta-vola .ta-img{padding:1.8rem 2rem 2rem;text-align:center}
+.ta-vola .ta-img img{max-width:100%;height:auto;border:1px solid var(--line)}
+.ta-vola .ta-didascalia{padding:0 2rem 1.5rem;font-size:.72rem;color:var(--muted);text-align:center;letter-spacing:.06em}
+.ta-vola.futura{opacity:.55;pointer-events:none}
+.ta-vola.futura .ta-badge{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.4);padding:.25rem .8rem;display:inline-block}
+.ta-vola .ta-soon{padding:2rem;text-align:center}
+.ta-vola.futura .ta-soon p{color:var(--muted);font-weight:300;font-size:.9rem}
+.quote{border-left:3px solid var(--gold);background:var(--surface);padding:1.7rem 2.1rem;margin:2.3rem 0;font-family:var(--serif);font-style:italic;font-size:1.12rem;line-height:1.6;color:var(--ink)}
+.quote .src{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.endnav{display:flex;justify-content:center;gap:1rem;margin-top:4rem;flex-wrap:wrap}
+.backlink{display:inline-block;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;padding:.85rem 1.8rem;transition:all .25s}
+.backlink:hover{background:var(--gold);color:#0c0a09}
+footer{border-top:1px solid var(--line);padding:3rem 2rem 2rem;background:var(--surface);text-align:center}
+footer h4{font-family:var(--serif);font-size:1.05rem;margin-bottom:.6rem;color:var(--ink)}
+footer p{font-size:.82rem;color:var(--muted);font-weight:300}
+footer .legal{margin-top:1.2rem;font-size:.72rem;letter-spacing:.08em}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-classica/'>Home Lente</a><a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a><a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a><a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a><a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a><a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a><a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a><a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a></div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-umana/'>Home Lente</a><a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri</a><a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento</a><a href='/geopolitica-umana/dodici-principi'>I 12 principi</a><a href='/geopolitica-umana/popoli'>Il destino dei popoli</a><a href='/geopolitica-umana/nazioni'>Psicologia delle nazioni</a><a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle</a><a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a></div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/geopolitica-dell-anima/'>Home Lente</a><a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a><a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a><a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a><a href='/geopolitica-dell-anima/frontiere'>Frontiere</a></div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/teologia-geopolitica/'>Home Lente</a><a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a><a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a><a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a><a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a><a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a><a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a><a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a><a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a><a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a><a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a><a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a></div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/apocalisse-del-potere/'>Home Lente</a><a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia</a><a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a><a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon</a><a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a></div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<header class="hero">
+ <div class="wrap">
+ <p class="kicker">Metodo Pentaedrico &mdash; L&rsquo;Identit&agrave; Visiva</p>
+ <h1>Atlante Visuale</h1>
+ <p class="lede">Trenta tavole per mappare l&rsquo;architettura di MetaHistoria: dalla genealogia del potere alla cartografia dell&rsquo;anima, dal Metodo Pentaedrico all&rsquo;Apocalisse della storia.</p>
+ <div class="meta">
+ <span class="chip2"><strong>30</strong> Tavole nel programma</span>
+ <span class="chip2"><strong>6</strong> Pubblicate</span>
+ <span class="chip2">In costruzione</span>
+ </div>
+ </div>
+</header>
+
+<main>
+ <div class="wrap">
+
+ <div class="intro-box reveal">
+ <h3>Non semplici illustrazioni: l&rsquo;identit&agrave; visiva del Metodo</h3>
+ <p>Le tavole dell&rsquo;Atlante non sono decorazioni. Sono <strong>mappe ontologiche</strong>: schemi ufficiali del Metodo Pentaedrico utilizzabili nel sito, nei libri, nelle lezioni e nelle conferenze. Ogni tavola &egrave; numerata, titolata e accompagnata da una didascalia che ne spiega la posizione nell&rsquo;architettura complessiva. L&rsquo;Atlante crescer&agrave; una tavola alla volta, fino a coprire l&rsquo;intero sistema.</p>
+ </div>
+
+ <blockquote class="quote reveal">Non una semplice mappa mentale, ma una mappa ontologica del sito: una rappresentazione dell&rsquo;architettura di MetaHistoria. Dovrebbe essere il DNA del progetto.<span class="src">Documento di progetto &mdash; Schemi MetaHistoria</span></blockquote>
+
+ <div class="ta-vola reveal" id="tavola-01">
+ <div class="ta-head">
+ <div class="ta-num">01</div>
+ <div><h2>L&rsquo;Architettura di MetaHistoria</h2></div>
+ <span class="ta-tag">Mappa ontologica</span>
+ </div>
+ <div class="ta-desc">
+ <p>La tavola fondativa: l&rsquo;albero genealogico dell&rsquo;intero sistema. Da Dio &mdash; Rivelazione e Verit&agrave; &mdash; discende la Storia della Salvezza, applicata alla storia umana attraverso il <strong>Metodo Pentaedrico</strong>. Le cinque lenti si diramano come rami di uno stesso tronco, ciascuna col proprio oggetto (Stati, Popoli, Civilt&agrave;, Discernimento, Destino) e le proprie categorie operative (Confini, Memoria, Cuore, Idolatria, Giudizio e cos&igrave; via).</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-01-architettura.png" alt="Tavola 01 &mdash; L&rsquo;architettura di MetaHistoria: da Dio, attraverso la Storia della Salvezza e il Metodo Pentaedrico, alle cinque lenti con le loro categorie" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 01 &mdash; L&rsquo;Architettura di MetaHistoria. La mappa ontologica del sistema.</div>
+ </div>
+
+ <div class="ta-vola reveal" id="tavola-02">
+ <div class="ta-head">
+ <div class="ta-num">02</div>
+ <div><h2>Il Metodo Pentaedrico</h2></div>
+ <span class="ta-tag">Come funziona</span>
+ </div>
+ <div class="ta-desc">
+ <p>Come funziona il Metodo: la discesa dall&rsquo;<strong>Evento Storico</strong> attraverso le cinque domande progressive. Ogni lente risponde a una domanda diversa e usa fonti proprie: Cosa &egrave; successo? (Geopolitica Classica) &rarr; A chi &egrave; successo? (Geopolitica Umana) &rarr; Perch&eacute; quel popolo agisce cos&igrave;? (Geopolitica dell&rsquo;Anima) &rarr; Come giudica questo potere la Rivelazione? (Teologia della Geopolitica) &rarr; Qual &egrave; il destino di questo potere? (Apocalisse del Potere).</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-02.png" alt="Tavola 02 &mdash; Il Metodo Pentaedrico: dall&rsquo;Evento Storico alle cinque domande progressive delle cinque lenti" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 02 &mdash; Il funzionamento del Metodo Pentaedrico: le cinque domande progressive.</div>
+ </div>
+
+ <div class="ta-vola reveal" id="tavola-03">
+ <div class="ta-head">
+ <div class="ta-num">03</div>
+ <div><h2>Le Cinque Lenti</h2></div>
+ <span class="ta-tag">Strumenti</span>
+ </div>
+ <div class="ta-desc">
+ <p>Ogni lente col suo <strong>oggetto</strong>, la sua <strong>domanda guida</strong>, le sue <strong>fonti</strong> e il suo <strong>criterio di verit&agrave;</strong>. Dalla superficie osservabile (territorio, confini, potenza) fino alla profondit&agrave; del destino ultimo (Regno, Escaton, Giudizio). Le cinque lenti non si contraddicono: si completano.</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-03.png" alt="Tavola 03 &mdash; Le Cinque Lenti del Metodo Pentaedrico con oggetti, domande e fonti" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 03 &mdash; Le Cinque Lenti: oggetto, domanda guida e fonti di ciascuna.</div>
+ </div>
+
+ <div class="ta-vola reveal" id="tavola-04">
+ <div class="ta-head">
+ <div class="ta-num">04</div>
+ <div><h2>Il Percorso dell&rsquo;Interpretazione Storica</h2></div>
+ <span class="ta-tag">Progressione epistemologica</span>
+ </div>
+ <div class="ta-desc">
+ <p>La progressione epistemologica: come ogni lente <strong>espande la precedente senza annullarla</strong>. Dalla superficie osservabile al giudizio dell&rsquo;Escaton, il lettore viene accompagnato da ci&ograve; che &egrave; visibile fino a ci&ograve; che richiede discernimento. Non cinque analisi indipendenti, ma un cammino progressivo attraverso i livelli della realt&agrave;.</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-04.png" alt="Tavola 04 &mdash; Il percorso dell&rsquo;interpretazione storica: la progressione attraverso le cinque lenti" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 04 &mdash; Il percorso dell&rsquo;interpretazione storica attraverso le cinque lenti.</div>
+ </div>
+
+ <div class="ta-vola reveal" id="tavola-05">
+ <div class="ta-head">
+ <div class="ta-num">05</div>
+ <div><h2>La Genealogia del Potere</h2></div>
+ <span class="ta-tag">Catena causale</span>
+ </div>
+ <div class="ta-desc">
+ <p>La catena che lega l&rsquo;interiorit&agrave; alla storia mondiale: il <strong>cuore</strong> genera civilt&agrave;; le <strong>civilt&agrave;</strong> producono imperi; gli <strong>imperi</strong> costruiscono la storia; <strong>Dio</strong> giudica la storia; la <strong>storia</strong> tende al Regno. Ogni evento storico &egrave; un&rsquo;epifania del potere, e ogni potere ha una genealogia spirituale che risale al cuore dell&rsquo;uomo e alla sua immagine di Dio.</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-05.png" alt="Tavola 05 &mdash; La genealogia del potere: dal cuore alla civilt&agrave;, all&rsquo;impero, al giudizio, al Regno" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 05 &mdash; La genealogia del potere: cuore &rarr; civilt&agrave; &rarr; impero &rarr; giudizio &rarr; Regno.</div>
+ </div>
+
+ <div class="ta-vola reveal" id="tavola-06">
+ <div class="ta-head">
+ <div class="ta-num">06</div>
+ <div><h2>La Cartografia dell&rsquo;Anima Collettiva</h2></div>
+ <span class="ta-tag">Struttura frattale</span>
+ </div>
+ <div class="ta-desc">
+ <p>La <strong>struttura frattale</strong> dell&rsquo;anima: ci&ograve; che accade nell&rsquo;anima individuale si riflette nell&rsquo;anima collettiva di una civilt&agrave; e nella sua proiezione geopolitica. La ferita originaria, il desiderio di salvezza, la paura dell&rsquo;annientamento non sono solo sentimenti: sono <strong>forze geopolitiche</strong>. Mapparle significa capire perch&eacute; i popoli combattono.</p>
+ </div>
+ <div class="ta-img">
+ <img src="assets/img/tavola-06.png" alt="Tavola 06 &mdash; La cartografia dell&rsquo;anima collettiva: la struttura frattale tra individuo, civilt&agrave; e geopolitica" loading="lazy">
+ </div>
+ <div class="ta-didascalia">Tavola 06 &mdash; La cartografia dell&rsquo;anima collettiva e la sua proiezione geopolitica.</div>
+ </div>
+
+ <div class="ta-vola futura reveal" id="tavola-07">
+ <div class="ta-head">
+ <div class="ta-num">07</div>
+ <div><h2>La Dinamica Cuore &rarr; Civilt&agrave; &rarr; Impero</h2></div>
+ <span class="ta-tag"><span class="ta-badge">Prossimamente</span></span>
+ </div>
+ <div class="ta-soon"><p>Il movimento dall&rsquo;interiorit&agrave; alla storia: come una ferita originaria diventa motore imperiale, e come un desiderio di salvezza si corrompe in volont&agrave; di potenza.</p></div>
+ </div>
+
+ <div class="ta-vola futura reveal" id="tavola-08">
+ <div class="ta-head">
+ <div class="ta-num">08</div>
+ <div><h2>La Teologia della Storia</h2></div>
+ <span class="ta-tag"><span class="ta-badge">Prossimamente</span></span>
+ </div>
+ <div class="ta-soon"><p>La Storia della Salvezza come chiave di lettura della storia umana: Creazione, Caduta, Incarnazione, Croce, Resurrezione, Pentecoste, Escaton.</p></div>
+ </div>
+
+ <div class="ta-vola futura reveal" id="tavola-09">
+ <div class="ta-head">
+ <div class="ta-num">09</div>
+ <div><h2>L&rsquo;Apocalisse del Potere</h2></div>
+ <span class="ta-tag"><span class="ta-badge">Prossimamente</span></span>
+ </div>
+ <div class="ta-soon"><p>Le quattro figure (Anticristo, Impero, Katechon, Cristo) a confronto tra Peter Thiel e la TGR. La griglia dei Dieci Sistemi di Dominio.</p></div>
+ </div>
+
+ <div class="ta-vola futura reveal" id="tavola-10">
+ <div class="ta-head">
+ <div class="ta-num">10</div>
+ <div><h2>Applicazione del Metodo alla Guerra in Ucraina</h2></div>
+ <span class="ta-tag"><span class="ta-badge">Prossimamente</span></span>
+ </div>
+ <div class="ta-soon"><p>Il caso guida visualizzato: l&rsquo;albero decisionale delle cinque lenti applicato al conflitto ucraino, dalle cause geostrategiche al giudizio escatologico.</p></div>
+ </div>
+
+ <div class="chapter reveal" id="programma" style="text-align:center;margin-top:3rem">
+ <p style="color:var(--muted);font-weight:300;max-width:60ch;margin:0 auto">Altre venti tavole sono in programma per completare l&rsquo;Atlante, coprendo le cinque profondit&agrave; della realt&agrave;, il pentagono ermeneutico, la scala delle cinque domande e molto altro. Ogni nuova tavola sar&agrave; pubblicata in questa pagina non appena disponibile.</p>
+ </div>
+
+ <div class="endnav reveal">
+ <a class='backlink' href='/metodo-pentaedrico'>&larr; Il Metodo Pentaedrico</a>
+ <a class='backlink' href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica &rarr;</a>
+ </div>
+
+ </div>
+</main>
+
+<footer>
+ <div class="wrap">
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &mdash; Il Metodo Pentapolare. Atlante Visuale ufficiale.</p>
+ <p class="legal">&copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){"use strict";
+var bar=document.getElementById('progress');
+addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

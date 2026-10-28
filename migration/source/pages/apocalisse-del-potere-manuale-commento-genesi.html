@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Origini del Potere &mdash; Manuale &middot; MetaHistoria</title>
+<meta name="description" content="Commento teologico-psicologico-geopolitico a Genesi 1-11: la nascita del potere, della violenza e della civiltà. Da Adamo a Babele, l'archeologia spirituale dell'umanità.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;--maxw:1180px;--c1:#c9a227;--c2:#a32638;--c3:#5b7f5b;--c4:#7a5b8f;--c5:#3a7a9a;--c6:#8f6f4a;--c7:#9a3a3a}
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ section{padding:6.5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3.2rem;padding-top:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.8rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .back-link{display:inline-block;font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .3s}
+ .back-link:hover{color:var(--gold)}
+ .page-nav{display:flex;justify-content:space-between;align-items:stretch;padding:2.5rem 2rem;margin:1rem 0 0;gap:2rem}
+ .page-nav div{flex:1;display:flex;flex-direction:column}
+ .page-nav .nav-next{text-align:right;align-items:flex-end}
+ .page-nav .nav-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+ .page-nav a{font-family:var(--serif);font-size:1rem;color:var(--ink-soft);text-decoration:none;transition:color .3s;line-height:1.3}
+ .page-nav a:hover{color:var(--gold)}
+ .page-nav .nav-empty{color:var(--muted);opacity:.4;font-family:var(--serif);font-size:.9rem;font-style:italic}
+ @media(max-width:600px){.page-nav{flex-direction:column;gap:1rem}.page-nav .nav-next{text-align:left;align-items:flex-start}}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+/* --- DIAGRAM --- */
+.diagram-wrap{max-width:900px;margin:0 auto;padding:1rem 0 2rem}
+.diagram{position:relative;padding-left:3rem}
+.diagram::before{content:'';position:absolute;left:14px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.diagram-node{position:relative;padding:1rem 1.2rem;margin-bottom:.6rem;border-radius:6px;background:var(--surface);border:1px solid var(--line);transition:border-color .3s;cursor:default}
+.diagram-node::before{content:'';position:absolute;left:-22px;top:50%;width:12px;height:12px;border-radius:50%;transform:translateY(-50%);border:2px solid var(--gold);background:var(--bg)}
+.diagram-node.part-1{border-left:3px solid var(--c1)}.diagram-node.part-1::before{border-color:var(--c1);background:var(--c1)}
+.diagram-node.part-2{border-left:3px solid var(--c2)}.diagram-node.part-2::before{border-color:var(--c2);background:var(--c2)}
+.diagram-node.part-3{border-left:3px solid var(--c3)}.diagram-node.part-3::before{border-color:var(--c3);background:var(--c3)}
+.diagram-node.part-4{border-left:3px solid var(--c4)}.diagram-node.part-4::before{border-color:var(--c4);background:var(--c4)}
+.diagram-node.part-5{border-left:3px solid var(--c5)}.diagram-node.part-5::before{border-color:var(--c5);background:var(--c5)}
+.diagram-node.part-6{border-left:3px solid var(--c6)}.diagram-node.part-6::before{border-color:var(--c6);background:var(--c6)}
+.diagram-node.part-7{border-left:3px solid var(--c7)}.diagram-node.part-7::before{border-color:var(--c7);background:var(--c7)}
+.diagram-node .node-label{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.diagram-node .node-title{font-family:var(--serif);font-size:1.05rem;color:var(--ink)}
+.diagram-node .node-chapters{font-size:.8rem;color:var(--ink-soft);font-weight:300;margin-top:.3rem}
+.diagram-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem}
+.diagram-meta .mov-badge{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.diagram-meta .mov-badge.evo{color:var(--gold);border-color:var(--gold-soft)}
+.diagram-meta .mov-badge.aut{color:var(--red);border-color:var(--red-soft)}
+.diagram-meta .mov-badge.ome{color:var(--c3);border-color:rgba(91,127,91,.2)}
+
+/* --- PROLOGUE --- */
+.prologue-box{max-width:780px;margin:0 auto;padding:2rem 2.4rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;position:relative}
+.prologue-box::before{content:'P';position:absolute;top:-14px;left:2rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;color:var(--gold);background:var(--bg);padding:0 .6rem}
+.prologue-box p{color:var(--ink-soft);font-weight:300;font-size:.92rem;margin-bottom:1rem;line-height:1.75}
+.prologue-box p strong{color:var(--ink);font-weight:600}
+.prologue-box .verse{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:1rem;padding:.8rem 1.2rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+
+/* --- CHAPTER CARDS --- */
+.chapter-card{display:block;margin-bottom:1rem;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+.chapter-card[open]{border-color:var(--gold-soft)}
+.chapter-card summary{list-style:none;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.6rem;cursor:pointer;user-select:none;transition:background .3s}
+.chapter-card summary::-webkit-details-marker{display:none}
+.chapter-card summary:hover{background:var(--surface-2)}
+.chapter-card summary .card-num{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);flex-shrink:0;min-width:5rem}
+.chapter-card summary .card-title{font-family:var(--serif);font-size:1.1rem;color:var(--ink);flex:1}
+.chapter-card summary .card-arrow{font-size:.8rem;color:var(--muted);transition:transform .3s;flex-shrink:0}
+.chapter-card[open] summary .card-arrow{transform:rotate(180deg)}
+.chapter-card .card-body{padding:0 1.6rem 1.6rem;border-top:1px solid var(--line)}
+.chapter-card .card-body .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin:1.2rem 0 1rem;padding:.7rem 1rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+.chapter-card .card-body p{color:var(--ink-soft);font-weight:300;font-size:.9rem;margin-bottom:.9rem;line-height:1.75}
+.chapter-card .card-body p strong{color:var(--ink);font-weight:600}
+.mov-head{display:flex;align-items:center;gap:.6rem;margin:1.4rem 0 .6rem;padding-top:.6rem}
+.mov-head .mov-ico{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);font-weight:500}
+.mov-head .mov-ico.evo{color:var(--gold);background:var(--gold-soft)}
+.mov-head .mov-ico.aut{color:var(--red);background:var(--red-soft)}
+.mov-head .mov-ico.ome{color:var(--c3);background:rgba(91,127,91,.12)}
+.mov-head .mov-label{font-family:var(--serif);font-size:.85rem;font-style:italic;color:var(--muted)}
+.card-body .omelia-box{background:var(--bg);border:1px solid var(--red-soft);border-left:3px solid var(--red);padding:1.2rem 1.6rem;margin:1rem 0;border-radius:4px}
+.card-body .omelia-box p{font-family:var(--serif);font-size:clamp(.9rem,1.3vw,1.05rem);font-style:italic;color:var(--ink);line-height:1.6}
+.card-body .omelia-box .tag{display:block;margin-top:.6rem;font-family:var(--sans);font-style:normal;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* --- PART HEADERS --- */
+.part-head{text-align:center;padding:2.5rem 1rem 1.5rem;margin:2rem 0}
+.part-head .part-num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.4rem}
+.part-head .part-num span{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+.part-head h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--gold);margin-bottom:.4rem}
+.part-head .part-sub{font-size:.85rem;color:var(--ink-soft);font-weight:300;letter-spacing:.04em}
+.part-head .part-line{width:60px;height:1px;margin:.8rem auto 0;background:var(--line)}
+
+/* --- CONCLUSION --- */
+.conclusion-section{text-align:center;padding:3rem 2rem}
+.conclusion-section .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin-bottom:1rem;padding:.7rem 1rem;display:inline-block}
+.conclusion-section .conclusion-msg{max-width:680px;margin:0 auto;background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;border-radius:8px}
+.conclusion-section .conclusion-msg p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.2rem);font-style:italic;color:var(--ink);line-height:1.6}
+.conclusion-section .conclusion-msg .tag{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+
+/* --- RESPONSIVE --- */
+@media(max-width:640px){.diagram{padding-left:2rem}.diagram-node{padding:.8rem 1rem}.chapter-card summary{padding:1rem 1.2rem}.chapter-card .card-body{padding:0 1.2rem 1.2rem}.prologue-box{padding:1.5rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+</div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+</div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+</div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+</div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+</div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section>
+<div class="wrap">
+<a class='back-link' href='/apocalisse-del-potere/'>&larr; Apocalisse del Potere</a>
+<div class="sec-head reveal">
+<span class="sec-num">Lente 05 &middot; M</span>
+<h2>Le Origini del Potere</h2>
+<p class="lede">Commento teologico, psicologico e geopolitico a Genesi 1&ndash;11 &mdash; Manuale di archeologia spirituale della civilt&agrave;. L&rsquo;anatomia delle logiche che renderanno possibili gli imperi: il dominio, la paura, la tecnica, la citt&agrave;, la violenza, l&rsquo;idolatria.</p>
+</div>
+
+<div class="man-body reveal">
+<p style="font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;line-height:1.2;margin-bottom:1.5rem"><em style="color:var(--gold);font-style:italic">Le Origini del Potere</em> &mdash; Caos, desiderio e civilt&agrave; nei primi undici capitoli della Genesi</p>
+<p style="color:var(--ink-soft);font-weight:300;font-size:.92rem;line-height:1.75">Questo manuale &egrave; il quarto volume della collana. Non guarda la fine della storia ma il suo principio: l&rsquo;archeologia del potere umano dissepolta dai primi undici capitoli della Genesi. Ogni capitolo segue i tre movimenti: <strong style="color:var(--gold)">Evocazione</strong> (la scena biblica), <strong style="color:var(--red)">Autopsia</strong> (l&rsquo;analisi geopolitico-psicologica) e <strong style="color:#5b7f5b">Omelia</strong> (l&rsquo;applicazione oggi).</p>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface);padding:3rem 2rem">
+<div class="diagram-wrap reveal">
+<h3 style="font-family:var(--serif);font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:2rem">Mappa del Manuale</h3>
+<div class="diagram">
+<div class="diagram-node" style="border-left-color:var(--gold)">
+<div class="node-label">PROLOGO</div>
+<div class="node-title">L&rsquo;armonia infranta</div>
+<div class="node-chapters">Dalla creazione alla caduta</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-1">
+<div class="node-label">PARTE I &middot; 3 capitoli</div>
+<div class="node-title">Il Cosmo e il Limite</div>
+<div class="node-chapters">Separare il caos &middot; Il giardino e il limite &middot; Il serpente e la narrazione</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-2">
+<div class="node-label">PARTE II &middot; 3 capitoli</div>
+<div class="node-title">La Nascita della Violenza</div>
+<div class="node-chapters">Caino e il volto dell&rsquo;altro &middot; La citt&agrave; di Caino &middot; Lamech e l&rsquo;escalation</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-3">
+<div class="node-label">PARTE III &middot; 3 capitoli</div>
+<div class="node-title">Il Mondo Sommerso</div>
+<div class="node-chapters">I giganti e la corruzione &middot; Il diluvio &middot; L&rsquo;arca</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-4">
+<div class="node-label">PARTE IV &middot; 2 capitoli</div>
+<div class="node-title">Dopo il Collasso</div>
+<div class="node-chapters">No&egrave; e la nudit&agrave; &middot; Cam e il potere dello sguardo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-5">
+<div class="node-label">PARTE V &middot; 3 capitoli</div>
+<div class="node-title">Babele</div>
+<div class="node-chapters">Costruiamo una citt&agrave; &middot; La torre e il cielo &middot; La confusione delle lingue</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-6">
+<div class="node-label">PARTE VI &middot; 2 capitoli</div>
+<div class="node-title">L&rsquo;Esilio e la Promessa</div>
+<div class="node-chapters">Uscire da Babele &middot; Verso Abramo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal">
+<div class="prologue-box">
+<p class="verse">&laquo;Dio cre&ograve; l&rsquo;uomo a sua immagine; a immagine di Dio lo cre&ograve;: maschio e femmina li cre&ograve;. Dio li benedisse.&raquo; (Genesi 1,27-28)</p>
+<p>Tutto comincia con una parola. Non con un conflitto, non con una conquista. La realt&agrave; non nasce dal caos ma da un atto di separazione e distinzione: luce e tenebre, acque sopra e acque sotto, terra e mare. La creazione &egrave; il primo atto di potere autentico: il potere che d&agrave; forma senza distruggere, che separa senza annientare, che dona senza possedere. Ma questa armonia originaria dura poco. Nel giardino si insinua una voce che riscrive la realt&agrave;. L&rsquo;uomo vuole diventare come Dio. E tutto precipita. Da qui, da questa frattura originaria, nasce tutto ci&ograve; che chiamiamo civilt&agrave; &mdash; con le sue citt&agrave;, le sue torri, le sue guerre, la sua grandezza e la sua miseria.</p>
+<p><strong>Questo manuale &egrave; il quarto volume della collana.</strong> Non guarda la fine della storia ma il suo principio: l&rsquo;archeologia del potere umano dissepolta dai primi undici capitoli della Genesi. Ogni capitolo segue i tre movimenti: Evocazione (la scena biblica), Autopsia (l&rsquo;analisi geopolitico-psicologica) e Omelia (l&rsquo;applicazione oggi).</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c1)"></span>PARTE I</span>
+<h3>Il Cosmo e il Limite</h3>
+<p class="part-sub">Quando il mondo era ancora dono</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 1</span><span class="card-title">Separare il caos</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;In principio Dio cre&ograve; il cielo e la terra. La terra era informe e deserta e le tenebre ricoprivano l&rsquo;abisso e lo Spirito di Dio aleggiava sulle acque.&raquo; (Genesi 1,1-2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Creazione come Atto Politico</span></div>
+<p>Il primo capitolo della Bibbia non &egrave; una lezione di cosmologia: &egrave; una dichiarazione teologica e politica. L&rsquo;universo non nasce da una lotta tra d&egrave;i, come nei miti babilonesi. Nasce da una parola. La creazione &egrave; un atto di separazione: luce dalle tenebre, acque dalle acque, terra dal mare. Non &egrave; caos primordiale domato con la violenza: &egrave; ordine generato con la parola. Il Dio della Bibbia non combatte un drago primordiale: parla, e la realt&agrave; risponde.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Ordine</span></div>
+<p>Ogni civilt&agrave; umana nasce gestendo il caos. Le prime societ&agrave; costruirono argini, canali, calendari per ordinare il disordine naturale. Lo Stato stesso &egrave; una risposta alla paura del caos. Ma la Genesi propone un modello diverso: il potere che d&agrave; forma non &egrave; violenza che si impone, &egrave; parola che chiama all&rsquo;esistenza. La geopolitica del &laquo;dominio sulla terra&raquo; data all&rsquo;uomo non &egrave; licenza di sfruttare: &egrave; mandato di custodire coltivando, di dare forma rispettando. La differenza tra un giardiniere e un predatore &egrave; tutta qui.</p>
+<div class="omelia-box">
+<p>Anche tu vivi tra caos e forma. Ogni mattina ti svegli e devi dare ordine alla tua giornata, alle tue relazioni, ai tuoi pensieri. Come lo fai? Con la violenza di chi impone la sua volont&agrave; o con la pazienza di chi ascolta la realt&agrave; e la aiuta a fiorire? Il primo atto di potere della tua vita non &egrave; ci&ograve; che ottieni: &egrave; ci&ograve; che distingui. Cosa stai separando dentro di te? La luce dalle tenebre?</p>
+<span class="tag">Dare forma senza distruggere</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 2</span><span class="card-title">Il giardino e il limite</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Il Signore Dio prese l&rsquo;uomo e lo pose nel giardino di Eden, perch&eacute; lo coltivasse e lo custodisse. Il Signore Dio diede questo comando all&rsquo;uomo: &laquo;Mangia pure di ogni albero del giardino, ma dell&rsquo;albero della conoscenza del bene e del male non devi mangiare&raquo;.&raquo; (Genesi 2,15-17)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Dono e il Confine</span></div>
+<p>Il giardino non &egrave; solo un luogo: &egrave; una condizione. L&rsquo;uomo &egrave; posto in una realt&agrave; di dono e limite. &laquo;Mangia pure di ogni albero&raquo; &mdash; l&rsquo;abbondanza precede il divieto. La proibizione non &egrave; il primo dato: il primo dato &egrave; la generosit&agrave;. &laquo;Coltivare e custodire&raquo; definisce il ruolo umano: non padrone assoluto ma custode. L&rsquo;albero proibito non &egrave; una trappola: &egrave; il segno che la libert&agrave; umana non &egrave; onnipotenza. C&rsquo;&egrave; un confine, e quel confine protegge la relazione. Non puoi possedere tutto, perch&eacute; possedere tutto significa non aver bisogno di nessuno, neppure di Dio.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Limite</span></div>
+<p>La geopolitica inizia qui. Ogni totalitarismo &egrave; il tentativo di abolire l&rsquo;albero proibito: niente deve essere fuori dal controllo del sistema. Il potere assoluto &egrave; quello che non tollera limiti. Ma la Genesi rivela che il limite non &egrave; un difetto della creazione: &egrave; la sua struttura portante. Come il corpo ha bisogno di membrane che separano e proteggono, cos&igrave; la societ&agrave; ha bisogno di confini che preservino la libert&agrave;. L&rsquo;assenza di limiti non &egrave; libert&agrave;: &egrave; caos, &egrave; fusione, &egrave; morte della relazione.</p>
+<div class="omelia-box">
+<p>Qual &egrave; il tuo rapporto con i limiti? Li vivi come punizioni o come protezioni? Il corpo ti chiede riposo: lo ascolti o lo forzi? Le relazioni hanno confini: li rispetti o li violi? La terra ha risorse finite: le custodisci o le saccheggi? Il giardino &egrave; ancora qui: sei chiamato a coltivarlo e custodirlo. Non a possederlo.</p>
+<span class="tag">Il limite che salva</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 3</span><span class="card-title">Il serpente e la narrazione</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Il serpente disse alla donna: &laquo;Non morirete affatto! Anzi, Dio sa che il giorno in cui ne mangerete si apriranno i vostri occhi e diventerete come Dio, conoscendo il bene e il male&raquo;.&raquo; (Genesi 3,4-5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Voce che Riscrive</span></div>
+<p>Il serpente non attacca frontalmente. Non dice: &laquo;Dio non esiste&raquo;. Dice: &laquo;Dio vi ha detto cos&igrave;?&raquo;. Insinua, interroga, distorce. La sua strategia &egrave; narrativa: riscrive il racconto. Il limite che proteggeva diventa una privazione ingiusta. Dio che donava diventa un rivale geloso. L&rsquo;albero non &egrave; pi&ugrave; un confine: &egrave; una conquista. La caduta non inizia con un gesto ma con una parola che cambia il significato della realt&agrave;. Eva ed Adamo non mangiano per fame: mangiano perch&eacute; vogliono &laquo;essere come Dio&raquo;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Propaganda</span></div>
+<p>Qui nasce ogni propaganda politica. Non servono bugie palesi: basta alterare la narrazione. Il nemico non &egrave; chi attacca ma chi &laquo;riformula&raquo;. Ogni potere totalitario riscrive il racconto del reale: la limitazione della libert&agrave; diventa &laquo;sicurezza&raquo;, lo sfruttamento diventa &laquo;sviluppo&raquo;, il dominio diventa &laquo;protezione&raquo;. Il serpente &egrave; il primo spin doctor della storia. La sua tattica funziona perch&eacute; fa leva sul desiderio pi&ugrave; profondo dell&rsquo;uomo: non avere limiti, non dipendere da nessuno, essere il centro.</p>
+<div class="omelia-box">
+<p>Quante voci oggi ti sussurrano: &laquo;Non morirai affatto&raquo;? Il consumo ti promette felicit&agrave; e ti lascia vuoto. Il potere ti promette sicurezza e ti toglie libert&agrave;. La tecnica ti promette immortalit&agrave; digitale e ti disumanizza. Il discernimento inizia quando riconosci la voce del serpente &mdash; non quella che grida, ma quella che insinua, che ti fa dubitare del dono per venderti il possesso.</p>
+<span class="tag">La voce che riscrive</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c2)"></span>PARTE II</span>
+<h3>La Nascita della Violenza</h3>
+<p class="part-sub">Dal fratello al nemico</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 4</span><span class="card-title">Caino e il volto dell&rsquo;altro</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Caino disse al fratello Abele: &laquo;Andiamo in campagna!&raquo;. Mentre erano in campagna, Caino alz&ograve; la mano contro il fratello Abele e lo uccise.&raquo; (Genesi 4,8)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Primo Omicidio</span></div>
+<p>Il primo omicidio della storia non &egrave; per una risorsa materiale. Non &egrave; per il cibo, per il territorio, per l&rsquo;acqua. &Egrave; per un&rsquo;offerta. Caino e Abele portano entrambi doni a Dio. Dio guarda Abele e la sua offerta; non guarda Caino e la sua. Il testo non spiega perch&eacute;. Ma la reazione di Caino &egrave; rivelatrice: &laquo;era molto irritato e il suo volto era abbattuto&raquo;. Non &egrave; rabbia per un&rsquo;ingiustizia: &egrave; il livore di chi si sente sminuito. Il fratello non gli ha fatto niente. &Egrave; la sua stessa esistenza, il suo essere gradito a Dio, a diventare insopportabile.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Capro Espiatorio</span></div>
+<p>Nasce qui la dinamica del capro espiatorio. Non c&rsquo;&egrave; motivo oggettivo per uccidere Abele: Abele &egrave; colpevole solo di esistere e di essere visto con favore. La violenza originaria non &egrave; strumentale (uccido per ottenere qualcosa) ma mimetica (uccido perch&eacute; l&rsquo;altro ha ci&ograve; che io non ho, anche solo lo sguardo di Dio). La geopolitica &egrave; piena di Caini: nazioni che attaccano altre nazioni non per risorse ma per risentimento, per invidia del prestigio, per rabbia di non essere viste. Il conflitto israelo-palestinese, la rivalit&agrave; tra potenze: quante guerre nascono perch&eacute; il &laquo;volto&raquo; dell&rsquo;altro &egrave; insopportabile?</p>
+<div class="omelia-box">
+<p>Il tuo Caino interiore si manifesta quando scrolli i social e vedi il successo altrui. Quando un collega viene promosso al posto tuo. Quando il fratello, la sorella, l&rsquo;amico sembrano ricevere di pi&ugrave; dalla vita. Quello che provi in quei momenti &mdash; quel morso allo stomaco &mdash; &egrave; l&rsquo;anticamera dell&rsquo;omicidio. Non ucciderai fisicamente, ma quante volte hai ucciso con la parola, col giudizio, con l&rsquo;esclusione? La domanda di Dio a Caino risuona ancora: &laquo;Dov&rsquo;&egrave; tuo fratello?&raquo;.</p>
+<span class="tag">Dov&rsquo;&egrave; tuo fratello?</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 5</span><span class="card-title">La citt&agrave; di Caino</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Caino si allontan&ograve; dal Signore e abit&ograve; nella regione di Nod, a oriente di Eden. Poi conobbe sua moglie ed essa concep&igrave; e partor&igrave; Enoc; divenne costruttore di una citt&agrave;, e chiam&ograve; la citt&agrave; Enoc, come il nome del figlio.&raquo; (Genesi 4,16-17)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Prima Citt&agrave;</span></div>
+<p>Dopo l&rsquo;omicidio, Caino non viene ucciso. Viene marchiato e allontanato, ma protetto. Poi costruisce una citt&agrave;. La prima citt&agrave; della storia &egrave; fondata da un assassino. Non &egrave; un caso. La citt&agrave; nasce dal bisogno di protezione dopo la frattura. Caino ha paura: &laquo;Chiunque mi incontrer&agrave; mi uccider&agrave;&raquo;. La citt&agrave; &egrave; una risposta a questa paura. Muri, porte, leggi: la civilt&agrave; nasce per contenere la violenza che la civilt&agrave; stessa ha generato. &Egrave; il paradosso fondativo di ogni societ&agrave; umana.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Citt&agrave;</span></div>
+<p>La genealogia del potere urbano comincia con Caino. La citt&agrave; &egrave; insieme la pi&ugrave; grande creazione umana e la pi&ugrave; grande prigione. Protegge e isola. Raccoglie e separa. Le metropoli contemporanee sono Caino moltiplicato: megalopoli dove milioni di persone vivono vicine ma sole, protette da sistemi di sicurezza ma terrorizzate dall&rsquo;altro, ricche di tecnologia ma povere di relazioni. La civilt&agrave; che costruiamo per proteggerci dalla violenza genera nuove forme di violenza: esclusione, disuguaglianza, anonimato, solitudine di massa.</p>
+<div class="omelia-box">
+<p>In che citt&agrave; vivi? Non geograficamente: esistenzialmente. Vivi in una fortezza di diffidenza, di paure, di difese? La citt&agrave; di Caino &egrave; ogni sistema che costruisci per proteggerti. La carriera come muraglia. Il conto in banca come fossato. Le abitudini come porte blindate. Ma le mura che ti proteggono ti imprigionano. Da chi ti stai difendendo? E a quale prezzo?</p>
+<span class="tag">La citt&agrave; dell&rsquo;assassino</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 6</span><span class="card-title">Lamech e l&rsquo;escalation</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Lamech disse alle sue mogli: &laquo;Ada e Silla, ascoltate la mia voce; mogli di Lamech, porgete orecchio al mio dire: ho ucciso un uomo per una mia scalfittura e un ragazzo per un mio livido. Sette volte sar&agrave; vendicato Caino, ma Lamech settantasette&raquo;.&raquo; (Genesi 4,23-24)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Canto della Violenza</span></div>
+<p>Lamech &egrave; il primo poeta della violenza. Mette in versi il suo omicidio e lo canta alle mogli. Non si vergogna: si vanta. L&rsquo;omicidio di Caino era stato nascosto, negato. Quello di Lamech viene celebrato, reso canzone, tradizione orale. La spirale &egrave; evidente: Caino doveva essere vendicato sette volte, Lamech settantasette. La violenza non si ferma: si moltiplica. Diventa cultura. Diventa identit&agrave;. &laquo;Sono uno che uccide&raquo; diventa motivo di orgoglio.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Vendetta</span></div>
+<p>Il canto di Lamech &egrave; l&rsquo;archetipo di ogni cultura della vendetta. Le faide tribali, le guerre di religione, i conflitti etnici: tutti hanno il loro Lamech che trasforma il dolore in identit&agrave; e la vendetta in poesia. La geopolitica della vendetta funziona perch&eacute; d&agrave; significato alla sofferenza: non sei una vittima, sei un vendicatore. Il tuo dolore non &egrave; stato vano: sar&agrave; ripagato settantasette volte. &Egrave; cos&igrave; che le spirali di violenza diventano eterne: ogni generazione eredita non solo il trauma ma anche l&rsquo;obbligo della vendetta.</p>
+<div class="omelia-box">
+<p>C&rsquo;&egrave; un Lamech anche in te. Quando trasformi le tue ferite in identit&agrave;. Quando ti definisci attraverso ci&ograve; che hai subito. Quando il rancore diventa il carburante della tua vita. Il Vangelo non ti chiede di dimenticare il male subito: ti chiede di smettere di cantarlo. Di non farne una canzone da tramandare. Il perdono non &egrave; negare il dolore: &egrave; rifiutare che il dolore diventi la tua definizione.</p>
+<span class="tag">Il canto della vendetta</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c3)"></span>PARTE III</span>
+<h3>Il Mondo Sommerso</h3>
+<p class="part-sub">Il collasso della creazione</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 7</span><span class="card-title">I giganti e la corruzione</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Il Signore vide che la malvagit&agrave; degli uomini era grande sulla terra e che ogni disegno concepito dal loro cuore non era altro che male. E il Signore si pent&igrave; di aver fatto l&rsquo;uomo sulla terra e se ne addolor&ograve; in cuor suo.&raquo; (Genesi 6,5-6)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Corruzione Totale</span></div>
+<p>Il racconto dei &laquo;figli di Dio&raquo; che si uniscono alle &laquo;figlie degli uomini&raquo; &egrave; misterioso. Ma il senso &egrave; chiaro: i confini vengono violati. Il divino e l&rsquo;umano si mescolano. Nascono i giganti, i &laquo;potenti&raquo; dell&rsquo;antichit&agrave;. &Egrave; l&rsquo;immagine di una civilt&agrave; che ha perso ogni limite. Il risultato &egrave; la violenza diffusa, la corruzione totale. Dio non guarda pi&ugrave; la creazione e dice &laquo;&egrave; cosa buona&raquo;. Guarda e si addolora. &Egrave; il versetto pi&ugrave; tragico della Bibbia: Dio si pente di aver creato l&rsquo;uomo. Il creatore prova dolore per la sua creazione.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Hybris</span></div>
+<p>Ogni civilt&agrave; ha i suoi giganti. Le &eacute;lite che si sentono al di sopra di ogni legge. I potenti che confondono il loro potere con l&rsquo;assoluto. Quando una societ&agrave; perde il senso del limite &mdash; tra umano e divino, tra lecito e illecito, tra ambizione e hybris &mdash; si avvia al collasso. Il Novecento ha prodotto giganti: totalitarismi che hanno preteso di rifare l&rsquo;uomo, tecnocrazie che hanno sfidato la natura, ideologie che hanno sostituito Dio. Ogni volta che l&rsquo;umanit&agrave; dice &laquo;andiamo oltre&raquo;, sta preparando il proprio diluvio.</p>
+<div class="omelia-box">
+<p>Anche nella tua vita personale, la perdita dei confini porta al disastro. Quando il lavoro invade ogni spazio. Quando il desiderio non conosce limiti. Quando l&rsquo;ambizione diventa l&rsquo;unica misura. Il &laquo;dolore di Dio&raquo; &egrave; per te, per quello che diventi quando perdi il senso del limite. Fermati. Guarda la tua vita. Dove hai cancellato i confini che proteggevano la tua umanit&agrave;?</p>
+<span class="tag">Il dolore di Dio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 8</span><span class="card-title">Il diluvio</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Ecco, io mander&ograve; il diluvio delle acque sulla terra per distruggere ogni carne in cui c&rsquo;&egrave; soffio di vita sotto il cielo. Quanto &egrave; sulla terra morir&agrave;.&raquo; (Genesi 6,17)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Giudizio delle Acque</span></div>
+<p>Il diluvio &egrave; il momento in cui la creazione torna al caos originario. Le acque che erano state separate nel secondo giorno ora si ricongiungono. Il mondo costruito dagli uomini &mdash; citt&agrave;, torri, fortezze &mdash; sparisce. Non resta nulla. Per quaranta giorni la pioggia cancella ogni traccia di civilt&agrave;. &Egrave; il giudizio di Dio, ma &egrave; anche la logica interna della creazione: quando l&rsquo;uomo viola sistematicamente l&rsquo;ordine, l&rsquo;ordine si disfa. La natura non &egrave; un fondale passivo: &egrave; una forza che l&rsquo;uomo non controlla.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Collasso</span></div>
+<p>Il diluvio &egrave; l&rsquo;archetipo di ogni collasso di civilt&agrave;. Le civilt&agrave; crollano quando pensano di essere eterne. L&rsquo;Impero romano, l&rsquo;Unione Sovietica, le bolle finanziarie: ogni sistema umano ha la sua data di scadenza. Il cambiamento climatico contemporaneo &egrave; forse la manifestazione pi&ugrave; vicina all&rsquo;archetipo del diluvio: la natura che risponde alla hybris umana. La geopolitica ha sempre ignorato la natura, trattandola come risorsa infinita. Il diluvio ricorda che la terra ha limiti, e che violarli significa l&rsquo;autodistruzione.</p>
+<div class="omelia-box">
+<p>Hai mai vissuto un diluvio personale? Un momento in cui tutto ci&ograve; che avevi costruito &mdash; relazioni, progetti, certezze &mdash; &egrave; stato spazzato via? In quei momenti senti tutta la fragilit&agrave; umana. Ma nel racconto biblico il diluvio non &egrave; l&rsquo;ultima parola. C&rsquo;&egrave; un&rsquo;arca. C&rsquo;&egrave; una salvezza che galleggia sul caos. Il diluvio distrugge le tue torri, ma non la tua anima.</p>
+<span class="tag">La fine del mondo conosciuto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 9</span><span class="card-title">L&rsquo;arca</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Dio si ricord&ograve; di No&egrave;, di tutte le fiere e di tutti gli animali che erano con lui nell&rsquo;arca. Dio fece passare un vento sulla terra e le acque si abbassarono.&raquo; (Genesi 8,1)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Salvezza nel Caos</span></div>
+<p>L&rsquo;arca &egrave; una strana salvezza. Non &egrave; una via di fuga: &egrave; un contenitore di vita in mezzo alla morte. No&egrave; non viene rapito in cielo: resta sulla terra, sull&rsquo;acqua, dentro la tempesta per centocinquanta giorni. L&rsquo;arca puzza, strepita, traballa. &Egrave; una comunit&agrave; di sopravvissuti &mdash; umani e animali &mdash; stipati insieme nel buio. Ma Dio &laquo;si ricorda&raquo; di No&egrave;. Il verbo ebraico &egrave; lo stesso usato per l&rsquo;alleanza: non &egrave; un ricordo mentale, &egrave; un&rsquo;azione. Dio agisce. Il vento soffia. Le acque calano. La vita ricomincia.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Resilienza</span></div>
+<p>L&rsquo;arca &egrave; il modello di ogni resistenza spirituale dentro il collasso della civilt&agrave;. Non cerca di salvare l&rsquo;intera civilt&agrave;: salva un resto, un campione di vita. Non promette di fermare la catastrofe: promette di attraversarla. Le comunit&agrave; che sopravvivono ai collassi storici sono arche: piccole, resilienti, capaci di conservare la vita mentre tutto intorno muore. La Chiesa stessa &egrave; un&rsquo;arca: non un&rsquo;istituzione trionfante ma un fragile contenitore di speranza in mezzo alle tempeste della storia.</p>
+<div class="omelia-box">
+<p>Quando la tua vita &egrave; in tempesta, non cercare di fermare le onde. Costruisci un&rsquo;arca. Un luogo &mdash; una pratica, una relazione, una preghiera &mdash; dove la vita pu&ograve; essere custodita mentre il caos passa. Non devi salvare tutto: devi salvare l&rsquo;essenziale. Cosa vuoi portare con te attraverso la tempesta? Cosa merita di sopravvivere?</p>
+<span class="tag">L&rsquo;arca interiore</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c4)"></span>PARTE IV</span>
+<h3>Dopo il Collasso</h3>
+<p class="part-sub">L&rsquo;uomo ricomincia&hellip; ma resta ferito</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 10</span><span class="card-title">No&egrave; e la nudit&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;No&egrave;, uomo della terra, cominci&ograve; a piantare una vigna. Bevve il vino, si ubriac&ograve; e giacque scoperto all&rsquo;interno della sua tenda.&raquo; (Genesi 9,20-21)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Caduta del Giusto</span></div>
+<p>Il racconto &egrave; sconcertante. No&egrave;, il giusto salvato dal diluvio, il patriarca della nuova umanit&agrave;, si ubriaca e giace nudo nella sua tenda. Non &egrave; un dettaglio secondario: &egrave; la dimostrazione che il diluvio non ha risolto il problema umano. L&rsquo;acqua ha lavato la terra, non il cuore. Il giusto &egrave; fragile quanto l&rsquo;ingiusto. La nudit&agrave; di No&egrave; &egrave; la nudit&agrave; di ogni uomo dopo la catarsi: sopravvissuto, ma non trasformato. Salvo, ma non santo.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Fragilit&agrave;</span></div>
+<p>Le civilt&agrave; che sopravvivono ai collassi non diventano automaticamente migliori. Il dopoguerra non produce automaticamente pace. Il trauma superato non garantisce la saggezza. No&egrave; pianta una vigna &mdash; gesto di civilt&agrave;, di ricostruzione &mdash; ma il frutto della vigna lo espone nella sua fragilit&agrave;. &Egrave; la lezione geopolitica pi&ugrave; dura: non esistono soluzioni definitive. Ogni generazione ricomincia con lo stesso cuore vulnerabile della precedente. Le istituzioni possono cambiare; l&rsquo;uomo no, se non dal di dentro.</p>
+<div class="omelia-box">
+<p>Ti sei mai illuso che superata una crisi saresti diventato una persona migliore? E poi hai scoperto che le stesse fragilit&agrave; sono tornate? La caduta di No&egrave; &egrave; un sollievo: non sei solo. Anche i giusti cadono. La santit&agrave; non &egrave; assenza di cadute: &egrave; sapersi rialzare. Non &egrave; non avere nudit&agrave;: &egrave; permettere a qualcuno di coprirti.</p>
+<span class="tag">La vulnerabilit&agrave; del giusto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 11</span><span class="card-title">Cam e il potere dello sguardo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Cam, padre di Canaan, vide la nudit&agrave; di suo padre e usc&igrave; a raccontarlo ai suoi due fratelli. Ma Sem e Iafet presero un mantello, se lo misero sulle spalle, camminando all&rsquo;indietro coprirono la nudit&agrave; del padre; avevano il viso rivolto indietro e non videro la nudit&agrave; del padre.&raquo; (Genesi 9,22-23)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Lo Sguardo che Distrugge</span></div>
+<p>Cam vede la nudit&agrave; del padre. Non la copre: la racconta. Esce e chiama i fratelli perch&eacute; vedano anche loro. Il verbo ebraico pu&ograve; significare un atto pi&ugrave; grave del semplice guardare, ma il punto &egrave; gi&agrave; chiaro nell&rsquo;opposizione tra Cam e gli altri fratelli. Cam espone; Sem e Iafet coprono. Cam umilia; Sem e Iafet onorano. Cam usa la fragilit&agrave; del padre per sminuirlo; Sem e Iafet proteggono la dignit&agrave; del padre anche a costo di camminare all&rsquo;indietro.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Umiliazione</span></div>
+<p>La derisione &egrave; una forma di potere. Esporre la debolezza altrui &egrave; un modo per sentirsi superiori. Ogni dittatura usa l&rsquo;umiliazione come strumento di controllo: il nemico non va solo sconfitto, va ridicolizzato, spogliato della sua dignit&agrave;. I social media sono una fabbrica di Cam: la gogna pubblica, lo shitstorm, la cultura dell&rsquo;esposizione. Guardare la nudit&agrave; altrui &mdash; la fragilit&agrave;, l&rsquo;errore, il momento di debolezza &mdash; e condividerla per ottenere like. Potere attraverso l&rsquo;umiliazione. La maledizione di Canaan mostra che questo potere ha conseguenze: l&rsquo;umiliazione genera catene.</p>
+<div class="omelia-box">
+<p>Quante volte sei stato Cam? Quante volte hai visto la fragilit&agrave; di qualcuno e l&rsquo;hai raccontata, l&rsquo;hai condivisa, l&rsquo;hai usata per sentirti migliore? E quante volte sei stato Sem e Iafet, che camminano all&rsquo;indietro per coprire la nudit&agrave; del padre senza guardarla? Il potere dello sguardo: puoi usarlo per distruggere o per proteggere. Scegli.</p>
+<span class="tag">Coprire la nudit&agrave;</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c5)"></span>PARTE V</span>
+<h3>Babele</h3>
+<p class="part-sub">L&rsquo;impero verticale</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 12</span><span class="card-title">Costruiamo una citt&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Venite, costruiamoci una citt&agrave; e una torre la cui cima tocchi il cielo, e facciamoci un nome, per non essere dispersi su tutta la terra.&raquo; (Genesi 11,4)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Progetto Totalitario</span></div>
+<p>Dopo il diluvio, l&rsquo;umanit&agrave; ha paura. Non della punizione divina: della dispersione. &laquo;Per non essere dispersi su tutta la terra&raquo;. Il progetto di Babele nasce dall&rsquo;angoscia. Gli uomini vogliono un nome, una citt&agrave;, una torre. Vogliono essere visibili, permanenti, uniti. La torre &egrave; il monumento alla loro potenza, la citt&agrave; &egrave; il contenitore della loro identit&agrave;. Non c&rsquo;&egrave; idolatria esplicita: non nominano altri d&egrave;i. Il loro dio &egrave; l&rsquo;unit&agrave; stessa, la forza collettiva, la capacit&agrave; tecnica.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica del Totalitarismo</span></div>
+<p>Babele &egrave; la prima descrizione di un totalitarismo. L&rsquo;unit&agrave; linguistica (una sola lingua), l&rsquo;unit&agrave; spaziale (una sola citt&agrave;), l&rsquo;unit&agrave; di scopo (una sola torre) cancellano ogni differenza. &laquo;Facciamoci un nome&raquo;: il nome &egrave; ci&ograve; che ti rende unico, ma qui il nome &egrave; collettivo, sostituisce l&rsquo;identit&agrave; personale con l&rsquo;identit&agrave; del sistema. Ogni impero della storia ha tentato di ricostruire Babele: Roma, il Sacro Romano Impero, l&rsquo;Unione Sovietica, il globalismo tecnocratico. La promessa &egrave; sempre la stessa: unit&agrave; contro dispersione, sicurezza contro caos. Il prezzo &egrave; la libert&agrave;.</p>
+<div class="omelia-box">
+<p>Qual &egrave; la tua Babele? Il sistema che ti promette identit&agrave;, sicurezza, appartenenza in cambio della tua unicit&agrave;? Pu&ograve; essere l&rsquo;azienda, il partito, il gruppo, la moda, l&rsquo;ideologia. Ti chiedono di parlare la stessa lingua, di allinearti, di non distinguerti. &laquo;Facciamoci un nome&raquo;. Ma tu hai gi&agrave; un nome: te l&rsquo;ha dato Dio. Non hai bisogno di costruire torri per esistere.</p>
+<span class="tag">Il nome che salva</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 13</span><span class="card-title">La torre e il cielo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Il Signore scese a vedere la citt&agrave; e la torre che i figli dell&rsquo;uomo stavano costruendo.&raquo; (Genesi 11,5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L&rsquo;Ironia Divina</span></div>
+<p>La torre vuole &laquo;toccare il cielo&raquo;. Non per adorare Dio ma per raggiungerlo, per portare l&rsquo;uomo al livello di Dio con i suoi propri mezzi. &Egrave; il sogno prometeico: la tecnica come salvezza. I mattoni sostituiscono la pietra, il bitume sostituisce la calce: materiali artificiali per un&rsquo;impresa artificiale. L&rsquo;uomo diventa creatore del proprio destino. E Dio &laquo;scende a vedere&raquo; &mdash; verbo carico di ironia: la torre doveva portare in alto, ma Dio deve scendere per vederla, tanto &egrave; minuscola.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Tecnocrazia</span></div>
+<p>Babele &egrave; il manifesto di ogni tecnocrazia. L&rsquo;IA, il transumanesimo, le biotecnologie: la promessa &egrave; sempre la stessa &mdash; superare il limite umano, diventare come d&egrave;i. La torre contemporanea &egrave; digitale: server farm al posto di mattoni, algoritmi al posto di bitume. Ma la dinamica &egrave; identica. La tecnica non &egrave; il problema: il problema &egrave; quando la tecnica promette ci&ograve; che solo il senso pu&ograve; dare. Quando la torre vuole essere non uno strumento ma una religione.</p>
+<div class="omelia-box">
+<p>Quanto della tua vita &egrave; costruzione di torri? Quanto tempo passi a costruire visibilit&agrave;, fama, risultati che &laquo;tocchino il cielo&raquo;? E quante volte Dio ha dovuto &laquo;scendere a vedere&raquo; la tua minuscola torre? La vera altezza non si raggiunge con i mattoni: si riceve. Non si costruisce: si accoglie. Smetti di fabbricare mattoni. Impara a ricevere il cielo.</p>
+<span class="tag">La torre minuscola</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 14</span><span class="card-title">La confusione delle lingue</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Scendiamo e confondiamo la loro lingua, perch&eacute; non comprendano pi&ugrave; l&rsquo;uno la lingua dell&rsquo;altro. Il Signore li disperse di l&agrave; su tutta la terra ed essi cessarono di costruire la citt&agrave;.&raquo; (Genesi 11,7-8)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il Giudizio che Libera</span></div>
+<p>La risposta di Dio a Babele non &egrave; la distruzione: &egrave; la confusione delle lingue. Non un fulmine che abbatte la torre; una pluralit&agrave; di lingue che impedisce il progetto. &Egrave; un giudizio? S&igrave;, ma anche un atto di liberazione. L&rsquo;unit&agrave; totalitaria di Babele era una prigione. La pluralit&agrave; delle lingue restituisce all&rsquo;umanit&agrave; la sua ricchezza: la differenza, la variet&agrave;, la possibilit&agrave; di incontro reale (non l&rsquo;uniformit&agrave; imposta). Dio preferisce la dispersione creativa all&rsquo;unit&agrave; coatta.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Pluralit&agrave;</span></div>
+<p>Babele e Pentecoste sono i due poli della geopolitica dello Spirito. Babele &egrave; l&rsquo;unit&agrave; imposta dall&rsquo;alto con la forza. Pentecoste &egrave; l&rsquo;unit&agrave; che nasce dal basso attraverso la diversit&agrave;. A Babele Dio confonde per impedire il totalitarismo. A Pentecoste Dio dona la comprensione reciproca per fondare la comunione. La differenza tra i due modelli &egrave; tutto: il potere uniforma, lo Spirito unisce nella diversit&agrave;. Ogni progetto politico deve scegliere: Babele o Pentecoste? Torre o cenacolo?</p>
+<div class="omelia-box">
+<p>Quanto desiderio di uniformit&agrave; c&rsquo;&egrave; nella tua vita? Vuoi che tutti la pensino come te, che la tua Chiesa sia omogenea, che la tua comunit&agrave; sia uniforme? La pluralit&agrave; ti disturba? Le differenze ti spaventano? Babele &egrave; il sogno malato di un mondo senza differenze. Pentecoste &egrave; la realt&agrave; benedetta di un mondo dove le lingue sono tante ma lo Spirito &egrave; uno. Impara ad amare la differenza: &egrave; il dono che Dio ha fatto all&rsquo;umanit&agrave; confondendo Babele.</p>
+<span class="tag">Il dono della confusione</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c6)"></span>PARTE VI</span>
+<h3>L&rsquo;Esilio e la Promessa</h3>
+<p class="part-sub">La storia resta aperta</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 15</span><span class="card-title">Uscire da Babele</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Tera prese Abram, suo figlio, e Lot, figlio di Aran, suo nipote, e Sarai, sua nuora, moglie di Abram, e usc&igrave; con loro da Ur dei Caldei per andare nella terra di Canaan. Arrivarono fino a Carran e l&agrave; si stabilirono.&raquo; (Genesi 11,31)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L&rsquo;Inizio dell&rsquo;Esodo</span></div>
+<p>La genealogia da Sem ad Abramo &egrave; un lungo elenco di nomi e di anni. Ma dentro questa catena apparentemente monotona si nasconde un movimento: i patriarchi si spostano. Da Ur dei Caldei a Carran. Da Carran verso Canaan. Non costruiscono pi&ugrave; torri. Camminano. La salvezza non arriva attraverso una conquista tecnologica ma attraverso un esodo, una partenza, un abbandono delle citt&agrave;-idolo. La fede biblica non inizia con un impero ma con un uomo che lascia la sua terra.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica dell&rsquo;Esodo</span></div>
+<p>L&rsquo;uscita da Babele &egrave; l&rsquo;inizio della storia della salvezza. Non attraverso un impero pi&ugrave; potente ma attraverso un uomo fragile che si mette in cammino. La geopolitica del Regno si fonda su questo paradosso: non la centralizzazione del potere ma la decentralizzazione della fede. Non la torre che domina ma la tenda che si sposta. Non il nome che l&rsquo;uomo si fa ma il nome che Dio dona (Abra-m, &laquo;padre di una moltitudine&raquo;). Ogni vero rinnovamento spirituale e politico inizia con un esodo: lasciare Babele, uscire dalla citt&agrave; dell&rsquo;uniformit&agrave;, mettersi in cammino verso una terra che non si possiede ancora.</p>
+<div class="omelia-box">
+<p>Anche tu devi uscire dalla tua Babele. Qual &egrave; la tua Ur dei Caldei? Il sistema che ti tiene prigioniero promettendoti sicurezza? La carriera che ti definisce? La citt&agrave; dove tutti parlano la stessa lingua del consumo, del successo, dell&rsquo;apparenza? Uscire da Babele fa paura. Significa lasciare il conosciuto per l&rsquo;ignoto. Ma solo chi esce dalla citt&agrave;-torre scopre la terra promessa.</p>
+<span class="tag">L&rsquo;esodo personale</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 16</span><span class="card-title">Verso Abramo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&laquo;Il Signore disse ad Abram: &laquo;Vattene dalla tua terra, dalla tua parentela e dalla casa di tuo padre, verso la terra che io ti indicher&ograve;. Far&ograve; di te una grande nazione e ti benedir&ograve; e render&ograve; grande il tuo nome&raquo;.&raquo; (Genesi 12,1-2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La Chiamata</span></div>
+<p>Dopo undici capitoli di fratture, violenze, diluvi e torri, la Bibbia cambia registro. Non pi&ugrave; la storia dell&rsquo;umanit&agrave; intera ma la storia di un uomo. Non pi&ugrave; &laquo;costruiamo&raquo; ma &laquo;vattene&raquo;. Non pi&ugrave; &laquo;facciamoci un nome&raquo; ma &laquo;render&ograve; grande il tuo nome&raquo;. &Egrave; il passaggio dalla citt&agrave; alla tenda, dall&rsquo;uniformit&agrave; alla vocazione, dal potere umano alla promessa divina. Abramo non ha nulla: nessuna terra, nessun figlio, nessuna certezza. Ha solo una voce che lo chiama e una promessa a cui aggrapparsi.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La Geopolitica della Promessa</span></div>
+<p>La chiamata di Abramo &egrave; il fondamento di una geopolitica alternativa. Mentre Babele cerca sicurezza nell&rsquo;uniformit&agrave; e nella centralizzazione, Abramo la cerca nella promessa e nel cammino. Non &egrave; un impero: &egrave; una famiglia. Non &egrave; una fortezza: &egrave; una tenda. La storia della salvezza non passa attraverso i grandi imperi (Egitto, Assiria, Babilonia, Roma) ma attraverso un nomade che crede a una promessa impossibile. &Egrave; la scelta definitiva di Dio: non il potere ma la fede, non la torre ma il cammino.</p>
+<div class="omelia-box">
+<p>Ogni uomo arriva a questo bivio. Da un lato Babele: la carriera, il successo, la visibilit&agrave;, il &laquo;farsi un nome&raquo;. Dall&rsquo;altro Abramo: la chiamata, il cammino, la promessa, il &laquo;ricevere un nome&raquo; da Dio. Non puoi fare entrambe le cose. Devi scegliere. Tutta la Bibbia &egrave; la storia di uomini e donne che hanno scelto il cammino invece della torre. E tu?</p>
+<span class="tag">Vattene</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="conclusion-section reveal">
+<p class="verse">&laquo;Il Signore disse ad Abram: &laquo;Vattene dalla tua terra&hellip; verso la terra che io ti indicher&ograve;. Far&ograve; di te una grande nazione&raquo;.&raquo; (Genesi 12,1-2)</p>
+<div class="conclusion-msg">
+<p>La Genesi &egrave; la diagnosi. Il resto della Bibbia &egrave; la terapia. Nei primi undici capitoli abbiamo visto nascere tutto: il dominio, la paura, la tecnica, la violenza, la citt&agrave;, l&rsquo;impero. Ma abbiamo anche visto che ogni frattura porta in s&eacute; una promessa. Ogni diluvio contiene un&rsquo;arca. Ogni Babele prepara un esodo. La storia umana non &egrave; una condanna ma un cammino. E il cammino inizia sempre con una voce che dice: <strong>&laquo;Vattene&raquo;.</strong></p>
+<span class="tag">Conclusione &mdash; La diagnosi e la terapia</span>
+</div>
+</div>
+<div class="reveal" style="text-align:center;padding:2rem 0">
+<p style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:.5rem"><em style="color:var(--gold);font-style:italic">Le Origini del Potere</em> &mdash; Commento teologico-psicologico-geopolitico a Genesi 1-11</p>
+<p style="color:var(--muted);font-weight:300;font-size:.85rem">Quarto volume della collana &mdash; MetaHistoria</p>
+</div>
+</div>
+</section>
+
+<div class="page-nav" style="max-width:var(--maxw);margin:0 auto">
+<div class="nav-prev">
+<div class="nav-label">Precedente</div>
+<a href='/apocalisse-del-potere/manuale-commento-atti'>&larr; Atti del Fuoco</a>
+</div>
+<div class="nav-next">
+<div class="nav-label">Successivo</div>
+<a href='/apocalisse-del-potere/manuale-commento-mose'>Il Deserto e il Trono &rarr;</a>
+</div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Genesi, <em>Genesi 1&ndash;11</em> (AT)</li>
+ <li>Genesi 1&ndash;2 &mdash; La creazione</li>
+ <li>Genesi 3 &mdash; La caduta</li>
+ <li>Genesi 4 &mdash; Caino e Abele</li>
+ <li>Genesi 6&ndash;9 &mdash; Il diluvio</li>
+ <li>Genesi 11 &mdash; La torre di Babele</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li>
+ <li><a href='/apocalisse-del-potere/manuale-commento-daniele' style='color:var(--muted);text-decoration:none'>Genesi delle Bestie</a></li>
+ <li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li>
+ <li><a href='/apocalisse-del-potere/bestie-spirituali' style='color:var(--muted);text-decoration:none'>Bestie spirituali</a></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.08});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html><script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

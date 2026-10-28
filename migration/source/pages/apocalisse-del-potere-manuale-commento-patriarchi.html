@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Tende e le Stelle &mdash; Manuale &middot; MetaHistoria</title>
+<meta name="description" content="Commento teologico-psicologico-geopolitico ai patriarchi: Abramo, Isacco, Giacobbe, Giuseppe. La promessa vissuta nella fragilità. Tende contro città, fede contro possesso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;--maxw:1180px;--c1:#c9a227;--c2:#a32638;--c3:#5b7f5b;--c4:#7a5b8f;--c5:#3a7a9a;--c6:#8f6f4a;--c7:#9a3a3a}
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ section{padding:6.5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3.2rem;padding-top:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.8rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .back-link{display:inline-block;font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .3s}
+ .back-link:hover{color:var(--gold)}
+ .page-nav{display:flex;justify-content:space-between;align-items:stretch;padding:2.5rem 2rem;margin:1rem 0 0;gap:2rem}
+ .page-nav div{flex:1;display:flex;flex-direction:column}
+ .page-nav .nav-next{text-align:right;align-items:flex-end}
+ .page-nav .nav-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+ .page-nav a{font-family:var(--serif);font-size:1rem;color:var(--ink-soft);text-decoration:none;transition:color .3s;line-height:1.3}
+ .page-nav a:hover{color:var(--gold)}
+ .page-nav .nav-empty{color:var(--muted);opacity:.4;font-family:var(--serif);font-size:.9rem;font-style:italic}
+ @media(max-width:600px){.page-nav{flex-direction:column;gap:1rem}.page-nav .nav-next{text-align:left;align-items:flex-start}}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+/* --- DIAGRAM --- */
+.diagram-wrap{max-width:900px;margin:0 auto;padding:1rem 0 2rem}
+.diagram{position:relative;padding-left:3rem}
+.diagram::before{content:'';position:absolute;left:14px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.diagram-node{position:relative;padding:1rem 1.2rem;margin-bottom:.6rem;border-radius:6px;background:var(--surface);border:1px solid var(--line);transition:border-color .3s;cursor:default}
+.diagram-node::before{content:'';position:absolute;left:-22px;top:50%;width:12px;height:12px;border-radius:50%;transform:translateY(-50%);border:2px solid var(--gold);background:var(--bg)}
+.diagram-node.part-1{border-left:3px solid var(--c1)}.diagram-node.part-1::before{border-color:var(--c1);background:var(--c1)}
+.diagram-node.part-2{border-left:3px solid var(--c2)}.diagram-node.part-2::before{border-color:var(--c2);background:var(--c2)}
+.diagram-node.part-3{border-left:3px solid var(--c3)}.diagram-node.part-3::before{border-color:var(--c3);background:var(--c3)}
+.diagram-node.part-4{border-left:3px solid var(--c4)}.diagram-node.part-4::before{border-color:var(--c4);background:var(--c4)}
+.diagram-node.part-5{border-left:3px solid var(--c5)}.diagram-node.part-5::before{border-color:var(--c5);background:var(--c5)}
+.diagram-node.part-6{border-left:3px solid var(--c6)}.diagram-node.part-6::before{border-color:var(--c6);background:var(--c6)}
+.diagram-node.part-7{border-left:3px solid var(--c7)}.diagram-node.part-7::before{border-color:var(--c7);background:var(--c7)}
+.diagram-node .node-label{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.diagram-node .node-title{font-family:var(--serif);font-size:1.05rem;color:var(--ink)}
+.diagram-node .node-chapters{font-size:.8rem;color:var(--ink-soft);font-weight:300;margin-top:.3rem}
+.diagram-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem}
+.diagram-meta .mov-badge{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.diagram-meta .mov-badge.evo{color:var(--gold);border-color:var(--gold-soft)}
+.diagram-meta .mov-badge.aut{color:var(--red);border-color:var(--red-soft)}
+.diagram-meta .mov-badge.ome{color:var(--c3);border-color:rgba(91,127,91,.2)}
+
+/* --- PROLOGUE --- */
+.prologue-box{max-width:780px;margin:0 auto;padding:2rem 2.4rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;position:relative}
+.prologue-box::before{content:'P';position:absolute;top:-14px;left:2rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;color:var(--gold);background:var(--bg);padding:0 .6rem}
+.prologue-box p{color:var(--ink-soft);font-weight:300;font-size:.92rem;margin-bottom:1rem;line-height:1.75}
+.prologue-box p strong{color:var(--ink);font-weight:600}
+.prologue-box .verse{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:1rem;padding:.8rem 1.2rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+
+/* --- CHAPTER CARDS --- */
+.chapter-card{display:block;margin-bottom:1rem;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+.chapter-card[open]{border-color:var(--gold-soft)}
+.chapter-card summary{list-style:none;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.6rem;cursor:pointer;user-select:none;transition:background .3s}
+.chapter-card summary::-webkit-details-marker{display:none}
+.chapter-card summary:hover{background:var(--surface-2)}
+.chapter-card summary .card-num{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);flex-shrink:0;min-width:5rem}
+.chapter-card summary .card-title{font-family:var(--serif);font-size:1.1rem;color:var(--ink);flex:1}
+.chapter-card summary .card-arrow{font-size:.8rem;color:var(--muted);transition:transform .3s;flex-shrink:0}
+.chapter-card[open] summary .card-arrow{transform:rotate(180deg)}
+.chapter-card .card-body{padding:0 1.6rem 1.6rem;border-top:1px solid var(--line)}
+.chapter-card .card-body .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin:1.2rem 0 1rem;padding:.7rem 1rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+.chapter-card .card-body p{color:var(--ink-soft);font-weight:300;font-size:.9rem;margin-bottom:.9rem;line-height:1.75}
+.chapter-card .card-body p strong{color:var(--ink);font-weight:600}
+.mov-head{display:flex;align-items:center;gap:.6rem;margin:1.4rem 0 .6rem;padding-top:.6rem}
+.mov-head .mov-ico{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);font-weight:500}
+.mov-head .mov-ico.evo{color:var(--gold);background:var(--gold-soft)}
+.mov-head .mov-ico.aut{color:var(--red);background:var(--red-soft)}
+.mov-head .mov-ico.ome{color:var(--c3);background:rgba(91,127,91,.12)}
+.mov-head .mov-label{font-family:var(--serif);font-size:.85rem;font-style:italic;color:var(--muted)}
+.card-body .omelia-box{background:var(--bg);border:1px solid var(--red-soft);border-left:3px solid var(--red);padding:1.2rem 1.6rem;margin:1rem 0;border-radius:4px}
+.card-body .omelia-box p{font-family:var(--serif);font-size:clamp(.9rem,1.3vw,1.05rem);font-style:italic;color:var(--ink);line-height:1.6}
+.card-body .omelia-box .tag{display:block;margin-top:.6rem;font-family:var(--sans);font-style:normal;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* --- PART HEADERS --- */
+.part-head{text-align:center;padding:2.5rem 1rem 1.5rem;margin:2rem 0}
+.part-head .part-num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.4rem}
+.part-head .part-num span{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+.part-head h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--gold);margin-bottom:.4rem}
+.part-head .part-sub{font-size:.85rem;color:var(--ink-soft);font-weight:300;letter-spacing:.04em}
+.part-head .part-line{width:60px;height:1px;margin:.8rem auto 0;background:var(--line)}
+
+/* --- CONCLUSION --- */
+.conclusion-section{text-align:center;padding:3rem 2rem}
+.conclusion-section .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin-bottom:1rem;padding:.7rem 1rem;display:inline-block}
+.conclusion-section .conclusion-msg{max-width:680px;margin:0 auto;background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;border-radius:8px}
+.conclusion-section .conclusion-msg p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.2rem);font-style:italic;color:var(--ink);line-height:1.6}
+.conclusion-section .conclusion-msg .tag{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+
+/* --- RESPONSIVE --- */
+@media(max-width:640px){.diagram{padding-left:2rem}.diagram-node{padding:.8rem 1rem}.chapter-card summary{padding:1rem 1.2rem}.chapter-card .card-body{padding:0 1.2rem 1.2rem}.prologue-box{padding:1.5rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+</div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+</div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+</div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+</div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+</div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section>
+<div class="wrap">
+<a class='back-link' href='/apocalisse-del-potere/'>&larr; Apocalisse del Potere</a>
+<div class="sec-head reveal">
+<span class="sec-num">Lente 05 &middot; M</span>
+<h2>Le Tende e le Stelle</h2>
+<p class="lede">Commento teologico, psicologico e geopolitico da Abramo a Giuseppe &mdash; Manuale della promessa fragile. Dio non costruisce la storia attraverso uomini perfetti ma attraverso uomini che continuano a camminare.</p>
+</div>
+
+<div class="man-body reveal">
+<p style="font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;line-height:1.2;margin-bottom:1.5rem"><em style="color:var(--gold);font-style:italic">Le Tende e le Stelle</em> &mdash; Promessa, nomadismo e potere nei patriarchi d'Israele</p>
+<p style="color:var(--ink-soft);font-weight:300;font-size:.92rem;line-height:1.75">Questo manuale percorre la Genesi dei patriarchi (12&ndash;50) come il pi&ugrave; profondo <strong>manuale della promessa fragile</strong>. Abramo, Isacco, Giacobbe, Giuseppe: il cammino umano dentro l&rsquo;incompletezza. Ogni capitolo si articola in tre movimenti: <strong style="color:var(--gold)">Evocazione</strong> (la scena biblica), <strong style="color:var(--red)">Autopsia</strong> (l&rsquo;analisi geopolitica e psicologica) e <strong style="color:#5b7f5b">Omelia</strong> (l&rsquo;applicazione oggi). Nono e ultimo volume della collana.</p>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface);padding:3rem 2rem">
+<div class="diagram-wrap reveal">
+<h3 style="font-family:var(--serif);font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:2rem">Mappa del Manuale</h3>
+<div class="diagram">
+<div class="diagram-node" style="border-left-color:var(--gold)">
+<div class="node-label">PROLOGO</div>
+<div class="node-title">La voce che chiama nel deserto</div>
+<div class="node-chapters">Tende contro citt&agrave; &middot; Fede contro possesso</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-1">
+<div class="node-label">PARTE I &middot; 4 capitoli</div>
+<div class="node-title">Abramo e l&rsquo;Uscita</div>
+<div class="node-chapters">&laquo;Vattene dalla tua terra&raquo; &middot; Le tende contro le citt&agrave; &middot; L&rsquo;Egitto e la paura &middot; Le stelle e la sterilit&agrave;</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-2">
+<div class="node-label">PARTE II &middot; 3 capitoli</div>
+<div class="node-title">Il Figlio Impossibile</div>
+<div class="node-chapters">Agar e il deserto &middot; Isacco nasce &middot; Il sacrificio di Isacco</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-3">
+<div class="node-label">PARTE III &middot; 2 capitoli</div>
+<div class="node-title">Isacco e il Pozzo</div>
+<div class="node-chapters">Vivere nell&rsquo;eredit&agrave; &middot; I pozzi contesi</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-4">
+<div class="node-label">PARTE IV &middot; 5 capitoli</div>
+<div class="node-title">Giacobbe</div>
+<div class="node-chapters">Rubare la benedizione &middot; La scala nel deserto &middot; Labano e il gioco degli specchi &middot; Lia e Rachele &middot; La lotta con l&rsquo;angelo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-5">
+<div class="node-label">PARTE V &middot; 5 capitoli</div>
+<div class="node-title">Giuseppe e l&rsquo;Impero</div>
+<div class="node-chapters">I sogni e l&rsquo;invidia &middot; La cisterna &middot; L&rsquo;Egitto &middot; La fame e il potere &middot; Giuseppe e i fratelli</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-6">
+<div class="node-label">PARTE VI &middot; 3 capitoli</div>
+<div class="node-title">Verso l&rsquo;Esodo</div>
+<div class="node-chapters">Israele scende in Egitto &middot; Le benedizioni finali &middot; Giuseppe muore</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal">
+<div class="prologue-box">
+<p class="verse">&#xAB;Il Signore disse ad Abram: &laquo;Vattene dalla tua terra, dalla tua parentela e dalla casa di tuo padre, verso la terra che io ti indicher&ograve;. Far&ograve; di te una grande nazione e ti benedir&ograve;, render&ograve; grande il tuo nome e possa tu essere una benedizione&raquo;.&#xBB; (Genesi 12,1-2)</p>
+<p>Da Abramo a Giuseppe la Bibbia racconta una verit&agrave; sconvolgente: Dio non costruisce una civilt&agrave; partendo da un impero. Parte da una famiglia fragile. E questa famiglia mente, fugge, tradisce, lotta, manipola, ama male, sopravvive. Eppure attraverso questa instabilit&agrave; nasce una storia.</p>
+<p><strong>La promessa non elimina la fragilit&agrave;: la attraversa.</strong> I patriarchi non ricevono il compimento. Camminano verso di esso. Nono e ultimo volume della collana. Ogni capitolo: <strong>Evocazione, Autopsia, Omelia</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c1)"></span>PARTE I</span>
+<h3>Abramo e l&rsquo;Uscita</h3>
+<p class="part-sub">&laquo;Vattene dalla tua terra&raquo; &middot; Tende &middot; Paura &middot; Stelle</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 1</span><span class="card-title">&laquo;Vattene dalla tua terra&raquo;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore disse ad Abram: &laquo;Vattene dalla tua terra, dalla tua parentela e dalla casa di tuo padre, verso la terra che io ti indicher&ograve;&raquo;.&#xBB; (Genesi 12,1)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Lo sradicamento</span></div>
+<p>Abramo ha 75 anni quando sente la voce. Non &egrave; un giovane in cerca di avventura: &egrave; un uomo stabilito, con famiglia, beni, radici. La voce gli chiede di lasciare tutto: terra, parentela, casa paterna. Tre cerchi concentrici di appartenenza. La fede inizia con uno sradicamento. Abramo parte senza sapere dove va. &laquo;Per fede Abramo, chiamato da Dio, obbed&igrave; partendo per un luogo che doveva ricevere in eredit&agrave;, e part&igrave; senza sapere dove andava&raquo; (Eb 11,8). Questa &egrave; la definizione stessa della fede.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Geopolitica del cammino</span></div>
+<p>La chiamata di Abramo inaugura un nuovo modello geopolitico: non l&rsquo;insediamento ma il cammino. Non la citt&agrave; fortificata ma la tenda. Abramo non &laquo;occupa&raquo; la terra: la attraversa, la abita temporaneamente, la riceve come promessa. &Egrave; il modello dell&rsquo;uomo biblico: nomade, pellegrino, mai pienamente stabilito. La sedentarizzazione eccessiva &egrave; sempre idolatrica: trasforma la terra in possesso assoluto.</p>
+<div class="omelia-box">
+<p>Qual &egrave; la tua Ur dei Caldei? La sicurezza che devi lasciare per rispondere alla chiamata? Non &egrave; detto che sia un luogo fisico. Pu&ograve; essere un&rsquo;idea, un&rsquo;abitudine, una relazione. Cosa ti trattiene? La fede non d&agrave; mappe: d&agrave; una voce. E la voce dice: &laquo;Vattene&raquo;.</p>
+<span class="tag">L&rsquo;uscita senza mappa</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 2</span><span class="card-title">Le tende contro le citt&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Di l&agrave; pass&ograve; sulle montagne a oriente di Betel e piant&ograve; la tenda, avendo Betel a occidente e Ai a oriente. L&igrave; edific&ograve; un altare al Signore e invoc&ograve; il nome del Signore.&#xBB; (Genesi 12,8)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Tende e altari</span></div>
+<p>Abramo attraversa Canaan ma non la conquista. Pianta tende. Edifica altari. I due gesti riassumono la sua presenza: provvisoriet&agrave; (tenda) e adorazione (altare). Non costruisce mura, palazzi, fortezze. &Egrave; un residente temporaneo nella terra promessa. A Sichem, a Betel, a Ebron: sempre tende, sempre altari. Mai un atto di appropriazione violenta.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Tenda contro citt&agrave;</span></div>
+<p>La dialettica tenda/citt&agrave; &egrave; centrale nella geopolitica biblica. La citt&agrave; &egrave; il luogo del potere stabile, della difesa, dell&rsquo;accumulo. La tenda &egrave; il luogo della provvisoriet&agrave; e della fiducia. Abramo sceglie la tenda anche quando potrebbe costruire la citt&agrave;. La terra &egrave; promessa, non ancora posseduta. La pazienza escatologica di Abramo &egrave; l&rsquo;opposto dell&rsquo;impazienza di Babele.</p>
+<div class="omelia-box">
+<p>Abiti la tua vita come una tenda o come una fortezza? Sei aperto allo spostamento o hai costruito mura invalicabili? La tenda &egrave; fragile ma mobile. La fortezza &egrave; sicura ma ti imprigiona.</p>
+<span class="tag">Tende e altari</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 3</span><span class="card-title">L&rsquo;Egitto e la paura</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Venne una carestia nella terra e Abram scese in Egitto per soggiornarvi. [...] Disse alla moglie Sarai: &laquo;Ecco, io so che sei una donna di bell&rsquo;aspetto. Quando gli Egiziani ti vedranno, diranno: &Egrave; sua moglie. Allora uccideranno me e lasceranno te in vita. Di&rsquo; dunque che sei mia sorella&raquo;.&#xBB; (Genesi 12,10-13)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La sopravvivenza che corrompe</span></div>
+<p>Appena arrivato nella terra promessa, Abramo deve scappare per una carestia. Scende in Egitto e, preso dalla paura, mente. Dice che Sara &egrave; sua sorella. Il faraone la prende nell&rsquo;harem. Abramo si arricchisce col bestiame ricevuto in cambio. &Egrave; un episodio imbarazzante che la Bibbia non censura. Il padre della fede &egrave; un uomo che mente per paura e lucra sulla menzogna.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La fragilit&agrave; morale</span></div>
+<p>La fragilit&agrave; morale di Abramo &egrave; teologicamente essenziale. La Bibbia non ha eroi perfetti. Abramo mente, Sara &egrave; complice, il faraone &egrave; ingannato. L&rsquo;ironia &egrave; che Dio interviene per salvare la situazione &mdash; non Abramo. Le piaghe colpiscono il faraone. La promessa sopravvive non grazie alla virt&ugrave; del patriarca ma nonostante la sua paura. &Egrave; la grazia, non la morale, a portare avanti la storia della salvezza.</p>
+<div class="omelia-box">
+<p>Hai mai mentito per paura? Hai mai sacrificato qualcuno per salvarti? Abramo lo ha fatto. E Dio non lo ha abbandonato. Non &egrave; un alibi per peccare ma un conforto per chi cade: la storia di Dio con te non finisce quando cadi.</p>
+<span class="tag">Il patriarca bugiardo</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 4</span><span class="card-title">Le stelle e la sterilit&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore lo condusse fuori e gli disse: &laquo;Guarda in cielo e conta le stelle, se riesci a contarle&raquo;. Poi soggiunse: &laquo;Tale sar&agrave; la tua discendenza&raquo;. Egli credette al Signore, che glielo accredit&ograve; come giustizia.&#xBB; (Genesi 15,5-6)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Credere contro l&rsquo;evidenza</span></div>
+<p>Abramo &egrave; vecchio. Sara &egrave; sterile. La promessa di una discendenza sembra assurda. Dio lo porta fuori, nel buio della notte, e gli mostra le stelle. &laquo;Tale sar&agrave; la tua discendenza&raquo;. Non gli d&agrave; una prova: gli d&agrave; un&rsquo;immagine. Abramo &laquo;credette al Signore, che glielo accredit&ograve; come giustizia&raquo;. &Egrave; il versetto che Paolo user&agrave; come fondamento della giustificazione per fede. La fede non &egrave; credere a dottrine: &egrave; fidarsi di una promessa contro ogni evidenza.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Geopolitica della speranza</span></div>
+<p>La fede di Abramo &egrave; il fondamento di una geopolitica della speranza. Contro la geopolitica del realismo cinico (&laquo;vedere per credere&raquo;), Abramo inaugura la geopolitica della promessa: &laquo;credere per vedere&raquo;. Ogni grande trasformazione sociale inizia con qualcuno che guarda le stelle e crede all&rsquo;impossibile. I movimenti di liberazione nascono da promesse, non da evidenze.</p>
+<div class="omelia-box">
+<p>Cosa fai quando la promessa tarda e l&rsquo;evidenza la smentisce? La sterilit&agrave; di Sara &egrave; il modello di ogni attesa impossibile. Continui a guardare le stelle o ti sei arreso all&rsquo;evidenza?</p>
+<span class="tag">Credere alle stelle</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c2)"></span>PARTE II</span>
+<h3>Il Figlio Impossibile</h3>
+<p class="part-sub">Agar, Isacco e la prova suprema</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 5</span><span class="card-title">Agar e il deserto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Sarai, moglie di Abram, non gli aveva dato figli. Aveva una schiava egiziana di nome Agar. Sarai disse ad Abram: &laquo;Ecco, il Signore mi ha impedito di avere figli. Unisciti alla mia schiava: forse potr&ograve; avere figli da lei&raquo;.&#xBB; (Genesi 16,1-2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Gli esclusi della promessa</span></div>
+<p>Agar &egrave; la grande dimenticata. Schiava egiziana, data in grembo ad Abramo su iniziativa di Sara. Quando resta incinta, Sara la maltratta e Agar fugge nel deserto. L&igrave; Dio la trova &mdash; prima volta che Dio appare a una donna nella Bibbia &mdash; e le fa una promessa: &laquo;Moltiplicher&ograve; la tua discendenza&raquo;. Agar &egrave; l&rsquo;unica persona nella Bibbia che d&agrave; un nome a Dio: &laquo;Tu sei il Dio che mi vede&raquo; (El-Roi). La schiava straniera diventa portatrice di una rivelazione.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La patrona degli esclusi</span></div>
+<p>Agar &egrave; la patrona di tutti gli esclusi. Donna, schiava, straniera, vittima di abuso da parte dei patriarchi. Eppure Dio la cerca nel deserto e le promette una discendenza. La storia della salvezza ha un ramo egiziano che i discendenti di Isacco tenderanno a dimenticare. Agar ci ricorda che Dio vede chi il potere non vede.</p>
+<div class="omelia-box">
+<p>Ti sei mai sentito come Agar? Usato, scartato, invisibile? C&rsquo;&egrave; un Dio che ti vede. Non sei un incidente nella storia della salvezza: sei parte della promessa.</p>
+<span class="tag">Il Dio che mi vede</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 6</span><span class="card-title">Isacco nasce</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore visit&ograve; Sara, come aveva detto, e fece a Sara come aveva promesso. Sara concep&igrave; e partor&igrave; un figlio ad Abramo nella vecchiaia, nel tempo che Dio aveva fissato. Abramo chiam&ograve; Isacco il figlio che gli era nato.&#xBB; (Genesi 21,1-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La gioia incredula</span></div>
+<p>Isacco nasce quando Abramo ha 100 anni e Sara 90. Il suo nome significa &laquo;egli ride&raquo; o &laquo;Dio ha riso&raquo;. Sara aveva riso quando aveva sentito la promessa (Gen 18): un riso amaro, cinico, incredulo. Ora il riso si trasforma in gioia. Il figlio impossibile &egrave; nato. La promessa ha un volto.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il prototipo della resurrezione</span></div>
+<p>Isacco &egrave; il figlio della promessa contro ogni possibilit&agrave; umana. La sua nascita &egrave; il prototipo di ogni resurrezione: ci&ograve; che era morto (il grembo di Sara) genera vita. &Egrave; il modello di ogni intervento divino nella storia: non spiegabile, non prevedibile, semplicemente donato.</p>
+<div class="omelia-box">
+<p>C&rsquo;&egrave; un Isacco nella tua vita? Una promessa che sembrava impossibile e si &egrave; compiuta? O una promessa che ancora attendi? Il riso di Sara &mdash; dal cinismo alla gioia &mdash; &egrave; il tuo cammino.</p>
+<span class="tag">Il riso di Dio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 7</span><span class="card-title">Il sacrificio di Isacco</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Dio disse: &laquo;Prendi tuo figlio, il tuo unigenito che ami, Isacco, va&rsquo; nel territorio di Moria e offrilo in olocausto su un monte che io ti indicher&ograve;&raquo;.&#xBB; (Genesi 22,2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La fede oltre il possesso</span></div>
+<p>La legatura di Isacco (Akedah) &egrave; il testo pi&ugrave; sconvolgente della Genesi. Dio chiede ad Abramo di sacrificare proprio il figlio della promessa. Abramo obbedisce, lega Isacco, alza il coltello. All&rsquo;ultimo momento un angelo lo ferma: &laquo;Non stendere la mano contro il ragazzo! Ora so che tu temi Dio&raquo;. Un ariete viene sacrificato al posto di Isacco. Il Dio della Bibbia rifiuta il sacrificio umano &mdash; differenza radicale rispetto alle religioni cananee.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Critica all&rsquo;idolatria del dono</span></div>
+<p>L&rsquo;Akedah &egrave; il fondamento di ogni critica all&rsquo;idolatria del &laquo;figlio&raquo;. Isacco non appartiene ad Abramo: &egrave; dono. Abramo deve essere disposto a restituirlo. Non perch&eacute; Dio vuole la morte ma perch&eacute; Dio non vuole che il dono diventi idolo. La geopolitica della fede &egrave; qui: ogni bene &mdash; figlio, terra, nazione, successo &mdash; &egrave; dono, mai possesso. Quando un dono diventa assoluto, esige sacrifici umani.</p>
+<div class="omelia-box">
+<p>Qual &egrave; il tuo Isacco? La cosa pi&ugrave; preziosa che hai? Saresti disposto a restituirla? Non perch&eacute; Dio te la toglier&agrave; ma perch&eacute; solo se tieni tutto con mano aperta sei veramente libero.</p>
+<span class="tag">Il coltello che non colpisce</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c3)"></span>PARTE III</span>
+<h3>Isacco e il Pozzo</h3>
+<p class="part-sub">Custodire l&rsquo;eredit&agrave;, scavare la pace</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 8</span><span class="card-title">Isacco: vivere nell&rsquo;eredit&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore gli apparve e gli disse: &laquo;Non scendere in Egitto; abita nella terra che io ti indicher&ograve;. Soggiorna in questa terra e io sar&ograve; con te e ti benedir&ograve;&raquo;.&#xBB; (Genesi 26,2-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il peso della continuit&agrave;</span></div>
+<p>Isacco &egrave; il patriarca silenzioso. Meno narrato, meno eroico, meno carismatico di Abramo e Giacobbe. Eppure &egrave; lui il ponte tra la promessa e il suo sviluppo. La sua vocazione non &egrave; fondare ma custodire. Scava i pozzi che suo padre aveva scavato e che i filistei avevano chiuso. &Egrave; il custode della memoria.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il santo della normalit&agrave;</span></div>
+<p>La continuit&agrave; &egrave; sottovalutata nella cultura dell&rsquo;innovazione perenne. Non tutti devono essere startupper spirituali. C&rsquo;&egrave; chi &egrave; chiamato a scavare pozzi gi&agrave; scavati, a mantenere vive tradizioni, a essere fedele nella routine. Isacco &egrave; il santo della normalit&agrave;.</p>
+<div class="omelia-box">
+<p>Forse la tua vocazione non &egrave; spettacolare. Forse sei un Isacco. Non smettere di scavare i pozzi della tradizione. Senza Isacco non ci sarebbe stato Giacobbe.</p>
+<span class="tag">Il custode silenzioso</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 9</span><span class="card-title">I pozzi contesi</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Isacco torn&ograve; a scavare i pozzi d&rsquo;acqua che erano stati scavati al tempo di suo padre Abramo e che i Filistei avevano chiuso. [...] I pastori di Gerar litigarono con i pastori di Isacco dicendo: &laquo;L&rsquo;acqua &egrave; nostra!&raquo;. Egli chiam&ograve; il pozzo Esek, perch&eacute; avevano litigato con lui.&#xBB; (Genesi 26,18-20)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Territorio e conflitto</span></div>
+<p>Isacco scava pozzi. I filistei li reclamano. Lui non combatte: si sposta e ne scava un altro. Ancora contestato. Si sposta di nuovo. Finalmente il terzo pozzo non &egrave; conteso e lo chiama Recobot: &laquo;Il Signore ci ha dato spazio&raquo;. Isacco non vince con la forza ma con la pazienza. Non difende il suo diritto ma cerca la pace.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Geopolitica della non-assolutizzazione</span></div>
+<p>I pozzi di Isacco sono il modello di una geopolitica della non-assolutizzazione. L&rsquo;acqua nel deserto &egrave; vita. Contendere i pozzi significa contendersi la sopravvivenza. Isacco cede non per debolezza ma per una pace superiore. Sa che la terra &egrave; promessa, non posseduta. La sua non &egrave; rinuncia alla giustizia ma fiducia che Dio dar&agrave; spazio.</p>
+<div class="omelia-box">
+<p>Per quali &laquo;pozzi&raquo; stai combattendo? Diritti, riconoscimenti, propriet&agrave;? A volte spostarsi e scavare un altro pozzo &egrave; pi&ugrave; saggio che vincere una guerra. Non per debolezza ma perch&eacute; la pace vale pi&ugrave; del pozzo.</p>
+<span class="tag">Scavare e spostarsi</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c4)"></span>PARTE IV</span>
+<h3>Giacobbe</h3>
+<p class="part-sub">L&rsquo;uomo che lotta con tutto</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 10</span><span class="card-title">Rubare la benedizione</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giacobbe disse al padre: &laquo;Io sono Esa&ugrave;, il tuo primogenito. Ho fatto come mi hai detto. &Agrave;lzati, siediti e mangia la mia selvaggina, perch&eacute; tu mi benedica&raquo;.&#xBB; (Genesi 27,19)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Desiderio di riconoscimento</span></div>
+<p>Giacobbe &egrave; il gemello che nasce tenendo il calcagno del fratello. Il suo nome significa &laquo;soppiantatore&raquo;. Con l&rsquo;aiuto della madre Rebecca, inganna il padre cieco Isacco e ruba la benedizione destinata a Esa&ugrave;. &Egrave; un atto terribile. Eppure la benedizione, una volta data, non pu&ograve; essere revocata. Dio scrive diritto su righe storte. Giacobbe dovr&agrave; fuggire, ma la benedizione resta.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Dio sceglie i peggiori</span></div>
+<p>La storia di Giacobbe mostra che Dio non sceglie i migliori ma attraverso i peggiori realizza il suo disegno. Non perch&eacute; il male sia bene ma perch&eacute; la grazia &egrave; pi&ugrave; forte del peccato. La competizione fraterna &egrave; il motore nascosto di molte tragedie familiari e sociali. Ma Dio pu&ograve; trasformare anche un imbroglione in un patriarca.</p>
+<div class="omelia-box">
+<p>Hai mai rubato una benedizione? Hai mai ottenuto qualcosa con l&rsquo;inganno? Non sei fuori dalla grazia. Giacobbe &egrave; il padre di Israele. Ma l&rsquo;inganno avr&agrave; conseguenze: Giacobbe fuggir&agrave; e sar&agrave; ingannato a sua volta.</p>
+<span class="tag">Il soppiantatore benedetto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 11</span><span class="card-title">La scala nel deserto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Fece un sogno: una scala poggiava sulla terra e la sua cima raggiungeva il cielo, e gli angeli di Dio salivano e scendevano su di essa. Il Signore stava in cima: &laquo;Io sono il Signore, il Dio di Abramo tuo padre e il Dio di Isacco&raquo;.&#xBB; (Genesi 28,12-13)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Dio nei luoghi di fuga</span></div>
+<p>Giacobbe fugge da Esa&ugrave;. &Egrave; solo, nel deserto, con una pietra per cuscino. Nel sonno vede la scala e riceve la stessa promessa fatta ad Abramo. Non &egrave; nel Tempio, n&eacute; in un luogo sacro. &Egrave; in fuga, colpevole, impaurito. Eppure Dio si manifesta. Giacobbe si sveglia e dice: &laquo;Il Signore &egrave; in questo luogo e io non lo sapevo&raquo;. Betel: la casa di Dio nel deserto del peccatore.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La grazia preventiva</span></div>
+<p>Betel &egrave; il luogo dove la terra tocca il cielo, non per merito umano ma per iniziativa divina. Dio non aspetta che Giacobbe si penta per apparirgli. Appare mentre Giacobbe &egrave; ancora in fuga. &Egrave; la grazia preventiva: Dio ti cerca prima che tu cerchi Lui. La scala di Giacobbe &egrave; Cristo: il collegamento tra cielo e terra.</p>
+<div class="omelia-box">
+<p>Dio &egrave; nei luoghi della tua fuga. Non devi essere a posto per incontrarlo. Anzi: &egrave; quando sei a terra, con una pietra per cuscino, che i cieli si aprono. &laquo;Il Signore &egrave; in questo luogo e io non lo sapevo&raquo;. Forse anche tu sei a Betel senza saperlo.</p>
+<span class="tag">La scala nel deserto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 12</span><span class="card-title">Labano e il gioco degli specchi</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Cos&igrave; serv&igrave; Labano per Rachele sette anni, e gli sembrarono pochi giorni per l&rsquo;amore che le portava. [...] Ma quando fu sera, prese sua figlia Lia e la condusse da lui.&#xBB; (Genesi 29,20-23)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il manipolatore manipolato</span></div>
+<p>Giacobbe, l&rsquo;ingannatore, viene ingannato. Lavora sette anni per Rachele e si ritrova con Lia nel letto nuziale. Labano, lo zio, &egrave; pi&ugrave; astuto di lui. La legge del contrappasso &egrave; perfetta. Eppure Giacobbe non molla: lavora altri sette anni per Rachele. L&rsquo;amore &egrave; pi&ugrave; forte dell&rsquo;inganno.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il sistema che ti sfrutta</span></div>
+<p>Labano &egrave; il sistema che ti sfrutta con il sorriso. Parente, familiare, &laquo;uno dei nostri&raquo;. Giacobbe impara sulla sua pelle cosa significa essere ingannato da chi dovrebbe proteggerti. Ma impara anche la pazienza: quattordici anni di lavoro per la donna che ama.</p>
+<div class="omelia-box">
+<p>Sei un Labano o un Giacobbe? Manipoli o sei manipolato? La vita ti restituir&agrave; ci&ograve; che hai dato. Ma l&rsquo;amore vero &mdash; come quello di Giacobbe per Rachele &mdash; resiste anche a quattordici anni di inganni.</p>
+<span class="tag">L&rsquo;ingannatore ingannato</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 13</span><span class="card-title">Lia e Rachele</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore, vedendo che Lia non era amata, la rese feconda, mentre Rachele era sterile.&#xBB; (Genesi 29,31)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Amore, confronto e invisibilit&agrave;</span></div>
+<p>Lia &egrave; la non amata. Suo padre l&rsquo;ha data con l&rsquo;inganno, suo marito preferisce la sorella. Eppure Dio &laquo;vede che Lia non era amata&raquo; e la rende feconda. Da lei nasceranno Giuda (antenato di Davide e di Ges&ugrave;) e Levi (antenato dei sacerdoti). Rachele, l&rsquo;amata, &egrave; sterile. Solo dopo anni di attesa nascer&agrave; Giuseppe e poi Beniamino (morendo di parto). Le due sorelle vivono una competizione dolorosa che si gioca sul corpo e sui figli.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Dio rovescia le gerarchie dell&rsquo;amore</span></div>
+<p>La storia di Lia e Rachele &egrave; la storia di tutte le donne intrappolate in una competizione imposta dagli uomini. Ma Dio rovescia le gerarchie dell&rsquo;amore umano: la non amata diventa madre dei patriarchi pi&ugrave; importanti. Non &egrave; una rivincita ma una giustizia divina che vede ci&ograve; che gli uomini ignorano.</p>
+<div class="omelia-box">
+<p>Ti sei mai sentito come Lia? Non scelto, non amato, invisibile? Dio vede. E spesso proprio i &laquo;non amati&raquo; diventano portatori delle benedizioni pi&ugrave; grandi.</p>
+<span class="tag">La non amata feconda</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 14</span><span class="card-title">La lotta con l&rsquo;angelo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giacobbe rimase solo e un uomo lott&ograve; con lui fino allo spuntare dell&rsquo;aurora. Vedendo che non poteva vincerlo, lo colp&igrave; all&rsquo;articolazione del femore. [...] &laquo;Non ti chiamerai pi&ugrave; Giacobbe, ma Israele, perch&eacute; hai combattuto con Dio e con gli uomini e hai vinto!&raquo;.&#xBB; (Genesi 32,25-29)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Identit&agrave; e ferita</span></div>
+<p>La notte prima di incontrare Esa&ugrave;, Giacobbe lotta con un misterioso avversario fino all&rsquo;alba. &Egrave; Dio stesso? Un angelo? Il testo &egrave; ambiguo. La lotta &egrave; corpo a corpo, feroce, senza esclusione di colpi. Alla fine l&rsquo;avversario gli tocca il nervo sciatico e Giacobbe resta zoppo. Ma riceve un nome nuovo: Israele, &laquo;colui che lotta con Dio&raquo;. Non vince: resiste. La sua vittoria &egrave; non essere stato sconfitto.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica spirituale di Israele</span></div>
+<p>Israele nasce da una lotta. Non da una vittoria trionfale ma da una resistenza notturna che lascia feriti. La relazione con Dio non &egrave; pace quieta: &egrave; combattimento. Giacobbe zoppica per sempre. La ferita &egrave; permanente, come permanente &egrave; la benedizione. La geopolitica spirituale di Israele &egrave; questa: un popolo che porta nel corpo il segno della lotta con Dio.</p>
+<div class="omelia-box">
+<p>Anche tu lotti con Dio. Con le tue domande, i tuoi dubbi, le tue resistenze. Non smettere di lottare. La benedizione non &egrave; per chi vince ma per chi non molla. E uscirai zoppo, ma col nome nuovo.</p>
+<span class="tag">Zoppo ma benedetto</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c5)"></span>PARTE V</span>
+<h3>Giuseppe e l&rsquo;Impero</h3>
+<p class="part-sub">Sogni, cisterna, Egitto, potere, riconciliazione</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 15</span><span class="card-title">I sogni e l&rsquo;invidia</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Israele amava Giuseppe pi&ugrave; di tutti i suoi figli. [...] I suoi fratelli, vedendo che il padre lo amava pi&ugrave; di tutti, lo odiavano. [...] Giuseppe fece un sogno e lo raccont&ograve; ai fratelli: &laquo;Ecco, il mio covone si alz&ograve; e rest&ograve; diritto, mentre i vostri covoni stavano intorno e si prostravano davanti al mio&raquo;.&#xBB; (Genesi 37,3-7)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La differenza che provoca odio</span></div>
+<p>Giuseppe &egrave; il figlio prediletto, quello della tunica dalle lunghe maniche. I fratelli lo odiano. Lui non aiuta: racconta sogni in cui loro si prostrano davanti a lui. &Egrave; il pi&ugrave; giovane e il pi&ugrave; amato. La combinazione &egrave; esplosiva. Un giorno il padre lo manda a controllare i fratelli al pascolo. Loro lo vedono arrivare da lontano e complottano.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Dinamiche familiari disfunzionali</span></div>
+<p>La storia di Giuseppe &egrave; il manuale delle dinamiche familiari disfunzionali. Preferenza parentale, rivalit&agrave; fraterna, sogni di grandezza. Ma &egrave; anche il luogo dove Dio opera. I sogni di Giuseppe non sono fantasie adolescenziali: sono profezie. Il problema non &egrave; il sogno ma la mancanza di saggezza nel comunicarlo. L&rsquo;invidia dei fratelli &egrave; il motore della storia della salvezza: senza il loro odio, Giuseppe non sarebbe mai finito in Egitto.</p>
+<div class="omelia-box">
+<p>Hai un &laquo;Giuseppe&raquo; nella tua vita? Qualcuno che percepisci come pi&ugrave; amato, pi&ugrave; dotato, pi&ugrave; fortunato? L&rsquo;invidia &egrave; un veleno. Ma la storia di Giuseppe mostra che anche l&rsquo;invidia pu&ograve; essere usata da Dio per un disegno pi&ugrave; grande.</p>
+<span class="tag">La tunica e l&rsquo;invidia</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 16</span><span class="card-title">La cisterna</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Lo afferrarono e lo gettarono nella cisterna: era una cisterna vuota, senz&rsquo;acqua. Poi sedettero per mangiare.&#xBB; (Genesi 37,24-25)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L&rsquo;abbandono</span></div>
+<p>I fratelli gettano Giuseppe in una cisterna vuota. Poi si siedono a mangiare. Il dettaglio &egrave; agghiacciante: il pranzo mentre il fratello &egrave; nel pozzo. Lo vendono a una carovana di mercanti madianiti diretti in Egitto. Poi strappano la tunica, la macchiano col sangue di un capretto e la portano al padre: &laquo;Abbiamo trovato questa; vedi se &egrave; la tunica di tuo figlio&raquo;. Giacobbe la riconosce: &laquo;Una bestia feroce lo ha divorato&raquo;. Rifiuta di essere consolato: &laquo;Scender&ograve; in lutto da mio figlio nella tomba&raquo;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">L&rsquo;archetipo di ogni abbandono</span></div>
+<p>La cisterna &egrave; l&rsquo;archetipo di ogni abbandono. Il pozzo vuoto dove gridi e nessuno ti sente. La tratta di esseri umani &mdash; di cui Giuseppe &egrave; vittima &mdash; esiste ancora oggi. Ma nella cisterna inizia la discesa che porter&agrave; Giuseppe al trono d&rsquo;Egitto. Non &egrave; una consolazione a buon mercato: &egrave; la struttura stessa della storia della salvezza. La tomba di Cristo sar&agrave; l&rsquo;ultima cisterna, da cui uscir&agrave; la resurrezione.</p>
+<div class="omelia-box">
+<p>Sei mai stato in una cisterna? Abbandonato, tradito, venduto? La cisterna non &egrave; l&rsquo;ultima parola. Giuseppe ne uscir&agrave;. E anche tu. Non per caso ma perch&eacute; Dio &egrave; con te anche nella cisterna.</p>
+<span class="tag">Il pozzo vuoto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 17</span><span class="card-title">L&rsquo;Egitto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Il Signore fu con Giuseppe, che divenne un uomo di successo. [...] Giuseppe era bello di forma e avvenente. Dopo questi fatti, la moglie del suo padrone mise gli occhi su Giuseppe e gli disse: &laquo;Giaci con me!&raquo;. Egli rifiut&ograve;. [...] Lo fece prendere e lo gett&ograve; in prigione. Ma il Signore fu con Giuseppe.&#xBB; (Genesi 39,2-21)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Entrare nel sistema senza diventare il sistema</span></div>
+<p>In Egitto Giuseppe conosce tutte le stagioni della vita: schiavo, amministratore di successo, accusato ingiustamente, carcerato, interprete di sogni, vicer&eacute;. In ogni fase, il ritornello &egrave; lo stesso: &laquo;Il Signore fu con Giuseppe&raquo;. Non lo protegge dalle disgrazie ma lo accompagna attraverso. Giuseppe non si lamenta, non si vendica, non perde la fede. Lavora con eccellenza anche da schiavo. Resiste alla seduzione. Interpreta i sogni in prigione.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il credente nell&rsquo;Impero</span></div>
+<p>Giuseppe &egrave; il modello del credente nell&rsquo;Impero. Lavora per il faraone senza diventare faraone. Accumula grano per l&rsquo;Egitto ma non dimentica chi &egrave;. La sua competenza &egrave; la sua testimonianza. In un mondo che separa fede e professione, Giuseppe mostra che si pu&ograve; essere amministratori eccellenti del sistema senza adorare il sistema.</p>
+<div class="omelia-box">
+<p>Anche tu sei in Egitto. Il sistema in cui lavori, l&rsquo;ambiente in cui vivi. Puoi essere fedele senza isolarti. Puoi essere competente senza comprometterti. &laquo;Il Signore fu con Giuseppe&raquo; anche nelle tue carceri.</p>
+<span class="tag">Fedele nell&rsquo;Impero</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 18</span><span class="card-title">La fame e il potere</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giuseppe disse al faraone: &laquo;Ecco, stanno per venire sette anni di grande abbondanza in tutto il paese d&rsquo;Egitto. Poi verranno sette anni di carestia. [...] Il faraone costituisca commissari sul paese per raccogliere un quinto del raccolto durante i sette anni di abbondanza&raquo;.&#xBB; (Genesi 41,29-34)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Controllo delle risorse</span></div>
+<p>Giuseppe non &egrave; solo un sognatore: &egrave; un tecnocrate geniale. Interpreta il sogno del faraone (sette vacche grasse, sette magre) e propone un piano economico: accumulare il 20% del raccolto negli anni di abbondanza per sopravvivere agli anni di carestia. &Egrave; la prima politica agricola centralizzata della storia. Funziona. L&rsquo;Egitto diventa il granaio del mondo. I fratelli di Giuseppe scendono a comprare grano.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La gestione della scarsit&agrave;</span></div>
+<p>La gestione delle risorse &egrave; il cuore della geopolitica. Giuseppe diventa vicer&eacute; perch&eacute; sa gestire la scarsit&agrave;. La sua politica salva l&rsquo;Egitto e i popoli vicini. Ma ha anche un lato oscuro: la centralizzazione del grano porta alla centralizzazione del potere e alla servit&ugrave; (come si vedr&agrave; in Esodo). Ogni sistema di gestione delle crisi pu&ograve; diventare sistema di controllo. Giuseppe lo usa per il bene, ma il sistema che crea sar&agrave; usato dal faraone successivo per opprimere.</p>
+<div class="omelia-box">
+<p>Come gestisci l&rsquo;abbondanza? Prepari per la carestia o consumi tutto subito? Giuseppe insegna la saggezza della previdenza. Ma attento: ogni sistema che crei pu&ograve; diventare gabbia.</p>
+<span class="tag">Il granaio del mondo</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 19</span><span class="card-title">Giuseppe e i fratelli</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giuseppe disse ai fratelli: &laquo;Io sono Giuseppe, vostro fratello, che voi avete venduto in Egitto. Ma ora non vi rattristate e non vi dispiaccia di avermi venduto qui, perch&eacute; Dio mi ha mandato qui prima di voi per conservarvi in vita&raquo;.&#xBB; (Genesi 45,4-5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Riconciliazione e memoria</span></div>
+<p>Il momento del riconoscimento &egrave; uno dei pi&ugrave; commoventi della Bibbia. Giuseppe non si vendica. Piange. Rivede i fratelli che lo hanno venduto e offre loro perdono. Ma non cancella la memoria: &laquo;Voi avete pensato del male contro di me, ma Dio l&rsquo;ha convertito in bene&raquo;. Il male resta male. La vendita resta un crimine. Ma nella provvidenza divina, quel crimine &egrave; stato usato per la salvezza.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il fondamento di ogni processo di pace</span></div>
+<p>La riconciliazione non &egrave; oblio ma trasformazione del ricordo. Giuseppe non dice &laquo;non &egrave; successo niente&raquo;: dice &laquo;quello che avete fatto era male, ma Dio ne ha tratto bene&raquo;. Questo &egrave; il fondamento di ogni processo di pace: riconoscere il male sub&igrave;to e trovare un senso che lo trascenda. Il perdono non nega la giustizia ma la supera.</p>
+<div class="omelia-box">
+<p>C&rsquo;&egrave; qualcuno che devi perdonare? Non devi dimenticare ci&ograve; che ti ha fatto. Devi trovare, con l&rsquo;aiuto di Dio, un senso che trasformi quel male in qualcosa di fecondo. Giuseppe ci ha messo ventidue anni. Non avere fretta.</p>
+<span class="tag">Voi avevate pensato del male</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c6)"></span>PARTE VI</span>
+<h3>Verso l&rsquo;Esodo</h3>
+<p class="part-sub">Discesa, benedizione, morte e promessa</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 20</span><span class="card-title">Israele scende in Egitto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Israele part&igrave; con tutti i suoi averi e arriv&ograve; a Bersabea, dove offr&igrave; sacrifici al Dio di suo padre Isacco. [...] Poi Giacobbe e tutta la sua famiglia scesero in Egitto.&#xBB; (Genesi 46,1.6)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Salvezza e pericolo insieme</span></div>
+<p>La famiglia di Giacobbe scende in Egitto per sfuggire alla carestia. Settanta persone. Giuseppe li accoglie, d&agrave; loro la terra di Gosen. L&rsquo;Egitto &egrave; rifugio e salvezza. Ma &egrave; anche il luogo dove, quattro secoli dopo, i loro discendenti saranno schiavi. L&rsquo;ironia della storia: la salvezza di oggi prepara la schiavit&ugrave; di domani. L&rsquo;Esodo &egrave; gi&agrave; contenuto in questa discesa.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">L&rsquo;ambiguit&agrave; della migrazione</span></div>
+<p>La migrazione &egrave; sempre ambigua. Salva dalla carestia ma espone al rischio di assimilazione e perdita d&rsquo;identit&agrave;. Israele sopravvive alla carestia ma perde la libert&agrave;. Ogni rifugio &egrave; provvisorio; nessuna terra straniera &egrave; casa permanente. La geopolitica biblica &egrave; un eterno esodo: mai completamente a casa, mai completamente stranieri.</p>
+<div class="omelia-box">
+<p>Qual &egrave; il tuo Egitto? Il rifugio che ti ha salvato ma che ora rischia di diventare prigione? Un lavoro, una relazione, un luogo? La salvezza di oggi pu&ograve; diventare la schiavit&ugrave; di domani. Rimani vigile.</p>
+<span class="tag">Discesa e prigionia</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 21</span><span class="card-title">Le benedizioni finali</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giacobbe chiam&ograve; i suoi figli e disse: &laquo;Radunatevi, e vi annuncer&ograve; ci&ograve; che vi accadr&agrave; nei giorni futuri. Radunatevi e ascoltate, figli di Giacobbe, ascoltate Israele, vostro padre!&raquo;.&#xBB; (Genesi 49,1-2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Trasmettere il futuro senza possederlo</span></div>
+<p>Giacobbe morente benedice i dodici figli. Ogni benedizione &egrave; un ritratto, una profezia, una promessa. A Giuda viene promesso lo scettro: da lui nascer&agrave; Davide, e poi il Messia. Il patriarca che ha rubato la benedizione ora la trasmette ai figli. Il cerchio si chiude. Non ha pi&ugrave; terra, non ha pi&ugrave; nulla: ma ha parole da consegnare.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il fondamento della trasmissione culturale</span></div>
+<p>Le benedizioni di Giacobbe fondano le dodici trib&ugrave;. Non sono auguri generici: sono atti performativi che creano il futuro. La parola del padre morente plasma l&rsquo;identit&agrave; dei figli. &Egrave; il fondamento della trasmissione culturale: un popolo esiste finch&eacute; i padri benedicono i figli.</p>
+<div class="omelia-box">
+<p>Cosa lascerai ai tuoi figli, nipoti, discepoli? Non solo beni ma parole. Benedizioni. La tua eredit&agrave; non &egrave; ci&ograve; che possiedi ma ci&ograve; che dici a chi resta.</p>
+<span class="tag">La benedizione finale</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 22</span><span class="card-title">Giuseppe muore</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Giuseppe mor&igrave; all&rsquo;et&agrave; di centodieci anni. [...] Giuseppe disse ai fratelli: &laquo;Io sto per morire. Dio verr&agrave; certamente a visitarvi e vi far&agrave; uscire da questo paese verso il paese che ha promesso ad Abramo, Isacco e Giacobbe&raquo;. Poi fece giurare i figli d&rsquo;Israele: &laquo;Dio verr&agrave; a visitarvi, e allora porterete via di qui le mie ossa&raquo;.&#xBB; (Genesi 50,24-25)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La promessa incompiuta</span></div>
+<p>Giuseppe muore in Egitto ma non vuole restarci. Fa giurare che le sue ossa saranno portate nella terra promessa. &Egrave; un gesto di fede estrema: credere che Dio manterr&agrave; la promessa anche quando tu non ci sarai pi&ugrave;. Le sue ossa aspetteranno quattro secoli, e Mos&egrave; le porter&agrave; via nell&rsquo;Esodo. Giuseppe muore da egiziano di adozione ma ebreo di speranza.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">L&rsquo;incompletezza che genera la storia</span></div>
+<p>La morte di Giuseppe chiude la Genesi e apre l&rsquo;Esodo. I patriarchi muoiono tutti senza aver visto il compimento della promessa. Hanno visto la terra solo da lontano, come Mos&egrave;. La loro fede &egrave; per definizione incompiuta. Eppure &egrave; proprio questa incompletezza a generare la storia. Se la promessa fosse gi&agrave; compiuta, non ci sarebbe bisogno di Esodo.</p>
+<div class="omelia-box">
+<p>Morirai senza vedere il compimento di tutte le promesse. Come i patriarchi. Ma puoi morire nella fede che Dio completer&agrave; ci&ograve; che tu hai solo iniziato. Le tue ossa, come quelle di Giuseppe, testimonieranno una speranza pi&ugrave; grande della tua vita.</p>
+<span class="tag">Le ossa che aspettano</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="conclusion-section reveal">
+<p class="verse">&#xAB;Giuseppe disse ai fratelli: &laquo;Io sto per morire. Dio verr&agrave; certamente a visitarvi&raquo;. Poi fece giurare i figli d&rsquo;Israele: &laquo;Porterete via di qui le mie ossa&raquo;.&#xBB; (Genesi 50,24-25)</p>
+<div class="conclusion-msg">
+<p>Dio non costruisce la storia attraverso uomini perfetti. La costruisce attraverso uomini che continuano a camminare. I patriarchi non ricevono il compimento. Camminano verso di esso. E noi con loro. La promessa resta aperta. Le tende sono ancora piantate. Le stelle sono ancora lass&ugrave;, innumerevoli, in attesa di essere contate.</p>
+<span class="tag">Conclusione &mdash; Il cammino continua</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="reveal" style="text-align:center;padding:2rem 0">
+<p style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:.5rem"><em style="color:var(--gold);font-style:italic">Le Tende e le Stelle</em> &mdash; Promessa, nomadismo e potere nei patriarchi d&rsquo;Israele</p>
+<p style="color:var(--muted);font-weight:300;font-size:.85rem">Nono volume della collana &mdash; MetaHistoria</p>
+</div>
+</div>
+</section>
+
+<div class="page-nav" style="max-width:var(--maxw);margin:0 auto">
+<div class="nav-prev">
+<div class="nav-label">Precedente</div>
+<a href='/apocalisse-del-potere/manuale-commento-giovanni'>&larr; Il Volto e il Potere</a>
+</div>
+<div class="nav-next">
+<div class="nav-label">Successivo</div>
+<span class="nav-empty">Fine della collana</span>
+</div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Genesi 12&ndash;50 &mdash; I patriarchi</li>
+ <li>Abramo, Isacco, Giacobbe, Giuseppe</li>
+ <li>Eb 11,8-22 &mdash; La fede dei patriarchi</li>
+ <li>Manuale TGR &mdash; Le Tende e le Stelle</li>
+ <li>Nono volume della collana</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li>
+ <li><a href='/apocalisse-del-potere/manuale-commento-daniele' style='color:var(--muted);text-decoration:none'>Genesi delle Bestie</a></li>
+ <li><a href='/apocalisse-del-potere/manuale-commento-giovanni' style='color:var(--muted);text-decoration:none'>Il Volto e il Potere</a></li>
+ <li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.08});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html><script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

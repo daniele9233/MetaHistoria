@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlante del Vangelo &mdash; Geopolitica dell'Anima &middot; MetaHistoria</title>
+<meta name="description" content="Ogni episodio della vita di Cristo letto con doppia lente: geopolitica e spiritualit&agrave;. Timeline interattiva con principi, applicazioni e sintesi cristologico-politica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{
+ --bg:#0c0a09;
+ --surface:#15120f;
+ --surface-2:#1c1814;
+ --ink:#ede7dc;
+ --ink-soft:#c8bfae;
+ --muted:#8f8678;
+ --gold:#c9a227;
+ --gold-soft:rgba(201,162,39,.14);
+ --red:#a32638;
+ --red-soft:rgba(163,38,56,.16);
+ --blue:#2a5c8a;
+ --blue-soft:rgba(42,92,138,.14);
+ --line:rgba(237,231,220,.12);
+ --serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;
+ --sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;
+ --maxw:1180px;
+ }
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{
+ background:var(--bg);
+ color:var(--ink);
+ font-family:var(--sans);
+ font-size:16px;line-height:1.65;
+ -webkit-font-smoothing:antialiased;overflow-x:hidden
+ }
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{
+ position:fixed;top:0;left:0;right:0;z-index:900;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:.9rem 2rem;
+ background:rgba(12,10,9,.82);backdrop-filter:blur(12px);
+ border-bottom:1px solid var(--line)
+ }
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{
+ position:absolute;top:100%;left:0;min-width:200px;
+ background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);
+ padding:.5rem 0;opacity:0;visibility:hidden;
+ transform:translateY(8px);transition:all .25s ease;z-index:300
+ }
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ .hero{
+ text-align:center;padding:8rem 2rem 5rem;position:relative;
+ background:radial-gradient(ellipse at 30% 0%, rgba(201,162,39,.06) 0%, transparent 60%),
+ radial-gradient(ellipse at 70% 100%, rgba(163,38,56,.06) 0%, transparent 50%)
+ }
+ .hero h1{font-family:var(--serif);font-size:clamp(2rem,4.5vw,3.6rem);font-weight:600;line-height:1.1;margin-bottom:.8rem}
+ .hero h1 em{color:var(--gold);font-style:normal}
+ .hero p{color:var(--ink-soft);font-weight:300;max-width:700px;margin:.6rem auto 0;font-size:clamp(.9rem,1.1vw,1.05rem)}
+ .hero .sub{color:var(--muted);font-size:.8rem;margin-top:1.4rem;letter-spacing:.12em;text-transform:uppercase}
+ .hero .lens{display:flex;justify-content:center;gap:2.5rem;margin-top:2.5rem;flex-wrap:wrap}
+ .hero .lens div{padding:.6rem 1.5rem;border:1px solid var(--line);font-size:.7rem;text-transform:uppercase;letter-spacing:.14em}
+ .hero .lens .l-geo{border-color:var(--red);color:var(--red);font-weight:600}
+ .hero .lens .l-spi{border-color:var(--gold);color:var(--gold);font-weight:600}
+ section{padding:2rem 2rem 5rem}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .intro{max-width:740px;margin:0 auto 4rem;text-align:center}
+ .intro p{color:var(--ink-soft);font-weight:300;font-size:.9rem;line-height:1.7;margin-bottom:.8rem}
+ .intro strong{color:var(--ink);font-weight:500}
+ .intro .metodo{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem;text-align:left}
+ @media(max-width:640px){.intro .metodo{grid-template-columns:1fr}}
+ .intro .metodo div{padding:1.2rem 1.5rem;border-left:3px solid}
+ .intro .metodo .m-geo{border-color:var(--red)}.intro .metodo .m-spi{border-color:var(--gold)}
+ .intro .metodo .m-label{font-size:.6rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:.3rem;font-weight:600}
+ .intro .metodo .m-geo .m-label{color:var(--red)}.intro .metodo .m-spi .m-label{color:var(--gold)}
+ .intro .metodo p{font-size:.82rem;margin-bottom:0}
+ .sec-nav{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:4rem;justify-content:center}
+ .sec-nav a{padding:.4rem .8rem;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);text-decoration:none;transition:all .25s}
+ .sec-nav a:hover{color:var(--gold);border-color:rgba(201,162,39,.35)}
+ .timeline{position:relative;padding:0}
+ .timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent,var(--line) 5%,var(--line) 95%,transparent);transform:translateX(-50%)}
+ @media(max-width:720px){.timeline::before{left:1.5rem}}
+ .tl-section{position:relative;margin-bottom:3rem}
+ .tl-section-head{text-align:center;margin-bottom:2.5rem;position:relative}
+ .tl-section-head .num{font-family:var(--serif);font-size:2.2rem;color:var(--gold);font-weight:600;opacity:.3;line-height:1}
+ .tl-section-head h3{font-family:var(--serif);font-size:1.3rem;font-weight:500;color:var(--ink);margin-top:.2rem}
+ .tl-ep{position:relative;margin-bottom:1.2rem;cursor:pointer;user-select:none}
+ .tl-ep .ep-inner{display:grid;grid-template-columns:1fr auto 1fr;gap:1.5rem;align-items:start;position:relative}
+ @media(max-width:720px){.tl-ep .ep-inner{grid-template-columns:1fr 1fr 0;gap:.8rem}}
+ .tl-ep .ep-preview{padding:1.2rem 1.5rem;border:1px solid var(--line);background:var(--surface-2);transition:all .25s;text-align:right}
+ .tl-ep:nth-child(even) .ep-preview{text-align:left}
+ @media(max-width:720px){.tl-ep .ep-preview,.tl-ep:nth-child(even) .ep-preview{grid-column:2;text-align:left}}
+ .tl-ep .ep-preview:hover{border-color:rgba(201,162,39,.3)}
+ .tl-ep .ep-preview .ep-num{font-size:.6rem;color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-weight:600}
+ .tl-ep .ep-preview .ep-ref{color:var(--muted);font-size:.75rem;font-weight:300;margin-top:.15rem}
+ .tl-ep .ep-preview .ep-title{font-family:var(--serif);font-size:1rem;font-weight:500;color:var(--ink);line-height:1.3;margin-top:.25rem}
+ .tl-ep .ep-preview .ep-tag{font-size:.7rem;color:var(--ink-soft);font-weight:300;margin-top:.4rem;font-style:italic}
+ .tl-ep .ep-preview .ep-expand{font-size:.65rem;color:var(--muted);margin-top:.6rem;letter-spacing:.1em;text-transform:uppercase}
+ .ep-dot{width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid var(--bg);z-index:2;justify-self:center;align-self:center;transition:all .3s;flex-shrink:0}
+ .tl-ep.open .ep-dot{background:var(--red);transform:scale(1.4)}
+ @media(max-width:720px){.ep-dot{grid-column:1;width:10px;height:10px}}
+ .tl-ep .ep-detail{grid-column:1/-1;overflow:hidden;max-height:0;transition:max-height .5s ease,opacity .4s ease;opacity:0;padding:0 1.5rem}
+ .tl-ep.open .ep-detail{max-height:2000px;opacity:1;padding:1.5rem}
+ .tl-ep .ep-detail .dd-box{border:1px solid var(--line);padding:1.5rem;background:var(--surface);margin-bottom:1rem}
+ .tl-ep .ep-detail .dd-label{font-size:.55rem;text-transform:uppercase;letter-spacing:.18em;font-weight:600;margin-bottom:.5rem}
+ .tl-ep .ep-detail .dd-geo .dd-label{color:var(--red)}
+ .tl-ep .ep-detail .dd-spi .dd-label{color:var(--gold)}
+ .tl-ep .ep-detail .dd-imp .dd-label{color:var(--blue)}
+ .tl-ep .ep-detail p{font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.7}
+ .tl-ep .ep-detail .dd-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+ @media(max-width:640px){.tl-ep .ep-detail .dd-grid{grid-template-columns:1fr}}
+ .tab-sint{max-width:950px;margin:5rem auto 0;overflow-x:auto}
+ .tab-sint h3{font-family:var(--serif);font-size:1.15rem;font-weight:500;color:var(--ink);margin-bottom:1.5rem;text-align:center}
+ .tab-sint table{width:100%;border-collapse:collapse;font-size:.72rem;min-width:640px}
+ .tab-sint th,.tab-sint td{border:1px solid var(--line);padding:.55rem .7rem;text-align:left;color:var(--ink-soft);font-weight:300;vertical-align:top}
+ .tab-sint th{background:var(--surface-2);color:var(--gold);font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:.63rem;position:sticky;top:0}
+ .tab-sint td:first-child{color:var(--ink);font-weight:400;font-family:var(--serif);white-space:nowrap;font-size:.7rem}
+ .tab-sint tr:hover td{background:var(--surface-2)}
+ .synthesis{margin-top:5rem}
+ .syn-box{border:1px solid var(--line);margin-bottom:1rem;background:var(--surface-2)}
+ .syn-box .syn-head{padding:1.2rem 1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:background .2s}
+ .syn-box .syn-head:hover{background:rgba(255,255,255,.02)}
+ .syn-box .syn-head h3{font-family:var(--serif);font-size:1rem;font-weight:500;color:var(--ink)}
+ .syn-box .syn-head .syn-toggle{font-size:.7rem;color:var(--muted);transition:transform .3s}
+ .syn-box.open .syn-head .syn-toggle{transform:rotate(180deg)}
+ .syn-box .syn-body{max-height:0;overflow:hidden;transition:max-height .5s ease;padding:0 1.5rem}
+ .syn-box.open .syn-body{max-height:5000px;padding:0 1.5rem 1.5rem}
+ .syn-body p{font-size:.85rem;color:var(--ink-soft);font-weight:300;line-height:1.7;margin-bottom:.7rem}
+ .syn-body strong{color:var(--ink);font-weight:500}
+ .syn-body ul{padding-left:1.2rem;margin-bottom:.7rem}
+ .syn-body li{font-size:.82rem;color:var(--ink-soft);font-weight:300;line-height:1.6;margin-bottom:.3rem}
+ .syn-body .gold{color:var(--gold)}
+ .syn-body .principi{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:.5rem}
+ @media(max-width:720px){.syn-body .principi{grid-template-columns:1fr}}
+ .syn-body .principi h4{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.6rem}
+ .syn-body .principi .p-geo h4{color:var(--red)}
+ .syn-body .principi .p-spi h4{color:var(--gold)}
+ .syn-body .principi li{font-size:.8rem}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+ @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+<nav>
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li>
+ <a>Geopolitica Classica <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+ </div>
+ </li>
+ <li>
+ <a>Geopolitica Umana <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+  
+  <a href='/geopolitica-umana/'>Home Lente</a>
+  <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+  <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+  <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+  <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+  <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+  <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+  <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+
+</div>
+ </li>
+ <li>
+ <a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a>
+ <div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+ </div>
+ </li>
+ <li>
+ <a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/teologia-geopolitica/manifesto-piccolo'>Manifesto Piccolo</a>
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+ <a href='/teologia-geopolitica/oltre-le-mura-di-carta'>Oltre le Mura di Carta</a>
+ <a href='/teologia-geopolitica/anti-machiavelli-sogno-del-re'>Anti-Machiavelli</a>
+ <a href='/teologia-geopolitica/genesi-delle-bestie'>Genesi delle Bestie</a>
+ <a href='/teologia-geopolitica/atlante-delle-bestie'>Atlante delle Bestie</a>
+ <a href='/teologia-geopolitica/antropologia-portatori-del-sigillo'>I Portatori del Sigillo</a>
+ <a href='/teologia-geopolitica/padrone-del-mondo'>Padrone del Mondo</a>
+ <a href='/teologia-geopolitica/teologia-sistematica'>Teologia Sistematica</a>
+ <a href='/teologia-geopolitica/ecosistema-tgr'>Ecosistema TGR</a>
+ </div>
+ </li>
+ <li>
+   <a>Apocalisse del Potere <span class="arrow">&#9662;</span></a>
+  <div class="dropdown">
+  <a href='/apocalisse-del-potere/'>Home Lente</a>
+  <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+  <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+  <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+  <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+    <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+  <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+  <a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+  <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+  <a href='/apocalisse-del-potere/manuale-commento-daniele'>Genesi delle Bestie</a>
+   <a href='/apocalisse-del-potere/commento-apocalisse'>Il Trionfo dell&rsquo;Agnello</a>
+  </div>
+ </li>
+
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li></ul>
+</nav>
+
+<section class="hero">
+ <h1>Atlante <em>Geopolitico-Spirituale</em><br>del Vangelo</h1>
+ <p>Ogni episodio della vita di Cristo letto con doppia lente: dinamiche di potere, interessi strategici e legittimazioni (geopolitica) + significato cristologico, escatologico e pratiche del Regno (spiritualit&agrave;).</p>
+ <p class="sub">Card 06 &middot; Insegnamenti di fede &middot; MetaHistoria</p>
+ <div class="lens">
+ <div class="l-geo">Lente geopolitica</div>
+ <div class="l-spi">Lente spirituale</div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+
+ <div class="intro">
+ <p>La vita di Cristo, letta come <strong>paradigma politico-spirituale</strong>, offre una grammatica per ripensare potere, legittimit&agrave; e missione. Non propone una tecnica di governo, ma un orientamento che rende la politica pi&ugrave; sostenibile: un potere che si sa servo, una legittimit&agrave; che nasce dalla giustizia e dalla verit&agrave;.</p>
+ <div class="metodo">
+ <div class="m-geo">
+ <div class="m-label">Lente geopolitica</div>
+ <p>Realismo, geografie, interessi, potere. La dimensione politico-istituzionale di ogni episodio: impero, &eacute;lite, conflitto, legittimazione, controllo sociale.</p>
+ </div>
+ <div class="m-spi">
+ <div class="m-label">Lente spirituale</div>
+ <p>Cristologia, escatologia, pratiche del Regno. Ci&ograve; che ogni episodio rivela su Dio, sull&rsquo;uomo e sulla trasformazione che il Vangelo opera nelle strutture.</p>
+ </div>
+ </div>
+ </div>
+
+ <div class="sec-nav" id="secNav"></div>
+ <div class="timeline" id="timeline"></div>
+
+ <div class="tab-sint">
+ <h3>Tabella sinottica &mdash; episodio, geopolitica, spiritualit&agrave;</h3>
+ <table>
+ <thead>
+ <tr><th>Episodio</th><th>Geopolitica</th><th>Spiritualit&agrave;</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>Nascita a Betlemme</td><td>Incarnazione sotto impero; legittimit&agrave; simbolica</td><td>Dio entra nella storia, solidariet&agrave; con i vulnerabili</td></tr>
+ <tr><td>Fuga in Egitto</td><td>Rifugiati e sfera imperiale</td><td>Dio con gli esiliati</td></tr>
+ <tr><td>Battesimo</td><td>Rito pubblico; sfida alle &eacute;lite</td><td>Inaugurazione missionaria e identificazione con l&rsquo;umanit&agrave;</td></tr>
+ <tr><td>Tentazioni</td><td>Tre prove di legittimazione politica</td><td>Rifiuto delle scorciatoie e fiducia nella provvidenza</td></tr>
+ <tr><td>Sermone sul Monte</td><td>Etica contraria alla costellazione di potere</td><td>Beatitudine come nuova politica</td></tr>
+ <tr><td>Miracoli</td><td>Soft power di legittimazione popolare</td><td>Restauro della persona e della creazione</td></tr>
+ <tr><td>Tempio purificato</td><td>Attacco agli interessi economici religiosi</td><td>Richiamo alla santit&agrave; dell&rsquo;incontro con Dio</td></tr>
+ <tr><td>Ingresso a Gerusalemme</td><td>Rivendicazione messianica pubblica</td><td>Regalit&agrave; servente</td></tr>
+ <tr><td>Ultima Cena</td><td>Nuovo patto comunitario</td><td>Comunione e dono di s&eacute;</td></tr>
+ <tr><td>Processo / Crocifissione</td><td>Uso giudiziario-politico per eliminare il rischio</td><td>Svelamento della verit&agrave; nel martirio</td></tr>
+ <tr><td>Resurrezione</td><td>Sconfitta della logica mortale dell&rsquo;impero</td><td>Vittoria della vita; fondamento di speranza</td></tr>
+ <tr><td>Commissione</td><td>Missione globale nonviolenta</td><td>Testimonianza che trasforma culture</td></tr>
+ </tbody>
+ </table>
+ </div>
+
+ <div class="synthesis" id="synthesis">
+ <div class="syn-box">
+ <div class="syn-head" onclick="this.parentElement.classList.toggle('open')">
+ <h3>Principi geopolitici e spirituali del Vangelo</h3>
+ <span class="syn-toggle">&#9660;</span>
+ </div>
+ <div class="syn-body">
+ <div class="principi">
+ <div class="p-geo">
+ <h4>Principi geopolitici</h4>
+ <ul>
+ <li><strong>Legittimit&agrave; per attrazione:</strong> costruire consenso attraverso pratiche giuste, non con la forza.</li>
+ <li><strong>Sovranit&agrave; limitata:</strong> potere come servizio; legittimit&agrave; acquisita con il bene comune.</li>
+ <li><strong>Protezione dei fragili:</strong> la stabilit&agrave; dipende dall&rsquo;integrazione dei pi&ugrave; deboli.</li>
+ <li><strong>Sovversione simbolica:</strong> rituali, memoria e narrazione come terreno di lotta politica.</li>
+ <li><strong>Decentramento della legittimit&agrave;:</strong> dalle figure carismatiche alle comunit&agrave; di base.</li>
+ </ul>
+ </div>
+ <div class="p-spi">
+ <h4>Principi spirituali</h4>
+ <ul>
+ <li><strong>Autocritica pubblica:</strong> politica con memoria storica e pratiche di verit&agrave;.</li>
+ <li><strong>Misericordia strutturale:</strong> istituzioni che non solo assistono, ma riparano.</li>
+ <li><strong>Conversione delle &eacute;lite:</strong> trasformazione morale di chi detiene potere.</li>
+ <li><strong>Preferenza per i poveri:</strong> valutare le politiche dalla posizione dei pi&ugrave; vulnerabili.</li>
+ <li><strong>Nonviolenza trasformativa:</strong> rifiuto della violenza come norma di risoluzione dei conflitti.</li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="syn-box">
+ <div class="syn-head" onclick="this.parentElement.classList.toggle('open')">
+ <h3>Applicazioni pratiche</h3>
+ <span class="syn-toggle">&#9660;</span>
+ </div>
+ <div class="syn-body">
+ <p><strong>Per gli Stati:</strong> politiche di verit&agrave; storica (commissioni per il riconoscimento e la riparazione delle ingiustizie passate); diritto internazionale rafforzato con meccanismi di riparazione cooperativa; diplomazia della cura (investire in sanit&agrave;, istruzione, aiuti umanitari depoliticizzati).</p>
+ <p><strong>Per le istituzioni internazionali:</strong> riforma di inclusione (voci del Sud, piccoli Stati, popolazioni indigene); meccanismi di riparazione globale (fondi per il clima, trasferimento tecnologico equo).</p>
+ <p><strong>Per le Chiese:</strong> testimonianza pubblica integrata (riconciliazione, ospitalit&agrave;, dialogo interreligioso); responsabilit&agrave; sociale come attori economici.</p>
+ <p><strong>Per la societ&agrave; civile:</strong> reti di solidariet&agrave; transnazionali; narrative alternative che trasformino percezioni pubbliche attraverso simboli e storytelling.</p>
+ </div>
+ </div>
+ <div class="syn-box">
+ <div class="syn-head" onclick="this.parentElement.classList.toggle('open')">
+ <h3>Rischi e contraddizioni</h3>
+ <span class="syn-toggle">&#9660;</span>
+ </div>
+ <div class="syn-body">
+ <ul>
+ <li><strong>Strumentalizzazione religiosa:</strong> il rischio che il linguaggio cristiano venga usato per legittimare politiche di potere.</li>
+ <li><strong>Idealismo paternalistico:</strong> applicare &ldquo;misericordia&rdquo; senza riforme strutturali pu&ograve; diventare carit&agrave; che legittima l&rsquo;ingiustizia.</li>
+ <li><strong>Confusione tra Regno e nazione:</strong> nazionalismi che si vestono di teologia sono pericolosi.</li>
+ <li><strong>Realpolitik vs ideale:</strong> conversione etica senza strumenti di implementazione rimane inefficace.</li>
+ </ul>
+ </div>
+ </div>
+ <div class="syn-box">
+ <div class="syn-head" onclick="this.parentElement.classList.toggle('open')">
+ <h3>Cristologia Geopolitica &mdash; principi sintetici</h3>
+ <span class="syn-toggle">&#9660;</span>
+ </div>
+ <div class="syn-body">
+ <ul>
+ <li><strong>Solidariet&agrave; incarnata:</strong> le politiche devono incarnare la vicinanza al crocifisso della storia (vulnerabili, esclusi, migranti).</li>
+ <li><strong>Verit&agrave; pubblica:</strong> confessione storica come base di negoziato per la legittimit&agrave; internazionale.</li>
+ <li><strong>Responsabilit&agrave; distributiva:</strong> potenza come responsabilit&agrave; di custodire i beni comuni globali.</li>
+ <li><strong>Trasformazione simbolica:</strong> lavorare su narrazioni e rituali che generino nuova legittimit&agrave; nonviolenta.</li>
+ <li><strong>Resilienza comunitaria:</strong> rafforzare la societ&agrave; civile come infrastruttura di pace.</li>
+ </ul>
+ </div>
+ </div>
+ </div>
+
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare &mdash; arma di decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Vangeli sinottici + Giovanni</li>
+ <li>C. Schmitt, <em>Teologia politica</em> (1922)</li>
+ <li>D. Fabbri, <em>Geopolitica umana</em> (2023)</li>
+ <li>F. Rosini, <em>Geopolitica dell&rsquo;Anima</em> (lezioni)</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/#metodo' style='color:var(--muted);text-decoration:none'>Metodo operativo</a></li>
+ <li><a href='/geopolitica-dell-anima/fondamenti' style='color:var(--muted);text-decoration:none'>Insegnamenti Fondamentali</a></li>
+ <li><a href='/geopolitica-dell-anima/insegnamenti-di-fede' style='color:var(--muted);text-decoration:none'>Insegnamenti di fede</a></li>
+ <li><a href='/geopolitica-dell-anima/arte-del-disincanto' style='color:var(--muted);text-decoration:none'>Arte del disincanto</a></li>
+ <li><a href='/geopolitica-dell-anima/domanda-della-salvezza' style='color:var(--muted);text-decoration:none'>La domanda della salvezza</a></li>
+ <li><a href='/geopolitica-dell-anima/cammino-di-israele' style='color:var(--muted);text-decoration:none'>Il cammino di Israele</a></li>
+ <li><a href='/geopolitica-dell-anima/immagine-di-dio' style='color:var(--muted);text-decoration:none'>L'immagine di Dio</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-storico' style='color:var(--muted);text-decoration:none'>Atlante Storico</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-antico-testamento' style='color:var(--muted);text-decoration:none'>Atlante Antico Testamento</a></li>
+ <li><a href="atlante-vangelo.html"
+ <li><a href='/geopolitica-dell-anima/modello-civilta-organismo' style='color:var(--muted);text-decoration:none'>Modello Civilt&agrave;-Organismo</a></li>
+ <li><a href='/geopolitica-dell-anima/matrice-apocalittica' style='color:var(--muted);text-decoration:none'>Matrice Apocalittica</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-antico-testamento' style='color:var(--muted);text-decoration:none'>Atlante Antico Testamento</a></li>
+ <li><a href='/geopolitica-dell-anima/atlante-vangelo' style='color:var(--muted);text-decoration:none'>Atlante del Vangelo</a></li>
+ <li><a href='/geopolitica-dell-anima/cuore-e-impero' style='color:var(--muted);text-decoration:none'>Il Cuore e l'Impero</a></li>
+ <li><a href='/geopolitica-dell-anima/cartografia-anima-collettiva' style='color:var(--muted);text-decoration:none'>Cartografia Anima Collettiva</a></li>
+ <li><a href='/geopolitica-dell-anima/frontiere' style='color:var(--muted);text-decoration:none'>Frontiere</a></li>
+ <li><a href='/geopolitica-dell-anima/modello-civilta-organismo' style='color:var(--muted);text-decoration:none'>Modello Civilt&agrave;-Organismo</a></li>
+ <li><a href='/geopolitica-dell-anima/matrice-apocalittica' style='color:var(--muted);text-decoration:none'>Matrice Apocalittica</a></li>
+ <li><a href='/geopolitica-dell-anima/vaticano' style='color:var(--muted);text-decoration:none'>Caso Vaticano</a></li>
+ <li><a href='/geopolitica-dell-anima/usa' style='color:var(--muted);text-decoration:none'>Caso USA</a></li>
+ <li><a href='/geopolitica-dell-anima/cina' style='color:var(--muted);text-decoration:none'>Caso Cina</a></li>
+ <li><a href='/geopolitica-dell-anima/russia' style='color:var(--muted);text-decoration:none'>Caso Russia</a></li>
+ <li><a href='/geopolitica-dell-anima/iran' style='color:var(--muted);text-decoration:none'>Caso Iran</a></li>
+ <li><a href='/geopolitica-dell-anima/europa' style='color:var(--muted);text-decoration:none'>Caso Europa</a></li>
+ <li><span style="color:var(--muted);text-decoration:none">Manifesto TGP</span></li>
+ <li><span style="color:var(--muted);text-decoration:none">Theopolitica</span></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &middot; Font: Libre Bodoni + Public Sans &middot; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+
+ const data = [
+ {s:"I. Infanzia e contesto inaugurale",n:1,t:"Annunciazione e nascita a Betlemme (Lc 1&ndash;2; Mt 1&ndash;2)",r:"Lc 1-2; Mt 1-2",tag:"Incarnazione sotto impero",
+ geo:"Nascita sotto occupazione: il censimento imperiale di Cesare e la politica fiscale entrano nella cronaca di nascita del Messia &mdash; segno che la storia di Dio si dichiara in una struttura di potere. Betlemme e la genealogia: il luogo e la discendenza sono dichiarazioni identitarie con implicazioni di legittimit&agrave; nazionale e memoria storica. Il timore di Erode e la strage degli innocenti: la risposta di un potere consolidato alla minaccia simbolica di un &laquo;re&raquo; alternativo.",
+ spi:"Incarnazione come solidariet&agrave; storica: Dio sceglie la contingenza, non l'astrazione. La kenosi (abbassamento) &egrave; decisione politico-spirituale: entrare nella vulnerabilit&agrave; umana. Messianicit&agrave; nascosta: il Re si manifesta nel piccolo, sovvertendo i criteri imperiali di grandezza.",
+ imp:"Stati: riconoscere che la legittimit&agrave; politica si costruisce anche su narrazioni e simboli; attenzione alle politiche che colpiscono i pi&ugrave; vulnerabili (immigrazione, registri civili). Chiese/societ&agrave; civile: custodire memoria storica e proteggere i bambini e i non potenti come segno di resistenza simbolica."},
+ {s:"I. Infanzia e contesto inaugurale",n:2,t:"Fuga in Egitto e ritorno",r:"Mt 2",tag:"Rifugiati e sfera imperiale",
+ geo:"Rifugiati e sfera imperiale: la famiglia reale in esilio mostra come la logica della sopravvivenza e della mobilit&agrave; sia intrinsecamente politica. L'Egitto &egrave; un rifugio, spazio di minor potere imperiale rispetto a Gerusalemme.",
+ spi:"Esilio come modalit&agrave; salvifica: l'esperienza del fuori &egrave; parte della missione: Dio con gli esiliati.",
+ imp:"Politiche migratorie: creare corridoi umanitari e strumenti che riconoscano la dignit&agrave; dei rifugiati; la protezione dei vulnerabili come principio etico e strategico."},
+ {s:"II. Inizio pubblico: battesimo e tentazioni",n:3,t:"Battesimo nel Giordano (Mt 3; Mc 1; Lc 3)",r:"Mt 3; Mc 1; Lc 3",tag:"Rito pubblico e identit&agrave;",
+ geo:"Atto subalterno e insieme pubblico: il battesimo &egrave; un rito che dichiara appartenenza a un popolo e a una storia. Ritualit&agrave; come politica d'identit&agrave;. Giovanni come figura marginale che sfida le &eacute;lite: conflitto tra periferia profetica e centro istituzionale.",
+ spi:"Identificazione con l'umanit&agrave; peccatrice e inaugurazione missionaria: Ges&ugrave; si mostra come uno che prende su di s&eacute; la condizione umana.",
+ imp:"Simboli pubblici e legittimit&agrave;: le cerimonie civili possono essere strumenti di inclusione; attenzione all'uso strumentale dei riti."},
+ {s:"II. Inizio pubblico: battesimo e tentazioni",n:4,t:"Tentazioni nel deserto (Mt 4; Lc 4)",r:"Mt 4; Lc 4",tag:"Tre prove di legittimazione politica",
+ geo:"Tre tentazioni = tre prove di riconoscimento politico: pane (sussistenza/economia), potere spettacolare (miracoli come legittimazione), dominio sui regni del mondo (alleanze, compromessi con l'impero). La rinuncia di Ges&ugrave; segna un modello di dissociazione dal potere che compra consenso con spettacolo o violenza.",
+ spi:"Fiducia nella provvidenza; rifiuto delle scorciatoie etiche; il Regno non si conquista con la forza o con l'astuzia.",
+ imp:"Politica: rifiuto delle legittimazioni populiste basate sul miracolo facile o sulla demagogia; privilegiare istituzioni resistenti alla tentazione del &laquo;tutto e subito&raquo;."},
+ {s:"III. Annuncio del Regno: insegnamenti e missione",n:5,t:"Predicazione itinerante e chiamata dei discepoli (Mc 1&ndash;3; Mt 4&ndash;10; Lc 5)",r:"Mc 1-3; Mt 4-10; Lc 5",tag:"Comunit&agrave; itinerante e leadership alternativa",
+ geo:"Mobilit&agrave; come strategia: la comunit&agrave; itinerante spezza i punti di potere locali e crea reti trasversali. Chiamata di semplici lavoratori e pescatori: costruzione di leadership alternativa, non derivata da strutture di potere preesistenti.",
+ spi:"Comunit&agrave; come corpo missionario: il discepolo &egrave; chiamato alla sequela, con privazione e condivisione.",
+ imp:"Formazione di leadership: promuovere leader politici e civici formati alla condivisione e alla responsabilit&agrave;, non all'arricchimento personale."},
+ {s:"III. Annuncio del Regno: insegnamenti e missione",n:6,t:"Sermone sul Monte / Discorso della pianura (Mt 5&ndash;7; Lc 6)",r:"Mt 5-7; Lc 6",tag:"Etica come politica capovolta",
+ geo:"Etica come politica: le Beatitudini e le norme (amare i nemici, non cercare vendetta) mettono in crisi logiche di sicurezza basate sulla sopraffazione. Sono un &laquo;programma di soft power&raquo; alternativo: costruire egemonia morale per attrazione. Legge e rottura: Ges&ugrave; non abroga la legge; la reinterpreta dal basso, cambiando i criteri di giustizia e autorit&agrave;.",
+ spi:"Etica del cuore: beatitudine come formula capovolta di potere (i poveri, i miti, i misericordiosi).",
+ imp:"Politiche pubbliche: incentivi per pratiche restorative; educazione civica improntata a misericordia e responsabilit&agrave;."},
+ {s:"III. Annuncio del Regno: insegnamenti e missione",n:7,t:"Insegnamenti sulla guerra, sul giudizio, sulla ricchezza",r:"Mt 5-7; Lc 6",tag:"Economia e conflitto",
+ geo:"Rifiuto del giudizio sommario e della logica vendicativa pu&ograve; essere interpretato come strategia di lungo termine per stabilit&agrave; e diminuzione dei conflitti. La propriet&agrave; privata e la ricchezza vengono inserite in una prospettiva di responsabilit&agrave; sociale.",
+ spi:" Priorit&agrave; dei poveri e conversione del cuore.",
+ imp:"Economia globale: politiche redistributive, tassazione etica, responsabilit&agrave; delle imprese."},
+ {s:"IV. Segni, miracoli e autorit&agrave;",n:8,t:"Guarigioni, esorcismi, controllo della natura",r:"Mt/Mc/Lc passim",tag:"Soft power e legittimazione popolare",
+ geo:"I miracoli sono &laquo;soft power&raquo; che legittimano un messaggio alternativo: attraggono e creano consenso popolare che pu&ograve; minacciare le &eacute;lite. Il controllo della sfera sacra (guarigioni) sottrae all'autorit&agrave; religiosa monopolistica alcune funzioni di legittimazione.",
+ spi:"Segni di restaurazione della creazione: la salvezza &egrave; ontologica, riguarda persona e creazione.",
+ imp:"Politiche sanitarie come diplomazia: cooperazione sanitaria internazionale come forma di autorit&agrave; morale."},
+ {s:"IV. Segni, miracoli e autorit&agrave;",n:9,t:"Tavola e convivialit&agrave; (Zaccheo, peccatrici, Matteo)",r:"Lc 5; Lc 19; Mt 9",tag:"Banchetto come spazio politico",
+ geo:"Il banchetto come spazio politico: i pasti condivisi sono pratiche di coalizione, inclusione o esclusione. Chi siede a tavola determina reti di alleanza. Ges&ugrave; riduce le barriere rituali, ampliando il &laquo;patto sociale&raquo;.",
+ spi:"Riconciliazione e accoglienza: il pasto come sacramento di comunione e perdono.",
+ imp:"Diplomazia culturale: iniziative che usano la convivialit&agrave; per costruire fiducia tra gruppi in conflitto."},
+ {s:"V. Conflitti istituzionali e logiche dell'ordine",n:10,t:"Scontri con farisei, sadducei, scribi",r:"Mt/Mc/Lc passim",tag:"Rivoluzione morale vs potere religioso",
+ geo:"Conflitto tra rivoluzione morale e potere religioso istituzionalizzato: il Tempio come centro di interesse economico e legittimazione, e la critica di Ges&ugrave; come attacco all'imbroglio di potere. La gestione dell'ordine religioso &egrave; funzione di controllo sociale; minacciarla ha implicazioni politiche.",
+ spi:"Denuncia dell'ipocrisia: autenticit&agrave; religiosa come vera trasformazione.",
+ imp:"Riforma delle istituzioni religiose: trasparenza, responsabilit&agrave; e protezione dei pi&ugrave; deboli."},
+ {s:"V. Conflitti istituzionali e logiche dell'ordine",n:11,t:"Cacciata dei mercanti dal Tempio (Mc 11; Gv 2)",r:"Mc 11; Gv 2",tag:"Attacco agli interessi economici",
+ geo:"Atto simbolico-politico: attacco agli interessi economici radicati nel centro di potere religioso. Un gesto che politicizza la religione.",
+ spi:"Purificazione del culto: il tempio come luogo di incontro con Dio, non di profitto.",
+ imp:"Lotta alla corruzione nelle istituzioni che combinano sacro e profitto; tutela dei beni comuni."},
+ {s:"VI. Verso Gerusalemme: la traiettoria politica dell'impegno",n:12,t:"Ingresso messianico a Gerusalemme (Mt 21; Mc 11; Lc 19)",r:"Mt 21; Mc 11; Lc 19",tag:"Provocazione pubblica e regalit&agrave; alternativa",
+ geo:"Entrata simbolica che rivendica un tipo di regalit&agrave; alternativo; minaccia sia all'autorit&agrave; religiosa che a quella politica (Roma) &mdash; atto pubblico, provocazione. Le folle come elemento di pressione politica: consenso popolare che pu&ograve; trasformarsi in destabilizzazione.",
+ spi:"Regno reale ma servente: la regalit&agrave; di Ges&ugrave; &egrave; manifestazione di umilt&agrave; e servizio.",
+ imp:"Importanza delle manifestazioni popolari come barometro politico; gestione responsabile delle piazze."},
+ {s:"VI. Verso Gerusalemme: la traiettoria politica dell'impegno",n:13,t:"Insegnamenti finali (discorso escatologico, Mt 24&ndash;25; Mc 13; Lc 21)",r:"Mt 24-25; Mc 13; Lc 21",tag:"Vigilanza e fragilit&agrave; politica",
+ geo:"Visione della fine dei tempi come analisi delle fragilit&agrave; politiche: guerre, carestie, persecuzioni sono letti come prodotti di un mondo strutturalmente instabile. Invito alla vigilanza politica e strategica.",
+ spi:"Attesa attiva: vigilanza, giustizia, cura degli ultimi. Non rassegnazione ma responsabilit&agrave; profetica.",
+ imp:"Pianificazione strategica integrata: preparazione civile, resilienza e risposta globale coordinata alle crisi."},
+ {s:"VII. Ultima Cena, processo e crocifissione",n:14,t:"Ultima Cena e istituzione dell'Eucaristia (Mt 26; Mc 14; Lc 22; Gv)",r:"Mt 26; Mc 14; Lc 22; Gv",tag:"Nuovo patto e sovranit&agrave; alternativa",
+ geo:"Il rito come atto costituente della comunit&agrave;: un nuovo patto che rivisita i vincoli sociali e politici. Comunione come forma alternativa di sovranit&agrave;: la comunit&agrave; eucaristica riafferma legami diversi da quelli statali.",
+ spi:"Dona te ipsum: la forma suprema di leadership &egrave; dono di s&eacute;; resistenza nonviolenta che svela un potere escatologico.",
+ imp:"Comunit&agrave; civili di solidariet&agrave; come modello sociale alternativo: reti di sostegno che funzionano anche in assenza di potere centralizzato."},
+ {s:"VII. Ultima Cena, processo e crocifissione",n:15,t:"Processo politico-giudiziario e Pilato (Gv 18; Mt 27; Mc 15; Lc 23)",r:"Gv 18; Mt 27; Mc 15; Lc 23",tag:"Teatro politico e compromesso imperiale",
+ geo:"Processo come teatro politico: Pilato rappresenta l'impero che decide la rimozione del rischio all'ordine pubblico; il compromesso tra &eacute;lite locali e Roma per mantenere la stabilit&agrave;. Forma di legittimazione: usare procedure giudiziarie per eliminare una minaccia simbolica.",
+ spi:"Innocenza sofferta e valore redentivo del sacrificio; la verit&agrave; rivelata nella debolezza.",
+ imp:"Crisi di legittimit&agrave;: quando istituzioni usano il diritto per fini politici, la fiducia si erode; l'importanza di garanzie giudiziarie reali."},
+ {s:"VII. Ultima Cena, processo e crocifissione",n:16,t:"Croce, esecuzione e simbolo (Mt 27; Mc 15; Lc 23; Gv 19)",r:"Mt 27; Mc 15; Lc 23; Gv 19",tag:"Deterrenza imperiale e backfire",
+ geo:"La croce come strumento di deterrenza imperiale: punizione pubblica per dissuadere il dissenso. Ma al contempo, come strumento che crea martiri e potenze simboliche che resistono oltre la morte. La croce come backfire: il tentativo di pacificare con violenza produce profondi effetti destabilizzanti a lungo termine (memoria, culto, resilienza del movimento).",
+ spi:"Croce come rivelazione di Dio che si identifica con i crocifissi della storia; la vittoria &egrave; paradossalmente nella sconfitta.",
+ imp:"Politiche di memoria: come gli atti di violenza pubblica lasciano eredit&agrave; politiche e culturali; importanza di pratiche di verit&agrave; e riconciliazione."},
+ {s:"VIII. Risurrezione e trasformazione dell'ordine",n:17,t:"Resurrezione: apparizioni e trasformazione della paura (Mt 28; Lc 24; Gv 20; Mc 16)",r:"Mt 28; Lc 24; Gv 20; Mc 16",tag:"Sconfitta della logica mortale",
+ geo:"La resurrezione mina la logica della potenza che si regge sulla morte e sull'annientamento: simbolo che riduce il monopolio dell'impero sulla realt&agrave; ultima. Trasformazione dell'autorit&agrave;: nuova legittimazione fondata sulla vita, non sul controllo.",
+ spi:"Garanzia escatologica: il Regno si manifesta come dono gi&agrave; iniziato. Trasformazione etica che abbatte l'orrore come norma.",
+ imp:"Politiche di costruzione della pace basate sulla memoria viva, sulle pratiche di giustizia riparativa e sulla cooperazione duratura."},
+ {s:"VIII. Risurrezione e trasformazione dell'ordine",n:18,t:"Commissione e mandato (Mt 28,18&ndash;20; Gv 20)",r:"Mt 28; Gv 20",tag:"Missione globale nonviolenta",
+ geo:"Missione come diffusione di un modello politico-nonviolento: i discepoli sono inviati a creare reti globali di comunit&agrave; alternative che cambiano il mondo per attrazione.",
+ spi:"Mandato sacramentale: fare discepoli, insegnare, battezzare &mdash; trasformare vite e strutture.",
+ imp:"Soft power positivo: promuovere modelli culturali e religiosi che favoriscano coesione e cooperazione internazionale."},
+ {s:"IX. Ascensione e promessa dello Spirito",n:19,t:"Ascensione e Spirito (Atti 1; Gv 14&ndash;16)",r:"Atti 1; Gv 14-16",tag:"Decentralizzazione del potere",
+ geo:"Trasferimento della leadership da figura carismatica al corpo comunitario guidato dallo Spirito: decentralizzazione del potere e istituzionalizzazione nuova (Chiesa/comunit&agrave;).",
+ spi:"Spirito come forza che abilita la testimonianza trasformativa, conferisce resilienza e creativit&agrave; politica nonviolenta.",
+ imp:"Costruzione di istituzioni resilienti e partecipative: mettere in rete le iniziative di pace e sviluppo."}
+ ];
+
+ const timeline = document.getElementById('timeline');
+ const secNav = document.getElementById('secNav');
+ let sections = [...new Set(data.map(d => d.s))];
+ let secIds = {};
+
+ sections.forEach((s, si) => {
+ let id = 'sec-' + si;
+ secIds[s] = id;
+ secNav.innerHTML += '<a href="#' + id + '">' + s.replace(/^[IVX]+\.\s*/,'') + '</a>';
+ });
+
+ let currentSection = '';
+ let html = '';
+ data.forEach((ep, i) => {
+ if (ep.s !== currentSection) {
+ currentSection = ep.s;
+ let secId = secIds[ep.s];
+ html += '<div class="tl-section" id="' + secId + '"><div class="tl-section-head"><div class="num">' + ep.s.match(/^[IVX]+/)[0] + '</div><h3>' + ep.s.replace(/^[IVX]+\.\s*/,'') + '</h3></div>';
+ }
+ html += '<div class="tl-ep" onclick="toggleEp(this)"><div class="ep-inner">';
+ if (i % 2 === 0) {
+ html += '<div class="ep-preview" style="grid-column:1">';
+ } else {
+ html += '<div class="ep-preview" style="grid-column:3">';
+ }
+ html += '<div class="ep-num">Episodio ' + ep.n + '</div>';
+ html += '<div class="ep-ref">' + ep.r + '</div>';
+ html += '<div class="ep-title">' + ep.t + '</div>';
+ html += '<div class="ep-tag">' + ep.tag + '</div>';
+ html += '<div class="ep-expand">Clicca per espandere &darr;</div>';
+ html += '</div><div class="ep-dot"></div>';
+ html += '<div class="ep-detail"><div class="dd-grid"><div class="dd-box dd-geo"><div class="dd-label">Lente geopolitica</div><p>' + ep.geo + '</p></div><div class="dd-box dd-spi"><div class="dd-label">Lente spirituale</div><p>' + ep.spi + '</p></div></div><div class="dd-box dd-imp"><div class="dd-label">Implicazioni operative</div><p>' + ep.imp + '</p></div></div>';
+ html += '</div></div>';
+ });
+ timeline.innerHTML = html;
+
+ window.toggleEp = function(el) {
+ el.classList.toggle('open');
+ };
+
+})();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

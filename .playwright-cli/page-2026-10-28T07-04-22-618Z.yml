@@ -1,0 +1,310 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - 'link "MetaHistoria Il Metodo Pentapolare: Apocalisse del Potere" [ref=e5] [cursor=pointer]':
+        - /url: "#archivio"
+        - generic [ref=e6]: MetaHistoria
+        - generic [ref=e7]: "Il Metodo Pentapolare: Apocalisse del Potere"
+      - navigation "Sezioni" [ref=e8]:
+        - button "Geopolitica classica" [ref=e10] [cursor=pointer]
+        - button "Geopolitica umana" [ref=e14] [cursor=pointer]
+        - button "Geopolitica dell'anima" [ref=e18] [cursor=pointer]
+        - button "Teologia della geopolitica" [ref=e22] [cursor=pointer]
+        - button "Apocalisse del potere" [ref=e26] [cursor=pointer]
+        - button "Metodo pentaedrico" [ref=e30] [cursor=pointer]
+      - generic [ref=e33]:
+        - link "Indice" [ref=e34] [cursor=pointer]:
+          - /url: "#editorial"
+        - link "Colophon" [ref=e35] [cursor=pointer]:
+          - /url: "#colophon"
+  - main [ref=e36]:
+    - region "Archivio tridimensionale" [ref=e37]:
+      - generic [ref=e44]:
+        - article [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Interno
+            - text: La stanza della meditazione
+          - 'button "Apri il documento: La stanza della meditazione — Teologia" [ref=e49]'
+        - article [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: Gerusalemme al centro del mondo
+          - 'button "Apri il documento: Gerusalemme al centro del mondo — Atlante" [ref=e54]'
+        - article [ref=e55] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Documenti
+            - generic [ref=e59]: Il re sotto la legge
+            - generic [ref=e61]: "La Magna Carta non concede libertà: concede procedure. È il documento che trasforma il potere in una questione di forma."
+          - 'button "Apri il documento: Il re sotto la legge — Storia" [ref=e62]'
+        - article [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: L’oro delle Scritture
+          - 'button "Apri il documento: L’oro delle Scritture — Teologia" [ref=e67]'
+        - article [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: MetaHistoria
+              - generic [ref=e72]: Geopolitica
+            - generic [ref=e73]: Archivio
+            - heading "Quattro uomini, un mondo" [level=3] [ref=e74]
+            - paragraph [ref=e76]: "Parigi, 1919: la fotografia di un ordine mondiale che si crede definitivo e che durerà vent’anni."
+            - generic [ref=e77]:
+              - generic [ref=e78]: Giulia Fanti
+              - generic [ref=e79]: 1 ottobre 2025
+          - 'button "Apri il documento: Quattro uomini, un mondo — Geopolitica" [ref=e80]'
+        - article [ref=e81] [cursor=pointer]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: Ritratti
+            - text: Il sultano e il pittore
+          - 'button "Apri il documento: Il sultano e il pittore — Storia" [ref=e85]'
+        - article [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: Trattati
+            - generic [ref=e90]: L’invenzione della sovranità
+            - generic [ref=e92]: Münster, 1648. Nasce l’idea che esista un «interno» degli Stati, sottratto a ogni autorità superiore.
+          - 'button "Apri il documento: L’invenzione della sovranità — Geopolitica" [ref=e93]'
+        - article [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: MetaHistoria
+              - generic [ref=e98]: Geopolitica
+            - generic [ref=e99]: Congresso
+            - heading "L’Europa delle cancellerie" [level=3] [ref=e100]
+            - paragraph [ref=e102]: Il congresso che ridisegnò l’Europa senza consultare una sola popolazione. Funzionò per un secolo.
+            - generic [ref=e103]:
+              - generic [ref=e104]: Lorenzo Bassi
+              - generic [ref=e105]: 14 settembre 2025
+          - 'button "Apri il documento: L’Europa delle cancellerie — Geopolitica" [ref=e106]'
+        - article [ref=e107] [cursor=pointer]:
+          - generic [ref=e108]: Dove finisce un impero
+          - 'button "Apri il documento: Dove finisce un impero — Atlante" [ref=e111]'
+        - article [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Pittura
+            - text: Il conte, il santo, la città
+          - 'button "Apri il documento: Il conte, il santo, la città — Storia" [ref=e116]'
+        - article [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: MetaHistoria
+              - generic [ref=e121]: Teologia
+            - generic [ref=e122]: Affreschi
+            - heading "Il logos prima del dogma" [level=3] [ref=e123]
+            - paragraph [ref=e125]: Raffaello mette i filosofi pagani nelle stanze del papa. È il più grande atto di diplomazia intellettuale del Rinascimento.
+            - generic [ref=e126]:
+              - generic [ref=e127]: Elena Ricci
+              - generic [ref=e128]: 11 settembre 2025
+          - 'button "Apri il documento: Il logos prima del dogma — Teologia" [ref=e129]'
+        - article [ref=e130] [cursor=pointer]:
+          - generic [ref=e131]: Le vie del mondo
+          - 'button "Apri il documento: Le vie del mondo — Atlante" [ref=e134]'
+        - article [ref=e135] [cursor=pointer]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: Incisioni
+            - text: La notte della ragione
+          - 'button "Apri il documento: La notte della ragione — Teologia" [ref=e139]'
+        - article [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: MetaHistoria
+              - generic [ref=e144]: Storia
+            - generic [ref=e145]: Architetture
+            - heading "Due fedi, un impero" [level=3] [ref=e146]
+            - paragraph [ref=e148]: Santa Sofia è stata cattedrale, moschea, museo, di nuovo moschea. La sua cupola ha cambiato padrone senza mai cambiare forma.
+            - generic [ref=e149]:
+              - generic [ref=e150]: Andrea Serra
+              - generic [ref=e151]: 2 ottobre 2025
+          - 'button "Apri il documento: Due fedi, un impero — Storia" [ref=e152]'
+        - article [ref=e153] [cursor=pointer]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - generic [ref=e156]: MetaHistoria
+              - generic [ref=e157]: Storia
+            - generic [ref=e158]: Architetture
+            - heading "La cupola e la città" [level=3] [ref=e159]
+            - paragraph [ref=e161]: Costruire San Pietro significò vendere il cielo per finanziare la pietra. E provocare una frattura che dura ancora.
+            - generic [ref=e162]:
+              - generic [ref=e163]: Elena Ricci
+              - generic [ref=e164]: 6 settembre 2025
+          - 'button "Apri il documento: La cupola e la città — Storia" [ref=e165]'
+        - article [ref=e166] [cursor=pointer]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: Luce
+            - text: La luce che convoca
+          - 'button "Apri il documento: La luce che convoca — Teologia" [ref=e170]'
+        - article [ref=e171] [cursor=pointer]:
+          - generic [ref=e173]:
+            - generic [ref=e174]: Ritratti
+            - text: Il porporato e il principe
+          - 'button "Apri il documento: Il porporato e il principe — Storia" [ref=e175]'
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]: MetaHistoria
+            - navigation "Sezioni" [ref=e185]:
+              - link "Geopolitica" [ref=e186] [cursor=pointer]:
+                - /url: "#editorial"
+              - link "Teologia" [ref=e187] [cursor=pointer]:
+                - /url: "#editorial"
+              - link "Apocalisse" [ref=e188] [cursor=pointer]:
+                - /url: "#editorial"
+              - link "Metodo" [ref=e189] [cursor=pointer]:
+                - /url: "#editorial"
+            - generic [ref=e190]: Quaderno 01 · Autunno 2025
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: In questo numero
+              - heading [level=1] [ref=e196]:
+                - text: Dove il sacrodiventa
+                - emphasis [ref=e198]: potere
+              - paragraph [ref=e199]: "Le fedi non hanno mai abitato solo i luoghi di culto: hanno tracciato confini, legittimato troni, immaginato imperi."
+            - generic [ref=e200]:
+              - img "La Scuola di Atene di Raffaello" [ref=e202]
+              - img "Ritratto di cardinale di Raffaello" [ref=e204]
+              - generic [ref=e205]: Raffaello, 1509–1511 · Stanza della Segnatura
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: "Dalla Scuola di Atene ai trattati di Westfalia, la storia delle civiltà si legge come una lunga trattativa tra il cielo e la terra. Ogni ordine politico ha cercato una legittimazione più alta di sé: un dio, una legge naturale, una storia inevitabile."
+              - paragraph [ref=e208]: "Questo archivio raccoglie le tracce di quella trattativa: mappe che spostano il centro del mondo, documenti che limitano il potere, immagini che lo rendono visibile."
+              - blockquote [ref=e209]: «Ogni mappa è una dichiarazione di intenti.»
+              - paragraph [ref=e210]: Nessun ordine politico è sopravvissuto senza una storia che lo rendesse necessario. È questo il filo che unisce la teologia delle origini alla geopolitica dei nostri giorni.
+              - generic [ref=e211]: A cura della redazione · 14 minuti di lettura
+              - generic [ref=e212]:
+                - button "Esplora l’archivio" [ref=e213] [cursor=pointer]
+                - link "Il manifesto" [ref=e216] [cursor=pointer]:
+                  - /url: "#editorial"
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - img "Amanuense al lavoro in una miniatura medievale" [ref=e219]
+                - generic [ref=e220]: "01"
+              - generic [ref=e221]: L’oro delle Scritture
+          - generic [ref=e222]:
+            - generic [ref=e223]: In questonumero
+            - generic [ref=e225]:
+              - generic [ref=e226]: Teologia
+              - text: Il logos prima del dogma
+            - generic [ref=e227]:
+              - generic [ref=e228]: Geopolitica
+              - text: L’invenzione della sovranità
+            - generic [ref=e229]:
+              - generic [ref=e230]: Atlante
+              - text: Gerusalemme al centro
+            - generic [ref=e231]: "01"
+    - region [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e236]: Aree tematiche
+            - heading [level=2] [ref=e238]:
+              - text: Tre modi di
+              - emphasis [ref=e239]: leggere
+              - text: il mondo
+          - paragraph [ref=e240]:
+            - strong [ref=e241]: MetaHistoria
+            - text: è un archivio editoriale che attraversa teologia, geopolitica e storia delle civiltà per capire come le idee diventano istituzioni — e come le istituzioni riscrivono le idee.
+        - article [ref=e242]:
+          - generic [ref=e243]:
+            - generic [aria-hidden] [ref=e244]: T
+            - generic [ref=e245]: Teologia
+          - generic [ref=e246]:
+            - heading [level=3] [ref=e247]:
+              - text: Il cielo come
+              - emphasis [ref=e248]: costituzione
+            - paragraph [ref=e249]: Il modo in cui gli uomini hanno immaginato il divino ha preceduto e giustificato ogni ordine politico. Testi, immagini e controversie che hanno definito il sacro — e con esso il potere che lo amministra.
+          - generic [ref=e250]:
+            - button "La stanza della meditazione 7 min" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]: La stanza della meditazione
+              - generic [ref=e253]: 7 min
+            - button "L’oro delle Scritture 8 min" [ref=e254] [cursor=pointer]:
+              - generic [ref=e255]: L’oro delle Scritture
+              - generic [ref=e256]: 8 min
+            - button "Il logos prima del dogma 9 min" [ref=e257] [cursor=pointer]:
+              - generic [ref=e258]: Il logos prima del dogma
+              - generic [ref=e259]: 9 min
+        - article [ref=e260]:
+          - generic [ref=e261]:
+            - generic [aria-hidden] [ref=e262]: G
+            - generic [ref=e263]: Geopolitica
+          - generic [ref=e264]:
+            - heading [level=3] [ref=e265]:
+              - text: La fede dei
+              - emphasis [ref=e266]: confini
+            - paragraph [ref=e267]: "Confini, trattati, sfere d’influenza: la politica internazionale è una teologia secolarizzata, che promette ordine in cambio di obbedienza e chiama «realismo» la propria metafisica."
+          - generic [ref=e268]:
+            - button "Quattro uomini, un mondo 5 min" [ref=e269] [cursor=pointer]:
+              - generic [ref=e270]: Quattro uomini, un mondo
+              - generic [ref=e271]: 5 min
+            - button "L’invenzione della sovranità 10 min" [ref=e272] [cursor=pointer]:
+              - generic [ref=e273]: L’invenzione della sovranità
+              - generic [ref=e274]: 10 min
+            - button "L’Europa delle cancellerie 7 min" [ref=e275] [cursor=pointer]:
+              - generic [ref=e276]: L’Europa delle cancellerie
+              - generic [ref=e277]: 7 min
+        - article [ref=e278]:
+          - generic [ref=e279]:
+            - generic [aria-hidden] [ref=e280]: S
+            - generic [ref=e281]: Storia
+          - generic [ref=e282]:
+            - heading [level=3] [ref=e283]:
+              - text: Rovine che
+              - emphasis [ref=e284]: governano
+            - paragraph [ref=e285]: "Imperi che cadono, città che restano, memorie che decidono. La storia non è lo sfondo del presente: è l’argomento con cui ogni presente pretende di essere inevitabile."
+          - generic [ref=e286]:
+            - button "Il re sotto la legge 9 min" [ref=e287] [cursor=pointer]:
+              - generic [ref=e288]: Il re sotto la legge
+              - generic [ref=e289]: 9 min
+            - button "Il sultano e il pittore 6 min" [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: Il sultano e il pittore
+              - generic [ref=e292]: 6 min
+            - button "Il conte, il santo, la città 7 min" [ref=e293] [cursor=pointer]:
+              - generic [ref=e294]: Il conte, il santo, la città
+              - generic [ref=e295]: 7 min
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e300]: MetaHistoria
+            - paragraph [ref=e301]: Teologia, geopolitica e storia delle civiltà. Un archivio di idee, fedi e confini.
+          - generic [ref=e302]:
+            - generic [ref=e303]: Sezioni
+            - list [ref=e304]:
+              - listitem [ref=e305]:
+                - link "Teologia" [ref=e306] [cursor=pointer]:
+                  - /url: "#area-teologia"
+              - listitem [ref=e307]:
+                - link "Geopolitica" [ref=e308] [cursor=pointer]:
+                  - /url: "#area-geopolitica"
+              - listitem [ref=e309]:
+                - link "Storia" [ref=e310] [cursor=pointer]:
+                  - /url: "#area-storia"
+              - listitem [ref=e311]:
+                - link "Atlante" [ref=e312] [cursor=pointer]:
+                  - /url: "#editorial"
+          - generic [ref=e313]:
+            - generic [ref=e314]: Colophon
+            - list [ref=e315]:
+              - listitem [ref=e316]:
+                - button "Torna all’archivio" [ref=e317] [cursor=pointer]
+              - listitem [ref=e318]:
+                - link "Crediti delle immagini" [ref=e319] [cursor=pointer]:
+                  - /url: "#colophon"
+              - listitem [ref=e320]:
+                - link "Manifesto" [ref=e321] [cursor=pointer]:
+                  - /url: "#editorial"
+        - paragraph [ref=e322]:
+          - text: Questo è un progetto editoriale dimostrativo. Le immagini provengono da Wikimedia Commons e sono di pubblico dominio, fatta eccezione per le due opere indicate qui sotto, rilasciate con licenza Creative Commons. Nessun contenuto è riprodotto a fini commerciali.
+          - generic [ref=e323]:
+            - text: · Hagia Sophia Interior Dome.jpg — Matthew Badger bad_germ, CC BY-SA 3.0 (
+            - link "fonte" [ref=e324] [cursor=pointer]:
+              - /url: https://commons.wikimedia.org/wiki/File%3AHagia_Sophia_Interior_Dome.jpg
+            - text: )
+          - generic [ref=e325]:
+            - text: · St. Peter's Basilica, Rome - panoramio (4).jpg — Bob Linsdell, CC BY 3.0 (
+            - link "fonte" [ref=e326] [cursor=pointer]:
+              - /url: https://commons.wikimedia.org/wiki/File%3ASt._Peter's_Basilica%2C_Rome_-_panoramio_(4).jpg
+            - text: )
+        - generic [ref=e327]:
+          - generic [ref=e328]: © 2025 MetaHistoria
+          - generic [ref=e329]: Progetto editoriale · homepage
+          - button "Torna all’archivio ↑" [ref=e330] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic: Muovi il cursore · apri un documento
+      - generic: 17 documenti
+  - generic [ref=e332]:
+    - generic [ref=e333]: MetaHistoria
+    - generic [ref=e334]: "Il Metodo Pentapolare: Apocalisse del Potere"

@@ -1,21 +1,3 @@
-node_modules/
-dist/
-.playwright-cli/
-*.local
-.DS_Store
-
-*.tsbuildinfo
-assets-src/
-
-preview.log
-
-migration/source/
-
-# tooling dell'agente, non fa parte del progetto
-.dsh/
-.agents/
-
-# cache python degli script di migrazione
-__pycache__/
-*.pyc
-
+# Repository volutamente completo: contiene l'intero progetto, inclusi
+# dipendenze (node_modules), build (dist), materiali di lavoro (assets-src,
+# migration/source) e tooling. Nessuna esclusione.

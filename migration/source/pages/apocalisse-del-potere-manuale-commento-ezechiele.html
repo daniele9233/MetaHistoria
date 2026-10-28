@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Visioni dell'Esilio &mdash; Manuale &middot; MetaHistoria</title>
+<meta name="description" content="Commento teologico-psicologico-geopolitico a Ezechiele: il trauma dell'esilio, la gloria che abbandona il Tempio, le ossa aride, il fiume che esce dal santuario.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;--maxw:1180px;--c1:#c9a227;--c2:#a32638;--c3:#5b7f5b;--c4:#7a5b8f;--c5:#3a7a9a;--c6:#8f6f4a;--c7:#9a3a3a}
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ section{padding:6.5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3.2rem;padding-top:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.8rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .back-link{display:inline-block;font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .3s}
+ .back-link:hover{color:var(--gold)}
+ .page-nav{display:flex;justify-content:space-between;align-items:stretch;padding:2.5rem 2rem;margin:1rem 0 0;gap:2rem}
+ .page-nav div{flex:1;display:flex;flex-direction:column}
+ .page-nav .nav-next{text-align:right;align-items:flex-end}
+ .page-nav .nav-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+ .page-nav a{font-family:var(--serif);font-size:1rem;color:var(--ink-soft);text-decoration:none;transition:color .3s;line-height:1.3}
+ .page-nav a:hover{color:var(--gold)}
+ .page-nav .nav-empty{color:var(--muted);opacity:.4;font-family:var(--serif);font-size:.9rem;font-style:italic}
+ @media(max-width:600px){.page-nav{flex-direction:column;gap:1rem}.page-nav .nav-next{text-align:left;align-items:flex-start}}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+ /* --- DIAGRAM --- */
+ .diagram-wrap{max-width:900px;margin:0 auto;padding:1rem 0 2rem}
+ .diagram{position:relative;padding-left:3rem}
+ .diagram::before{content:'';position:absolute;left:14px;top:18px;bottom:18px;width:2px;background:var(--line)}
+ .diagram-node{position:relative;padding:1rem 1.2rem;margin-bottom:.6rem;border-radius:6px;background:var(--surface);border:1px solid var(--line);transition:border-color .3s;cursor:default}
+ .diagram-node::before{content:'';position:absolute;left:-22px;top:50%;width:12px;height:12px;border-radius:50%;transform:translateY(-50%);border:2px solid var(--gold);background:var(--bg)}
+ .diagram-node.part-1{border-left:3px solid var(--c1)}.diagram-node.part-1::before{border-color:var(--c1);background:var(--c1)}
+ .diagram-node.part-2{border-left:3px solid var(--c2)}.diagram-node.part-2::before{border-color:var(--c2);background:var(--c2)}
+ .diagram-node.part-3{border-left:3px solid var(--c3)}.diagram-node.part-3::before{border-color:var(--c3);background:var(--c3)}
+ .diagram-node.part-4{border-left:3px solid var(--c4)}.diagram-node.part-4::before{border-color:var(--c4);background:var(--c4)}
+ .diagram-node.part-5{border-left:3px solid var(--c5)}.diagram-node.part-5::before{border-color:var(--c5);background:var(--c5)}
+ .diagram-node.part-6{border-left:3px solid var(--c6)}.diagram-node.part-6::before{border-color:var(--c6);background:var(--c6)}
+ .diagram-node.part-7{border-left:3px solid var(--c7)}.diagram-node.part-7::before{border-color:var(--c7);background:var(--c7)}
+ .diagram-node .node-label{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+ .diagram-node .node-title{font-family:var(--serif);font-size:1.05rem;color:var(--ink)}
+ .diagram-node .node-chapters{font-size:.8rem;color:var(--ink-soft);font-weight:300;margin-top:.3rem}
+ .diagram-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem}
+ .diagram-meta .mov-badge{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+ .diagram-meta .mov-badge.evo{color:var(--gold);border-color:var(--gold-soft)}
+ .diagram-meta .mov-badge.aut{color:var(--red);border-color:var(--red-soft)}
+ .diagram-meta .mov-badge.ome{color:var(--c3);border-color:rgba(91,127,91,.2)}
+
+ /* --- PROLOGUE --- */
+ .prologue-box{max-width:780px;margin:0 auto;padding:2rem 2.4rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;position:relative}
+ .prologue-box::before{content:'P';position:absolute;top:-14px;left:2rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;color:var(--gold);background:var(--bg);padding:0 .6rem}
+ .prologue-box p{color:var(--ink-soft);font-weight:300;font-size:.92rem;margin-bottom:1rem;line-height:1.75}
+ .prologue-box p strong{color:var(--ink);font-weight:600}
+ .prologue-box .verse{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:1rem;padding:.8rem 1.2rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+
+ /* --- CHAPTER CARDS --- */
+ .chapter-card{display:block;margin-bottom:1rem;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+ .chapter-card[open]{border-color:var(--gold-soft)}
+ .chapter-card summary{list-style:none;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.6rem;cursor:pointer;user-select:none;transition:background .3s}
+ .chapter-card summary::-webkit-details-marker{display:none}
+ .chapter-card summary:hover{background:var(--surface-2)}
+ .chapter-card summary .card-num{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);flex-shrink:0;min-width:5rem}
+ .chapter-card summary .card-title{font-family:var(--serif);font-size:1.1rem;color:var(--ink);flex:1}
+ .chapter-card summary .card-arrow{font-size:.8rem;color:var(--muted);transition:transform .3s;flex-shrink:0}
+ .chapter-card[open] summary .card-arrow{transform:rotate(180deg)}
+ .chapter-card .card-body{padding:0 1.6rem 1.6rem;border-top:1px solid var(--line)}
+ .chapter-card .card-body .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin:1.2rem 0 1rem;padding:.7rem 1rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+ .chapter-card .card-body p{color:var(--ink-soft);font-weight:300;font-size:.9rem;margin-bottom:.9rem;line-height:1.75}
+ .chapter-card .card-body p strong{color:var(--ink);font-weight:600}
+ .mov-head{display:flex;align-items:center;gap:.6rem;margin:1.4rem 0 .6rem;padding-top:.6rem}
+ .mov-head .mov-ico{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);font-weight:500}
+ .mov-head .mov-ico.evo{color:var(--gold);background:var(--gold-soft)}
+ .mov-head .mov-ico.aut{color:var(--red);background:var(--red-soft)}
+ .mov-head .mov-ico.ome{color:var(--c3);background:rgba(91,127,91,.12)}
+ .mov-head .mov-label{font-family:var(--serif);font-size:.85rem;font-style:italic;color:var(--muted)}
+ .card-body .omelia-box{background:var(--bg);border:1px solid var(--red-soft);border-left:3px solid var(--red);padding:1.2rem 1.6rem;margin:1rem 0;border-radius:4px}
+ .card-body .omelia-box p{font-family:var(--serif);font-size:clamp(.9rem,1.3vw,1.05rem);font-style:italic;color:var(--ink);line-height:1.6}
+ .card-body .omelia-box .tag{display:block;margin-top:.6rem;font-family:var(--sans);font-style:normal;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+ /* --- PART HEADERS --- */
+ .part-head{text-align:center;padding:2.5rem 1rem 1.5rem;margin:2rem 0}
+ .part-head .part-num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.4rem}
+ .part-head .part-num span{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+ .part-head h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--gold);margin-bottom:.4rem}
+ .part-head .part-sub{font-size:.85rem;color:var(--ink-soft);font-weight:300;letter-spacing:.04em}
+ .part-head .part-line{width:60px;height:1px;margin:.8rem auto 0;background:var(--line)}
+
+ /* --- CONCLUSION --- */
+ .conclusion-section{text-align:center;padding:3rem 2rem}
+ .conclusion-section .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin-bottom:1rem;padding:.7rem 1rem;display:inline-block}
+ .conclusion-section .conclusion-msg{max-width:680px;margin:0 auto;background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;border-radius:8px}
+ .conclusion-section .conclusion-msg p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.2rem);font-style:italic;color:var(--ink);line-height:1.6}
+ .conclusion-section .conclusion-msg .tag{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+
+ /* --- RESPONSIVE --- */
+ @media(max-width:640px){.diagram{padding-left:2rem}.diagram-node{padding:.8rem 1rem}.chapter-card summary{padding:1rem 1.2rem}.chapter-card .card-body{padding:0 1.2rem 1.2rem}.prologue-box{padding:1.5rem}}
+ @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+</div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+</div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+</div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+</div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+</div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section>
+<div class="wrap">
+<a class='back-link' href='/apocalisse-del-potere/'>&larr; Apocalisse del Potere</a>
+<div class="sec-head reveal">
+<span class="sec-num">Lente 05 &middot; M</span>
+<h2>Le Visioni dell'Esilio</h2>
+<p class="lede">Trauma, potere e presenza nel libro di Ezechiele &mdash; Commento teologico, psicologico e geopolitico a Ezechiele. Manuale di sopravvivenza al collasso. Quando il Tempio cade, la geografia sacra si spezza e il popolo perde il centro, una domanda emerge: dov'&egrave; Dio quando il mondo che conoscevi finisce?</p>
+</div>
+
+<div class="man-body reveal">
+<p style="font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;line-height:1.2;margin-bottom:1.5rem"><em style="color:var(--gold);font-style:italic">Le Visioni dell'Esilio</em> &mdash; Trauma, potere e presenza nel libro di Ezechiele</p>
+<p style="color:var(--ink-soft);font-weight:300;font-size:.92rem;line-height:1.75">Questo manuale nasce dall&rsquo;urgenza di rileggere il libro di Ezechiele non come un testo profetico lontano, ma come il pi&ugrave; grande <strong>manuale di sopravvivenza al collasso</strong> mai scritto. Ogni capitolo si articola in tre movimenti: <strong style="color:var(--gold)">Evocazione</strong> (la scena biblica), <strong style="color:var(--red)">Autopsia</strong> (l&rsquo;analisi psicologica e geopolitica) e <strong style="color:#5b7f5b">Omelia</strong> (l&rsquo;applicazione oggi).</p>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface);padding:3rem 2rem">
+<div class="diagram-wrap reveal">
+<h3 style="font-family:var(--serif);font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:2rem">Mappa del Manuale</h3>
+<div class="diagram">
+<div class="diagram-node" style="border-left-color:var(--gold)">
+<div class="node-label">PROLOGO</div>
+<div class="node-title">I cieli si aprono sul fiume dell'esilio</div>
+<div class="node-chapters">La deportazione &middot; Il sacerdote senza tempio &middot; Il metodo pentaedrico di Ezechiele</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-1">
+<div class="node-label">PARTE I &middot; 3 capitoli</div>
+<div class="node-title">Il Cielo si Apre</div>
+<div class="node-chapters">Il fiume dell'esilio &middot; Il carro vivente &middot; Mangiare il rotolo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-2">
+<div class="node-label">PARTE II &middot; 3 capitoli</div>
+<div class="node-title">Il Sistema sta Crollando</div>
+<div class="node-chapters">Gerusalemme assediata &middot; Il Tempio contaminato &middot; "Pace" mentre tutto brucia</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-3">
+<div class="node-label">PARTE III &middot; 3 capitoli</div>
+<div class="node-title">La Gloria se ne Va</div>
+<div class="node-chapters">La gloria lascia il Tempio &middot; Il vuoto dopo la presenza &middot; Il collasso della citt&agrave;</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-4">
+<div class="node-label">PARTE IV &middot; 3 capitoli</div>
+<div class="node-title">Il Trauma dell'Uomo</div>
+<div class="node-chapters">Il profeta muto &middot; La morte della moglie &middot; Il cuore di pietra</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-5">
+<div class="node-label">PARTE V &middot; 3 capitoli</div>
+<div class="node-title">Le Nazioni e gli Imperi</div>
+<div class="node-chapters">Tiro e il commercio assoluto &middot; L'Egitto e il mito della stabilit&agrave; &middot; Babilonia</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-6">
+<div class="node-label">PARTE VI &middot; 3 capitoli</div>
+<div class="node-title">Le Ossa Aride</div>
+<div class="node-chapters">La valle delle ossa &middot; Il nuovo cuore &middot; I due legni</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-7">
+<div class="node-label">PARTE VII &middot; 3 capitoli</div>
+<div class="node-title">Il Tempio Impossibile</div>
+<div class="node-chapters">Il nuovo Tempio &middot; Il fiume che esce dal Tempio &middot; "Il Signore &egrave; l&agrave;"</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal">
+<div class="prologue-box">
+<p class="verse">&#xAB;Nell'anno trentesimo, il quinto giorno del quarto mese, mentre mi trovavo fra i deportati sul fiume Chebar, i cieli si aprirono ed ebbi visioni divine.&#xBB; (Ezechiele 1,1)</p>
+<p>Ezechiele &egrave; il profeta del trauma. Scrive da Babilonia, deportato con la prima ondata di esiliati. Il Tempio non &egrave; ancora caduto, ma cadr&agrave;. La sua missione impossibile: aiutare un popolo a perdere tutto senza perdere Dio.</p>
+<p><strong>Le sue visioni sono allucinazioni sacre</strong>: il carro di fuoco, la gloria che abbandona il santuario, la valle di ossa aride, il fiume che sgorga dal tempio e trasforma il deserto in giardino. &Egrave; il libro pi&ugrave; visionario, cinematografico, psicologicamente profondo della Bibbia. E forse il pi&ugrave; contemporaneo.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c1)"></span>PARTE I</span>
+<h3>Il Cielo si Apre</h3>
+<p class="part-sub">Il fiume dell'esilio, il carro vivente, il rotolo digerito</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 1</span><span class="card-title">Il fiume dell'esilio</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Nell'anno trentesimo... mentre mi trovavo fra i deportati sul fiume Chebar, i cieli si aprirono ed ebbi visioni divine.&#xBB; (Ezechiele 1,1)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Dio appare fuori dalla terra promessa</span></div>
+<p>Ezechiele &egrave; un sacerdote senza tempio, in esilio su un fiume straniero. Tutte le sue coordinate sono saltate: la terra promessa &egrave; lontana, il tempio &egrave; a Gerusalemme (ancora in piedi ma minacciato), il popolo &egrave; disperso. &Egrave; in questo <strong>vuoto assoluto di riferimenti</strong> che i cieli si aprono. Non nel Tempio di Gerusalemme, non sul monte Sinai, ma sul fiume Chebar, in Babilonia, nella terra dell'oppressore. &Egrave; la prima grande rivelazione di Ezechiele: Dio non &egrave; confinato nello spazio sacro. La crisi spirituale inizia quando il mondo non corrisponde pi&ugrave; alle mappe interiori.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Dislocazione e perdita delle coordinate</span></div>
+<p>Lo shock da dislocazione &egrave; una costante della storia umana. Profughi, migranti, esiliati: quando perdi il luogo, perdi anche le tue coordinate interiori. La mappa mentale che ti orientava &mdash; la piazza, la chiesa, il quartiere &mdash; si dissolve. La deportazione babilonese non fu solo politica: fu una <strong>catastrofe teologica</strong>. Come puoi cantare i canti del Signore in terra straniera? Ezechiele mostra che proprio in quel vuoto Dio pu&ograve; manifestarsi. Non perch&eacute; Dio ama il deserto ma perch&eacute; nel deserto l'uomo smette di confondere Dio con i suoi luoghi. La geografia sacra &egrave; una convenzione, non una prigione per Dio.</p>
+<div class="omelia-box">
+<p>Hai mai perso il tuo &#xAB;centro&#xBB;? Un trasloco, un licenziamento, una separazione? Ti sei sentito come Ezechiele sul fiume Chebar: tutto ci&ograve; che conoscevi &egrave; sparito. Eppure &egrave; l&igrave;, proprio l&igrave;, che i cieli possono aprirsi. Perch&eacute; Dio non abita le tue strutture ma la tua sete. Non serve essere a Gerusalemme per incontrare Dio: puoi incontrarlo sul fiume Chebar della tua vita.</p>
+<span class="tag">Il fiume dell'esilio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 2</span><span class="card-title">Il carro vivente</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Vidi una nube con fuoco lampeggiante... Al centro apparve la figura di quattro esseri viventi... Dovunque lo spirito le spingeva, le ruote andavano.&#xBB; (Ezechiele 1,4-5.20)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Dio mobile contro il sacro statico</span></div>
+<p>La visione del carro &egrave; la pi&ugrave; complessa della Bibbia. Quattro esseri viventi con quattro facce (uomo, leone, bue, aquila), ruote concentriche piene di occhi, un trono di zaffiro. &Egrave; l'immagine di un Dio in movimento. Non &egrave; seduto nel Tempio di Gerusalemme: &egrave; su un carro che pu&ograve; spostarsi ovunque. Le ruote &#xAB;piene di occhi&#xBB; vedono tutto. Nulla sfugge a questo Dio in movimento. Il messaggio &egrave; chiaro: il Dio d'Israele non &egrave; prigioniero di Gerusalemme. Il sacro autentico non pu&ograve; essere imprigionato in un sistema.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Rigidit&agrave; mentale e istituzioni</span></div>
+<p>Ogni istituzione tende a fissare Dio in un luogo, una formula, un rito. Il Tempio era il tentativo di rendere stabile la presenza divina. Ma la stabilit&agrave; pu&ograve; diventare prigione. Le ruote del carro dicono che Dio &egrave; mobile, imprevedibile, non addomesticabile. &Egrave; una lezione geopolitica enorme: chi pretende di possedere Dio &mdash; una nazione, una chiesa, un partito &mdash; scoprir&agrave; che Dio se n'&egrave; gi&agrave; andato. Il crollo del centro nazionale non &egrave; la fine di Dio, ma la fine dell'illusione che Dio coincida con le nostre istituzioni.</p>
+<div class="omelia-box">
+<p>Dove hai rinchiuso Dio? In una chiesa? In una dottrina? In una pratica religiosa? Il carro di Ezechiele ti dice: Dio &egrave; pi&ugrave; grande dei tuoi contenitori. Non cercare di controllarlo. Seguilo. Lascia che le ruote piene di occhi vedano ci&ograve; che tu non vedi. Dove non ti aspetti, l&igrave; Dio &egrave; gi&agrave; arrivato prima di te.</p>
+<span class="tag">Le ruote che vedono tutto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 3</span><span class="card-title">Mangiare il rotolo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Mi disse: &#xAB;Figlio dell'uomo, mangia ci&ograve; che ti sta davanti, mangia questo rotolo, poi va' e parla alla casa d'Israele&#xBB;. Io aprii la bocca ed egli mi fece mangiare quel rotolo... Fu nella mia bocca dolce come il miele.&#xBB; (Ezechiele 2,8-3,3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Interiorizzare il dolore della verit&agrave;</span></div>
+<p>Dio non d&agrave; a Ezechiele un discorso da pronunciare. Gli d&agrave; un rotolo da mangiare. Scritto su entrambi i lati con &#xAB;lamenti, gemiti e guai&#xBB;. Ezechiele lo mangia ed &egrave; dolce come miele. Il gesto &egrave; fisico, quasi disgustoso. Mangiare un rotolo? Ma il significato &egrave; potente: la parola di Dio non si impara a memoria. Si assimila, si digerisce, diventa parte del corpo del profeta. La parola profetica non si recita: si digerisce.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Assimilazione del trauma e comunicazione</span></div>
+<p>La comunicazione profetica non &egrave; trasmissione di informazioni ma assimilazione esistenziale. Ezechiele non &#xAB;capisce&#xBB; il messaggio: lo incorpora. I veri testimoni non ripetono slogan: parlano di ci&ograve; che hanno digerito. Il rotolo &egrave; amaro (lamenti e guai) ma in bocca &egrave; dolce: la verit&agrave;, anche dolorosa, quando &egrave; assimilata nutre. Non possiamo annunciare ci&ograve; che non abbiamo mangiato. La parola profetica non si studia: si mastica.</p>
+<div class="omelia-box">
+<p>Hai solo &#xAB;letto&#xBB; la Parola o l'hai mangiata? C'&egrave; differenza tra conoscere una verit&agrave; e averla digerita. La verit&agrave; digerita ti cambia il corpo, il sapore della bocca, il modo di guardare. Non basta studiare: bisogna mangiare. Prendi il rotolo, anche se &egrave; amaro. In bocca diventer&agrave; dolce.</p>
+<span class="tag">Il rotolo digerito</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c2)"></span>PARTE II</span>
+<h3>Il Sistema sta Crollando</h3>
+<p class="part-sub">Gerusalemme assediata, il Tempio contaminato, la falsa pace</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 4</span><span class="card-title">Gerusalemme assediata</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Tu, figlio dell'uomo, prendi un mattone, mettitelo davanti e disegna sopra una citt&agrave;, Gerusalemme. Disponi intorno ad essa l'assedio.&#xBB; (Ezechiele 4,1-2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La citt&agrave; come simbolo identitario</span></div>
+<p>Ezechiele diventa un teatro vivente. Dio gli ordina gesti simbolici estremi: disegnare Gerusalemme su un mattone, giocare all'assedio, stare sdraiato su un fianco per 390 giorni, cuocere il pane su sterco di vacca. Non &egrave; follia: &egrave; performance profetica. Il messaggio &egrave; che l'assedio di Gerusalemme non &egrave; una possibilit&agrave; remota ma una realt&agrave; imminente. Ezechiele lo vive nel corpo prima che accada nella storia. Le civilt&agrave; collassano lentamente, ma negano fino all'ultimo.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Performance profetica e negazione collettiva</span></div>
+<p>I gesti profetici di Ezechiele sono il modello di ogni arte politica. Quando le parole non bastano pi&ugrave;, il corpo deve parlare. Performances, sit-in, flash mob: l'arte politica contemporanea ripete Ezechiele senza saperlo. La negazione collettiva (&#xAB;Gerusalemme non cadr&agrave;, Dio la protegge&#xBB;) viene sfidata non con argomenti ma con gesti che rendono visibile l'invisibile. L'assedio babilonese fu un evento storico, ma &egrave; anche archetipo di ogni collasso che rifiutiamo di vedere arrivare.</p>
+<div class="omelia-box">
+<p>Cosa stai negando nella tua vita? Quale &#xAB;assedio&#xBB; sta arrivando e tu fai finta di niente? A volte serve un gesto forte, una rottura simbolica, per svegliarsi. Cosa dovresti &#xAB;disegnare su un mattone&#xBB; per vedere finalmente la realt&agrave;? Il profeta-attore non recita: vive la verit&agrave; prima che accada.</p>
+<span class="tag">Il profeta-attore</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 5</span><span class="card-title">Il Tempio contaminato</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Figlio dell'uomo, alza gli occhi verso settentrione. Alzai gli occhi ed ecco: a settentrione della porta dell'altare c'era l'idolo della gelosia, proprio all'ingresso. Vedi cosa fanno? Abomini grandi.&#xBB; (Ezechiele 8,5-6)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Quando il sacro diventa ideologia</span></div>
+<p>In visione, Ezechiele viene trasportato a Gerusalemme e vede ci&ograve; che accade dentro il Tempio. Idoli nel santuario, donne che piangono Tammuz, anziani che adorano il sole voltando le spalle al Santo dei Santi. Il Tempio, costruito per l'unico Dio, &egrave; diventato un supermercato religioso. La contaminazione non viene dall'esterno ma dall'interno. L'idolatria pi&ugrave; pericolosa usa linguaggio spirituale per coprire il tradimento.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Autoinganno religioso e corruzione del sacro</span></div>
+<p>La corruzione del sacro &egrave; il peccato pi&ugrave; grave perch&eacute; usa Dio per legittimare l'ingiustizia. Quando il linguaggio religioso copre pratiche idolatriche &mdash; il denaro, il potere, il nazionalismo &mdash; il Tempio &egrave; contaminato. Oggi le nostre &#xAB;chiese&#xBB; possono essere contaminate dagli stessi idoli: l'efficienza, il successo, il numero. Non serve un nemico esterno per distruggere una comunit&agrave; di fede: basta che l'idolatria si annidi nel santuario. Il nemico &egrave; dentro.</p>
+<div class="omelia-box">
+<p>Cosa hai messo nel tuo &#xAB;tempio interiore&#xBB; accanto a Dio? Quali idoli convivono con la tua fede senza che tu li veda? L'esame di coscienza pi&ugrave; duro &egrave; quello che Ezechiele propone: guardare dentro il santuario della propria anima. Voltare le spalle al Santo dei Santi &egrave; pi&ugrave; facile di quanto crediamo.</p>
+<span class="tag">L'idolo nel santuario</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 6</span><span class="card-title">&#xAB;Pace&#xBB; mentre tutto brucia</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;I profeti d'Israele che profetizzano a Gerusalemme e hanno visioni di pace mentre non c'&egrave; pace &mdash; oracolo del Signore Dio. Hanno sedotto il mio popolo dicendo: Pace!, e la pace non c'&egrave;.&#xBB; (Ezechiele 13,10.16)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Propaganda e anestesia</span></div>
+<p>Mentre Gerusalemme sta per cadere, i profeti ufficiali dicono: &#xAB;Pace!&#xBB;. Ezechiele denuncia: &#xAB;Hanno sedotto il mio popolo&#xBB;. &Egrave; il conflitto tra la verit&agrave; scomoda e la menzogna confortante. I falsi profeti non sono necessariamente in mala fede: credono sinceramente che Dio non abbandoner&agrave; mai il suo Tempio. Ma la loro fede &egrave; diventata ideologia. La propaganda non serve a convincere: serve a ritardare il contatto con la verit&agrave;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Rimozione del reale e funzione della propaganda</span></div>
+<p>Ogni sistema al collasso produce i suoi &#xAB;profeti di pace&#xBB;. L'Unione Sovietica fino all'ultimo negava la crisi. Le bolle finanziarie scoppiano mentre gli analisti rassicurano. La funzione sociale della propaganda non &egrave; convincere ma anestetizzare: impedire che il panico acceleri il collasso. Ma alla lunga l'anestesia peggiora il collasso. Le &eacute;lite producono falsi profeti per proteggere i propri interessi. Ma la verit&agrave;, come l'assedio babilonese, arriva comunque.</p>
+<div class="omelia-box">
+<p>In quali aree della tua vita ti senti dire &mdash; o ti dici &mdash; &#xAB;va tutto bene&#xBB; mentre non &egrave; vero? La salute, le finanze, una relazione? A volte l'unico atto d'amore &egrave; smettere di dire pace quando pace non c'&egrave;. Il vero profeta non &egrave; quello che dice ci&ograve; che vuoi sentire, ma quello che ti sveglia.</p>
+<span class="tag">La pace che non c'&egrave;</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c3)"></span>PARTE III</span>
+<h3>La Gloria se ne Va</h3>
+<p class="part-sub">L'abbandono del Tempio, il vuoto, il collasso</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 7</span><span class="card-title">La gloria lascia il Tempio</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;La gloria del Signore si alz&ograve; da sopra il cherubino, dirigendosi verso la soglia del tempio. Il tempio fu riempito dalla nube e il cortile fu pieno dello splendore della gloria del Signore. Poi la gloria del Signore usc&igrave; dalla soglia del tempio.&#xBB; (Ezechiele 10,4.18)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Dio esce dal sistema religioso</span></div>
+<p>&Egrave; il momento pi&ugrave; tragico della Bibbia ebraica. La gloria di Dio &mdash; la Shekinah che abitava nel Santo dei Santi dal tempo di Salomone &mdash; abbandona il Tempio. Non un fulmine, non un terremoto: un'uscita lenta, graduale. Prima si sposta sulla soglia, poi sul monte degli Ulivi, poi scompare. Dio lascia la sua casa. Non perch&eacute; Lui sia infedele ma perch&eacute; il popolo lo &egrave; stato. Nessuna istituzione possiede definitivamente il sacro.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La fine di un'epoca religiosa</span></div>
+<p>L'abbandono del Tempio &egrave; il simbolo di ogni fine di un'epoca religiosa. Quando le istituzioni diventano vuote, Dio se ne va. Non per sempre &mdash; torner&agrave; nella visione finale del nuovo Tempio &mdash; ma per un tempo. Le Chiese che si svuotano in Occidente: &egrave; crisi di fede o &egrave; Dio che abbandona strutture diventate involucri vuoti? La differenza &egrave; tutto. Il vero credente non difende l'istituzione a ogni costo: riconosce quando la gloria se n'&egrave; andata.</p>
+<div class="omelia-box">
+<p>La gloria di Dio &egrave; ancora nella tua comunit&agrave;? O te ne sei accorto che se n'&egrave; andata da tempo e continui a celebrare in un Tempio vuoto? Il coraggio pi&ugrave; grande non &egrave; salvare l'istituzione ma riconoscere che forse Dio &egrave; gi&agrave; altrove. E seguirlo, fuori dalla soglia.</p>
+<span class="tag">La gloria in uscita</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 8</span><span class="card-title">Il vuoto dopo la presenza</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Mi disse: &#xAB;Figlio dell'uomo, hai visto?&#xBB;. Poi mi condusse sulla riva del fiume. E io rimasi l&igrave; sette giorni, stordito.&#xBB; (Ezechiele 3,15)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Crisi spirituale radicale</span></div>
+<p>Dopo la visione, Ezechiele resta seduto sette giorni in silenzio, &#xAB;stordito&#xBB;. Non &egrave; pace: &egrave; shock. La gloria di Dio se n'&egrave; andata. Il Tempio che aveva dato senso a tutto &egrave; vuoto. Ezechiele non ha parole. Il vuoto dopo la presenza &egrave; peggio del vuoto prima della presenza: perch&eacute; sai cosa hai perso. Quando cade l'idolo, all'inizio non arriva libert&agrave;. Arriva vuoto.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il vuoto post-traumatico come fase necessaria</span></div>
+<p>Il vuoto post-traumatico &egrave; una fase necessaria ma devastante. Chi perde la fede, chi esce da una setta, chi lascia un partito totalizzante: all'inizio non prova liberazione ma vertigine. Il senso di assurdit&agrave; pu&ograve; durare anni. Ezechiele ci mostra che anche il vuoto &egrave; luogo teologico: Dio pu&ograve; parlare anche l&igrave;, ma solo se accetti di attraversarlo senza riempirlo subito con nuovi idoli. Il vuoto non &egrave; il nemico: &egrave; il grembo di qualcosa di nuovo.</p>
+<div class="omelia-box">
+<p>Hai mai attraversato il &#xAB;vuoto dopo la presenza&#xBB;? Un lutto, una delusione, una crisi di fede? Non riempire subito quel vuoto con surrogati. Stai nel silenzio. Anche sette giorni, come Ezechiele. Il vuoto &egrave; grembo. La presenza che verr&agrave; dopo sar&agrave; pi&ugrave; autentica di quella che hai perso.</p>
+<span class="tag">Sette giorni di silenzio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 9</span><span class="card-title">Il collasso della citt&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Nell'anno dodicesimo della nostra deportazione, il cinque del decimo mese, arriv&ograve; da me un fuggiasco da Gerusalemme: &#xAB;La citt&agrave; &egrave; caduta&#xBB;.&#xBB; (Ezechiele 33,21)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La fine dell'illusione collettiva</span></div>
+<p>La notizia arriva. Il messaggero percorre centinaia di chilometri per portare la notizia agli esiliati: Gerusalemme &egrave; caduta. Il Tempio &egrave; distrutto. Il re &egrave; prigioniero. La citt&agrave; santa &egrave; un cumulo di macerie. Per Ezechiele, che lo aveva profetizzato per anni, la notizia non &egrave; una sorpresa ma una conferma tragica. La sera prima Dio gli aveva aperto la bocca (era stato muto per anni). Ora pu&ograve; parlare. Ci&ograve; che viene ignorato interiormente ritorna storicamente.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Shock storico e reinvenzione</span></div>
+<p>Il momento della conferma &egrave; sempre il pi&ugrave; duro. Hai avvertito, denunciato, e ora &egrave; successo davvero. Non c'&egrave; soddisfazione nell'avere ragione: c'&egrave; solo dolore. La caduta di Gerusalemme del 587 a.C. &egrave; il trauma fondativo dell'ebraismo. Da l&igrave; nasce la sinagoga, la scrittura, il canone. Il collasso costringe a reinventarsi. Quando tutto crolla, non &egrave; la fine: &egrave; l'inizio di qualcosa che non avresti mai cercato se tutto fosse rimasto in piedi.</p>
+<div class="omelia-box">
+<p>Hai mai avuto ragione su qualcosa che non avresti voluto? Il crollo che avevi previsto &egrave; arrivato. Ora non dire &#xAB;te l'avevo detto&#xBB;. Ricostruisci. La citt&agrave; &egrave; caduta, ma il Dio che era sul carro non &egrave; caduto con le mura. &Egrave; ancora in movimento. Seguilo nella ricostruzione.</p>
+<span class="tag">La citt&agrave; &egrave; caduta</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c4)"></span>PARTE IV</span>
+<h3>Il Trauma dell'Uomo</h3>
+<p class="part-sub">Il silenzio del profeta, la morte della moglie, il cuore di pietra</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 10</span><span class="card-title">Il profeta muto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;In quel giorno la tua bocca si aprir&agrave; per parlare al fuggiasco; parlerai e non sarai pi&ugrave; muto. Sarai per loro un segno: sapranno che io sono il Signore.&#xBB; (Ezechiele 24,27)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Quando il linguaggio non basta pi&ugrave;</span></div>
+<p>Per anni Ezechiele &egrave; stato muto. Non per scelta ma per comando divino. Poteva parlare solo quando Dio lo autorizzava. Il mutismo del profeta &egrave; il riflesso del mutismo del popolo: quando il trauma &egrave; cos&igrave; grande, non ci sono parole. Solo quando la catastrofe &egrave; riconosciuta &mdash; quando arriva il fuggiasco &mdash; la bocca si riapre. Il trauma toglie la parola. La parola torna quando il trauma &egrave; riconosciuto.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Paralisi traumatica e afasia collettiva</span></div>
+<p>Il silenzio post-traumatico &egrave; un fenomeno clinico e sociale. I sopravvissuti ai genocidi spesso impiegano anni prima di poter parlare. Le societ&agrave; dopo un collasso vivono un periodo di afasia collettiva. Ezechiele mostra che il silenzio non &egrave; assenza ma incubazione. La parola che nasce dopo il silenzio &egrave; pi&ugrave; autentica di quella che non ha mai taciuto. Non forzare la parola: custodisci il silenzio come grembo di una parola pi&ugrave; vera.</p>
+<div class="omelia-box">
+<p>C'&egrave; qualcosa di cui non riesci a parlare? Un trauma, una perdita, una vergogna? Il silenzio di Ezechiele ti dice: non forzare la parola. Aspetta. Quando sar&agrave; il momento, la bocca si aprir&agrave; da sola. E quella parola, nata dal silenzio, sar&agrave; verit&agrave;. Il silenzio prepara la parola che conta.</p>
+<span class="tag">Il silenzio che prepara</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 11</span><span class="card-title">La morte della moglie di Ezechiele</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Figlio dell'uomo, ecco, io ti tolgo la delizia dei tuoi occhi con un colpo improvviso. Ma non fare lamento, non piangere, non versare lacrime. La sera mia moglie mor&igrave;.&#xBB; (Ezechiele 24,16.18)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L'impossibilit&agrave; di elaborare immediatamente il dolore</span></div>
+<p>Questo &egrave; forse il passo pi&ugrave; duro di tutta la Scrittura. Dio annuncia a Ezechiele la morte della moglie e gli proibisce di fare lutto. Non come punizione ma come segno per il popolo: quando Gerusalemme cadr&agrave;, non ci sar&agrave; tempo per piangere. Ezechiele obbedisce. La &#xAB;delizia dei suoi occhi&#xBB; muore e lui non versa una lacrima in pubblico. Il profeta diventa tutt'uno col messaggio. La sua vita privata &egrave; consumata dalla missione pubblica.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Lutto congelato e psicologia del trauma</span></div>
+<p>Il lutto congelato &egrave; una condizione che intere societ&agrave; possono vivere. Dopo guerre, catastrofi, esili di massa, il dolore viene represso perch&eacute; &egrave; troppo grande. Ma il lutto congelato torna: come malattia psichica, come violenza sociale, come depressione collettiva. Ezechiele anticipa la psicologia del trauma mostrando che a volte il dolore non pu&ograve; essere elaborato subito: va custodito per dopo. Le societ&agrave; che non piangono i loro morti sono societ&agrave; malate.</p>
+<div class="omelia-box">
+<p>C'&egrave; un lutto che non hai mai pianto? Una perdita per cui non ti sei concesso lacrime? Il pianto che non esce oggi uscir&agrave; domani, forse in altra forma. Il dolore non elaborato si trasforma. Dove puoi finalmente, oggi, piangere? La delizia dei tuoi occhi non torner&agrave;, ma le lacrime possono lavare la ferita.</p>
+<span class="tag">La delizia degli occhi</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 12</span><span class="card-title">Il cuore di pietra</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Vi dar&ograve; un cuore nuovo, metter&ograve; dentro di voi uno spirito nuovo, toglier&ograve; da voi il cuore di pietra e vi dar&ograve; un cuore di carne.&#xBB; (Ezechiele 36,26)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Difesa emotiva collettiva</span></div>
+<p>Il cuore di pietra non &egrave; un peccato originale: &egrave; una difesa. Dopo anni di esilio, umiliazioni e sofferenze, il popolo si &egrave; indurito. Non sente pi&ugrave;. &Egrave; il meccanismo di sopravvivenza dei traumatizzati: spegnere le emozioni per non soffrire. Ma Dio promette un trapianto: togliere il cuore di pietra e mettere un cuore di carne. Non un cuore pi&ugrave; forte ma un cuore pi&ugrave; vulnerabile. Capace di sentire di nuovo. L'uomo si indurisce per sopravvivere. Dio lo rende tenero per vivere davvero.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Anestesia spirituale e indurimento emotivo</span></div>
+<p>L'indurimento emotivo &egrave; una pandemia contemporanea. Burnout, cinismo, anedonia: l'incapacit&agrave; di provare piacere o dolore &egrave; la risposta a un mondo che bombarda di stimoli e sofferenze. Il cuore di pietra non &egrave; malvagio: &egrave; protettivo. Ma alla lunga uccide l'umano. La promessa di Ezechiele &egrave; che il cuore pu&ograve; tornare carne: si pu&ograve; sentire di nuovo. Il vero miracolo non &egrave; ridiventare innocenti, ma ridiventare capaci di sentire.</p>
+<div class="omelia-box">
+<p>Com'&egrave; il tuo cuore oggi? Di pietra o di carne? Hai ancora la capacit&agrave; di commuoverti, di gioire, di piangere? O ti sei anestetizzato per sopravvivere? Dio non ti chiede di essere pi&ugrave; forte. Ti promette di essere pi&ugrave; vivo. Il trapianto &egrave; possibile. Il cuore di carne non &egrave; debolezza: &egrave; resurrezione.</p>
+<span class="tag">Il cuore nuovo</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c5)"></span>PARTE V</span>
+<h3>Le Nazioni e gli Imperi</h3>
+<p class="part-sub">Tiro, l'Egitto, Babilonia: anatomia teologica del potere</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 13</span><span class="card-title">Tiro e il commercio assoluto</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Cos&igrave; dice il Signore Dio: Tiro, tu dicevi: Io sono un dio, seduto su un trono divino in mezzo ai mari. Ma tu sei un uomo e non un dio.&#xBB; (Ezechiele 28,2)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il mercato come religione</span></div>
+<p>Tiro, la citt&agrave;-stato fenicia, &egrave; il modello della potenza commerciale. Non un impero militare ma un impero economico. Ezechiele dedica tre capitoli (26-28) alla sua caduta con un'orazione funebre di bellezza straordinaria. Tiro viene descritta come una nave carica di ogni merce preziosa che naufraga. &Egrave; la prima critica teologica al capitalismo della storia. Quando il profitto diventa identit&agrave;, la civilt&agrave; perde l'anima.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La seduzione della ricchezza e il collasso finanziario</span></div>
+<p>Tiro &egrave; l'archetipo di ogni sistema che fa del commercio un assoluto. &#xAB;Il tuo cuore si &egrave; inorgoglito per la tua ricchezza&#xBB;. Quando il mercato diventa dio, produce disuguaglianza, sfruttamento, e alla fine collassa. La globalizzazione contemporanea ripete il peccato di Tiro: ha scambiato l'efficienza per la giustizia. La potenza commerciale fenicia non fu distrutta da un nemico pi&ugrave; forte ma dalla sua stessa hybris mercantile.</p>
+<div class="omelia-box">
+<p>Quanto del tuo valore &egrave; legato a ci&ograve; che possiedi o produci? Tiro affond&ograve; con tutto il suo carico. Cosa rester&agrave; di te quando la tua &#xAB;nave&#xBB; affonder&agrave;? Il denaro promette sicurezza ma non mantiene la promessa. Solo ci&ograve; che dai sopravvive al naufragio.</p>
+<span class="tag">La nave che affonda</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 14</span><span class="card-title">L'Egitto e il mito della stabilit&agrave;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Cos&igrave; dice il Signore Dio: Io sono contro di te, faraone, re d'Egitto, grande coccodrillo sdraiato in mezzo ai suoi fiumi. Hai detto: Il Nilo &egrave; mio, io l'ho fatto.&#xBB; (Ezechiele 29,3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Fiducia nei sistemi umani</span></div>
+<p>L'Egitto &egrave; l'alleato tradito. Israele ha sempre guardato all'Egitto come &agrave;ncora di salvezza contro gli imperi mesopotamici. Ezechiele profetizza contro l'Egitto e il faraone, descrivendolo come un coccodrillo che verr&agrave; pescato e gettato nel deserto. La potenza che sembrava eterna finir&agrave; in polvere. Gli imperi promettono sicurezza eterna. La storia li smentisce sempre.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Grandi potenze e alleanze: la relativizzazione radicale</span></div>
+<p>Ogni generazione ha il suo Egitto: la superpotenza che sembra invincibile. Ieri l'Impero britannico, oggi gli Stati Uniti, domani chiss&agrave;. Nessuna potenza umana &egrave; eterna. La geopolitica di Ezechiele &egrave; un esercizio di relativizzazione radicale: ci&ograve; che oggi domina domani sar&agrave; dimenticato. Il faraone che dice &#xAB;il Nilo &egrave; mio&#xBB; dimentica che nemmeno il suo corpo gli appartiene davvero.</p>
+<div class="omelia-box">
+<p>In quale &#xAB;Egitto&#xBB; stai riponendo la tua fiducia? Il sistema sanitario, la pensione, lo Stato, l'economia? Sono tutti fragili. Non significa che non devi usarli, ma che non devi adorarli. Il coccodrillo nel deserto &egrave; il simbolo di ogni potenza che si credeva eterna e si &egrave; scoperta mortale.</p>
+<span class="tag">Il coccodrillo nel deserto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 15</span><span class="card-title">Babilonia</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ecco, io faccio venire contro Tiro Nabucodonosor, re di Babilonia, da settentrione, il re dei re, con cavalli, carri e cavalieri.&#xBB; (Ezechiele 26,7)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L'impero totale come strumento e come nemico</span></div>
+<p>Babilonia &egrave; l'Impero, con la I maiuscola. Ezechiele la descrive come strumento del giudizio divino. Non &egrave; un nemico: &egrave; un flagello che Dio usa per purificare. Eppure anche Babilonia sar&agrave; giudicata. La sua violenza, la sua arroganza, il suo considerarsi assoluta la condannano. L'impero &egrave; ambiguo: pu&ograve; essere strumento di ordine o di oppressione. L'uomo ammira ci&ograve; che in segreto lo spaventa.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Fascinazione per il dominio e ambiguit&agrave; dell'impero</span></div>
+<p>Ogni impero &egrave; ambiguo: pu&ograve; essere strumento di ordine o di oppressione. La teologia di Ezechiele non demonizza automaticamente l'impero n&eacute; lo assolve. Lo relativizza: anche Babilonia passer&agrave;. &Egrave; la lezione definitiva di ogni geopolitica spirituale. Nabucodonosor &egrave; &#xAB;re dei re&#xBB;, ma c'&egrave; un Re sopra di lui. L'impero pu&ograve; essere servo di Dio senza saperlo.</p>
+<div class="omelia-box">
+<p>Ammiri qualcosa che in realt&agrave; ti fa paura? Il potere, il successo, la forza? Babilonia affascina ma distrugge. Il cristiano non ammira Babilonia: la attraversa. Come Ezechiele, vive nell'impero ma non appartiene all'impero. La cittadinanza ultima non &egrave; babilonese.</p>
+<span class="tag">L'impero ambiguo</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c6)"></span>PARTE VI</span>
+<h3>Le Ossa Aride</h3>
+<p class="part-sub">La valle, il cuore nuovo, l'unit&agrave; ritrovata</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 16</span><span class="card-title">La valle delle ossa</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;La mano del Signore fu su di me e mi port&ograve; fuori in spirito. Mi depose in una valle piena di ossa. Mi fece passare vicino ad esse: erano in grandissima quantit&agrave; nella valle, ed erano inaridite. Mi disse: &#xAB;Figlio dell'uomo, potranno queste ossa rivivere?&#xBB;. Risposi: &#xAB;Signore Dio, tu lo sai&#xBB;.&#xBB; (Ezechiele 37,1-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Resurrezione collettiva</span></div>
+<p>La visione pi&ugrave; celebre di Ezechiele. Una valle piena di ossa secche, &#xAB;in grandissima quantit&agrave;&#xBB;. &Egrave; il popolo d'Israele dopo l'esilio: morto, disperso, senza speranza. Dio chiede: &#xAB;Potranno rivivere?&#xBB;. Ezechiele non dice s&igrave; o no: &#xAB;Tu lo sai&#xBB;. Allora Dio ordina: &#xAB;Profetizza su queste ossa&#xBB;. E mentre Ezechiele parla, le ossa si muovono, si ricongiungono, si rivestono di carne. Ma non hanno ancora spirito. Solo quando Ezechiele profetizza allo Spirito, il respiro entra in loro e &#xAB;divennero un esercito sterminato&#xBB;. La speranza non nasce dall'ottimismo ma quando il respiro ritorna nel vuoto.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Depressione storica e resurrezione collettiva</span></div>
+<p>La valle delle ossa aride &egrave; uno dei testi pi&ugrave; politici della Bibbia. Popoli che hanno perso tutto &mdash; guerre, esili, genocidi &mdash; sono ossa aride. La speranza non pu&ograve; venire dall'interno: le ossa non possono darsi vita da sole. Deve venire da fuori: una parola profetica che chiama, uno Spirito che soffia. La resurrezione &egrave; sempre dono, mai conquista. Nessun popolo pu&ograve; risollevarsi da solo dopo un trauma storico: serve un intervento che viene da altrove.</p>
+<div class="omelia-box">
+<p>Qual &egrave; la tua valle di ossa aride? Il sogno che hai seppellito, la relazione morta, la speranza che si &egrave; seccata? Non puoi resuscitare da solo. Ma puoi esporti alla parola profetica e al soffio dello Spirito. &#xAB;Profetizza su queste ossa&#xBB;: la parola crea ci&ograve; che annuncia. Parla alle tue ossa. Lo Spirito far&agrave; il resto.</p>
+<span class="tag">L'esercito dei risorti</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 17</span><span class="card-title">Il nuovo cuore</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Vi asperger&ograve; con acqua pura e sarete purificati. Vi dar&ograve; un cuore nuovo, metter&ograve; dentro di voi uno spirito nuovo. Toglier&ograve; da voi il cuore di pietra e vi dar&ograve; un cuore di carne.&#xBB; (Ezechiele 36,25-26)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Trasformazione interiore come fondamento</span></div>
+<p>La promessa del cuore nuovo &egrave; il vertice della profezia di Ezechiele. Non basta ricostruire le mura di Gerusalemme. Non basta tornare dall'esilio. Serve un trapianto antropologico. Il cuore di pietra &mdash; che si era indurito per sopravvivere al trauma &mdash; deve essere sostituito da un cuore di carne. Uno spirito nuovo, che non &egrave; solo correzione morale ma nuova creazione. La vera ricostruzione non &egrave; politica. &Egrave; antropologica.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La guarigione post-traumatica come nuovo inizio</span></div>
+<p>Le ricostruzioni post-belliche che si limitano alle infrastrutture falliscono. La Germania dopo il nazismo, il Ruanda dopo il genocidio: non bastano nuove case e nuove strade. Serve un cuore nuovo, una coscienza nuova. La pace non &egrave; assenza di guerra ma rinnovamento interiore. Ezechiele aveva capito che il problema di Israele non era solo politico (l'esilio) ma antropologico (il cuore). Senza cuore nuovo, ogni ricostruzione &egrave; solo una nuova Babilonia.</p>
+<div class="omelia-box">
+<p>La tua vita spirituale &egrave; basata sullo sforzo (&#xAB;devo essere migliore&#xBB;) o sulla promessa (&#xAB;Dio mi dar&agrave; un cuore nuovo&#xBB;)? Non devi fabbricarti un cuore nuovo: devi riceverlo. &Egrave; dono, non conquista. Lascia che l'acqua pura ti asperga. Il cuore di carne non si costruisce: si accoglie.</p>
+<span class="tag">Il trapianto di cuore</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 18</span><span class="card-title">I due legni</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Figlio dell'uomo, prendi un legno e scrivici sopra: &#xAB;Giuda e i figli d'Israele a lui uniti&#xBB;. Prendi poi un altro legno e scrivici: &#xAB;Giuseppe, legno di Efraim, e tutta la casa d'Israele a lui unita&#xBB;. Poi accostali l'uno all'altro in modo da fare un solo bastone.&#xBB; (Ezechiele 37,16-17)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Ricomposizione della frattura</span></div>
+<p>Il regno &egrave; diviso da secoli: Israele al nord, Giuda al sud. Fratelli che non si parlano. Ezechiele prende due legni e li unisce in uno solo. &Egrave; un gesto profetico di ricomposizione. Non si tratta di cancellare le differenze (i legni restano due) ma di tenerli insieme. L'unit&agrave; non &egrave; uniformit&agrave;: &egrave; comunione nella differenza. La vera pace non cancella la storia: la redime.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Popolo disperso e riconciliazione</span></div>
+<p>Ogni nazione divisa, ogni Chiesa scissa, ogni famiglia fratturata ha bisogno del gesto dei due legni. La riconciliazione non cancella la storia n&eacute; le differenze. Le tiene insieme. Il Sudafrica post-apartheid, l'Irlanda del Nord, i Balcani: ovunque ci sono due legni che attendono di essere uniti. L'unit&agrave; non significa che Giuda diventi Efraim o viceversa. Significa che possono stare nello stesso pugno.</p>
+<div class="omelia-box">
+<p>Quali &#xAB;due legni&#xBB; sono divisi nella tua vita? Familiari con cui non parli, amici con cui hai rotto, colleghi con cui sei in conflitto? La pace non richiede che diventiate uguali: richiede che stiate insieme nella differenza. Prendi i due legni. Scrivici i nomi. Accostali. Il miracolo dell'unit&agrave; non cancella le differenze: le benedice.</p>
+<span class="tag">I due legni uniti</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c7)"></span>PARTE VII</span>
+<h3>Il Tempio Impossibile</h3>
+<p class="part-sub">La visione finale: Tempio, fiume, presenza</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 19</span><span class="card-title">Il nuovo Tempio</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Mi condusse l&agrave;: ed ecco un uomo, il cui aspetto era come di bronzo, con una cordicella di lino in mano e una canna per misurare. Stava sulla porta.&#xBB; (Ezechiele 40,3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Ordine, misura e sacralit&agrave;</span></div>
+<p>Gli ultimi nove capitoli di Ezechiele descrivono minuziosamente un nuovo Tempio. Misure, porte, cortili, arredi. Pagine che sembrano un noioso manuale di architettura. Ma non lo sono: sono il sogno di un mondo ricostruito. Dopo il caos, misurare &egrave; un atto spirituale. Ridare ordine, ridare forma, ridare spazio al sacro. Dopo il trauma, l'uomo ha bisogno non solo di sopravvivere ma di ricostruire un cosmo ordinato.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Il bisogno umano di ricostruire spazi sacri</span></div>
+<p>Dopo ogni collasso, l'umanit&agrave; ha bisogno di ricostruire spazi sacri. Non per superstizione ma per avere luoghi dove il cielo tocca la terra. Il Tempio di Ezechiele non &egrave; mai stato costruito: &egrave; un'utopia, una visione. Ma tutte le ricostruzioni iniziano con una visione. Senza sogni non si costruisce nulla. Il Secondo Tempio fu costruito, ma non segu&igrave; le misure di Ezechiele: quelle misure sono per un Tempio che ancora deve venire.</p>
+<div class="omelia-box">
+<p>Qual &egrave; il tuo &#xAB;nuovo Tempio&#xBB;? Il progetto, il sogno, lo spazio sacro che vuoi costruire nella tua vita dopo il collasso? Prendi la canna per misurare. Sogna in grande. Misura. Progetta. Anche se non lo costruirai mai esattamente come lo sogni, senza il sogno non costruirai nulla.</p>
+<span class="tag">L'architetto del sacro</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 20</span><span class="card-title">Il fiume che esce dal Tempio</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Mi condusse all'ingresso del tempio, ed ecco che sotto la soglia del tempio usciva acqua verso oriente. [...] L'acqua aveva raggiunto i fianchi: era un fiume che non potevo attraversare.&#xBB; (Ezechiele 47,1.4-5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La vita che trabocca oltre il centro</span></div>
+<p>Dalla soglia del nuovo Tempio esce un fiume. Prima un rivolo, poi un torrente, poi un fiume impossibile da guadare. Scorre verso est, nel deserto di Giuda, e arriva fino al Mar Morto rendendone dolci le acque. Dove passa, tutto vive: alberi da frutto sulle rive, foglie medicinali, pesci in abbondanza. &Egrave; l'immagine pi&ugrave; potente della grazia: parte dal santuario ma non resta nel santuario. Esce, scorre, feconda. La presenza autentica non trattiene: genera.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">Fecondit&agrave; delle istituzioni e uscita missionaria</span></div>
+<p>La fecondit&agrave; delle istituzioni spirituali si misura non da quanta gente entra ma da quanta vita esce. Il fiume di Ezechiele &egrave; la Chiesa in uscita di papa Francesco, &egrave; ogni comunit&agrave; che non trattiene ma genera. Il Mar Morto (il mondo della morte, dello sfruttamento, dell'ingiustizia) viene guarito non da una conquista ma da un fiume che lo raggiunge. L'acqua che esce dal Tempio non serve al Tempio: serve al deserto.</p>
+<div class="omelia-box">
+<p>La tua vita spirituale &egrave; un lago che trattiene o un fiume che scorre? La tua fede feconda ci&ograve; che tocca o resta chiusa nel tempio della tua anima? Lascia che il fiume esca dalla soglia. Non aver paura di perdere acqua: il Tempio ne ha una sorgente inesauribile. Dove arriva il fiume, anche il Mar Morto diventa vivo.</p>
+<span class="tag">Il fiume che guarisce</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 21</span><span class="card-title">&#xAB;Il Signore &egrave; l&agrave;&#xBB;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;La citt&agrave; avr&agrave; un perimetro di diciottomila cubiti. Da quel giorno il nome della citt&agrave; sar&agrave;: &#xAB;Il Signore &egrave; l&agrave;&#xBB;.&#xBB; (Ezechiele 48,35)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La fine dell'esilio spirituale</span></div>
+<p>L'ultima parola di Ezechiele &egrave; il nome della citt&agrave;: &#xAB;Il Signore &egrave; l&agrave;&#xBB; (<em>Jhwh Shammah</em>). Non &#xAB;Il Signore era qui&#xBB; (nostalgia). Non &#xAB;Il Signore sar&agrave; l&agrave;&#xBB; (attesa). Ma &#xAB;Il Signore &egrave; l&agrave;&#xBB;: presenza attuale, stabile, definitiva. Dopo tutto &mdash; esilio, trauma, collasso, morte &mdash; Dio &egrave; l&agrave;. Non nel passato da rimpiangere n&eacute; nel futuro da attendere ma nel presente da abitare. La salvezza non &egrave; tornare al passato. &Egrave; scoprire che Dio attraversa anche le rovine.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La presenza che redime il presente</span></div>
+<p>Ogni esilio finisce quando Dio non &egrave; pi&ugrave; cercato altrove ma trovato qui. La deportazione a Babilonia non &egrave; finita con il ritorno a Gerusalemme ma con la scoperta che Dio era presente anche nell'esilio. La guarigione dal trauma non &egrave; tornare a prima del trauma ma scoprire una presenza che attraversa il trauma. <em>Jhwh Shammah</em> &egrave; il nome della citt&agrave; ricostruita: non &#xAB;Gerusalemme la fortezza&#xBB;, ma &#xAB;Il Signore &egrave; l&agrave;&#xBB;. L'identit&agrave; della citt&agrave; non &egrave; pi&ugrave; nelle mura ma nella presenza.</p>
+<div class="omelia-box">
+<p>Dove cerchi Dio? Nel passato (&#xAB;quando ero giovane e credevo&#xBB;)? Nel futuro (&#xAB;quando le cose andranno meglio&#xBB;)? Ezechiele ti dice: Dio &egrave; l&agrave;, adesso, in questo esatto momento della tua vita. Non quando tutto sar&agrave; risolto. Adesso. Perch&eacute; &#xAB;Il Signore &egrave; l&agrave;&#xBB;. Non cercarlo altrove. &Egrave; gi&agrave; qui.</p>
+<span class="tag">Jhwh Shammah</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="conclusion-section reveal">
+<p class="verse">&#xAB;Da quel giorno il nome della citt&agrave; sar&agrave;: Il Signore &egrave; l&agrave;.&#xBB; (Ezechiele 48,35)</p>
+<div class="conclusion-msg">
+<p>L'esilio comincia quando Dio viene rinchiuso in un sistema. Finisce quando lo si ritrova nel deserto. Ezechiele &egrave; il profeta per il nostro tempo: <strong>tempo di esili, di traumi, di crolli</strong>. Ma anche tempo di ossa che riprendono vita, di fiumi che escono dai templi, di citt&agrave; il cui nome &egrave; semplicemente: &#xAB;Il Signore &egrave; l&agrave;&#xBB;. La presenza non &egrave; un luogo da raggiungere: &egrave; un nome da pronunciare sul luogo dove sei.</p>
+<span class="tag">La presenza oltre le rovine</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="reveal" style="text-align:center;padding:2rem 0">
+<p style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:.5rem"><em style="color:var(--gold);font-style:italic">Le Visioni dell'Esilio</em> &mdash; Settimo volume della collana &mdash; Trauma, potere e presenza nel libro di Ezechiele</p>
+<p style="color:var(--muted);font-weight:300;font-size:.85rem">Prima edizione &mdash; MetaHistoria</p>
+</div>
+</div>
+</section>
+
+<div class="page-nav" style="max-width:var(--maxw);margin:0 auto">
+<div class="nav-prev">
+<div class="nav-label">Precedente</div>
+<a href='/apocalisse-del-potere/manuale-commento-profeti'>&larr; I Profeti del Fuoco</a>
+</div>
+<div class="nav-next">
+<div class="nav-label">Successivo</div>
+<a href='/apocalisse-del-potere/manuale-commento-patriarchi'>Le Tende e le Stelle &rarr;</a>
+</div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Ezechiele, <em>Libro di Ezechiele</em> (AT)</li>
+ <li>Ezechiele 1 &mdash; Il carro della gloria</li>
+ <li>Ezechiele 10 &mdash; La gloria abbandona il Tempio</li>
+ <li>Ezechiele 37 &mdash; La valle delle ossa aride</li>
+ <li>Ezechiele 47 &mdash; Il fiume che esce dal Tempio</li>
+ <li>Manuale TGR &mdash; Le Visioni dell'Esilio</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li>
+ <li><a href='/apocalisse-del-potere/bestie-spirituali' style='color:var(--muted);text-decoration:none'>Bestie spirituali</a></li>
+ <li><a href='/apocalisse-del-potere/anticristo-sovrano' style='color:var(--muted);text-decoration:none'>L&rsquo;Anticristo</a></li>
+ <li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.08});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html><script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>

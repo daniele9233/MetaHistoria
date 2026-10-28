@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive">
+
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=13d12e51-1560-41d5-b2a5-65b8b8a6df7a
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Il Volto e il Potere &mdash; Manuale &middot; MetaHistoria</title>
+<meta name="description" content="Commento teologico-psicologico-geopolitico al Vangelo di Giovanni: il Logos, i segni, il processo a Ges&ugrave;, la croce come gloria. Il volto umano di Dio dentro il sistema del potere.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--bg:#0c0a09;--surface:#15120f;--surface-2:#1c1814;--ink:#ede7dc;--ink-soft:#c8bfae;--muted:#8f8678;--gold:#c9a227;--gold-soft:rgba(201,162,39,.14);--red:#a32638;--red-soft:rgba(163,38,56,.16);--line:rgba(237,231,220,.12);--serif:'Libre Bodoni', Georgia, 'Times New Roman', serif;--sans:'Public Sans', 'Segoe UI', system-ui, sans-serif;--maxw:1180px;--c1:#c9a227;--c2:#a32638;--c3:#5b7f5b;--c4:#7a5b8f;--c5:#3a7a9a;--c6:#8f6f4a;--c7:#9a3a3a}
+ *{margin:0;padding:0;box-sizing:border-box}
+ html{scroll-behavior:smooth}
+ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+ ::selection{background:var(--gold);color:#0c0a09}
+ #progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--red),var(--gold));z-index:1000;transition:width .1s linear}
+ nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;background:rgba(12,10,9,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+ nav .brand{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+ nav .brand em{color:var(--gold);font-style:normal}
+ nav ul{display:flex;gap:.5rem;list-style:none;align-items:center}
+ nav ul li{position:relative}
+ nav ul a{color:var(--ink-soft);text-decoration:none;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;transition:color .2s;padding:.5rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.35rem}
+ nav ul a:hover,nav ul a:focus-visible{color:var(--gold)}
+ nav ul a .arrow{font-size:.55rem;color:var(--muted);transition:transform .25s}
+ nav ul li:hover>a .arrow{transform:rotate(180deg)}
+ .dropdown{position:absolute;top:100%;left:0;min-width:200px;background:var(--surface);border:1px solid var(--line);border-top:2px solid var(--gold);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:300}
+ nav ul li:hover>.dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+ .dropdown a{padding:.6rem 1.2rem;font-size:.7rem;letter-spacing:.1em;display:block;color:var(--ink-soft);text-decoration:none;text-transform:uppercase;transition:all .2s}
+ .dropdown a:hover{background:var(--gold-soft);color:var(--gold)}
+ @media(max-width:900px){nav ul{display:none}}
+ section{padding:6.5rem 2rem;position:relative}
+ .wrap{max-width:var(--maxw);margin:0 auto}
+ .sec-head{display:grid;grid-template-columns:auto 1fr;gap:1.6rem;align-items:baseline;margin-bottom:3.2rem;padding-top:3rem}
+ .sec-num{font-family:var(--serif);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+ .sec-head h2{font-family:var(--serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:600;line-height:1.15}
+ .sec-head .lede{grid-column:2;color:var(--ink-soft);max-width:62ch;margin-top:.8rem;font-weight:300}
+ .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+ .reveal.in{opacity:1;transform:none}
+ .back-link{display:inline-block;font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .3s}
+ .back-link:hover{color:var(--gold)}
+ .page-nav{display:flex;justify-content:space-between;align-items:stretch;padding:2.5rem 2rem;margin:1rem 0 0;gap:2rem}
+ .page-nav div{flex:1;display:flex;flex-direction:column}
+ .page-nav .nav-next{text-align:right;align-items:flex-end}
+ .page-nav .nav-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+ .page-nav a{font-family:var(--serif);font-size:1rem;color:var(--ink-soft);text-decoration:none;transition:color .3s;line-height:1.3}
+ .page-nav a:hover{color:var(--gold)}
+ .page-nav .nav-empty{color:var(--muted);opacity:.4;font-family:var(--serif);font-size:.9rem;font-style:italic}
+ @media(max-width:600px){.page-nav{flex-direction:column;gap:1rem}.page-nav .nav-next{text-align:left;align-items:flex-start}}
+ footer{border-top:1px solid var(--line);padding:4rem 2rem 3rem;background:var(--surface)}
+ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3rem}
+ @media(max-width:820px){footer .wrap{grid-template-columns:1fr}}
+ footer h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1.1rem;color:var(--ink)}
+ footer p,footer li{font-size:.85rem;color:var(--muted);font-weight:300}
+ footer ul{list-style:none}
+ footer li{margin-bottom:.5rem}
+ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:1.6rem;margin-top:1rem;font-size:.75rem;letter-spacing:.06em}
+
+/* --- DIAGRAM --- */
+.diagram-wrap{max-width:900px;margin:0 auto;padding:1rem 0 2rem}
+.diagram{position:relative;padding-left:3rem}
+.diagram::before{content:'';position:absolute;left:14px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.diagram-node{position:relative;padding:1rem 1.2rem;margin-bottom:.6rem;border-radius:6px;background:var(--surface);border:1px solid var(--line);transition:border-color .3s;cursor:default}
+.diagram-node::before{content:'';position:absolute;left:-22px;top:50%;width:12px;height:12px;border-radius:50%;transform:translateY(-50%);border:2px solid var(--gold);background:var(--bg)}
+.diagram-node.part-1{border-left:3px solid var(--c1)}.diagram-node.part-1::before{border-color:var(--c1);background:var(--c1)}
+.diagram-node.part-2{border-left:3px solid var(--c2)}.diagram-node.part-2::before{border-color:var(--c2);background:var(--c2)}
+.diagram-node.part-3{border-left:3px solid var(--c3)}.diagram-node.part-3::before{border-color:var(--c3);background:var(--c3)}
+.diagram-node.part-4{border-left:3px solid var(--c4)}.diagram-node.part-4::before{border-color:var(--c4);background:var(--c4)}
+.diagram-node.part-5{border-left:3px solid var(--c5)}.diagram-node.part-5::before{border-color:var(--c5);background:var(--c5)}
+.diagram-node.part-6{border-left:3px solid var(--c6)}.diagram-node.part-6::before{border-color:var(--c6);background:var(--c6)}
+.diagram-node.part-7{border-left:3px solid var(--c7)}.diagram-node.part-7::before{border-color:var(--c7);background:var(--c7)}
+.diagram-node .node-label{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.diagram-node .node-title{font-family:var(--serif);font-size:1.05rem;color:var(--ink)}
+.diagram-node .node-chapters{font-size:.8rem;color:var(--ink-soft);font-weight:300;margin-top:.3rem}
+.diagram-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem}
+.diagram-meta .mov-badge{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.diagram-meta .mov-badge.evo{color:var(--gold);border-color:var(--gold-soft)}
+.diagram-meta .mov-badge.aut{color:var(--red);border-color:var(--red-soft)}
+.diagram-meta .mov-badge.ome{color:var(--c3);border-color:rgba(91,127,91,.2)}
+
+/* --- PROLOGUE --- */
+.prologue-box{max-width:780px;margin:0 auto;padding:2rem 2.4rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;position:relative}
+.prologue-box::before{content:'P';position:absolute;top:-14px;left:2rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;color:var(--gold);background:var(--bg);padding:0 .6rem}
+.prologue-box p{color:var(--ink-soft);font-weight:300;font-size:.92rem;margin-bottom:1rem;line-height:1.75}
+.prologue-box p strong{color:var(--ink);font-weight:600}
+.prologue-box .verse{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--gold);margin-bottom:1rem;padding:.8rem 1.2rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+
+/* --- CHAPTER CARDS --- */
+.chapter-card{display:block;margin-bottom:1rem;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+.chapter-card[open]{border-color:var(--gold-soft)}
+.chapter-card summary{list-style:none;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.6rem;cursor:pointer;user-select:none;transition:background .3s}
+.chapter-card summary::-webkit-details-marker{display:none}
+.chapter-card summary:hover{background:var(--surface-2)}
+.chapter-card summary .card-num{font-family:var(--sans);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);flex-shrink:0;min-width:5rem}
+.chapter-card summary .card-title{font-family:var(--serif);font-size:1.1rem;color:var(--ink);flex:1}
+.chapter-card summary .card-arrow{font-size:.8rem;color:var(--muted);transition:transform .3s;flex-shrink:0}
+.chapter-card[open] summary .card-arrow{transform:rotate(180deg)}
+.chapter-card .card-body{padding:0 1.6rem 1.6rem;border-top:1px solid var(--line)}
+.chapter-card .card-body .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin:1.2rem 0 1rem;padding:.7rem 1rem;background:var(--bg);border-left:2px solid var(--gold);border-radius:4px}
+.chapter-card .card-body p{color:var(--ink-soft);font-weight:300;font-size:.9rem;margin-bottom:.9rem;line-height:1.75}
+.chapter-card .card-body p strong{color:var(--ink);font-weight:600}
+.mov-head{display:flex;align-items:center;gap:.6rem;margin:1.4rem 0 .6rem;padding-top:.6rem}
+.mov-head .mov-ico{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);font-weight:500}
+.mov-head .mov-ico.evo{color:var(--gold);background:var(--gold-soft)}
+.mov-head .mov-ico.aut{color:var(--red);background:var(--red-soft)}
+.mov-head .mov-ico.ome{color:var(--c3);background:rgba(91,127,91,.12)}
+.mov-head .mov-label{font-family:var(--serif);font-size:.85rem;font-style:italic;color:var(--muted)}
+.card-body .omelia-box{background:var(--bg);border:1px solid var(--red-soft);border-left:3px solid var(--red);padding:1.2rem 1.6rem;margin:1rem 0;border-radius:4px}
+.card-body .omelia-box p{font-family:var(--serif);font-size:clamp(.9rem,1.3vw,1.05rem);font-style:italic;color:var(--ink);line-height:1.6}
+.card-body .omelia-box .tag{display:block;margin-top:.6rem;font-family:var(--sans);font-style:normal;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* --- PART HEADERS --- */
+.part-head{text-align:center;padding:2.5rem 1rem 1.5rem;margin:2rem 0}
+.part-head .part-num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.4rem}
+.part-head .part-num span{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+.part-head h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--gold);margin-bottom:.4rem}
+.part-head .part-sub{font-size:.85rem;color:var(--ink-soft);font-weight:300;letter-spacing:.04em}
+.part-head .part-line{width:60px;height:1px;margin:.8rem auto 0;background:var(--line)}
+
+/* --- CONCLUSION --- */
+.conclusion-section{text-align:center;padding:3rem 2rem}
+.conclusion-section .verse{font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--gold);margin-bottom:1rem;padding:.7rem 1rem;display:inline-block}
+.conclusion-section .conclusion-msg{max-width:680px;margin:0 auto;background:var(--surface);border:2px solid var(--red);padding:2rem 2.4rem;border-radius:8px}
+.conclusion-section .conclusion-msg p{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.2rem);font-style:italic;color:var(--ink);line-height:1.6}
+.conclusion-section .conclusion-msg .tag{display:block;margin-top:.8rem;font-family:var(--sans);font-style:normal;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+
+/* --- RESPONSIVE --- */
+@media(max-width:640px){.diagram{padding-left:2rem}.diagram-node{padding:.8rem 1rem}.chapter-card summary{padding:1rem 1.2rem}.chapter-card .card-body{padding:0 1.2rem 1.2rem}.prologue-box{padding:1.5rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress" role="presentation"></div>
+
+<nav aria-label="Navigazione principale">
+ <a class='brand' href='/'>MetaHistoria</a>
+ <ul>
+ <li><a>Geopolitica Classica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-classica/'>Home Lente</a>
+ <a href='/geopolitica-classica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-classica/tributi'>Tributi ai Maestri</a>
+ <a href='/geopolitica-classica/imperi'>Il Ritorno degli Imperi</a>
+ <a href='/geopolitica-classica/zone-di-tensione'>Zone di Tensione</a>
+ <a href='/geopolitica-classica/atlante-di-storia'>Atlante di Storia</a>
+ <a href='/geopolitica-classica/tra-teologia-e-geopolitica/'>Tra Teologia e Geopolitica</a>
+ <a href='/geopolitica-classica/analisi/ecosistema-geopolitica'>Ecosistema Geopolitica</a>
+</div></li>
+ <li><a>Geopolitica Umana <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-umana/'>Home Lente</a>
+ <a href='/geopolitica-umana/dario-fabbri'>Dario Fabbri &mdash; Il Maestro</a>
+ <a href='/geopolitica-umana/fondamento-geopolitica-umana'>Il fondamento: Geopolitica umana</a>
+ <a href='/geopolitica-umana/dodici-principi'>I 12 princ&igrave;pi operativi</a>
+ <a href='/geopolitica-umana/popoli'>Il destino dei popoli</a>
+ <a href='/geopolitica-umana/nazioni'>La psicologia delle nazioni</a>
+ <a href='/geopolitica-umana/sotto-la-pelle'>Sotto la pelle del mondo</a>
+ <a href='/geopolitica-umana/verso-la-teologia'>Verso la Teologia</a>
+</div></li>
+ <li><a>Geopolitica dell'Anima <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/geopolitica-dell-anima/'>Home Lente</a>
+ <a href='/geopolitica-dell-anima/fondamenti'>Insegnamenti Fondamentali</a>
+ <a href='/geopolitica-dell-anima/insegnamenti-di-fede'>Insegnamenti di fede</a>
+ <a href='/geopolitica-dell-anima/atlante-storico'>Atlante Storico</a>
+ <a href='/geopolitica-dell-anima/frontiere'>Frontiere</a>
+</div></li>
+ <li><a>Teologia della Geopolitica <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/teologia-geopolitica/'>Home Lente</a>
+
+ <a href='/teologia-geopolitica/insegnamenti-fondamentali'>Insegnamenti Fondamentali</a>
+
+ <a href='/teologia-geopolitica/manifesto-grande'>Manifesto Grande</a>
+</div></li>
+ <li><a>Apocalisse del Potere <span class="arrow">&#9662;</span></a><div class="dropdown">
+ <a href='/apocalisse-del-potere/'>Home Lente</a>
+ <a href='/apocalisse-del-potere/escatologia-e-storia'>Escatologia e storia</a>
+ <a href='/apocalisse-del-potere/biblioteca-apocalittica'>Biblioteca Apocalittica</a>
+ <a href='/apocalisse-del-potere/problema-del-male'>Il problema del male</a>
+ <a href='/apocalisse-del-potere/katechon-e-anti-impero'>Katechon e Anti-Impero</a>
+ <a href='/apocalisse-del-potere/bestie-spirituali'>Bestie spirituali e potere</a>
+ <a href='/apocalisse-del-potere/anticristo-sovrano'>L'Anticristo e il Sovrano</a>
+<a href='/apocalisse-del-potere/compimento-nuova-gerusalemme'>Compimento: Nuova Gerusalemme</a>
+ <a href='/apocalisse-del-potere/mappa-concettuale'>Mappa Apocalittica</a>
+ </div></li>
+ <li><a style="color:var(--gold)">Metodo Pentaedrico <span class="arrow">&#9662;</span></a><div class="dropdown"><a href='/metodo-pentaedrico'>Il Metodo</a><a href='/biblioteca-pentaedrica'>Biblioteca Pentaedrica</a><a href='/atlante-visuale'>Atlante Visuale</a></div></li>
+ </ul>
+</nav>
+
+<section>
+<div class="wrap">
+<a class='back-link' href='/apocalisse-del-potere/'>&larr; Apocalisse del Potere</a>
+<div class="sec-head reveal">
+<span class="sec-num">Lente 05 &middot; M</span>
+<h2>Il Volto e il Potere</h2>
+<p class="lede">Luce, desiderio e verit&agrave; nel Vangelo di Giovanni &mdash; Commento teologico, psicologico e geopolitico al Vangelo di Giovanni. Manuale dell'incontro. In Giovanni Cristo non combatte il potere: lo espone alla luce. Il conflitto non &egrave; morale n&eacute; politico ma ontologico: luce e controllo, relazione e possesso, verit&agrave; e gestione, presenza e sistema.</p>
+</div>
+
+<div class="man-body reveal">
+<p style="font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;line-height:1.2;margin-bottom:1.5rem"><em style="color:var(--gold);font-style:italic">Il Volto e il Potere</em> &mdash; Luce, desiderio e verit&agrave; nel Vangelo di Giovanni</p>
+<p style="color:var(--ink-soft);font-weight:300;font-size:.92rem;line-height:1.75">Ottavo volume della collana. Nel Vangelo di Giovanni il conflitto fondamentale non &egrave; morale, politico o filosofico: &egrave; <strong>ontologico</strong>. &Egrave; lo scontro tra luce e controllo, tra relazione e possesso, tra verit&agrave; e gestione, tra presenza e sistema. Ogni capitolo si articola in tre movimenti: <strong style="color:var(--gold)">Evocazione</strong> (la scena biblica), <strong style="color:var(--red)">Autopsia</strong> (l'analisi geopolitica) e <strong style="color:#5b7f5b">Omelia</strong> (l'applicazione oggi).</p>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface);padding:3rem 2rem">
+<div class="diagram-wrap reveal">
+<h3 style="font-family:var(--serif);font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:2rem">Mappa del Manuale</h3>
+<div class="diagram">
+<div class="diagram-node" style="border-left-color:var(--gold)">
+<div class="node-label">PROLOGO</div>
+<div class="node-title">Il Logos si fa carne</div>
+<div class="node-charts">In principio era il Logos &middot; La luce splende nelle tenebre</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-1">
+<div class="node-label">PARTE I &middot; 3 capitoli</div>
+<div class="node-title">La Luce entra nel Mondo</div>
+<div class="node-chapters">In principio era il Logos &middot; La luce e le tenebre &middot; Cana e il vino nuovo</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-2">
+<div class="node-label">PARTE II &middot; 3 capitoli</div>
+<div class="node-title">Il Tempio e il Controllo</div>
+<div class="node-chapters">Rovesciare i tavoli &middot; Nicodemo e la notte &middot; La Samaritana</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-3">
+<div class="node-label">PARTE III &middot; 3 capitoli</div>
+<div class="node-title">La Folla, il Pane e il Consenso</div>
+<div class="node-chapters">Il pane e la massa &middot; Volevano farlo re &middot; Il cieco nato</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-4">
+<div class="node-label">PARTE IV &middot; 3 capitoli</div>
+<div class="node-title">Il Sistema Reagisce</div>
+<div class="node-chapters">Lazzaro e il panico del potere &middot; Caifa e la ragion di Stato &middot; Pilato</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-5">
+<div class="node-label">PARTE V &middot; 3 capitoli</div>
+<div class="node-title">La Spogliazione</div>
+<div class="node-chapters">Lavare i piedi &middot; Il Getsemani di Giovanni &middot; La croce</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+<div class="diagram-node part-6">
+<div class="node-label">PARTE VI &middot; 3 capitoli</div>
+<div class="node-title">Il Giardino e il Volto</div>
+<div class="node-chapters">Maria Maddalena &middot; Tommaso &middot; &laquo;Seguimi&raquo;</div>
+<div class="diagram-meta"><span class="mov-badge evo">Evocazione</span><span class="mov-badge aut">Autopsia</span><span class="mov-badge ome">Omelia</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal">
+<div class="prologue-box">
+<p class="verse">&#xAB;In principio era il Logos, e il Logos era presso Dio, e il Logos era Dio. Egli era, in principio, presso Dio: tutto &egrave; stato fatto per mezzo di lui. In lui era la vita e la vita era la luce degli uomini.&#xBB; (Giovanni 1,1-4)</p>
+<p>Nel Vangelo di Giovanni il conflitto fondamentale non &egrave; morale, politico o filosofico: &egrave; <strong>ontologico</strong>. &Egrave; lo scontro tra luce e controllo, tra relazione e possesso, tra verit&agrave; e gestione, tra presenza e sistema. Il potere non appare solo come Impero ma come paura della perdita, bisogno di controllo, gestione religiosa, manipolazione del consenso. E Cristo non combatte il potere: lo espone. Lo guarda. E il potere non regge quello sguardo.</p>
+<p><strong>Il Volto e il Potere</strong> &egrave; l'ottavo volume della collana MetaHistoria. Ogni capitolo si articola in tre movimenti: <strong style="color:var(--gold)">Evocazione</strong>, <strong style="color:var(--red)">Autopsia</strong>, <strong style="color:#5b7f5b">Omelia</strong>. Un percorso per chi vuole incontrare il Vangelo non come manuale di morale ma come esposizione del vero volto di Dio &mdash; e del vero volto del potere.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c1)"></span>PARTE I</span>
+<h3>La Luce entra nel Mondo</h3>
+<p class="part-sub">Il Logos, le tenebre, la festa di Cana</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 1</span><span class="card-title">In principio era il Logos</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;In principio era il Logos, e il Logos era presso Dio, e il Logos era Dio.&#xBB; (Giovanni 1,1)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il senso ha un volto</span></div>
+<p>Il Prologo di Giovanni &egrave; il testo pi&ugrave; denso del Nuovo Testamento. L'evangelista non inizia con un presepe ma con il principio assoluto: &laquo;In principio era il Logos&raquo;. Logos &egrave; parola, ragione, senso, ordine. Ci&ograve; che i greci cercavano nella filosofia, ci&ograve; che gli ebrei trovavano nella Torah, Giovanni lo identifica con una persona. Il senso dell'universo non &egrave; un'idea ma un volto. &laquo;E il Logos si fece carne&raquo;: la carne (<em>sarx</em>) &egrave; la realt&agrave; pi&ugrave; fragile, pi&ugrave; esposta, pi&ugrave; mortale. Il senso dell'universo sceglie di abitare la fragilit&agrave;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del fondamento</span></div>
+<p>Ogni civilt&agrave; ha il suo Logos fondativo: un'idea di ordine, una narrazione di senso. L'Occidente ha avuto la Ragione illuminista, il Progresso, la Libert&agrave;. Ma quando il Logos diventa astratto, disincarnato, genera ideologia. Giovanni propone un Logos che si fa carne: il senso non &egrave; un concetto da possedere ma una persona da incontrare. La geopolitica del Logos &egrave; la ricerca di un fondamento che non si imponga con la violenza ma si offra con la presenza. Ogni impero costruisce statue: oro, argento, bronzo, ferro. Il Logos non costruisce statue: si fa carne. L'incarnazione &egrave; l'atto pi&ugrave; politico della storia perch&eacute; ridefinisce radicalmente cosa significa &laquo;potere&raquo;.</p>
+<div class="omelia-box">
+<p>Qual &egrave; il Logos della tua vita? L'idea, il principio, il senso a cui hai consacrato la tua esistenza? &Egrave; un'astrazione o ha un volto? Il cristianesimo non &egrave; un'idea: &egrave; una persona. Non aderisci a un sistema. Incontri qualcuno. E quell'incontro &egrave; la fine di ogni ideologia e l'inizio di ogni libert&agrave;.</p>
+<span class="tag">Il senso ha un volto</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 2</span><span class="card-title">La luce e le tenebre</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;La luce splende nelle tenebre, e le tenebre non l'hanno accolta.&#xBB; (Giovanni 1,5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La luce rifiutata</span></div>
+<p>Giovanni non dice che le tenebre non hanno visto la luce. Dice che &laquo;non l'hanno accolta&raquo; (<em>katelaben</em>: pu&ograve; significare anche &laquo;non l'hanno vinta&raquo;). &Egrave; un rifiuto attivo. La luce viene, ma le tenebre si chiudono. Non per ignoranza ma per difesa. Vedere significa essere visti, e l'uomo ha paura di essere visto davvero. Preferisce le tenebre dove pu&ograve; nascondersi. Il paradosso &egrave; che le tenebre non vincono la luce &mdash; non possono vincerla &mdash; ma possono rifiutare di accoglierla. E questo rifiuto &egrave; la definizione stessa del peccato in Giovanni.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del segreto</span></div>
+<p>Ogni potere ama le tenebre. Le decisioni prese in segreto, le trattative opache, i verbali secretati. La trasparenza totale &egrave; la fine del potere come dominio. La geopolitica contemporanea &egrave; piena di &laquo;tenebre che non accolgono la luce&raquo;: dai paradisi fiscali ai server criptati, dalle fake news alla sorveglianza occulta. Ma la luce cristiana non &egrave; un'ideologia: &egrave; l'esposizione della realt&agrave; allo sguardo di Dio. Chi ha paura della luce non &egrave; chi sbaglia, &egrave; chi ha qualcosa da nascondere. E il potere &mdash; ogni potere &mdash; ha sempre qualcosa da nascondere.</p>
+<div class="omelia-box">
+<p>Cosa nascondi? Non agli altri: a te stesso. Quali zone della tua vita sono al buio non perch&eacute; non hai visto la luce ma perch&eacute; non l'hai accolta? La luce di Cristo non ti condanna: ti espone. E l'esposizione &egrave; l'inizio della guarigione. Non aver paura della luce. La luce non &egrave; un giudice. &Egrave; l'alba dopo una notte troppo lunga.</p>
+<span class="tag">La luce rifiutata</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 3</span><span class="card-title">Cana e il vino nuovo</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ges&ugrave; disse ai servitori: &laquo;Riempite d'acqua le giare&raquo;. Le riempirono fino all'orlo. Disse loro: &laquo;Ora prendetene e portatene al maestro di tavola&raquo;. Il maestro di tavola assaggi&ograve; l'acqua diventata vino.&#xBB; (Giovanni 2,7-9)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Uno spreco d'amore</span></div>
+<p>Cana non &egrave; un miracolo spettacolare. &Egrave; un gesto iperbolico di generosit&agrave;. Seicento litri di vino per una festa di paese! E vino buono, il migliore, servito alla fine quando ormai &laquo;tutti sono ubriachi&raquo;. Ges&ugrave; non fa l'elemosina del necessario: dona il superfluo della gioia. Il suo primo segno rivela il cuore del suo ministero: non &egrave; venuto a imporre regole ma a portare gioia. Le giare di pietra erano per la purificazione rituale: la religione del dovere si trasforma in festa di nozze. L'acqua della Legge diventa il vino dello Spirito.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della festa</span></div>
+<p>Cana &egrave; il manifesto di un cristianesimo festivo contro il cristianesimo moralistico. La societ&agrave; contemporanea cerca la gioia nel consumo e trova solo dipendenza. Cana mostra che la gioia vera non viene dall'accumulo &mdash; il vino non lo comprano, lo ricevono &mdash; ma dalla trasformazione dell'acqua quotidiana. La geopolitica della festa &egrave; questa: la comunit&agrave; che celebra la presenza di Dio &egrave; gi&agrave; un'anticipazione del Regno. E il Regno non &egrave; austerit&agrave; moralistica: &egrave; banchetto, &egrave; vino buono, &egrave; danza. Ogni potere che reprime la gioia &egrave; un potere anti-evangelico.</p>
+<div class="omelia-box">
+<p>Dov'&egrave; finita la gioia nella tua fede? Preoccupato di essere moralmente a posto, hai dimenticato che Ges&ugrave; &egrave; venuto per la festa? Il primo segno &egrave; per gli sposi in difficolt&agrave;. Dio si preoccupa che la festa riesca. La tua fede sa ancora di vino buono o &egrave; diventata acqua insapore?</p>
+<span class="tag">Il vino della festa</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c2)"></span>PARTE II</span>
+<h3>Il Tempio e il Controllo</h3>
+<p class="part-sub">La frusta, la notte, il pozzo di Sicar</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 4</span><span class="card-title">Rovesciare i tavoli</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Trov&ograve; nel tempio gente che vendeva buoi, pecore e colombe e i cambiavalute seduti. Fece una frusta di cordicelle e scacci&ograve; tutti dal tempio. [...] &laquo;Portate via queste cose e non fate della casa del Padre mio un mercato!&raquo;.&#xBB; (Giovanni 2,14-16)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La frusta nel tempio</span></div>
+<p>Ges&ugrave; non &egrave; il mite predicatore dell'immaginario popolare. Nel Tempio impugna una frusta, rovescia tavoli, scaccia mercanti e animali. &Egrave; un attacco diretto al sistema economico-religioso. Il Tempio era diventato un mercato: per avvicinarsi a Dio dovevi pagare, cambiare moneta, comprare animali per il sacrificio. I poveri ne erano esclusi. Ges&ugrave; non contesta il culto ma la sua mercificazione. &laquo;Non fate della casa del Padre mio un mercato&raquo;. Non &egrave; una riforma liturgica: &egrave; una dichiarazione di guerra al sistema che monetizza il sacro.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del sacro mercificato</span></div>
+<p>Quando la religione diventa economia e l'economia diventa religione, si crea un sistema di potere perfetto perch&eacute; invisibile. Non si vede pi&ugrave; la differenza tra Dio e Mammona. Le indulgenze medievali, i predicatori televisivi che chiedono soldi, la teologia della prosperit&agrave;: Ges&ugrave; rovescerebbe anche i loro tavoli. Ogni istituzione che monetizza il sacro si condanna da sola. Il Tempio doveva essere casa di preghiera per tutti i popoli; &egrave; diventato un'esclusiva per chi pu&ograve; pagare. La frusta di Ges&ugrave; &egrave; il giudizio di Dio su ogni religione trasformata in business.</p>
+<div class="omelia-box">
+<p>C'&egrave; un &laquo;mercato&raquo; nella tua vita spirituale? Dai a Dio per ricevere? Tratti la fede come una transazione? La grazia non si compra. Non si vende. Si riceve gratis. E se hai fatto della tua religione un commercio, lascia che la frusta di Cristo rovesci i tuoi tavoli. Fa male. Ma &egrave; l'inizio della guarigione.</p>
+<span class="tag">La frusta nel tempio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 5</span><span class="card-title">Nicodemo e la notte</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;C'era tra i farisei un uomo di nome Nicodemo, un capo dei Giudei. Egli and&ograve; da Ges&ugrave; di notte. &laquo;Rabbi, sappiamo che sei venuto da Dio come maestro. [...] Gli rispose Ges&ugrave;: &laquo;In verit&agrave; ti dico, se uno non nasce dall'alto, non pu&ograve; vedere il regno di Dio&raquo;.&#xBB; (Giovanni 3,1-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La notte dell'establishment</span></div>
+<p>Nicodemo &egrave; l'uomo che ha tutto: sapere, posizione, reputazione. &Egrave; un capo, un maestro, un fariseo stimato. Eppure va da Ges&ugrave; di notte. Perch&eacute; di notte? Paura? Vergogna? O forse perch&eacute; &egrave; solo di notte che le nostre certezze diurne si incrinano? Ges&ugrave; lo spiazza: non gli d&agrave; una risposta ma una sfida: &laquo;Devi nascere dall'alto&raquo;. Non devi migliorare: devi rinascere. Non &egrave; una correzione: &egrave; una ricreazione. Nicodemo &egrave; un uomo religioso, colto, rispettabile &mdash; e Ges&ugrave; gli dice che tutto questo non basta. Deve ricominciare da capo.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica dell'&eacute;lite spirituale</span></div>
+<p>Nicodemo rappresenta ogni establishment religioso e politico che riconosce la verit&agrave; ma non ha il coraggio di convertirsi pubblicamente. L'&eacute;lite che dialoga col profeta ma di nascosto, che ammira il rivoluzionario ma non lo segue, che riconosce la luce ma rimane nell'ombra. Alla fine Nicodemo torner&agrave;: difender&agrave; Ges&ugrave; nel Sinedrio (Gv 7) e porter&agrave; cento libbre di mirra per la sepoltura (Gv 19). La notte di Nicodemo &egrave; lunga, quasi tutto il Vangelo. Ma alla fine arriva l'alba. La conversione delle &eacute;lite &egrave; lenta, faticosa, ma possibile.</p>
+<div class="omelia-box">
+<p>Anche tu vieni da Ges&ugrave; di notte? In segreto, quando nessuno ti vede? Va bene cos&igrave;. La notte &egrave; un inizio. Ma Ges&ugrave; non ti lascer&agrave; nella notte: ti chiamer&agrave; alla luce, gradualmente, un passo alla volta. Sei disposto a nascere di nuovo? Non a migliorare. A rinascere. &Egrave; una domanda che fa paura. Ma &egrave; l'unica che conta.</p>
+<span class="tag">La notte di Nicodemo</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 6</span><span class="card-title">La Samaritana</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ges&ugrave; le rispose: &laquo;Chiunque beve di quest'acqua avr&agrave; di nuovo sete; ma chi beve dell'acqua che io gli dar&ograve; non avr&agrave; pi&ugrave; sete in eterno. L'acqua che io gli dar&ograve; diventer&agrave; in lui una sorgente che zampilla per la vita eterna&raquo;.&#xBB; (Giovanni 4,13-14)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Sete, vergogna e riconoscimento</span></div>
+<p>Al pozzo di Sicar, nell'ora pi&ugrave; calda, Ges&ugrave; incontra una donna samaritana con cinque mariti e un sesto uomo che non &egrave; suo marito. Tutti i confini vengono infranti: uomo/donna, giudeo/samaritano, puro/impuro. Ges&ugrave; non predica: dialoga. Conduce la donna a riconoscere la sua sete pi&ugrave; profonda: non quella di acqua ma quella di amore, di essere vista senza essere giudicata. Alla fine la donna lascia la brocca &mdash; l'oggetto del suo lavoro, la sua identit&agrave; sociale &mdash; e corre in citt&agrave; ad annunciare. Diventa la prima evangelista.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica dell'attraversamento</span></div>
+<p>La Samaritana &egrave; il modello di ogni evangelizzazione che attraversa i conflitti invece di evitarli. Ges&ugrave; non evita Samaria (come facevano i giudei osservanti). L'attraversa. Non evita la donna di cui tutti sparlano. La incontra. La geopolitica dello Spirito non si ferma ai confini etnici, religiosi, morali. Dove gli uomini vedono nemici, Ges&ugrave; vede seti. La donna &egrave; samaritana (nemica etnica), donna (inferiore sociale), peccatrice (esclusa morale). Ges&ugrave; attraversa tutte e tre le barriere in un solo incontro. E lei diventa missionaria: &laquo;Venite a vedere un uomo che mi ha detto tutto quello che ho fatto&raquo;.</p>
+<div class="omelia-box">
+<p>Quali sono i tuoi pozzi di Sicar? I luoghi e le persone che eviti? La tua Samaria personale? Non attraversarla &egrave; pi&ugrave; comodo. Ma &egrave; l&igrave; che Ges&ugrave; ti aspetta. Seduto al pozzo, nell'ora pi&ugrave; calda, stanco del viaggio. Ti aspetta per dirti tutto quello che hai fatto &mdash; e per amarti lo stesso.</p>
+<span class="tag">L'acqua che zampilla</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c3)"></span>PARTE III</span>
+<h3>La Folla, il Pane e il Consenso</h3>
+<p class="part-sub">La massa, il re rifiutato, il cieco che vede</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 7</span><span class="card-title">Il pane e la massa</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;In verit&agrave; vi dico: voi mi cercate non perch&eacute; avete visto dei segni, ma perch&eacute; avete mangiato di quei pani e vi siete saziati. Procuratevi non il cibo che perisce, ma il cibo che dura per la vita eterna.&#xBB; (Giovanni 6,26-27)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Perch&eacute; mi cercate?</span></div>
+<p>Dopo la moltiplicazione dei pani, la folla cerca Ges&ugrave;. Lui smaschera la loro motivazione: &laquo;Voi mi cercate perch&eacute; avete mangiato&raquo;. Non per fede ma per interesse. Non perch&eacute; hanno riconosciuto il Messia ma perch&eacute; hanno riempito lo stomaco gratis. Ges&ugrave; rifiuta questo consenso. Non vuole seguaci che lo cercano per i benefici materiali. Propone invece un discorso durissimo: &laquo;Io sono il pane vivo. Chi mangia la mia carne avr&agrave; la vita eterna&raquo;. La folla mormora, molti se ne vanno. &laquo;Volete andarvene anche voi?&raquo; chiede ai Dodici.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del consenso comprato</span></div>
+<p>Il consenso politico funziona esattamente cos&igrave;: promette saziet&agrave; immediata. I populismi di destra e sinistra moltiplicano pani e pesci elettorali: sussidi, bonus, promesse. Ma il consenso fondato sul bisogno &egrave; fragile: appena manca il pane, la folla si rivolta. Ges&ugrave; rifiuta questa logica. Preferisce perdere consenso che fondarlo sull'interesse. &Egrave; una lezione per ogni leader spirituale e politico: non puoi comprare la fedelt&agrave; della gente. La folla che oggi ti acclama domani ti crocifigge. Solo chi ti segue per ci&ograve; che sei, non per ci&ograve; che dai, rester&agrave;.</p>
+<div class="omelia-box">
+<p>Perch&eacute; segui Ges&ugrave;? Per quello che ti d&agrave; o per quello che &egrave;? La tua fede si regge sui benefici o sulla persona? Se domani perdessi tutto &mdash; salute, lavoro, affetti &mdash; lo seguiresti ancora? &Egrave; la domanda che Ges&ugrave; fece ai Dodici. &Egrave; la domanda che fa a te, oggi.</p>
+<span class="tag">Perch&eacute; mi cercate?</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 8</span><span class="card-title">&laquo;Volevano farlo re&raquo;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Allora la gente, visto il segno che egli aveva compiuto, diceva: &laquo;Questi &egrave; davvero il profeta che deve venire nel mondo!&raquo;. Ma Ges&ugrave;, sapendo che venivano a prenderlo per farlo re, si ritir&ograve; di nuovo sul monte, tutto solo.&#xBB; (Giovanni 6,14-15)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La fuga del re</span></div>
+<p>Ges&ugrave; fugge. Quando la folla vuole incoronarlo, lui sparisce. Sale sul monte da solo. Non &egrave; falsa modestia: &egrave; rifiuto sistematico del potere politico. La sua regalit&agrave; non &egrave; di questo mondo. Il Messia non &egrave; un leader politico pi&ugrave; efficace degli altri: &egrave; un'altra categoria. La folla proietta su di lui il proprio desiderio di dominio: se Ges&ugrave; diventasse re, Israele sarebbe libero dai romani. Ma Ges&ugrave; non &egrave; venuto per sostituire un dominio con un altro. &Egrave; venuto per abolire la logica stessa del dominio.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della tentazione permanente</span></div>
+<p>La tentazione di usare il consenso popolare per prendere il potere &egrave; permanente nella storia della Chiesa. Da Costantino in poi, quante volte il cristianesimo ha ceduto alla logica del &laquo;farlo re&raquo;? I regimi di cristianit&agrave;, le guerre di religione, i partiti cristiani: il rischio &egrave; sempre lo stesso &mdash; confondere il Regno di Dio con un regno umano. Ges&ugrave; fugge dal potere anche quando gli viene offerto democraticamente. La sua &egrave; una lezione definitiva: il Vangelo non &egrave; un programma politico. &Egrave; un'altra cosa. E guai a chi lo riduce a ideologia.</p>
+<div class="omelia-box">
+<p>Hai mai cercato di &laquo;fare re&raquo; Ges&ugrave; per i tuoi scopi? Usare la fede per ottenere approvazione sociale, potere, influenza? Trasformare il Vangelo in una bandiera da sventolare? Ges&ugrave; non si lascia strumentalizzare. Anche oggi, quando cerchi di incoronarlo per i tuoi progetti, lui fugge sul monte. Resta solo. Ti aspetta lass&ugrave;. Non per ricevere una corona. Per incontrare te.</p>
+<span class="tag">La fuga del re</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 9</span><span class="card-title">Il cieco nato</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Passando vide un uomo cieco dalla nascita. I discepoli lo interrogarono: &laquo;Rabbi, chi ha peccato, lui o i suoi genitori, perch&eacute; sia nato cieco?&raquo;. Rispose Ges&ugrave;: &laquo;N&eacute; lui n&eacute; i suoi genitori, ma perch&eacute; in lui siano manifestate le opere di Dio&raquo;.&#xBB; (Giovanni 9,1-3)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Vedere e perdere</span></div>
+<p>Il cieco nato riceve la vista. Ma la sua guarigione diventa un processo, un'indagine. I farisei lo interrogano, chiamano i genitori, lo espellono dalla sinagoga. Guadagna la vista ma perde la comunit&agrave;. Perch&eacute;? Perch&eacute; il miracolo &egrave; avvenuto di sabato. La guarigione non conta: conta la regola. I farisei vedono ma non vogliono vedere. Il cieco non vedeva ma ora vede &mdash; e paga il prezzo di vedere. Alla fine Ges&ugrave; lo cerca, lo trova, e il cieco fa la sua professione di fede: &laquo;Credo, Signore!&raquo;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della procedura contro la verit&agrave;</span></div>
+<p>Ogni verit&agrave; scomoda viene gestita dal sistema come un problema procedurale. I farisei non discutono se il miracolo &egrave; vero: discutono se era lecito farlo di sabato. &Egrave; la tecnica di ogni burocrazia del potere: spostare la questione dalla sostanza alla procedura. Il cieco guarito &egrave; ogni whistleblower, ogni voce scomoda che dice ci&ograve; che ha visto e viene espulso per questo. La domanda dei farisei &mdash; &laquo;chi ha peccato?&raquo; &mdash; &egrave; la domanda di ogni sistema che cerca un colpevole invece di cercare la verit&agrave;. Ges&ugrave; rifiuta la logica retributiva: il male non &egrave; punizione. &Egrave; occasione perch&eacute; si manifesti la gloria di Dio.</p>
+<div class="omelia-box">
+<p>Sei disposto a vedere, anche se vedere significa perdere? Il cieco nato ha perso la sinagoga ma ha trovato Ges&ugrave;. La verit&agrave; ha un costo. Ma la cecit&agrave; ne ha uno pi&ugrave; alto. Quali verit&agrave; stai evitando di vedere per paura delle conseguenze? Cristo ti sta chiamando fuori dalla cecit&agrave;. Ma uscire significa anche essere espulsi. Ne vale la pena? Il cieco nato ti risponde di s&igrave;.</p>
+<span class="tag">Vedere e perdere</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c4)"></span>PARTE IV</span>
+<h3>Il Sistema Reagisce</h3>
+<p class="part-sub">Lazzaro, Caifa, Pilato: il potere in panico</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 10</span><span class="card-title">Lazzaro e il panico del potere</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ges&ugrave; grid&ograve; a gran voce: &laquo;Lazzaro, vieni fuori!&raquo;. Il morto usc&igrave;, i piedi e le mani legati con bende, e il viso avvolto da un sudario. Molti dei Giudei che erano venuti da Maria, visto ci&ograve; che aveva compiuto, credettero in lui. Ma alcuni andarono dai farisei e riferirono loro quello che Ges&ugrave; aveva fatto. Allora i capi dei sacerdoti e i farisei riunirono il sinedrio.&#xBB; (Giovanni 11,43-47)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Il morto che disturba</span></div>
+<p>Lazzaro &egrave; l'ultimo segno, il pi&ugrave; spettacolare. Un morto di quattro giorni esce dalla tomba. Molti credono. Ma per le autorit&agrave; &egrave; la goccia che fa traboccare il vaso. Riunione d'urgenza del Sinedrio. Il miracolo non viene negato: viene visto come minaccia. Se tutti credono in Ges&ugrave;, i romani interverranno e distruggeranno il Tempio e la nazione. Meglio che uno muoia per tutto il popolo. Lazzaro &egrave; vivo, ma la sua resurrezione &egrave; la condanna a morte di Ges&ugrave;.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della minaccia esistenziale</span></div>
+<p>La resurrezione di Lazzaro mostra che il sistema non teme il falso profeta ma il vero. Un falso profeta lo gestisci, lo compri, lo screditi. Ma quando un uomo risuscita un morto, il sistema va in cortocircuito. Non pu&ograve; tollerare ci&ograve; che non pu&ograve; spiegare n&eacute; controllare. Ogni riformatore autentico, ogni innovatore radicale, &egrave; un Lazzaro per il sistema: va eliminato non perch&eacute; sbaglia ma perch&eacute; la sua sola esistenza rende instabile l'ordine costituito. La resurrezione &egrave; l'atto pi&ugrave; sovversivo possibile: dimostra che la morte &mdash; l'arma finale del potere &mdash; non ha l'ultima parola.</p>
+<div class="omelia-box">
+<p>Se la tua fede non disturba nessuno, forse non &egrave; fede. Una fede che risuscita morti &mdash; letteralmente o metaforicamente: relazioni spezzate, speranze sepolte, comunit&agrave; morte &mdash; spaventa. Sei disposto a essere una minaccia per il sistema? Non con la violenza. Con la vita. Con la resurrezione.</p>
+<span class="tag">Il morto che disturba</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 11</span><span class="card-title">Caifa e la ragion di Stato</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Uno di loro, Caifa, che era sommo sacerdote quell'anno, disse: &laquo;Voi non capite nulla! Non vi rendete conto che &egrave; conveniente per voi che un solo uomo muoia per il popolo e che non vada in rovina la nazione intera!&raquo;.&#xBB; (Giovanni 11,49-50)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La ragion di Stato</span></div>
+<p>Caifa &egrave; il tecnocrate del potere. Non &egrave; malvagio in senso classico: &egrave; pragmatico. Il suo ragionamento &egrave; impeccabile: se Ges&ugrave; continua, i romani interverranno. Meglio sacrificare un uomo che perdere la nazione. L'ironia tragica &egrave; che Caifa sta profetizzando senza saperlo: Ges&ugrave; muore davvero per il popolo, ma non nel senso che Caifa intende. La ragion di Stato giustifica l'omicidio in nome della stabilit&agrave;. &laquo;&Egrave; conveniente&raquo;: il verbo del cinismo politico.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del capro espiatorio</span></div>
+<p>Il principio di Caifa governa la geopolitica mondiale. Guerre preventive, esecuzioni extragiudiziali, sacrificio di minoranze: tutto in nome della stabilit&agrave;. &laquo;&Egrave; meglio che uno muoia per il popolo&raquo;. &Egrave; la logica del capro espiatorio descritta da Ren&eacute; Girard: la comunit&agrave; in crisi si ricompatta eliminando una vittima. Caifa &egrave; ogni leader che sacrifica la giustizia sull'altare dell'ordine. &Egrave; il politico che bombarda un villaggio per &laquo;salvare la nazione&raquo;, il manager che licenzia per &laquo;salvare l'azienda&raquo;, il religioso che espelle l'eretico per &laquo;salvare la comunit&agrave;&raquo;.</p>
+<div class="omelia-box">
+<p>Quante volte hai applicato il principio di Caifa nella tua vita? Sacrificato una persona, una relazione, un valore in nome della stabilit&agrave;? &laquo;&Egrave; meglio cos&igrave;&raquo;, ti sei detto. Ma chi ha pagato il prezzo? La ragion di Stato &egrave; anche la ragione del tuo piccolo stato personale. Riconoscila. E rifiutala.</p>
+<span class="tag">La ragion di Stato</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 12</span><span class="card-title">Pilato</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Pilato gli disse: &laquo;Che cos'&egrave; la verit&agrave;?&raquo;. E detto questo usc&igrave; di nuovo verso i Giudei e disse loro: &laquo;Io non trovo in lui nessuna colpa&raquo;.&#xBB; (Giovanni 18,38)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Le mani lavate</span></div>
+<p>Pilato &egrave; il funzionario imperiale. Non odia Ges&ugrave;. Anzi, lo trova innocente e cerca di liberarlo. Ma quando la folla grida, quando il rischio di una rivolta si profila, Pilato cede. Si lava le mani. La sua domanda &mdash; &laquo;Che cos'&egrave; la verit&agrave;?&raquo; &mdash; non &egrave; filosofica: &egrave; cinica. Pilato ha visto troppe &laquo;verit&agrave;&raquo; per credere ancora che esista. &Egrave; l'uomo del sistema che ha rinunciato a distinguere il vero dal falso. Per lui conta solo l'ordine. La verit&agrave; &egrave; davanti a lui, in carne e ossa, e lui non la vede. O non vuole vederla.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della banalit&agrave; del male</span></div>
+<p>Pilato &egrave; il volto pi&ugrave; inquietante del potere: quello burocratico. Non &egrave; Hitler. &Egrave; il funzionario che firma la condanna a morte perch&eacute; &egrave; il suo lavoro. La banalit&agrave; del male descritta da Hannah Arendt &egrave; gi&agrave; qui, nel pretorio di Gerusalemme. Pilato sa che Ges&ugrave; &egrave; innocente ma lo condanna lo stesso. Perch&eacute; mantenere l'ordine &egrave; pi&ugrave; importante che fare giustizia. Quanti Pilato ci sono oggi nelle amministrazioni, nelle aziende, nelle istituzioni? Persone che sanno qual &egrave; la cosa giusta ma non la fanno. Non per cattiveria. Per paura. Per calcolo. Per carriera.</p>
+<div class="omelia-box">
+<p>Dove sei Pilato nella tua vita? Dove sai qual &egrave; la cosa giusta ma non la fai per paura delle conseguenze? Dove ti lavi le mani? La verit&agrave; non &egrave; una domanda filosofica: &egrave; una persona davanti a te. In questo momento. Cosa ne fai? La guardi o ti giri dall'altra parte?</p>
+<span class="tag">Le mani lavate</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c5)"></span>PARTE V</span>
+<h3>La Spogliazione</h3>
+<p class="part-sub">L'asciugamano, la preghiera, la croce</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 13</span><span class="card-title">Lavare i piedi</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Ges&ugrave;, sapendo che il Padre gli aveva dato tutto nelle mani e che era venuto da Dio e a Dio tornava, si alz&ograve; da tavola, depose le vesti, prese un asciugamano e se lo cinse alla vita. Poi vers&ograve; dell'acqua nel catino e cominci&ograve; a lavare i piedi dei discepoli.&#xBB; (Giovanni 13,3-5)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">L'asciugamano del Maestro</span></div>
+<p>Nell'Ultima Cena, al posto dell'istituzione dell'Eucaristia (che Giovanni sorprendentemente omette), c'&egrave; la lavanda dei piedi. Il gesto pi&ugrave; umile, riservato agli schiavi. Ges&ugrave; si spoglia delle vesti, prende l'asciugamano, si inginocchia. Pietro protesta: &laquo;Tu non mi laverai mai i piedi!&raquo;. &Egrave; la protesta di chi non accetta un Dio inginocchiato. Ma Ges&ugrave; insiste: &laquo;Se non ti laver&ograve;, non avrai parte con me&raquo;. L'autorit&agrave; di Ges&ugrave; non sta sopra ma sotto. Il potere del Vangelo &egrave; il servizio. Non &egrave; una lezione morale: &egrave; la ridefinizione ontologica del potere.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del servizio</span></div>
+<p>La lavanda dei piedi &egrave; il manifesto di ogni autorit&agrave; cristiana. Non &egrave; un gesto simbolico: &egrave; la definizione stessa del potere nel Regno. Ogni leader che non serve &egrave; un anti-Cristo, qualunque titolo porti. La geopolitica del servizio sovverte la geopolitica del dominio. Non si tratta di essere &laquo;umili&raquo; come posa morale: si tratta di ridefinire la natura stessa del potere. Il potere non come controllo ma come dono. Non come dominio ma come lavanda. Il mondo ha bisogno di leader che si inginocchiano. E la Chiesa per prima.</p>
+<div class="omelia-box">
+<p>A chi stai lavando i piedi? E &mdash; domanda pi&ugrave; difficile &mdash; ti lasci lavare i piedi? Pietro non voleva essere servito. Anche tu fai resistenza. Non vuoi che Dio si inginocchi davanti a te. Ma senza lasciarti amare, non puoi amare. Senza accettare di essere servito, non puoi servire. La lavanda &egrave; reciproca. Ricevila.</p>
+<span class="tag">L'asciugamano del Maestro</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 14</span><span class="card-title">Il Getsemani di Giovanni</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Padre, &egrave; venuta l'ora: glorifica il Figlio tuo perch&eacute; il Figlio glorifichi te. [...] Non prego solo per questi, ma anche per quelli che crederanno in me mediante la loro parola: perch&eacute; tutti siano una sola cosa.&#xBB; (Giovanni 17,1.20-21)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">La preghiera per te</span></div>
+<p>Giovanni non racconta l'agonia del Getsemani come i sinottici. Al suo posto c'&egrave; la &laquo;preghiera sacerdotale&raquo; (Gv 17), il vertice teologico del Vangelo. Ges&ugrave; prega per i discepoli e per &laquo;quelli che crederanno&raquo;. Prega per te. Mentre Giuda sta arrivando con le guardie, Ges&ugrave; non trema: intercede. La sua gloria non &egrave; nel momento del trionfo ma nel momento dell'abbandono. Amare fino alla fine significa pregare per i nemici mentre vengono ad arrestarti. E pregare per quelli che devono ancora nascere.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica dell'unit&agrave;</span></div>
+<p>La preghiera sacerdotale &egrave; l'atto pi&ugrave; politico di Ges&ugrave;. Non chiede potere o vittoria ma unit&agrave;: &laquo;perch&eacute; tutti siano una sola cosa&raquo;. L'unit&agrave; dei credenti &egrave; il segno visibile della presenza di Dio nel mondo. La divisione dei cristiani &egrave; il pi&ugrave; grande ostacolo all'evangelizzazione. Ges&ugrave; non ha pregato perch&eacute; i cristiani fossero potenti ma perch&eacute; fossero uno. L'unit&agrave; non &egrave; uniformit&agrave;: &egrave; comunione nella diversit&agrave;. &Egrave; il riflesso della vita trinitaria. La Chiesa divisa &egrave; il principale argomento degli atei. Ges&ugrave; lo sapeva. Per questo ha pregato per l'unit&agrave; prima di ogni altra cosa.</p>
+<div class="omelia-box">
+<p>Ges&ugrave; ha pregato per te. &laquo;Quelli che crederanno in me mediante la loro parola&raquo;: sei tu. Sei stato nominato nell'ultima preghiera prima della croce. Non sei un cristiano qualsiasi: sei uno per cui Ges&ugrave; ha pregato personalmente. Come ti fa sentire? E come vivi l'unit&agrave; con gli altri credenti? Costruisci ponti o alzi muri?</p>
+<span class="tag">La preghiera per te</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 15</span><span class="card-title">La croce</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Quando Ges&ugrave; ebbe preso l'aceto, disse: &laquo;&Egrave; compiuto!&raquo;. E, chinato il capo, rese lo spirito.&#xBB; (Giovanni 19,30)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Tetelestai &mdash; &egrave; compiuto</span></div>
+<p>La croce in Giovanni non &egrave; sconfitta ma elevazione. Ges&ugrave; &egrave; &laquo;innalzato&raquo; da terra. Non subisce: compie. &laquo;&Egrave; compiuto&raquo; (<em>tetelestai</em>): non &laquo;&egrave; finita&raquo; come resa, ma &laquo;&egrave; portato a compimento&raquo; come un'opera. La croce &egrave; il trono. L'iscrizione in ebraico, latino e greco &mdash; le tre lingue dell'Impero &mdash; proclama al mondo intero: &laquo;Ges&ugrave; il Nazareno, il Re dei Giudei&raquo;. Pilato scrive la verit&agrave; senza saperlo. Il soldato trafigge il costato ed escono sangue e acqua: i sacramenti della Chiesa. Dal fianco del nuovo Adamo nasce la nuova Eva.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della croce</span></div>
+<p>La croce &egrave; il centro della geopolitica cristiana. Non come simbolo di sofferenza da infliggere ma come rivelazione del vero volto del potere: il potere che si dona. L'Impero romano crocifiggeva per terrorizzare. La croce era il patibolo degli schiavi e dei ribelli. Ges&ugrave; la trasforma nel trono della gloria. Ogni potere che uccide crede di vincere ma mostra la propria debolezza. Ogni vittima innocente &egrave; un giudizio sul sistema che la uccide. La croce non &egrave; un incidente: &egrave; il momento in cui il potere svela il suo vero volto &mdash; e Dio svela il suo. Sulla croce il potere appare come violenza che uccide l'innocente; Dio appare come amore che si dona fino alla fine.</p>
+<div class="omelia-box">
+<p>&laquo;&Egrave; compiuto&raquo;. Non &laquo;sono finito&raquo;. Cosa deve essere compiuto nella tua vita? Non sconfitto ma portato a pienezza? Anche la tua sofferenza, unita a quella di Cristo, pu&ograve; diventare compimento. Non subire la croce: abbracciala. Non &egrave; masochismo. &Egrave; la via della resurrezione.</p>
+<span class="tag">Tetelestai &mdash; &egrave; compiuto</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="part-head reveal">
+<span class="part-num"><span style="background:var(--c6)"></span>PARTE VI</span>
+<h3>Il Giardino e il Volto</h3>
+<p class="part-sub">Maria, Tommaso, e l'ultima parola: &laquo;Seguimi&raquo;</p>
+<div class="part-line"></div>
+</div>
+
+<div class="reveal">
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 16</span><span class="card-title">Maria Maddalena</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Maria stava all'esterno, vicino al sepolcro, e piangeva. [...] Ges&ugrave; le disse: &laquo;Maria!&raquo;. Ella si volt&ograve; e gli disse in ebraico: &laquo;Rabbun&igrave;!&raquo;, che significa: &laquo;Maestro!&raquo;.&#xBB; (Giovanni 20,11.16)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Maria!</span></div>
+<p>Maria Maddalena &egrave; la prima testimone della resurrezione. Ma non riconosce subito Ges&ugrave;: lo scambia per il giardiniere. &Egrave; ancora avvolta nel lutto. Solo quando Ges&ugrave; la chiama per nome &mdash; &laquo;Maria!&raquo; &mdash; lei si volta e lo riconosce. La resurrezione non &egrave; un evento spettacolare ma un incontro personale. Ges&ugrave; risorto non appare alle folle ma ai singoli, chiamandoli per nome. E affida a Maria &mdash; una donna, in un mondo dove la testimonianza femminile non aveva valore legale &mdash; l'annuncio pi&ugrave; importante della storia. &laquo;Va' dai miei fratelli e di' loro...&raquo;. Maria &egrave; l'apostola degli apostoli.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica della testimonianza femminile</span></div>
+<p>La scelta di Maria Maddalena come prima testimone &egrave; una rivoluzione antropologica. In una cultura dove le donne non potevano testimoniare in tribunale, Dio affida a una donna la testimonianza fondante del cristianesimo. Se la resurrezione fosse un'invenzione, nessun inventore del I secolo avrebbe scelto una donna come primo testimone. La resurrezione non cancella il lutto: lo attraversa. Maria piange ancora quando Ges&ugrave; le appare. La gioia pasquale non &egrave; negazione del dolore ma sua trasfigurazione. Il giardino della resurrezione &egrave; il nuovo Eden: Maria, la nuova Eva, incontra il nuovo Adamo.</p>
+<div class="omelia-box">
+<p>Ges&ugrave; ti chiama per nome. Non come &laquo;caro fedele&raquo; o &laquo;cara anima&raquo; ma come te: col tuo nome, la tua storia, le tue lacrime. Come Maria, potresti non riconoscerlo subito. Lo scambierai per un giardiniere, per un caso, per una coincidenza. Ma quando sentirai il tuo nome, ti volterai. Sei in ascolto? &laquo;Maria!&raquo;. Sostituisci il tuo nome. Lui ti sta chiamando. Adesso.</p>
+<span class="tag">Maria!</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 17</span><span class="card-title">Tommaso</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Tommaso, uno dei Dodici, chiamato Didimo, non era con loro quando venne Ges&ugrave;. Gli dissero gli altri discepoli: &laquo;Abbiamo visto il Signore!&raquo;. Ma egli disse loro: &laquo;Se non vedo nelle sue mani il segno dei chiodi e non metto il mio dito nel segno dei chiodi e non metto la mia mano nel suo fianco, non creder&ograve;&raquo;.&#xBB; (Giovanni 20,24-25)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Mio Signore e mio Dio</span></div>
+<p>Tommaso &egrave; passato alla storia come &laquo;l'incredulo&raquo;, ma &egrave; l'unico apostolo che esprime esattamente ci&ograve; che chiunque avrebbe pensato. Gli altri hanno visto; lui no. Perch&eacute; dovrebbe credere? La sua richiesta non &egrave; blasfema: &egrave; umana. Vuole toccare le ferite. E Ges&ugrave;, otto giorni dopo, appare proprio a lui e gli offre le ferite. &laquo;Metti qui il tuo dito&raquo;. Tommaso non ha pi&ugrave; bisogno di toccare: cade in ginocchio. &laquo;Mio Signore e mio Dio!&raquo;. &Egrave; la pi&ugrave; alta confessione di fede del Nuovo Testamento. L'incredulo diventa il credente per eccellenza.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica delle ferite</span></div>
+<p>La fede non &egrave; irrazionale: &egrave; relazionale. Tommaso non chiede una prova logica ma un incontro. Ges&ugrave; non risponde con argomenti ma con la sua presenza ferita. Le ferite del Risorto &mdash; ancora visibili &mdash; sono la prova che il Crocifisso e il Risorto sono lo stesso. Che la gloria non cancella le ferite ma le trasfigura. Una religione senza ferite &egrave; una religione senza resurrezione. Un cristianesimo che nasconde le proprie piaghe non &egrave; il cristianesimo di Tommaso. Le ferite sono il luogo dell'incontro. Il dito di Tommaso nel costato di Cristo &egrave; l'icona di ogni fede adulta: una fede che non ha paura di toccare il dolore.</p>
+<div class="omelia-box">
+<p>Anche tu hai i tuoi dubbi, le tue domande, la tua incapacit&agrave; di credere &laquo;sulla parola&raquo;. Non vergognartene. Tommaso &egrave; il santo dei dubbiosi, il patrono di chi non si accontenta delle risposte facili. Ges&ugrave; non lo rimprovera: gli offre le ferite. Le offre anche a te. Metti il dito. Non aver paura di toccare. &Egrave; l&igrave;, nelle ferite, che incontrerai il Risorto.</p>
+<span class="tag">Mio Signore e mio Dio</span>
+</div>
+</div>
+</details>
+
+<details class="chapter-card">
+<summary><span class="card-num">Capitolo 18</span><span class="card-title">&laquo;Seguimi&raquo;</span><span class="card-arrow">&#9662;</span></summary>
+<div class="card-body">
+<p class="verse">&#xAB;Dopo aver mangiato, Ges&ugrave; disse a Simon Pietro: &laquo;Simone, figlio di Giovanni, mi ami pi&ugrave; di costoro?&raquo;. Gli rispose: &laquo;Certo, Signore, tu lo sai che ti voglio bene&raquo;. Gli disse: &laquo;Pasci i miei agnelli&raquo;.&#xBB; (Giovanni 21,15)</p>
+<div class="mov-head"><span class="mov-ico evo">Evocazione</span><span class="mov-label">Seguimi</span></div>
+<p>L'ultimo capitolo &egrave; un'appendice. Sul lago di Tiberiade, Ges&ugrave; risorto cucina il pesce per i discepoli. Poi il triplice dialogo con Pietro: &laquo;Mi ami?&raquo;. Tre domande per riparare i tre rinnegamenti. Pietro &egrave; ferito ma guarito. Poi Ges&ugrave; dice: &laquo;Seguimi&raquo;. L'ultima parola del Vangelo non &egrave; una dottrina ma un invito. Giovanni finisce aperto: &laquo;Vi sono ancora molte altre cose compiute da Ges&ugrave; che, se fossero scritte una per una, penso che il mondo stesso non basterebbe a contenere i libri che se ne dovrebbero scrivere&raquo;. Il Vangelo non &egrave; un sistema chiuso. &Egrave; una porta aperta sull'infinito.</p>
+<div class="mov-head"><span class="mov-ico aut">Autopsia</span><span class="mov-label">La geopolitica del &laquo;seguimi&raquo;</span></div>
+<p>L'ultima parola di Giovanni &egrave; un antidoto a ogni fondamentalismo. Il Vangelo non contiene tutto. Ci sono &laquo;molte altre cose&raquo; che non sono state scritte. La verit&agrave; cristiana non &egrave; un sistema chiuso ma una persona vivente che continua ad agire nella storia. La geopolitica del &laquo;seguimi&raquo; &egrave; l'opposto della geopolitica del &laquo;controlla e amministra&raquo;. Il Regno non si possiede: si segue. Non si amministra: si annuncia. Non si difende con la forza: si testimonia con la vita.</p>
+<div class="omelia-box">
+<p>&laquo;Seguimi&raquo; &egrave; l'ultima parola di Ges&ugrave; a Pietro, e a te. Non &laquo;capiscimi&raquo;, non &laquo;gestiscimi&raquo;, non &laquo;spiegami&raquo;: &laquo;Seguimi&raquo;. Cammina dietro di me. Non devi sapere dove vai: devi sapere con chi vai. E con lui, ogni strada &egrave; la strada giusta. Anche quella che porta a Roma. Anche quella che porta alla croce.</p>
+<span class="tag">Seguimi</span>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+
+<section style="background:var(--surface)">
+<div class="wrap">
+<div class="conclusion-section reveal">
+<p class="verse">&#xAB;Vi sono ancora molte altre cose compiute da Ges&ugrave;. Se fossero scritte una per una, penso che il mondo stesso non basterebbe a contenere i libri.&#xBB; (Giovanni 21,25)</p>
+<div class="conclusion-msg">
+<p>Il potere vuole amministrare l'uomo. Cristo vuole incontrarlo. In Giovanni il peccato fondamentale non &egrave; l'immoralit&agrave;: &egrave; l'incapacit&agrave; di sostenere una presenza che ti vede davvero. Questo Vangelo &egrave; uno specchio: non guardi pi&ugrave; Babilonia, Roma, il sistema. Guardi te stesso mentre vieni guardato. E scopri che quello sguardo non ti condanna: ti chiama per nome.</p>
+<span class="tag">Il Vangelo dello specchio</span>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="reveal" style="text-align:center;padding:2rem 0">
+<p style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:.5rem"><em style="color:var(--gold);font-style:italic">Il Volto e il Potere</em> &mdash; Luce, desiderio e verit&agrave; nel Vangelo di Giovanni</p>
+<p style="color:var(--muted);font-weight:300;font-size:.85rem">Ottavo volume della collana &mdash; MetaHistoria</p>
+</div>
+</div>
+</section>
+
+<div class="page-nav" style="max-width:var(--maxw);margin:0 auto">
+<div class="nav-prev">
+<div class="nav-label">Precedente</div>
+<a href='/apocalisse-del-potere/manuale-commento-ezechiele'>&larr; Le Visioni dell'Esilio (Ezechiele)</a>
+</div>
+<div class="nav-next">
+<div class="nav-label">Successivo</div>
+<a href='/apocalisse-del-potere/manuale-commento-patriarchi'>Le Tende e le Stelle (Patriarchi) &rarr;</a>
+</div>
+</div>
+
+<footer>
+ <div class="wrap">
+ <div>
+ <h4>MetaHistoria</h4>
+ <p>MetaHistoria &ndash; Il Metodo Pentapolare decodifica che fonde la materialit&agrave; del potere globale con i misteri dello spirito, dalla geopolitica classica all&rsquo;Apocalisse del Potere.</p>
+ </div>
+ <div>
+ <h4>Riferimenti</h4>
+ <ul>
+ <li>Giovanni, <em>Vangelo secondo Giovanni</em></li>
+ <li>Giovanni 1 &mdash; Il Prologo e il Logos</li>
+ <li>Giovanni 11 &mdash; La resurrezione di Lazzaro</li>
+ <li>Giovanni 17 &mdash; La preghiera sacerdotale</li>
+ <li>Giovanni 20-21 &mdash; Resurrezione e missione</li>
+ </ul>
+ </div>
+ <div>
+ <h4>Collegamenti</h4>
+ <ul>
+ <li><a href='/#architettura' style='color:var(--muted);text-decoration:none'>Architettura del sistema</a></li>
+ <li><a href='/apocalisse-del-potere/' style='color:var(--muted);text-decoration:none'>Apocalisse del Potere</a></li>
+ <li><a href='/apocalisse-del-potere/bestie-spirituali' style='color:var(--muted);text-decoration:none'>Bestie spirituali</a></li>
+ <li><a href='/apocalisse-del-potere/anticristo-sovrano' style='color:var(--muted);text-decoration:none'>L&rsquo;Anticristo</a></li>
+ <li><a href='/apocalisse-del-potere/biblioteca-apocalittica' style='color:var(--muted);text-decoration:none'>Biblioteca Apocalittica</a></li>
+ </ul>
+ </div>
+ <p class="legal">Pagina statica a file unico &mdash; Font: Libre Bodoni + Public Sans &mdash; &copy; 2026</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ const bar = document.getElementById('progress');
+ addEventListener('scroll', () => {
+ const h = document.documentElement;
+ bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+ }, {passive:true});
+ const io = new IntersectionObserver(es => {
+ es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+ }, {threshold:.08});
+ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html><script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="13d12e51-1560-41d5-b2a5-65b8b8a6df7a" data-app-host="app.netlify.com" data-account-tier="free"></script>
