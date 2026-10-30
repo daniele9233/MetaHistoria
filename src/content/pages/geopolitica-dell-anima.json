@@ -108,11 +108,60 @@
    ]
   },
   {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/fondamenti",
+   "parts": [
+    "01",
+    "Insegnamenti Fondamentali",
+    "Otto chiavi per leggere l'infrastruttura teologica del potere dalla simbolica dell'uomo alla grammatica del sacrificio. Il fondamento teorico della Geopolitica dell'Anima.",
+    "Leggi ?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/insegnamenti-di-fede",
+   "parts": [
+    "02",
+    "Insegnamenti di fede",
+    "Le conseguenze esistenziali della Geopolitica dell'Anima: disincanto, libertà, compassione, responsabilità, speranza. Il cammino spirituale di chi ha visto il meccanismo del potere.",
+    "Leggi"
+   ]
+  },
+  {
    "type": "p",
    "role": "p",
    "runs": [
     {
-     "t": "01 Insegnamenti Fondamentali Otto chiavi per leggere l'infrastruttura teologica del potere dalla simbolica dell'uomo alla grammatica del sacrificio. Il fondamento teorico della Geopolitica dell'Anima. Leggi ?   02 Insegnamenti di fede Le conseguenze esistenziali della Geopolitica dell'Anima: disincanto, libertà, compassione, responsabilità, speranza. Il cammino spirituale di chi ha visto il meccanismo del potere. Leggi →   03 Religione e Stato Contenuti in preparazione. Le diverse configurazioni del rapporto tra istituzioni religiose e potere politico nel mondo. Prossimamente ?"
+     "t": "03"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Religione e Stato"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Contenuti in preparazione. Le diverse configurazioni del rapporto tra istituzioni religiose e potere politico nel mondo."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Prossimamente ?"
     }
    ]
   },
@@ -134,8 +183,8 @@
   "Manifesto TGP-O (2026)"
  ],
  "stats": {
-  "blocks": 9,
-  "chars": 2083,
-  "hash": "90d55dae33d5227d3099ec8d196d2bc9f399e1847d839c48b5eadf916988ec2a"
+  "blocks": 14,
+  "chars": 2081,
+  "hash": "eea08f8ba89fc77a2650f31603b9f23cad9fdd4b6e7d543e018288de395f94b4"
  }
 }

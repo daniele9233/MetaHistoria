@@ -140,12 +140,73 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01 Arte del disincanto Imparare a vedere senza illusioni. La scoperta che ogni potenza è anche una ferita, ogni ideologia una difesa, ogni nemico uno specchio. Il disincanto come via alla libertà interiore. →   02 La domanda della salvezza Chi o che cosa promette la salvezza all’uomo fondamentale che attraversa la storia e unifica fede, religione, politica e potere in un’unica unità di senso. →   03 Il cammino di Israele Teologia e politica nella storia della salvezza. Il lungo cammino di Israele come laboratorio vivente del rapporto tra fede e potere, dalle promesse di Abramo alla politica del Regno inaugurata da Gesù. →   04 L'immagine di Dio Come la teologia plasma la politica: il volto di Dio che preghiamo è lo stesso che proiettiamo nelle nostre istituzioni. Sei immagini di Dio, sei modelli di potere. →   05 Atlante Geopolitico-Spirituale dell’Antico Testamento 25 episodi dell’Antico Testamento letti con doppia lente: interessi, equilibri e legittimazioni (geopolitica) + teologia, etica e simboli (spiritualità). Timeline interattiva con principi, applicazioni e sintesi. →   06 Atlante Geopolitico-Spirituale del Vangelo 19 episodi della vita di Cristo letti con doppia lente: dinamiche di potere, interessi strategici e legittimazioni (geopolitica) + cristologia, escatologia e pratiche del Regno (spiritualità). Timeline interattiva completa. →   07 Il Cuore e l’Impero La struttura frattale dell’anima. Le stesse forze che muovono le civiltà muovono il cuore umano: Memoria, Potere, Desiderio, Trascendenza. L’uomo è un piccolo impero. L’impero è un grande uomo. →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/arte-del-disincanto",
+   "parts": [
+    "01",
+    "Arte del disincanto",
+    "Imparare a vedere senza illusioni. La scoperta che ogni potenza è anche una ferita, ogni ideologia una difesa, ogni nemico uno specchio. Il disincanto come via alla libertà interiore."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/domanda-della-salvezza",
+   "parts": [
+    "02",
+    "La domanda della salvezza",
+    "Chi o che cosa promette la salvezza all’uomo fondamentale che attraversa la storia e unifica fede, religione, politica e potere in un’unica unità di senso."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/cammino-di-israele",
+   "parts": [
+    "03",
+    "Il cammino di Israele",
+    "Teologia e politica nella storia della salvezza. Il lungo cammino di Israele come laboratorio vivente del rapporto tra fede e potere, dalle promesse di Abramo alla politica del Regno inaugurata da Gesù."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/immagine-di-dio",
+   "parts": [
+    "04",
+    "L'immagine di Dio",
+    "Come la teologia plasma la politica: il volto di Dio che preghiamo è lo stesso che proiettiamo nelle nostre istituzioni. Sei immagini di Dio, sei modelli di potere."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/atlante-antico-testamento",
+   "parts": [
+    "05",
+    "Atlante Geopolitico-Spirituale dell’Antico Testamento",
+    "25 episodi dell’Antico Testamento letti con doppia lente: interessi, equilibri e legittimazioni (geopolitica) + teologia, etica e simboli (spiritualità). Timeline interattiva con principi, applicazioni e sintesi."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/atlante-vangelo",
+   "parts": [
+    "06",
+    "Atlante Geopolitico-Spirituale del Vangelo",
+    "19 episodi della vita di Cristo letti con doppia lente: dinamiche di potere, interessi strategici e legittimazioni (geopolitica) + cristologia, escatologia e pratiche del Regno (spiritualità). Timeline interattiva completa."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/cuore-e-impero",
+   "parts": [
+    "07",
+    "Il Cuore e l’Impero",
+    "La struttura frattale dell’anima. Le stesse forze che muovono le civiltà muovono il cuore umano: Memoria, Potere, Desiderio, Trascendenza. L’uomo è un piccolo impero. L’impero è un grande uomo."
    ]
   },
   {
@@ -175,8 +236,8 @@
   "Manifesto TGP-Ω (2026)"
  ],
  "stats": {
-  "blocks": 12,
-  "chars": 3885,
-  "hash": "e2efe18458cb6df29c81ea7837bf9f708c051cec3c97bfd64e6a0a7e5020e85d"
+  "blocks": 18,
+  "chars": 3871,
+  "hash": "106b4a0eabbc39e2e0778cf8a2d61a313e618c257811a36cbf476e90edd0c754"
  }
 }

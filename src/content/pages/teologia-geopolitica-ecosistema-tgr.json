@@ -170,243 +170,69 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "22"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-mappa-nascosta",
+   "parts": [
+    "22",
+    "La Mappa Nascosta",
+    "Il punto di partenza. Un viaggio in cinque passi di progressivo zoom out: dai luoghi comuni alla pratica del discernimento.",
+    "Guida introduttiva — ◆ Cercatore"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Mappa Nascosta"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-vedere-occhi-nuovi",
+   "parts": [
+    "19",
+    "Vedere con Occhi Nuovi",
+    "Il trattato tascabile. Sette passi per imparare a discernere i segni dei tempi. Da tenere sul comodino, da pregare.",
+    "Trattato spirituale — ◆ Cercatore"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il punto di partenza.",
-     "b": true
-    },
-    {
-     "t": " Un viaggio in cinque passi di progressivo zoom out: dai luoghi comuni alla pratica del discernimento."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-post-democrazia",
+   "parts": [
+    "08",
+    "Dall'Illusione alla Realtà",
+    "Fede e politica. Dialogo tra l'Antico dei Giorni e Luca, giovane disilluso. Sette lezioni per scoprire le cinque vie della politica del seme.",
+    "Dialogo sapienziale — ◆ Cercatore"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Guida introduttiva — ◆ Cercatore"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-guerre-altri-nostre",
+   "parts": [
+    "15",
+    "Le Guerre degli Altri (e le Nostre)",
+    "Oltre le menzogne geopolitiche. Dialogo con Dario Fabbri e Limes: smontare le narrazioni per riscoprire la responsabilità personale.",
+    "Saggio critico — ◆ Cercatore"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "19"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-tribunale-storia",
+   "parts": [
+    "09",
+    "Il Trono e l'Anima",
+    "Il tribunale della Storia. Re, Popolo e Profeti giudicano le forme del potere. Dalla Monarchia alla Comunità Plurale.",
+    "Romanzo teologico — ◆ Cercatore"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Vedere con Occhi Nuovi"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il trattato tascabile.",
-     "b": true
-    },
-    {
-     "t": " Sette passi per imparare a discernere i segni dei tempi. Da tenere sul comodino, da pregare."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Trattato spirituale — ◆ Cercatore"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "08"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Dall'Illusione alla Realtà"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Fede e politica.",
-     "b": true
-    },
-    {
-     "t": " Dialogo tra l'Antico dei Giorni e Luca, giovane disilluso. Sette lezioni per scoprire le cinque vie della politica del seme."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Dialogo sapienziale — ◆ Cercatore"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "15"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Le Guerre degli Altri (e le Nostre)"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Oltre le menzogne geopolitiche.",
-     "b": true
-    },
-    {
-     "t": " Dialogo con Dario Fabbri e Limes: smontare le narrazioni per riscoprire la responsabilità personale."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Saggio critico — ◆ Cercatore"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "09"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il Trono e l'Anima"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il tribunale della Storia.",
-     "b": true
-    },
-    {
-     "t": " Re, Popolo e Profeti giudicano le forme del potere. Dalla Monarchia alla Comunità Plurale."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Romanzo teologico — ◆ Cercatore"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "12"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Lo Specchio del Principe Cristiano"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "L'Anti-Machiavelli.",
-     "b": true
-    },
-    {
-     "t": " Dialogo a tre voci su come governare senza perdere l'anima. Forza, ricchezza, verità, consenso, solitudine."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Saggio dialogico — ◆ Cercatore"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-specchio-del-principe-cristiano",
+   "parts": [
+    "12",
+    "Lo Specchio del Principe Cristiano",
+    "L'Anti-Machiavelli. Dialogo a tre voci su come governare senza perdere l'anima. Forza, ricchezza, verità, consenso, solitudine.",
+    "Saggio dialogico — ◆ Cercatore"
    ]
   },
   {
@@ -419,363 +245,102 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "13"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-arti-michael",
+   "parts": [
+    "13",
+    "L'Arte di Guarire, Combattere, Seminare",
+    "Il percorso spirituale. Otto incontri ispirati a Don Fabio Rosini: guarire le ferite, combattere la battaglia interiore, seminare il Regno.",
+    "Percorso pastorale — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "L'Arte di Guarire, Combattere, Seminare"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-sacramentaria-integrazione",
+   "parts": [
+    "16",
+    "Le Armi della Luce",
+    "I Sacramenti come guerra. Battesimo come Esodo, Eucaristia come cibo anti-imperiale. La liturgia è resistenza.",
+    "Teologia sacramentale — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il percorso spirituale.",
-     "b": true
-    },
-    {
-     "t": " Otto incontri ispirati a Don Fabio Rosini: guarire le ferite, combattere la battaglia interiore, seminare il Regno."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-strategia-betania",
+   "parts": [
+    "25",
+    "La Strategia di Betania",
+    "Il carisma come combattimento. Le Costituzioni FFB come manuale di campo. Voti come armi, fraternità come testuggine.",
+    "Manuale carismatico — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Percorso pastorale — ☨ Combattente"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-tattiche-betania",
+   "parts": [
+    "27",
+    "Tattiche di Betania",
+    "Small Unit Tactics. Nove principi per il singolo frate e la singola suora: dal fuoco amico alla divisa della gioia.",
+    "Manuale di formazione — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "16"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-guerriglia-pastorale",
+   "parts": [
+    "28",
+    "Guerriglia per la Pastorale",
+    "Recupero ostaggi. Otto principi tattici per salvare una generazione dall'Impero Digitale.",
+    "Pastorale strategica — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Le Armi della Luce"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-custodire-fuoco",
+   "parts": [
+    "20",
+    "Custodire il Fuoco",
+    "Il testamento spirituale. Tre veglie di adorazione di un frate di Betania. Fede, Carità, Speranza.",
+    "Preghiera contemplativa — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "I Sacramenti come guerra.",
-     "b": true
-    },
-    {
-     "t": " Battesimo come Esodo, Eucaristia come cibo anti-imperiale. La liturgia è resistenza."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-signora-bestie",
+   "parts": [
+    "18",
+    "La Signora e le Bestie",
+    "La Regina dell'Anti-Impero. Apparizioni mariane in chiave geopolitica: da Guadalupe a Fatima.",
+    "Mariologia — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Teologia sacramentale — ☨ Combattente"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-epopea-esodo-eterno",
+   "parts": [
+    "14",
+    "Il Fiume della Promessa",
+    "L'epopea della salvezza. Dalla Caduta alla Nuova Gerusalemme: l'Esodo eterno attraverso Noè, Abramo, Mosè, Cristo.",
+    "Epica biblica — ☨ Combattente"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "25"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Strategia di Betania"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il carisma come combattimento.",
-     "b": true
-    },
-    {
-     "t": " Le Costituzioni FFB come manuale di campo. Voti come armi, fraternità come testuggine."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Manuale carismatico — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "27"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tattiche di Betania"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Small Unit Tactics.",
-     "b": true
-    },
-    {
-     "t": " Nove principi per il singolo frate e la singola suora: dal fuoco amico alla divisa della gioia."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Manuale di formazione — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "28"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Guerriglia per la Pastorale"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Recupero ostaggi.",
-     "b": true
-    },
-    {
-     "t": " Otto principi tattici per salvare una generazione dall'Impero Digitale."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Pastorale strategica — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "20"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Custodire il Fuoco"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il testamento spirituale.",
-     "b": true
-    },
-    {
-     "t": " Tre veglie di adorazione di un frate di Betania. Fede, Carità, Speranza."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Preghiera contemplativa — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "18"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Signora e le Bestie"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Regina dell'Anti-Impero.",
-     "b": true
-    },
-    {
-     "t": " Apparizioni mariane in chiave geopolitica: da Guadalupe a Fatima."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Mariologia — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "14"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il Fiume della Promessa"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "L'epopea della salvezza.",
-     "b": true
-    },
-    {
-     "t": " Dalla Caduta alla Nuova Gerusalemme: l'Esodo eterno attraverso Noè, Abramo, Mosè, Cristo."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Epica biblica — ☨ Combattente"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "17"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Barca Infranta"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Chiesa santa e peccatrice.",
-     "b": true
-    },
-    {
-     "t": " Dagli errori storici alla santità che resiste. Con il dialogo tra i Papi in Paradiso."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Ecclesiologia narrativa — ☨ Combattente"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-barca-infranta",
+   "parts": [
+    "17",
+    "La Barca Infranta",
+    "La Chiesa santa e peccatrice. Dagli errori storici alla santità che resiste. Con il dialogo tra i Papi in Paradiso.",
+    "Ecclesiologia narrativa — ☨ Combattente"
    ]
   },
   {
@@ -788,203 +353,58 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "10"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-anatomia-impero",
+   "parts": [
+    "10",
+    "Anatomia dell'Impero",
+    "Il manuale tecnico. Dieci sistemi per dissezionare qualsiasi impero. Dalla Spada all'Ego.",
+    "Saggio analitico — ⚔ Stratega"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Anatomia dell'Impero"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-geopolitica-di-dio",
+   "parts": [
+    "21",
+    "La Geopolitica di Dio",
+    "Il Credo come piano di battaglia. Dodici articoli, dodici mosse strategiche con cui Dio riconquista il mondo.",
+    "Teologia sistematica — ⚔ Stratega"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il manuale tecnico.",
-     "b": true
-    },
-    {
-     "t": " Dieci sistemi per dissezionare qualsiasi impero. Dalla Spada all'Ego."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-arte-guerra-regno",
+   "parts": [
+    "23",
+    "L'Arte della Guerra del Regno",
+    "Strategia e tattica divine. La Storia della Salvezza letta con Clausewitz, Luttwak e Sun Tzu.",
+    "Teologia strategica — ⚔ Stratega"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Saggio analitico — ⚔ Stratega"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-contro-strategia-drago",
+   "parts": [
+    "24",
+    "La Contro-Strategia del Drago",
+    "Intelligence sul nemico. Le 4 D del Diavolo e il suo errore strategico fatale.",
+    "Demonologia strategica — ⚔ Stratega"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "21"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Geopolitica di Dio"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il Credo come piano di battaglia.",
-     "b": true
-    },
-    {
-     "t": " Dodici articoli, dodici mosse strategiche con cui Dio riconquista il mondo."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Teologia sistematica — ⚔ Stratega"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "23"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "L'Arte della Guerra del Regno"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Strategia e tattica divine.",
-     "b": true
-    },
-    {
-     "t": " La Storia della Salvezza letta con Clausewitz, Luttwak e Sun Tzu."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Teologia strategica — ⚔ Stratega"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "24"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La Contro-Strategia del Drago"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Intelligence sul nemico.",
-     "b": true
-    },
-    {
-     "t": " Le 4 D del Diavolo e il suo errore strategico fatale."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Demonologia strategica — ⚔ Stratega"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "26"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il Gioco Posizionale e la Manovra Rapida"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Strategia per superiori.",
-     "b": true
-    },
-    {
-     "t": " Nimzowitsch e la Blitzkrieg applicati al governo di una comunità."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Manuale per superiori — ⚔ Stratega"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/eco-manuale-governo-betania",
+   "parts": [
+    "26",
+    "Il Gioco Posizionale e la Manovra Rapida",
+    "Strategia per superiori. Nimzowitsch e la Blitzkrieg applicati al governo di una comunità.",
+    "Manuale per superiori — ⚔ Stratega"
    ]
   }
  ],
@@ -996,7 +416,7 @@
   "Agostino, De Civitate Dei"
  ],
  "stats": {
-  "blocks": 98,
+  "blocks": 38,
   "chars": 4676,
   "hash": "20d40ae934f70dc054d4bdb5d82d84579d2148c1aa1371968cdb17b00de17ceb"
  }

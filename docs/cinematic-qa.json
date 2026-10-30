@@ -1,0 +1,171 @@
+{
+  "book": [
+    {
+      "name": "hold progress stable",
+      "pass": true,
+      "details": {
+        "before": "0.2500",
+        "after": "0.2500"
+      }
+    },
+    {
+      "name": "release below threshold cancels",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica"
+    },
+    {
+      "name": "manual progress 50%",
+      "pass": true,
+      "details": {
+        "paperState": "dragging",
+        "renderer": "webgl",
+        "progress": "0.5000",
+        "texturesReady": "true",
+        "renderInfo": "{\"calls\":5,\"triangles\":6274,\"textures\":5,\"geometries\":2,\"programs\":4}"
+      }
+    },
+    {
+      "name": "release above threshold commits once",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-3"
+    },
+    {
+      "name": "backward drag returns",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-1"
+    },
+    {
+      "name": "reversal cancels",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-1"
+    },
+    {
+      "name": "button advances",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-3"
+    },
+    {
+      "name": "keyboard returns",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-1"
+    },
+    {
+      "name": "index opens",
+      "pass": true
+    },
+    {
+      "name": "continuous content available",
+      "pass": true
+    }
+  ],
+  "touch": [
+    {
+      "name": "touch horizontal completes",
+      "pass": true
+    },
+    {
+      "name": "touch vertical scroll preserved",
+      "pass": true,
+      "details": 117
+    },
+    {
+      "name": "vertical gesture does not turn",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow",
+      "pass": true
+    }
+  ],
+  "extra": [
+    {
+      "name": "short fast flick completes",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-3"
+    },
+    {
+      "name": "pointer cancel restores page",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-1"
+    },
+    {
+      "name": "resize during turn recovers",
+      "pass": true
+    },
+    {
+      "name": "resize retains WebGL",
+      "pass": true
+    },
+    {
+      "name": "rapid controls commit once",
+      "pass": true,
+      "details": "http://127.0.0.1:4185/geopolitica-classica#pagina-2"
+    },
+    {
+      "name": "image enlargement preserved",
+      "pass": true
+    },
+    {
+      "name": "original five-lens atlas retained",
+      "pass": true
+    }
+  ],
+  "transition": [
+    {
+      "name": "globe initially hidden",
+      "pass": true
+    },
+    {
+      "name": "intermediate reveal",
+      "pass": true,
+      "details": "0.3714"
+    },
+    {
+      "name": "globe interactive after reveal",
+      "pass": true
+    },
+    {
+      "name": "reverse returns to same scene",
+      "pass": true,
+      "details": "0.3714"
+    },
+    {
+      "name": "reverse hides globe",
+      "pass": true
+    },
+    {
+      "name": "real preview and article path",
+      "pass": true
+    },
+    {
+      "name": "article opens in reader",
+      "pass": true
+    }
+  ],
+  "resilience": [
+    {
+      "name": "reduced motion initial globe below viewport",
+      "pass": true
+    },
+    {
+      "name": "reduced motion atlas usable",
+      "pass": true
+    },
+    {
+      "name": "reduced motion flips instantly",
+      "pass": true
+    },
+    {
+      "name": "no WebGL reader navigates",
+      "pass": true
+    },
+    {
+      "name": "no WebGL index opens",
+      "pass": true
+    },
+    {
+      "name": "no WebGL all articles accessible",
+      "pass": true
+    }
+  ]
+}

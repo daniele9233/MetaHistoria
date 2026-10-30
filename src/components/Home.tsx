@@ -7,6 +7,7 @@ import { IMAGES } from './Paper';
 import { DOCS } from '../data/documents';
 import { SITE } from '../data/site';
 import type { Doc } from '../data/documents';
+import { ATLAS_COUNTS } from '../lib/editorialAtlas';
 
 /** La homepage cinematografica: resta identica, cambia solo il contenitore. */
 export function Home() {
@@ -108,9 +109,10 @@ export function Home() {
         <div className="chrome__bottom">
           <div className="chrome__hint">
             <span className="hint__line" aria-hidden="true" />
-            <span>Muovi il cursore · apri un documento</span>
+            <span className="chrome__desk-hint">Trascina il bordo · apri un documento</span>
+            <span className="chrome__atlas-hint">Dalla lettura all’esplorazione · scorri</span>
           </div>
-          <div className="chrome__count">{String(DOCS.length).padStart(2, '0')} documenti</div>
+          <div className="chrome__count"><span className="chrome__desk-hint">{String(DOCS.length).padStart(2, '0')} documenti</span><span className="chrome__atlas-hint">{ATLAS_COUNTS.articles} letture</span></div>
         </div>
       </div>
 

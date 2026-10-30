@@ -2,7 +2,7 @@
  "id": "biblioteca-pentaedrica",
  "slug": "biblioteca-pentaedrica",
  "sourceUrl": "https://precious-cassata-42205a.netlify.app/biblioteca-pentaedrica",
- "title": "Biblioteca Pentaedrica &mdash; MetaHistoria",
+ "title": "Biblioteca Pentaedrica — MetaHistoria",
  "kicker": "",
  "lede": "",
  "category": "biblioteca-pentaedrica",
@@ -638,12 +638,168 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01La caduta dell’Impero RomanoIl caso fondativo: tra queste macerie Agostino scrisse il De Civitate Dei, la prima lettura teologica di un crollo imperiale.Caso canonico — leggi l’analisi 02Le CrociateIl pellegrinaggio armato: dove la spada e la fede si confondono, e il sacro viene arruolato dal potere.Caso canonico — leggi l’analisi 03La Riforma ProtestanteUna rivoluzione religiosa che ridisegna la mappa politica d’Europa e inaugura le sue linee di faglia.Caso canonico — leggi l’analisi 04La Rivoluzione FranceseLa dea Ragione sul trono: la prima religione civile moderna e la scristianizzazione come progetto politico.Caso canonico — leggi l’analisi 05L’epoca di NapoleoneL’uomo che si incorona da solo: l’io imperiale che piega un continente alla propria leggenda.Caso canonico — leggi l’analisi 06La Prima Guerra MondialeIl suicidio della cristianità europea nelle trincee: la fine di quattro imperi in un colpo solo.Caso canonico — leggi l’analisi 07La Rivoluzione RussaUn’escatologia senza Dio: il paradiso in terra promesso dal materialismo e imposto col terrore.Caso canonico — leggi l’analisi 08La Seconda Guerra MondialeLe Bestie scatenate: il secolo che tocca l’abisso e rivela dove conduce l’idolatria della nazione.Caso canonico — leggi l’analisi 09La Guerra FreddaDue messianismi si contendono il mondo sotto la minaccia atomica: equilibrio del terrore e guerra delle anime.Caso canonico — leggi l’analisi 10La caduta dell’URSSUn impero che crolla senza battaglia: la fine dell’ateismo di Stato e le ferite che ne ereditiamo.Caso canonico — leggi l’analisi 11L’11 settembre 2001Le torri cadute e la guerra globale al terrore: il ritorno del sacro sulla scena mondiale.Caso canonico — leggi l’analisi 12La guerra in UcrainaIl caso guida del metodo: cinque lenti su un conflitto in corso, dalla fisica del potere al giudizio dell’Escaton.Caso guida — leggi l’analisi 13Il conflitto Israele-HamasLa terra due volte promessa: geopolitica e teologia allo stato incandescente.Caso canonico — leggi l’analisi 14L’ascesa della CinaLongwang si desta: la vocazione all’armonia e la sua ombra, il controllo totale.Caso canonico — leggi l’analisi 15L’intelligenza artificialeL’ultimo caso canonico: la tecnica che sogna di farsi spirito e la domanda su chi serve chi.Caso canonico — leggi l’analisi"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/impero-romano",
+   "parts": [
+    "01",
+    "La caduta dell’Impero Romano",
+    "Il caso fondativo: tra queste macerie Agostino scrisse il De Civitate Dei, la prima lettura teologica di un crollo imperiale.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/crociate",
+   "parts": [
+    "02",
+    "Le Crociate",
+    "Il pellegrinaggio armato: dove la spada e la fede si confondono, e il sacro viene arruolato dal potere.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/riforma-protestante",
+   "parts": [
+    "03",
+    "La Riforma Protestante",
+    "Una rivoluzione religiosa che ridisegna la mappa politica d’Europa e inaugura le sue linee di faglia.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/rivoluzione-francese",
+   "parts": [
+    "04",
+    "La Rivoluzione Francese",
+    "La dea Ragione sul trono: la prima religione civile moderna e la scristianizzazione come progetto politico.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/napoleone",
+   "parts": [
+    "05",
+    "L’epoca di Napoleone",
+    "L’uomo che si incorona da solo: l’io imperiale che piega un continente alla propria leggenda.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/prima-guerra-mondiale",
+   "parts": [
+    "06",
+    "La Prima Guerra Mondiale",
+    "Il suicidio della cristianità europea nelle trincee: la fine di quattro imperi in un colpo solo.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/rivoluzione-russa",
+   "parts": [
+    "07",
+    "La Rivoluzione Russa",
+    "Un’escatologia senza Dio: il paradiso in terra promesso dal materialismo e imposto col terrore.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/seconda-guerra-mondiale",
+   "parts": [
+    "08",
+    "La Seconda Guerra Mondiale",
+    "Le Bestie scatenate: il secolo che tocca l’abisso e rivela dove conduce l’idolatria della nazione.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/guerra-fredda",
+   "parts": [
+    "09",
+    "La Guerra Fredda",
+    "Due messianismi si contendono il mondo sotto la minaccia atomica: equilibrio del terrore e guerra delle anime.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/caduta-urss",
+   "parts": [
+    "10",
+    "La caduta dell’URSS",
+    "Un impero che crolla senza battaglia: la fine dell’ateismo di Stato e le ferite che ne ereditiamo.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/undici-settembre",
+   "parts": [
+    "11",
+    "L’11 settembre 2001",
+    "Le torri cadute e la guerra globale al terrore: il ritorno del sacro sulla scena mondiale.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/ucraina",
+   "parts": [
+    "12",
+    "La guerra in Ucraina",
+    "Il caso guida del metodo: cinque lenti su un conflitto in corso, dalla fisica del potere al giudizio dell’Escaton.",
+    "Caso guida — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/israele-hamas",
+   "parts": [
+    "13",
+    "Il conflitto Israele-Hamas",
+    "La terra due volte promessa: geopolitica e teologia allo stato incandescente.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/ascesa-cina",
+   "parts": [
+    "14",
+    "L’ascesa della Cina",
+    "Longwang si desta: la vocazione all’armonia e la sua ombra, il controllo totale.",
+    "Caso canonico — leggi l’analisi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/biblioteca-pentaedrica/casi/intelligenza-artificiale",
+   "parts": [
+    "15",
+    "L’intelligenza artificiale",
+    "L’ultimo caso canonico: la tecnica che sogna di farsi spirito e la domanda su chi serve chi.",
+    "Caso canonico — leggi l’analisi"
    ]
   },
   {
@@ -1093,8 +1249,8 @@
   "C. Schmitt; R. Girard; S. Huntington; R. Aron"
  ],
  "stats": {
-  "blocks": 99,
-  "chars": 10075,
-  "hash": "1736e35377762a6867d8d7b3d086c096091481b72b582ba00d02b60c0a748cec"
+  "blocks": 113,
+  "chars": 10120,
+  "hash": "e47dffd1cf78939ff0e1a90577b51a211cee06f21d6c23b2584417a283404acf"
  }
 }

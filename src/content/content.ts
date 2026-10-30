@@ -7,7 +7,7 @@ export interface Run {
   i?: boolean;
 }
 
-export type BlockType = 'h' | 'p' | 'list' | 'quote' | 'table' | 'card';
+export type BlockType = 'h' | 'p' | 'list' | 'quote' | 'table' | 'card' | 'figure' | 'tavola';
 
 export interface Block {
   type: BlockType;
@@ -19,6 +19,17 @@ export interface Block {
   head?: string[][];
   rows?: string[][];
   parts?: string[];
+  /** scheda-capitolo */
+  href?: string;
+  /** figure e tavole */
+  src?: string;
+  alt?: string;
+  caption?: string;
+  /** tavole dell'Atlante */
+  num?: string;
+  title?: string;
+  tag?: string;
+  body?: Run[][];
 }
 
 export interface PageDoc {
@@ -122,14 +133,17 @@ export function stripHeaderBlocks(doc: PageDoc): Block[] {
   const blocks = [...doc.blocks];
   const norm = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
   const textOf = (b: Block) => (b.runs ?? []).map((r) => r.t).join(' ');
-  const targets = new Set([norm(doc.kicker), norm(doc.title), norm(doc.lede)].filter(Boolean));
+  const title = norm(doc.title);
+  const targets = new Set([norm(doc.kicker), title, norm(doc.lede)].filter(Boolean));
 
   let guard = 0;
-  while (blocks.length > 1 && guard < 5) {
+  while (blocks.length > 1 && guard < 6) {
     const b = blocks[0];
     if (b.type !== 'p' && b.type !== 'h') break;
     const txt = norm(textOf(b));
-    if (!txt || !targets.has(txt)) break;
+    if (!txt) break;
+    const redundant = targets.has(txt) || (title.length > 8 && title.includes(txt) && txt.length > 6);
+    if (!redundant) break;
     blocks.shift();
     guard += 1;
   }

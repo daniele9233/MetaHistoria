@@ -1,0 +1,75 @@
+{
+  "paper": {
+    "samples": 241,
+    "medianMs": 6.9,
+    "p95Ms": 7,
+    "p99Ms": 13.8,
+    "framesOver25ms": 0,
+    "longTasks": [],
+    "renderer": {
+      "calls": 5,
+      "triangles": 6274,
+      "textures": 5,
+      "geometries": 2,
+      "programs": 4
+    }
+  },
+  "repeatResources": [
+    {
+      "calls": 5,
+      "triangles": 6274,
+      "textures": 5,
+      "geometries": 2,
+      "programs": 4
+    },
+    {
+      "calls": 5,
+      "triangles": 6274,
+      "textures": 5,
+      "geometries": 2,
+      "programs": 4
+    },
+    {
+      "calls": 5,
+      "triangles": 6274,
+      "textures": 5,
+      "geometries": 2,
+      "programs": 4
+    },
+    {
+      "calls": 5,
+      "triangles": 6274,
+      "textures": 5,
+      "geometries": 2,
+      "programs": 4
+    }
+  ],
+  "globe": {
+    "samples": 246,
+    "medianMs": 6.9,
+    "p95Ms": 7.1,
+    "p99Ms": 7.2,
+    "framesOver25ms": 0,
+    "longTasks": [],
+    "renderer": {
+      "calls": 4,
+      "triangles": 20476,
+      "geometries": 4,
+      "textures": 0
+    }
+  },
+  "environment": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "viewport": [
+      1440,
+      900
+    ],
+    "dpr": 1,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4080 SUPER (0x00002702) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "navigation": {
+    "cycles": 3,
+    "errors": [],
+    "canvases": 1
+  }
+}

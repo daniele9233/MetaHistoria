@@ -41,7 +41,160 @@
    "role": "p",
    "runs": [
     {
-     "t": "Ⅰ ZizAquila dalla Gabbia Dorata — USA Ⅱ LongwangDrago di Giada — Cina Ⅲ MorgathOrso della Ferita Sacra — Russia Ⅳ ArcturusLeone Anziano — Regno Unito Ⅴ ChanteclairGallo Arrogante — Francia Ⅵ AhrimanPuma Ombra — Iran Ⅶ MahabalaElefante Dorato — India Ⅷ KaelanLupo Grigio — Turchia Ⅸ KitsuneVolpe dalle Mille Maschere — Giappone"
+     "t": "Ⅰ Ziz"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Aquila dalla Gabbia Dorata — USA"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅱ Longwang"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Drago di Giada — Cina"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅲ Morgath"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Orso della Ferita Sacra — Russia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅳ Arcturus"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Leone Anziano — Regno Unito"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅴ Chanteclair"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Gallo Arrogante — Francia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅵ Ahriman"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Puma Ombra — Iran"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅶ Mahabala"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Elefante Dorato — India"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅷ Kaelan"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Lupo Grigio — Turchia"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Ⅸ Kitsune"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
+     "t": "Volpe dalle Mille Maschere — Giappone"
     }
    ]
   },
@@ -1843,8 +1996,8 @@
   "Imperium Aureum (2026)"
  ],
  "stats": {
-  "blocks": 120,
-  "chars": 20816,
-  "hash": "cfa7fc55b13ec786a4302696e0238d0258bf4b53b86fb059350d87d0fd78d030"
+  "blocks": 137,
+  "chars": 20825,
+  "hash": "f6147f6803751f3e3aa820199f1887c9c2ef568c65c8d0050b03f2e5795931e6"
  }
 }

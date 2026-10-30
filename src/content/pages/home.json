@@ -242,12 +242,48 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01Geopolitica Classica 02Geopolitica Umana 03Geopolitica dell'Anima 04Teologia della Geopolitica 05Apocalisse del Potere"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/",
+   "parts": [
+    "01",
+    "Geopolitica Classica"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/",
+   "parts": [
+    "02",
+    "Geopolitica Umana"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/",
+   "parts": [
+    "03",
+    "Geopolitica dell'Anima"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/",
+   "parts": [
+    "04",
+    "Teologia della Geopolitica"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/apocalisse-del-potere/",
+   "parts": [
+    "05",
+    "Apocalisse del Potere"
    ]
   },
   {
@@ -448,8 +484,8 @@
   "Manifesto TGP-O (2026)"
  ],
  "stats": {
-  "blocks": 32,
-  "chars": 4511,
-  "hash": "02903e9ed69fe0f8715a5a439acff3e621c90aad5f8f15f13db40890e8695c20"
+  "blocks": 36,
+  "chars": 4516,
+  "hash": "b588807c643f6b7e270a639084ca90714fb4252caedd0d2d376f6856670940c0"
  }
 }

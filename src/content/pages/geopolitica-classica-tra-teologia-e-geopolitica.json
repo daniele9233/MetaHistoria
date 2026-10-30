@@ -230,12 +230,69 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "00 Caso Vaticano La potenza atipica: territorio minimo, nessuna forza militare, ma una profondità relazionale globale senza eguali. Il caso più puro in cui teologia e geopolitica coincidono quasi totalmente. ?   01 Caso USA L'impero del destino manifesto: una nazione che si percepisce come eccezionale, scelta dalla Provvidenza per guidare il mondo. La teologia politica americana tra evangelismo, messianesimo e declino percepito. ?   02 Caso Cina La civiltà che ha sostituito il cielo con lo Stato: dal Mandato del Celeste Impero al sogno di ringiovanimento nazionale. Una teologia politica implicita in cui il Partito ha preso il posto dell'ordine cosmico. ?   03 Caso Russia La Terza Roma tra messianismo e trauma: un'imperialità ferita che non si rassegna al declino. La sintassi teologica ortodossa che struttura la percezione russa del mondo e il suo conflitto con l'Occidente. ?   04 Caso Iran Teocrazia rivoluzionaria tra sciismo e potenza regionale: una repubblica islamica che fonde religione e Stato in una sintesi unica. L'attesa escatologica del Mahdi come motore della strategia politica. ?   05 Caso Europa La potenza post-storica in cerca d'anima: un continente che ha rimosso le proprie radici teologiche senza riuscire a sostituirle. L'Unione Europea come impero senza missione, tra burocrazia e nostalgia. ?"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/vaticano",
+   "parts": [
+    "00",
+    "Caso Vaticano",
+    "La potenza atipica: territorio minimo, nessuna forza militare, ma una profondità relazionale globale senza eguali. Il caso più puro in cui teologia e geopolitica coincidono quasi totalmente.",
+    "?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/usa",
+   "parts": [
+    "01",
+    "Caso USA",
+    "L'impero del destino manifesto: una nazione che si percepisce come eccezionale, scelta dalla Provvidenza per guidare il mondo. La teologia politica americana tra evangelismo, messianesimo e declino percepito.",
+    "?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/cina",
+   "parts": [
+    "02",
+    "Caso Cina",
+    "La civiltà che ha sostituito il cielo con lo Stato: dal Mandato del Celeste Impero al sogno di ringiovanimento nazionale. Una teologia politica implicita in cui il Partito ha preso il posto dell'ordine cosmico.",
+    "?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/russia",
+   "parts": [
+    "03",
+    "Caso Russia",
+    "La Terza Roma tra messianismo e trauma: un'imperialità ferita che non si rassegna al declino. La sintassi teologica ortodossa che struttura la percezione russa del mondo e il suo conflitto con l'Occidente.",
+    "?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/iran",
+   "parts": [
+    "04",
+    "Caso Iran",
+    "Teocrazia rivoluzionaria tra sciismo e potenza regionale: una repubblica islamica che fonde religione e Stato in una sintesi unica. L'attesa escatologica del Mahdi come motore della strategia politica.",
+    "?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/europa",
+   "parts": [
+    "05",
+    "Caso Europa",
+    "La potenza post-storica in cerca d'anima: un continente che ha rimosso le proprie radici teologiche senza riuscire a sostituirle. L'Unione Europea come impero senza missione, tra burocrazia e nostalgia.",
+    "?"
    ]
   },
   {
@@ -265,7 +322,7 @@
   "Manifesto TGP-O (2026)"
  ],
  "stats": {
-  "blocks": 17,
+  "blocks": 22,
   "chars": 4843,
   "hash": "9f6917588f2028ad98120b6b474cb0347bfe851440b0e984dd982d38a7e68b17"
  }

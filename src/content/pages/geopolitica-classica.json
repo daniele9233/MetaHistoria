@@ -94,12 +94,69 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01 Insegnamenti Fondamentali 10 principi della geopolitica classica: dal primato dello spazio all'interesse nazionale, dalla transizione egemonica all'anarchia del sistema internazionale. Leggi ?   02 Tributi ai Maestri Omaggio a Caracciolo, Schmitt, Marshall, Molinari, Fukuyama e ai padri fondatori della geopolitica classica. Leggi ?   03 Il Ritorno degli Imperi Dalla globalizzazione al disordine multipolare: l'analisi del ritorno degli imperi nella geopolitica contemporanea. Leggi ?   04 Zone di Tensione Ucraina, Medio Oriente, Pacifico: le tre grandi aree di crisi che ridefiniscono gli equilibri globali tra imperi in competizione. Leggi ?   05 Atlante di Storia Timeline geopolitica 1904–2025: dalla Guerra Russo-Giapponese alla Guerra Iran-USA, centoventi anni di conflitti, imperi e trasformazioni globali. Leggi →   06 Tra Teologia e Geopolitica Vaticano, USA, Cina, Russia, Iran, Europa: sei casi-studio che esplorano il confine tra teologia e geopolitica attraverso una griglia a quattro livelli. Leggi →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/insegnamenti-fondamentali",
+   "parts": [
+    "01",
+    "Insegnamenti Fondamentali",
+    "10 principi della geopolitica classica: dal primato dello spazio all'interesse nazionale, dalla transizione egemonica all'anarchia del sistema internazionale.",
+    "Leggi ?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tributi",
+   "parts": [
+    "02",
+    "Tributi ai Maestri",
+    "Omaggio a Caracciolo, Schmitt, Marshall, Molinari, Fukuyama e ai padri fondatori della geopolitica classica.",
+    "Leggi ?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/imperi",
+   "parts": [
+    "03",
+    "Il Ritorno degli Imperi",
+    "Dalla globalizzazione al disordine multipolare: l'analisi del ritorno degli imperi nella geopolitica contemporanea.",
+    "Leggi ?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/zone-di-tensione",
+   "parts": [
+    "04",
+    "Zone di Tensione",
+    "Ucraina, Medio Oriente, Pacifico: le tre grandi aree di crisi che ridefiniscono gli equilibri globali tra imperi in competizione.",
+    "Leggi ?"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/atlante-di-storia",
+   "parts": [
+    "05",
+    "Atlante di Storia",
+    "Timeline geopolitica 1904–2025: dalla Guerra Russo-Giapponese alla Guerra Iran-USA, centoventi anni di conflitti, imperi e trasformazioni globali.",
+    "Leggi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/tra-teologia-e-geopolitica/",
+   "parts": [
+    "06",
+    "Tra Teologia e Geopolitica",
+    "Vaticano, USA, Cina, Russia, Iran, Europa: sei casi-studio che esplorano il confine tra teologia e geopolitica attraverso una griglia a quattro livelli.",
+    "Leggi"
    ]
   },
   {
@@ -120,8 +177,8 @@
   "Manifesto TGP-O (2026)"
  ],
  "stats": {
-  "blocks": 9,
-  "chars": 2184,
-  "hash": "67bfe34c2ffdb7909937d785d897a1ec7927c8681093a9d39986a9533b8cfd09"
+  "blocks": 14,
+  "chars": 2180,
+  "hash": "5b3e73b8ec936bdc07b579fb0622102f4e93651bbe2024b15956bf99b8303615"
  }
 }

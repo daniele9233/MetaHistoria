@@ -775,9 +775,6 @@
    "role": "p",
    "runs": [
     {
-     "t": "Per un’analisi completa della struttura dell’opera di Fabbri, visita la pagina dedicata: "
-    },
-    {
      "t": "Il destino dei popoli",
      "i": true
     },
@@ -880,7 +877,7 @@
  ],
  "stats": {
   "blocks": 76,
-  "chars": 13635,
-  "hash": "c16788d4b236a73e7422f203bddb878ffeeadb0e44b8840038eea9de2dbb2f65"
+  "chars": 13546,
+  "hash": "1623089316341011b65168dc330a04789de7e70424c59f5c2f6c482b44531f41"
  }
 }

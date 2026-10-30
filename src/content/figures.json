@@ -1,0 +1,50 @@
+{
+ "assets/img/tavola-01-architettura.png": {
+  "file": "/media/source/tavola-01-architettura.png",
+  "alt": "Tavola 01 — L’architettura di MetaHistoria: da Dio, attraverso la Storia della Salvezza e il Metodo Pentaedrico, alle cinque lenti con le loro categorie",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 2131524
+ },
+ "assets/img/tavola-02.png": {
+  "file": "/media/source/tavola-02.png",
+  "alt": "Tavola 02 — Il Metodo Pentaedrico: dall’Evento Storico alle cinque domande progressive delle cinque lenti",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 2292355
+ },
+ "assets/img/tavola-03.png": {
+  "file": "/media/source/tavola-03.png",
+  "alt": "Tavola 03 — Le Cinque Lenti del Metodo Pentaedrico con oggetti, domande e fonti",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 1991978
+ },
+ "assets/img/tavola-04.png": {
+  "file": "/media/source/tavola-04.png",
+  "alt": "Tavola 04 — Il percorso dell’interpretazione storica: la progressione attraverso le cinque lenti",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 2170676
+ },
+ "assets/img/tavola-05.png": {
+  "file": "/media/source/tavola-05.png",
+  "alt": "Tavola 05 — La genealogia del potere: dal cuore alla civiltà, all’impero, al giudizio, al Regno",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 1999710
+ },
+ "assets/img/tavola-06.png": {
+  "file": "/media/source/tavola-06.png",
+  "alt": "Tavola 06 — La cartografia dell’anima collettiva: la struttura frattale tra individuo, civiltà e geopolitica",
+  "pages": [
+   "atlante-visuale"
+  ],
+  "bytes": 2077537
+ }
+}

@@ -787,6 +787,15 @@
    "role": "p",
    "runs": [
     {
+     "t": "Approfondisci: Sotto la pelle del mondo"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
      "t": "Approfondisci: Sotto la pelle del mondo →"
     }
    ]
@@ -810,8 +819,8 @@
   "D. Fabbri, Il destino dei popoli. Come l’umanità ha fatto la storia e creato il nostro tempo (Gribaudo, 2025)"
  ],
  "stats": {
-  "blocks": 71,
-  "chars": 12011,
-  "hash": "6fc771ae70043a971b086394b13456f45b480e9ab1cbea513ad307938d18d649"
+  "blocks": 72,
+  "chars": 12051,
+  "hash": "916c87fdf7d0bc03fada8f2f91fc3157f53d40d50526ccf17f2ba4e4581e27e2"
  }
 }

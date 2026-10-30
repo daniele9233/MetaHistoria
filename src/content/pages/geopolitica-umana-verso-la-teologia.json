@@ -119,12 +119,47 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Card 1 ☘ Il confine che si sfoglia Dalla geopolitica alla teologia: la soglia tra la descrizione spietata di ciò che accade e la domanda su ciò che significa. Il percorso del MetaHistoria attraverso le tre lenti. →   Card 2 ☀ Per una teologia politica Quattro carotaggi teologici nella sala macchine dello Stato: dal Peccato Originale al Katechon, passando per Babele e l’idolatria dell’ideologia. →   Card 3 ★ Griglia di analisi geopolitica Asse biologico, psicologico, geografico e strategico: una griglia operativa per sezionare ogni comunità con il metodo di Dario Fabbri, fino alla soglia teologica. →   Card 4 ✡ Il sacro non ? mai uscito Dossier di sei intrecci esemplari tra fede e potenza, i numeri della religione nel mondo, e una cronologia del ritorno del sacro nella storia globale. →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/il-confine-che-si-sfoglia",
+   "parts": [
+    "Card 1",
+    "☘",
+    "Il confine che si sfoglia",
+    "Dalla geopolitica alla teologia: la soglia tra la descrizione spietata di ciò che accade e la domanda su ciò che significa. Il percorso del MetaHistoria attraverso le tre lenti."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/per-una-teologia-politica",
+   "parts": [
+    "Card 2",
+    "☀",
+    "Per una teologia politica",
+    "Quattro carotaggi teologici nella sala macchine dello Stato: dal Peccato Originale al Katechon, passando per Babele e l’idolatria dell’ideologia."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/griglia-analisi-geopolitica",
+   "parts": [
+    "Card 3",
+    "★",
+    "Griglia di analisi geopolitica",
+    "Asse biologico, psicologico, geografico e strategico: una griglia operativa per sezionare ogni comunità con il metodo di Dario Fabbri, fino alla soglia teologica."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/il-sacro-non-e-mai-uscito",
+   "parts": [
+    "Card 4",
+    "✡",
+    "Il sacro non ? mai uscito",
+    "Dossier di sei intrecci esemplari tra fede e potenza, i numeri della religione nel mondo, e una cronologia del ritorno del sacro nella storia globale."
    ]
   }
  ],
@@ -148,8 +183,8 @@
   "Agostino d’Ippona, La Città di Dio (426 d.C.)"
  ],
  "stats": {
-  "blocks": 11,
-  "chars": 2592,
-  "hash": "d3ac87329f914f78b12ef5f045d0de4435fa27e6f331511a0f623834f10500f3"
+  "blocks": 14,
+  "chars": 2584,
+  "hash": "5218d5f680d1142ca9309a81af9750cba743d6177cbef13684ad8ba7b586d8cb"
  }
 }

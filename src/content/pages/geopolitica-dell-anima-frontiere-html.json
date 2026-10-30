@@ -102,12 +102,47 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Frontiera 01 ☁ Il Modello della Civiltà come Organismo Civiltà = Corpo + Mente + Anima + Spirito. Una metafora biologica per leggere l’ascesa e il declino delle potenze. Con strumento interattivo per analizzare qualsiasi civiltà. →   Frontiera 02 ☬ La Matrice Apocalittica della Storia Ogni epoca è governata da quattro forze: Memoria + Potere + Desiderio + Trascendenza. Un algoritmo per leggere imperi antichi, cristianità medievale, modernità, USA, Cina, Islam politico, Europa con la stessa griglia. →   Frontiera 03 ★ L’Escatologia delle Potenze Ogni impero ha una fine immaginata. Che ruolo gioca la profezia nella strategia? Come l’attesa della fine modella le scelte del presente. →   Frontiera 04 ☰ Cartografia dell’Anima Collettiva Miti fondativi, traumi generazionali, eroi e memorie: la mappa emotiva delle nazioni. Una geografia invisibile che determina i confini reali del potere. →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/modello-civilta-organismo",
+   "parts": [
+    "Frontiera 01",
+    "☁",
+    "Il Modello della Civiltà come Organismo",
+    "Civiltà = Corpo + Mente + Anima + Spirito. Una metafora biologica per leggere l’ascesa e il declino delle potenze. Con strumento interattivo per analizzare qualsiasi civiltà."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/matrice-apocalittica",
+   "parts": [
+    "Frontiera 02",
+    "☬",
+    "La Matrice Apocalittica della Storia",
+    "Ogni epoca è governata da quattro forze: Memoria + Potere + Desiderio + Trascendenza. Un algoritmo per leggere imperi antichi, cristianità medievale, modernità, USA, Cina, Islam politico, Europa con la stessa griglia."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/escatologia-delle-potenze",
+   "parts": [
+    "Frontiera 03",
+    "★",
+    "L’Escatologia delle Potenze",
+    "Ogni impero ha una fine immaginata. Che ruolo gioca la profezia nella strategia? Come l’attesa della fine modella le scelte del presente."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-dell-anima/cartografia-anima-collettiva",
+   "parts": [
+    "Frontiera 04",
+    "☰",
+    "Cartografia dell’Anima Collettiva",
+    "Miti fondativi, traumi generazionali, eroi e memorie: la mappa emotiva delle nazioni. Una geografia invisibile che determina i confini reali del potere."
    ]
   }
  ],
@@ -119,8 +154,8 @@
   "A. Toynbee, Il racconto dell’uomo (1972)"
  ],
  "stats": {
-  "blocks": 8,
-  "chars": 2213,
-  "hash": "7adb7bfc2992ebebd7680bdc7ecbc29d5189a43d75b4d9bb6e0f5a118237159d"
+  "blocks": 11,
+  "chars": 2205,
+  "hash": "ba91c755f46f2628ab7ed07393b60c30a2ec6e6ea5345917ea59daad9a658462"
  }
 }

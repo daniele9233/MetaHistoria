@@ -1,4 +1,4 @@
-import { StrictMode } from 'react';
+﻿import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import '@fontsource/cormorant-garamond/300.css';
@@ -15,7 +15,10 @@ import './styles/hero-page.css';
 import './styles/sheet.css';
 import './styles/reader.css';
 import './styles/editorial.css';
-import './styles/article.css';
+import './styles/pages.css';
+import './styles/book.css';
+import './styles/cinematic.css';
+import './styles/relief.css';
 
 import App from './App';
 import { RouterProvider } from './lib/router';

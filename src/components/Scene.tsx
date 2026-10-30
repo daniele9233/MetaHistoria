@@ -4,8 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { DOCS } from '../data/documents';
 import type { Doc } from '../data/documents';
 import { Paper } from './Paper';
-import { HeroPage } from './HeroPage';
-import { Sheet } from './Sheet';
+import { HeroFolio } from './HeroFolio';
+import { EditorialAtlas, type EditorialAtlasHandle } from './EditorialAtlas';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,6 +46,11 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
   const heroMoveRef = useRef<HTMLDivElement>(null);
   const rollRef = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLDivElement>(null);
+  const atlasRef = useRef<EditorialAtlasHandle>(null);
+  const atlasWrap = useRef<HTMLDivElement>(null);
+  const bridgeRef = useRef<HTMLDivElement>(null);
+  const score = useRef({ reveal: 0 });
+  const inView = useRef(true);
 
   const bases = useRef<Array<HTMLDivElement | null>>([]);
   const moves = useRef<Array<HTMLDivElement | null>>([]);
@@ -112,7 +117,14 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
   /* ---------------- ticker: scrive i transform ---------------- */
 
   useEffect(() => {
+    const observer = new IntersectionObserver(entries => { inView.current = entries[0].isIntersecting; });
+    if (stageRef.current) observer.observe(stageRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
     const render = () => {
+      if (!inView.current || document.hidden) return;
       const s = st.current;
       const cam = cameraRef.current;
       const world = worldRef.current;
@@ -245,6 +257,8 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
     const py = gsap.quickTo(st.current, 'camY', { duration: 1.25, ease: 'power3.out' });
 
     const onMove = (e: PointerEvent) => {
+      if (!inView.current) return;
+      if (stageRef.current?.querySelector('.paper-surface[data-paper-state="dragging"], .paper-surface[data-paper-state="grabbed"]')) return;
       const nx = (e.clientX / window.innerWidth - 0.5) * 2;
       const ny = (e.clientY / window.innerHeight - 0.5) * 2;
       pointer.current.x = nx;
@@ -354,7 +368,15 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
   /* ---------------- scroll: cinque fasi ---------------- */
 
   useEffect(() => {
-    if (reduced.current || !ready || FLAT) return;
+    if (reduced.current) {
+      atlasRef.current?.setProgress(1);
+      const observer = new IntersectionObserver(entries => {
+        document.body.classList.toggle('is-scrolled-in', entries[0].isIntersecting);
+      }, { threshold: .35 });
+      if (atlasWrap.current) observer.observe(atlasWrap.current);
+      return () => { observer.disconnect(); document.body.classList.remove('is-scrolled-in'); };
+    }
+    if (!ready || FLAT) return;
     const hero = stageRef.current?.closest('.hero');
     if (!hero) return;
 
@@ -364,15 +386,14 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
         scrollTrigger: {
           trigger: hero as HTMLElement,
           start: 'top top',
-          end: '+=165%',
+          end: '+=220%',
           pin: true,
           scrub: 0.7,
           anticipatePin: 1,
           invalidateOnRefresh: true,
           onUpdate: (self) => {
             interactivity.current = self.progress < 0.08;
-            document.body.classList.toggle('is-scrolled-in', self.progress > 0.55);
-            document.body.classList.toggle('is-editorial', self.progress > 0.58);
+            document.body.classList.toggle('is-scrolled-in', self.progress > 0.38);
             stageRef.current?.setAttribute('data-p', self.progress.toFixed(3));
           },
         },
@@ -400,7 +421,7 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
         tl.to(sheet, { opacity: 0.08, duration: 0.3, ease: 'none' }, 0.24);
       });
 
-      // Fase 3 — la pagina protagonista si raddrizza e viene avanti
+      // The folio straightens, recedes, and yields its ruled geometry to the sphere.
       tl.to(st.current, { worldTilt: 0, worldRz: 0, worldZ: 60, duration: 0.34, ease: 'none' }, 0.5);
       tl.to(rollRef.current, { rotation: 0, duration: 0.34, ease: 'none' }, 0.5);
       tl.to(
@@ -410,33 +431,23 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
       );
       tl.to(heroMoveRef.current, { rotationZ: 0, duration: 0.34, ease: 'none' }, 0.5);
 
-      // Fase 4 — la pagina riempie il viewport e diventa leggibile
-      tl.to(
-        heroPaperRef.current,
-        {
-          scale: () => Math.max(window.innerWidth / HERO.w, window.innerHeight / HERO.h) * 1.01,
-          boxShadow: '0 0 0 rgba(0,0,0,0)',
-          duration: 0.3,
-          ease: 'none',
-        },
-        0.66,
-      );
-      tl.to('.stage__bg', { opacity: 0, duration: 0.18, ease: 'none' }, 0.7);
-      tl.to(st.current, { light: 0, duration: 0.18, ease: 'none' }, 0.7);
-      tl.to(
-        ['.stage__grade', '.stage__lift', '.stage__vignette', '.stage__grain'],
-        { opacity: 0, duration: 0.2, ease: 'none' },
-        0.7,
-      );
-      tl.to('.hp', { autoAlpha: 0, duration: 0.14, ease: 'none' }, 0.74);
-      tl.to(sheetsNow, { opacity: 0, duration: 0.12, ease: 'none' }, 0.76);
-
-      // Fase 5 — il foglio leggibile prende il posto della pagina
-      tl.to('.sheet', { autoAlpha: 1, duration: 0.26, ease: 'none' }, 0.8);
+      tl.to(heroPaperRef.current, { scale: .36, rotationY: -24, autoAlpha: 0, duration: .24, ease: 'none' }, .56);
+      tl.to(sheetsNow, { opacity: 0, duration: .16, ease: 'none' }, .54);
+      tl.to(st.current, { light: .12, duration: .22, ease: 'none' }, .56);
+      tl.fromTo(bridgeRef.current, { opacity: 0, rotation: -10, scale: .7, borderRadius: '2px' },
+        { opacity: .7, rotation: 0, scale: .9, borderRadius: '50%', duration: .2, ease: 'none' }, .54);
+      tl.to(bridgeRef.current, { opacity: 0, scale: .65, x: () => innerWidth > 760 ? innerWidth * .17 : innerWidth * .16, duration: .22, ease: 'none' }, .74);
+      tl.to(atlasWrap.current, { autoAlpha: 1, duration: .26, ease: 'none' }, .65);
+      tl.to(score.current, { reveal: 1, duration: .35, ease: 'none' }, .61);
+      tl.eventCallback('onUpdate', () => {
+        atlasRef.current?.setProgress(score.current.reveal);
+        if (atlasWrap.current) atlasWrap.current.dataset.reveal = score.current.reveal.toFixed(4);
+      });
+      tl.to({}, { duration: .15 }, .96);
       void sheetsNow;
     }, stageRef);
 
-    return () => ctx.revert();
+    return () => { ctx.revert(); atlasRef.current?.setProgress(0); };
   }, [ready]);
 
   /* ---------------- ricarica posizioni a font/image pronti ---------------- */
@@ -511,7 +522,7 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
                       ['--fall' as string]: 0,
                     }}
                   >
-                    <HeroPage onExplore={onExplore} />
+                    <HeroFolio onExplore={onExplore} />
                     <span className="paper__warm" aria-hidden="true" />
                   </div>
                 </div>
@@ -528,7 +539,8 @@ export function Scene({ selected, ready, onOpen, onExplore }: SceneProps) {
       <div className="stage__vignette" />
       <div className="stage__grain" />
 
-      <Sheet onExplore={onExplore} />
+      <div className="atlas-bridge" ref={bridgeRef} aria-hidden="true" />
+      <div className="atlas-scene-layer" ref={atlasWrap}><EditorialAtlas ref={atlasRef} /></div>
 
       <div className={`doc-label ${heroVisible ? '' : 'doc-label--mobile'}`} ref={labelRef} aria-hidden="true">
         <span className="doc-label__cat">{hovered?.category}</span>

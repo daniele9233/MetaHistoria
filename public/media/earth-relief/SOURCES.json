@@ -1,0 +1,45 @@
+{
+  "credit": "NASA Earth Observatory; Blue Marble: Next Generation, Reto Stockli / NASA GSFC. Topography: NASA Earth Observatory / GEBCO.",
+  "colorSource": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/july/world.200407.3x21600x10800.jpg",
+  "colorCollection": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+  "elevationSource": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/topography/gebco_08_rev_elev_21600x10800.jpg",
+  "elevationCollection": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/topography-bathymetry-maps/",
+  "projection": "Equirectangular; longitude -180 to 180, latitude 90 to -90 in image rows.",
+  "elevationRangeMeters": [
+    0,
+    6400
+  ],
+  "region": {
+    "west": -20,
+    "south": 20,
+    "east": 65,
+    "north": 66
+  },
+  "processing": "Lanczos downsample; RGB saturation 0.78; black ocean pixels assigned deep teal. Elevation retained as linear data. Vertical exaggeration is applied in the renderer, never to the source.",
+  "files": {
+    "earth-day-4k.webp": {
+      "bytes": 628860,
+      "sha256": "30347638a48bb93664ba3aef702af66dd748994d9c2a7a8fb8b1b9f27d42f721"
+    },
+    "earth-day-8k.webp": {
+      "bytes": 2224116,
+      "sha256": "04d33adb8b2cc3f5f653685776eacd3de88fb75b4d89751a6ff207c36e1b791c"
+    },
+    "earth-height-4k.jpg": {
+      "bytes": 680361,
+      "sha256": "adbe0d444c0f39dfd6c4dc47d3eefec2d91a7476e0d0611195531f3442a81dc4"
+    },
+    "earth-height-8k.jpg": {
+      "bytes": 2279298,
+      "sha256": "394043d77c26d3d78592b7a6e401290857a5a1b39a76ddbbf0687c09684f3eda"
+    },
+    "europe-day-2k.webp": {
+      "bytes": 384020,
+      "sha256": "55b2b96a2f8371914beb66d165ae8f8f32f25635a86268b69533a620fce11a86"
+    },
+    "europe-day-4k.webp": {
+      "bytes": 1268260,
+      "sha256": "31d39e3fd2e7004a322f55692bbc33cd9a88340990efe969c90f62f1337df02d"
+    }
+  }
+}

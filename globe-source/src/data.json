@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "title": "Atlante del sacro e del potere",
+  "lenses": [
+    {
+      "id": "classica",
+      "number": "01",
+      "name": "Geopolitica Classica",
+      "short": "Classica",
+      "key": "Territorio e potenza",
+      "color": "#d3b477",
+      "question": "Quali risorse, confini e vincoli orientano il potere?",
+      "description": "Il primo sguardo considera lo spazio, gli interessi e i rapporti di forza. È il punto di partenza del Metodo Pentaedrico.",
+      "path": "/geopolitica-classica"
+    },
+    {
+      "id": "umana",
+      "number": "02",
+      "name": "Geopolitica Umana",
+      "short": "Umana",
+      "key": "Memoria e identità",
+      "color": "#8eaea8",
+      "question": "Quali memorie e ferite muovono i popoli?",
+      "description": "La seconda lente interroga i racconti collettivi, le paure e le missioni con cui una comunità interpreta la propria storia.",
+      "path": "/geopolitica-umana"
+    },
+    {
+      "id": "anima",
+      "number": "03",
+      "name": "Geopolitica dell’Anima",
+      "short": "Dell’anima",
+      "key": "Desiderio e salvezza",
+      "color": "#d09a80",
+      "question": "Quale promessa di salvezza sostiene una civiltà?",
+      "description": "La terza lente esplora il rapporto tra interiorità, immaginari collettivi e potere, secondo la prospettiva del sito.",
+      "path": "/geopolitica-dell-anima"
+    },
+    {
+      "id": "teologia",
+      "number": "04",
+      "name": "Teologia della Geopolitica",
+      "short": "Teologia",
+      "key": "Sacro e legittimazione",
+      "color": "#b7a4c8",
+      "question": "Come il potere cerca una legittimazione assoluta?",
+      "description": "La quarta lente mette in dialogo le forme politiche con la Rivelazione, interrogando il confine tra autorità, testimonianza e idolatria.",
+      "path": "/teologia-geopolitica"
+    },
+    {
+      "id": "apocalisse",
+      "number": "05",
+      "name": "Apocalisse del Potere",
+      "short": "Apocalisse",
+      "key": "Limite e compimento",
+      "color": "#dcd2b8",
+      "question": "Quale limite incontra ogni pretesa di potere eterno?",
+      "description": "La quinta lente apre la lettura escatologica della storia: il senso e il limite degli imperi, senza trasformare l’Apocalisse in previsione.",
+      "path": "/apocalisse-del-potere"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "vaticano",
+      "name": "Roma / Vaticano",
+      "label": "Vaticano",
+      "group": "Vaticano",
+      "tag": "Universalità e autorità",
+      "description": "Il dossier del sito accosta la dimensione spirituale del papato alla sua presenza diplomatica e istituzionale.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/vaticano",
+      "article": "Caso Vaticano",
+      "animaPath": "/geopolitica-dell-anima/vaticano",
+      "prompts": [
+        "Come leggere la relazione tra un territorio minimo e una presenza diplomatica estesa?",
+        "Quale memoria istituzionale sostiene un’autorità che attraversa i secoli?",
+        "Come si distingue la promessa spirituale dalla ricerca di sicurezza politica?",
+        "Dove passa il confine tra testimonianza religiosa e potere temporale?",
+        "Come tenere insieme l’azione nella storia e un orizzonte che la oltrepassa?"
+      ],
+      "coords": [
+        12.453387,
+        41.903282
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "Washington",
+      "label": "Washington",
+      "group": "Stati Uniti",
+      "tag": "Missione ed eccezionalismo",
+      "description": "MetaHistoria legge il caso americano attraverso il rapporto tra potenza materiale, libertà e racconto di una missione universale.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/usa",
+      "article": "Caso USA",
+      "animaPath": "/geopolitica-dell-anima/usa",
+      "prompts": [
+        "Quali fattori geografici e reti di influenza sostengono la proiezione americana?",
+        "Come il racconto fondativo contribuisce a definire una missione nazionale?",
+        "Quando la libertà diventa una promessa di salvezza collettiva?",
+        "Come si intrecciano religione civile e legittimazione del potere?",
+        "Che cosa accade quando una promessa di progresso incontra il limite storico?"
+      ],
+      "coords": [
+        -77.011364,
+        38.901495
+      ]
+    },
+    {
+      "id": "cina",
+      "name": "Pechino",
+      "label": "Pechino",
+      "group": "Cina",
+      "tag": "Ordine e continuità",
+      "description": "Il caso cinese mette in relazione, nella lettura proposta dal sito, memoria della civiltà, sovranità e promessa di ordine.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/cina",
+      "article": "Caso Cina",
+      "animaPath": "/geopolitica-dell-anima/cina",
+      "prompts": [
+        "Come si intrecciano territorio, risorse e accesso alle rotte?",
+        "Quale ruolo assume la memoria dell’umiliazione nel racconto nazionale?",
+        "Come viene formulata la promessa di armonia e sicurezza collettiva?",
+        "In che modo il dossier confronta il Mandato del Cielo e la legittimazione dello Stato?",
+        "Quale idea di futuro sostiene il racconto del rinnovamento nazionale?"
+      ],
+      "coords": [
+        116.394201,
+        39.90172
+      ]
+    },
+    {
+      "id": "russia",
+      "name": "Mosca",
+      "label": "Mosca",
+      "group": "Russia",
+      "tag": "Memoria e Terza Roma",
+      "description": "Il dossier mette al centro territorio, memoria imperiale e uso politico di immagini religiose, nella cornice interpretativa di MetaHistoria.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/russia",
+      "article": "Caso Russia",
+      "animaPath": "/geopolitica-dell-anima/russia",
+      "prompts": [
+        "Come il problema dei confini entra nella rappresentazione della sicurezza?",
+        "Quali memorie e fratture storiche organizzano il racconto della potenza?",
+        "In che modo il tema della Terza Roma esprime una missione collettiva?",
+        "Come distinguere la fede vissuta dalla sua mobilitazione politica?",
+        "Come leggere criticamente la pretesa di trattenere il caos nella storia?"
+      ],
+      "coords": [
+        37.613577,
+        55.75411
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Teheran",
+      "label": "Teheran",
+      "group": "Iran",
+      "tag": "Religione e costituzione",
+      "description": "Il dossier iraniano interroga l’intreccio tra istituzioni politiche, tradizione sciita e narrazione rivoluzionaria.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/iran",
+      "article": "Caso Iran",
+      "animaPath": "/geopolitica-dell-anima/iran",
+      "prompts": [
+        "Come la posizione geografica si intreccia con gli interessi regionali?",
+        "Quali memorie religiose e politiche alimentano il racconto della resistenza?",
+        "Come il tema del sacrificio partecipa alla costruzione di un’identità collettiva?",
+        "Che cosa cambia quando l’autorità religiosa entra nell’architettura costituzionale?",
+        "Come distinguere l’attesa religiosa dai suoi impieghi politici?"
+      ],
+      "coords": [
+        51.422398,
+        35.673889
+      ]
+    },
+    {
+      "id": "europa",
+      "name": "Bruxelles",
+      "label": "Bruxelles",
+      "group": "Europa",
+      "tag": "Memoria e progetto comune",
+      "description": "Il caso europeo riflette sul rapporto tra integrazione, memoria delle guerre e ricerca di un orizzonte condiviso.",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica/europa",
+      "article": "Caso Europa",
+      "animaPath": "/geopolitica-dell-anima/europa",
+      "prompts": [
+        "Come si raccordano capacità economiche, sovranità e azione internazionale?",
+        "Quanto pesa la memoria delle guerre nella costruzione del progetto europeo?",
+        "Quale racconto condiviso può dare senso a un progetto politico comune?",
+        "Come si trasformano le eredità religiose dentro istituzioni secolarizzate?",
+        "Come leggere la promessa di pace senza considerarla un esito inevitabile?"
+      ],
+      "coords": [
+        4.331371,
+        50.835263
+      ]
+    },
+    {
+      "id": "ucraina",
+      "name": "Kyiv",
+      "label": "Kyiv",
+      "group": "Caso Ucraina",
+      "tag": "Confini, memoria, responsabilità",
+      "description": "Un accesso geografico al caso di studio della Biblioteca Pentaedrica: lo stesso conflitto viene interrogato attraverso cinque prospettive.",
+      "path": "/biblioteca-pentaedrica/casi/ucraina",
+      "article": "La Guerra in Ucraina",
+      "prompts": [
+        "Quali questioni territoriali e di sicurezza esamina il caso di studio?",
+        "Come le memorie storiche entrano nei racconti del conflitto?",
+        "Quali paure e promesse vengono mobilitate nella rappresentazione della guerra?",
+        "Come riconoscere e interrogare la sacralizzazione della violenza?",
+        "Come mantenere al centro vittime, responsabilità e limite del potere?"
+      ],
+      "coords": [
+        30.514682,
+        50.435313
+      ]
+    },
+    {
+      "id": "gerusalemme",
+      "name": "Gerusalemme",
+      "label": "Gerusalemme",
+      "group": "Luoghi e narrazioni del sacro",
+      "tag": "Memoria e promessa",
+      "description": "Un punto di accesso ai percorsi biblici e al caso Israele–Hamas della Biblioteca. La città è un riferimento di lettura, non una sintesi geografica dell’intero conflitto.",
+      "path": "/biblioteca-pentaedrica/casi/israele-hamas",
+      "article": "Il conflitto Israele–Hamas",
+      "secondaryPath": "/geopolitica-dell-anima/atlante-antico-testamento",
+      "secondaryTitle": "Atlante dell’Antico Testamento",
+      "prompts": [
+        "Quali territori e relazioni esamina il caso della Biblioteca?",
+        "Come memoria, appartenenza e trauma si intrecciano nei racconti collettivi?",
+        "Quale rapporto corre tra luogo, promessa e ricerca di salvezza?",
+        "Come distinguere la dimensione del sacro dalle rivendicazioni politiche?",
+        "Come separare la Gerusalemme storica dall’immagine del compimento escatologico?"
+      ],
+      "coords": [
+        35.206626,
+        31.778408
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "a": "usa",
+      "b": "cina",
+      "title": "Due racconti dell’ordine",
+      "description": "Un confronto editoriale tra missione americana e promessa di ordine nel dossier cinese."
+    },
+    {
+      "a": "usa",
+      "b": "russia",
+      "title": "Potenza e memoria",
+      "description": "Due dossier per interrogare il rapporto tra spazio strategico, memoria e rappresentazione del proprio ruolo nel mondo."
+    },
+    {
+      "a": "vaticano",
+      "b": "russia",
+      "title": "Universalità e autorità",
+      "description": "Un percorso tra il dossier sul papato e quello sulla Terza Roma: immagini religiose e autorità politica."
+    },
+    {
+      "a": "vaticano",
+      "b": "europa",
+      "title": "Eredità e secolarizzazione",
+      "description": "Il rapporto tra eredità cristiana, istituzioni e ricerca di un orizzonte comune."
+    },
+    {
+      "a": "vaticano",
+      "b": "usa",
+      "title": "Universalità e missione",
+      "description": "Due diverse forme di vocazione universale messe a confronto attraverso i testi del sito."
+    },
+    {
+      "a": "iran",
+      "b": "usa",
+      "title": "Religione civile e Stato",
+      "description": "Un confronto tra teologia politica implicita e legittimazione religiosa delle istituzioni."
+    },
+    {
+      "a": "russia",
+      "b": "ucraina",
+      "title": "Il conflitto attraverso le lenti",
+      "description": "Dalla lettura della potenza russa al caso Ucraina della Biblioteca Pentaedrica."
+    },
+    {
+      "a": "vaticano",
+      "b": "gerusalemme",
+      "title": "Luoghi del sacro",
+      "description": "Un percorso di lettura tra autorità spirituale, luoghi biblici e rappresentazioni del compimento."
+    },
+    {
+      "a": "europa",
+      "b": "ucraina",
+      "title": "Confini e progetto europeo",
+      "description": "Un accostamento editoriale fra il caso Europa e le domande aperte dal caso Ucraina."
+    },
+    {
+      "a": "russia",
+      "b": "cina",
+      "title": "Civiltà e continuità",
+      "description": "Memoria, missione e ordine: un confronto fra i due dossier, senza dedurne alleanze o equivalenze."
+    }
+  ],
+  "notice": "Le città sono accessi ai dossier; gli archi collegano letture. Non rappresentano alleanze, flussi misurati o previsioni.",
+  "sources": [
+    {
+      "title": "Il Metodo Pentaedrico",
+      "path": "/metodo-pentaedrico"
+    },
+    {
+      "title": "Tra Teologia e Geopolitica",
+      "path": "/geopolitica-classica/tra-teologia-e-geopolitica"
+    },
+    {
+      "title": "Atlante Visuale",
+      "path": "/atlante-visuale"
+    },
+    {
+      "title": "Biblioteca Pentaedrica",
+      "path": "/biblioteca-pentaedrica"
+    }
+  ]
+}

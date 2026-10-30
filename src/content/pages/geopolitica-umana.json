@@ -186,7 +186,8 @@
   },
   {
    "type": "card",
-   "role": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/dario-fabbri",
    "parts": [
     "Approfondisci",
     "Dario Fabbri — Il sommo maestro",
@@ -266,7 +267,8 @@
   },
   {
    "type": "card",
-   "role": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/fondamento-geopolitica-umana",
    "parts": [
     "Esplora il fondamento",
     "Il fondamento: Geopolitica umana (2023)",
@@ -321,7 +323,8 @@
   },
   {
    "type": "card",
-   "role": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/dodici-principi",
    "parts": [
     "Scopri i princìpi",
     "I 12 princìpi operativi",
@@ -357,12 +360,63 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Maestro Dario Fabbri — Il sommo maestro Chi è Dario Fabbri, come ha costruito il suo metodo, quali sono i concetti chiave del suo pensiero. Un omaggio a colui che ha insegnato a leggere sotto la pelle del mondo. →   Destino Il destino dei popoli Ogni popolo ha un’anima, una vocazione, una traiettoria storica. Come si forma l’identità collettiva e come determina il cammino di una nazione nel mondo. →   Psicologia La psicologia delle nazioni Paura, missione, memoria: il triangolo psicologico che guida le scelte strategiche di ogni Stato. Un modello per decifrare il comportamento delle potenze. →   Applicazione Sotto la pelle del mondo Fabbri applica la geopolitica umana alle zone di frizione del mondo contemporaneo: i sette capitoli del libro che smontano l’illusione occidentale e i casi studio nazione per nazione. →   Opera Il destino dei popoli — L'opera La struttura del libro che completa il trittico: come l’antropologia ha generato la Storia. Prologo, sei capitoli e un Epilogo che spiegano il metodo di Fabbri su scala mondiale. →   Teologia Verso la Teologia Dal limite estremo dell’immanenza fabbriana alla soglia teologica: cinque punti di contatto tra la geopolitica umana e la riflessione sul senso, il sacro e il destino. →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/dario-fabbri",
+   "parts": [
+    "Maestro",
+    "Dario Fabbri — Il sommo maestro",
+    "Chi è Dario Fabbri, come ha costruito il suo metodo, quali sono i concetti chiave del suo pensiero. Un omaggio a colui che ha insegnato a leggere sotto la pelle del mondo."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/popoli",
+   "parts": [
+    "Destino",
+    "Il destino dei popoli",
+    "Ogni popolo ha un’anima, una vocazione, una traiettoria storica. Come si forma l’identità collettiva e come determina il cammino di una nazione nel mondo."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/nazioni",
+   "parts": [
+    "Psicologia",
+    "La psicologia delle nazioni",
+    "Paura, missione, memoria: il triangolo psicologico che guida le scelte strategiche di ogni Stato. Un modello per decifrare il comportamento delle potenze."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/sotto-la-pelle",
+   "parts": [
+    "Applicazione",
+    "Sotto la pelle del mondo",
+    "Fabbri applica la geopolitica umana alle zone di frizione del mondo contemporaneo: i sette capitoli del libro che smontano l’illusione occidentale e i casi studio nazione per nazione."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/destino-dei-popoli-libro",
+   "parts": [
+    "Opera",
+    "Il destino dei popoli — L'opera",
+    "La struttura del libro che completa il trittico: come l’antropologia ha generato la Storia. Prologo, sei capitoli e un Epilogo che spiegano il metodo di Fabbri su scala mondiale."
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-umana/verso-la-teologia",
+   "parts": [
+    "Teologia",
+    "Verso la Teologia",
+    "Dal limite estremo dell’immanenza fabbriana alla soglia teologica: cinque punti di contatto tra la geopolitica umana e la riflessione sul senso, il sacro e il destino."
    ]
   },
   {
@@ -395,8 +449,8 @@
   "D. Fabbri, Il destino dei popoli. Come l’umanità ha fatto la storia e creato il nostro tempo (Gribaudo, 2025)"
  ],
  "stats": {
-  "blocks": 33,
-  "chars": 5983,
-  "hash": "e69a81da55bb51aca26f60496bbe85a8d4ea4caf261cc5849deea4cf64a6d062"
+  "blocks": 38,
+  "chars": 5971,
+  "hash": "7d1f5ab8f9f5ebb55dd61a716b4cf93b2d2edbc1ee2cf5090ba990f76eaf86dc"
  }
 }

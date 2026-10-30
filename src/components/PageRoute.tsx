@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import { findPage } from '../content/content';
-import { EditorialPage } from './EditorialPage';
+import { SECTIONS } from '../content/sections';
+import { PageShell } from './PageShell';
+import { BookReader } from './BookReader';
+import { GlobePage } from './GlobePage';
 import { Link, useRoute } from '../lib/router';
 
 export function PageRoute() {
@@ -8,25 +11,31 @@ export function PageRoute() {
   const page = findPage(path);
 
   useEffect(() => {
-    if (!page) document.title = 'Pagina non trovata — MetaHistoria';
-  }, [page]);
+    if (path === '/atlante-globo') document.title = 'Mappamondo interattivo — MetaHistoria';
+    else if (page) document.title = `${page.title} — MetaHistoria`;
+    else document.title = 'Pagina non trovata — MetaHistoria';
+  }, [page, path]);
 
-  if (page) return <EditorialPage page={page} key={page.id} />;
+  if (path === '/atlante-globo') return <GlobePage />;
 
-  return (
-    <section className="doc doc--missing">
-      <header className="doc__head">
-        <p className="doc__kicker">Errore 404</p>
-        <h1 className="doc__title">Questa pagina non esiste</h1>
-        <p className="doc__lede">
-          Il percorso <code>{path}</code> non corrisponde a nessuna delle pagine migrate.
-        </p>
-      </header>
-      <div className="doc__foot">
-        <Link to="/" className="doc__back">
-          ← Torna all’archivio
-        </Link>
-      </div>
-    </section>
-  );
+  if (!page) {
+    return (
+      <PageShell routeKey={path}>
+        <section className="missing">
+          <p className="art__kicker">Errore 404</p>
+          <h1 className="art__title">Questa pagina non esiste</h1>
+          <p className="art__lede">
+            Il percorso <code>{path}</code> non corrisponde a nessuna delle pagine dell’archivio.
+          </p>
+          <Link to="/" className="art__back">
+            ← Torna all’archivio
+          </Link>
+        </section>
+      </PageShell>
+    );
+  }
+
+  const isSection = SECTIONS.some((s) => s.path === page.path);
+
+  return <BookReader key={page.id} page={page} isSection={isSection} />;
 }

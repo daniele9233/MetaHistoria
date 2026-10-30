@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-29",
+  "functional": [
+    {
+      "name": "default Italy relief view",
+      "pass": true
+    },
+    {
+      "name": "real dense terrain mesh",
+      "pass": true,
+      "details": {
+        "calls": 4,
+        "triangles": 1182504,
+        "geometries": 4,
+        "textures": 4,
+        "programs": 3,
+        "quality": "high",
+        "view": "italy",
+        "zoom": 1,
+        "frames": 12
+      }
+    },
+    {
+      "name": "geographic marker hover",
+      "pass": true
+    },
+    {
+      "name": "raycasting opens Vatican dossier",
+      "pass": true
+    },
+    {
+      "name": "global camera view",
+      "pass": true
+    },
+    {
+      "name": "Italy camera and dossier restored",
+      "pass": true
+    },
+    {
+      "name": "explore opens geographic index",
+      "pass": true
+    },
+    {
+      "name": "eight genuine places",
+      "pass": true
+    },
+    {
+      "name": "camera flies to China",
+      "pass": true
+    },
+    {
+      "name": "China path resolves",
+      "pass": true
+    },
+    {
+      "name": "all editorial paths preserved",
+      "pass": true
+    },
+    {
+      "name": "index search filters",
+      "pass": true
+    },
+    {
+      "name": "dossier reader route works",
+      "pass": true
+    },
+    {
+      "name": "original section navigation retained",
+      "pass": true
+    },
+    {
+      "name": "zoom near limit is bounded",
+      "pass": true,
+      "details": {
+        "calls": 4,
+        "triangles": 1182504,
+        "geometries": 4,
+        "textures": 4,
+        "programs": 3,
+        "quality": "high",
+        "view": "italy",
+        "zoom": 0.64,
+        "frames": 226
+      }
+    },
+    {
+      "name": "zoom far limit is bounded",
+      "pass": true
+    },
+    {
+      "name": "renderer sleeps at rest",
+      "pass": true,
+      "details": {
+        "a": 722,
+        "b": 722
+      }
+    },
+    {
+      "name": "mobile adaptive mesh",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow",
+      "pass": true
+    }
+  ],
+  "integration": [
+    {
+      "name": "home atlas initially inactive",
+      "pass": true
+    },
+    {
+      "name": "home scroll reveals interactive terrain",
+      "pass": true,
+      "details": {
+        "reveal": "1.0000"
+      }
+    },
+    {
+      "name": "reverse scroll restores folio",
+      "pass": true
+    },
+    {
+      "name": "camera transition sampled",
+      "pass": true,
+      "details": {
+        "samples": 316,
+        "medianMs": 6.900000000000546,
+        "p95Ms": 7,
+        "over33ms": 0
+      }
+    },
+    {
+      "name": "camera cycles keep stable GPU resources",
+      "pass": true,
+      "details": {
+        "baseline": {
+          "calls": 4,
+          "triangles": 1182504,
+          "geometries": 4,
+          "textures": 4,
+          "programs": 3,
+          "quality": "high",
+          "view": "italy",
+          "zoom": 1,
+          "frames": 13
+        },
+        "after": {
+          "calls": 4,
+          "triangles": 1182504,
+          "geometries": 4,
+          "textures": 4,
+          "programs": 3,
+          "quality": "high",
+          "view": "global",
+          "zoom": 1,
+          "frames": 609
+        }
+      }
+    },
+    {
+      "name": "ordinary wheel does not hijack map zoom",
+      "pass": true
+    },
+    {
+      "name": "landscape has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "landscape controls remain accessible",
+      "pass": true
+    },
+    {
+      "name": "horizontal touch rotates terrain",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "reduced motion camera settles immediately",
+      "pass": true
+    }
+  ],
+  "final": [
+    {
+      "name": "vertical touch preserves document scrolling",
+      "pass": true,
+      "details": 156
+    },
+    {
+      "name": "home footer no longer overlaps atlas captions",
+      "pass": true
+    },
+    {
+      "name": "final shader renders geographic view",
+      "pass": true
+    }
+  ],
+  "webglUnavailable": {
+    "fallbackVisible": true,
+    "indexOpens": true,
+    "articleLinks": 125,
+    "method": "Chrome DevTools: intercept canvas WebGL context creation before navigation"
+  },
+  "performance": {
+    "samples": 316,
+    "medianMs": 6.900000000000546,
+    "p95Ms": 7,
+    "over33ms": 0
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "dpr": 1,
+    "hardwareConcurrency": 28,
+    "viewport": [
+      1536,
+      1024
+    ],
+    "renderer": {
+      "calls": 4,
+      "triangles": 1182504,
+      "geometries": 4,
+      "textures": 4,
+      "programs": 3,
+      "quality": "high",
+      "view": "italy",
+      "zoom": 1,
+      "frames": 13
+    }
+  },
+  "limitations": [
+    "Mobile viewport and CDP touch emulation, not physical phone testing",
+    "Performance records requestAnimationFrame intervals during one desktop camera transition, not GPU timings",
+    "NASA imagery is a historical July 2004 composite; terrain is vertically exaggerated"
+  ]
+}

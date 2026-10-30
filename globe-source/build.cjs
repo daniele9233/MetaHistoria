@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const root=__dirname;
+const data=JSON.parse(fs.readFileSync(path.join(root,'src/data.json'),'utf8').replace(/^\uFEFF/,''));
+const world=JSON.parse(fs.readFileSync(path.join(root,'src/world.json'),'utf8'));
+const read=f=>fs.readFileSync(path.join(root,f),'utf8').replace(/^\uFEFF/,'');
+const library=f=>'(()=>{const module={exports:{}};const exports=module.exports;\n'+read(f)+'\nreturn exports;})()';
+const bundle='/* MetaHistoria — globo integrabile. Dipendenze e licenze: LICENSES.md */\n(()=>{\nconst d3='+library('src/d3.min.js')+';\nconst topojson='+library('src/topojson.min.js')+';\nconst DATA='+JSON.stringify(data)+';\nconst WORLD='+JSON.stringify(world)+';\nconst STYLE='+JSON.stringify(read('src/component.css'))+';\n'+read('src/component.js')+'\n})();\n';
+new vm.Script(bundle);
+const output=path.join(root,'..','public','atlante-globo');
+fs.mkdirSync(output,{recursive:true});
+fs.writeFileSync(path.join(output,'metahistoria-globe.js'),bundle);
+console.log(JSON.stringify({bundleBytes:Buffer.byteLength(bundle),places:data.nodes.length,lenses:data.lenses.length,routes:data.routes.length,output:path.join(output,'metahistoria-globe.js')}));

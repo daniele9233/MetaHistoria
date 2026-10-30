@@ -391,6 +391,15 @@
    "role": "p",
    "runs": [
     {
+     "t": "Approfondisci: Tommaso e il problema del male"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "role": "p",
+   "runs": [
+    {
      "t": "Approfondisci: Tommaso e il problema del male →"
     }
    ]
@@ -1123,8 +1132,8 @@
   "Manifesto TGP (2026)"
  ],
  "stats": {
-  "blocks": 99,
-  "chars": 16445,
-  "hash": "ab97c850663b77966b1dcf00babf0b4833d15dbd49dd1e9666f9caa376c8a70c"
+  "blocks": 100,
+  "chars": 16491,
+  "hash": "5ef7e5877c53b7061b9007731895f2e58bad97452fb3348c9fd0c43fde4a20c4"
  }
 }

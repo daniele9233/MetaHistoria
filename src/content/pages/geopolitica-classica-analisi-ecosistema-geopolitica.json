@@ -126,30 +126,13 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il Potere come Principio Ordinatore"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Il potere come infrastruttura della realtà sociale."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/analisi/potere-principio-ordinatore",
+   "parts": [
+    "01",
+    "Il Potere come Principio Ordinatore",
+    "Il potere come infrastruttura della realtà sociale."
    ]
   },
   {
@@ -180,30 +163,13 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "03"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Potere, Territorio, Conflitto"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La guerra come strumento permanente della politica."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/analisi/potere-territorio-conflitto",
+   "parts": [
+    "03",
+    "Potere, Territorio, Conflitto",
+    "La guerra come strumento permanente della politica."
    ]
   },
   {
@@ -288,84 +254,33 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "07"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/analisi/sun-tzu-vangelo",
+   "parts": [
+    "07",
+    "Sun Tzu e Vangelo",
+    "Strategia militare e spiritualità francescana."
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Sun Tzu e Vangelo"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/analisi/da-main-stream-a-geopolitica",
+   "parts": [
+    "08",
+    "Disincanto o Conversione",
+    "Dalla narrazione mainstream alla comprensione profonda."
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Strategia militare e spiritualità francescana."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "08"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Disincanto o Conversione"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Dalla narrazione mainstream alla comprensione profonda."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "09"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "America First: la nuova geopolitica"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Transazionalismo, risorse e alleanze globali."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/geopolitica-classica/analisi/america-first-geopolitica",
+   "parts": [
+    "09",
+    "America First: la nuova geopolitica",
+    "Transazionalismo, risorse e alleanze globali."
    ]
   }
  ],
@@ -377,7 +292,7 @@
   "Manifesto TGP-Ω (2026)"
  ],
  "stats": {
-  "blocks": 39,
+  "blocks": 29,
   "chars": 2922,
   "hash": "ba3b62320507d981e52e15d883911600c8c8ab0bc6791027b2852275ad5712b0"
  }

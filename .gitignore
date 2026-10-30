@@ -1,3 +1,17 @@
-# Repository volutamente completo: contiene l'intero progetto, inclusi
-# dipendenze (node_modules), build (dist), materiali di lavoro (assets-src,
-# migration/source) e tooling. Nessuna esclusione.
+node_modules/
+dist/
+work/
+assets-src/
+.agents/
+.codex/
+.dsh/
+.playwright/
+.playwright-cli/
+.sites-runtime/
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

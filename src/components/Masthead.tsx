@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { NAVIGATION } from '../content/content';
 import { SITE } from '../data/site';
-import { Link } from '../lib/router';
+import { Link, useRoute } from '../lib/router';
 
 export function Masthead() {
+  const atlas = useRoute().path === '/atlante-globo';
   const [open, setOpen] = useState<number | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const rootRef = useRef<HTMLElement>(null);
@@ -37,7 +38,7 @@ export function Masthead() {
 
   return (
     <header
-      className={`masthead ${open !== null ? 'is-menu-open' : ''} ${mobileOpen ? 'is-mobile-open' : ''}`}
+      className={`masthead ${atlas ? 'masthead--atlas' : ''} ${open !== null ? 'is-menu-open' : ''} ${mobileOpen ? 'is-mobile-open' : ''}`}
       ref={rootRef}
     >
       <div className="masthead__bar">
@@ -52,7 +53,7 @@ export function Masthead() {
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((v) => !v)}
         >
-          Sezioni
+          {atlas ? 'Cinque lenti' : 'Sezioni'}
           <i className="nav__caret" aria-hidden="true" />
         </button>
 
@@ -69,15 +70,21 @@ export function Masthead() {
             <div
               key={group.label}
               className={`nav__item ${open === i ? 'is-open' : ''}`}
-              onPointerEnter={() => setOpen(i)}
-              onFocus={() => setOpen(i)}
+              onPointerEnter={(event) => {
+                if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 1241px) and (hover: hover)').matches) setOpen(i);
+              }}
             >
               <button
                 type="button"
                 className="nav__trigger"
                 aria-expanded={open === i}
                 aria-controls={`nav-panel-${i}`}
-                onClick={() => setOpen(open === i ? null : i)}
+                onClick={(event) => {
+                  // Desktop hover may already have opened the panel before the click.
+                  // Touch and keyboard activate the button exactly once.
+                  if (event.detail > 0 && window.matchMedia('(min-width: 1241px) and (hover: hover)').matches) setOpen(i);
+                  else setOpen((current) => current === i ? null : i);
+                }}
               >
                 <span className="nav__label">{group.label}</span>
                 <i className="nav__caret" aria-hidden="true" />
@@ -93,6 +100,9 @@ export function Masthead() {
                       </Link>
                     </li>
                   ))}
+                  {group.path === '/metodo-pentaedrico' && (
+                    <li><Link to="/atlante-globo" onClick={closeAll}>Mappamondo interattivo</Link></li>
+                  )}
                 </ul>
               </div>
             </div>
@@ -103,8 +113,11 @@ export function Masthead() {
           <Link to="/" onClick={closeAll}>
             Archivio
           </Link>
-          <Link to="/atlante-visuale" onClick={closeAll}>
+          <Link to={atlas ? '/atlante-globo' : '/atlante-visuale'} onClick={closeAll}>
             Atlante
+          </Link>
+          <Link to="/atlante-globo" onClick={closeAll}>
+            Globo
           </Link>
         </div>
       </div>

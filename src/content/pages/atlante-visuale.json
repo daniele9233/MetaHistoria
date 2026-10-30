@@ -2,7 +2,7 @@
  "id": "atlante-visuale",
  "slug": "atlante-visuale",
  "sourceUrl": "https://precious-cassata-42205a.netlify.app/atlante-visuale",
- "title": "Atlante Visuale &mdash; Metodo Pentaedrico &mdash; MetaHistoria",
+ "title": "Atlante Visuale — Metodo Pentaedrico — MetaHistoria",
  "kicker": "",
  "lede": "",
  "category": "atlante-visuale",
@@ -100,377 +100,197 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01"
-    }
+   "type": "tavola",
+   "num": "01",
+   "title": "L’Architettura di MetaHistoria",
+   "tag": "Mappa ontologica",
+   "src": "assets/img/tavola-01-architettura.png",
+   "alt": "Tavola 01 — L’architettura di MetaHistoria: da Dio, attraverso la Storia della Salvezza e il Metodo Pentaedrico, alle cinque lenti con le loro categorie",
+   "caption": "Tavola 01 — L’Architettura di MetaHistoria. La mappa ontologica del sistema.",
+   "body": [
+    [
+     {
+      "t": "La tavola fondativa: l’albero genealogico dell’intero sistema. Da Dio — Rivelazione e Verità — discende la Storia della Salvezza, applicata alla storia umana attraverso il "
+     },
+     {
+      "t": "Metodo Pentaedrico",
+      "b": true
+     },
+     {
+      "t": ". Le cinque lenti si diramano come rami di uno stesso tronco, ciascuna col proprio oggetto (Stati, Popoli, Civiltà, Discernimento, Destino) e le proprie categorie operative (Confini, Memoria, Cuore, Idolatria, Giudizio e così via)."
+     }
+    ]
    ]
   },
   {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "L’Architettura di MetaHistoria"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Mappa ontologica"
-    }
+   "type": "tavola",
+   "num": "02",
+   "title": "Il Metodo Pentaedrico",
+   "tag": "Come funziona",
+   "src": "assets/img/tavola-02.png",
+   "alt": "Tavola 02 — Il Metodo Pentaedrico: dall’Evento Storico alle cinque domande progressive delle cinque lenti",
+   "caption": "Tavola 02 — Il funzionamento del Metodo Pentaedrico: le cinque domande progressive.",
+   "body": [
+    [
+     {
+      "t": "Come funziona il Metodo: la discesa dall’"
+     },
+     {
+      "t": "Evento Storico",
+      "b": true
+     },
+     {
+      "t": " attraverso le cinque domande progressive. Ogni lente risponde a una domanda diversa e usa fonti proprie: Cosa è successo? (Geopolitica Classica) → A chi è successo? (Geopolitica Umana) → Perché quel popolo agisce così? (Geopolitica dell’Anima) → Come giudica questo potere la Rivelazione? (Teologia della Geopolitica) → Qual è il destino di questo potere? (Apocalisse del Potere)."
+     }
+    ]
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La tavola fondativa: l’albero genealogico dell’intero sistema. Da Dio — Rivelazione e Verità — discende la Storia della Salvezza, applicata alla storia umana attraverso il "
-    },
-    {
-     "t": "Metodo Pentaedrico",
-     "b": true
-    },
-    {
-     "t": ". Le cinque lenti si diramano come rami di uno stesso tronco, ciascuna col proprio oggetto (Stati, Popoli, Civiltà, Discernimento, Destino) e le proprie categorie operative (Confini, Memoria, Cuore, Idolatria, Giudizio e così via)."
-    }
+   "type": "tavola",
+   "num": "03",
+   "title": "Le Cinque Lenti",
+   "tag": "Strumenti",
+   "src": "assets/img/tavola-03.png",
+   "alt": "Tavola 03 — Le Cinque Lenti del Metodo Pentaedrico con oggetti, domande e fonti",
+   "caption": "Tavola 03 — Le Cinque Lenti: oggetto, domanda guida e fonti di ciascuna.",
+   "body": [
+    [
+     {
+      "t": "Ogni lente col suo "
+     },
+     {
+      "t": "oggetto",
+      "b": true
+     },
+     {
+      "t": ", la sua "
+     },
+     {
+      "t": "domanda guida",
+      "b": true
+     },
+     {
+      "t": ", le sue "
+     },
+     {
+      "t": "fonti",
+      "b": true
+     },
+     {
+      "t": " e il suo "
+     },
+     {
+      "t": "criterio di verità",
+      "b": true
+     },
+     {
+      "t": ". Dalla superficie osservabile (territorio, confini, potenza) fino alla profondità del destino ultimo (Regno, Escaton, Giudizio). Le cinque lenti non si contraddicono: si completano."
+     }
+    ]
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 01 — L’Architettura di MetaHistoria. La mappa ontologica del sistema."
-    }
+   "type": "tavola",
+   "num": "04",
+   "title": "Il Percorso dell’Interpretazione Storica",
+   "tag": "Progressione epistemologica",
+   "src": "assets/img/tavola-04.png",
+   "alt": "Tavola 04 — Il percorso dell’interpretazione storica: la progressione attraverso le cinque lenti",
+   "caption": "Tavola 04 — Il percorso dell’interpretazione storica attraverso le cinque lenti.",
+   "body": [
+    [
+     {
+      "t": "La progressione epistemologica: come ogni lente "
+     },
+     {
+      "t": "espande la precedente senza annullarla",
+      "b": true
+     },
+     {
+      "t": ". Dalla superficie osservabile al giudizio dell’Escaton, il lettore viene accompagnato da ciò che è visibile fino a ciò che richiede discernimento. Non cinque analisi indipendenti, ma un cammino progressivo attraverso i livelli della realtà."
+     }
+    ]
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "02"
-    }
+   "type": "tavola",
+   "num": "05",
+   "title": "La Genealogia del Potere",
+   "tag": "Catena causale",
+   "src": "assets/img/tavola-05.png",
+   "alt": "Tavola 05 — La genealogia del potere: dal cuore alla civiltà, all’impero, al giudizio, al Regno",
+   "caption": "Tavola 05 — La genealogia del potere: cuore → civiltà → impero → giudizio → Regno.",
+   "body": [
+    [
+     {
+      "t": "La catena che lega l’interiorità alla storia mondiale: il "
+     },
+     {
+      "t": "cuore",
+      "b": true
+     },
+     {
+      "t": " genera civiltà; le "
+     },
+     {
+      "t": "civiltà",
+      "b": true
+     },
+     {
+      "t": " producono imperi; gli "
+     },
+     {
+      "t": "imperi",
+      "b": true
+     },
+     {
+      "t": " costruiscono la storia; "
+     },
+     {
+      "t": "Dio",
+      "b": true
+     },
+     {
+      "t": " giudica la storia; la "
+     },
+     {
+      "t": "storia",
+      "b": true
+     },
+     {
+      "t": " tende al Regno. Ogni evento storico è un’epifania del potere, e ogni potere ha una genealogia spirituale che risale al cuore dell’uomo e alla sua immagine di Dio."
+     }
+    ]
    ]
   },
   {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "Il Metodo Pentaedrico"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Come funziona"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Come funziona il Metodo: la discesa dall’"
-    },
-    {
-     "t": "Evento Storico",
-     "b": true
-    },
-    {
-     "t": " attraverso le cinque domande progressive. Ogni lente risponde a una domanda diversa e usa fonti proprie: Cosa è successo? (Geopolitica Classica) → A chi è successo? (Geopolitica Umana) → Perché quel popolo agisce così? (Geopolitica dell’Anima) → Come giudica questo potere la Rivelazione? (Teologia della Geopolitica) → Qual è il destino di questo potere? (Apocalisse del Potere)."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 02 — Il funzionamento del Metodo Pentaedrico: le cinque domande progressive."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "03"
-    }
-   ]
-  },
-  {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "Le Cinque Lenti"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Strumenti"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Ogni lente col suo "
-    },
-    {
-     "t": "oggetto",
-     "b": true
-    },
-    {
-     "t": ", la sua "
-    },
-    {
-     "t": "domanda guida",
-     "b": true
-    },
-    {
-     "t": ", le sue "
-    },
-    {
-     "t": "fonti",
-     "b": true
-    },
-    {
-     "t": " e il suo "
-    },
-    {
-     "t": "criterio di verità",
-     "b": true
-    },
-    {
-     "t": ". Dalla superficie osservabile (territorio, confini, potenza) fino alla profondità del destino ultimo (Regno, Escaton, Giudizio). Le cinque lenti non si contraddicono: si completano."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 03 — Le Cinque Lenti: oggetto, domanda guida e fonti di ciascuna."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "04"
-    }
-   ]
-  },
-  {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "Il Percorso dell’Interpretazione Storica"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Progressione epistemologica"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La progressione epistemologica: come ogni lente "
-    },
-    {
-     "t": "espande la precedente senza annullarla",
-     "b": true
-    },
-    {
-     "t": ". Dalla superficie osservabile al giudizio dell’Escaton, il lettore viene accompagnato da ciò che è visibile fino a ciò che richiede discernimento. Non cinque analisi indipendenti, ma un cammino progressivo attraverso i livelli della realtà."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 04 — Il percorso dell’interpretazione storica attraverso le cinque lenti."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "05"
-    }
-   ]
-  },
-  {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "La Genealogia del Potere"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Catena causale"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La catena che lega l’interiorità alla storia mondiale: il "
-    },
-    {
-     "t": "cuore",
-     "b": true
-    },
-    {
-     "t": " genera civiltà; le "
-    },
-    {
-     "t": "civiltà",
-     "b": true
-    },
-    {
-     "t": " producono imperi; gli "
-    },
-    {
-     "t": "imperi",
-     "b": true
-    },
-    {
-     "t": " costruiscono la storia; "
-    },
-    {
-     "t": "Dio",
-     "b": true
-    },
-    {
-     "t": " giudica la storia; la "
-    },
-    {
-     "t": "storia",
-     "b": true
-    },
-    {
-     "t": " tende al Regno. Ogni evento storico è un’epifania del potere, e ogni potere ha una genealogia spirituale che risale al cuore dell’uomo e alla sua immagine di Dio."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 05 — La genealogia del potere: cuore → civiltà → impero → giudizio → Regno."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "06"
-    }
-   ]
-  },
-  {
-   "type": "h",
-   "level": 2,
-   "runs": [
-    {
-     "t": "La Cartografia dell’Anima Collettiva"
-    }
-   ],
-   "role": "p"
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Struttura frattale"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "La "
-    },
-    {
-     "t": "struttura frattale",
-     "b": true
-    },
-    {
-     "t": " dell’anima: ciò che accade nell’anima individuale si riflette nell’anima collettiva di una civiltà e nella sua proiezione geopolitica. La ferita originaria, il desiderio di salvezza, la paura dell’annientamento non sono solo sentimenti: sono "
-    },
-    {
-     "t": "forze geopolitiche",
-     "b": true
-    },
-    {
-     "t": ". Mapparle significa capire perché i popoli combattono."
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Tavola 06 — La cartografia dell’anima collettiva e la sua proiezione geopolitica."
-    }
+   "type": "tavola",
+   "num": "06",
+   "title": "La Cartografia dell’Anima Collettiva",
+   "tag": "Struttura frattale",
+   "src": "assets/img/tavola-06.png",
+   "alt": "Tavola 06 — La cartografia dell’anima collettiva: la struttura frattale tra individuo, civiltà e geopolitica",
+   "caption": "Tavola 06 — La cartografia dell’anima collettiva e la sua proiezione geopolitica.",
+   "body": [
+    [
+     {
+      "t": "La "
+     },
+     {
+      "t": "struttura frattale",
+      "b": true
+     },
+     {
+      "t": " dell’anima: ciò che accade nell’anima individuale si riflette nell’anima collettiva di una civiltà e nella sua proiezione geopolitica. La ferita originaria, il desiderio di salvezza, la paura dell’annientamento non sono solo sentimenti: sono "
+     },
+     {
+      "t": "forze geopolitiche",
+      "b": true
+     },
+     {
+      "t": ". Mapparle significa capire perché i popoli combattono."
+     }
+    ]
    ]
   },
   {
@@ -643,8 +463,8 @@
  "prevNext": [],
  "references": [],
  "stats": {
-  "blocks": 56,
-  "chars": 5084,
-  "hash": "a5323e1538a2af06ce0d2c80ee8775d29f22865cf4caf28f4187c0b228e36731"
+  "blocks": 32,
+  "chars": 3287,
+  "hash": "d495903f83bdca42171e42a45ba08c7e3bb59b2472737885d89ef052c0d919cd"
  }
 }

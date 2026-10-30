@@ -275,7 +275,7 @@
      "id": "atlante-visuale"
     },
     {
-     "label": "MetaHistoria — Il Metodo Pentapolare",
+     "label": "L'architettura del sistema",
      "path": "/architettura",
      "id": "home"
     }
@@ -335,79 +335,79 @@
    "id": "apocalisse-del-potere-manuale-commento-ezechiele"
   },
   {
-   "label": "Il conflitto Israele-Hamas &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "Il conflitto Israele-Hamas — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/israele-hamas",
    "id": "biblioteca-pentaedrica-casi-israele-hamas"
   },
   {
-   "label": "L&rsquo;intelligenza artificiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
-   "path": "/biblioteca-pentaedrica/casi/intelligenza-artificiale",
-   "id": "biblioteca-pentaedrica-casi-intelligenza-artificiale"
-  },
-  {
-   "label": "L'11 settembre 2001 &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "L'11 settembre 2001 — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/undici-settembre",
    "id": "biblioteca-pentaedrica-casi-undici-settembre"
   },
   {
-   "label": "L'ascesa della Cina &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "L'ascesa della Cina — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/ascesa-cina",
    "id": "biblioteca-pentaedrica-casi-ascesa-cina"
   },
   {
-   "label": "L'epoca di Napoleone &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "L'epoca di Napoleone — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/napoleone",
    "id": "biblioteca-pentaedrica-casi-napoleone"
   },
   {
-   "label": "La Guerra Fredda &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Guerra Fredda — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/guerra-fredda",
    "id": "biblioteca-pentaedrica-casi-guerra-fredda"
   },
   {
-   "label": "La Guerra in Ucraina &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Guerra in Ucraina — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/ucraina",
    "id": "biblioteca-pentaedrica-casi-ucraina"
   },
   {
-   "label": "La Prima Guerra Mondiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Prima Guerra Mondiale — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/prima-guerra-mondiale",
    "id": "biblioteca-pentaedrica-casi-prima-guerra-mondiale"
   },
   {
-   "label": "La Riforma Protestante &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Riforma Protestante — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/riforma-protestante",
    "id": "biblioteca-pentaedrica-casi-riforma-protestante"
   },
   {
-   "label": "La Rivoluzione Francese &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Rivoluzione Francese — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/rivoluzione-francese",
    "id": "biblioteca-pentaedrica-casi-rivoluzione-francese"
   },
   {
-   "label": "La Rivoluzione Russa &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Rivoluzione Russa — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/rivoluzione-russa",
    "id": "biblioteca-pentaedrica-casi-rivoluzione-russa"
   },
   {
-   "label": "La Seconda Guerra Mondiale &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La Seconda Guerra Mondiale — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/seconda-guerra-mondiale",
    "id": "biblioteca-pentaedrica-casi-seconda-guerra-mondiale"
   },
   {
-   "label": "La caduta dell&rsquo;Impero Romano &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La caduta dell’Impero Romano — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/impero-romano",
    "id": "biblioteca-pentaedrica-casi-impero-romano"
   },
   {
-   "label": "La caduta dell&rsquo;URSS &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "La caduta dell’URSS — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/caduta-urss",
    "id": "biblioteca-pentaedrica-casi-caduta-urss"
   },
   {
-   "label": "Le Crociate &mdash; Biblioteca Pentaedrica &mdash; MetaHistoria",
+   "label": "Le Crociate — Biblioteca Pentaedrica",
    "path": "/biblioteca-pentaedrica/casi/crociate",
    "id": "biblioteca-pentaedrica-casi-crociate"
+  },
+  {
+   "label": "L’intelligenza artificiale — Biblioteca Pentaedrica",
+   "path": "/biblioteca-pentaedrica/casi/intelligenza-artificiale",
+   "id": "biblioteca-pentaedrica-casi-intelligenza-artificiale"
   },
   {
    "label": "Caso Cina",
@@ -605,102 +605,102 @@
    "id": "geopolitica-umana-per-una-teologia-politica"
   },
   {
-   "label": "Anatomia dell'Impero &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Anatomia dell'Impero — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-anatomia-impero",
    "id": "teologia-geopolitica-eco-anatomia-impero"
   },
   {
-   "label": "Custodire il Fuoco &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Custodire il Fuoco — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-custodire-fuoco",
    "id": "teologia-geopolitica-eco-custodire-fuoco"
   },
   {
-   "label": "Dall&rsquo;Illusione alla Realt&agrave; &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Dall’Illusione alla Realtà — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-post-democrazia",
    "id": "teologia-geopolitica-eco-post-democrazia"
   },
   {
-   "label": "Guerriglia per la Pastorale &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Guerriglia per la Pastorale — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-guerriglia-pastorale",
    "id": "teologia-geopolitica-eco-guerriglia-pastorale"
   },
   {
-   "label": "Il Fiume della Promessa &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Il Fiume della Promessa — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-epopea-esodo-eterno",
    "id": "teologia-geopolitica-eco-epopea-esodo-eterno"
   },
   {
-   "label": "Il Gioco Posizionale e la Manovra Rapida &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Il Gioco Posizionale e la Manovra Rapida — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-manuale-governo-betania",
    "id": "teologia-geopolitica-eco-manuale-governo-betania"
   },
   {
-   "label": "Il Trono e l&rsquo;Anima &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Il Trono e l’Anima — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-tribunale-storia",
    "id": "teologia-geopolitica-eco-tribunale-storia"
   },
   {
-   "label": "L&rsquo;Arte della Guerra del Regno &mdash; Ecosistema TGR &mdash; MetaHistoria",
-   "path": "/teologia-geopolitica/eco-arte-guerra-regno",
-   "id": "teologia-geopolitica-eco-arte-guerra-regno"
-  },
-  {
-   "label": "L&rsquo;Arte di Guarire, Combattere, Seminare &mdash; Ecosistema TGR &mdash; MetaHistoria",
-   "path": "/teologia-geopolitica/eco-arti-michael",
-   "id": "teologia-geopolitica-eco-arti-michael"
-  },
-  {
-   "label": "La Barca Infranta &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Barca Infranta — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-barca-infranta",
    "id": "teologia-geopolitica-eco-barca-infranta"
   },
   {
-   "label": "La Contro-Strategia del Drago &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Contro-Strategia del Drago — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-contro-strategia-drago",
    "id": "teologia-geopolitica-eco-contro-strategia-drago"
   },
   {
-   "label": "La Geopolitica di Dio &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Geopolitica di Dio — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-geopolitica-di-dio",
    "id": "teologia-geopolitica-eco-geopolitica-di-dio"
   },
   {
-   "label": "La Mappa Nascosta &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Mappa Nascosta — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-mappa-nascosta",
    "id": "teologia-geopolitica-eco-mappa-nascosta"
   },
   {
-   "label": "La Signora e le Bestie &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Signora e le Bestie — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-signora-bestie",
    "id": "teologia-geopolitica-eco-signora-bestie"
   },
   {
-   "label": "La Strategia di Betania &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "La Strategia di Betania — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-strategia-betania",
    "id": "teologia-geopolitica-eco-strategia-betania"
   },
   {
-   "label": "Le Armi della Luce &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Le Armi della Luce — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-sacramentaria-integrazione",
    "id": "teologia-geopolitica-eco-sacramentaria-integrazione"
   },
   {
-   "label": "Le Guerre degli Altri (e le Nostre) &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Le Guerre degli Altri (e le Nostre) — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-guerre-altri-nostre",
    "id": "teologia-geopolitica-eco-guerre-altri-nostre"
   },
   {
-   "label": "Lo Specchio del Principe Cristiano &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Lo Specchio del Principe Cristiano — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-specchio-del-principe-cristiano",
    "id": "teologia-geopolitica-eco-specchio-del-principe-cristiano"
   },
   {
-   "label": "Tattiche di Betania &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "L’Arte della Guerra del Regno — Ecosistema TGR",
+   "path": "/teologia-geopolitica/eco-arte-guerra-regno",
+   "id": "teologia-geopolitica-eco-arte-guerra-regno"
+  },
+  {
+   "label": "L’Arte di Guarire, Combattere, Seminare — Ecosistema TGR",
+   "path": "/teologia-geopolitica/eco-arti-michael",
+   "id": "teologia-geopolitica-eco-arti-michael"
+  },
+  {
+   "label": "Tattiche di Betania — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-tattiche-betania",
    "id": "teologia-geopolitica-eco-tattiche-betania"
   },
   {
-   "label": "Vedere con Occhi Nuovi &mdash; Ecosistema TGR &mdash; MetaHistoria",
+   "label": "Vedere con Occhi Nuovi — Ecosistema TGR",
    "path": "/teologia-geopolitica/eco-vedere-occhi-nuovi",
    "id": "teologia-geopolitica-eco-vedere-occhi-nuovi"
   }

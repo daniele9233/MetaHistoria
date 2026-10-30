@@ -1170,48 +1170,120 @@
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Versione estesa — Volume I"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/oltre-le-mura-di-carta",
+   "parts": [
+    "Versione estesa — Volume I Oltre le Mura di Carta Storia di un assedio: la Chiesa, il Potere e la crisi della Modernità (1891–2025). Da Rerum Novarum a Fratelli Tutti, il secolo in cui le mura di carta sono bruciate — e la domanda che apre la nuova mappa.",
+    "Approfondisci"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Oltre le Mura di Carta"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/insegnamenti-fondamentali",
+   "parts": [
+    "01",
+    "Insegnamenti Fondamentali",
+    "Il Manifesto per una Teologia della Geopolitica del Regno: undici tesi e un postulato finale. Dio signore della storia, l'Impero come peccato strutturale, il Regno come antitesi radicale, la Pasqua come strategia divina.",
+    "Leggi"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Storia di un assedio: la Chiesa, il Potere e la crisi della Modernità (1891–2025). Da Rerum Novarum a Fratelli Tutti, il secolo in cui le mura di carta sono bruciate — e la domanda che apre la nuova mappa."
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/manifesto-piccolo",
+   "parts": [
+    "02",
+    "Manifesto Piccolo",
+    "Il credo della disciplina in forma breve: una lettera al confratello in dieci luoghi teologici — dal Teodramma all'anatomia della Bestia, dalle Beatitudini come Costituzione sovversiva alla vittoria dell'Agnello.",
+    "Leggi"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "Approfondisci →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/manifesto-grande",
+   "parts": [
+    "03",
+    "Manifesto Grande",
+    "Il manuale completo della Teologia della Geopolitica del Regno: cinque parti e diciassette capitoli espandibili, dalla crisi dello sguardo all'anatomia delle Bestie — Ziz, Longwang, Morgath, il Regno Vuoto — fino alle sorgenti della Grazia.",
+    "Leggi"
    ]
   },
   {
-   "type": "p",
-   "role": "p",
-   "runs": [
-    {
-     "t": "01 Insegnamenti Fondamentali Il Manifesto per una Teologia della Geopolitica del Regno: undici tesi e un postulato finale. Dio signore della storia, l'Impero come peccato strutturale, il Regno come antitesi radicale, la Pasqua come strategia divina. Leggi →   02 Manifesto Piccolo Il credo della disciplina in forma breve: una lettera al confratello in dieci luoghi teologici — dal Teodramma all'anatomia della Bestia, dalle Beatitudini come Costituzione sovversiva alla vittoria dell'Agnello. Leggi →   03 Manifesto Grande Il manuale completo della Teologia della Geopolitica del Regno: cinque parti e diciassette capitoli espandibili, dalla crisi dello sguardo all'anatomia delle Bestie — Ziz, Longwang, Morgath, il Regno Vuoto — fino alle sorgenti della Grazia. Leggi →   04 Anti-Machiavelli: Il Sogno del Re Uno Speculum Principis per l'era degli Imperi: il dialogo tra il Re e l'Antico di Giorni svela l'anatomia del potere, le maschere dell'inganno e la via del Regno. Dove Machiavelli insegnava a conquistare, qui si impara a servire. Leggi →   05 Sistemi Operativi Teologici Le teologie come sistemi operativi delle civiltà: come le immagini di Dio plasmano imperi, diritti, economie e visioni del mondo. Prossimamente   06 Scismi e Linee di Faglia Le fratture confessionali che diventano confini geopolitici: da Calcedonia al Grande Scisma, dalla Riforma alle faglie del mondo contemporaneo. Prossimamente   07 Genesi delle Bestie Cosmogonia della Teologia della Geopolitica: la caduta di Azael, la nascita delle nove Bestie, Babele come archetipo imperiale, la discesa di Cristo nella Fauce Silente a spezzare le catene della Morte. Leggi →   08 Atlante delle Bestie — Imperium Aureum Nove imperi sezionati col metodo TGR: da Ziz a Kitsune. Per ogni Bestia il mito fondativo, la ferita originaria, il corpo geopolitico, l'anima spirituale e i semi del Regno. Leggi →   09 Ecosistema TGR La biblioteca completa della Teologia della Geopolitica del Regno: venti opere tra saggi, narrativa, epica e strategia. Tre percorsi di lettura guidati. Esplora →   10 Teologia Sistematica La TGR a colloquio con i trattati classici: dogmatica, antropologia, ecclesiologia, sacramentaria, liturgia, spiritualità, angelologia e demonologia. Esplora →"
-    }
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/anti-machiavelli-sogno-del-re",
+   "parts": [
+    "04",
+    "Anti-Machiavelli: Il Sogno del Re",
+    "Uno Speculum Principis per l'era degli Imperi: il dialogo tra il Re e l'Antico di Giorni svela l'anatomia del potere, le maschere dell'inganno e la via del Regno. Dove Machiavelli insegnava a conquistare, qui si impara a servire.",
+    "Leggi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "card",
+   "parts": [
+    "05",
+    "Sistemi Operativi Teologici",
+    "Le teologie come sistemi operativi delle civiltà: come le immagini di Dio plasmano imperi, diritti, economie e visioni del mondo.",
+    "Prossimamente"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "card",
+   "parts": [
+    "06",
+    "Scismi e Linee di Faglia",
+    "Le fratture confessionali che diventano confini geopolitici: da Calcedonia al Grande Scisma, dalla Riforma alle faglie del mondo contemporaneo.",
+    "Prossimamente"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/genesi-delle-bestie",
+   "parts": [
+    "07",
+    "Genesi delle Bestie",
+    "Cosmogonia della Teologia della Geopolitica: la caduta di Azael, la nascita delle nove Bestie, Babele come archetipo imperiale, la discesa di Cristo nella Fauce Silente a spezzare le catene della Morte.",
+    "Leggi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/atlante-delle-bestie",
+   "parts": [
+    "08",
+    "Atlante delle Bestie — Imperium Aureum",
+    "Nove imperi sezionati col metodo TGR: da Ziz a Kitsune. Per ogni Bestia il mito fondativo, la ferita originaria, il corpo geopolitico, l'anima spirituale e i semi del Regno.",
+    "Leggi"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/ecosistema-tgr",
+   "parts": [
+    "09",
+    "Ecosistema TGR",
+    "La biblioteca completa della Teologia della Geopolitica del Regno: venti opere tra saggi, narrativa, epica e strategia. Tre percorsi di lettura guidati.",
+    "Esplora"
+   ]
+  },
+  {
+   "type": "card",
+   "role": "chapter",
+   "href": "/teologia-geopolitica/teologia-sistematica",
+   "parts": [
+    "10",
+    "Teologia Sistematica",
+    "La TGR a colloquio con i trattati classici: dogmatica, antropologia, ecclesiologia, sacramentaria, liturgia, spiritualità, angelologia e demonologia.",
+    "Esplora"
    ]
   },
   {
@@ -1268,8 +1340,8 @@
   "Manifesto TGP-O (2026)"
  ],
  "stats": {
-  "blocks": 95,
-  "chars": 16787,
-  "hash": "84e8c84681888b1e4c788d8fa7a9f040a8c87781a07a038ee653979fc96d8bd5"
+  "blocks": 101,
+  "chars": 16769,
+  "hash": "a4cbfa56b69e68c9c970f1c142bd2a8e96f87f27506f3ffb0a0999ce9cbbf397"
  }
 }
